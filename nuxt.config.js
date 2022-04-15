@@ -21,10 +21,12 @@ export default {
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
+    './node_modules/@lkmx/flare/src/flare.scss',
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
+      { src: './node_modules/@lkmx/flare/nuxt-plugin' },
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
