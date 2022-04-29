@@ -26,7 +26,7 @@ export default {
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
-      { src: './node_modules/@lkmx/flare/nuxt-plugin' },
+      { src: './node_modules/@lkmx/flare-vue/nuxt-plugin' },
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
