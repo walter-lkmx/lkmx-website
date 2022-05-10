@@ -1,5 +1,13 @@
 # LKMX website
 
+# Contents
+---
+- [Development](#development)
+  - [Prerequisites](#prerequisites)
+  - [Dependencies](#dependencies)
+  - [Run](#run)
+- [Build](#build)
+
 # Development
 
 ## Prerequisites
@@ -20,4 +28,11 @@ Run a local development instance.
 
 ```
 $ yarn dev
+```
+
+# Build
+Generate static files in a ```/dist``` folder
+
+```
+yarn build
 ```
