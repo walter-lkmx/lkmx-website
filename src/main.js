@@ -1,6 +1,6 @@
 import { createApp } from 'vue'
 import App from './App.vue'
-import Routes from './router/index'
+import Routes from './router'
 
 import Flare from "@lkmx/flare";
 import FlareVue from "@lkmx/flare-vue";

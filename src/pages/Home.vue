@@ -8,7 +8,11 @@
     <page>
       <columns mode="normal" number="1">
         <block>
-          <h1>Inicio</h1>
+
+
+          <h1>LKMX</h1>
+
+          
         </block>
       </columns>
     </page>

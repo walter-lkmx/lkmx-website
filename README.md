@@ -31,7 +31,7 @@ $ yarn dev
 ```
 
 # Build
-Generate static files in a ```/dist``` folder
+Generate static files in the ```/dist``` folder
 
 ```
 yarn build

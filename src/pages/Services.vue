@@ -7,6 +7,8 @@
   <page>
     <columns mode="normal" number="1">
       <block>
+
+
         <h1>Servicios</h1>
         <p>
           Ofrecemos servicios de ingeniería de software. Nos especializamos en
@@ -25,8 +27,12 @@
           La cotización y contratación de nuestros servicios está basada en el
           número de horas de ingeniería utilizadas.
         </p>
+
+
+
       </block>
       <block>
+        
         <h2>Discovery</h2>
         <p>
           El servicio de Discovery define las funcionalidades a ser
@@ -105,6 +111,7 @@
           Nos aseguramos que la solución está funcionando y los sistemas están
           operando como esperamos.
         </p>
+
       </block>
     </columns>
   </page>
