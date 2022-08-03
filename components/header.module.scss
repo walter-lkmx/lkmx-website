@@ -1,0 +1,35 @@
+.header {
+  position: relative;
+  &__content {
+    display: grid;
+    grid-template-columns: 121px auto;
+    align-items: center;
+    padding: $base-size;
+    &__links {
+      display: grid;
+      grid-auto-flow: column;
+      grid-column-gap: 42px;
+      justify-self: end;
+      a {
+        padding: 8px 11px;
+        color: $color-neutral-black;
+        text-transform: uppercase;
+        text-decoration: none;
+        font-weight: bold;
+        font-family: $font-secondary;
+        text-align: center;
+      }
+    }
+  }
+  @include respond-to(">s") {}
+  @include respond-to("<=s") {
+    &__content {
+      grid-template-columns: 1fr;
+      justify-items: center;
+      padding: $base-size;
+      &__links {
+        display: none;
+      }
+    }
+  }
+}

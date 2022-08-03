@@ -1,0 +1,50 @@
+.footer {
+  position: relative;
+  overflow: hidden;
+  background-color: $color-neutral-black;
+  color: white;
+  padding: 40px 0;
+  &__content {
+    &__column {
+      &__block {
+        &__links {
+          display: grid;
+          grid-row-gap: 10px;
+          div {
+            display: grid;
+          }
+        }
+      }
+      a, span { color: white }
+      a {
+        text-decoration: none;
+        font-weight: bold;
+        text-transform: uppercase;
+        line-height: 1.5rem;
+        font-weight: 700;
+      }
+    }
+  }
+  &__sand {
+    position: absolute;
+    width: 418px;
+    height: 94px;
+    background-image: url("/sand.png");
+  }
+  @include respond-to(">s") {
+    &__content {
+      &__column {
+        &__block > .content { justify-items: end }
+        a, &__lkmx { text-align: end }
+      }
+    }
+  }
+  @include respond-to("<=s") {
+    &__content {
+      justify-items: center;
+      text-align: center;
+      a, &__block__lkmx { text-align: center }
+    }
+    &__sand { width: 100% }
+  }
+}
