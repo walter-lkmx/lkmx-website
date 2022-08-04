@@ -5,16 +5,15 @@ module.exports = {
     config.resolve = {
         alias: {
             ...config.resolve.alias,
-            "@": path.resolve(__dirname, ''),
+            "@": path.resolve(__dirname, 'src'),
             "@flare-scss": path.resolve(__dirname, '/node_modules/@lkmx/flare/src'),
-            "@flare-react": path.resolve(__dirname, '/node_modules/@lkmx/flare-react/components'),
-            components: path.resolve(__dirname, 'components')
+            "@flare-react": path.resolve(__dirname, '/node_modules/@lkmx/flare-react/components')
         }
     }
     return config
   },
   sassOptions: {
-    includePaths: [path.join(__dirname, 'styles')],
+    includePaths: [path.join(__dirname, 'src/styles')],
     prependData: `@import "style.scss";`
   }
 }

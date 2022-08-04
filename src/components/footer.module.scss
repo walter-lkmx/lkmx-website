@@ -10,19 +10,9 @@
         &__links {
           display: grid;
           grid-row-gap: 10px;
-          div {
-            display: grid;
-          }
         }
       }
-      a, span { color: white }
-      a {
-        text-decoration: none;
-        font-weight: bold;
-        text-transform: uppercase;
-        line-height: 1.5rem;
-        font-weight: 700;
-      }
+      span { color: white }
     }
   }
   &__sand {
@@ -33,6 +23,8 @@
   }
   @include respond-to(">s") {
     &__content {
+      display: grid;
+      grid-row-gap: .5rem;
       &__column {
         &__block > .content { justify-items: end }
         a, &__lkmx { text-align: end }

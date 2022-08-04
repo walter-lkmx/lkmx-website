@@ -1,0 +1,58 @@
+.menu {
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 10;
+    background-color: white;
+    display: grid;
+    grid-template-rows: auto 1fr;
+    transition: .5s;
+
+    &.hide {
+        left: -100vw;
+    }
+    @include respond-to("<=s") {
+        &.show {
+            left: 0;
+        }
+    }
+
+    @include respond-to(">s") {
+        display: none;
+    }
+
+    &__head {
+        > div {
+            &:last-child {
+                text-align: end;
+            }
+        }
+    }
+    &__body {
+        &__links {
+            display: grid;
+            grid-row-gap: 2rem;
+        }
+    }
+    &__triangle {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        width: 41.66%;
+        height: 71.96%;
+        background-image: url("/clouds.png");
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        div {
+            position: absolute;
+            right: 1px;
+            bottom: 1px;
+            width: 100%;
+            height: 100%;
+            background-image: linear-gradient(to bottom right, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 50%, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0) 100%);
+        }
+    }
+}
