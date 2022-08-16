@@ -1,8 +1,11 @@
 .header {
   position: relative;
   &__content {
-    padding: $base-size;
-    &__logo > a {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: $base-size;
+    align-items: center;
+    &__logo__menu {
       display: none;
       position: absolute;
       left: 16px;
@@ -14,7 +17,6 @@
       display: grid;
       grid-auto-flow: column;
       grid-column-gap: 42px;
-      justify-self: end;
       a {
         padding: 8px 11px;
         text-align: center;
@@ -25,7 +27,6 @@
     &__content {
       grid-template-columns: 1fr;
       justify-items: center;
-      padding: $base-size;
       &__logo > a { display: block }
       &__links { display: none }
     }

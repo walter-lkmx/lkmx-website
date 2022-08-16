@@ -1,5 +1,4 @@
 import React from "react";
-import Image from "next/image";
 import Column from "@flare-react/column";
 import Block from "@flare-react/block";
 
@@ -10,13 +9,13 @@ export default function MobileMenu(props) {
   return (
     <Column className={`${styles.menu} ${props.showMobileMenu ? styles.show : styles.hide}`}>
       <Column numberS="2" className={styles.menu__head}>
-        <Block>
+        <Block className={styles.menu__head__block}>
           <a onClick={handleClick}>
-            <Image src="/icon-close.png" alt="Logo" width="24" height="24"/>
+            <img src="/icon-close.png" alt="Logo" style={{width: '24px', height: '24px'}}/>
           </a>
         </Block>
-        <Block>
-          <Image src="/simple-logo.png" alt="Logo" width="42.86" height="50"/>
+        <Block className={styles.menu__head__block}>
+          <img src="/simple-logo.png" alt="Logo" style={{width: "42.86", height: "50px"}}/>
         </Block>
       </Column>
       <Block className={styles.menu__body}>
