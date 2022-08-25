@@ -10,6 +10,10 @@ module.exports = {
             "@flare-react": path.resolve(__dirname, '/node_modules/@lkmx/flare-react/components')
         }
     }
+    config.module.rules.push({
+      test: /\.svg$/,
+      use: ["@svgr/webpack"]
+    });
     return config
   },
   sassOptions: {

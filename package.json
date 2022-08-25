@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@lkmx/flare-react": "^0.1.3",
+    "@svgr/webpack": "^6.3.1",
     "moment": "^2.29.4",
     "next": "12.2.3",
     "react": "18.2.0",

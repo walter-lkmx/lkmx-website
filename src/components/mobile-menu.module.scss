@@ -36,9 +36,6 @@
             grid-row-gap: 2rem;
         }
     }
-    &__head__block > div, &__body > div {
-        width: 100% !important;
-    }
     &__head__block {
         &:last-child > div {
             display: grid;

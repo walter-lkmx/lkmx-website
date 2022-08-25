@@ -1,11 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100;400&family=Roboto+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap');
 
 body {
     * {
         color: $color-neutral-black;
         font-family: $font-primary;
     }
-    h1, h2, h3, h4, h5, h6 {
+    h1, h2, h3, h4, h5, h6, strong {
         font-family: $font-secondary;
+        font-weight: bold;
+    }
+    strong {
+        text-transform: uppercase;
     }
 }

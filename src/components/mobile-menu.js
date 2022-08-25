@@ -7,8 +7,8 @@ import styles from "@/components/mobile-menu.module.scss";
 
 export default function MobileMenu(props) {
   return (
-    <Column className={`${styles.menu} ${props.showMobileMenu ? styles.show : styles.hide}`}>
-      <Column numberS="2" className={styles.menu__head}>
+    <Column className={`${styles.menu} ${props.showMobileMenu ? styles.show : styles.hide}`} mode="full">
+      <Column numberS="2" className={styles.menu__head} mode="full">
         <Block className={styles.menu__head__block}>
           <a onClick={handleClick}>
             <img src="/icon-close.png" alt="Logo" style={{width: '24px', height: '24px'}}/>
