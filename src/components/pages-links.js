@@ -7,7 +7,7 @@ export default function PagesLinks(props) {
     <div className={`${sytles.links} ${props.className} ${props.whiteColor ? sytles['white-color'] : ''}`}>
       <Link href="/services">Servicios</Link>
       <Link href="/methodology">Metodología</Link>
-      <Link href="/technology">Tencnología</Link>
+      <Link href="/technology">Tecnología</Link>
       <Link href="/contact">Contacto</Link>
     </div>
   );
