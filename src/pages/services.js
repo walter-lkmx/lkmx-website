@@ -46,9 +46,8 @@ export default function ServicesPage() {
             <div className={styles['page__phases-links']}>
               <PhasesSvg className={styles['page__phases-links__svg-desktop']}/>
               <PhasesMobileSvg className={styles['page__phases-links__svg-mobile']}/>
-              <div>
+              <div className={styles['page__phases-links__arrow']}>
                 <div></div>
-                <img src="/arrow-right.svg" alt="arrow"/>
               </div>
             </div>
           </Block>
