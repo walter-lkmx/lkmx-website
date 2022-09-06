@@ -1,5 +1,7 @@
 .header {
   position: relative;
+  --f-gutter: 0px;
+  padding: 1rem 0;
   &__content {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -8,22 +10,31 @@
     &__logo__menu {
       display: none;
       position: absolute;
-      left: 16px;
-      top: 0;
-      transform: translateY(100%);
+      left: 0;
+      top: -50;
+      transform: translateY(50%);
       cursor: pointer;
     }
     &__links {
       display: grid;
-      grid-auto-flow: column;
-      grid-column-gap: 42px;
-      a {
-        padding: 8px 11px;
-        text-align: center;
+      justify-items: end;
+      &__pages {
+        display: grid;
+        width: max-content;
+        grid-auto-flow: column;
+        justify-self: end;
+        grid-column-gap: 42px;
+        justify-items: end;
+        a {
+          padding: 11px 8px;
+          text-align: center;
+          width: min-content;
+        }
       }
     }
   }
   @include respond-to("<=s") {
+    padding: .5rem 1rem;
     &__content {
       grid-template-columns: 1fr;
       justify-items: center;

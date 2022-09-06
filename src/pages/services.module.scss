@@ -4,11 +4,13 @@
     > :first-child {
       background-color: $color-neutral-black;
       p { font-size: 20px }
-      h2 { line-height: 52px; }
+      h2 {
+        line-height: 52px;
+        font-family: $font-primary;
+      }
       h2, p {
         color: white;
         strong {
-          font-weight: bold;
           &:first-child { color: $color-pink }
           &:last-child { color: $color-cyan }
         }
@@ -16,7 +18,7 @@
     }
     > :last-child {
       background-color: $color-cyan;
-      padding-bottom: 67px;
+      padding-bottom: 41px;
       align-items: end;
     }
     &__dragon {
@@ -36,16 +38,24 @@
     display: grid;
     grid-template-columns: auto 1fr auto;
     &__info {
-      display: grid;
+      margin-top: 0;
+      margin: auto;
       justify-items: center;
       align-items: center;
       p {
         text-align: center;
-        max-width: 603px;
-      }
-      strong {
-        font-size: 22px;
-        line-height: 2rem;
+        margin: 0;
+        line-height: 30px;
+        max-width: 600px;
+        &:first-child {
+          margin-bottom: .5rem;
+        }
+        strong {
+          letter-spacing: 0;
+          font-family: $font-secondary;
+          font-size: 1.5rem;
+          line-height: 2rem;
+        }
       }
     }
     &__bleed-right { justify-self: end }
@@ -78,6 +88,7 @@
   &__phases {
     padding: 72px 0 100px 0;
     div { height: 100% !important  }
+    grid-row-gap: 1.5rem;
     &__content {
       display: grid;
       grid-template-rows: 64px 1fr auto;
@@ -85,13 +96,13 @@
       p { margin: 0 }
     }
   }
-  @include respond-to(">l") {
+  @include respond-to(">=l") {
     &__services {
       > :first-child {
         padding: 219px 0 61px 0;
         p {
           line-height: 30px;
-          max-width: 336px;
+          max-width: 360px;
         }
       }
     }
@@ -107,6 +118,7 @@
   @include respond-to("<=l") {
     &__content {
       &__bleed-left, &__bleed-right { width: 60px }
+      padding-bottom: 3rem;
     }
     &__phases-links {
       &__arrow {
@@ -159,7 +171,16 @@
   @include respond-to("<=s") {
     &__services {
       > :first-child {
-        p { max-width: 300px }
+        padding: 1.5rem 0;
+        p {
+          max-width: 310px;
+          font-size: 1rem;
+          line-height: 30px;
+          strong {
+            font-size: 1.5rem;
+            line-height: 2rem;
+          }
+        }
       }
       &__dragon {
         &__elipse, &__image {
@@ -169,9 +190,16 @@
     }
     &__content {
       grid-template-columns: 1fr auto;
+      padding-bottom: 0;
       &__info {
-        padding: 42px 1rem;
-        p { text-align: start }
+        padding: 42px 0 42px 1rem;
+        p {
+          text-align: start;
+          strong {
+            font-size: 20px;
+            line-height: 1.5rem;
+          }
+        }
       }
       &__bleed-left { display: none }
       &__bleed-right { width: 92px }
@@ -207,15 +235,16 @@
         }
       }
       svg {
-        transform: none;
-        top: 50%;
-        transform: translateY(-50%);
+        top: calc(50% + 16px);
+        left: 50%;
+        transform: translate(-50%, -50%);
       }
     }
     &__phases {
+      padding-top: 2.5rem;
       &__content {
         grid-template-rows: 1fr;
-        h3 { margin: 0 }
+        h4 { margin: 0 }
       }
     }
   }
