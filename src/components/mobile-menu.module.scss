@@ -14,14 +14,8 @@
     &.hide {
         left: -100vw;
     }
-    @include respond-to("<=s") {
-        &.show {
-            left: 0;
-        }
-    }
-
-    @include respond-to(">s") {
-        display: none;
+    &.show {
+        left: 0;
     }
 
     &__head {
