@@ -18,6 +18,10 @@ module.exports = {
   },
   sassOptions: {
     includePaths: [path.join(__dirname, 'src/styles')],
-    prependData: `@import "style.scss";`
+    prependData: `
+      @import "style.scss";
+      @import "@flare-scss/responsiveness/respond_to";
+      @import "@flare-scss/rem";
+    `
   }
 }

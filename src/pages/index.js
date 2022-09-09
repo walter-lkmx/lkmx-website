@@ -12,10 +12,6 @@ export default function Index() {
           <Block>
             <h1>Home</h1>
           </Block>
-          <Block>
-            <h4>Api url:</h4>
-            <span>{process.env.NEXT_PUBLIC_API_URL}</span>
-          </Block>
         </Column>
       </Page>
     </BaseLayout>

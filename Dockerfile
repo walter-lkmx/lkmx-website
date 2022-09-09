@@ -7,4 +7,4 @@ EXPOSE 80
 
 STOPSIGNAL SIGTERM
 
-CMD /bin/sh -c "envsubst  '\$API_URL' < /etc/nginx/nginx.tmpl > /etc/nginx/nginx.conf && nginx -g 'daemon off;' || cat /etc/nginx/nginx.conf"
+CMD /bin/sh -c "envsubst  '\$TWITTER_URL \$INSTAGRAM_URL \$LINKEDIN_URL' < /etc/nginx/nginx.tmpl > /etc/nginx/nginx.conf && nginx -g 'daemon off;' || cat /etc/nginx/nginx.conf"

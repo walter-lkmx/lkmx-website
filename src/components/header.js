@@ -13,16 +13,16 @@ export default function Header(props) {
         <Block>
           <div className={styles.header__content}>
             <div className={styles.header__content__logo}>
-              <a onClick={handleClick} className={styles.header__content__logo__menu}>
-                <img src="/icon-hamburguer.svg" alt="Logo" style={{width: '24px', height: '24px'}}/>
-              </a>
               <Link href="/">
-                <img src="/logo.png" alt="Logo" style={{width: '121px', height: '50px', cursor: "pointer"}}/>
+                <img src="/logo.png" alt="Logo"/>
               </Link>
             </div>
             <div className={styles.header__content__links}>
               <PagesLinks className={styles.header__content__links__pages}/>
             </div>
+            <a onClick={handleClick} className={styles.header__content__menu}>
+              <img src="/icon-hamburguer.svg" alt="Logo" style={{width: '24px', height: '24px'}}/>
+            </a>
           </div>
         </Block>
       </Column>

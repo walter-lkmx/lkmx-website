@@ -14,11 +14,11 @@ export default function BaseLayout(props) {
   return (
     <div className={styles.layout}>
       <MobileMenu showMobileMenu={showMobileMenu} setShowMobileMenu={setShowMobileMenu}/>
-      <Header setShowMobileMenu={setShowMobileMenu}/>
+      <Header className={styles.layout__header} setShowMobileMenu={setShowMobileMenu}/>
       <main>
         {props.children}
       </main>
-      <Footer/>
+      <Footer className={styles.layout__footer}/>
     </div>
   );
 }

@@ -9,13 +9,13 @@ export default function MobileMenu(props) {
   return (
     <Column className={`${styles.menu} ${props.showMobileMenu ? styles.show : styles.hide}`} mode="full">
       <Column numberS="2" className={styles.menu__head} mode="full">
-        <Block className={styles.menu__head__block}>
+        <Block className={styles.menu__head__close}>
           <a onClick={handleClick}>
-            <img src="/icon-close.png" alt="Logo" style={{width: '24px', height: '24px'}}/>
+            <img src="/icon-close.png" alt="close" style={{width: '24px', height: '24px'}}/>
           </a>
         </Block>
-        <Block className={styles.menu__head__block}>
-          <img src="/simple-logo.png" alt="Logo" style={{width: "42.86", height: "50px"}}/>
+        <Block className={styles.menu__head__logo}>
+          <img src="/simple-logo.png" alt="Logo"/>
         </Block>
       </Column>
       <Block className={styles.menu__body}>

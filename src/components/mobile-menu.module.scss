@@ -7,8 +7,9 @@
     background-color: white;
     display: grid;
     grid-template-rows: auto 1fr;
-    transition: left .5s;
-    transition-timing-function: cubic-bezier(0.1, 0.9, 0.8, 0.7);
+    grid-row-gap: .5rem;
+    // transition: left .5s;
+    // transition-timing-function: cubic-bezier(0.1, 0.9, 0.8, 0.7);
 
     &.hide {
         left: -100vw;
@@ -24,9 +25,12 @@
     }
 
     &__head {
-        > div {
-            &:last-child {
-                text-align: end;
+        align-items: center;
+        &__logo {
+            img {
+                margin: 4px .5rem 0 0;
+                width: rem(33px); 
+                margin-left: auto;
             }
         }
     }
