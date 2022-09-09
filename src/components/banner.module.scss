@@ -8,12 +8,11 @@
   text-align: center;
   &__content {
     display: grid;
-    grid-row-gap: .5rem;
+    grid-row-gap: 4px;
     h3 {
       font-family: $font-secondary;
       font-size: 1.5rem;
       line-height: 2rem;
-      align-self: stretch;
       margin-bottom: 0;
     }
     p {
@@ -55,6 +54,15 @@
     }
     &__content {
       max-width: calc(100% - 92px);
+      p {
+        margin-left: 0;
+        &:last-child {
+          margin-top: 4px;
+        }
+        &:first-child {
+          line-height: 1.5rem !important;
+        }
+      }
       h3 {
         font-size: rem(20px);
       }

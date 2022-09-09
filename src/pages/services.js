@@ -33,9 +33,10 @@ export default function ServicesPage() {
 
         <Banner>
           <p>
-            Nos especializamos en la construcción de<br/>
+            Nos especializamos en la construcción de</p>
             <h3>SOLUCIONES DE SOFTWARE DESDE CERO,</h3>
-            por lo que nuestros servicios cubren todas las fases del ciclo de vida del software.<br/>
+            <p>
+            por lo que nuestros servicios cubren todas las fases del ciclo de vida del software.
           </p>
           <p>Nuestras metodologías brindan la mayor flexibilidad posible mientras mantienen bajo control los entregables, plazos de tiempo y costos.</p>
         </Banner>
