@@ -1,0 +1,63 @@
+.banner {
+  position: relative;
+  min-height: rem(457px);
+  padding: rem(42px) 0;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  text-align: center;
+  &__content {
+    display: grid;
+    grid-row-gap: .5rem;
+    h3 {
+      font-family: $font-secondary;
+      font-size: 1.5rem;
+      line-height: 2rem;
+      align-self: stretch;
+      margin-bottom: 0;
+    }
+    p {
+      line-height: 30px !important;
+      max-width: 603px;
+      margin: auto;
+    }
+  }
+  &__bleed-right, &__bleed-left {
+    top: 0;
+    position: absolute;
+  }
+  &__bleed-left {
+    left: 0;
+  }
+  &__bleed-right {
+    right: 0;
+  }
+  @include respond-to("<=l") {
+    min-height: rem(335px);
+    padding: rem(42px) 0;
+    --f-gutter: 0;
+    &__bleed-right, &__bleed-left {
+      width: rem(60px);
+    }
+  }
+  @include respond-to("<=s") {
+    justify-items: start;
+    align-items: start;
+    text-align: start;
+    --f-gutter: 1rem;
+    min-height: rem(283px);
+    padding: rem(26px) 0;
+    &__bleed-right {
+      width: rem(92px);
+    }
+    &__bleed-left {
+      display: none;
+    }
+    &__content {
+      max-width: calc(100% - 92px);
+      h3 {
+        font-size: rem(20px);
+      }
+    }
+  }
+}

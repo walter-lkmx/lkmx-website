@@ -9,6 +9,7 @@ import ElipseSvg from '@/assets/elipse.svg';
 import DragonSvg from '@/assets/dragon.svg';
 import ElipseMobileSvg from '@/assets/elipse--mobile.svg';
 import DragonMobileSvg from '@/assets/dragon--mobile.svg';
+import Banner from '@/components/banner.js';
 import styles from "./services.module.scss";
 
 export default function ServicesPage() {
@@ -29,20 +30,16 @@ export default function ServicesPage() {
             </div>
           </div>
         </Column>
-        <div className={styles.page__content}>
-          <img src="/bleed-left.png" alt="bleed-left" className={styles['page__content__bleed-left']}/>
-          <div className={styles.page__content__info}>
-            <p>
-              Nos especializamos en la construcción de<br/>
-              <strong>SOLUCIONES DE SOFTWARE DESDE CERO,</strong><br/>
-              por lo que nuestros servicios cubren todas las fases del ciclo de vida del software.<br/>
-            </p>
-            <p>
-              Nuestras metodologías brindan la mayor flexibilidad posible mientras mantienen bajo control los entregables, plazos de tiempo y costos.
-            </p>
-          </div>
-          <img src="/bleed-right.png" alt="bleed-right" className={styles['page__content__bleed-right']}/>
-        </div>
+
+        <Banner>
+          <p>
+            Nos especializamos en la construcción de<br/>
+            <h3>SOLUCIONES DE SOFTWARE DESDE CERO,</h3>
+            por lo que nuestros servicios cubren todas las fases del ciclo de vida del software.<br/>
+          </p>
+          <p>Nuestras metodologías brindan la mayor flexibilidad posible mientras mantienen bajo control los entregables, plazos de tiempo y costos.</p>
+        </Banner>
+
         <Column mode="full" className={styles['page__phases-links']}>
           <Block>
             <div>

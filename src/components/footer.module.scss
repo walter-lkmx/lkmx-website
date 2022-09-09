@@ -199,7 +199,8 @@
       }
     }
     &__bottom__sand {
-      width: rem(108px);
+      max-width: rem(108px);
+      width: calc(100% - 286px);
     }
   }
 

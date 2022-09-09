@@ -34,32 +34,6 @@
       }
     }
   }
-  &__content {
-    display: grid;
-    grid-template-columns: auto 1fr auto;
-    &__info {
-      margin-top: 0;
-      margin: auto;
-      justify-items: center;
-      align-items: center;
-      p {
-        text-align: center;
-        margin: 0;
-        line-height: 30px;
-        max-width: 600px;
-        &:first-child {
-          margin-bottom: .5rem;
-        }
-        strong {
-          letter-spacing: 0;
-          font-family: $font-secondary;
-          font-size: 1.5rem;
-          line-height: 2rem;
-        }
-      }
-    }
-    &__bleed-right { justify-self: end }
-  }
   &__phases-links {
     display: grid;
     justify-items: center;
@@ -89,12 +63,6 @@
     padding: 72px 0 100px 0;
     div { height: 100% !important  }
     grid-row-gap: 1.5rem;
-    &__content {
-      display: grid;
-      grid-template-rows: 64px 1fr auto;
-      grid-row-gap: 1rem;
-      p { margin: 0 }
-    }
   }
   @include respond-to(">=l") {
     &__services {
@@ -102,7 +70,7 @@
         padding: 219px 0 61px 0;
         p {
           line-height: 30px;
-          max-width: 360px;
+          max-width: 363px;
         }
       }
     }
@@ -116,10 +84,6 @@
     }
   }
   @include respond-to("<=l") {
-    &__content {
-      &__bleed-left, &__bleed-right { width: 60px }
-      padding-bottom: 3rem;
-    }
     &__phases-links {
       &__arrow {
         width: calc(100% - 42px);
@@ -188,22 +152,6 @@
         }
       }
     }
-    &__content {
-      grid-template-columns: 1fr auto;
-      padding-bottom: 0;
-      &__info {
-        padding: 42px 0 42px 1rem;
-        p {
-          text-align: start;
-          strong {
-            font-size: 20px;
-            line-height: 1.5rem;
-          }
-        }
-      }
-      &__bleed-left { display: none }
-      &__bleed-right { width: 92px }
-    }
     &__phases-links {
       min-height: 917px;
       &__svg-desktop {
@@ -242,10 +190,6 @@
     }
     &__phases {
       padding-top: 2.5rem;
-      &__content {
-        grid-template-rows: 1fr;
-        h4 { margin: 0 }
-      }
     }
   }
 }
