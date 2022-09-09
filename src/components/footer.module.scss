@@ -20,7 +20,6 @@
           h3 {
             --f-h3-text-size: 36px;
             --f-h3-text-line-height: 32px;
-            letter-spacing: .1em;
           }
         }
       }
@@ -78,7 +77,6 @@
               --f-h3-text-size: 36px;
               --f-h3-text-line-height: 32px;
               margin-bottom: rem(26px);
-              letter-spacing: .01em;
             }
           }
         }
@@ -129,7 +127,6 @@
           > div {
             h3 {
               margin-bottom: rem(42px);
-              letter-spacing: .01em;
             }
           }
         }
@@ -159,8 +156,7 @@
           grid-column-gap: 50px;
           > div {
             h3 {
-              margin-bottom: rem(42px);
-              letter-spacing: .1em;
+              font-size: rem(42px);
             }
           }
         }
