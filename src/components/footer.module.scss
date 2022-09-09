@@ -1,6 +1,9 @@
 .footer {
   * {
     color: white;
+    li {
+      color: $color-cyan;
+    }
   }
   background-color: $color-blue;
   &__top {
