@@ -14,7 +14,7 @@ export default function Header(props) {
           <div className={styles.header__content}>
             <div className={styles.header__content__logo}>
               <Link href="/">
-                <img src="/logo.png" alt="Logo"/>
+                <a><img src="/logo.png" alt="Logo"/></a>
               </Link>
             </div>
             <div className={styles.header__content__links}>

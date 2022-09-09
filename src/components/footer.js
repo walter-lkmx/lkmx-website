@@ -2,7 +2,6 @@ import React from "react";
 import Block from "@flare-react/block";
 import Column from "@flare-react/column";
 import styles from "@/components/footer.module.scss";
-import PagesLinks from "@/components/pages-links.js";
 import Link from "next/link";
 
 import moment from "moment"; 
@@ -45,7 +44,9 @@ export default function Footer() {
               </div>
             </div>
             <div className={styles.footer__top__content__information}>
-              <img src="/logo--white.png" alt="Logo"/>
+              <Link href="/">
+                <a><img src="/logo--white.png" alt="Logo"/></a>
+              </Link>
               <ul>
                 <li>
                   <Link href={process.env.NEXT_PUBLIC_INSTAGRAM_URL} passHref>

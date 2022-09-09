@@ -35,7 +35,7 @@
         grid-column-gap: rem(27px);
         justify-items: end;
         padding: rem(73px) rem(10px) rem(10px);
-        > img {
+        > a {
           grid-area: logo;
           width: rem(140px);
         }
@@ -166,7 +166,7 @@
         &__information {
           grid-row-gap: 27px !important;
         }
-        &__information > img {
+        &__information > a {
           width: rem(180px);
         }
       }
