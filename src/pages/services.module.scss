@@ -1,7 +1,17 @@
 .page {
   &__services {
-    > :first-child {
-      background-color: $color-neutral-black;
+    > :first-child { background-color: $color-neutral-black }
+    > :last-child { background-color: $color-cyan }
+    &__content {
+      padding: rem(216px) 0 rem(45px) 0;
+      p {
+        margin: 0;
+        font-size: rem(20px);
+        line-height: rem(30px);
+        strong {
+          line-height: rem(32px);
+        }
+      }
       h2 {
         line-height: 52px;
         font-family: $font-primary;
@@ -11,20 +21,6 @@
         strong {
           &:first-child { color: $color-pink }
           &:last-child { color: $color-cyan }
-        }
-      }
-    }
-    > :last-child {
-      background-color: $color-cyan;
-    }
-    &__content {
-      padding: rem(216px) 0 rem(45px) 0;
-      p {
-        margin: 0;
-        font-size: rem(20px);
-        line-height: rem(30px);
-        strong {
-          line-height: rem(32px);
         }
       }
     }
@@ -91,12 +87,23 @@
     grid-row-gap: 1.5rem;
   }
 
+
+  @include respond-to(">=xl") {
+    &__services {
+      &__content {
+        p {
+          max-width: rem(363px);
+        }
+      }
+    }
+  }
   @include respond-to("<=l") {
     &__services {
       --f-gutter: 32px;
       &__content {
         padding: rem(185px) 0 rem(32px) 0;
         h2 { margin: 0  }
+        p { max-width: none }
       }
       &__dragon {
         &__content {

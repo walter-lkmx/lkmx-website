@@ -13,7 +13,7 @@ export default function ServicesPage() {
     <BaseLayout>
       <Page className={styles.page}>
 
-        <Column number={2} numberS={1} className={styles.page__services} weight="right" weightS="Normal" modeS="full">
+        <Column number={2} numberS={1} className={styles.page__services} weight="right" weightS="Normal" modeXl="normal" modeL="full" modeM="full">
           <Block>
             <div className={styles.page__services__content}>
               <h2>SERVICIOS</h2>
