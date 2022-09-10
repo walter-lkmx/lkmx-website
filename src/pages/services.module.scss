@@ -1,9 +1,7 @@
 .page {
-  p { line-height: 30px }
   &__services {
     > :first-child {
       background-color: $color-neutral-black;
-      p { font-size: 20px }
       h2 {
         line-height: 52px;
         font-family: $font-primary;
@@ -18,19 +16,47 @@
     }
     > :last-child {
       background-color: $color-cyan;
-      padding-bottom: 41px;
-      align-items: end;
+    }
+    &__content {
+      padding: rem(216px) 0 rem(45px) 0;
+      p {
+        margin: 0;
+        font-size: rem(20px);
+        line-height: rem(30px);
+        strong {
+          line-height: rem(32px);
+        }
+      }
     }
     &__dragon {
-      display: grid;
-      justify-items: center;
       position: relative;
       overflow: hidden;
-      &__elipse, &__elipse--mobile {
-        position: absolute;
-      }
-      &__image, &__image--mobile {
-        z-index: 2;
+      --f-gutter: 0;
+      &__content {
+        display: grid;
+        align-items: start;
+        justify-items: end;
+        position: relative;
+        > div {
+          display: grid;
+          justify-self: start;
+          max-height: rem(591px);
+        }
+        &__elipse {
+          background-color: $color-pink;
+          height: rem(680px);
+          width: rem(680px);
+          margin-left: 120px;
+          border-radius: 50%;
+          top: 50%;
+          transform: translateY(-46%);
+        }
+        &__image {
+          position: absolute;
+          top: -1rem;
+          z-index: 2;
+          transform: translateX(49%);
+        }
       }
     }
   }
@@ -64,16 +90,76 @@
     div { height: 100% !important  }
     grid-row-gap: 1.5rem;
   }
-  @include respond-to(">=l") {
+
+  @include respond-to("<=l") {
     &__services {
-      > :first-child {
-        padding: 219px 0 61px 0;
-        p {
-          line-height: 30px;
-          max-width: 363px;
+      --f-gutter: 32px;
+      &__content {
+        padding: rem(185px) 0 rem(32px) 0;
+        h2 { margin: 0  }
+      }
+      &__dragon {
+        &__content {
+          &__elipse {
+            margin-left: 1rem;
+            top: 50%;
+            transform: translateY(-43%);
+          }
+          &__image {
+            top: 0;
+            transform: translateX(calc(50% - 7rem));
+          }
         }
       }
     }
+  }
+
+  @include respond-to("<=s") {
+    &__services {
+      --f-gutter: 16px;
+      &__content {
+        padding: rem(26px) 0;
+        h2 {
+          font-size: rem(40px);
+          line-height: rem(52px);
+          margin-bottom: 1rem;
+        }
+        p {
+          font-size: 1rem;
+          line-height: rem(30px);
+          strong {
+            font-size: 1.5rem;
+            line-height: 2rem;
+          }
+        }
+      }
+      &__dragon {
+        &__content {
+          width: 100%;
+          max-height: rem(290px);
+          > div {
+            position: relative;
+            justify-items: center;
+            width: 100%;
+          }
+          &__elipse {
+            width: rem(341px);
+            height: rem(341px);
+            margin-left: 0;
+            margin-top: -1rem;
+          }
+          &__image {
+            top: 0;
+            left: 50%;
+            width: rem(233px);
+            transform: translateX(-50%);
+          }
+        }
+      }
+    }
+  }
+
+  @include respond-to(">=l") {
     &__phases-links {
       &__arrow {
         width: calc(100% - 120px);
@@ -94,13 +180,6 @@
     }
   }
   @include respond-to(">s") {
-    &__services {
-      &__dragon {
-        &__elipse--mobile, &__image--mobile {
-          display: none;
-        }
-      }
-    }
     &__phases-links {
       min-height: 300px;
       &__arrow {
@@ -133,25 +212,6 @@
     }
   }
   @include respond-to("<=s") {
-    &__services {
-      > :first-child {
-        padding: 1.5rem 0;
-        p {
-          max-width: 310px;
-          font-size: 1rem;
-          line-height: 30px;
-          strong {
-            font-size: 1.5rem;
-            line-height: 2rem;
-          }
-        }
-      }
-      &__dragon {
-        &__elipse, &__image {
-          display: none;
-        }
-      }
-    }
     &__phases-links {
       min-height: 917px;
       &__svg-desktop {

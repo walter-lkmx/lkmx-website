@@ -5,10 +5,6 @@ import Block from "@flare-react/block";
 import Column from "@flare-react/column";
 import PhasesSvg from '@/assets/phases.svg';
 import PhasesMobileSvg from '@/assets/phases--mobile.svg';
-import ElipseSvg from '@/assets/elipse.svg';
-import DragonSvg from '@/assets/dragon.svg';
-import ElipseMobileSvg from '@/assets/elipse--mobile.svg';
-import DragonMobileSvg from '@/assets/dragon--mobile.svg';
 import Banner from '@/components/banner.js';
 import styles from "./services.module.scss";
 
@@ -16,19 +12,22 @@ export default function ServicesPage() {
   return (
     <BaseLayout>
       <Page className={styles.page}>
+
         <Column number={2} numberS={1} className={styles.page__services} weight="right" weightS="Normal" modeS="full">
-          <Block className={styles.page__services__block}>
-            <h2>SERVICIOS</h2>
-            <p>Como una <strong>ALTERNATIVA REAL</strong> al <strong>STAFF-AUGMENTATION</strong>, diseñamos servicios para el desarrollo de software a la medida para compañías con necesidades de tecnología de cualquier grado de complejidad y líneas de tiempo de cualquier demanda.</p>
-          </Block>
-          <div>
-            <div className={styles.page__services__dragon}>
-              <ElipseSvg className={styles.page__services__dragon__elipse}/>
-              <DragonSvg className={styles.page__services__dragon__image}/>
-              <ElipseMobileSvg className={styles['page__services__dragon__elipse--mobile']}/>
-              <DragonMobileSvg className={styles['page__services__dragon__image--mobile']}/>
+          <Block>
+            <div className={styles.page__services__content}>
+              <h2>SERVICIOS</h2>
+              <p>Como una <strong>ALTERNATIVA REAL</strong> al <strong>STAFF-AUGMENTATION</strong>, diseñamos servicios para el desarrollo de software a la medida para compañías con necesidades de tecnología de cualquier grado de complejidad y líneas de tiempo de cualquier demanda.</p>
             </div>
-          </div>
+          </Block>
+          <Block className={styles.page__services__dragon}>
+            <div className={styles.page__services__dragon__content}>
+              <div>
+                <div className={styles.page__services__dragon__content__elipse}></div>
+                <img src="/dragon.png" className={styles.page__services__dragon__content__image}/>
+              </div>
+            </div>
+          </Block>
         </Column>
 
         <Banner>
@@ -52,6 +51,7 @@ export default function ServicesPage() {
             </div>
           </Block>
         </Column>
+
         <Column numberXl={3} numberL={2} numberM={2} numberS={1} modeS="full" className={styles.page__phases}>
           <Block>
             <div className={styles.page__phases__content}>
@@ -75,6 +75,7 @@ export default function ServicesPage() {
             </div>
           </Block>
         </Column>
+
       </Page>
     </BaseLayout>
   );
