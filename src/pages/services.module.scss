@@ -8,9 +8,7 @@
         margin: 0;
         font-size: rem(20px);
         line-height: rem(30px);
-        strong {
-          line-height: rem(32px);
-        }
+        strong { line-height: rem(32px) }
       }
       h2 {
         line-height: 52px;
@@ -83,7 +81,19 @@
   }
   &__phases {
     padding: 72px 0 100px 0;
-    div { height: 100% !important  }
+    div {
+      height: 100%;
+    }
+    &__content {
+      display: grid;
+      height: stretch;
+      grid-template-rows:  64px 1fr auto;
+      grid-row-gap: 1rem;
+      p {
+        line-height: rem(30px);
+        margin: 0;
+      }
+    }
     grid-row-gap: 1.5rem;
   }
 
@@ -119,6 +129,10 @@
         }
       }
     }
+    &__phases {
+      --f-golden-ratio: 1.15;
+      padding: 72px 0 124px 0;
+    }
   }
 
   @include respond-to("<=s") {
@@ -129,14 +143,14 @@
         h2 {
           font-size: rem(40px);
           line-height: rem(52px);
-          margin-bottom: 1rem;
         }
         p {
           font-size: 1rem;
           line-height: rem(30px);
+          letter-spacing: 0.01em;
           strong {
             font-size: 1.5rem;
-            line-height: 2rem;
+            line-height: 1.5rem;
           }
         }
       }
@@ -164,26 +178,27 @@
         }
       }
     }
+    &__phases {
+      padding: 2rem 0 0 0;
+      grid-row-gap: 1rem;
+      &__content {
+        grid-template-rows: min-content;
+        h4, p { margin: 0 }
+        h4 { line-height: rem(32px) }
+      }
+    }
   }
 
   @include respond-to(">=l") {
     &__phases-links {
-      &__arrow {
-        width: calc(100% - 120px);
-      }
-      svg {
-        transform: translate(60%,-50%);
-      }
+      &__arrow { width: calc(100% - 120px) }
+      svg { transform: translate(60%,-50%) }
     }
   }
   @include respond-to("<=l") {
     &__phases-links {
-      &__arrow {
-        width: calc(100% - 42px);
-      }
-      svg {
-        transform: translate(50%,-50%);
-      }
+      &__arrow { width: calc(100% - 42px) }
+      svg { transform: translate(50%,-50%) }
     }
   }
   @include respond-to(">s") {
@@ -195,9 +210,7 @@
         left: 0;
         div {
           right: 104px;
-          &::after, &::before {
-            right: -1px;
-          }
+          &::after, &::before { right: -1px }
           &::after {
             top: -5px;
             transform: rotate(45deg);
@@ -236,9 +249,7 @@
           top: 0%;
           transform: translateX(-50%);
           opacity: .6;
-          &::after, &::before {
-            top: calc(100% - 6px);
-          }
+          &::after, &::before { top: calc(100% - 6px) }
           &::after {
             right: -1px;
             transform: rotate(45deg);
@@ -254,9 +265,6 @@
         left: 50%;
         transform: translate(-50%, -50%);
       }
-    }
-    &__phases {
-      padding-top: 2.5rem;
     }
   }
 }

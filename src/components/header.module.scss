@@ -6,8 +6,8 @@
     grid-template-columns: 1fr 1fr;
     grid-column-gap: $base-size;
     align-items: center;
-    &__logo > img {
-      width: rem(96px);
+    &__logo > a > img {
+      width: rem(121px);
     }
     &__menu {
       display: none;
@@ -54,6 +54,10 @@
         justify-self: end;
       }
       &__links { display: none }
+      &__logo > a > img {
+        padding: 4px 0;
+        width: rem(96px);
+      }  
     }
   }
 }

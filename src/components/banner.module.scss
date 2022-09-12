@@ -32,7 +32,7 @@
     right: 0;
   }
   @include respond-to("<=l") {
-    min-height: rem(335px);
+    min-height: rem(330px);
     padding: rem(42px) 0;
     --f-gutter: 0;
     &__bleed-right, &__bleed-left {
@@ -44,7 +44,7 @@
     align-items: start;
     text-align: start;
     --f-gutter: 1rem;
-    min-height: rem(283px);
+    min-height: rem(350px);
     padding: rem(26px) 0;
     &__bleed-right {
       width: rem(92px);
