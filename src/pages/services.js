@@ -52,26 +52,24 @@ export default function ServicesPage() {
           </Block>
         </Column>
 
-        <Column numberXl={3} numberL={2} numberM={2} numberS={1} modeXl="normal" modeL="slim" modeS="full" className={styles.page__phases}>
+        <Column numberS={1} modeL="normal" modeS="full" className={styles.page__phases}>
           <Block className={styles.page__phases__block}>
             <div className={styles.page__phases__content}>
-              <h4>DISCOVERY</h4>
-              <p>Nuestras soluciones comienzan mediante el estudio previo de los retos y los objetivos por cumplir. Este será el punto de inicio para el éxito del proyecto.</p>
-              <img src="/arrow-right--pink.png" alt="arrow"/>
-            </div>
-          </Block>
-          <Block className={styles.page__phases__block}>
-            <div className={styles.page__phases__content}>
-              <h4>AGILE<br/>DEVELOPMENT</h4>
-              <p>Con base en lo que descubrimos, creamos increíbles experiencias web y móviles que involucran manejo de datos, big data, blockchain e inteligencia artificial.</p>
-              <img src="/arrow-right--pink.png" alt="arrow"/>
-            </div>
-          </Block>
-          <Block className={styles.page__phases__block}>
-            <div className={styles.page__phases__content}>
-              <h4>AGILE MAINTENANCE, SCOPE DEV. & CONTINUOUS SUPPORT</h4>
-              <p>Al final del desarrollo ofrecemos servicios de mantenimiento y soporte para una estabilización y transferencia exitosa de la plataforma.</p>
-              <img src="/arrow-right--pink.png" alt="arrow"/>
+              <div>
+                <h4>DISCOVERY</h4>
+                <p>Nuestras soluciones comienzan mediante el estudio previo de los retos y los objetivos por cumplir. Este será el punto de inicio para el éxito del proyecto.</p>
+                <img src="/arrow-right--pink.png" alt="arrow"/>
+              </div>
+              <div>
+                <h4>AGILE<br/>DEVELOPMENT</h4>
+                <p>Con base en lo que descubrimos, creamos increíbles experiencias web y móviles que involucran manejo de datos, big data, blockchain e inteligencia artificial.</p>
+                <img src="/arrow-right--pink.png" alt="arrow"/>
+              </div>
+              <div>
+                <h4>AGILE MAINTENANCE, SCOPE DEV. & CONTINUOUS SUPPORT</h4>
+                <p>Al final del desarrollo ofrecemos servicios de mantenimiento y soporte para una estabilización y transferencia exitosa de la plataforma.</p>
+                <img src="/arrow-right--pink.png" alt="arrow"/>
+              </div>
             </div>
           </Block>
         </Column>
