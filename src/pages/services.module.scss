@@ -94,10 +94,8 @@
         height: stretch;
         grid-template-rows: 64px 1fr auto;
         grid-row-gap: 1rem;
-        width: 389.33px;
         h4 {
           line-height: 32px;
-          width: 357.33px;
         }
         p {
           line-height: rem(28px);
@@ -143,8 +141,7 @@
     }
     &__phases {
       --f-gutter: 76px;
-      padding: 10px 0 124px 0;
-
+      padding: 10px 0 40px 0;
       &__content {
         grid-template-columns: 1fr 1fr;
         grid-row-gap: 3rem;
