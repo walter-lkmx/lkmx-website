@@ -1,6 +1,10 @@
 @import "@/styles/_flare-variables.scss";
 
+html {
+    height: 100%;
+}
 body {
+    height: 100%;
     * {
         color: $color-neutral-black;
         font-family: $font-primary;

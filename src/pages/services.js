@@ -24,7 +24,7 @@ export default function ServicesPage() {
             <div className={styles.page__services__dragon__content}>
               <div>
                 <div className={styles.page__services__dragon__content__elipse}></div>
-                <img src="/dragon.png" className={styles.page__services__dragon__content__image}/>
+                <img src="/dragon.png" alt="dragon" className={styles.page__services__dragon__content__image}/>
               </div>
             </div>
           </Block>

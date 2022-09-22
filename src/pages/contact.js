@@ -4,8 +4,9 @@ import Page from "@flare-react/page";
 import Block from "@flare-react/block";
 import Column from "@flare-react/column";
 import styles from "./contact.module.scss";
+import Carousel from "@/components/carousel.js"
 
-function fileNames() {
+function getTeamList() {
   let r = require.context('/public/images', false, /\.(png|jpe?g|svg)$/);
   return r.keys().map(n => {
     return {
@@ -16,13 +17,12 @@ function fileNames() {
 }
 
 export default function ContactPage() {
-  const pictures = fileNames(require.context('/public/images', false, /\.(png|jpe?g|svg)$/));
+  const pictures = getTeamList(require.context('/public/images', false, /\.(png|jpe?g|svg)$/));
   pictures.forEach((e, index) => {
     if((index + 1) % 10 == 0) {
       pictures.splice(index, 0, {fileNames: null, name: null});
     }
   });
-  console.log(pictures);
 
   return (
     <BaseLayout>
@@ -38,12 +38,12 @@ export default function ContactPage() {
           <Block>
             <div className={styles.contact__hero__right}>
               <div><div></div></div>
-              <img src="/koi-swimming.png" className={styles.contact__hero__right__koi}/>
-              <img src="/koi-swimming-mobile.png" className={styles['contact__hero__right__koi-mobile']}/>
-              <img src="/bleed-right--red.png" className={styles.contact__hero__right__triangle}/>
-              <img src="/bleed-right-mobile--red.png" className={styles['contact__hero__right__triangle-mobile']}/>
-              <img src="/clouds--large.png" className={styles.contact__hero__right__clouds}/>
-              <img src="/clouds--small.png" className={styles['contact__hero__right__clouds-mobile']}/>
+              <img src="/koi-swimming.png" alt="koi-swimming" className={styles.contact__hero__right__koi}/>
+              <img src="/koi-swimming-mobile.png" alt="koi-swimming-mobile" className={styles['contact__hero__right__koi-mobile']}/>
+              <img src="/bleed-right--red.png" alt="bleed-right--red" className={styles.contact__hero__right__triangle}/>
+              <img src="/bleed-right-mobile--red.png" alt="bleed-right-mobile--red" className={styles['contact__hero__right__triangle-mobile']}/>
+              <img src="/clouds--large.png" alt="clouds--large" className={styles.contact__hero__right__clouds}/>
+              <img src="/clouds--small.png" alt="clouds--small" className={styles['contact__hero__right__clouds-mobile']}/>
             </div>
           </Block>
         </Column>
@@ -57,7 +57,7 @@ export default function ContactPage() {
           </Block>
         </Column>
 
-        <Column modeXl="normal" modeL="full">
+        <Column modeXl="normal" modeL="full" modeM="full">
           <Block className={styles.contact__team}>
             <div className={styles.contact__team__content}>
               <div className={styles.contact__team__content__card}>
@@ -86,10 +86,42 @@ export default function ContactPage() {
               </div>
               {pictures.map((picture, index) => {
                 return <div key={index} className={`${picture.fileName ? '' : styles['contact__team__content__card-empty']}`}>
-                  {picture.fileName ? <img src={`/images/${picture.fileName}`}/> : <></>}
+                  {picture.fileName ? <img src={`/images/${picture.fileName}`} alt={picture.name}/> : <></>}
                 </div>
               })}
             </div>
+          </Block>
+        </Column>
+
+        <Column number="2" numberS="1" modeXl="normal" modeL="full" weightXl="normal" weightL="right" weightM="normal" className={styles['contact__about-us']}>
+          <Block className={styles['contact__about-us__block']}>
+            <div className={styles['contact__about-us__block__left']}>
+              <h2>QUÉ DICEN</h2>
+              <h2>NUESTROS SOCIOS</h2>
+              <h2>DE NOSOTROS.</h2>
+            </div>
+            <div className={styles['contact__about-us__block__triangule']}><div></div></div>
+          </Block>
+          <Block className={styles['contact__about-us__block']}>
+            <div className={styles['contact__about-us__block__right']}>
+              <Carousel>
+                <div className={styles['contact__about-us__block__right__card']}>
+                  <div><span>“</span></div>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas condimentum, lacus at luctus egestas, purus mauris feugiat mi, eget lacinia ligula sem vitae urna. Pellentesque at aliquet velit.</p>
+                  <div><strong>Carlo Aranibar</strong> / <strong>LegalStream</strong></div>
+                </div>
+                <div className={styles['contact__about-us__block__right__card']}>
+                  <div><span>“</span></div>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas condimentum, lacus at luctus egestas, purus mauris feugiat mi, eget lacinia ligula sem vitae urna. Pellentesque at aliquet velit.</p>
+                  <div><strong>Juan Olmos</strong> / <strong>Las Cañadas</strong></div>
+                </div>
+              </Carousel>
+            </div>
+          </Block>
+        </Column>
+
+        <Column className={styles['contact__mobile-bottom']}>
+          <Block>
           </Block>
         </Column>
 
