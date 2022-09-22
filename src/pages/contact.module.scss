@@ -7,6 +7,7 @@
     * { color: white }
   }
   &__hero {
+    height: $hero-height;
     > :first-child {
       > div > div {
         height: 100%;
@@ -31,7 +32,8 @@
       }
     }
     &__right {
-      > div {
+      height: $hero-height;
+      > div:first-child {
         position: relative;
         bottom: 0;
         right: 0;
@@ -46,11 +48,6 @@
         }
       }
       display: grid;
-      grid-template-columns: auto 1fr;
-      &__koi {
-        margin: auto;
-        margin: 100px 75px 0;
-      }
       &__triangle {
         width: $triangule-width;
         position: absolute;
@@ -62,6 +59,19 @@
         position: absolute;
         right: 0;
         top: 0;
+      }
+      &__koi {
+        position: relative;
+        height: 100%;
+        display: grid;
+        width: calc(100% - 120px);
+        &__img {
+          position: absolute;
+          width: 392px;
+          align-self: end;
+          left: 50%;
+          transform: translateX(-50%);
+        }
       }
       &__koi-mobile, &__triangle-mobile, &__clouds-mobile {
         display: none;
@@ -209,6 +219,18 @@
     display: none;
     background-color: $color-neutral-black;
   }
+  @include respond-to(">l") {
+    &__hero {
+      &__block-right {
+        > div {
+          width: 100% !important;
+        }
+      }
+      &__right {
+        position: relative;
+      }
+    }
+  }
   @include respond-to("xl") {
     --f-golden-ratio: 2;
     &__about-us__block__triangule {
@@ -246,7 +268,7 @@
         min-height: $hero-height;
         grid-template-columns: 1fr;
         position: relative;
-        > div {
+        > div:first-child {
           position: absolute;
           left: 0;
           top: 0;
@@ -256,15 +278,18 @@
           }
         }
         &__koi {
-          z-index: 2;
-          width: 550px;
-          margin: 0;
-          padding: 0 100px;
-          align-self: end;
           justify-self: center;
+          position: relative;
+          width: calc(100% - 200px);
+          &__img {
+            position: absolute;
+            width: 350px;
+            align-self: end;
+          }
         }
         &__triangle {
-          width: $triangule-width;
+          position: absolute;
+          min-width: $triangule-width;
           bottom: 0;
           right: 0
         }
@@ -307,6 +332,7 @@
   }
   @include respond-to("<=s") {
     &__hero {
+      height: 100%;
       > :first-child {
         --f-gutter: 16px;
         > div > div {
@@ -332,7 +358,7 @@
         position: relative;
         min-height: 350px;
         height: 350px;
-        > div { display: none }
+        > div:first-child { display: none }
         &__koi-mobile {
           align-self: end;
           margin-left: 1.5rem;
