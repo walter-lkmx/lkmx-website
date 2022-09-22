@@ -1,0 +1,298 @@
+.contact {
+  $triangule-width: rem(139px);
+  $hero-height: rem(591px);
+  &__hero {
+    > :first-child {
+      background-color: $color-neutral-black;
+      > div > div {
+        height: 100%;
+        display: grid;
+      }
+    }
+    > :last-child {
+      background-color: $color-blue;
+      --f-gutter: 0;
+    }
+    &__left {
+      align-self: end;
+      padding: rem(53px) 0;
+      h2, p {
+        color: white;
+      }
+      h2 {
+        font-family: $font-primary;
+      }
+      p {
+        font-size: 1.5rem;
+        line-height: rem(34px);
+        strong {
+          &:first-child { color: $color-cyan }
+          &:last-child { color: $color-pink }
+        }
+      }
+    }
+    &__right {
+      > div {
+        position: relative;
+        bottom: 0;
+        right: 0;
+        width: $triangule-width;
+        height: $hero-height;
+        background-color: $color-blue;
+        div {
+          position: absolute;
+          width: $triangule-width;
+          height: $hero-height;
+          background-image: linear-gradient(to bottom right, $color-neutral-black 0%, $color-neutral-black 50%, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0) 100%);
+        }
+      }
+      display: grid;
+      grid-template-columns: auto 1fr;
+      &__koi {
+        margin: auto;
+        margin: 100px 75px 0;
+      }
+      &__triangle {
+        width: $triangule-width;
+        position: absolute;
+        top: 0;
+        right: 120px;
+        height: 100%;
+      }
+      &__clouds {
+        position: absolute;
+        right: 0;
+        top: 0;
+      }
+      &__koi-mobile, &__triangle-mobile, &__clouds-mobile {
+        display: none;
+      }
+      &__content {
+        position: relative;
+        width: max-content;
+      }
+    }
+  }
+  &__banner {
+    &__content {
+      display: grid;
+      max-width: rem(634px);
+      margin: auto;
+      padding: rem(86px) 0;
+      h3 {
+        color: $color-blue;
+        line-height: rem(36px);
+        margin: 0;
+        strong { color: $color-pink }
+      }
+      p {
+        line-height: rem(28px);
+        margin: 0;
+      }
+    }
+  }
+  &__team {
+    --f-gutter: 0;
+    padding-bottom: rem(81px);
+    &__content {
+      display: grid;
+      grid-template-columns: repeat(7, 1fr);
+      background-color: $color-bright-gray;
+      &__card {
+        display: grid;
+        align-items: center;
+        justify-items: center;
+        div {
+          width: rem(346px);
+          height: min-content;
+          padding: 1rem;
+          display: grid;
+          grid-row-gap: .5rem;
+          h3 { color: $color-blue }
+          p { line-height: rem(28px) }
+          h3, p { margin: 0 }
+        }
+        &:nth-child(1) {
+          grid-row: 2/4;
+          grid-column: 1/4;
+        }
+        &:nth-child(2) {
+          grid-row: 4/6;
+          grid-column: 5/8;
+        }
+        &:nth-child(3) {
+          grid-row: 7/9;
+          grid-column: 1/4;
+        }
+        &:nth-child(4) {
+          grid-row: 9/11;
+          grid-column: 5/8;
+        }
+      }
+    }
+  }
+  @include respond-to("xl") {
+    --f-golden-ratio: 2;
+  }
+  @include respond-to("<=l") {
+    &__hero {
+      $triangule-width: rem(155px);
+      --f-gutter: 32px;
+      min-height: $hero-height;
+      > :first-child {
+        background-color: $color-neutral-black;
+        > div > div {
+          padding-right: 0;
+        }
+      }
+      &__left {
+        padding: 0;
+        h2 { width: min-content }
+        p {
+          font-size: rem(18px);
+          line-height: rem(28px);
+          strong {
+            font-size: rem(28px);
+            line-height: rem(36px);
+            &:first-child { color: $color-cyan }
+            &:last-child { color: $color-pink }
+          }
+        }
+      }
+      &__right {
+        min-height: $hero-height;
+        grid-template-columns: 1fr;
+        position: relative;
+        > div {
+          position: absolute;
+          left: 0;
+          top: 0;
+          width: $triangule-width;
+          div {
+            width: $triangule-width;
+          }
+        }
+        &__koi {
+          z-index: 2;
+          width: 550px;
+          margin: 0;
+          padding: 0 100px;
+          align-self: end;
+          justify-self: center;
+        }
+        &__triangle {
+          width: $triangule-width;
+          bottom: 0;
+          right: 0
+        }
+        &__clouds { display: none }
+      }
+    }
+    &__team {
+      --f-gutter: 32px;
+      &__content {
+        &__card {
+          padding: 0 1rem;
+          div {
+            padding: 1rem;
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+  @include respond-to("<=s") {
+    &__hero {
+      > :first-child {
+        --f-gutter: 16px;
+        > div > div {
+          padding-right: 16px;
+        }
+      }
+      &__left {
+        padding: rem(40px) 0;
+        p {
+          margin: 0;
+          font-size: 1rem;
+          line-height: 28px;
+          strong {
+            font-size: 1.5rem;
+            line-height: 2rem;
+          }
+        }
+      }
+      &__right {
+        grid-template-columns: 1fr 92px 64px;
+        overflow: hidden;
+        position: relative;
+        min-height: 350px;
+        height: 350px;
+        > div { display: none }
+        &__koi-mobile {
+          align-self: end;
+          margin-left: 1.5rem;
+          justify-self: center;
+        }
+        &__koi, &__clouds, &__triangle {
+          display: none;
+        }
+        &__koi-mobile, &__triangle-mobile, &__clouds-mobile {
+          display: grid;
+        }
+      }
+    }
+    &__banner {
+      &__content {
+        padding: rem(56px) 0;
+        h3 {
+          font-size: rem(20px);
+          line-height: rem(28px);
+        }
+      }
+    }
+    &__team {
+      --f-gutter: 16px;
+      > div > div {
+        padding-top: 0px !important;
+      }
+      &__content {
+        padding-top: 0px;
+        &__card-empty {
+          display: none;
+        }
+        grid-template-columns: repeat(5, 1fr);
+        grid-auto-rows: min-content;
+        img {
+          min-height: 75px;
+        }
+        &__card {
+          height: auto;
+          padding: 1rem;
+          div {
+            padding: 1rem;
+            grid-row-gap: rem(6px);
+            h3 {
+              font-size: rem(20px);
+              line-height: rem(28px);
+            }
+          }
+          &:nth-child(1),  &:nth-child(2),  &:nth-child(3),  &:nth-child(4) {
+            grid-column: 1/6;
+          }
+          &:nth-child(1) {
+            grid-row: 3/6;
+          }
+          &:nth-child(2) {
+            grid-row: 8/10;
+          }
+          &:nth-child(3) {
+            grid-row: 12/14;
+          }
+          &:nth-child(4) {
+            grid-row: 16/18;
+          }
+        }
+      }
+    }
+  }
+}

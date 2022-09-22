@@ -3,16 +3,96 @@ import BaseLayout from "@/layouts/base-layout.js";
 import Page from "@flare-react/page";
 import Block from "@flare-react/block";
 import Column from "@flare-react/column";
+import styles from "./contact.module.scss";
+
+function fileNames() {
+  let r = require.context('/public/images', false, /\.(png|jpe?g|svg)$/);
+  return r.keys().map(n => {
+    return {
+      fileName: n.replace(/\.\//, ''),
+      name: n.replace(/\.\/_\d*_/, '').replace(/\.jpg/, '')
+    }
+  }).sort((a, b) => a.name.localeCompare(b.name));
+}
 
 export default function ContactPage() {
+  const pictures = fileNames(require.context('/public/images', false, /\.(png|jpe?g|svg)$/));
+  pictures.forEach((e, index) => {
+    if((index + 1) % 10 == 0) {
+      pictures.splice(index, 0, {fileNames: null, name: null});
+    }
+  });
+  console.log(pictures);
+
   return (
     <BaseLayout>
-      <Page>
-        <Column>
+      <Page className={styles.contact}>
+
+        <Column number={2} numberS={1} weight="right" weightS="Normal" modeXl="normal" modeL="full" modeM="full" className={styles.contact__hero}>
           <Block>
-            <h1>Contacto</h1>
+            <div className={styles.contact__hero__left}>
+              <h2>NUESTRO EQUIPO</h2>
+              <p>Somos una combinación de <strong>creativos</strong> y <strong>expertos</strong> en tecnología. Conectamos nuestras habilidades para construir soluciones de software robustas, flexibles, escalables y seguras.</p>
+            </div>
+          </Block>
+          <Block>
+            <div className={styles.contact__hero__right}>
+              <div><div></div></div>
+              <img src="/koi-swimming.png" className={styles.contact__hero__right__koi}/>
+              <img src="/koi-swimming-mobile.png" className={styles['contact__hero__right__koi-mobile']}/>
+              <img src="/bleed-right--red.png" className={styles.contact__hero__right__triangle}/>
+              <img src="/bleed-right-mobile--red.png" className={styles['contact__hero__right__triangle-mobile']}/>
+              <img src="/clouds--large.png" className={styles.contact__hero__right__clouds}/>
+              <img src="/clouds--small.png" className={styles['contact__hero__right__clouds-mobile']}/>
+            </div>
           </Block>
         </Column>
+
+        <Column>
+          <Block className={styles.contact__banner}>
+            <div className={styles.contact__banner__content}>
+              <h3>UNA SUMA DE <strong>INGENIEROS</strong>, <strong>ARTISTAS</strong>, <strong>ANALISTAS</strong> Y VISIONARIOS COMPONEN NUESTRO EQUIPO.</h3>
+              <p>Divididos por áreas, pero interconectados mediante bien definidos procesos, integramos un equipo de ingeniería robusto capaz de operar a velocidades escalofriantes.</p>
+            </div>
+          </Block>
+        </Column>
+
+        <Column modeXl="normal" modeL="full">
+          <Block className={styles.contact__team}>
+            <div className={styles.contact__team__content}>
+              <div className={styles.contact__team__content__card}>
+                <div>
+                  <h3>ANÁLISIS</h3>
+                  <p>Se encargan de orquestar la metodología de captura, analizar los requerimientos y comunicar a las áreas de producción de la empresa.</p>
+                </div>
+              </div>
+              <div className={styles.contact__team__content__card}>
+                <div>
+                  <h3>DISEÑO</h3>
+                  <p>Crean y estandarizan artefactos digitales apegados a buenas prácticas que colaboran en la metodología de captura y análisis de requerimientos.</p>
+                </div>
+              </div>
+              <div className={styles.contact__team__content__card}>
+                <div>
+                  <h3>DESARROLLO</h3>
+                  <p>Aplican técnicas de ingeniería de software para crear tecnología avanzada de manera efectiva y eficiente.</p>
+                </div>
+              </div>
+              <div className={styles.contact__team__content__card}>
+                <div>
+                  <h3>CALIDAD</h3>
+                  <p>Se aseguran de que las características del software cumplan las especificaciones definidas o superen las expectativas.</p>
+                </div>
+              </div>
+              {pictures.map((picture, index) => {
+                return <div key={index} className={`${picture.fileName ? '' : styles['contact__team__content__card-empty']}`}>
+                  {picture.fileName ? <img src={`/images/${picture.fileName}`}/> : <></>}
+                </div>
+              })}
+            </div>
+          </Block>
+        </Column>
+
       </Page>
     </BaseLayout>
   );
