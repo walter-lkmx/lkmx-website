@@ -16,7 +16,7 @@
       margin-bottom: 0;
     }
     p {
-      line-height: 30px !important;
+      line-height: 30px;
       max-width: 603px;
       margin: auto;
     }
@@ -38,6 +38,17 @@
     &__bleed-right, &__bleed-left {
       width: rem(60px);
     }
+    &__content {
+      h3 {
+        line-height: 32px;
+      }
+      p {
+        line-height: 28px;
+        &:first-child {
+          line-height: 1.5rem;
+        }
+      }
+    }
   }
   @include respond-to("<=s") {
     justify-items: start;
@@ -56,6 +67,7 @@
       max-width: calc(100% - 92px);
       p {
         margin-left: 0;
+        line-height: 28px;
         &:last-child {
           margin-top: 4px;
         }

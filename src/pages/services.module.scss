@@ -12,11 +12,12 @@
       }
       h2 {
         line-height: 52px;
-        font-family: $font-primary;
+        font-family: $font-tertiary;
       }
       h2, p {
         color: white;
         strong {
+          font-size: rem(24px);
           &:first-child { color: $color-pink }
           &:last-child { color: $color-cyan }
         }
@@ -146,11 +147,10 @@
         }
         p {
           font-size: 1rem;
-          line-height: rem(30px);
-          letter-spacing: 0.01em;
+          line-height: rem(28px);
           strong {
             font-size: 1.5rem;
-            line-height: 1.5rem;
+            line-height: 2rem;
           }
         }
       }

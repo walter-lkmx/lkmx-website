@@ -19,7 +19,7 @@
     &__left {
       align-self: end;
       padding: rem(53px) 0;
-      h2 { font-family: $font-primary }
+      h2 { font-family: $font-tertiary }
       p {
         font-size: 1.5rem;
         line-height: rem(34px);
@@ -107,7 +107,10 @@
           padding: 1rem;
           display: grid;
           grid-row-gap: .5rem;
-          h3 { color: $color-blue }
+          h3 {
+            color: $color-blue;
+            line-height: rem(36px);
+          }
           p { line-height: rem(28px) }
           h3, p { margin: 0 }
         }
@@ -208,6 +211,9 @@
   }
   @include respond-to("xl") {
     --f-golden-ratio: 2;
+    &__about-us__block__triangule {
+      transform: translateX(15%);
+    }
   }
   @include respond-to("<=l") {
     &__hero {
@@ -224,8 +230,10 @@
         padding: 0;
         h2 { width: min-content }
         p {
-          font-size: rem(18px);
-          line-height: rem(28px);
+          font-size: rem(20px);
+          line-height: rem(30px);
+          width: rem(315px);
+          margin-bottom: rem(10px);
           strong {
             font-size: rem(28px);
             line-height: rem(36px);
@@ -287,7 +295,13 @@
             line-height: rem(36px);
           }
         }
-        &__right { padding-right: 1rem }
+        &__right {
+          padding-right: 1rem;
+          &__card > p {
+            margin-top: 4px;
+            line-height: rem(28px);
+          }
+        }
       }
     }
   }
@@ -302,6 +316,7 @@
       &__left {
         padding: rem(40px) 0;
         p {
+          width: 100%;
           margin: 0;
           font-size: 1rem;
           line-height: 28px;
@@ -399,9 +414,13 @@
         }
         &__right {
           padding: 0;
+          padding-top: rem(5px);
           &__card {
-            padding-bottom: 34px;
+            padding-bottom: rem(34px);
             div {
+              &:first-child {
+                height: rem(44px);
+              }
               &:last-child {
                 grid-column-gap: rem(10px);
                 position: absolute;
