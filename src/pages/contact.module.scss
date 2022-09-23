@@ -185,14 +185,15 @@
         align-items: center;
         justify-items: center;
         &__card {
+          padding-top: rem(4px);
           div {
             &:first-child {
-              height: 44px;
+              height: rem(36px);
               span {
                 color: $color-pink;
                 margin: 0;
                 font-family: $font-primary;
-                font-size: 64px;
+                font-size: rem(64px);
                 font-weight: normal;
               }    
             }
@@ -208,7 +209,7 @@
             }
           }
           p {
-            line-height: rem(30px);
+            line-height: rem(28px);
             margin: 10px 0 24px 0;
           }
         }
@@ -276,7 +277,6 @@
           line-height: rem(30px);
           margin: 0;
           margin-bottom: rem(10px);
-          padding-right: 2rem;
           strong {
             font-size: rem(28px);
             line-height: rem(36px);
@@ -343,9 +343,17 @@
         }
         &__right {
           padding-right: 1rem;
-          &__card > p {
-            margin-top: 4px;
-            line-height: rem(28px);
+          &__card {
+            padding-top: 6px;
+            > p {
+              margin-top: 4px;
+              line-height: rem(28px);
+            }
+            div {
+              &:first-child {
+                height: rem(40px);
+              }
+            }
           }
         }
       }
@@ -366,7 +374,6 @@
           width: 100%;
           max-width: none;
           margin: 0;
-          padding: 0;
           font-size: 1rem;
           line-height: 28px;
           strong {
@@ -467,10 +474,11 @@
           padding: 0;
           padding-top: rem(5px);
           &__card {
+            padding-top: rem(6px);
             padding-bottom: rem(36px);
             div {
               &:first-child {
-                height: rem(44px);
+                height: rem(38px);
               }
               &:last-child {
                 line-height: 1.5rem;
