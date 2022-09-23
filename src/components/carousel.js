@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import styles from './carousel.module.scss'
+import styles from './carousel.module.scss';
 import { CSSTransition } from 'react-transition-group';
 
 function Carousel(props) {

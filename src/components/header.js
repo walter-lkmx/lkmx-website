@@ -30,7 +30,7 @@ export default function Header(props) {
   );
 
   function handleClick() {
-    props.setShowMobileMenu(true);
+    props.setShowSideMenu(true);
   }
 
 }

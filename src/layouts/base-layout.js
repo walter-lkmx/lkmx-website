@@ -1,20 +1,27 @@
 import React, { useState } from "react";
 import Footer from "@/components/footer.js";
 import Header from "@/components/header.js";
-import MobileMenu from "@/components/mobile-menu.js";
+import SideMenu from "@/components/side-menu.js";
 import styles from "@/layouts/base-layout.module.scss";
+import { CSSTransition } from 'react-transition-group';
 
 export default function BaseLayout(props) {
-  const [showMobileMenu, setShowMobileMenu] = useState(false);
+  const [showSideMenu, setShowSideMenu] = useState(false);
 
   React.useEffect(() => {
-    setShowMobileMenu(false);
+    setShowSideMenu(false);
   }, []);
 
   return (
     <div className={styles.layout}>
-      <MobileMenu showMobileMenu={showMobileMenu} setShowMobileMenu={setShowMobileMenu}/>
-      <Header className={styles.layout__header} setShowMobileMenu={setShowMobileMenu}/>
+      <CSSTransition timeout={400} in={showSideMenu} unmountOnExit
+          appear
+          classNames={{enter: `animated faster fadeInRight`}}>
+          {
+            showSideMenu ? <SideMenu setShowSideMenu={setShowSideMenu}/> : <></>
+          }
+      </CSSTransition>
+      <Header className={styles.layout__header} setShowSideMenu={setShowSideMenu}/>
       <main>
         {props.children}
       </main>

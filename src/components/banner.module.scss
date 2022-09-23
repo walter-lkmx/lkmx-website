@@ -35,9 +35,8 @@
     min-height: rem(330px);
     padding: rem(42px) 0;
     --f-gutter: 0;
-    &__bleed-right, &__bleed-left {
-      width: rem(60px);
-    }
+    &__bleed-right { right: rem(-60px) }
+    &__bleed-left { left: rem(-60px) }
     &__content {
       h3 {
         line-height: 32px;
@@ -59,6 +58,7 @@
     padding: rem(26px) 0;
     &__bleed-right {
       width: rem(92px);
+      right: 0;
     }
     &__bleed-left {
       display: none;
