@@ -237,6 +237,29 @@
       transform: translateX(15%);
     }
   }
+
+  @include respond-to(">=xl") {
+    &__hero {
+      > :first-child {
+        > div > div {
+          padding-right: 1rem !important;
+        }
+      }
+      &__left {
+        padding-bottom: 4rem;
+        p {
+          font-size: 20px;
+          line-height: 30px;
+          max-width: none;
+          strong {
+            font-size: 28px;
+            line-height: 36px;
+          }
+        }
+      }
+    }
+  }
+
   @include respond-to("<=l") {
     &__hero {
       $triangule-width: rem(155px);
@@ -244,9 +267,6 @@
       min-height: $hero-height;
       > :first-child {
         background-color: $color-neutral-black;
-        > div > div {
-          padding-right: 0;
-        }
       }
       &__left {
         padding: 0;
@@ -254,8 +274,9 @@
         p {
           font-size: rem(20px);
           line-height: rem(30px);
-          width: rem(315px);
+          margin: 0;
           margin-bottom: rem(10px);
+          padding-right: 2rem;
           strong {
             font-size: rem(28px);
             line-height: rem(36px);
@@ -336,14 +357,16 @@
       > :first-child {
         --f-gutter: 16px;
         > div > div {
-          padding-right: 16px;
+          padding-right: 16px !important;
         }
       }
       &__left {
         padding: rem(40px) 0;
         p {
           width: 100%;
+          max-width: none;
           margin: 0;
+          padding: 0;
           font-size: 1rem;
           line-height: 28px;
           strong {
@@ -427,6 +450,8 @@
       }
     }
     &__about-us {
+      background-color: $color-blue;
+      padding-bottom: 4px;
       --f-golden-ratio: 1.61;
       &__block {
         &:first-child { --f-gutter: 56px }
@@ -442,12 +467,13 @@
           padding: 0;
           padding-top: rem(5px);
           &__card {
-            padding-bottom: rem(34px);
+            padding-bottom: rem(36px);
             div {
               &:first-child {
                 height: rem(44px);
               }
               &:last-child {
+                line-height: 1.5rem;
                 grid-column-gap: rem(10px);
                 position: absolute;
               }
@@ -457,6 +483,9 @@
         &__triangule { display: none }
       }
     }
-    &__mobile-bottom { display: grid }
+    &__mobile-bottom {
+      display: grid;
+      --f-gutter: 13px
+    }
   }
 }
