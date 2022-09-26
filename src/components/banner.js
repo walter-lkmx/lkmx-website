@@ -7,7 +7,7 @@ export default function Banner(props) {
 
   return (
     <div className={styles.banner}>
-      <img src="/bleed-left.png" alt="bleed-left" className={styles['banner__bleed-left']}/>
+      <img src="/bleed-left.png" alt="bleed-left" className={styles['banner__triangle-left']}/>
       <Column modeXl="slim" modeS="full">
         <Block>
           <div className={styles.banner__content}>
@@ -15,7 +15,9 @@ export default function Banner(props) {
           </div>
         </Block>
       </Column>
-      <img src="/bleed-right.png" alt="bleed-right" className={styles['banner__bleed-right']}/>
+      <img src="/triangle/blue/triangle.png" alt="triangle" className={styles['banner__triangle-right']}/>
+      <img src="/triangle/blue/triangle--medium.png" alt="triangle" className={styles['banner__triangle-right--medium']}/>
+      <img src="/triangle/blue/triangle--small.png" alt="triangle" className={styles['banner__triangle-right--small']}/>
     </div>
   );
 

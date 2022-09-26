@@ -42,8 +42,8 @@ export default function ContactPage() {
                 <img src="/koi-swimming.png" alt="koi-swimming" className={styles.contact__hero__right__koi__img}/>
               </div>
               <img src="/koi-swimming-mobile.png" alt="koi-swimming-mobile" className={styles['contact__hero__right__koi-mobile']}/>
-              <img src="/bleed-right--red.png" alt="bleed-right--red" className={styles.contact__hero__right__triangle}/>
-              <img src="/bleed-right-mobile--red.png" alt="bleed-right-mobile--red" className={styles['contact__hero__right__triangle-mobile']}/>
+              <img src="/triangle/red/triangle.png" alt="triangle" className={styles.contact__hero__right__triangle}/>
+              <img src="/triangle/red/triangle--small.png" alt="triangle" className={styles['contact__hero__right__triangle-mobile']}/>
               <img src="/clouds--large.png" alt="clouds--large" className={styles.contact__hero__right__clouds}/>
               <img src="/clouds--small.png" alt="clouds--small" className={styles['contact__hero__right__clouds-mobile']}/>
             </div>

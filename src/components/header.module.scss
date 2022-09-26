@@ -48,14 +48,19 @@
   }
   @include respond-to("<=l") {
     &__content {
-      &__logo > a { display: block }
+      align-items: center;
+      height: rem(46px);
+      &__logo {
+        display: grid;
+        align-items: center;
+        a { display: grid }
+      }
       &__menu {
         display: grid;
         justify-self: end;
       }
       &__links { display: none }
       &__logo > a > img {
-        padding: 4px 0;
         width: rem(96px);
       }  
     }

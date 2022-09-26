@@ -23,7 +23,7 @@ export default function ServicesPage() {
           <Block className={styles.page__services__dragon}>
             <div className={styles.page__services__dragon__content}>
               <div>
-                <div className={styles.page__services__dragon__content__elipse}></div>
+                <img src="/ellipse.png" alt="ellipse" className={styles.page__services__dragon__content__elipse}/>
                 <img src="/dragon.png" alt="dragon" className={styles.page__services__dragon__content__image}/>
               </div>
             </div>
@@ -31,13 +31,18 @@ export default function ServicesPage() {
         </Column>
 
         <Banner>
-          <p>
-            Nos especializamos en la construcción de</p>
-            <h3>SOLUCIONES DE SOFTWARE DESDE CERO,</h3>
-            <p>
-            por lo que nuestros servicios cubren todas las fases del ciclo de vida del software.
-          </p>
-          <p>Nuestras metodologías brindan la mayor flexibilidad posible mientras mantienen bajo control los entregables, plazos de tiempo y costos.</p>
+          <div className={styles.page__about}>
+            <div>
+              <p>Nos especializamos en la construcción de</p>
+              <div>
+                <h3>SOLUCIONES DE SOFTWARE DESDE CERO,</h3>
+                <p>
+                  por lo que nuestros servicios cubren todas las  fases del ciclo de vida del software.
+                </p>
+              </div>
+            </div>
+            <p>Nuestras metodologías brindan la mayor flexibilidad posible mientras mantienen bajo control los entregables, plazos de tiempo y costos.</p>
+          </div>
         </Banner>
 
         <Column mode="full" className={styles['page__phases-links']}>

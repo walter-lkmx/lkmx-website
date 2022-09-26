@@ -27,32 +27,55 @@
       position: relative;
       overflow: hidden;
       --f-gutter: 0;
+      > div, > div > div {
+        width: 100% !important;
+      }
       &__content {
         display: grid;
         align-items: start;
         justify-items: end;
         position: relative;
+        height: rem(591px);
         > div {
           display: grid;
           justify-self: start;
-          max-height: rem(591px);
         }
+        position: relative;
         &__elipse {
-          background-color: $color-pink;
-          height: rem(680px);
-          width: rem(680px);
-          margin-left: 120px;
-          border-radius: 50%;
-          top: 50%;
-          transform: translateY(-46%);
+          position: absolute;
+          top: 0;
+          left: 50%;
+          transform: translate(calc(-50% + 29px), calc(-50% + 29px));
         }
         &__image {
+          width: 465px;
           position: absolute;
           top: -1rem;
+          left: 50%;
           z-index: 2;
-          transform: translateX(49%);
+          transform: translateX(calc(-50% + 29px));
         }
       }
+    }
+  }
+  &__about {
+    max-width: rem(603px);
+    margin: auto;
+    display: grid;
+    grid-row-gap: .5rem;
+    > div {
+      display: grid;
+      grid-row-gap: 4px;
+    }
+    p {
+      line-height: rem(28px);
+    }
+    h3 {
+      font-size: 1.5rem;
+      line-height: 2rem;
+    }
+    h3, p {
+      margin: 0;
     }
   }
   &__phases-links {
@@ -66,6 +89,7 @@
         height: .5px;
         background-color: $color-neutral-black;
         left: 0px;
+        transform: translateY(50%);
         &::after, &::before {
           content: '';
           position: absolute;
@@ -92,10 +116,11 @@
       > div {
         display: grid;
         height: stretch;
-        grid-template-rows: 64px 1fr auto;
+        grid-template-rows: minmax(64px, auto) 1fr auto;
         grid-row-gap: 1rem;
         h4 {
           line-height: 32px;
+          margin: 0;
         }
         p {
           line-height: rem(28px);
@@ -121,27 +146,31 @@
     &__services {
       --f-gutter: 32px;
       &__content {
-        padding: rem(185px) 0 rem(32px) 0;
+        padding: rem(187px) 0 rem(32px) 0;
         h2 { margin: 0  }
         p { max-width: none }
       }
       &__dragon {
         &__content {
           &__elipse {
-            margin-left: 1rem;
-            top: 50%;
-            transform: translateY(-43%);
+            top: 0;
+            left: 1rem;
+            transform: translate(0, calc(-50% + 47px));
           }
           &__image {
             top: 0;
-            transform: translateX(calc(50% - 7rem));
+            left: 124px;
+            transform: translateX(0);
           }
         }
       }
     }
+    &__about {
+      > div > p { line-height: 1.5rem }
+    }
     &__phases {
       --f-gutter: 76px;
-      padding: 10px 0 40px 0;
+      padding: 12px 0 40px 0;
       &__content {
         grid-template-columns: 1fr 1fr;
         grid-row-gap: 3rem;
@@ -158,11 +187,24 @@
     }
   }
 
+  @include respond-to(">s") {
+    &__services {
+      &__dragon {
+        &__content {
+          &__elipse {
+            min-width: rem(680px) !important;
+            height: 680px;
+          }
+        }
+      }
+    }
+  }
+
   @include respond-to("<=s") {
     &__services {
       --f-gutter: 16px;
       &__content {
-        padding: rem(26px) 0;
+        padding: rem(27px) 0 rem(26px);
         h2 {
           font-size: rem(40px);
           line-height: rem(52px);
@@ -186,18 +228,25 @@
             width: 100%;
           }
           &__elipse {
+            top: 0;
             width: rem(341px);
-            height: rem(341px);
-            margin-left: 0;
-            margin-top: -1rem;
+            left: 50%;
+            transform: translate(calc(-50% + .5px), calc(-50% + 11px));
           }
           &__image {
-            top: 0;
+            top: -10px;
             left: 50%;
             width: rem(233px);
             transform: translateX(-50%);
           }
         }
+      }
+    }
+    &__about {
+      h3 {
+        font-size: rem(20px);
+        line-height: 2rem;
+        margin-bottom: 4px;
       }
     }
     &__phases {
@@ -218,13 +267,13 @@
   @include respond-to(">=l") {
     &__phases-links {
       &__arrow { width: calc(100% - 120px) }
-      svg { transform: translate(60%,-50%) }
+      svg { transform: translate(calc(50% + 60.5px),-50%) }
     }
   }
   @include respond-to("<=l") {
     &__phases-links {
       &__arrow { width: calc(100% - 42px) }
-      svg { transform: translate(50%,-50%) }
+      svg { transform: translate(calc(50% - 7.5px),-50%) }
     }
   }
   @include respond-to(">s") {
@@ -289,7 +338,7 @@
       svg {
         top: calc(50% + 16px);
         left: 50%;
-        transform: translate(-50%, -50%);
+        transform: translate(calc(-50% - .5px), -50%);
       }
     }
   }
