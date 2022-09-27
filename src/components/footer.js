@@ -45,7 +45,7 @@ export default function Footer() {
             </div>
             <div className={styles.footer__top__content__information}>
               <Link href="/">
-                <a><img src="/logo--white.png" alt="Logo"/></a>
+                <a><img src="/logo--white.png" alt="Logo" className={styles.footer__top__content__information__logo}/></a>
               </Link>
               <ul>
                 <li>
@@ -69,10 +69,10 @@ export default function Footer() {
           </div>
         </Block>
       </Column>
-      <Column className={styles.footer__bottom}>
+      <Column className={styles.footer__bottom} modeXxl="full" modeXxxl="normal">
         <div className={styles.footer__bottom__sand}></div>
         <Block>
-          <span>© LKMX Software Development {year}.</span>
+          <div className={styles.footer__bottom__name}>© LKMX Software Development {year}.</div>
         </Block>
       </Column>
     </footer>

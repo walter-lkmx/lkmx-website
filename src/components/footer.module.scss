@@ -4,6 +4,9 @@
     li {
       color: $color-cyan;
     }
+    ul, li, h2, h3, p {
+      margin: 0;
+    }
   }
   background-color: $color-blue;
   &__top {
@@ -16,13 +19,24 @@
       &__pages {
         display: grid;
         grid-area: pages;
+        grid-template-columns: 1fr 1fr 1fr;
         grid-column-gap: 1rem;
         grid-row-gap: 1rem;
         > div {
+          display: grid;
+          grid-row-gap: rem(42px);
+          grid-auto-rows: min-content;
           --f-h3-text-margin: 0 0 42px 0;
           h3 {
             --f-h3-text-size: 36px;
             --f-h3-text-line-height: 32px;
+          }
+          ul {            
+            display: grid;
+            grid-row-gap: rem(10px);
+            li {
+              line-height: rem(20px);
+            }
           }
         }
       }
@@ -32,7 +46,7 @@
         grid-template-areas: "logo logo" "info social";
         grid-template-columns: 1fr auto;
         grid-row-gap: rem(27px);
-        grid-column-gap: rem(27px);
+        grid-column-gap: rem(20px);
         justify-items: end;
         padding: rem(73px) rem(10px) rem(10px);
         > a {
@@ -44,70 +58,106 @@
           grid-area: social;
           display: grid;
           grid-row-gap: 1rem;
+          grid-auto-rows: min-content;
+          padding-top: 1rem;
         }
         p {
           grid-area: info;
-          line-height: rem(30px);
-          margin-top: 1rem;
+          line-height: rem(28px);
         }
       }
     }
   }
   &__bottom {
-    --f-gutter: 7px;
     background-color: $color-neutral-black;
+    position: relative;
+    --f-gutter: 0;
     text-align: end;
     &__sand {
+      top: 0;
+      left: 0;
       position: absolute;
-      height: rem(44px);
+      height: rem(61px);
       background: url('/sand.png') repeat;
+      width: 33.3%;
     }
-    span {
-      line-height: rem(30px);
+    &__name {
+      padding: .5rem 1rem;
+      line-height: rem(28px);
+      background-color: $color-neutral-black;
+      width: max-content;
+      margin: auto;
+      margin-right: 0;
+    }
+    > div {
+      z-index: 1;
     }
   }
 
-  @include respond-to("<=l") {
+  // large 1200px
+  @include respond-to(">=xl") {
     &__top {
       &__content {
-        padding: rem(42px) rem(26px) rem(52px);
-        grid-template-columns: 1fr;
-        grid-template-areas: "information" "pages";
-        grid-row-gap: rem(36px);
+        padding: rem(42px) 1rem;
         &__pages {
-          grid-template-columns: repeat(3, 1fr);
-          grid-row-gap: rem(42px);
-          justify-items: start !important;
+          padding-top: rem(92px);
+          grid-template-columns: rem(221px) rem(223px) auto;
+        }
+        &__information {
+          p {
+            text-align: end;
+            align-self: end;
+            width: rem(413px);
+          }
+        }
+      }
+    }
+  }
+
+  // xlarge 1600px
+  @include respond-to(">=xxl") {
+    &__top {
+      &__content {
+        padding: rem(42px) 0;
+        &__pages {
+          padding-top: rem(92.38px);
+          grid-template-columns: rem(186px) rem(256px) rem(224px);
+          grid-column-gap: rem(50px);
           > div {
-            width: 100%;
-            padding: 0 1.5rem;
-            &:last-child, &:first-child {
-              padding: 0;
-              width: min-content;
-            }
-            &:last-child { justify-self: end }
             h3 {
-              --f-h3-text-size: 36px;
-              --f-h3-text-line-height: 32px;
-              margin-bottom: rem(26px);
+              font-size: rem(42px);
+              line-height: 2rem;
             }
           }
         }
         &__information {
-          padding: 0;
-          justify-items: start;
-          grid-template-areas: "logo" "social" "info";
-          grid-row-gap: 1rem;
-          p {
-            margin-top: rem(4px);
-            line-height: rem(28px);
-          }
-          ul {
-            grid-template-columns: repeat(3, auto);
-            grid-column-gap: 1rem;
-          }
+          grid-column-gap: rem(26px);
+          > a { width: rem(180px) }
+          ul { padding: 0 }
+          p { width: rem(338px) }
         }
       }
+    }
+    &__bottom__name {
+      padding: .5rem rem(120px);
+    }
+  }
+
+  // xxlarge 2560px
+  @include respond-to("xxxl") {
+    &__top {
+      &__content {
+        padding: rem(42px) rem(96px);
+        &__pages {
+          grid-template-columns: rem(221px) rem(256px) rem(220px);
+        }
+        &__information > p {
+          width: rem(363px);
+        }
+      }
+    }
+    &__bottom__name {
+      padding: .5rem rem(96px);
     }
   }
 
@@ -116,61 +166,37 @@
       &__content {
         &__pages {
           > div {
-            &:nth-child(2) { justify-self: center }
+            &:nth-child(2) { padding: 0 rem(25px) }
             &:last-child { justify-self: end }
-            h3 { margin-bottom: rem(42px) }
-          }
-        }
-        &__information {
-          padding: rem(10px) 0;
-          justify-items: start;
-          p {
-            text-align: start;
-            max-width: rem(400px);
-          }
+          } 
         }
       }
     }
   }
 
-  @include respond-to(">=xxl") {
+  // # 992px - 1199px
+  @include respond-to("<=l") {
     &__top {
       &__content {
+        grid-template-areas: "information" "pages";
+        grid-template-columns: 1fr;
+        grid-row-gap: rem(26px);
+        &__pages { padding: rem(10px) 0 }
         &__information {
-          grid-column-gap: 26px !important;
-          p {
-            margin-top: rem(20px);
-            width: rem(363px);
-          }
-        }
-      }
-    }
-  }
-  @include respond-to(">=xl") {
-    &__top {
-      &__content {
-        padding: rem(42px) 1rem;
-        grid-template-columns: max-content 1fr;
-        &__pages {
-          grid-template-columns: rem(221px) rem(223px) rem(220px);
-          grid-column-gap: 1rem;
-          padding-top: rem(92px);
-          > div {
-            h3 {
-              margin-bottom: rem(42px);
-            }
-          }
-        }
-        &__information {
-          padding-left: 0;
-          grid-row-gap: rem(48px);
-          grid-column-gap: 20px;
-          p {
-            text-align: end;
-            max-width: rem(413px) !important;
-          }
+          grid-template-columns: 1fr;
+          grid-template-areas: "logo" "social" "info";
+          grid-row-gap: 1rem;
+          padding: rem(10px) 0;
+          justify-items: start;
           ul {
-            grid-row-gap: 14px;
+            margin: 0;
+            padding: 0;
+            grid-template-columns: repeat(3, 1.5rem);
+            grid-column-gap: 1rem;
+          }
+          p {
+            width: rem(400px);
+            margin-top: rem(4px);
           }
         }
       }
@@ -180,93 +206,47 @@
     }
   }
 
-  @include respond-to(">=xxl") {
+  // # 768px
+  @include respond-to("<=s") {
     &__top {
       &__content {
-        max-width: 1408px;
-        margin: auto;
-        padding: rem(42px) 0;
+        grid-row-gap: rem(42px);
         &__pages {
-          grid-template-columns: rem(221px) rem(256px) rem(224px);
-          grid-column-gap: 50px;
-          > div {
-            h3 {
-              font-size: rem(42px);
-            }
-          }
-        }
-        &__information {
-          grid-row-gap: 27px !important;
-        }
-        &__information > a {
-          width: rem(180px);
-        }
-      }
-    }
-    &__bottom__sand {
-      width: rem(848px) !important;
-    }
-  }
-
-  @include respond-to("<=m") {
-    &__top__content {
-      padding-bottom: rem(42px);
-      grid-row-gap: rem(42px);
-      &__pages > div {
-        padding: 0;
-        padding-left: .5rem;
-        &:first-child, &:last-child { padding: 0 }
-        &:last-child { justify-self: start }
-      }
-    }
-  }
-
-  @include respond-to("<=s") {
-    &__top__content {
-      &__pages {
-        grid-template-columns: 1fr 1fr;
-        > div {
+          grid-template-columns: rem(246px) auto;
+          grid-row-gap: rem(42px);
+          grid-column-gap: rem(32px);
           padding: 0;
-          padding-left: .5rem;
+          > div { grid-row-gap: rem(26px) }
         }
-      }
-      &__information {
-        padding-left: 1rem;
-        padding: rem(10px) 0;
-        > div {
+        &__information > p {
           width: 100%;
         }
       }
     }
     &__bottom__sand {
-      width: rem(176px);
+      width: rem(174px);
     }
   }
 
+  // # 400px
   @include respond-to("<=xs") {
-    &__top__content {
-      grid-template-areas: "information" "pages";
-      &__pages {
-        grid-template-columns: 1fr;
-        > div {
-          padding: 0;
-        }
-      }
-      &__information {
-        padding: 0;
-        grid-template-columns: 1fr;
+    &__top {
+      &__content {
+        &__pages { grid-template-columns: 1fr }
+        &__information { padding: 0 }
       }
     }
-    &__bottom__sand {
-      max-width: rem(108px);
-      width: calc(100% - 286px);
+    &__bottom {
+      width: 100%;
+      &__sand {
+        width: calc(100% - 272px);
+        z-index: 0;
+      }
+      &__name {
+        z-index: 2;
+        background-color: $color-neutral-black;
+        padding: .5rem rem(10px);
+      }
     }
-  }
-
-  @include respond-to(">=m") {
-    &__bottom__sand { width: rem(414px) }
-  }
-  @include respond-to(">=l") {
-    &__bottom__sand { width: rem(400px) }
   }
 }
