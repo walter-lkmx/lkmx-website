@@ -1,5 +1,5 @@
 .contact {
-  $triangule-width: rem(139px);
+  $triangule-width: rem(155.23px);
   $hero-height: rem(591px);
   &__hero, &__about-us {
     > :first-child { background-color: $color-neutral-black }
@@ -19,13 +19,16 @@
     }
     &__left {
       align-self: end;
-      padding: rem(53px) 0;
+      padding: rem(63px) 0;
       h2 { font-family: $font-tertiary }
       p {
         font-size: 1.5rem;
         line-height: rem(34px);
         strong {
+          font-family: $font-secondary;
           font-size: rem(28px);
+          line-height: rem(36px);
+          letter-spacing: none;
           &:first-child { color: $color-cyan }
           &:last-child { color: $color-pink }
         }
@@ -61,19 +64,21 @@
         top: 0;
       }
       &__koi {
-        position: relative;
+        top: 0;
+        left: $triangule-width;
+        position: absolute;
+        overflow: hidden;
         height: 100%;
         display: grid;
-        width: calc(100% - 120px);
+        width: calc(100% - ($triangule-width * 2) - 120px);
+        height: rem(591px);
+        justify-items: center;
         &__img {
-          position: absolute;
-          width: 392px;
-          align-self: end;
-          left: 50%;
-          transform: translateX(-50%);
+          margin-top: rem(84px);
+          width: rem(392px);
         }
       }
-      &__koi-mobile, &__triangle-mobile, &__clouds-mobile {
+      &__triangle-mobile, &__clouds-mobile {
         display: none;
       }
       &__content {
@@ -87,7 +92,7 @@
       display: grid;
       max-width: rem(634px);
       margin: auto;
-      padding: rem(86px) 0;
+      padding: rem(87px) 0 rem(85px) 0;
       h3 {
         color: $color-blue;
         line-height: rem(36px);
@@ -247,7 +252,7 @@
         }
       }
       &__left {
-        padding-bottom: 4rem;
+        padding-bottom: rem(62px);
         p {
           font-size: 20px;
           line-height: 30px;
@@ -276,7 +281,7 @@
           font-size: rem(20px);
           line-height: rem(30px);
           margin: 0;
-          margin-bottom: rem(10px);
+          margin-bottom: .5rem;
           strong {
             font-size: rem(28px);
             line-height: rem(36px);
@@ -299,13 +304,15 @@
           }
         }
         &__koi {
-          justify-self: center;
           position: relative;
-          width: calc(100% - 200px);
+          margin: auto;
+          justify-self: center;
+          width: calc(100% - 264px);
+          left: 0;
           &__img {
-            position: absolute;
+            position: relative;
             width: 350px;
-            align-self: end;
+            margin-top: 153px;
           }
         }
         &__triangle {
@@ -369,7 +376,7 @@
         }
       }
       &__left {
-        padding: rem(40px) 0;
+        padding: rem(41px) 0 rem(40px) 0;
         p {
           width: 100%;
           max-width: none;
@@ -383,22 +390,37 @@
         }
       }
       &__right {
-        grid-template-columns: 1fr 92px 64px;
         overflow: hidden;
         position: relative;
         min-height: 350px;
         height: 350px;
         > div:first-child { display: none }
-        &__koi-mobile {
-          align-self: end;
-          margin-left: 1.5rem;
-          justify-self: center;
+        &__koi {
+          margin: 0;
+          justify-self: start;
+          z-index: 2;
+          position: relative;
+          width: calc(100% - 92px - 64px);
+          overflow: visible;
+          &__img {
+            position: absolute;
+            width: 202px;
+            height: 376.7px;
+            margin: 44px 0 0 26px;
+          }
         }
-        &__koi, &__clouds, &__triangle {
+        &__clouds, &__triangle {
           display: none;
         }
-        &__koi-mobile, &__triangle-mobile, &__clouds-mobile {
+        &__triangle-mobile, &__clouds-mobile {
           display: grid;
+          position: absolute;
+        }
+        &__triangle-mobile {
+          right: rem(64px);
+        }
+        &__clouds-mobile {
+          right: 0;
         }
       }
     }
