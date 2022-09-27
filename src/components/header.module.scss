@@ -21,12 +21,14 @@
         width: max-content;
         grid-auto-flow: column;
         justify-self: end;
-        grid-column-gap: 42px;
+        grid-column-gap: rem(43px);
         justify-items: end;
+        align-items: center;
         a {
           padding: 11px 8px;
-          text-align: center;
           width: min-content;
+          line-height: 1.5rem;
+          text-align: center;
         }
       }
     }
@@ -41,6 +43,13 @@
     }
   }
   @include respond-to(">=xxl") {
+    --f-gutter: 0;
+    &__content {
+      padding: 16px 0;
+      max-width: rem(1200px);
+    }
+  }
+  @include respond-to("xxxl") {
     &__content {
       max-width: rem(1200px);
       margin: auto;
