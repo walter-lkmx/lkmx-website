@@ -280,13 +280,15 @@
             }
         }
     }
-    @include respond-to("xxs") {
+    @include respond-to("<=xs") {
         &__hero__block__right {
             &__elipse {
                 right: 2rem;
                 top: -11px;
             }
         }
+    }
+    @include respond-to("xxs") {
         &__technologies__block__container {
             &__container {
                 max-width: none;
