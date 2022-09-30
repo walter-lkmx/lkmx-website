@@ -126,6 +126,12 @@ export default function ContactPage() {
           </Block>
         </Column>
 
+        <Column>
+          <Block>
+            <br/><br/><br/><br/>
+          </Block>
+        </Column>
+
       </Page>
     </BaseLayout>
   );

@@ -7,7 +7,6 @@ import styles from "./technology.module.scss";
 import technologies from '@/service/json/technologies'
 
 export default function TechnologyPage() {
-  console.log(technologies);
   return (
     <BaseLayout>
       <Page className={styles.technology}>
@@ -25,9 +24,7 @@ export default function TechnologyPage() {
           <Block className={styles.technology__hero__block}>
             <div className={styles.technology__hero__block__right}>
               <div></div>
-              <img src="/eliipse/half-ellipse.png" alt="ellipse" className={styles.technology__hero__block__right__elipse}/>
-              <img src="/eliipse/half-ellipse--medium.png" alt="ellipse" className={`${styles.technology__hero__block__right__elipse_medium}`}/>
-              <img src="/eliipse/half-ellipse--small.png" alt="ellipse" className={`${styles.technology__hero__block__right__elipse_small}`}/>
+              <img src="ellipse.png" alt="ellipse" className={styles.technology__hero__block__right__elipse}/>
             </div>
           </Block>
         </Column>
@@ -58,8 +55,8 @@ export default function TechnologyPage() {
                     {
                       rows.map((technology, indexColumn) => {
                         return (
-                          <div key={`technology-column-${indexColumn}`} style={{gridArea: `a${indexColumn}`}}>
-                            <img src={`technologies/${technology}`}/>
+                          <div key={`technology-column-${indexColumn}`} style={{gridArea: `a${indexColumn}` }}>
+                            <img src={`technologies/${technology}`} alt={technology}/>
                           </div>
                         )
                       })
