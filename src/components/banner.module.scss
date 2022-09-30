@@ -6,11 +6,11 @@
   justify-items: center;
   align-items: center;
   text-align: center;
-  &__triangle-right, &__triangle-right--medium, &__triangle-right--small, &__triangle-left {
+  &__triangle-right, &__triangle-right--medium, &__triangle-right--small, &__wave {
     top: 0;
     position: absolute;
   }
-  &__triangle-left {
+  &__wave {
     left: 0;
   }
   &__triangle-right, &__triangle-right--medium, &__triangle-right--small {
@@ -26,7 +26,7 @@
     padding: rem(42px) 0;
     --f-gutter: 0;
     &__triangle-right--small { display: block }
-    &__triangle-left { left: rem(-60px) }
+    &__wave { left: rem(-60px) }
   }
   @include respond-to("<=s") {
     justify-items: start;
@@ -37,7 +37,7 @@
     padding: rem(26px) 0;
     &__triangle-right--medium { display: block }
     &__triangle-right--small { display: none }
-    &__triangle-left {
+    &__wave {
       display: none;
     }
     &__content {

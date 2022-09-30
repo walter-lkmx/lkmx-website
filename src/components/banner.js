@@ -7,7 +7,7 @@ export default function Banner(props) {
 
   return (
     <div className={styles.banner}>
-      <img src="/bleed-left.png" alt="bleed-left" className={styles['banner__triangle-left']}/>
+      <img src="/wave.png" alt="wave" className={styles['banner__wave']}/>
       <Column modeXl="slim" modeS="full">
         <Block>
           <div className={styles.banner__content}>

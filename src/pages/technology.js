@@ -3,14 +3,71 @@ import BaseLayout from  "@/layouts/base-layout.js";
 import Page from "@flare-react/page";
 import Block from "@flare-react/block";
 import Column from "@flare-react/column";
+import styles from "./technology.module.scss";
+import technologies from '@/service/json/technologies'
 
 export default function TechnologyPage() {
+  console.log(technologies);
   return (
     <BaseLayout>
-      <Page>
-        <Column>
-          <Block>
-            <h1>Tencnología</h1>
+      <Page className={styles.technology}>
+        <Column number="2" numberS="1" className={styles.technology__hero} weight="right" weightS="Normal" modeXl="normal" modeL="full" modeM="full">
+          <Block className={styles.technology__hero__block}>
+            <div className={styles.technology__hero__block__left}>
+              <img src="/wave--blue.png" alt="wave" className={styles.technology__hero__block__left__wave}/>
+              <div>
+                <h2>TECNOLOGÍA</h2>
+                <p>Utilizamos tres principios al elegir nuestra tecnología: Agile, Cloud y Open-Source.</p>
+                <p>Nuestro <strong>STACK</strong> de tecnología se mantiene <strong>organizado</strong> y <strong>ACTUALIZADO</strong> por arquitectos de software con décadas de experiencia combinada.</p>
+              </div>
+            </div>
+          </Block>
+          <Block className={styles.technology__hero__block}>
+            <div className={styles.technology__hero__block__right}>
+              <div></div>
+              <img src="/eliipse/half-ellipse.png" alt="ellipse" className={styles.technology__hero__block__right__elipse}/>
+              <img src="/eliipse/half-ellipse--medium.png" alt="ellipse" className={`${styles.technology__hero__block__right__elipse_medium}`}/>
+              <img src="/eliipse/half-ellipse--small.png" alt="ellipse" className={`${styles.technology__hero__block__right__elipse_small}`}/>
+            </div>
+          </Block>
+        </Column>
+        <Column className={styles.technology__features}>
+          <Block className={styles.technology__features__block}>
+            <div className={styles.technology__features__block__content}>
+              <div>
+                <h3>AGILE</h3>
+                <p>Nuestras herramientas nos ayudan a alcanzar grandes velocidades de desarrollo.</p>
+              </div>
+              <div>
+                <h3>CLOUD</h3>
+                <p>Nuestro software es nativo de la nube y se integra sin dificultades en cualquier plataforma.</p>
+              </div>
+              <div>
+                <h3>OPEN SOURCE</h3>
+                <p>Somos expertos en open-source, lo conocemos y estudiamos antes de incorporarlo a nuestro software.</p>
+              </div>
+            </div>
+          </Block>
+        </Column>
+        <Column className={styles.technology__technologies}>
+          <Block className={styles.technology__technologies__block}>
+            <div className={styles.technology__technologies__block__container}>
+              {technologies.map((rows, indexRow) => {
+                return (
+                  <div key={`technology-row-${indexRow}`} className={`${styles.technology__technologies__block__container__row} ${styles[`row-${indexRow}`]}`}>
+                    {
+                      rows.map((technology, indexColumn) => {
+                        return (
+                          <div key={`technology-column-${indexColumn}`} style={{gridArea: `a${indexColumn}`}}>
+                            <img src={`technologies/${technology}`}/>
+                          </div>
+                        )
+                      })
+                    }
+                  </div>
+                )
+              })}
+            </div>
           </Block>
         </Column>
       </Page>

@@ -17,7 +17,7 @@ function getTeamList() {
 }
 
 export default function ContactPage() {
-  const pictures = getTeamList(require.context('/public/images', false, /\.(png|jpe?g|svg)$/));
+  const pictures = getTeamList();
   pictures.forEach((e, index) => {
     if((index + 1) % 10 == 0) {
       pictures.splice(index, 0, {fileNames: null, name: null});

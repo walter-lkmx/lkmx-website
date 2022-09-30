@@ -20,8 +20,8 @@ module.exports = {
     includePaths: [path.join(__dirname, 'src/styles')],
     prependData: `
       @import "style.scss";
-      @import "@flare-scss/responsiveness/respond_to";
-      @import "@flare-scss/rem";
+      @import "@lkmx/flare/src/responsiveness/respond_to";
+      @import "@lkmx/flare/src/rem";
     `
   }
 }
