@@ -1,12 +1,10 @@
 import React from "react";
 import BaseLayout from "@/layouts/base-layout.js";
-import Page from "@flare-react/page";
-import Block from "@flare-react/block";
-import Column from "@flare-react/column";
 import PhasesSvg from '@/assets/phases.svg';
 import PhasesMobileSvg from '@/assets/phases--mobile.svg';
 import Banner from '@/components/banner.js';
 import styles from "./services.module.scss";
+import { Block, Column, Page } from "@lkmx/flare-react";
 
 export default function ServicesPage() {
   return (

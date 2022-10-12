@@ -9,7 +9,8 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@lkmx/flare-react": "^0.1.4",
+    "@lkmx/flare": "^0.5.20",
+    "@lkmx/flare-react": "^0.1.7",
     "@svgr/webpack": "^6.3.1",
     "moment": "^2.29.4",
     "next": "12.2.3",
@@ -17,9 +18,5 @@
     "react-dom": "18.2.0",
     "react-onclickoutside": "^6.12.2",
     "react-transition-group": "^4.4.5"
-  },
-  "devDependencies": {
-    "eslint": "8.20.0",
-    "eslint-config-next": "12.2.3"
   }
 }

@@ -1,5 +1,5 @@
 import Document, { Html, Head, Main, NextScript } from 'next/document';
-import Body from '@flare-react/body'
+import { Body } from '@lkmx/flare-react';
 
 export default class MyDocument extends Document {
   render() {
@@ -10,7 +10,7 @@ export default class MyDocument extends Document {
         <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap" rel="stylesheet"/>
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;800&display=swap" rel="stylesheet"/>
       </Head>
-      <Body>
+        <Body>
           <Main/>
           <NextScript/>
         </Body>

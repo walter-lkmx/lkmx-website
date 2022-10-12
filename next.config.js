@@ -5,9 +5,7 @@ module.exports = {
     config.resolve = {
         alias: {
             ...config.resolve.alias,
-            "@": path.resolve(__dirname, 'src'),
-            "@flare-scss": path.resolve(__dirname, '/node_modules/@lkmx/flare/src'),
-            "@flare-react": path.resolve(__dirname, '/node_modules/@lkmx/flare-react/components')
+            "@": path.resolve(__dirname, 'src')
         }
     }
     config.module.rules.push({
@@ -19,9 +17,9 @@ module.exports = {
   sassOptions: {
     includePaths: [path.join(__dirname, 'src/styles')],
     prependData: `
-      @import "style.scss";
-      @import "@lkmx/flare/src/responsiveness/respond_to";
-      @import "@lkmx/flare/src/rem";
+    @import "@lkmx/flare/mixins"; // Flare mixins
+    @import "@lkmx/flare-react"; // Flare-react ui
+    @import "main.scss";
     `
   }
 }

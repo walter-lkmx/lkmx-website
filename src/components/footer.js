@@ -1,10 +1,8 @@
 import React from "react";
-import Block from "@flare-react/block";
-import Column from "@flare-react/column";
 import styles from "@/components/footer.module.scss";
 import Link from "next/link";
-
 import moment from "moment"; 
+import { Column, Block } from "@lkmx/flare-react";
 
 export default function Footer() {
   const year = moment().year();

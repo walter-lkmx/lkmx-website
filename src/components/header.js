@@ -1,6 +1,5 @@
 import React from "react";
-import Column from "@flare-react/column";
-import Block from "@flare-react/block";
+import { Column, Block } from "@lkmx/flare-react";
 import styles from "@/components/header.module.scss";
 import PagesLinks from "@/components/pages-links.js";
 import Link from "next/link";

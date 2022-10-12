@@ -1,9 +1,8 @@
 import React, { Component } from "react";
-import Column from "@flare-react/column";
-import Block from "@flare-react/block";
 import PagesLinks from "@/components/pages-links.js";
 import styles from "@/components/side-menu.module.scss";
 import onClickOutside from "react-onclickoutside";
+import { Column, Block } from "@lkmx/flare-react";
 
 class SideMenu extends Component {
 

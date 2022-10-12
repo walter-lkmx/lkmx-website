@@ -1,10 +1,8 @@
 import React from "react";
 import BaseLayout from  "@/layouts/base-layout.js";
-import Page from "@flare-react/page";
-import Block from "@flare-react/block";
-import Column from "@flare-react/column";
 import styles from "./technology.module.scss";
-import technologies from '@/service/json/technologies'
+import technologies from '@/service/json/technologies';
+import { Page, Block, Column} from "@lkmx/flare-react";
 
 export default function TechnologyPage() {
   return (
