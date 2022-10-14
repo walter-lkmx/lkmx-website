@@ -17,9 +17,9 @@ module.exports = {
   sassOptions: {
     includePaths: [path.join(__dirname, 'src/styles')],
     prependData: `
-    @import "@lkmx/flare/mixins"; // Flare mixins
-    @import "@lkmx/flare-react"; // Flare-react ui
-    @import "main.scss";
+      @import "@lkmx/flare/mixins"; // Flare mixins
+      @import "@lkmx/flare-react"; // Flare-react ui
+      @import "main.scss";
     `
   }
 }

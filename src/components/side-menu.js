@@ -27,7 +27,7 @@ class SideMenu extends Component {
         </Column>
         <Block className={styles.menu__body}>
           <PagesLinks className={styles.menu__body__links}/>
-          <img src="/mask-group.png" className={styles.menu__body__img}/>
+          <img src="/mask-group.png" alt="mask-group" className={styles.menu__body__img}/>
         </Block>
       </Column>
     );

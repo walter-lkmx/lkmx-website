@@ -9,9 +9,8 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@lkmx/flare": "^0.5.20",
     "@lkmx/flare-react": "^0.1.7",
-    "@svgr/webpack": "^6.3.1",
+    "@svgr/webpack": "^6.4.0",
     "gray-matter": "^4.0.3",
     "moment": "^2.29.4",
     "next": "12.2.3",
@@ -21,5 +20,9 @@
     "react-transition-group": "^4.4.5",
     "remark": "^14.0.2",
     "remark-html": "^15.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.25.0",
+    "eslint-config-next": "^12.3.1"
   }
 }
