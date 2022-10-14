@@ -1,0 +1,43 @@
+.carousel {
+  display: grid;
+  grid-template-rows: min-content;
+  grid-row-gap: 1rem;
+  height: min-content;
+  > div {
+    height: rem(577px);
+  }
+  &__list {
+    display: grid;
+    grid-auto-flow: column;
+    height: min-content !important;
+    > img {
+      height: rem(124px);
+      width: rem(124px);
+      padding: 1rem;
+    }
+    div {
+      display: grid;
+      align-items: center;
+      justify-items: center;
+      margin-left: rem(20px);
+      width: rem(44px);
+    }
+  }
+  @include respond-to("<=l") {
+    grid-column-gap: 1rem;
+  }
+  @include respond-to("<=s") {
+    grid-column-gap: rem(26px);
+    > div {
+      height: rem(258px);
+      background-size: 100% auto !important;
+    }
+    &__list {
+      div {
+        position: absolute;
+        height: 124px;
+        right: 0;
+      }
+    }
+  }
+}

@@ -4,11 +4,14 @@ import PhasesSvg from '@/assets/phases.svg';
 import PhasesMobileSvg from '@/assets/phases--mobile.svg';
 import Banner from '@/components/banner.js';
 import styles from "./services.module.scss";
+import Head from "next/head";
 import { Block, Column, Page } from "@lkmx/flare-react";
 
 export default function ServicesPage() {
   return (
     <BaseLayout>
+      <Head><title>Servicios</title></Head>
+
       <Page className={styles.page}>
 
         <Column number={2} numberS={1} className={styles.page__services} weight="right" weightS="Normal" modeXl="normal" modeL="full" modeM="full">

@@ -3,10 +3,12 @@ import BaseLayout from  "@/layouts/base-layout.js";
 import styles from "./technology.module.scss";
 import technologies from '@/service/json/technologies';
 import { Page, Block, Column} from "@lkmx/flare-react";
+import Head from "next/head";
 
 export default function TechnologyPage() {
   return (
     <BaseLayout>
+      <Head><title>Tecnología</title></Head>
       <Page className={styles.technology}>
         <Column number="2" numberS="1" className={styles.technology__hero} weight="right" weightS="Normal" modeXl="normal" modeL="full" modeM="full">
           <Block className={styles.technology__hero__block}>

@@ -1,9 +1,9 @@
 [
     [
-        "google-cloud.png",
+        "gcloud.png",
         "aws.png",
         "firebase.png",
-        "cloudflare.png",
+        "cloud-flare.png",
         "docker.png",
         "kubernetes.png",
         "ubuntu.png"
@@ -11,7 +11,7 @@
     [
         "rust.png",
         "java.png",
-        "nodejs.png",
+        "node--large.png",
         "mysql.png",
         "mariadb.png",
         "postgresql.png",
@@ -25,26 +25,26 @@
         "css.png",
         "javascript.png",
         "typescript.png",
-        "cordova.png",
+        "figma.png",
         "rest.png",
         "graphql.png"
     ],
     [
-        "spring-boot.png",
+        "spring.png",
         "gitlab.png",
         "github.png",
         "elasticsearch.png",
         "kibana.png",
-        "spask.png",
+        "apache-spark.png",
         "hadoop.png",
         "kafka.png"
     ],
     [
         "nginx.png",
-        "maven.png",
-        "apache-tomcat.png",
-        "gradle.png",
         "apache.png",
+        "tomcat.png",
+        "gradle.png",
+        "maven--large.png",
         "cordova.png",
         "npm.png",
         "tezos.png",
@@ -52,8 +52,8 @@
     ],
     [
         "postman.png",
-        "confluence.png",
-        "jira.png",
+        "confulence--large.png",
+        "jira--large.png",
         "openpay.png",
         "stripe.png",
         "shopify.png"

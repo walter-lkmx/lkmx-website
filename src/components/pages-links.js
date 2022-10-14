@@ -8,6 +8,7 @@ export default function PagesLinks(props) {
       <Link href="/services">Servicios</Link>
       <Link href="/methodology">Metodología</Link>
       <Link href="/technology">Tecnología</Link>
+      <Link href="/projects">Proyectos</Link>
       <Link href="/contact">Contacto</Link>
     </div>
   );

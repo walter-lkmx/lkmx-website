@@ -1,0 +1,140 @@
+.project {
+    position: relative;
+    display: grid;
+    grid-row-gap: rem(56px);
+
+    &__column {
+        &:first-child {
+            background-color: $color-neutral-black;
+            --f-gutter: 0;
+            position: -webkit-sticky;
+            position: sticky;
+            top: 0;
+            z-index: 5;
+        }
+        &__block {
+            > div > div {
+                height: 100%;
+            }
+            &__go-back {
+                height: rem(44px);
+                width: max-content;
+                padding: 0 1rem;
+                display: grid;
+                grid-template-columns: auto 1fr;
+                grid-column-gap: rem(10px);
+                align-items: center;
+                color: white;
+                &__clouds {
+                    position: absolute;
+                    top: 0;
+                    right: 0;
+                }
+            }
+            &__content {
+                display: grid;
+                grid-row-gap: rem(56px);
+                width: calc(100% - 8px);
+                padding-bottom: 2.5rem;
+                p { line-height: rem(28px) }
+                h3 { color: $color-blue }
+                &__headline {
+                    h2 {
+                        color: $color-pink;
+                        margin: 0;
+                        text-transform: uppercase;
+                    }
+                    p {
+                        font-size: rem(20px);
+                        line-height: rem(30px);
+                        margin: 0;
+                    }
+                }
+                &__info {
+                    display: grid;
+                    grid-template-columns: repeat(3, 1fr);
+                    h3 {
+                        font-size: rem(20px);
+                        line-height: rem(28px);
+                        margin: 0;
+                    }
+                    span { line-height: 28px }
+                }
+                &__description {
+                    h3 { color: $color-neutral-black }
+                    p {
+                        margin-bottom: 28px;
+                        &:last-child { margin: 0 }
+                    }
+                }
+                &__technologies {
+                    display: grid;
+                    grid-row-gap: rem(22px);
+                    h3 {
+                        text-transform: uppercase;
+                        font-size: 1.5rem;
+                        line-height: 2rem;
+                        margin: 0;
+                    }
+                    ul {
+                        display: grid;
+                        grid-row-gap: 1rem;
+                        li {
+                            margin: 0;
+                            display: grid;
+                            grid-template-columns: 165px 1fr;
+                            grid-column-gap: 1rem;
+                            div {
+                                img {
+                                    height: 3rem;
+                                    display: inline-block;
+                                    padding: .5rem;
+                                    vertical-align: middle;
+                                }
+                            }
+                            span {
+                                padding: .5rem 0;
+                                line-height: rem(28px);
+                            }
+                        }
+                    }
+                }
+            }
+            &__galery {
+                position: -webkit-sticky;
+                position: sticky;
+                top: 100px;
+                z-index: 4;
+            }
+        }
+    }
+    @include respond-to("<=s") {
+        grid-row-gap: 0;
+        &__column {
+            &:last-child {
+                grid-template-areas: "galety" "content";
+                .project__column__block {
+                    &:first-child { grid-area: content }
+                    &:last-child { grid-area: galety }
+                }
+            }
+            &__block {
+                &__content {
+                    &__technologies {
+                        ul {
+                            li {
+                                grid-template-columns: 90px 1fr;
+                            }
+                        }
+                    }
+                }
+                &__galery {
+                    position: -webkit-sticky;
+                    position: sticky;
+                    top: 100px;
+                    z-index: 4;
+                }
+            }
+        }
+    }
+}
