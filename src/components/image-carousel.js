@@ -1,23 +1,31 @@
-import React from "react";
+import React, { useState } from "react";
 import styles from './image-carousel.module.scss';
 
 function Carousel(props) {
+    let [images, setImages] = useState([...props.images]);
+
+    function nextImage() {
+        setImages(previousState => (
+            [...[previousState.pop()], ...previousState]
+        ));
+    }
+
+
     return (
         <div className={styles.carousel}>
-            <div style={
-                { background: `url('/projects/${props.proyjectName}/${props.images[0]}.png')` }
-            }/>
-
+            <div className={styles['carousel__selected-image']}>
+                <img src={`/projects/${props.proyjectName}/${images[2]}.png`}/>
+            </div>
             <div className={styles.carousel__list}>
                 {
-                    props.images.map(img => {
+                    images.map((img, index) => {
                         return (
-                            <img src={`/projects/${props.proyjectName}/${img}.png`} alt={img} key={img}/>
+                            <img src={`/projects/${props.proyjectName}/${img}.png`} alt={img} className={`${index == 2 ? styles.selected : ''}`} key={`image-key-${img}-${index}`}/>
                         )
                     })
                 }
                 <div>
-                    <a><img src="/chevron-right--blue.png" alt="chevron-right"/></a>
+                    <a onClick={() => nextImage()}><img src="/chevron-right--blue.png" alt="chevron-right"/></a>
                 </div>
             </div>
         </div>

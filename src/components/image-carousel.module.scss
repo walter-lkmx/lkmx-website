@@ -3,8 +3,10 @@
   grid-template-rows: min-content;
   grid-row-gap: 1rem;
   height: min-content;
-  > div {
-    height: rem(577px);
+  &__selected-image {
+    max-height: rem(577px);
+    overflow: hidden;
+    filter: drop-shadow(8px 8px 16px rgba(0, 0, 0, 0.08));
   }
   &__list {
     display: grid;
@@ -14,6 +16,10 @@
       height: rem(124px);
       width: rem(124px);
       padding: 1rem;
+      filter: drop-shadow(4px 4px 8px rgba(0, 0, 0, 0.08));
+      &.selected {
+        background-color: $color-bright-gray;
+      }
     }
     div {
       display: grid;
@@ -25,6 +31,20 @@
   }
   @include respond-to("<=l") {
     grid-column-gap: 1rem;
+    &__list {
+      position: relative;
+      overflow: hidden;
+      > img {
+        min-width: 124px;
+      }
+      div {
+        height: 100%;
+        position: absolute;
+        top: 0;
+        right: 0;
+        background: rgba(255, 255, 255, 0.6);
+      }
+    }
   }
   @include respond-to("<=s") {
     grid-column-gap: rem(26px);

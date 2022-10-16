@@ -3,10 +3,10 @@ import BaseLayout from "@/layouts/base-layout.js";
 import Link from "next/link";
 import Head from 'next/head';
 import { Block, Column, Page } from "@lkmx/flare-react";
-import { getSortedPostsData } from '@/lib/projects'
+import { getSortedProjectsData } from '@/lib/projects'
 import styles from "./index.module.scss";
 
-export default function ProjectsPage({ allPostsData }) {
+export default function ProjectsPage({ allProjectsData }) {
   return (
     <BaseLayout>
       <Head><title>Proyectos</title></Head>
@@ -19,7 +19,7 @@ export default function ProjectsPage({ allPostsData }) {
         <Column>
           <Block>
             <div className={styles.proyects__list}>
-              {allPostsData.map(item => (
+              {allProjectsData.map(item => (
                 <Link href={`/projects/${item.id}`} key={item.id}>
                   <a>
                     <h2>{item.title}</h2>
@@ -37,10 +37,10 @@ export default function ProjectsPage({ allPostsData }) {
 }
 
 export async function getStaticProps() {
-  const allPostsData = getSortedPostsData()
+  const allProjectsData = getSortedProjectsData()
   return {
     props: {
-      allPostsData
+      allProjectsData
     }
   }
 }
