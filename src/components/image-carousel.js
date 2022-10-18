@@ -4,6 +4,8 @@ import styles from './image-carousel.module.scss';
 function Carousel(props) {
     let [currentImage, setCurrentImage] = useState(props.images[0]);
     let [images, setImages] = useState([...props.images]);
+    let [touchStart, setTouchStart] = React.useState(0);
+    let [touchEnd, setTouchEnd] = React.useState(0);
 
     function nextImage() {
         setImages(previousState => (
@@ -21,9 +23,35 @@ function Carousel(props) {
         setCurrentImage(img);
     }
 
+    function handleTouchStart(e) {
+        if (e && e.targetTouches[0]) {
+            setTouchStart(e.targetTouches[0].clientX);
+        }
+    }
+
+    function handleTouchMove(e) {
+        if (e && e.targetTouches[0]) {
+            setTouchEnd(e.targetTouches[0].clientX);
+        }
+    }
+
+    function handleTouchEnd() {
+        let currentIndex = images.indexOf(currentImage);
+        let imageSize = images.length - 1;
+        if (touchStart < touchEnd) {
+            currentIndex--;
+            let newIndex = currentIndex < 0 ? imageSize : currentIndex;
+            setCurrentImage(images[newIndex]);
+        } else {
+            currentIndex++;
+            let newIndex = currentIndex > imageSize ? 0 : currentIndex;
+            setCurrentImage(images[newIndex]);
+        }
+    }
+
     return (
         <div className={styles.carousel}>
-            <div className={styles['carousel__selected-image']}>
+            <div className={styles['carousel__selected-image']} onTouchStart={e => handleTouchStart(e)} onTouchMove={e => handleTouchMove(e)} onTouchEnd={() => handleTouchEnd()}>
                 <img src={`/projects/${props.proyjectName}/${currentImage}.png`}/>
             </div>
             <div className={styles.carousel__list}>

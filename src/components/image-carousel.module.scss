@@ -27,8 +27,10 @@
         padding: 1rem;
         filter: drop-shadow(4px 4px 8px rgba(0, 0, 0, 0.08));
       }
-      &.selected > img {
-        background-color: $color-bright-gray;
+      a {
+        &.selected > img {
+          background-color: $color-bright-gray;
+        }
       }
     }
     &__previous, &__next {
