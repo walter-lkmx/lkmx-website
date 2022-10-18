@@ -4,7 +4,8 @@
   grid-row-gap: 1rem;
   height: min-content;
   &__selected-image {
-    max-height: rem(577px);
+    padding: 1rem;
+    height: rem(577px);
     overflow: hidden;
     filter: drop-shadow(8px 8px 16px rgba(0, 0, 0, 0.08));
   }
@@ -12,38 +13,53 @@
     display: grid;
     grid-auto-flow: column;
     height: min-content !important;
-    > img {
-      height: rem(124px);
-      width: rem(124px);
-      padding: 1rem;
-      filter: drop-shadow(4px 4px 8px rgba(0, 0, 0, 0.08));
-      &.selected {
+    justify-items: center;
+    position: relative;
+    overflow: hidden;
+    &__images {
+      display: grid;
+      grid-auto-flow: column;
+      img {
+        cursor: pointer;
+        height: rem(124px);
+        min-width: rem(124px);
+        max-width: rem(124px) !important;
+        padding: 1rem;
+        filter: drop-shadow(4px 4px 8px rgba(0, 0, 0, 0.08));
+      }
+      &.selected > img {
         background-color: $color-bright-gray;
       }
     }
-    div {
+    &__previous, &__next {
+      cursor: pointer;
+      position: absolute;
       display: grid;
       align-items: center;
       justify-items: center;
-      margin-left: rem(20px);
       width: rem(44px);
+      top: 0;
+      height: 100%;
+      background: rgba(255, 255, 255, 0.6);
+      z-index: 5;
+    }
+    &__next {
+      right: 0;
+    }
+    &__previous {
+      left: 0;
+      img {
+        -webkit-transform: rotate(180deg);
+        transform: rotate(180deg);
+      }
     }
   }
   @include respond-to("<=l") {
     grid-column-gap: 1rem;
-    &__list {
-      position: relative;
-      overflow: hidden;
-      > img {
-        min-width: 124px;
-      }
-      div {
-        height: 100%;
-        position: absolute;
-        top: 0;
-        right: 0;
-        background: rgba(255, 255, 255, 0.6);
-      }
+    padding: 1rem;
+    &__selected-image {
+      padding: 0;
+      height: rem(477px);
     }
   }
   @include respond-to("<=s") {
@@ -53,10 +69,23 @@
       background-size: 100% auto !important;
     }
     &__list {
-      div {
-        position: absolute;
-        height: 124px;
-        right: 0;
+      &__previous, &__next {
+        display: none;
+      }
+      img { display: none }
+      &__images {
+        display: grid;
+        grid-auto-flow: column;
+        grid-column-gap: 6px;
+        a {
+          background-color: $color-bright-gray;
+          width: 6.5px;
+          height: 6.5px;
+          border-radius: 50%;
+          &.selected {
+            background-color: $color-cyan;
+          }    
+        }
       }
     }
   }

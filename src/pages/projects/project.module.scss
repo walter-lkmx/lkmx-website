@@ -35,8 +35,8 @@
                 display: grid;
                 grid-template-columns: 1fr 1fr;
                 grid-column-gap: 1rem;
-                &__content, &__galery { padding: 1rem }
                 &__content {
+                    padding: 1rem;
                     display: grid;
                     grid-row-gap: rem(56px);
                     padding-bottom: 2.5rem;
@@ -106,17 +106,47 @@
                     }
                 }
                 &__galery {
-                    position: -webkit-sticky;
-                    position: sticky;
-                    top: 100px;
-                    z-index: 4;
+                    > div {
+                        position: -webkit-sticky;
+                        position: sticky;
+                        top: 44px;
+                        z-index: 4;
+                    }
                 }
             }
         }
     }
     @include respond-to("<=l") {
+        grid-row-gap: 1.5rem;
         &__column {
             &:last-child { --f-gutter: 16px }
+            &__block {
+                > div > div {
+                    height: 100%;
+                }
+                &__container {
+                    height: 100%;
+                    &__content {
+                        grid-row-gap: 1rem;
+                        &__headline {
+                            p {
+                                font-size: 1rem;
+                                line-height: rem(28px);
+                            }
+                        }
+                        &__info {
+                            padding: 20px 0;
+                            h3 {
+                                font-size: 1rem;
+                                line-height: 24px;
+                            }
+                        }
+                        &__technologies > ul {
+                            grid-row-gap: .5rem;
+                        }
+                    }
+                }
+            }
         }
     }
     @include respond-to("<=s") {
@@ -136,21 +166,23 @@
                     &__content {
                         grid-area: content;
                         grid-row-gap: rem(26px);
-                        &__headline {
-                            p {
-                                font-size: 1rem;
-                                line-height: rem(28px);
-                            }
+                        span {
+                            font-size: rem(14px);
+                            line-height: 1.5rem !important;
                         }
                         &__info {
-                            grid-template-columns: 1fr auto auto;
+                            padding: 0;
+                            grid-template-columns: auto auto auto;
                             grid-column-gap: .5rem;
                         }
-                        &__technologies {
-                            ul {
-                                li {
-                                    grid-template-columns: rem(90px) 1fr;
-                                    grid-column-gap: .5rem;
+                        &__technologies > ul {
+                            grid-row-gap: .5rem;
+                            li {
+                                grid-template-columns: rem(90px) 1fr;
+                                grid-column-gap: .5rem;
+                                span {
+                                    padding: .5rem 0;
+                                    height: min-content;
                                 }
                             }
                         }
@@ -158,9 +190,8 @@
                     &__galery {
                         background-color: white;
                         grid-area: galery;
-                        position: -webkit-sticky;
-                        position: relative;
-                        top: 0;
+                        position: sticky;
+                        top: rem(44px);
                     }
                 }
             }

@@ -94,7 +94,7 @@ export default function Project({ projectData }) {
                                     </div>
                                 </div>
                                 <div className={styles.project__column__block__container__galery}>
-                                    <ImageCarousel proyjectName={projectData.id} images={projectData.images}/>
+                                    <ImageCarousel proyjectName={projectData.id} images={projectData.images} className={styles.project__column__block__container__galery__content}/>
                                 </div>
                             </div>
                         </Block>
