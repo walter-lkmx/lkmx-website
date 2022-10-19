@@ -106,7 +106,7 @@
                         }
                     }
                 }
-                &__galery {
+                &__gallery {
                     > div {
                         position: -webkit-sticky;
                         position: sticky;
@@ -161,7 +161,7 @@
                 &__container {
                     padding-bottom: 0;
                     grid-template-columns: 1fr;
-                    grid-template-areas: "galery" "content";
+                    grid-template-areas: "gallery" "content";
                     h3 {
                         font-size: 1rem;
                         line-height: 1.5rem;
@@ -190,7 +190,7 @@
                             }
                         }
                     }
-                    &__galery { grid-area: galery }
+                    &__gallery { grid-area: gallery }
                 }
             }
         }

@@ -4,7 +4,7 @@ import { Block, Column, Page } from "@lkmx/flare-react";
 import { getAllProjectIds, getProjectData } from '@/lib/projects';
 import styles from "./project.module.scss";
 import Router from 'next/router';
-import ImageCarousel from "@/components/image-carousel";
+import Gallery from "@/components/gallery";
 
 const Logos = (props) => {
     return (
@@ -93,8 +93,8 @@ export default function Project({ projectData }) {
                                         </ul>
                                     </div>
                                 </div>
-                                <div className={styles.project__column__block__container__galery}>
-                                    <ImageCarousel proyjectName={projectData.id} images={projectData.images} className={styles.project__column__block__container__galery__content}/>
+                                <div className={styles.project__column__block__container__gallery}>
+                                    <Gallery proyjectName={projectData.id} images={projectData.images} className={styles.project__column__block__container__galery__content}/>
                                 </div>
                             </div>
                         </Block>
