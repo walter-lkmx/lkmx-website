@@ -74,7 +74,7 @@ function Gallery(props) {
                 </a>
             </div>
             <div className={styles['gallery__selected-image']} onTouchStart={e => handleTouchStart(e)} onTouchMove={e => handleTouchMove(e)} onTouchEnd={() => handleTouchEnd()}>
-                <img src={`/projects/${props.proyjectName}/${currentImage}.png`}/>
+                <img src={`/projects/${props.proyjectName}/${currentImage}.png`} alt="current-image"/>
             </div>
             <div className={styles.gallery__list}>
                 <div className={styles.gallery__list__previous}>
