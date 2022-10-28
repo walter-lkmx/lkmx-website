@@ -28,7 +28,7 @@ export default function TechnologyPage() {
             </div>
           </Block>
         </Column>
-        <Column className={styles.technology__features}>
+        <Column className={styles.technology__features} modeM="full">
           <Block className={styles.technology__features__block}>
             <div className={styles.technology__features__block__content}>
               <div>
