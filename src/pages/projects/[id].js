@@ -19,6 +19,13 @@ const Logos = (props) => {
     );
 }
 
+const Duration = (props) => {
+    const duration = `${props.data.startDate}${props.data.endDate ? ', ' + props.data.endDate : ''}`
+    return (
+        <span>{duration}</span>
+    );
+}
+
 export default function Project({ projectData }) {
     return (
         <BaseLayout>
@@ -55,7 +62,7 @@ export default function Project({ projectData }) {
                                         </div>
                                         <div>
                                             <h3>DURACIÓN</h3>
-                                            <span>{projectData.duration}</span>
+                                            <Duration data={projectData}/>
                                         </div>
                                     </div>
                                     <div className={styles.project__column__block__container__content__description} dangerouslySetInnerHTML={{ __html: projectData.contentHtml }}/>

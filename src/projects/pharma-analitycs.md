@@ -4,6 +4,8 @@ headline: 'Gestión de reportes y analíticas para farmacéutica con presencia e
 services: 'Agile Development'
 methodology: 'Scrum'
 duration: '2021, 2022'
+startDate: '2021'
+endDate: '2022'
 leguages: ['typescript', 'javascript', 'html', 'css', 'sass']
 frameworks: ['vue', 'react']
 tools: ['apache-spark']
