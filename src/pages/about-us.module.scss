@@ -20,7 +20,10 @@
     &__left {
       align-self: end;
       padding: rem(63px) 0;
-      h2 { font-family: $font-tertiary }
+      h2 {
+        font-family: $font-tertiary;
+        text-transform: uppercase;
+      }
       p {
         font-size: 1.5rem;
         line-height: rem(34px);

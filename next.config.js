@@ -21,5 +21,10 @@ module.exports = {
       @import "@lkmx/flare-react"; // Flare-react ui
       @import "main.scss";
     `
+  },
+  i18n: {
+    locales: ['en-US', 'es'],
+    defaultLocale: 'es',
+    localeDetection: false
   }
 }

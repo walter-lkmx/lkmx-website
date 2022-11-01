@@ -1,0 +1,84 @@
+{
+    "services": {
+        "title": "Services",
+        "hero": [
+            "As a",
+            "REAL ALTERNATIVE",
+            "to",
+            "STAFF-AUGMENTATION",
+            "we design custom software development services for companies with technology needs of any degree of complexity and timelines of any demand"
+        ],
+        "banner": [
+            "We specialize in building",
+            "SOFTWARE SOLUTIONS FROM SCRATCH",
+            "so our services cover all phases of the software life cycle",
+            "Our methodologies provide the greatest possible flexibility while keeping deliverables, timelines and costs under control"
+        ],
+        "phases": [
+            "Our solutions begin with a preliminary study of the challenges and objectives to be met. This will be the starting point for the success of the project.",
+            "Based on what we discover, we create amazing web and mobile experiences involving data management, big data, blockchain and artificial intelligence.",
+            "At the end of development we offer maintenance and support services for a successful stabilization and transfer of the platform."
+        ]
+    },
+    "contact": {
+        "title": "About us",
+        "headline": "OUR TEAM",
+        "hero": [
+            "We are a combination of",
+            "creative people",
+            "and",
+            "technology experts",
+            ". We connect our skills to build robust, flexible, scalable and secure software solutions."
+        ],
+        "banner": {
+            "title": [
+                "A SUM OF",
+                "ENGINEERS",
+                "ARTISTS",
+                "ANALYSTS",
+                "AND VISIONARIES MAKE UP OUR TEAM."
+            ],
+            "text": "Divided by areas, but interconnected through well-defined processes, we integrate a robust engineering team capable of operating at breakneck speeds."
+        },
+        "analysis": {
+            "title": "ANALYSIS",
+            "text": "They are in charge of orchestrating the capturing methodology, analyzing the requirements and communicating to the production areas of the company."
+        },
+        "design": {
+            "title": "DESIGN",
+            "text": "They create and standardize digital artifacts according to best practices that collaborate in the collection methodology and requirements analysis."
+        },
+        "development": {
+            "title": "DEVELOPMENT",
+            "text": "They apply software engineering techniques to create advanced technology effectively and efficiently."
+        },
+        "quality": {
+            "title": "QUALITY",
+            "text": "They ensure that software features meet defined specifications or exceed expectations."
+        }
+        ,
+        "reviews": [
+            "WHAT OUR PARTNERS",
+            "SAY",
+            "ABOUT US."
+        ]
+    },
+    "technology": {
+        "title": "Technology",
+        "hero": [
+            "We use three principles when choosing our technology: Agile, Cloud and Open Source.",
+            "Our technology",
+            "STACK",
+            "is kept",
+            "ORGANIZED",
+            "and",
+            "UP-TO-DATE",
+            "by software architects with decades of combined experience."
+        ],
+        "principles": [
+            "Our tools help us achieve high development speeds.",
+            "Our software is cloud-native and seamlessly integrates with any platform.",
+            "We are experts in open source, we know it and we study it before incorporating it into our software."
+        ]
+    }
+}

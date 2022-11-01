@@ -7,18 +7,18 @@ import styles from "./services.module.scss";
 import Head from "next/head";
 import { Block, Column, Page } from "@lkmx/flare-react";
 
-export default function ServicesPage() {
+export default function ServicesPage({$t}) {
   return (
     <BaseLayout>
-      <Head><title>Servicios</title></Head>
+      <Head><title>{$t.services.title}</title></Head>
 
       <Page className={styles.page}>
 
         <Column number={2} numberS={1} className={styles.page__services} weight="right" weightS="Normal" modeXl="normal" modeL="full" modeM="full">
           <Block>
             <div className={styles.page__services__content}>
-              <h2>SERVICIOS</h2>
-              <p>Como una <strong>ALTERNATIVA REAL</strong> al <strong>STAFF-AUGMENTATION</strong>, diseñamos servicios para el desarrollo de software a la medida para compañías con necesidades de tecnología de cualquier grado de complejidad y líneas de tiempo de cualquier demanda.</p>
+              <h2>{$t.services.title}</h2>
+              <p>{$t.services.hero[0]} <strong>{$t.services.hero[1]}</strong> {$t.services.hero[2]} <strong>{$t.services.hero[3]}</strong>, {$t.services.hero[4]}.</p>
             </div>
           </Block>
           <Block className={styles.page__services__dragon}>
@@ -34,15 +34,15 @@ export default function ServicesPage() {
         <Banner>
           <div className={styles.page__about}>
             <div>
-              <p>Nos especializamos en la construcción de</p>
+              <p>{$t.services.banner[0]}</p>
               <div>
-                <h3>SOLUCIONES DE SOFTWARE DESDE CERO,</h3>
+                <h3>{$t.services.banner[1]},</h3>
                 <p>
-                  por lo que nuestros servicios cubren todas las  fases del ciclo de vida del software.
+                  {$t.services.banner[2]}.
                 </p>
               </div>
             </div>
-            <p>Nuestras metodologías brindan la mayor flexibilidad posible mientras mantienen bajo control los entregables, plazos de tiempo y costos.</p>
+            <p>{$t.services.banner[3]}.</p>
           </div>
         </Banner>
 
@@ -63,17 +63,17 @@ export default function ServicesPage() {
             <div className={styles.page__phases__content}>
               <div>
                 <h4>DISCOVERY</h4>
-                <p>Nuestras soluciones comienzan mediante el estudio previo de los retos y los objetivos por cumplir. Este será el punto de inicio para el éxito del proyecto.</p>
+                <p>{$t.services.phases[0]}</p>
                 <img src="/arrow-right--pink.png" alt="arrow"/>
               </div>
               <div>
                 <h4>AGILE<br/>DEVELOPMENT</h4>
-                <p>Con base en lo que descubrimos, creamos increíbles experiencias web y móviles que involucran manejo de datos, big data, blockchain e inteligencia artificial.</p>
+                <p>{$t.services.phases[1]}</p>
                 <img src="/arrow-right--pink.png" alt="arrow"/>
               </div>
               <div>
                 <h4>AGILE MAINTENANCE, SCOPE DEV. & CONTINUOUS SUPPORT</h4>
-                <p>Al final del desarrollo ofrecemos servicios de mantenimiento y soporte para una estabilización y transferencia exitosa de la plataforma.</p>
+                <p>{$t.services.phases[2]}</p>
                 <img src="/arrow-right--pink.png" alt="arrow"/>
               </div>
             </div>

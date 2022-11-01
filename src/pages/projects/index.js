@@ -54,7 +54,7 @@ export default function WorkPage({ allProjectsData }) {
                     <p>{item.headline}</p>
                     <Link href={`/projects/${item.id}`} key={item.id}>
                       <a>
-                        <img src="arrow-left--pink.png" alt="arrow-left"/>
+                        <img src="/arrow-left--pink.png" alt="arrow-left"/>
                       </a>
                     </Link>
                   </div>

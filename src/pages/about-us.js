@@ -1,8 +1,9 @@
 import React from "react";
 import BaseLayout from "@/layouts/base-layout.js";
 import { Block, Column, Page } from "@lkmx/flare-react";
-import styles from "./contact.module.scss";
-import Carousel from "@/components/carousel.js"
+import styles from "@/pages/about-us.module.scss";
+import Carousel from "@/components/carousel.js";
+import Head from "next/head";
 
 function getTeamList() {
   let r = require.context('/public/images', false, /\.(png|jpe?g|svg)$/);
@@ -14,7 +15,7 @@ function getTeamList() {
   }).sort((a, b) => a.name.localeCompare(b.name));
 }
 
-export default function ContactPage() {
+export default function ContactPage({$t}) {
   const pictures = getTeamList();
   pictures.forEach((e, index) => {
     if((index + 1) % 10 == 0) {
@@ -24,13 +25,15 @@ export default function ContactPage() {
 
   return (
     <BaseLayout>
+      <Head><title>{$t.contact.title}</title></Head>
+
       <Page className={styles.contact}>
 
         <Column number={2} numberS={1} weight="right" weightS="Normal" modeXl="normal" modeL="full" modeM="full" className={styles.contact__hero}>
           <Block>
             <div className={styles.contact__hero__left}>
-              <h2>NUESTRO EQUIPO</h2>
-              <p>Somos una combinación de <strong>creativos</strong> y <strong>expertos</strong> en tecnología. Conectamos nuestras habilidades para construir soluciones de software robustas, flexibles, escalables y seguras.</p>
+              <h2>{$t.contact.headline}</h2>
+              <p>{$t.contact.hero[0]} <strong>{$t.contact.hero[1]}</strong> {$t.contact.hero[2]} <strong>{$t.contact.hero[3]}</strong>{$t.contact.hero[4]}</p>
             </div>
           </Block>
           <Block className={styles['contact__hero__block-right']}>
@@ -50,8 +53,8 @@ export default function ContactPage() {
         <Column>
           <Block className={styles.contact__banner}>
             <div className={styles.contact__banner__content}>
-              <h3>UNA SUMA DE <strong>INGENIEROS</strong>, <strong>ARTISTAS</strong>, <strong>ANALISTAS</strong> Y VISIONARIOS COMPONEN NUESTRO EQUIPO.</h3>
-              <p>Divididos por áreas, pero interconectados mediante bien definidos procesos, integramos un equipo de ingeniería robusto capaz de operar a velocidades escalofriantes.</p>
+              <h3>{$t.contact.banner.title[0]} <strong>{$t.contact.banner.title[1]}</strong>, <strong>{$t.contact.banner.title[2]}</strong>, <strong>{$t.contact.banner.title[3]}</strong> {$t.contact.banner.title[4]}</h3>
+              <p>{$t.contact.banner.text}</p>
             </div>
           </Block>
         </Column>
@@ -61,26 +64,26 @@ export default function ContactPage() {
             <div className={styles.contact__team__content}>
               <div className={styles.contact__team__content__card}>
                 <div>
-                  <h3>ANÁLISIS</h3>
-                  <p>Se encargan de orquestar la metodología de captura, analizar los requerimientos y comunicar a las áreas de producción de la empresa.</p>
+                  <h3>{$t.contact.analysis.title}</h3>
+                  <p>{$t.contact.analysis.text}</p>
                 </div>
               </div>
               <div className={styles.contact__team__content__card}>
                 <div>
-                  <h3>DISEÑO</h3>
-                  <p>Crean y estandarizan artefactos digitales apegados a buenas prácticas que colaboran en la metodología de captura y análisis de requerimientos.</p>
+                  <h3>{$t.contact.design.title}</h3>
+                  <p>{$t.contact.design.text}</p>
                 </div>
               </div>
               <div className={styles.contact__team__content__card}>
                 <div>
-                  <h3>DESARROLLO</h3>
-                  <p>Aplican técnicas de ingeniería de software para crear tecnología avanzada de manera efectiva y eficiente.</p>
+                  <h3>{$t.contact.development.title}</h3>
+                  <p>{$t.contact.development.text}</p>
                 </div>
               </div>
               <div className={styles.contact__team__content__card}>
                 <div>
-                  <h3>CALIDAD</h3>
-                  <p>Se aseguran de que las características del software cumplan las especificaciones definidas o superen las expectativas.</p>
+                  <h3>{$t.contact.quality.title}</h3>
+                  <p>{$t.contact.quality.text}</p>
                 </div>
               </div>
               {pictures.map((picture, index) => {
@@ -95,9 +98,9 @@ export default function ContactPage() {
         <Column number="2" numberS="1" modeXl="normal" modeL="full" weightXl="normal" weightL="right" weightM="normal" className={styles['contact__about-us']}>
           <Block className={styles['contact__about-us__block']}>
             <div className={styles['contact__about-us__block__left']}>
-              <h2>QUÉ DICEN</h2>
-              <h2>NUESTROS SOCIOS</h2>
-              <h2>DE NOSOTROS.</h2>
+              <h2>{$t.contact.reviews[0]}</h2>
+              <h2>{$t.contact.reviews[1]}</h2>
+              <h2>{$t.contact.reviews[2]}</h2>
             </div>
             <div className={styles['contact__about-us__block__triangule']}><div></div></div>
           </Block>

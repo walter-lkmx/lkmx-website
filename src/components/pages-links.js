@@ -9,7 +9,7 @@ export default function PagesLinks(props) {
       <Link href="/methodology">Metodología</Link>
       <Link href="/technology">Tecnología</Link>
       <Link href="/projects">Trabajo</Link>
-      <Link href="/contact">Contacto</Link>
+      <Link href="/about-us">Contacto</Link>
     </div>
   );
 }

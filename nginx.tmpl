@@ -30,6 +30,7 @@ http {
         listen       80;
         server_name  localhost;
 
+        sub_filter "base_path" "${BASE_PATH}";
         sub_filter "twitter_url" "${TWITTER_URL}";
         sub_filter "instagram_url" "${INSTAGRAM_URL}";
         sub_filter "linkedin_url" "${LINKEDIN_URL}";
