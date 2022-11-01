@@ -5,11 +5,12 @@ import technologies from '@/service/json/technologies';
 import { Page, Block, Column} from "@lkmx/flare-react";
 import Head from "next/head";
 import { ConfigContext } from "@/providers/config-provider";
+import getLang from '@/lang';
 
 export default function TechnologyPage() {
 
-  const [config, setConfig] = React.useContext(ConfigContext);
-  const $t = config.$t;
+  const { locale } = React.useContext(ConfigContext);
+  const $t = getLang(locale);
 
   return (
     <BaseLayout>

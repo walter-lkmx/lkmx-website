@@ -7,11 +7,12 @@ import styles from "./services.module.scss";
 import Head from "next/head";
 import { Block, Column, Page } from "@lkmx/flare-react";
 import { ConfigContext } from "@/providers/config-provider";
+import getLang from '@/lang';
 
 export default function ServicesPage() {
 
-  const [config, setConfig] = React.useContext(ConfigContext);
-  const $t = config.$t;
+  const { locale } = React.useContext(ConfigContext);
+  const $t = getLang(locale);
 
   return (
     <BaseLayout>

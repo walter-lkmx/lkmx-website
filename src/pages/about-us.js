@@ -5,6 +5,7 @@ import styles from "@/pages/about-us.module.scss";
 import Carousel from "@/components/carousel.js";
 import Head from "next/head";
 import { ConfigContext } from "@/providers/config-provider";
+import getLang from '@/lang';
 
 function getTeamList() {
   let r = require.context('/public/images', false, /\.(png|jpe?g|svg)$/);
@@ -17,8 +18,8 @@ function getTeamList() {
 }
 
 export default function ContactPage() {
-  const [config, setConfig] = React.useContext(ConfigContext);
-  const $t = config.$t;
+  const { locale } = React.useContext(ConfigContext);
+  const $t = getLang(locale);
 
   const pictures = getTeamList();
   pictures.forEach((e, index) => {
