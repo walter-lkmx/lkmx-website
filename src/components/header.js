@@ -1,10 +1,13 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Column, Block } from "@lkmx/flare-react";
 import styles from "@/components/header.module.scss";
 import PagesLinks from "@/components/pages-links.js";
 import Link from "next/link";
+import { ConfigContext } from "@/providers/config-provider";
+import getLang from '@/lang';
 
 export default function Header(props) {
+  const [config, setConfig] = React.useContext(ConfigContext);
 
   return (
     <header className={styles.header}>

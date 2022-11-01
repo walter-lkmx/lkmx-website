@@ -4,8 +4,13 @@ import styles from "./technology.module.scss";
 import technologies from '@/service/json/technologies';
 import { Page, Block, Column} from "@lkmx/flare-react";
 import Head from "next/head";
+import { ConfigContext } from "@/providers/config-provider";
 
-export default function TechnologyPage({$t}) {
+export default function TechnologyPage() {
+
+  const [config, setConfig] = React.useContext(ConfigContext);
+  const $t = config.$t;
+
   return (
     <BaseLayout>
       <Head><title>{$t.technology.title}</title></Head>

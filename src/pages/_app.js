@@ -1,10 +1,11 @@
 import '@lkmx/flare';
 import '@/styles/globals.scss';
-import  { useRouter } from 'next/router';
-import getLang from '@/lang';
+import ConfigProvider from '@/providers/config-provider';
 
 export default function App({ Component, pageProps }) {
-    let translations = getLang(useRouter().locale)
-
-    return <Component {...pageProps} $t={translations} />;
+    return (
+        <ConfigProvider>
+            <Component {...pageProps}/>
+        </ConfigProvider>
+    );
 }

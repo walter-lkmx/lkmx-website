@@ -4,6 +4,7 @@ import { Block, Column, Page } from "@lkmx/flare-react";
 import styles from "@/pages/about-us.module.scss";
 import Carousel from "@/components/carousel.js";
 import Head from "next/head";
+import { ConfigContext } from "@/providers/config-provider";
 
 function getTeamList() {
   let r = require.context('/public/images', false, /\.(png|jpe?g|svg)$/);
@@ -15,7 +16,10 @@ function getTeamList() {
   }).sort((a, b) => a.name.localeCompare(b.name));
 }
 
-export default function ContactPage({$t}) {
+export default function ContactPage() {
+  const [config, setConfig] = React.useContext(ConfigContext);
+  const $t = config.$t;
+
   const pictures = getTeamList();
   pictures.forEach((e, index) => {
     if((index + 1) % 10 == 0) {

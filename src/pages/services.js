@@ -6,8 +6,13 @@ import Banner from '@/components/banner.js';
 import styles from "./services.module.scss";
 import Head from "next/head";
 import { Block, Column, Page } from "@lkmx/flare-react";
+import { ConfigContext } from "@/providers/config-provider";
 
-export default function ServicesPage({$t}) {
+export default function ServicesPage() {
+
+  const [config, setConfig] = React.useContext(ConfigContext);
+  const $t = config.$t;
+
   return (
     <BaseLayout>
       <Head><title>{$t.services.title}</title></Head>
