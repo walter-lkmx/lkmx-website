@@ -22,7 +22,7 @@
         width: max-content;
         grid-auto-flow: column;
         justify-self: end;
-        grid-column-gap: rem(43px);
+        grid-column-gap: rem(42.72px);
         justify-items: end;
         align-items: center;
         a {
@@ -64,6 +64,9 @@
         display: grid;
         align-items: center;
         a { display: grid }
+        img{
+          height: rem(38.4px);
+        }
       }
       &__menu {
         display: grid;
