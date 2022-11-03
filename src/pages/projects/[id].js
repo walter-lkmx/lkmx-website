@@ -27,6 +27,8 @@ const Duration = (props) => {
 }
 
 export default function Project({ projectData }) {
+    const hasImages = projectData.images && projectData.images.length > 0;
+
     return (
         <BaseLayout>
             <Head>
@@ -45,7 +47,7 @@ export default function Project({ projectData }) {
                     </Column>
                     <Column numberS="1" modeM="full" className={styles.project__column}>
                         <Block className={styles.project__column__block}>
-                            <div className={styles.project__column__block__container}>
+                            <div className={`${styles.project__column__block__container}`}>
                                 <div className={styles.project__column__block__container__content}>
                                     <div className={styles.project__column__block__container__content__headline}>
                                         <h2>{projectData.title}</h2>
@@ -100,9 +102,12 @@ export default function Project({ projectData }) {
                                         </ul>
                                     </div>
                                 </div>
-                                <div className={styles.project__column__block__container__gallery}>
-                                    <Gallery proyjectName={projectData.id} images={projectData.images} className={styles.project__column__block__container__galery__content}/>
-                                </div>
+                                {
+                                    hasImages && 
+                                    <div className={styles.project__column__block__container__gallery}>
+                                        <Gallery proyjectName={projectData.id} images={projectData.images} className={styles.project__column__block__container__galery__content}/>
+                                    </div>
+                                }
                             </div>
                         </Block>
                     </Column>
