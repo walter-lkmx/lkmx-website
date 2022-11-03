@@ -164,8 +164,11 @@
       &:first-child { --f-gutter: 0 }
       &:last-child {
         --f-gutter: 32px;
+        > div{
+          width: auto;
+        }
         > div > div {
-          padding-right: 1rem;
+          padding-right: 1rem; 
         } 
       }
       &__left {
@@ -218,7 +221,7 @@
           }
           p {
             line-height: rem(28px);
-            margin: 10px 0 24px 0;
+            margin: 10px 0 27px 0;
           }
         }
       }
@@ -342,10 +345,12 @@
     }
     &__about-us {
       --f-golden-ratio: 1.61;
+      grid-template-columns: 1fr 2fr !important;
       &__block {
         &:first-child { --f-gutter: 32px }
         &:last-child { --f-gutter: 0 }
         &__left {
+          margin-top: rem(6.4px);
           h2 {
             font-size: rem(28px);
             line-height: rem(36px);
@@ -353,10 +358,13 @@
         }
         &__right {
           padding-right: 1rem;
+          > div{
+                grid-column-gap: 0.59rem;
+          }
           &__card {
             padding-top: 6px;
             > p {
-              margin-top: 4px;
+              margin-top: 10px;
               line-height: rem(28px);
             }
             div {
@@ -485,6 +493,7 @@
       background-color: $color-blue;
       padding-bottom: 4px;
       --f-golden-ratio: 1.61;
+      grid-template-columns: 1fr !important;
       &__block {
         &:first-child { --f-gutter: 56px }
         &:last-child { --f-gutter: 16px }
