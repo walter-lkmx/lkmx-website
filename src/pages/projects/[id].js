@@ -58,49 +58,55 @@ export default function Project({ projectData }) {
                                             <h3>SERVICIOS</h3>
                                             <span>{projectData.services}</span>
                                         </div>
-                                        <div>
-                                            <h3>METODOLOGÍA</h3>
-                                            <span>{projectData.methodology}</span>
-                                        </div>
+                                        {
+                                            projectData.methodology &&
+                                            <div>
+                                                <h3>METODOLOGÍA</h3>
+                                                <span>{projectData.methodology}</span>
+                                            </div>
+                                        }
                                         <div>
                                             <h3>DURACIÓN</h3>
                                             <Duration data={projectData}/>
                                         </div>
                                     </div>
                                     <div className={styles.project__column__block__container__content__description} dangerouslySetInnerHTML={{ __html: projectData.contentHtml }}/>
-                                    <div className={styles.project__column__block__container__content__technologies}>
-                                        <h3>Tecnologías</h3>
-                                        <ul>
-                                            {
-                                                projectData.leguages.length > 0 &&
-                                                <li>
-                                                    <span>Languages / Protocols</span>
-                                                    <Logos list={projectData.leguages}/>
-                                                </li>
-                                            }
-                                            {
-                                                projectData.frameworks.length > 0 &&
-                                                <li>
-                                                    <span>Frameworks / Libraries</span>
-                                                    <Logos list={projectData.frameworks}/>
-                                                </li>
-                                            }
-                                            {
-                                                projectData.tools.length > 0 &&
-                                                <li>
-                                                    <span>Tools</span>
-                                                    <Logos list={projectData.tools}/>
-                                                </li>
-                                            }
-                                            {
-                                                projectData.platforms.length > 0 &&
-                                                <li>
-                                                    <span>Platforms</span>
-                                                    <Logos list={projectData.platforms}/>
-                                                </li>
-                                            }
-                                        </ul>
-                                    </div>
+                                    {
+                                        projectData.leguages.length > 0 && projectData.frameworks.length > 0 && projectData.tools.length > 0 && projectData.platforms.length > 0 &&
+                                        <div className={styles.project__column__block__container__content__technologies}>
+                                            <h3>Tecnologías</h3>
+                                            <ul>
+                                                {
+                                                    projectData.leguages.length > 0 &&
+                                                    <li>
+                                                        <span>Languages / Protocols</span>
+                                                        <Logos list={projectData.leguages}/>
+                                                    </li>
+                                                }
+                                                {
+                                                    projectData.frameworks.length > 0 &&
+                                                    <li>
+                                                        <span>Frameworks / Libraries</span>
+                                                        <Logos list={projectData.frameworks}/>
+                                                    </li>
+                                                }
+                                                {
+                                                    projectData.tools.length > 0 &&
+                                                    <li>
+                                                        <span>Tools</span>
+                                                        <Logos list={projectData.tools}/>
+                                                    </li>
+                                                }
+                                                {
+                                                    projectData.platforms.length > 0 &&
+                                                    <li>
+                                                        <span>Platforms</span>
+                                                        <Logos list={projectData.platforms}/>
+                                                    </li>
+                                                }
+                                            </ul>
+                                        </div>
+                                    }
                                 </div>
                                 {
                                     hasImages && 
