@@ -9,7 +9,7 @@ import styles from "./index.module.scss";
 const Duration = (props) => {
   const duration = `${props.item.startDate}${props.item.endDate ? '-' + props.item.endDate : ''}`
   return (
-      <h3>{duration}</h3>
+      <h3>{duration} <br/>{props.item.aditionalDateInfo && props.item.aditionalDateInfo}</h3>
   );
 }
 
@@ -43,7 +43,14 @@ export default function WorkPage({ allProjectsData }) {
                 <Block className={styles.work__list__column__left}>
                   <div className={styles.work__list__column__left__content}>
                     <Duration item={item}/>
-                    <p>{item.services}</p>
+                    <ul>
+                        {
+                          item.services.length > 0 &&
+                          item.services.map((i, key) => (
+                            <li key={key}>{i}</li>
+                          ))
+                        }
+                    </ul>
                   </div>
                   <div className={styles.line}/>
                 </Block>

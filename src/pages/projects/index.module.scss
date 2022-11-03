@@ -94,6 +94,14 @@
                     grid-row-gap: 1rem;
                     h3, p { margin: 0 }
                     p { min-height: rem(72px) }
+                    ul {
+                        margin: 0;
+                        li {
+                            text-align: end;
+                            margin: 0;
+                            line-height: 1.5rem;
+                        }
+                    }
                 }
             }
             &__left {
@@ -154,6 +162,7 @@
         }
     }
     @include respond-to("<=s") {
+        --f-golden-ratio: 1.47;
         &__hero {
             height: auto;
             overflow: hidden;
@@ -188,7 +197,7 @@
                             font-size: rem(20px);
                             line-height: rem(28px);
                         }
-                        p { 
+                        p, li { 
                             min-height: auto;
                             font-size: rem(14px);
                             line-height: 1.5rem;

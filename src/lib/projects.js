@@ -28,7 +28,7 @@ export function getSortedProjectsData() {
   })
   // Sort posts by title
   return allProjectsData.sort((a, b) => {
-    return a.title > b.title ? 1 : -1;
+    return a.number > b.number ? 1 : -1;
   })
 }
 

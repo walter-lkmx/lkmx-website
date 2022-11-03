@@ -1,11 +1,13 @@
 ---
+number: 1
 title: 'Pharma Analitycs'
 headline: 'Gestión de reportes y analíticas para farmacéutica con presencia en México, Colombia y Centroamérica.'
-services: 'Agile Development'
+services: ['Agile Development']
 methodology: 'Scrum'
 duration: '2021, 2022'
 startDate: '2021'
 endDate: '2022'
+aditionalDateInfo:
 leguages: ['typescript', 'javascript', 'html', 'css', 'sass']
 frameworks: ['vue', 'react']
 tools: ['apache-spark']
