@@ -54,11 +54,11 @@
             &__left {
                 height: max-content;
                 display: grid;
-                grid-row-gap: 1rem;
+                grid-row-gap: 0.9rem;
                 align-self: end;
                 max-width: rem(347px);
                 padding: 1rem;
-                padding-bottom: rem(56px);
+                padding-bottom: rem(54.6px);
                 h2 {
                     font-family: $font-tertiary;
                     margin: 0;
@@ -71,8 +71,8 @@
                     strong {
                         font-size: 1.5rem;
                         line-height: 2rem;
-                        &:first-child { color: $color-cyan }
-                        &:last-child { color: $color-pink }
+                        &:first-child { color: $color-pink }
+                        &:last-child { color: $color-cyan }
                     }
                 }
             }
