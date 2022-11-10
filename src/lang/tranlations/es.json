@@ -79,5 +79,44 @@
             "Nuestro software es nativo de la nube y se integra sin dificultades en cualquier plataforma.",
             "Somos expertos en open-source, lo conocemos y estudiamos antes de incorporarlo a nuestro software."
         ]
+    },
+    "header": {
+        "module1": "SERVICIOS",
+        "module2": "METODOLOGÍA",
+        "module3": "TECNOLOGÍA",
+        "module4": "TRABAJO",
+        "module5": "CONTACTO"
+    },
+    "footer": {
+        "paragraph": "Prestamos servicios de ingeniería de software con nuestra sede en Ensenada, Baja California, México desde enero de 2014.",
+        "pages": {
+            "services": {
+                "title": "SERVICIOS",
+                "items": [
+                    "Nuestros Servicios",
+                    "Discovery",
+                    "Agile development",
+                    "Agile maintenance"
+                ]
+            },
+            "methodology": {
+                "title": "METODOLOGÍA",
+                "items": [
+                    "Ciclo de Vida",
+                    "MAAD",
+                    "Flare",
+                    "Ontología"
+                ]
+            },
+            "technology": {
+                "title": "TECNOLOGÍA",
+                "items": [
+                    "Lenguajes",
+                    "Frameworks",
+                    "Plataformas",
+                    "Herramientas"
+                ]
+            }
+        }
     }
 }

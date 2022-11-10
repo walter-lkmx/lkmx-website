@@ -1,6 +1,6 @@
 ---
 number: 1
-title: 'Pharma Analitycs'
+title: 'Sistema de análisis de datos para farmacéuticas'
 headline: 'Gestión de reportes y analíticas para farmacéutica con presencia en México, Colombia y Centroamérica.'
 services: ['Agile Development']
 methodology: 'Scrum'

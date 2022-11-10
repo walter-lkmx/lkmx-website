@@ -3,9 +3,13 @@ import styles from "@/components/footer.module.scss";
 import Link from "next/link";
 import moment from "moment"; 
 import { Column, Block } from "@lkmx/flare-react";
+import { ConfigContext } from "@/providers/config-provider";
+import getLang from '@/lang';
 
 export default function Footer() {
   const year = moment().year();
+  const { locale } = React.useContext(ConfigContext);
+  const $t = getLang(locale);
 
   return (
     <footer className={styles.footer}>
@@ -14,30 +18,30 @@ export default function Footer() {
           <div className={styles.footer__top__content}>
             <div className={styles.footer__top__content__pages}>
               <div>
-                <h3>SERVICIOS</h3>
+                <h3>{$t.footer.pages.services.title}</h3>
                 <ul>
-                  <li>Nuestros Servicios</li>
-                  <li>Discovery</li>
-                  <li>Agile Development</li>
-                  <li>Agile Maintenance</li>
+                  <li>{$t.footer.pages.services.items[0]}</li>
+                  <li>{$t.footer.pages.services.items[1]}</li>
+                  <li>{$t.footer.pages.services.items[2]}</li>
+                  <li>{$t.footer.pages.services.items[3]}</li>
                 </ul>
               </div>
               <div> 
-                <h3>METODOLOGÍA</h3>
+                <h3>{$t.footer.pages.methodology.title}</h3>
                 <ul>
-                  <li>Ciclo de Vida</li>
-                  <li>MAAD</li>
-                  <li>Flare</li>
-                  <li>Ontología</li>
+                  <li>{$t.footer.pages.methodology.items[0]}</li>
+                  <li>{$t.footer.pages.methodology.items[1]}</li>
+                  <li>{$t.footer.pages.methodology.items[2]}</li>
+                  <li>{$t.footer.pages.methodology.items[3]}</li>
                 </ul>
               </div>
               <div> 
-                <h3>TECNOLOGÍA</h3>
+                <h3>{$t.footer.pages.technology.title}</h3>
                 <ul>
-                  <li>Lenguajes</li>
-                  <li>Frameworks</li>
-                  <li>Plataformas</li>
-                  <li>Herramientas</li>
+                  <li>{$t.footer.pages.technology.items[0]}</li>
+                  <li>{$t.footer.pages.technology.items[1]}</li>
+                  <li>{$t.footer.pages.technology.items[2]}</li>
+                  <li>{$t.footer.pages.technology.items[3]}</li>
                 </ul>
               </div>
             </div>
@@ -62,7 +66,7 @@ export default function Footer() {
                   </Link>
                 </li>
               </ul>
-              <p>Prestamos servicios de ingeniería de software con nuestra sede en Ensenada, Baja California, México desde enero de 2014.</p>
+              <p>{$t.footer.paragraph}</p>
             </div>
           </div>
         </Block>

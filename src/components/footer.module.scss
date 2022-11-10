@@ -53,7 +53,7 @@
         > a {
           grid-area: logo;
           width: rem(140px);
-          margin-top: rem(2px);
+          margin-top: rem(4px);
         }
         ul {
           --f-list-item-margin: 0;
@@ -100,9 +100,9 @@
   @include respond-to(">=xl") {
     &__top {
       &__content {
-        padding: rem(42px) 1rem;
+        padding: rem(39.52px) 1rem;
         &__pages {
-          padding-top: rem(92px);
+          padding-top: rem(96px);
           grid-template-columns: rem(221px) rem(223px) auto;
         }
         &__information {

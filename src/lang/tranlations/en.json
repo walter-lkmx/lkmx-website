@@ -80,5 +80,44 @@
             "Our software is cloud-native and seamlessly integrates with any platform.",
             "We are experts in open source, we know it and we study it before incorporating it into our software."
         ]
+    },
+    "header":{
+        "module1": "SERVICES",
+        "module2": "METHODOLOGY",
+        "module3": "TECHNOLOGY",
+        "module4": "WORK",
+        "module5": "CONTACT"
+    },
+    "footer": {
+        "paragraph": "We have been providing software engineering services from our headquarters in Ensenada, Baja California, Mexico since January 2014.",
+        "pages": {
+            "services": {
+                "title": "SERVICES",
+                "items": [
+                    "Our Services",
+                    "Discovery",
+                    "Agile development",
+                    "Agile maintenance"
+                ]
+            },
+            "methodology": {
+                "title": "METHODOLOGY",
+                "items": [
+                    "Life Cycle",
+                    "MAAD",
+                    "Flare",
+                    "Ontology"
+                ]
+            },
+            "technology": {
+                "title": "TECHNOLOGY",
+                "items": [
+                    "Languages",
+                    "Frameworks",
+                    "Platforms",
+                    "Tools"
+                ]
+            }
+        }
     }
 }
