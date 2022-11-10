@@ -1,7 +1,7 @@
 ---
 number: 1
 title: 'Sistema de análisis de datos para farmacéuticas'
-headline: 'Gestión de reportes y analíticas para farmacéutica con presencia en México, Colombia y Centroamérica.'
+headline: 'Sistema de gestión y análisis de datos masivos para la generación de reportes a medida y su consulta en tiempo real.'
 services: ['Agile Development']
 methodology: 'Scrum'
 duration: '2021, 2022'
