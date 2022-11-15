@@ -271,6 +271,15 @@
       }
     }
   }
+  @include respond-to("l"){
+    &__about-us{
+      &__block{
+        &__left{
+          width: 379px;
+        }
+      }
+    }
+  }
 
   @include respond-to("<=l") {
     &__hero {

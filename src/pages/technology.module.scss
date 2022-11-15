@@ -29,6 +29,7 @@
                 align-items: end;
                 div {
                     padding-bottom: rem(55px);
+                    z-index: 2;
                     h2 {
                         font-family: $font-tertiary;
                         font-size: rem(40px);
