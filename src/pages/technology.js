@@ -19,7 +19,6 @@ export default function TechnologyPage() {
         <Column number="2" numberS="1" className={styles.technology__hero} weight="right" weightS="Normal" modeXl="normal" modeL="full" modeM="full">
           <Block className={styles.technology__hero__block}>
             <div className={styles.technology__hero__block__left}>
-              <img src="/wave--blue.png" alt="wave" className={styles.technology__hero__block__left__wave}/>
               <div>
                 <h2>{$t.technology.title}</h2>
                 <p>{$t.technology.hero[0]}</p>

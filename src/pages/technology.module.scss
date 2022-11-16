@@ -29,7 +29,7 @@
                 align-items: end;
                 div {
                     padding-bottom: rem(55px);
-                    z-index: 2;
+                    
                     h2 {
                         font-family: $font-tertiary;
                         font-size: rem(40px);
@@ -50,11 +50,6 @@
                             &:last-child { color: $color-pink }
                         }
                     }
-                }
-                &__wave {
-                    position: absolute;
-                    top: 0;
-                    left: 0;
                 }
             }
             &__right {
@@ -145,7 +140,6 @@
                 &__left {
                     padding: rem(32px) 0 rem(41px) rem(32px);
                     div { padding: 0 }
-                    &__wave { display: none }
                 }
                 &__right {
                     div {
@@ -219,7 +213,6 @@
                             }
                         }
                     }
-                    &__wave { display: none }
                 }
                 &__right {
                     height: 350px;
