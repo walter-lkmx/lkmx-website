@@ -54,10 +54,6 @@
     }
     &__previous {
       left: 0;
-      img {
-        -webkit-transform: rotate(180deg);
-        transform: rotate(180deg);
-      }
     }
   }
   @include respond-to("<=l") {

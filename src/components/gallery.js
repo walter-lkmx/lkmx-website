@@ -70,7 +70,7 @@ function Gallery(props) {
         <div className={`${styles.gallery} ${isOpenImage ? styles.fullScreen : ''}`}>
             <div className={styles.gallery__close}>
                 <a onClick={() => hideImage()}>
-                    <img src="/icon-close--white.png" alt="close" style={{width: '24px', height: '24px'}}/>
+                    <img src="/icons/close-white.svg" alt="close" style={{width: '24px', height: '24px'}}/>
                 </a>
             </div>
             <div className={styles['gallery__selected-image']} onTouchStart={e => handleTouchStart(e)} onTouchMove={e => handleTouchMove(e)} onTouchEnd={() => handleTouchEnd()}>
@@ -78,7 +78,7 @@ function Gallery(props) {
             </div>
             <div className={styles.gallery__list}>
                 <div className={styles.gallery__list__previous}>
-                    <a onClick={() => previousImage()}><img src="/chevron-right--blue.png" alt="chevron-right"/></a>
+                    <a onClick={() => previousImage()}><img src="/icons/chevron-left--blue.svg" alt="chevron-right"/></a>
                 </div>
                 <div className={styles.gallery__list__images}>
                     {
@@ -92,7 +92,7 @@ function Gallery(props) {
                     }
                 </div>
                 <div className={styles.gallery__list__next}>
-                    <a onClick={() => nextImage()}><img src="/chevron-right--blue.png" alt="chevron-right"/></a>
+                    <a onClick={() => nextImage()}><img src="/icons/chevron-right--blue.svg" alt="chevron-right"/></a>
                 </div>
             </div>
         </div>
