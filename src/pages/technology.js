@@ -29,7 +29,7 @@ export default function TechnologyPage() {
           <Block className={styles.technology__hero__block}>
             <div className={styles.technology__hero__block__right}>
               <div></div>
-              <img src="/ellipse.png" alt="ellipse" className={styles.technology__hero__block__right__elipse}/>
+              <img src="/circle--pink.svg" alt="ellipse" className={styles.technology__hero__block__right__elipse}/>
             </div>
           </Block>
         </Column>

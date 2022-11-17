@@ -1,61 +1,61 @@
 [
     [
-        "gcloud.png",
-        "aws.png",
-        "firebase.png",
-        "cloud-flare.png",
+        "gcloud.svg",
+        "aws.svg",
+        "firebase.svg",
+        "cloudflare.svg",
         "docker.png",
-        "kubernetes.png",
-        "ubuntu.png"
+        "kubernetes.svg",
+        "ubuntu.svg"
     ],
     [
-        "rust.png",
-        "java.png",
-        "node--large.png",
-        "mysql.png",
-        "mariadb.png",
-        "postgresql.png",
-        "mongodb.png"
+        "rust.svg",
+        "java.svg",
+        "node.svg",
+        "mysql.svg",
+        "mariadb.svg",
+        "postgresql.svg",
+        "mongodb.svg"
     ],
     [
-        "vue.png",
-        "react.png",
-        "svelte.png",
-        "html.png",
-        "css.png",
-        "javascript.png",
-        "typescript.png",
-        "figma.png",
-        "rest.png",
-        "graphql.png"
+        "vue.svg",
+        "react.svg",
+        "svelte.svg",
+        "html.svg",
+        "css.svg",
+        "javascript.svg",
+        "typescript.svg",
+        "figma.svg",
+        "rest.svg",
+        "graphql.svg"
     ],
     [
-        "spring.png",
-        "gitlab.png",
-        "github.png",
-        "elasticsearch.png",
-        "kibana.png",
-        "apache-spark.png",
-        "hadoop.png",
-        "kafka.png"
+        "spring.svg",
+        "gitlab.svg",
+        "github.svg",
+        "elasticsearch.svg",
+        "kibana.svg",
+        "apache-spark.svg",
+        "hadoop.svg",
+        "kafka.svg"
     ],
     [
-        "nginx.png",
-        "apache.png",
-        "tomcat.png",
-        "gradle.png",
-        "maven--large.png",
+        "nginx.svg",
+        "apache.svg",
+        "tomcat.svg",
+        "gradle.svg",
+        "maven.svg",
         "cordova.png",
-        "npm.png",
-        "tezos.png",
-        "cosmos.png"
+        "npm.svg",
+        "tezos.svg",
+        "cosmos.svg"
     ],
     [
-        "postman.png",
-        "confulence--large.png",
-        "jira--large.png",
-        "openpay.png",
-        "stripe.png",
-        "shopify.png"
+        "postman.svg",
+        "confluence.svg",
+        "jira.svg",
+        "openpay.svg",
+        "stripe.svg",
+        "shopify.svg"
     ]
 ]

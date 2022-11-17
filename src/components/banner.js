@@ -6,7 +6,7 @@ export default function Banner(props) {
 
   return (
     <div className={styles.banner}>
-      <img src="/wave.png" alt="wave" className={styles['banner__wave']}/>
+      <img src="/triangles/triangle-waves--left.svg" alt="wave" className={styles['banner__wave']}/>
       <Column modeXl="slim" modeS="full">
         <Block>
           <div className={styles.banner__content}>
@@ -14,9 +14,9 @@ export default function Banner(props) {
           </div>
         </Block>
       </Column>
-      <img src="/triangle/blue/triangle.png" alt="triangle" className={styles['banner__triangle-right']}/>
-      <img src="/triangle/blue/triangle--medium.png" alt="triangle" className={styles['banner__triangle-right--medium']}/>
-      <img src="/triangle/blue/triangle--small.png" alt="triangle" className={styles['banner__triangle-right--small']}/>
+      <img src="/triangles/triangle-code--blue--right.svg" alt="triangle" className={styles['banner__triangle-right']}/>
+      <img src="/triangles/triangle-code--blue--right--small.svg" alt="triangle" className={styles['banner__triangle-right--medium']}/>
+      <img src="/triangles/triangle-code--blue--right--small.svg" alt="triangle" className={styles['banner__triangle-right--small']}/>
     </div>
   );
 

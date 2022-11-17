@@ -30,8 +30,8 @@ export default function ServicesPage() {
           <Block className={styles.page__services__dragon}>
             <div className={styles.page__services__dragon__content}>
               <div>
-                <img src="/ellipse.png" alt="ellipse" className={styles.page__services__dragon__content__elipse}/>
-                <img src="/dragon.png" alt="dragon" className={styles.page__services__dragon__content__image}/>
+                <img src="/circle--pink.svg" alt="ellipse" className={styles.page__services__dragon__content__elipse}/>
+                <img src="/dragon.svg" alt="dragon" className={styles.page__services__dragon__content__image}/>
               </div>
             </div>
           </Block>
@@ -70,17 +70,17 @@ export default function ServicesPage() {
               <div>
                 <h4>DISCOVERY</h4>
                 <p>{$t.services.phases[0]}</p>
-                <img src="/arrow-right--pink.png" alt="arrow"/>
+                <img src="/icons/arrow-right--pink.svg" alt="arrow"/>
               </div>
               <div>
                 <h4>AGILE<br/>DEVELOPMENT</h4>
                 <p>{$t.services.phases[1]}</p>
-                <img src="/arrow-right--pink.png" alt="arrow"/>
+                <img src="/icons/arrow-right--pink.svg" alt="arrow"/>
               </div>
               <div>
                 <h4>AGILE MAINTENANCE, SCOPE DEV. & CONTINUOUS SUPPORT</h4>
                 <p>{$t.services.phases[2]}</p>
-                <img src="/arrow-right--pink.png" alt="arrow"/>
+                <img src="/icons/arrow-right--pink.svg" alt="arrow"/>
               </div>
             </div>
           </Block>

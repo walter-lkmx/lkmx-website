@@ -45,16 +45,16 @@ export default function ContactPage() {
             <div className={styles.contact__hero__right}>
               <div><div></div></div>
               <div className={styles.contact__hero__right__koi}>
-                <img src="/koi-swimming.png" alt="koi-swimming" className={styles.contact__hero__right__koi__img}/>
+                <img src="/koi-swimming.svg" alt="koi-swimming" className={styles.contact__hero__right__koi__img}/>
               </div>
-              <img src="/triangle/red/triangle.png" alt="triangle" className={styles.contact__hero__right__triangle}/>
-              <img src="/triangle/red/triangle--small.png" alt="triangle" className={styles['contact__hero__right__triangle-mobile']}/>
-              <img src="/clouds--large.png" alt="clouds--large" className={styles.contact__hero__right__clouds}/>
-              <img src="/clouds--small.png" alt="clouds--small" className={styles['contact__hero__right__clouds-mobile']}/>
+              <img src="/triangles/triangle-code--pink--right.svg" alt="triangle" className={styles.contact__hero__right__triangle}/>
+              <img src="/triangles/triangle-code--pink--right--small.svg" alt="triangle" className={styles['contact__hero__right__triangle-mobile']}/>
+              <div className={styles.contact__hero__right__clouds}></div>
+              <div alt="clouds--small" className={styles['contact__hero__right__clouds-mobile']}></div>
             </div>
           </Block>
         </Column>
-
+        
         <Column>
           <Block className={styles.contact__banner}>
             <div className={styles.contact__banner__content}>
