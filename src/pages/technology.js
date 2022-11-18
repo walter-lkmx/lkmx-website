@@ -6,6 +6,8 @@ import { Page, Block, Column} from "@lkmx/flare-react";
 import Head from "next/head";
 import { ConfigContext } from "@/providers/config-provider";
 import getLang from '@/lang';
+import siteMetadata from "../meta/siteMetadata"
+import HeadSeo from "../components/HeadSeo"
 
 export default function TechnologyPage() {
 
@@ -14,7 +16,14 @@ export default function TechnologyPage() {
 
   return (
     <BaseLayout>
-      <Head><title>{$t.technology.title}</title></Head>
+      <HeadSeo
+        title={$t.technology.title}
+        description={`Descripción de TechnologyPage`}
+        canonicalUrl={siteMetadata.siteUrl}
+        ogImageUrl={"https://iili.io/H9S6dIj.jpg"}
+        ogTwitterImage={`https://iili.io/H9S6dIj.jpg`}
+        ogType={siteMetadata.ogType}
+      />
       <Page className={styles.technology}>
         <Column number="2" numberS="1" className={styles.technology__hero} weight="right" weightS="Normal" modeXl="normal" modeL="full" modeM="full">
           <Block className={styles.technology__hero__block}>

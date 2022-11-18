@@ -6,6 +6,8 @@ import Carousel from "@/components/carousel.js";
 import Head from "next/head";
 import { ConfigContext } from "@/providers/config-provider";
 import getLang from '@/lang';
+import siteMetadata from "../meta/siteMetadata"
+import HeadSeo from "../components/HeadSeo"
 
 function getTeamList() {
   let r = require.context('/public/images', false, /\.(png|jpe?g|svg)$/);
@@ -30,7 +32,14 @@ export default function ContactPage() {
 
   return (
     <BaseLayout>
-      <Head><title>{$t.contact.title}</title></Head>
+      <HeadSeo
+        title={$t.contact.title}
+        description={`Descripción de AboutUsPage`}
+        canonicalUrl={siteMetadata.siteUrl}
+        ogImageUrl={"https://iili.io/H9S6dIj.jpg"}
+        ogTwitterImage={`https://iili.io/H9S6dIj.jpg`}
+        ogType={siteMetadata.ogType}
+      />
 
       <Page className={styles.contact}>
 

@@ -8,6 +8,8 @@ import Head from "next/head";
 import { Block, Column, Page } from "@lkmx/flare-react";
 import { ConfigContext } from "@/providers/config-provider";
 import getLang from '@/lang';
+import siteMetadata from "../meta/siteMetadata"
+import HeadSeo from "../components/HeadSeo"
 
 export default function ServicesPage() {
 
@@ -16,7 +18,14 @@ export default function ServicesPage() {
 
   return (
     <BaseLayout>
-      <Head><title>{$t.services.title}</title></Head>
+      <HeadSeo
+        title={$t.services.title}
+        description={`Descripción de ServicesPage`}
+        canonicalUrl={siteMetadata.siteUrl}
+        ogImageUrl={"https://iili.io/H9S6dIj.jpg"}
+        ogTwitterImage={`https://iili.io/H9S6dIj.jpg`}
+        ogType={siteMetadata.ogType}
+      />
 
       <Page className={styles.page}>
 
