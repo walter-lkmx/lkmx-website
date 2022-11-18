@@ -217,12 +217,20 @@
         }
     }
     @include respond-to("<=xs"){
-        &__list{
-            &__column{ grid-template-rows: auto 1fr;
-                &__left, &__right{
-                    &__content{
-                        
-                        p{
+        &__hero {
+            &__block {
+                &:last-child {
+                    .code {
+                        background-position: 0% 12%;
+                    }
+                }
+            }
+        }
+        &__list {
+            &__column { grid-template-rows: auto 1fr;
+                &__left, &__right {
+                    &__content {
+                        p {
                             height: auto;
                             width: rem(192px);
                         }
