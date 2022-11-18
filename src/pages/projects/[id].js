@@ -5,6 +5,8 @@ import { getAllProjectIds, getProjectData } from '@/lib/projects';
 import styles from "./project.module.scss";
 import Router from 'next/router';
 import Gallery from "@/components/gallery";
+import siteMetadata from "../../meta/siteMetadata"
+import HeadSeo from "../../components/HeadSeo"
 
 const Logos = (props) => {
     return (
@@ -31,9 +33,14 @@ export default function Project({ projectData }) {
 
     return (
         <BaseLayout>
-            <Head>
-                <title>{projectData.title}</title>
-            </Head>
+            <HeadSeo
+                title={projectData.title}
+                description={`Descripción de HomePage`}
+                canonicalUrl={siteMetadata.siteUrl}
+                ogImageUrl={"https://iili.io/H9S6dIj.jpg"}
+                ogTwitterImage={`https://iili.io/H9S6dIj.jpg`}
+                ogType={siteMetadata.ogType}
+            />
             <article>
                 <Page className={styles.project}>
                     <Column className={styles.project__column}>

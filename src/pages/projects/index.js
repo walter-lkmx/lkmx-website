@@ -5,6 +5,8 @@ import Head from 'next/head';
 import { Block, Column, Page } from "@lkmx/flare-react";
 import { getSortedProjectsData } from '@/lib/projects';
 import styles from "./index.module.scss";
+import siteMetadata from "../../meta/siteMetadata"
+import HeadSeo from "../../components/HeadSeo"
 
 const Duration = (props) => {
   const duration = `${props.item.startDate}${props.item.endDate ? '-' + props.item.endDate : ''}`
@@ -16,7 +18,14 @@ const Duration = (props) => {
 export default function WorkPage({ allProjectsData }) {
   return (
     <BaseLayout>
-      <Head><title>Trabajo</title></Head>
+      <HeadSeo
+        title={`Trabajo`}
+        description={`Descripción de HomePage`}
+        canonicalUrl={siteMetadata.siteUrl}
+        ogImageUrl={"https://iili.io/H9S6dIj.jpg"}
+        ogTwitterImage={`https://iili.io/H9S6dIj.jpg`}
+        ogType={siteMetadata.ogType}
+      />
       <Page className={styles.work}>
         <Column number="2" numberS="1" modeXl="normal" mode="full" weight="right" className={styles.work__hero}>
 
