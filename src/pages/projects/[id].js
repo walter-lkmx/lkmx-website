@@ -11,7 +11,7 @@ const Logos = (props) => {
         <div>
             {props.list.map(technology => (
                 <img
-                    src={`/technologies/${technology}.png`}
+                    src={`/technologies/${technology}.svg`}
                     alt={technology} key={technology}
                 />
             ))}
@@ -39,9 +39,9 @@ export default function Project({ projectData }) {
                     <Column className={styles.project__column}>
                         <Block className={styles.project__column__block}>
                             <div onClick={() => Router.back()} className={styles['project__column__block__go-back']} style={{cursor: 'pointer'}}>
-                                <img src="/arrow-right.png" alt="arrow-right"/>
+                                <img src="/icons/arrow-left--white.svg" alt="arrow-right"/>
                                 Regresar
-                                <img src="/clouds--120-small.png" alt="clouds" className={styles['project__column__block__go-back__clouds']}/>
+                                <div className={styles['project__column__block__go-back__clouds']}></div>
                             </div>
                         </Block>
                     </Column>

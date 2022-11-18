@@ -29,6 +29,10 @@
                     position: absolute;
                     top: 0;
                     right: 0;
+                    background-image: url("/clouds.svg");
+                    background-color: white;
+                    width: rem(120px);
+                    height: inherit;
                 }
             }
             &__container {

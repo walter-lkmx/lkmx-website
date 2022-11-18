@@ -65,6 +65,10 @@
         position: absolute;
         right: 0;
         top: 0;
+        background-color: white;
+        width: rem(120px);
+        height: inherit;
+        background-image: url("/clouds.svg");
       }
       &__koi {
         top: 0;
@@ -441,6 +445,10 @@
         }
         &__clouds-mobile {
           right: 0;
+          background-color: white;
+          width: rem(64px);
+          height: inherit;
+          background-image: url("/clouds.svg");
         }
       }
     }

@@ -30,7 +30,7 @@ export default function WorkPage({ allProjectsData }) {
           <Block className={styles.work__hero__block}>
             <div className={styles.triangule}><div></div></div>
             <div className={styles.code}></div>
-            <img src="/wave--cyan.png" className={styles.wave} alt="wave"/>
+            <img src="/triangles/triangle-waves--cyan--right--big.svg" className={styles.wave} alt="wave"/>
             <div className={styles.clouds}><div></div></div>
           </Block>
 
@@ -61,7 +61,7 @@ export default function WorkPage({ allProjectsData }) {
                     <p>{item.headline}</p>
                     <Link href={`/projects/${item.id}`} key={item.id}>
                       <a>
-                        <img src="/arrow-left--pink.png" alt="arrow-left"/>
+                        <img src="/icons/arrow-right--pink.svg" alt="arrow-left"/>
                       </a>
                     </Link>
                   </div>

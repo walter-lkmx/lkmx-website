@@ -31,7 +31,7 @@ function Carousel(props) {
 
     return (
         <div className={styles.carousel}>
-            <a onClick={() => previousChildren()}><img src="/chevron.png" alt="chevron"/></a>
+            <a onClick={() => previousChildren()}><img src="/icons/chevron-left--white.svg" alt="chevron"/></a>
             <div className={styles.carousel__content}>
                 {
                     React.Children.map(props.children, (child, index) => {
@@ -44,7 +44,7 @@ function Carousel(props) {
                     })
                 }
             </div>
-            <a onClick={() => nextChildren()}><img src="/chevron.png" alt="chevron"/></a>
+            <a onClick={() => nextChildren()}><img src="/icons/chevron-right--white.svg" alt="chevron"/></a>
         </div>
     );
 }

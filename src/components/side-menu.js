@@ -18,16 +18,16 @@ class SideMenu extends Component {
         <Column number="2" className={styles.menu__head} mode="full">
           <Block className={styles.menu__head__close}>
             <a onClick={this.handleClick}>
-              <img src="/icon-close.png" alt="close" style={{width: '24px', height: '24px', marginTop: '4px'}}/>
+              <img src="/icons/close-black.svg" alt="close" style={{width: '24px', height: '24px', marginTop: '4px'}}/>
             </a>
           </Block>
           <Block className={styles.menu__head__logo}>
-            <img src="/simple-logo.png" alt="Logo"/>
+            <img src="/lkmx-logo--black.svg" alt="Logo"/>
           </Block>
         </Column>
         <Block className={styles.menu__body}>
           <PagesLinks className={styles.menu__body__links}/>
-          <img src="/mask-group.png" alt="mask-group" className={styles.menu__body__img}/>
+          <img src="/triangles/triangle-clouds--left.svg" alt="mask-group" className={styles.menu__body__img}/>
         </Block>
       </Column>
     );

@@ -6,14 +6,6 @@
   align-items: center;
   a {
     cursor: pointer;
-    &:last-child {
-      img {
-        -moz-transform: rotate(180deg);
-        -o-transform: rotate(180deg);
-        -webkit-transform: rotate(180deg);
-        transform: rotate(180deg);
-      }
-    }
   }
   &__content {
     overflow: hidden;
