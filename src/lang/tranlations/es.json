@@ -20,8 +20,8 @@
             "Al final del desarrollo ofrecemos servicios de mantenimiento y soporte para una estabilización y transferencia exitosa de la plataforma."
         ]
     },
-    "contact": {
-        "title": "Contacto",
+    "team": {
+        "title": "Equipo",
         "headline": "NUESTRO EQUIPO",
         "hero": [
             "Somos una combinación de",
@@ -78,6 +78,19 @@
             "Nuestras herramientas nos ayudan a alcanzar grandes velocidades de desarrollo.",
             "Nuestro software es nativo de la nube y se integra sin dificultades en cualquier plataforma.",
             "Somos expertos en open-source, lo conocemos y estudiamos antes de incorporarlo a nuestro software."
+        ]
+    },
+    "work": {
+        "title": "Trabajo",
+        "hero": [
+            "Utilizamos tres principios al elegir nuestra tecnología: Agile, Cloud y Open-Source.",
+            "Nuestro",
+            "STACK",
+            "de tecnología se mantiene",
+            "organizado",
+            "y",
+            "ACTUALIZADO",
+            "por arquitectos de software con décadas de experiencia combinada."
         ]
     },
     "header": {

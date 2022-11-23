@@ -33,7 +33,7 @@ export default function ContactPage() {
   return (
     <BaseLayout>
       <HeadSeo
-        title={$t.contact.title}
+        title={$t.team.title}
         description={`Descripción de AboutUsPage`}
         canonicalUrl={siteMetadata.siteUrl}
         ogImageUrl={"https://iili.io/H9S6dIj.jpg"}
@@ -46,8 +46,8 @@ export default function ContactPage() {
         <Column number={2} numberS={1} weight="right" weightS="Normal" modeXl="normal" modeL="full" modeM="full" className={styles.contact__hero}>
           <Block>
             <div className={styles.contact__hero__left}>
-              <h2>{$t.contact.headline}</h2>
-              <p>{$t.contact.hero[0]} <strong>{$t.contact.hero[1]}</strong> {$t.contact.hero[2]} <strong>{$t.contact.hero[3]}</strong>{$t.contact.hero[4]}</p>
+              <h2>{$t.team.headline}</h2>
+              <p>{$t.team.hero[0]} <strong>{$t.team.hero[1]}</strong> {$t.team.hero[2]} <strong>{$t.team.hero[3]}</strong>{$t.team.hero[4]}</p>
             </div>
           </Block>
           <Block className={styles['contact__hero__block-right']}>
@@ -67,8 +67,8 @@ export default function ContactPage() {
         <Column>
           <Block className={styles.contact__banner}>
             <div className={styles.contact__banner__content}>
-              <h3>{$t.contact.banner.title[0]} <strong>{$t.contact.banner.title[1]}</strong>, <strong>{$t.contact.banner.title[2]}</strong>, <strong>{$t.contact.banner.title[3]}</strong> {$t.contact.banner.title[4]}</h3>
-              <p>{$t.contact.banner.text}</p>
+              <h3>{$t.team.banner.title[0]} <strong>{$t.team.banner.title[1]}</strong>, <strong>{$t.team.banner.title[2]}</strong>, <strong>{$t.team.banner.title[3]}</strong> {$t.team.banner.title[4]}</h3>
+              <p>{$t.team.banner.text}</p>
             </div>
           </Block>
         </Column>
@@ -78,26 +78,26 @@ export default function ContactPage() {
             <div className={styles.contact__team__content}>
               <div className={styles.contact__team__content__card}>
                 <div>
-                  <h3>{$t.contact.analysis.title}</h3>
-                  <p>{$t.contact.analysis.text}</p>
+                  <h3>{$t.team.analysis.title}</h3>
+                  <p>{$t.team.analysis.text}</p>
                 </div>
               </div>
               <div className={styles.contact__team__content__card}>
                 <div>
-                  <h3>{$t.contact.design.title}</h3>
-                  <p>{$t.contact.design.text}</p>
+                  <h3>{$t.team.design.title}</h3>
+                  <p>{$t.team.design.text}</p>
                 </div>
               </div>
               <div className={styles.contact__team__content__card}>
                 <div>
-                  <h3>{$t.contact.development.title}</h3>
-                  <p>{$t.contact.development.text}</p>
+                  <h3>{$t.team.development.title}</h3>
+                  <p>{$t.team.development.text}</p>
                 </div>
               </div>
               <div className={styles.contact__team__content__card}>
                 <div>
-                  <h3>{$t.contact.quality.title}</h3>
-                  <p>{$t.contact.quality.text}</p>
+                  <h3>{$t.team.quality.title}</h3>
+                  <p>{$t.team.quality.text}</p>
                 </div>
               </div>
               {pictures.map((picture, index) => {
@@ -112,9 +112,9 @@ export default function ContactPage() {
         <Column number="2" numberS="1" modeXl="normal" modeL="full" weightXl="normal" weightL="right" weightM="normal" className={styles['contact__about-us']}>
           <Block className={styles['contact__about-us__block']}>
             <div className={styles['contact__about-us__block__left']}>
-              <h2>{$t.contact.reviews[0]}</h2>
-              <h2>{$t.contact.reviews[1]}</h2>
-              <h2>{$t.contact.reviews[2]}</h2>
+              <h2>{$t.team.reviews[0]}</h2>
+              <h2>{$t.team.reviews[1]}</h2>
+              <h2>{$t.team.reviews[2]}</h2>
             </div>
             <div className={styles['contact__about-us__block__triangule']}><div></div></div>
           </Block>

@@ -4,6 +4,8 @@ import Link from "next/link";
 import Head from 'next/head';
 import { Block, Column, Page } from "@lkmx/flare-react";
 import { getSortedProjectsData } from '@/lib/projects';
+import { ConfigContext } from "@/providers/config-provider";
+import getLang from '@/lang';
 import styles from "./index.module.scss";
 import siteMetadata from "../../meta/siteMetadata"
 import HeadSeo from "../../components/HeadSeo"
@@ -16,6 +18,10 @@ const Duration = (props) => {
 }
 
 export default function WorkPage({ allProjectsData }) {
+
+  const { locale } = React.useContext(ConfigContext);
+  const $t = getLang(locale);
+
   return (
     <BaseLayout>
       <HeadSeo
@@ -31,7 +37,7 @@ export default function WorkPage({ allProjectsData }) {
 
           <Block className={styles.work__hero__block}>
             <div className={styles.work__hero__block__left}>
-              <h2>TRABAJO</h2>
+              <h2>{$t.work.title}</h2>
               <p>Conoce una muestra de los <strong>DESAFÍOS</strong> y las <strong>SOLUCIONES</strong> que hemos desarrollado para algunos de nuestros clientes.</p>
             </div>
           </Block>
