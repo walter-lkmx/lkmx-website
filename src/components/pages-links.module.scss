@@ -1,15 +1,60 @@
-.links {
-  a {
-    color: $color-neutral-black;
-    text-transform: uppercase;
-    text-decoration: none;
-    font-weight: bold;
-    font-family: $font-secondary;
-    text-decoration: none;
-    line-height: 1.5rem;
-    cursor: pointer;
+.headerNavigation {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 84px;
+  @include respond-to("<=l") {
+    grid-template-columns: 1fr;       
   }
-  &.white-color > a {
-    color: white;
+  *{margin: 0;}
+  .links {
+    a {
+      color: $color-neutral-black;
+      text-transform: uppercase;
+      text-decoration: none;
+      font-weight: bold;
+      font-family: $font-secondary;
+      text-decoration: none;
+      line-height: 1.5rem;
+      cursor: pointer;
+    }
+    &.white-color > a {
+      color: white;
+    }
+  }
+  .actions {
+    display: grid;
+    gap: rem(8px);
+    grid-template-columns: repeat(3, 1fr);
+    align-content: center;
+    align-items: center;
+    @include respond-to("<=l") {
+      max-width: rem(94px);
+      grid-template-columns: repeat(3, 1fr);
+    }
+    img {
+      max-width: 24px;
+    }
+    button {
+      background: none;
+      text-transform: uppercase;
+      text-decoration: none;
+      font-weight: bold;
+      font-family: $font-secondary;
+      text-decoration: none;
+      line-height: 1.5rem;
+      cursor: pointer;
+      color: $color-bright-gray;
+      padding: 4px 0;
+      border-bottom: 3px solid;
+      border-color: transparent;
+      transform: translateY(3px);
+      &.active {
+        color: $color-neutral-black;
+        border-color: $color-neutral-black;
+      }
+      &:hover {
+        background: none;
+      }
+    }
   }
 }

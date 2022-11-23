@@ -7,6 +7,7 @@
     grid-template-columns: 1fr 1fr;
     grid-column-gap: $base-size;
     align-items: center;
+    justify-content: space-between;
     &__logo > a > img {
       width: rem(121px);
     }
@@ -36,7 +37,7 @@
   }
   @include respond-to(">=xl") {
     &__content {
-      max-width: rem(960px);
+      // max-width: rem(960px);
       margin: auto;
       &__logo > img {
         width: rem(121px);
