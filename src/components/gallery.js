@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import styles from './gallery.module.scss';
+import { ConfigContext } from "@/providers/config-provider";
 
 function Gallery(props) {
     let [currentImage, setCurrentImage] = useState(props.images[0]);
@@ -7,6 +8,19 @@ function Gallery(props) {
     let [touchStart, setTouchStart] = React.useState(0);
     let [touchEnd, setTouchEnd] = React.useState(0);
     let [isOpenImage, setIsOpenImage] = React.useState(false);
+    const { locale, updateLang } = React.useContext(ConfigContext);
+
+    const currentLang = locale
+    let langId
+
+    if(currentLang === 'es-ES') {
+        langId = '.es'
+    } else {
+        langId = '.en'
+    }
+    console.log(langId)
+
+
 
     function nextImage() {
         setImages(previousState => (
@@ -74,7 +88,7 @@ function Gallery(props) {
                 </a>
             </div>
             <div className={styles['gallery__selected-image']} onTouchStart={e => handleTouchStart(e)} onTouchMove={e => handleTouchMove(e)} onTouchEnd={() => handleTouchEnd()}>
-                <img src={`/projects/${props.proyjectName}/${currentImage}.png`} alt="current-image"/>
+                <img src={`/projects/${props.proyjectName.replace(langId, '')}/${currentImage}.png`} alt="current-image"/>
             </div>
             <div className={styles.gallery__list}>
                 <div className={styles.gallery__list__previous}>
@@ -85,7 +99,7 @@ function Gallery(props) {
                         images.map(img => {
                             return (
                                 <a onClick={() => selectImage(img)} key={`image-key-${img}`} className={`${img == currentImage ? styles.selected : ''}`}>
-                                    <img src={`/projects/${props.proyjectName}/${img}.png`} alt={img}/>
+                                    <img src={`/projects/${props.proyjectName.replace(langId, '')}/${img}.png`} alt={img}/>
                                 </a>
                             )
                         })

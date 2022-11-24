@@ -81,6 +81,17 @@
             "We are experts in open source, we know it and we study it before incorporating it into our software."
         ]
     },
+    "work": {
+        "title": "Work",
+        "hero": [
+            "Get to know a sample of the",
+            "challenges",
+            "and",
+            "solutions",
+            "we have developed for some",
+            "of our clients."
+        ]
+    },
     "header":{
         "module1": "SERVICES",
         "module2": "METHODOLOGY",
