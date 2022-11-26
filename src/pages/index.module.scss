@@ -1,4 +1,8 @@
 .index {
+    a {
+        text-decoration: none;
+        color: white;
+    }
     &__hero {
         background-color: $color-neutral-black;
         height: rem(740px);
@@ -15,7 +19,6 @@
             }
             img{
                 transform: translate(18% , calc(-8% - 1px));
-                overflow:hidden;
             }
 
             &__intro {
@@ -79,6 +82,7 @@
                     font-size: 14px;
                     line-height: 24px;
                     color: white;
+                    padding: 8px 15px;
                 }
             }
             &__right {
@@ -431,7 +435,6 @@
                 &__content {
                     padding-top: rem(120px);
                     &__collabs {
-                        height: 946.26px;
                         width: 736px;
                         grid-template-columns: repeat(7, 1fr);  
                     }
@@ -512,7 +515,6 @@
         }
         &__team {
             &__block {
-                height: 1692.26px;
                 &__content {
                     padding-top: rem(72px);
                     &__koi{
@@ -571,11 +573,8 @@
     }
     @include respond-to("xxs") {
         &__hero {
-            height: rem(1254px);
+
             &__block {
-                &:first-child > div > div {
-                    gap: rem(92px);
-                }
                 gap: rem(92px);
                 img {
                     width: 480px;
@@ -601,10 +600,9 @@
         }
         &__second {
             overflow: hidden;
-            height: rem(1275.88px);
             &__block {
                 &:first-child > div > div {
-                    padding: 225px 20px;
+                    padding: 134px 16px;
                 }                
                 &__left {
                     padding: 1px 7px;
@@ -640,7 +638,6 @@
             }
         }
         &__technology {
-            height: 1470px;
             &__block { 
                 &:first-child > div > div {
                     gap: 67px;
@@ -680,8 +677,7 @@
                 }
             }
         }
-        &__team {
-            height: 2237px; 
+        &__team { 
             &__block {
                 &__content {
                     padding-top: 4.41rem;
@@ -709,15 +705,13 @@
                         font-size: 24px;
                     }
                     &__collabs {
-                        margin-top: 7.7rem;
-                        width: 35.9375rem;
+                        margin-top: rem(92px);
 
                     }
                 }
             }            
         }
         &__partners {
-            height: 772px;
             &__block {
                 &__rightTriangle {
                     height: 100%;
@@ -741,6 +735,174 @@
                         height: 68px;
                         width: 135px;
                         font-size: 24px;
+                    }
+                }
+            }
+        }
+    }
+    @include respond-to("<=m") {
+        &__hero {
+            &__block {
+                img {
+                    transform: translate(15%, calc(-20% - 1px));
+                    width: 270px;
+                    height: 185px;
+
+                }
+                &__intro {
+                    width: auto;
+                    h2 {
+                        width: auto;
+                        font-size: 40px;
+                        line-height: 52px;
+                        font-weight: 700;
+                    }
+                    p {
+                        width: auto;
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 20px;                    
+                        text-align: center;
+                    }
+                }
+            }
+        }
+        &__second {
+            &__block {
+                &:first-child > div > div {
+                    width: fit-content;
+                } 
+                &__left{
+                    grid-template-rows: auto auto;
+                    p {
+                        width: rem(200px);
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 28px;                        
+                        strong {
+                            font-size: 20px;
+                            line-height: 28px;
+                            font-weight: 700;
+                        }
+                    }
+                    &__btn {
+                        width: 130px;
+                        height: auto;
+                        font-weight: 400;
+                        font-size: 14px;
+                        line-height: 24px;
+                    }
+                }
+                &__right {
+                    &__dragon {
+                        width: auto;
+                        height: auto;
+
+                    }
+                }
+            }
+        }
+        &__technology {
+            &__block {
+                &__title {  
+                    p {
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 28px;
+                        width: auto;
+                        strong {
+                            font-size: 20px;
+                            line-height: 28px;
+                            font-weight: 700;
+                        }
+                    }
+                }
+                &__logos {
+                    width: auto;
+                    height: auto;
+                    &__row {
+                        width: auto;
+                        height: auto;
+                        div {
+                            img {
+                                height: auto;
+                                max-height: 2rem;
+                            }
+                        }
+                    }
+                }
+                &__btn {
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 24px;
+                    width: auto;
+                    height: auto;
+                }
+            }
+        }
+        &__team {
+            &__block {
+                padding: 16px;
+                &__content {
+                    &__koi {
+                        width: auto;
+                        height: auto;
+                    }
+                    &__text {
+                        p {
+                            font-weight: 400;
+                            font-size: 16px;
+                            line-height: 28px;
+                            width: auto;
+                            strong {
+                                font-size: 20px;
+                                line-height: 28px;
+                                font-weight: 700;
+                            }
+                        }
+                    }
+                    &__btn {
+                        width: auto;
+                        height: auto;
+                        font-weight: 400;
+                        font-size: 14px;
+                        line-height: 24px;
+                    }
+                    &__collabs {
+                        width: auto;
+                    }
+                }
+            }           
+        }
+        &__partners {
+
+            &__block {
+                &__rightTriangle {
+                    height: auto;
+                    width: auto;
+                }
+                &__content {
+                    width: rem(239px);
+                    margin-left: 0px;
+                    padding: 120.43px 0px 0px 16px;
+                    p {
+                        width: auto;
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 28px;
+                        width: auto;
+                        strong {
+                            font-size: 20px;
+                            line-height: 28px;
+                            font-weight: 700;
+                        }
+                    }
+                    &__btn {
+                        width: 80px;
+                        height: auto;
+                        font-weight: 400;
+                        font-size: 14px;
+                        line-height: 24px;
                     }
                 }
             }

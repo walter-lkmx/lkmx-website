@@ -59,7 +59,7 @@ export default function Index() {
               Somos una <strong>ALTERNATIVA REAL</strong> al <strong>STAFF-AUGMENTATION</strong>. Diseñamos servicios para el desarrollo de software a la medida. 
               Con ellos construimos tecnología de cualquier grado de complejidad y líneas de tiempo con cualquier demanda.
               </p>
-              <button className={styles.index__second__block__left__btn}>Descubre Cómo</button>
+              <a href="/services" className={styles.index__second__block__left__btn}>Descubre Cómo</a>
             </div>            
           </Block>
           <Block className={styles.index__second__block}>
@@ -92,7 +92,7 @@ export default function Index() {
                 )
               })}
             </div>
-            <button className={styles.index__technology__block__btn}>Descubre nuestras tecnologias</button>
+            <a href="/technology" className={styles.index__technology__block__btn}>Descubre nuestras tecnologias</a>
           </Block>
         </Column>
         <Column className={styles.index__team}>
@@ -101,7 +101,7 @@ export default function Index() {
                 <img src="/koi-swimming.svg" className={styles.index__team__block__content__koi}/>
                 <div className={styles.index__team__block__content__text}>
                   <p>Ingenieros, artistas, analistas y visionarios componen <strong>NUESTRO EQUIPO</strong></p>
-                  <button className={styles.index__team__block__content__btn}>Conócenos</button>
+                  <a href="/team" className={styles.index__team__block__content__btn}>Conócenos</a>
                 </div>
                 <div className={styles.index__team__block__content__collabs}>
                 {pictures.map((picture, index) => {
@@ -119,7 +119,7 @@ export default function Index() {
             <img className={styles.index__partners__block__rightTriangle} src="/triangles/triangle-waves--right.svg"/>
             <div className={styles.index__partners__block__content}>
               <p>Somos <strong>socios estratégicos</strong> de <strong>compañías alrededor del mundo</strong>.</p>
-              <button className={styles.index__partners__block__content__btn}>Explora</button>
+              <a href="/projects" className={styles.index__partners__block__content__btn}>Explora</a>
             </div>
           </Block>
         </Column>
