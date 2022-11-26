@@ -28,11 +28,8 @@ export default function WorkPage({ allProjectsData }) {
   const projects = allProjectsData.filter(p => {
     let mdIdWithEs = /^.+\.es$/.test(p.id);
     let mdIdWithEn = /^.+\.en$/.test(p.id);
-    console.log(locale)
     return locale == 'es-ES' ? mdIdWithEs : mdIdWithEn
   })
-
-  console.log(projects)
 
   return (
     <BaseLayout>
