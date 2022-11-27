@@ -130,5 +130,10 @@
                 ]
             }
         }
+    },
+    "project": {
+        "services": "Services",
+        "methodologies": "Methodologies",
+        "years": "Years"
     }
 }

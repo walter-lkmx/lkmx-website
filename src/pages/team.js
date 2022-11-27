@@ -3,11 +3,10 @@ import BaseLayout from "@/layouts/base-layout.js";
 import { Block, Column, Page } from "@lkmx/flare-react";
 import styles from "@/pages/about-us.module.scss";
 import Carousel from "@/components/carousel.js";
-import Head from "next/head";
-import { ConfigContext } from "@/providers/config-provider";
 import getLang from '@/lang';
 import siteMetadata from "../meta/siteMetadata"
 import HeadSeo from "../components/HeadSeo"
+import { useRouter } from "next/router";
 
 function getTeamList() {
   let r = require.context('/public/images', false, /\.(png|jpe?g|svg)$/);
@@ -20,7 +19,7 @@ function getTeamList() {
 }
 
 export default function ContactPage() {
-  const { locale } = React.useContext(ConfigContext);
+  const { locale } = useRouter();
   const $t = getLang(locale);
 
   const pictures = getTeamList();

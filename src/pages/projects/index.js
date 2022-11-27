@@ -4,11 +4,11 @@ import Link from 'next/link';
 import Head from 'next/head';
 import { Block, Column, Page } from '@lkmx/flare-react';
 import { getSortedProjectsData } from '@/lib/projects';
-import { ConfigContext } from '@/providers/config-provider';
 import getLang from '@/lang';
 import styles from './index.module.scss';
 import siteMetadata from '../../meta/siteMetadata';
 import HeadSeo from '../../components/HeadSeo';
+import { useRouter } from 'next/router';
 
 const Duration = (props) => {
   const duration = `${props.item.startDate}${
@@ -23,13 +23,8 @@ const Duration = (props) => {
 };
 
 export default function WorkPage({ allProjectsData }) {
-  const { locale } = React.useContext(ConfigContext);
+  const { locale } = useRouter();
   const $t = getLang(locale);
-  const projects = allProjectsData.filter(p => {
-    let mdIdWithEs = /^.+\.es$/.test(p.id);
-    let mdIdWithEn = /^.+\.en$/.test(p.id);
-    return locale == 'es-ES' ? mdIdWithEs : mdIdWithEn
-  })
 
   return (
     <BaseLayout>
@@ -77,7 +72,7 @@ export default function WorkPage({ allProjectsData }) {
           </Block>
         </Column>
         <div className={styles.work__list}>
-          {projects.map((item, index) => (
+          {allProjectsData.map((item, index) => (
             <div
               className={styles.work__list__proyect}
               key={`index-project-${index}`}
@@ -123,8 +118,10 @@ export default function WorkPage({ allProjectsData }) {
   );
 }
 
-export async function getStaticProps() {
-  const allProjectsData = getSortedProjectsData();
+export async function getServerSideProps(context) {
+
+  const allProjectsData = getSortedProjectsData(context.locale);
+
   return {
     props: {
       allProjectsData,

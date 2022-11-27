@@ -3,12 +3,12 @@ import styles from "@/components/footer.module.scss";
 import Link from "next/link";
 import moment from "moment"; 
 import { Column, Block } from "@lkmx/flare-react";
-import { ConfigContext } from "@/providers/config-provider";
 import getLang from '@/lang';
+import { useRouter } from "next/router";
 
 export default function Footer() {
   const year = moment().year();
-  const { locale } = React.useContext(ConfigContext);
+  const { locale } = useRouter();
   const $t = getLang(locale);
 
   return (

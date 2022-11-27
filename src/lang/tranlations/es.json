@@ -129,5 +129,10 @@
                 ]
             }
         }
+    },
+    "project": {
+        "services": "Servicios",
+        "methodologies": "Metodologías",
+        "years": "Duración"
     }
 }

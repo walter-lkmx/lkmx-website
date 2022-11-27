@@ -4,48 +4,48 @@ import { remark } from 'remark';
 import html from 'remark-html';
 import matter from 'gray-matter'
 
-const projectsDirectory = path.join(process.cwd(), 'src/projects')
+const projectsDirectory = path.join(process.cwd(), 'src/projects');
+const defaultLocale = 'es';
 
-export function getSortedProjectsData() {
-  // Get file names under /posts
-  const fileNames = fs.readdirSync(projectsDirectory)
-  const allProjectsData = fileNames.map(fileName => {
-    // Remove ".md" from file name to get id
-    const id = fileName.replace(/\.md$/, '')
+export function getSortedProjectsData(locale) {
 
-    // Read markdown file as string
-    const fullPath = path.join(projectsDirectory, fileName)
+  const fileNames = fs.readdirSync(projectsDirectory);
+
+  const allProjectsData = fileNames.map(id => {
+    const filename = locale === defaultLocale ? 'index.md' : `index.${locale}.md`;
+
+    const fullPath = path.join(projectsDirectory, id, filename);
     const fileContents = fs.readFileSync(fullPath, 'utf8')
 
-    // Use gray-matter to parse the post metadata section
     const matterResult = matter(fileContents)
 
-    // Combine the data with the id
     return {
       id,
       ...matterResult.data
     }
   })
-  // Sort posts by title
+  .filter((post) => post);
+
   return allProjectsData.sort((a, b) => {
     return a.number > b.number ? 1 : -1;
   })
 }
 
-export async function getProjectData(id) {
-  const fullPath = path.join(projectsDirectory, `${id}.md`);
+export async function getProjectData(id, locale) {
+
+  const fullPath = path.join(
+    projectsDirectory,
+    id,
+    locale === defaultLocale ? 'index.md' : `index.${locale}.md`,
+  );
+
   const fileContents = fs.readFileSync(fullPath, 'utf8');
 
-  // Use gray-matter to parse the post metadata section
   const matterResult = matter(fileContents);
 
-  // Use remark to convert markdown into HTML string
-  const processedContent = await remark()
-    .use(html)
-    .process(matterResult.content);
+  const processedContent = await remark().use(html).process(matterResult.content);
   const contentHtml = processedContent.toString();
 
-  // Combine the data with the id and contentHtml
   return {
     id,
     contentHtml,
@@ -53,13 +53,27 @@ export async function getProjectData(id) {
   };
 }
 
-export function getAllProjectIds() {
-  const fileNames = fs.readdirSync(projectsDirectory)
-  return fileNames.map(fileName => {
-    return {
-      params: {
-        id: fileName.replace(/\.md$/, '')
+export function getAllProjectIds(locales) {
+  let paths = [];
+  const projectIds = fs.readdirSync(projectsDirectory);
+
+  for(let id of projectIds) {
+    for(let locale of locales) {
+
+      let fullpath = path.join(
+        projectsDirectory,
+        id,
+        locale === defaultLocale ? 'index.md' : `index.${locale}.md`,
+      );
+
+      if (!fs.existsSync(fullpath)) {
+        continue;
       }
+
+      paths.push({ params: { id }, locale });
+
     }
-  })
+  }
+
+  return paths;
 }

@@ -4,16 +4,15 @@ import PhasesSvg from '@/assets/phases.svg';
 import PhasesMobileSvg from '@/assets/phases--mobile.svg';
 import Banner from '@/components/banner.js';
 import styles from "./services.module.scss";
-import Head from "next/head";
 import { Block, Column, Page } from "@lkmx/flare-react";
-import { ConfigContext } from "@/providers/config-provider";
 import getLang from '@/lang';
 import siteMetadata from "../meta/siteMetadata"
 import HeadSeo from "../components/HeadSeo"
+import { useRouter } from "next/router";
 
 export default function ServicesPage() {
 
-  const { locale } = React.useContext(ConfigContext);
+  const { locale } = useRouter();
   const $t = getLang(locale);
 
   return (

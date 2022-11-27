@@ -3,15 +3,14 @@ import BaseLayout from  "@/layouts/base-layout.js";
 import styles from "./technology.module.scss";
 import technologies from '@/service/json/technologies';
 import { Page, Block, Column} from "@lkmx/flare-react";
-import Head from "next/head";
-import { ConfigContext } from "@/providers/config-provider";
 import getLang from '@/lang';
 import siteMetadata from "../meta/siteMetadata"
 import HeadSeo from "../components/HeadSeo"
+import { useRouter } from "next/router";
 
 export default function TechnologyPage() {
 
-  const { locale } = React.useContext(ConfigContext);
+  const { locale } = useRouter();
   const $t = getLang(locale);
 
   return (

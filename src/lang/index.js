@@ -3,7 +3,7 @@ import en from '@/lang/tranlations/en';
 
 export default function getLang(locale) {
     switch (locale) {
-        case 'en-US':
+        case 'en':
             return en;
         default:
             return es;
