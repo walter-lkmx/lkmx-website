@@ -1,5 +1,7 @@
 import Head from 'next/head';
 import siteMetadata from '@/meta/siteMetadata';
+import { useRouter } from 'next/router'
+
 
 const HeadSeo = ({
   title,
@@ -7,8 +9,10 @@ const HeadSeo = ({
   canonicalUrl,
   ogTwitterImage,
   ogImageUrl,
-  ogType,
 }) => {
+  const router = useRouter()
+  // console.log(router)
+  // console.log(router.locale+router.asPath)
   return (
     <Head>
 
@@ -22,15 +26,15 @@ const HeadSeo = ({
       <meta name="twitter:description" content={description} />
       <meta name="twitter:image" content={ogTwitterImage} />
 
-      <link rel="canonical" href={canonicalUrl} />
+      <link rel="canonical" href={siteMetadata.siteUrl+'/'+router.locale+router.asPath} />
 
       <meta property="og:locale" content="en_US" />
       <meta property="og:site_name" content={siteMetadata.companyName} />
-      <meta property="og:type" content={ogType} />
       <meta property="og:title" content={title} />
       <meta property="og:description" content={description} />
       <meta property="og:image" content={ogImageUrl} />
-      <meta property="og:url" content={canonicalUrl} />
+      <meta property="og:url" content={siteMetadata.siteUrl+'/'+router.locale+router.asPath} />
+      <meta property="og:type" content={siteMetadata.ogType} />
     </Head>
   );
 };

@@ -29,8 +29,8 @@ export default function WorkPage({ allProjectsData }) {
   return (
     <BaseLayout>
       <HeadSeo
-        title={`Trabajo`}
-        description={`Descripción de HomePage`}
+        title={$t.work.title + ' - ' + siteMetadata.companyName}
+        description={$t.work.ogDescription}
         canonicalUrl={siteMetadata.siteUrl}
         ogImageUrl={'https://iili.io/H9S6dIj.jpg'}
         ogTwitterImage={`https://iili.io/H9S6dIj.jpg`}

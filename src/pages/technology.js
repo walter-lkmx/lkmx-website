@@ -16,8 +16,8 @@ export default function TechnologyPage() {
   return (
     <BaseLayout>
       <HeadSeo
-        title={$t.technology.title}
-        description={`Descripción de TechnologyPage`}
+        title={$t.technology.title + ' - ' + siteMetadata.companyName}
+        description={$t.technology.ogDescription}
         canonicalUrl={siteMetadata.siteUrl}
         ogImageUrl={"https://iili.io/H9S6dIj.jpg"}
         ogTwitterImage={`https://iili.io/H9S6dIj.jpg`}

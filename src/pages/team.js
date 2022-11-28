@@ -7,6 +7,7 @@ import getLang from '@/lang';
 import siteMetadata from "../meta/siteMetadata"
 import HeadSeo from "../components/HeadSeo"
 import { useRouter } from "next/router";
+import Image from 'next/image'
 
 function getTeamList() {
   let r = require.context('/public/images', false, /\.(png|jpe?g|svg)$/);
@@ -32,8 +33,8 @@ export default function ContactPage() {
   return (
     <BaseLayout>
       <HeadSeo
-        title={$t.team.title}
-        description={`Descripción de AboutUsPage`}
+        title={$t.team.title + ' - ' + siteMetadata.companyName}
+        description={$t.team.ogDescription}
         canonicalUrl={siteMetadata.siteUrl}
         ogImageUrl={"https://iili.io/H9S6dIj.jpg"}
         ogTwitterImage={`https://iili.io/H9S6dIj.jpg`}

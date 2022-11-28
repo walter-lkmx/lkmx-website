@@ -37,8 +37,8 @@ export default function Project({ projectData }) {
     return (
         <BaseLayout>
             <HeadSeo
-                title={projectData.title}
-                description={`Descripción de HomePage`}
+                title={projectData.title + ' - ' + siteMetadata.companyName}
+                description={projectData.headline}
                 canonicalUrl={siteMetadata.siteUrl}
                 ogImageUrl={"https://iili.io/H9S6dIj.jpg"}
                 ogTwitterImage={`https://iili.io/H9S6dIj.jpg`}

@@ -18,12 +18,10 @@ export default function ServicesPage() {
   return (
     <BaseLayout>
       <HeadSeo
-        title={$t.services.title}
-        description={`Descripción de ServicesPage`}
-        canonicalUrl={siteMetadata.siteUrl}
+        title={$t.services.title + ' - ' + siteMetadata.companyName}
+        description={$t.services.ogDescription}
         ogImageUrl={"https://iili.io/H9S6dIj.jpg"}
         ogTwitterImage={`https://iili.io/H9S6dIj.jpg`}
-        ogType={siteMetadata.ogType}
       />
 
       <Page className={styles.page}>

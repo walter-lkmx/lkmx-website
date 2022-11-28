@@ -1,6 +1,14 @@
 {
+    "home": {
+        "title": "We turn your ideas into reality",
+        "ogDescription": "Our team of experts conceptualize, design, and deliver the most complex software solutions, leading the digital transformation of companies around the globe.",
+        "hero": [
+            "-"
+        ]
+    },
     "services": {
         "title": "Services",
+        "ogDescription": "We design custom software development services for companies with technology needs of any degree of complexity and timelines of any demand.",
         "hero": [
             "As a",
             "REAL ALTERNATIVE",
@@ -20,8 +28,16 @@
             "At the end of development we offer maintenance and support services for a successful stabilization and transfer of the platform."
         ]
     },
+    "methodology": {
+        "title": "Methodology",
+        "ogDescription": "Our methodologies provide the greatest possible flexibility while keeping deliverables, timelines and costs under control.",
+        "hero": [
+            "-"
+        ]
+    },
     "team": {
         "title": "Team",
+        "ogDescription": "We are a combination of CREATIVE PEOPLE and TECHNOLOGY EXPERTS. We connect our skills to build robust, flexible, scalable and secure software solutions.",
         "headline": "OUR TEAM",
         "hero": [
             "We are a combination of",
@@ -65,6 +81,7 @@
     },
     "technology": {
         "title": "Technology",
+        "ogDescription": "We use three principles when choosing our technology: Agile, Cloud and Open Source.",
         "hero": [
             "We use three principles when choosing our technology: Agile, Cloud and Open Source.",
             "Our technology",
@@ -83,6 +100,7 @@
     },
     "work": {
         "title": "Work",
+        "ogDescription": "Get to know a sample of the CHALLENGES and SOLUTIONS we have developed for some of our clients.",
         "hero": [
             "Get to know a sample of the",
             "challenges",
