@@ -31,10 +31,8 @@ export default function WorkPage({ allProjectsData }) {
       <HeadSeo
         title={$t.work.title + ' - ' + siteMetadata.companyName}
         description={$t.work.ogDescription}
-        canonicalUrl={siteMetadata.siteUrl}
-        ogImageUrl={'https://iili.io/H9S6dIj.jpg'}
-        ogTwitterImage={`https://iili.io/H9S6dIj.jpg`}
-        ogType={siteMetadata.ogType}
+        ogImageUrl={$t.home.ogImage ? $t.home.ogImage : locale === 'es' ? siteMetadata.ogDefaultImageEs : siteMetadata.ogDefaultImageEn}
+        ogTwitterImage={$t.home.ogImage ? $t.home.ogImage : locale === 'es' ? siteMetadata.ogDefaultImageEs : siteMetadata.ogDefaultImageEn}
       />
       <Page className={styles.work}>
         <Column

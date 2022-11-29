@@ -26,6 +26,7 @@ export default function Index() {
   const { locale } = useRouter();
   const $t = getLang(locale);
   const pictures = getTeamList();
+
   pictures.forEach((e, index) => {
     //TODO: Hacer esto automatico para que agregue los espacios cada 20 fotos.
     if((index + 1) == 10 || (index + 1) == 30 || (index + 1) == 50) {
@@ -33,13 +34,14 @@ export default function Index() {
     }
   });
 
+  console.log($t.home.ogImage)
   return (
     <BaseLayout>
        <HeadSeo
         title={$t.home.title + ' - ' + siteMetadata.companyName}
         description={$t.home.ogDescription}
-        ogImageUrl={"https://iili.io/H9S6dIj.jpg"}
-        ogTwitterImage={`https://iili.io/H9S6dIj.jpg`}
+        ogImageUrl={$t.home.ogImage ? $t.home.ogImage : locale === 'es' ? siteMetadata.ogDefaultImageEs : siteMetadata.ogDefaultImageEn}
+        ogTwitterImage={$t.home.ogImage ? $t.home.ogImage : locale === 'es' ? siteMetadata.ogDefaultImageEs : siteMetadata.ogDefaultImageEn}
       />
 
       <Page className={styles.index}>

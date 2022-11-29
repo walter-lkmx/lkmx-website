@@ -16,9 +16,8 @@ export default function MethodologyPage() {
       <HeadSeo
         title={$t.methodology.title}
         description={$t.methodology.ogDescription}
-        ogImageUrl={"https://iili.io/H9S6dIj.jpg"}
-        ogTwitterImage={`https://iili.io/H9S6dIj.jpg`}
-        ogType={siteMetadata.ogType}
+        ogImageUrl={$t.home.ogImage ? $t.home.ogImage : locale === 'es' ? siteMetadata.ogDefaultImageEs : siteMetadata.ogDefaultImageEn}
+        ogTwitterImage={$t.home.ogImage ? $t.home.ogImage : locale === 'es' ? siteMetadata.ogDefaultImageEs : siteMetadata.ogDefaultImageEn}
       />
       <Page>
         <Column>

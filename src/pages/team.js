@@ -35,10 +35,8 @@ export default function ContactPage() {
       <HeadSeo
         title={$t.team.title + ' - ' + siteMetadata.companyName}
         description={$t.team.ogDescription}
-        canonicalUrl={siteMetadata.siteUrl}
-        ogImageUrl={"https://iili.io/H9S6dIj.jpg"}
-        ogTwitterImage={`https://iili.io/H9S6dIj.jpg`}
-        ogType={siteMetadata.ogType}
+        ogImageUrl={$t.home.ogImage ? $t.home.ogImage : locale === 'es' ? siteMetadata.ogDefaultImageEs : siteMetadata.ogDefaultImageEn}
+        ogTwitterImage={$t.home.ogImage ? $t.home.ogImage : locale === 'es' ? siteMetadata.ogDefaultImageEs : siteMetadata.ogDefaultImageEn}
       />
 
       <Page className={styles.contact}>

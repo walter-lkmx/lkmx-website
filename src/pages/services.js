@@ -20,8 +20,8 @@ export default function ServicesPage() {
       <HeadSeo
         title={$t.services.title + ' - ' + siteMetadata.companyName}
         description={$t.services.ogDescription}
-        ogImageUrl={"https://iili.io/H9S6dIj.jpg"}
-        ogTwitterImage={`https://iili.io/H9S6dIj.jpg`}
+        ogImageUrl={$t.home.ogImage ? $t.home.ogImage : locale === 'es' ? siteMetadata.ogDefaultImageEs : siteMetadata.ogDefaultImageEn}
+        ogTwitterImage={$t.home.ogImage ? $t.home.ogImage : locale === 'es' ? siteMetadata.ogDefaultImageEs : siteMetadata.ogDefaultImageEn}
       />
 
       <Page className={styles.page}>

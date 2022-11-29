@@ -39,10 +39,8 @@ export default function Project({ projectData }) {
             <HeadSeo
                 title={projectData.title + ' - ' + siteMetadata.companyName}
                 description={projectData.headline}
-                canonicalUrl={siteMetadata.siteUrl}
-                ogImageUrl={"https://iili.io/H9S6dIj.jpg"}
-                ogTwitterImage={`https://iili.io/H9S6dIj.jpg`}
-                ogType={siteMetadata.ogType}
+                ogImageUrl={$t.home.ogImage ? $t.home.ogImage : locale === 'es' ? siteMetadata.ogDefaultImageEs : siteMetadata.ogDefaultImageEn}
+                ogTwitterImage={$t.home.ogImage ? $t.home.ogImage : locale === 'es' ? siteMetadata.ogDefaultImageEs : siteMetadata.ogDefaultImageEn}
             />
             <article>
                 <Page className={styles.project}>

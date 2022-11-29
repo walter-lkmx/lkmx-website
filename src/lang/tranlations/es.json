@@ -2,6 +2,7 @@
     "home": {
         "title": "Convertimos tus ideas en realidad",
         "ogDescription": "Conceptualizamos, diseñamos y desarrollamos complejas soluciones de software, lideramos la optimización digital de industrias clave alrededor del mundo.",
+        "ogImage": "",
         "hero": [
             "-"
         ]
@@ -31,6 +32,7 @@
     "methodology": {
         "title": "Metodología",
         "ogDescription": "Nuestras metodologías mantienen bajo control los entregables, plazos de tiempo y costos.",
+        "ogImage": "",
         "hero": [
             "-"
         ]
@@ -38,6 +40,7 @@
     "team": {
         "title": "Equipo",
         "ogDescription": "Somos una combinación de CREATIVOS y EXPERTOS en tecnología. Conectamos nuestras habilidades para construir soluciones de software.",
+        "ogImage": "",
         "headline": "NUESTRO EQUIPO",
         "hero": [
             "Somos una combinación de",
@@ -81,6 +84,7 @@
     "technology": {
         "title": "Tecnología",
         "ogDescription": "Utilizamos tres principios al elegir nuestra tecnología: Agile, Cloud y Open-Source.",
+        "ogImage": "",
         "hero": [
             "Utilizamos tres principios al elegir nuestra tecnología: Agile, Cloud y Open-Source.",
             "Nuestro",
@@ -100,6 +104,7 @@
     "work": {
         "title": "Trabajo",
         "ogDescription": "Conoce una muestra de los DESAFÍOS y las SOLUCIONES que hemos desarrollado para algunos de nuestros clientes.",
+        "ogImage": "",
         "hero": [
             "Conoce una muestra de los",
             "desafíos",

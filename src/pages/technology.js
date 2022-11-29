@@ -18,10 +18,8 @@ export default function TechnologyPage() {
       <HeadSeo
         title={$t.technology.title + ' - ' + siteMetadata.companyName}
         description={$t.technology.ogDescription}
-        canonicalUrl={siteMetadata.siteUrl}
-        ogImageUrl={"https://iili.io/H9S6dIj.jpg"}
-        ogTwitterImage={`https://iili.io/H9S6dIj.jpg`}
-        ogType={siteMetadata.ogType}
+        ogImageUrl={$t.home.ogImage ? $t.home.ogImage : locale === 'es' ? siteMetadata.ogDefaultImageEs : siteMetadata.ogDefaultImageEn}
+        ogTwitterImage={$t.home.ogImage ? $t.home.ogImage : locale === 'es' ? siteMetadata.ogDefaultImageEs : siteMetadata.ogDefaultImageEn}
       />
       <Page className={styles.technology}>
         <Column number="2" numberS="1" className={styles.technology__hero} weight="right" weightS="Normal" modeXl="normal" modeL="full" modeM="full">
