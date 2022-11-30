@@ -157,5 +157,50 @@
         "services": "Servicios",
         "methodologies": "Metodologías",
         "years": "Duración"
+    },
+    "discovery": {
+        "title": "Discovery",
+        "goBack": "Regresar",
+        "hero" :[
+            "Nuestras soluciones comienzan desde el",
+            "análisis de las necesidades y objetivos para",
+            "definir la mejor ruta, asi como su alcance."
+        ],
+        "bannerTitle" : [
+            "UTILIZAMOS METODOLOGÍAS",
+            "ESPECIALIZADAS"
+        ],
+        "prototype": {
+            "summary": {
+                "title": "CREAMOS UN PROTOTIPO INICIAL",
+                "paragraph": [
+                    "Creamos un prototipo inicial del software en forma de una",
+                    "colección de artefactos. Esto permite tomar decisiones",
+                    "informadas sobre el camino a seguir para obtener nuevas",
+                    "capacidades de negocio u optimizar procesos, todo esto con un",
+                    "proyecto ágil de tecnología listo para ser ejecutado."  
+                ]
+            },
+            "rapid": {
+                "title": "RAPID PROTOTYPING",
+                "paragraph": [
+                    "Nos ayuda a ofrecer entregas constantes de un prototipo, con las vistas y",
+                    "los escenarios que constituyen la solución de software, maximizando el",
+                    "tiempo."
+                ]
+            },
+            "adhoc": {
+                "title": "AD-HOC DISCOVERY",
+                "paragraph": [
+                    "Desarrollamos un plan a la medida, involucrando una o más técnicas de",
+                    "análisis y prototipado de requerimientos que aclaran el camino para el",
+                    "negocio y en muchos casos plantean una ruta viable para la",
+                    "implementación de la solución."
+                ]
+            }
+        },
+        "span": {
+            "text": "AGILE DEVELOPMENT"
+        }
     }
 }

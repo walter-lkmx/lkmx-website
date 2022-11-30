@@ -1,0 +1,304 @@
+.discovery {
+  &__goBack {
+    @include respond-to("<=l") {
+      display: none;
+    }
+    &:first-child > div > div{
+      align-content: center;
+      align-items: center;
+      display: grid;
+      grid-template-columns: 4.5% auto;
+      padding: 10px 8px;
+      }
+      background-color: $color-neutral-black;
+      justify-content: center;
+      img {
+        cursor: pointer;
+      }
+      span {
+        color: white;
+      }
+  }
+  &__hero {
+    max-height: 591px;
+    overflow: hidden;
+    @include respond-to("l") {
+      grid-template-columns: 47% auto !important;
+    }
+    @include respond-to("m") {
+      grid-template-columns: calc(38% + 5px) auto !important;
+    }
+    &__triangle {
+      position: absolute;
+      right: 0px;
+      height: 100%;
+      justify-items: unset;
+      @include respond-to("<=m") {
+        display: none;
+      }
+    }
+    &__phases {
+      position: relative;
+
+      > div > div {
+        @include respond-to("<=xs") {
+          height: 324px;
+          position: relative;
+          display: grid;
+          justify-items: baseline;
+        }
+      }
+        &__svg{
+          position: absolute;
+          right: 0;
+          transform: translate(0, -2.5%);
+          @include respond-to("<=m") {
+            display: none;
+          }
+        }
+        &__svgMed {
+          display: none;
+          @include respond-to("m") {
+            display: block;
+            position: absolute;
+            right: 0;
+            transform: translate(0%, -2.5%);
+          }
+        }
+        &__svgMobile {
+          display: none;
+          right: 1vw;
+          position: absolute;
+          bottom: 17px;
+          @include respond-to("<=xs") {
+            display: block;
+            transform: translate(calc(2% - 5px), calc(6% + 2px));
+          }
+          @include respond-to("s") {
+            right: 16vw;
+          }
+        }
+      &__arrow {
+        position: absolute;
+        div {
+          width: 100%;
+          position: absolute;
+          height: .5px;
+          background-color: $color-neutral-black;
+          left: -22px;
+          transform: translateY(50%);
+           &::before {
+            content: '';
+            position: absolute;
+            width: 200px;
+            height: 1px;
+            background-color: $color-neutral-black;
+            transform: translateY(275px);
+          }
+
+          @include respond-to("<=xs") {
+            width: .5px;
+            height: 100%;
+            left: 50%;
+            top: 0%;
+            transform: translateX(-50%);
+            opacity: .6;
+             &::before { top: calc(100% - 6px) }
+            &::before {
+              left: 24vw;
+              transform: rotate(-90deg);
+            }
+          }
+
+
+
+        }
+      }
+    }
+    &__blue {
+
+      > div {
+        
+        width: inherit !important;
+        @include respond-to("m") {
+          width: auto !important;
+        }
+      }
+      > div > div {
+        padding: 250px 0 !important;
+        @include respond-to("l") {
+          padding: 256px 0 !important;
+        }
+        @include respond-to("<=s") {
+          padding: 72px 0 !important;
+        }
+        @include respond-to("<=xs") {
+          padding: 72px 16px !important;
+        }
+      }
+      &__content {
+        width: 420px;
+        padding-left: 163px;
+        @include respond-to("l") {
+          padding-left: 54px;
+        }
+        @include respond-to("<=m") {
+         padding-left: 0px;
+        }
+        @include respond-to("<=xs") {
+          width: auto;
+        }
+        p {
+          color: white;
+          font-family: 'IBM Plex Sans';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 20px;
+          line-height: 30px;
+          margin: 0px;
+          width: 420px;
+          @include respond-to("<=xs") {
+            font-size: 16px;
+            line-height: 28px;
+            width: 327px;
+            padding-left: 16px;
+          }
+        }
+      }
+      background-color: $color-blue;
+      justify-items: center;
+      
+    }
+  }
+  &__banner {
+    display: grid;
+    place-content: center;
+    height: auto;
+    padding: 108px 0px;
+    text-align: center;
+    line-height: 52px;
+    @include respond-to("<=xs") {
+      text-align: unset;
+      padding: 71px 15px;
+    }
+    h2{
+      margin: 0px;
+    }
+  }
+  &__summary {
+    padding: 92px 120px 67px;
+    @include respond-to("l") {
+      padding: 96px 104px 67px;
+    }
+    @include respond-to("<=m") {
+      padding: 92px 0px 67px;
+    }
+    @include respond-to("<=xs") {
+      padding: 41px 0px 0px;
+    }
+    &__left, &__right {
+      &:first-child > div, &:last-child > div {
+        width: 100%;
+      }
+    }
+
+    p {
+        width: auto;
+        margin-bottom: 26px;
+    }
+    &__left {
+      @include respond-to("<=l") {
+        justify-items: unset;
+      }
+
+      h3 {
+        line-height: 36px;
+        margin-bottom: 8px;
+        @include respond-to("<=l") {
+          width: rem(226px);
+        }
+      }
+
+      border-right: 2px solid #EBEAE8;
+      @include respond-to("<=xs") {
+        border-right: none;
+      }
+      p {
+        font-weight: 400; 
+        font-size: 20px;
+        line-height: 30px;
+        @include respond-to("<=xs") {
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 28px;
+        }
+      }
+    }
+    &__right {
+       > div > div {
+        padding: 16px 32px !important;
+        @include respond-to("<=xs") {
+          padding: 6px 16px !important;
+        }
+      }
+      h3 {
+        color: $color-pink;
+        font-size: 24px;
+        line-height: 32px;
+        margin-bottom: 8px;
+        @include respond-to("<=xs") {
+          font-size: 20px;
+          line-height: 28px;
+        }
+      }
+      p {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 28px; 
+        @include respond-to("<=xs") {
+          margin-bottom: 22px;
+        }
+      }
+    }
+  }
+  &__next {
+    justify-content: end;
+    background-color: $color-bright-gray;
+    &:first-child > div {
+      align-items: center;
+      display: grid;
+      @include respond-to("<=xs") {
+        align-items: end;
+      }
+    }
+    height: 142px;
+    &:first-child > div > div{
+      align-items: center;
+      display: grid;
+      grid-template-columns: auto auto;
+      justify-content: end;
+      gap: 16px;
+      @include respond-to("<=xs") {
+        padding: 21px 16px;
+      }
+    }
+    img {
+      cursor: pointer;
+    }
+    span {
+      color: $color-neutral-black;
+      font-family: 'Roboto Condensed';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 24px;
+      @include respond-to("<=xs") {
+        width: min-content;
+      }
+    }
+  }
+}
+
+
+
+
