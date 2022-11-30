@@ -39,6 +39,7 @@ export default function DiscoveryPage() {
                         </div>
                         <img src="/discovery-big.svg" className={styles.discovery__hero__phases__svg}/>
                         <img src="/discovery-medium.svg" className={styles.discovery__hero__phases__svgMed}/>    
+                        <img src="/vertical-line.svg" className={styles.discovery__hero__phases__svgLine}/>
                         <img src="/discovery-small.svg" className={styles.discovery__hero__phases__svgMobile}/>                      
                     </Block>
                     <Block className={styles.discovery__hero__blue} >

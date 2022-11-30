@@ -48,36 +48,48 @@
           justify-items: baseline;
         }
       }
-        &__svg{
+      &__svg{
+        position: absolute;
+        right: 0;
+        transform: translate(0, -2.5%);
+        @include respond-to("<=m") {
+          display: none;
+        }
+      }
+      &__svgMed {
+        display: none;
+        @include respond-to("m") {
+          display: block;
           position: absolute;
           right: 0;
-          transform: translate(0, -2.5%);
-          @include respond-to("<=m") {
-            display: none;
-          }
+          transform: translate(0%, -2.5%);
         }
-        &__svgMed {
-          display: none;
-          @include respond-to("m") {
-            display: block;
-            position: absolute;
-            right: 0;
-            transform: translate(0%, -2.5%);
-          }
+      }
+      &__svgMobile { //TODO: img moving around on S resolution
+        display: none;
+        position: absolute;
+        bottom: 17px;
+        left: 0;
+        right: 0;
+        margin-left: auto;
+        margin-right: auto;
+        @include respond-to("<=s") {
+          display: block;
+          transform: translateY(calc(6% + 2px));
         }
-        &__svgMobile { //TODO: img moving around on S resolution
-          display: none;
-          right: 1vw;
+      }
+      &__svgLine {
+        display: none;
+        @include respond-to("<=s") {
+          display: block;
           position: absolute;
-          bottom: 17px;
-          @include respond-to("<=s") {
-            display: block;
-            transform: translate(calc(2% - 5px), calc(6% + 2px));
-          }
-          @include respond-to("s") {
-            right: 16vw;
-          }
+          left: 0;
+          right: 0;
+          margin-left: auto;
+          margin-right: auto;
+          transform: translateY(13%);
         }
+      }
       &__arrow {
         position: absolute;
         div {
@@ -86,17 +98,19 @@
           height: .5px;
           background-color: $color-neutral-black;
           left: -22px;
-          transform: translateY(50%);
+          transform: translateY(50%);          
            &::before {
             content: '';
             position: absolute;
-            width: 200px;
+            width: 350px;
             height: 1px;
             background-color: $color-neutral-black;
             transform: translateY(275px);
+            overflow: hidden;
           }
 
           @include respond-to("<=s") {
+            display: none;
             width: .5px;
             height: 100%;
             left: 50%;
@@ -109,9 +123,6 @@
               transform: rotate(-90deg);
             }
           }
-
-
-
         }
       }
     }
@@ -176,6 +187,7 @@
     padding: 108px 0px;
     text-align: center;
     line-height: 52px;
+   
     @include respond-to("<=xs") {
       text-align: unset;
       padding: 71px 15px;
