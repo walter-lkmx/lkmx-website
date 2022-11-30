@@ -3,9 +3,40 @@
         "title": "Convertimos tus ideas en realidad",
         "ogDescription": "Conceptualizamos, diseñamos y desarrollamos complejas soluciones de software, lideramos la optimización digital de industrias clave alrededor del mundo.",
         "ogImage": "",
+        "title2": [
+            "Convertimos",
+            "tus ideas en realidad"
+        ],
         "hero": [
-            "-"
-        ]
+            "Nuestro equipo de expertos  diseña y desarrolla las más complejas soluciones de software, liderando la optimización digital de compañías en industrias clave alrededor del mundo."
+        ],
+        "services": [
+            "Somos una",
+            "ALTERNATIVA REAL",
+            "al",
+            "STAFF-AUGMENTATION.", 
+            "Diseñamos servicios para el desarrollo de software a la medida. Con ellos construimos tecnología de cualquier grado de complejidad y líneas de tiempo con cualquier demanda."            
+        ],
+        "technologies": ["Usamos la tecnología open source más avanzada y somos",
+            "expertos",
+            "en ella."
+        ],
+        "team": [
+            "Ingenieros, artistas, analistas y visionarios componen",
+            "nuestro equipo"
+        ],
+        "work": [
+            "Somos",
+            "socios estratégicos",
+            "de",
+            "compañías alrededor del mundo"
+        ],
+        "buttons": {
+            "btnServices": "Descubre cómo",
+            "btnTechnologies": "Descubre nuestras tecnologías",
+            "btnTeam": "Conócenos",
+            "btnWork": "Explora"
+        }
     },
     "services": {
         "title": "Servicios",

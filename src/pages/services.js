@@ -9,6 +9,7 @@ import getLang from '@/lang';
 import siteMetadata from "../meta/siteMetadata"
 import HeadSeo from "../components/HeadSeo"
 import { useRouter } from "next/router";
+import Link from "next/link";
 
 export default function ServicesPage() {
 
@@ -76,7 +77,7 @@ export default function ServicesPage() {
               <div>
                 <h4>DISCOVERY</h4>
                 <p>{$t.services.phases[0]}</p>
-                <img src="/icons/arrow-right--pink.svg" alt="arrow"/>
+                <Link href="/discovery"><img src="/icons/arrow-right--pink.svg" alt="arrow"/></Link> 
               </div>
               <div>
                 <h4>AGILE<br/>DEVELOPMENT</h4>

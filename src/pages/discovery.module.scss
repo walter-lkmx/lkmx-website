@@ -41,7 +41,7 @@
       position: relative;
 
       > div > div {
-        @include respond-to("<=xs") {
+        @include respond-to("<=s") {
           height: 324px;
           position: relative;
           display: grid;
@@ -65,12 +65,12 @@
             transform: translate(0%, -2.5%);
           }
         }
-        &__svgMobile {
+        &__svgMobile { //TODO: img moving around on S resolution
           display: none;
           right: 1vw;
           position: absolute;
           bottom: 17px;
-          @include respond-to("<=xs") {
+          @include respond-to("<=s") {
             display: block;
             transform: translate(calc(2% - 5px), calc(6% + 2px));
           }
@@ -96,7 +96,7 @@
             transform: translateY(275px);
           }
 
-          @include respond-to("<=xs") {
+          @include respond-to("<=s") {
             width: .5px;
             height: 100%;
             left: 50%;
@@ -130,10 +130,9 @@
           padding: 256px 0 !important;
         }
         @include respond-to("<=s") {
-          padding: 72px 0 !important;
-        }
-        @include respond-to("<=xs") {
           padding: 72px 16px !important;
+          justify-content: center;
+          display: grid;
         }
       }
       &__content {

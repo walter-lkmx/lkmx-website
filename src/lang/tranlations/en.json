@@ -6,9 +6,41 @@
         "title": "We turn your ideas into reality",
         "ogDescription": "Our team of experts conceptualize, design, and deliver the most complex software solutions, leading the digital transformation of companies around the globe.",
         "ogImage": "",
+        "title2": [
+            "We turn",
+            "your ideas into reality"
+        ], 
         "hero": [
-            "-"
-        ]
+            "Our team of experts designs and develops the most complex software solutions, leading the digital optimization of companies in key industries around the world."
+        ],
+        "services": [
+            "We are a",
+            "REAL ALTERNATIVE",
+            "to",
+            "STAFF-AUGMENTATION.", 
+            "We design services for custom software development. With them we build technology of any degree of complexity and timelines with any demand."            
+        ],
+        "technologies": [
+            "We use the most advanced open source technology and we are",
+            "experts",
+            "in it."
+        ],
+        "team": [
+            "Engineers, artists, analysts and visionaries make up",
+            "our team"
+        ],
+        "work": [
+            "We are",
+            "strategic partners",
+            "of",
+            "companies around the world"
+        ],
+        "buttons": {
+            "btnServices": "Discover how",
+            "btnTechnologies": "Discover our technologies",
+            "btnTeam": "Get to know us",
+            "btnWork": "Explore"
+        }
     },
     "services": {
         "title": "Services",
@@ -165,42 +197,42 @@
     },
     "discovery": {
         "title": "Discovery",
-        "goBack": "Regresar",
+        "goBack": "Go Back",
         "hero" :[
-            "Nuestras soluciones comienzan desde el",
-            "análisis de las necesidades y objetivos para",
-            "definir la mejor ruta, asi como su alcance."
+            "Our solutions start from the",
+            "analysis of needs and objectives to",
+            "define the best route, as well as its scope."
         ],
         "bannerTitle" : [
-            "UTILIZAMOS METODOLOGÍAS",
-            "ESPECIALIZADAS"
+            "We use a couple of specialized",
+            "Methodologies"
         ],
         "prototype" : {
             "summary": {
-                "title": "CREAMOS UN PROTOTIPO INICIAL",
+                "title": "We create an initial prototype",
                 "paragraph": [
-                    "Creamos un prototipo inicial del software en forma de una",
-                    "colección de artefactos. Esto permite tomar decisiones",
-                    "informadas sobre el camino a seguir para obtener nuevas",
-                    "capacidades de negocio u optimizar procesos, todo esto con un",
-                    "proyecto ágil de tecnología listo para ser ejecutado."  
+                    "We create an initial prototype of the software in the form of a",
+                    "collection of artifacts, allowing stakeholders to make informed",
+                    "decisions on the path to follow to obtain new",
+                    "business capabilities or optimize processes, all this with an",
+                    "agile technology project ready to be executed."  
                 ]
             },
             "rapid" : {
                 "title": "RAPID PROTOTYPING",
                 "paragraph": [
-                    "Nos ayuda a ofrecer entregas constantes de un prototipo, con las vistas y",
-                    "los escenarios que constituyen la solución de software, maximizando el",
-                    "tiempo."
+                    "It helps us to offer constant deliveries of a prototype, with the views and",
+                    "scenarios that constitute the software solution, maximizing",
+                    "time."
                 ]
             },
             "adhoc" : {
                 "title": "AD-HOC DISCOVERY",
                 "paragraph": [
-                    "Desarrollamos un plan a la medida, involucrando una o más técnicas de",
-                    "análisis y prototipado de requerimientos que aclaran el camino para el",
-                    "negocio y en muchos casos plantean una ruta viable para la",
-                    "implementación de la solución."
+                    "We develop a customized plan, involving one or more requirements",
+                    "analysis and prototyping techniques that clarify the path for the",
+                    "business and in many cases propose a viable path for the",
+                    "implementation of the solution."
                 ]
             }
         },

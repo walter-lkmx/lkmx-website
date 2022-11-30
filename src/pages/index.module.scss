@@ -32,6 +32,8 @@
                 h2{
                     font-size: rem(60px);
                     line-height: 70.31px;
+                    text-transform: uppercase;
+                    width: max-content;
                 }
                 p {
                     font-size: rem(20px);
@@ -186,7 +188,6 @@
         background-color: $color-neutral-black;
         p {color: white;}
         &__block {
-            height: rem(2350px);
             &:first-child > div > div {
                 padding: 0px;
             }
@@ -223,7 +224,6 @@
                 &__btn {
                     gap: 4px;
                     height: 40px;
-                    width: rem(102px);
                     background: $color-pink;
                     font-weight: 400;
                     font-size: 14px;
@@ -431,7 +431,6 @@
         }
         &__team {
             &__block {
-                height: rem(1920.73px);
                 &__content {
                     padding-top: rem(120px);
                     &__collabs {
@@ -451,6 +450,16 @@
             }
         }
     }
+     @include respond-to("xs") {
+        &__hero {
+            &__block {
+                img {
+                    transform: translate(45%, calc(-10% - 1px)) !important;
+                }
+            }
+        }
+    }
+    //Todo: En resolucion XS(la parte mas pequeña) el hexagono se recorre
     @include respond-to("<=s"){
         &__second {
             &__block {
@@ -571,6 +580,7 @@
             }
         }
     }
+   
     @include respond-to("xxs") {
         &__hero {
 
@@ -740,7 +750,7 @@
             }
         }
     }
-    @include respond-to("<=m") {
+    @include respond-to("<=xs") {
         &__hero {
             &__block {
                 img {
@@ -797,6 +807,9 @@
                     &__dragon {
                         width: auto;
                         height: auto;
+                        @include respond-to("xs") {
+                            width: 19.905rem;
+                        }
 
                     }
                 }
@@ -870,6 +883,7 @@
                     }
                     &__collabs {
                         width: auto;
+                        height: auto;
                     }
                 }
             }           

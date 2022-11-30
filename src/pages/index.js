@@ -49,23 +49,18 @@ export default function Index() {
           <Block className={styles.index__hero__block}>
             <img src="/hexagon.svg" alt="hexagon"/>
             <div className={styles.index__hero__block__intro}>
-                <h2>CONVERTIMOS<br/>TUS IDEAS EN REALIDAD</h2>
-              <p>Nuestro equipo de expertos conceptualiza, diseña y desarrolla las
-                más complejas soluciones de software, liderando la optimización 
-                digital de compañías en industrias clave alrededor del mundo.
-              </p>
+                <h2>{$t.home.title2[0]}<br/>{$t.home.title2[1]}</h2>
+              <p>{$t.home.hero}</p>
             </div>
             
           </Block>
         </Column>
-        <Column className={styles.index__second} number="2" mode="full">
+        <Column className={styles.index__second} number="2" mode="slim">
           <Block className={styles.index__second__block}>
             <div className={styles.index__second__block__left}>
-              <p>
-              Somos una <strong>ALTERNATIVA REAL</strong> al <strong>STAFF-AUGMENTATION</strong>. Diseñamos servicios para el desarrollo de software a la medida. 
-              Con ellos construimos tecnología de cualquier grado de complejidad y líneas de tiempo con cualquier demanda.
+              <p>{$t.home.services[0]} <strong>{$t.home.services[1]}</strong> {$t.home.services[2]} <strong>{$t.home.services[3]}</strong> {$t.home.services[4]}
               </p>
-              <div className={styles.index__second__block__left__btn}><Link href="/services" >Descubre Cómo</Link></div>
+              <div className={styles.index__second__block__left__btn}><Link href="/services" >{$t.home.buttons.btnServices}</Link></div>
               
             </div>            
           </Block>
@@ -79,7 +74,7 @@ export default function Index() {
         <Column className={styles.index__technology} number="1" mode="full">
           <Block className={styles.index__technology__block}>
             <div className={styles.index__technology__block__title}>
-              <p>Usamos la tecnología open source más avanzada y somos <strong>EXPERTOS</strong> en ella.</p>
+              <p>{$t.home.technologies[0]} <strong>{$t.home.technologies[1]}</strong> {$t.home.technologies[2]}</p>
             </div>
 
             <div className={styles.index__technology__block__logos}>
@@ -99,7 +94,7 @@ export default function Index() {
                 )
               })}
             </div>
-            <div className={styles.index__technology__block__btn}><Link href="/technology" >Descubre nuestras tecnologias</Link></div>
+            <div className={styles.index__technology__block__btn}><Link href="/technology" >{$t.home.buttons.btnTechnologies}</Link></div>
             
           </Block>
         </Column>
@@ -108,8 +103,8 @@ export default function Index() {
               <div className={styles.index__team__block__content}>
                 <img src="/koi-swimming.svg" className={styles.index__team__block__content__koi} alt="koi"/>
                 <div className={styles.index__team__block__content__text}>
-                  <p>Ingenieros, artistas, analistas y visionarios componen <strong>NUESTRO EQUIPO</strong></p>
-                  <div className={styles.index__team__block__content__btn}><Link href="/team">Conócenos</Link></div> 
+                  <p>{$t.home.team[0]} <strong>{$t.home.team[1]}</strong></p>
+                  <div className={styles.index__team__block__content__btn}><Link href="/team">{$t.home.buttons.btnTeam}</Link></div> 
                 </div>
                 <div className={styles.index__team__block__content__collabs}>
                 {pictures.map((picture, index) => {
@@ -126,8 +121,8 @@ export default function Index() {
             <img className={styles.index__partners__block__leftTriangle} src="/triangles/triangle-waves--left.svg" alt="triangle-waves"/>
             <img className={styles.index__partners__block__rightTriangle} src="/triangles/triangle-waves--right.svg" alt="triangle-waves"/>
             <div className={styles.index__partners__block__content}>
-              <p>Somos <strong>socios estratégicos</strong> de <strong>compañías alrededor del mundo</strong>.</p>
-              <div className={styles.index__partners__block__content__btn}> <Link href="/projects" >Explora</Link></div> 
+              <p>{$t.home.work[0]} <strong>{$t.home.work[1]}</strong> {$t.home.work[2]} <strong>{$t.home.work[3]}</strong>.</p>
+              <div className={styles.index__partners__block__content__btn}> <Link href="/projects" >{$t.home.buttons.btnWork}</Link></div> 
             </div>
           </Block>
         </Column>
