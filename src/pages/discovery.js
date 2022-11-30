@@ -8,7 +8,8 @@ import getLang from '@/lang';
 import { useRouter } from "next/router";
 import Image from "next/image"
 import Link from "next/link"
-export default function discoveryPage() {
+
+export default function DiscoveryPage() {
     const { locale } = useRouter();
     const $t = getLang(locale);
 
