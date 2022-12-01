@@ -13,8 +13,8 @@ export default function TechnologyPage() {
   const { locale } = useRouter();
   const $t = getLang(locale);
   const industriesCat = $t.industries.catalogItems
-  let industriesCatItems = industriesCat.map(function(item){
-    return <div className={styles.catalogItem}>
+  let industriesCatItems = industriesCat.map(function(item, index){
+    return <div key={index} className={styles.catalogItem}>
               <Image
                 src={item.img}
                 alt={item.title}
