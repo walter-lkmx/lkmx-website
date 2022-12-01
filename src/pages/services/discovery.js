@@ -1,9 +1,9 @@
 import React from "react";
 import BaseLayout from "@/layouts/base-layout.js";
 import { Block, Column, Page } from "@lkmx/flare-react";
-import styles from "@/pages/discovery.module.scss";
-import siteMetadata from "../meta/siteMetadata";
-import HeadSeo from "../components/HeadSeo";
+import styles from "@/pages/services/discovery.module.scss";
+import siteMetadata from "../../meta/siteMetadata";
+import HeadSeo from "../../components/HeadSeo";
 import getLang from '@/lang';
 import { useRouter } from "next/router";
 import Image from "next/image"
@@ -72,7 +72,8 @@ export default function DiscoveryPage() {
                 <Column className={styles.discovery__next} number="1" modeM="full" modeL="full">
                     <Block className={styles.discovery__next}>
                         <span>{$t.discovery.span.text}</span>
-                        <img src="/icons/arrow-right--pink.svg" alt="Pink arrow right"/>
+                        <Link href="/services/agileDevelopment"><img src="/icons/arrow-right--pink.svg" alt="Pink arrow right"/></Link>
+                        
                     </Block>
                 </Column>
             </Page>
