@@ -107,7 +107,7 @@ export default function ContactPage() {
           </Block>
         </Column>
 
-        <Column number="2" numberS="1" modeXl="normal" modeL="full" weightXl="normal" weightL="right" weightM="normal" className={styles['contact__about-us']}>
+        {/* <Column number="2" numberS="1" modeXl="normal" modeL="full" weightXl="normal" weightL="right" weightM="normal" className={styles['contact__about-us']}>
           <Block className={styles['contact__about-us__block']}>
             <div className={styles['contact__about-us__block__left']}>
               <h2>{$t.team.reviews[0]}</h2>
@@ -132,7 +132,7 @@ export default function ContactPage() {
               </Carousel>
             </div>
           </Block>
-        </Column>
+        </Column> */}
 
         <Column className={styles['contact__mobile-bottom']}>
           <Block>
