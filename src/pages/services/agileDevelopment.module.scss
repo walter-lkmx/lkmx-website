@@ -1,0 +1,234 @@
+.agile {
+    &__goBack {
+        @include respond-to("<=l") {
+            display: none;
+        }
+
+        &:first-child>div>div {
+            align-content: center;
+            align-items: center;
+            display: grid;
+            grid-template-columns: 4.5% auto;
+            padding: 10px 8px;
+        }
+
+        background-color: $color-neutral-black;
+        justify-content: center;
+
+        img {
+            cursor: pointer;
+        }
+
+        span {
+            color: white;
+        }
+    }
+
+    &__hero {
+        max-height: 591px;
+        overflow: hidden;
+
+        @include respond-to("l") {
+            grid-template-columns: 47% auto !important;
+        }
+
+        @include respond-to("m") {
+            grid-template-columns: calc(38% + 5px) auto !important;
+        }
+
+        &__triangle {
+            position: absolute;
+            right: 0px;
+            height: 100%;
+            justify-items: unset;
+
+            @include respond-to("<=m") {
+                display: none;
+            }
+        }
+
+        &__phases {
+            position: relative;
+            overflow: hidden;
+            >div>div {
+                @include respond-to("<=s") {
+                    height: 324px;
+                    position: relative;
+                    display: grid;
+                    justify-items: baseline;
+                }
+            }
+
+            &__svg {
+                position: absolute;
+                right: 0;
+                transform: translate(0, 4.5%);
+                top: 0;
+                bottom: 0;
+                margin-top: auto;
+                margin-bottom: auto;
+                @include respond-to("<=xl") {
+                    overflow: hidden;
+                    max-width: 123% !important;
+                }
+
+                @include respond-to("<=m") {
+                    display: none;
+                }
+            }
+
+            &__svgMed {
+                display: none;
+                top: 0;
+                bottom: 0;
+                margin-top: auto;
+                margin-bottom: auto;
+                @include respond-to("m") {
+                    display: block;
+                    position: absolute;
+                    right: 0;
+                    transform: translate(0%, -2.5%);
+                    overflow: hidden;
+                }
+            }
+
+            &__svgMobile {
+                display: none;
+                position: absolute;
+                bottom: 17px;
+                left: 0;
+                right: 0;
+                margin-left: auto;
+                margin-right: auto;
+
+                @include respond-to("<=s") {
+                    display: block;
+                    transform: translateY(calc(6% + 2px));
+                }
+            }
+
+            &__svgLine {
+                position: absolute;
+                top: 53%;
+                left: 0;                
+                @include respond-to("<=xl") {
+                    display: none;
+                }
+            }
+        }
+
+        &__blue {
+
+            >div {
+
+                width: inherit !important;
+
+                @include respond-to("m") {
+                    width: auto !important;
+                }
+            }
+
+            >div>div {
+                padding: 220px 0 !important;
+
+                @include respond-to("<=s") {
+                    padding: 72px 16px !important;
+                    justify-content: center;
+                    display: grid;
+                }
+            }
+
+            &__content {
+                width: 420px;
+                padding-left: 163px;
+
+                @include respond-to("l") {
+                    padding-left: 54px;
+                }
+
+                @include respond-to("<=m") {
+                    padding-left: 0px;
+                }
+
+                @include respond-to("<=xs") {
+                    width: auto;
+                }
+
+                p {
+                    color: white;
+                    font-family: 'IBM Plex Sans';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 20px;
+                    line-height: 30px;
+                    margin: 0px;
+                    width: 420px;
+
+                    @include respond-to("<=xs") {
+                        font-size: 16px;
+                        line-height: 28px;
+                        width: 327px;
+                        padding-left: 16px;
+                    }
+                }
+            }
+
+            background-color: $color-blue;
+            justify-items: center;
+        }
+    }
+
+    &__navigation {
+        background-color: $color-bright-gray;
+
+        &__block {
+            &:first-child>div {
+                align-items: center;
+                display: grid;
+
+                @include respond-to("<=xs") {
+                    align-items: end;
+                }
+            }
+
+            height: 142px;
+
+            &:first-child>div>div {
+                align-items: center;
+                display: grid;
+                grid-template-columns: auto auto;
+                justify-content: space-between;
+                gap: 16px;
+
+                @include respond-to("<=xs") {
+                    padding: 21px 16px;
+                }
+            }
+
+            &__back,
+            &__forward {
+                display: grid;
+                grid-template-columns: auto auto;
+                align-items: center;
+                gap: 16px;
+
+                img {
+                    cursor: pointer;
+                }
+
+                span {
+                    color: $color-neutral-black;
+                    font-family: 'Roboto Condensed';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 16px;
+                    line-height: 24px;
+
+                    @include respond-to("<=xs") {
+                        width: min-content;
+                    }
+                }
+            }
+        }
+    }
+}
