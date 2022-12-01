@@ -152,54 +152,54 @@
         ]
     },
     "industries": {
-        "title": "Industrias",
-        "ogDescription": "Nuestra historia en varias industrias nos dota de la experiencia para comprender mejor tu negocio y crear soluciones de software que hagan de tu producto uno exitoso.",
+        "title": "Industries",
+        "ogDescription": "Our history in diverse industries gives us the needed experience to understand your business and create software solutions that make your product successful.",
         "ogImage": "",
         "hero": [
-          "Nuestra historia en varias industrias nos dota de la experiencia para comprender mejor tu negocio y crear soluciones de software que hagan de tu producto uno exitoso."
+          "Our history in diverse industries gives us the needed experience to understand your business and create software solutions that make your product successful."
         ],
-        "intro": "Nos mantenemos al día con tendencias y tecnologías en evolución que impactan en los cambios digitales y que ofrecen oportunidades según el tipo de empresa",
-        "catalogTitle": "Cada idea requiere una solución personalizada",
-        "catalogDescription": "Aprende más acerca de cómo hemos ayudado a otros negocios relacionados a tu industria.",
+        "intro": "We keep up with evolving trends and technologies that impact digital changes and offer opportunities depending on the type of company.",
+        "catalogTitle": "Each idea requires a custom solution",
+        "catalogDescription": "Learn more about how we help other businesses related to your industry.",
         "catalogItems": [
           {
             "title": "Healthcare & Wellness",
-            "description": "Creamos soluciones innovadoras incorporando tecnologías seguras a la prestación de servicios médicos y bienestar personal.",
+            "description": "We create innovative solutions by incorporating safe technologies into the provision of medical services and personal well-being.",
             "img": "/icon-industry-healthcare_wellness.svg"
           },
           {
             "title": "Logistics",
-            "description": "Modernizamos servicios que ayudan a nuestros clientes a cumplir requerimientos, reducir costos, aumentar la eficiencia y entregar resultados de Misión Crítica.",
+            "description": "We modernize services that help our clients meet requirements, reduce costs, increase efficiency and deliver Mission Critical results.",
             "img": "/icon-industry-logistics.svg"
           },
           {
             "title": "Data Analytics",
-            "description": "Construimos y conectamos experiencias de inteligencia de datos flexibles, escalables y elásticas para dar certeza a las desiciones de negocio.",
+            "description": "We build and connect flexible, scalable, and elastic data intelligence experiences to give certainty to business decisions.",
             "img": "/icon-industry-data_analytics.svg"
           },
           {
             "title": "Hospitality",
-            "description": "Ayudamos a nuestros clientes a obtener ventaja competitiva al enriquecer la experiencia de sus clientes y mejorando su eficiencia operativa.",
+            "description": "We help our customers gain a competitive advantage by enriching their customer experience and improving their operational efficiency.",
             "img": "/icon-industry-hospitality.svg"
           },
           {
             "title": "Ecommerce",
-            "description": "Desarrollamos soluciones en la nube que no solo optimizan la operación de venta, sino que deleitan a los clientes y promueven la adopción de la marca.",
+            "description": "We develop solutions on the cloud that not just optimize sales operations, but also delight customers and promote brand adoption.",
             "img": "/icon-industry-ecommerce.svg"
           },
           {
             "title": "Entrepreneurship",
-            "description": "Prototipamos, validamos y construimos MVPs escalables, minimizamos riesgos y maximizamos retornos. Acompañamos al emprendedor en su largo viaje.",
+            "description": "We prototype, validate, and build scalable MVPs, minimizing risks and maximizing returns. We accompany the entrepreneur on his long journey.",
             "img": "/icon-industry-entrepreneurship.svg"
           },
           {
             "title": "Web3",
-            "description": "Diseñamos soluciones descentralizadas creativas e inovadoras para los protocolos públicos y privados del nuevo internet.",
+            "description": "We design creative and innovative decentralized solutions for public and private protocols of the new internet.",
             "img": "/icon-industry-web3.svg"
           },
           {
             "title": "Process Innovation",
-            "description": "Transformamos negocios, producimos implementaciones de nivel empresarial, eficientes y potentes.",
+            "description": "We transform business, we produce enterprise-level, efficient and, powerful implementations.",
             "img": "/icon-industry-process_innovation.svg"
           }
         ]
