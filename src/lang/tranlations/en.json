@@ -151,12 +151,66 @@
             "of our clients."
         ]
     },
+    "industries": {
+        "title": "Industrias",
+        "ogDescription": "Nuestra historia en varias industrias nos dota de la experiencia para comprender mejor tu negocio y crear soluciones de software que hagan de tu producto uno exitoso.",
+        "ogImage": "",
+        "hero": [
+          "Nuestra historia en varias industrias nos dota de la experiencia para comprender mejor tu negocio y crear soluciones de software que hagan de tu producto uno exitoso."
+        ],
+        "intro": "Nos mantenemos al día con tendencias y tecnologías en evolución que impactan en los cambios digitales y que ofrecen oportunidades según el tipo de empresa",
+        "catalogTitle": "Cada idea requiere una solución personalizada",
+        "catalogDescription": "Aprende más acerca de cómo hemos ayudado a otros negocios relacionados a tu industria.",
+        "catalogItems": [
+          {
+            "title": "Healthcare & Wellness",
+            "description": "Creamos soluciones innovadoras incorporando tecnologías seguras a la prestación de servicios médicos y bienestar personal.",
+            "img": "/icon-industry-healthcare_wellness.svg"
+          },
+          {
+            "title": "Logistics",
+            "description": "Modernizamos servicios que ayudan a nuestros clientes a cumplir requerimientos, reducir costos, aumentar la eficiencia y entregar resultados de Misión Crítica.",
+            "img": "/icon-industry-logistics.svg"
+          },
+          {
+            "title": "Data Analytics",
+            "description": "Construimos y conectamos experiencias de inteligencia de datos flexibles, escalables y elásticas para dar certeza a las desiciones de negocio.",
+            "img": "/icon-industry-data_analytics.svg"
+          },
+          {
+            "title": "Hospitality",
+            "description": "Ayudamos a nuestros clientes a obtener ventaja competitiva al enriquecer la experiencia de sus clientes y mejorando su eficiencia operativa.",
+            "img": "/icon-industry-hospitality.svg"
+          },
+          {
+            "title": "Ecommerce",
+            "description": "Desarrollamos soluciones en la nube que no solo optimizan la operación de venta, sino que deleitan a los clientes y promueven la adopción de la marca.",
+            "img": "/icon-industry-ecommerce.svg"
+          },
+          {
+            "title": "Entrepreneurship",
+            "description": "Prototipamos, validamos y construimos MVPs escalables, minimizamos riesgos y maximizamos retornos. Acompañamos al emprendedor en su largo viaje.",
+            "img": "/icon-industry-entrepreneurship.svg"
+          },
+          {
+            "title": "Web3",
+            "description": "Diseñamos soluciones descentralizadas creativas e inovadoras para los protocolos públicos y privados del nuevo internet.",
+            "img": "/icon-industry-web3.svg"
+          },
+          {
+            "title": "Process Innovation",
+            "description": "Transformamos negocios, producimos implementaciones de nivel empresarial, eficientes y potentes.",
+            "img": "/icon-industry-process_innovation.svg"
+          }
+        ]
+      },
     "header":{
         "module1": "SERVICES",
         "module2": "METHODOLOGY",
         "module3": "TECHNOLOGY",
         "module4": "WORK",
-        "module5": "TEAM"
+        "module5": "TEAM",
+        "module6": "INDUSTRIES"
     },
     "footer": {
         "paragraph": "We have been providing software engineering services from our headquarters in Ensenada, Baja California, Mexico since January 2014.",

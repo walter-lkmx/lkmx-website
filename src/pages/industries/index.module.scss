@@ -1,0 +1,173 @@
+.industries {
+  $hero-height-large: rem(591px);
+  $hero-height-medium: rem(592px);
+  $hero-height-small: rem(412px);
+  &__hero {
+    height: $hero-height-large;
+    &__block {
+      * {
+        color: white;
+      }
+      background-color: $color-neutral-black;
+      &:first-child {
+        --f-gutter: 0px;
+        > div > div {
+          height: 100%;
+        }
+      }
+      &:last-child {
+        background-color: white;
+        background-image: url('/hero-industries.svg');
+        background-repeat: no-repeat;
+        position: relative;
+        overflow: hidden;
+        background-position: 0% 50%;
+        background-size: cover;
+        @include respond-to('<=s') {
+          background-position: bottom;
+        }
+      }
+      &__left {
+        padding: rem(52px) 0 1rem rem(16px);
+        height: 100%;
+        display: grid;
+        align-items: end;
+        div {
+          padding-bottom: rem(55px);
+          *{margin: 0;}
+          h2 {
+            font-family: $font-tertiary;
+            font-size: rem(35px);
+            line-height: rem(47px);
+            text-transform: uppercase;
+          }
+          p {
+            margin: 0;
+            font-size: rem(20px);
+            line-height: rem(30px);
+            &:last-child {
+              padding-top: rem(16px);
+            }
+            strong {
+              font-size: 1.5rem;
+              line-height: 2rem;
+              color: $color-cyan;
+              &:last-child {
+                color: $color-pink;
+              }
+            }
+          }
+        }
+      }
+      &__right {
+        @include respond-to('<=s') {
+          height: 350px;
+        }
+        div {
+          position: absolute;
+          top: 0;
+          left: 0;
+          height: $hero-height-large;
+          width: rem(155px);
+          background-image: linear-gradient(
+            to bottom right,
+            $color-neutral-black 0%,
+            $color-neutral-black 50%,
+            rgba(255, 255, 255, 0) 50%,
+            rgba(255, 255, 255, 0) 100%
+          );
+          @include respond-to('<=s') {
+            display: none;
+          }
+        }
+        &__elipse {
+          max-width: none !important;
+          width: 648px;
+          height: 648px;
+          position: absolute;
+          right: 122px;
+          top: -30px;
+          transform: translate(50%, -50%);
+        }
+      }
+    }
+  }
+  &__intro {
+    &__block {
+      .lkContainer {
+        padding: 108px 0;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        * {
+          margin: 0;
+        }
+        h2 {
+          max-width: 713px;
+          font-family: $font-secondary;
+          font-size: 28px;
+          line-height: 36px;
+          text-transform: uppercase;
+        }
+      }
+    }
+  }
+  &__catalog {
+      background: $color-bright-gray-01;
+
+      .lkContainer {
+        padding: 92px 0;
+        display: grid;
+        grid-template-columns: 450px 1fr;
+        @include respond-to("<=m") {
+            grid-template-columns: 1fr;
+            gap: var(--f-gutter);
+        }
+        .catalogIntro {
+          max-width: rem(450px);
+          padding-top: var(--f-gutter);
+          padding-bottom: var(--f-gutter);
+          display: grid;
+          gap: 8px;
+          align-content: start;
+          *{margin: 0;}
+          h2 {
+            max-width: 418px;
+            font-family: $font-secondary;
+            font-size: 28px;
+            line-height: 36px;
+            text-transform: uppercase;
+          }
+        }
+        .catalogItems {
+          min-height: 300px;
+          display: grid;
+          grid-template-columns: repeat(2, 2fr);
+          gap: 2px;
+          @include respond-to("<=s") {
+            grid-template-columns: 1fr;
+          }
+          *{margin: 0;}
+          .catalogItem {
+            background-color: white;
+            min-height: 296px;
+            padding: 26px;
+            display: grid;
+            gap: var(--f-gutter);
+            justify-items: start;
+            align-content: start;
+            &__desc {
+              display: grid;
+              gap: 4px;
+              h4 {
+                font-family: $font-secondary;
+                font-size: 20px;
+                line-height: 28px;
+              }
+            }
+          }
+        }
+      }
+
+  }
+}

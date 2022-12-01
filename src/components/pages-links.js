@@ -18,7 +18,8 @@ export default function PagesLinks(props) {
     <div className={`${styles.headerNavigation}`}>
       <nav className={`${styles.links} ${props.className} ${props.whiteColor ? styles['white-color'] : ''}`}>
         <Link href="/services">{$t.header.module1}</Link>
-        <Link href="/methodology">{$t.header.module2}</Link>
+        {/* <Link href="/methodology">{$t.header.module2}</Link> */}
+        <Link href="/industries">{$t.header.module6}</Link>
         <Link href="/technology">{$t.header.module3}</Link>
         <Link href="/projects">{$t.header.module4}</Link>
         <Link href="/team">{$t.header.module5}</Link>

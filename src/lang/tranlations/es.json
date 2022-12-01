@@ -1,237 +1,270 @@
 {
-    "home": {
-        "title": "Convertimos tus ideas en realidad",
-        "ogDescription": "Conceptualizamos, diseñamos y desarrollamos complejas soluciones de software, lideramos la optimización digital de industrias clave alrededor del mundo.",
-        "ogImage": "",
-        "title2": [
-            "Convertimos",
-            "tus ideas en realidad"
-        ],
-        "hero": [
-            "Nuestro equipo de expertos  diseña y desarrolla las más complejas soluciones de software, liderando la optimización digital de compañías en industrias clave alrededor del mundo."
-        ],
-        "services": [
-            "Somos una",
-            "ALTERNATIVA REAL",
-            "al",
-            "STAFF-AUGMENTATION.", 
-            "Diseñamos servicios para el desarrollo de software a la medida. Con ellos construimos tecnología de cualquier grado de complejidad y líneas de tiempo con cualquier demanda."            
-        ],
-        "technologies": ["Usamos la tecnología open source más avanzada y somos",
-            "expertos",
-            "en ella."
-        ],
-        "team": [
-            "Ingenieros, artistas, analistas y visionarios componen",
-            "nuestro equipo"
-        ],
-        "work": [
-            "Somos",
-            "socios estratégicos",
-            "de",
-            "compañías alrededor del mundo"
-        ],
-        "buttons": {
-            "btnServices": "Descubre cómo",
-            "btnTechnologies": "Descubre nuestras tecnologías",
-            "btnTeam": "Conócenos",
-            "btnWork": "Explora"
-        }
-    },
-    "services": {
-        "title": "Servicios",
-        "ogDescription": "Diseñamos servicios para el desarrollo de software a la medida para compañías con necesidades de tecnología de cualquier grado de complejidad.",
-        "hero": [
-            "Como una",
-            "ALTERNATIVA REAL",
-            "al",
-            "STAFF-AUGMENTATION",
-            "diseñamos servicios para el desarrollo de software a la medida para compañías con necesidades de tecnología de cualquier grado de complejidad y líneas de tiempo de cualquier demanda"
-        ],
-        "banner": [
-            "Nos especializamos en la construcción de",
-            "SOLUCIONES DE SOFTWARE DESDE CERO",
-            "por lo que nuestros servicios cubren todas las  fases del ciclo de vida del software",
-            "Nuestras metodologías brindan la mayor flexibilidad posible mientras mantienen bajo control los entregables, plazos de tiempo y costos"
-        ],
-        "phases": [
-            "Nuestras soluciones comienzan mediante el estudio previo de los retos y los objetivos por cumplir. Este será el punto de inicio para el éxito del proyecto.",
-            "Con base en lo que descubrimos, creamos increíbles experiencias web y móviles que involucran manejo de datos, big data, blockchain e inteligencia artificial.",
-            "Al final del desarrollo ofrecemos servicios de mantenimiento y soporte para una estabilización y transferencia exitosa de la plataforma."
-        ]
-    },
-    "methodology": {
-        "title": "Metodología",
-        "ogDescription": "Nuestras metodologías mantienen bajo control los entregables, plazos de tiempo y costos.",
-        "ogImage": "",
-        "hero": [
-            "-"
-        ]
-    },
-    "team": {
-        "title": "Equipo",
-        "ogDescription": "Somos una combinación de CREATIVOS y EXPERTOS en tecnología. Conectamos nuestras habilidades para construir soluciones de software.",
-        "ogImage": "",
-        "headline": "NUESTRO EQUIPO",
-        "hero": [
-            "Somos una combinación de",
-            "creativos",
-            "y",
-            "expertos",
-            " en tecnología. Conectamos nuestras habilidades para construir soluciones de software robustas, flexibles, escalables y seguras."
-        ],
-        "banner": {
-            "title": [
-                "UNA SUMA DE",
-                "INGENIEROS",
-                "ARTISTAS",
-                "ANALISTAS",
-                "Y VISIONARIOS COMPONEN NUESTRO EQUIPO."
-            ],
-            "text": "Divididos por áreas, pero interconectados mediante bien definidos procesos, integramos un equipo de ingeniería robusto capaz de operar a velocidades escalofriantes."
-        },
-        "analysis": {
-            "title": "ANÁLISIS",
-            "text": "Se encargan de orquestar la metodología de captura, analizar los requerimientos y comunicar a las áreas de producción de la empresa."
-        },
-        "design": {
-            "title": "DISEÑO",
-            "text": "Crean y estandarizan artefactos digitales apegados a buenas prácticas que colaboran en la metodología de captura y análisis de requerimientos."
-        },
-        "development": {
-            "title": "DESARROLLO",
-            "text": "Aplican técnicas de ingeniería de software para crear tecnología avanzada de manera efectiva y eficiente."
-        },
-        "quality": {
-            "title": "CALIDAD",
-            "text": "Se aseguran de que las características del software cumplan las especificaciones definidas o superen las expectativas."
-        },
-        "reviews": [
-            "QUÉ DICEN",
-            "NUESTROS SOCIOS",
-            "DE NOSOTROS."
-        ]
-    },
-    "technology": {
-        "title": "Tecnología",
-        "ogDescription": "Utilizamos tres principios al elegir nuestra tecnología: Agile, Cloud y Open-Source.",
-        "ogImage": "",
-        "hero": [
-            "Utilizamos tres principios al elegir nuestra tecnología: Agile, Cloud y Open-Source.",
-            "Nuestro",
-            "STACK",
-            "de tecnología se mantiene",
-            "organizado",
-            "y",
-            "ACTUALIZADO",
-            "por arquitectos de software con décadas de experiencia combinada."
-        ],
-        "principles": [
-            "Nuestras herramientas nos ayudan a alcanzar grandes velocidades de desarrollo.",
-            "Nuestro software es nativo de la nube y se integra sin dificultades en cualquier plataforma.",
-            "Somos expertos en open-source, lo conocemos y estudiamos antes de incorporarlo a nuestro software."
-        ]
-    },
-    "work": {
-        "title": "Trabajo",
-        "ogDescription": "Conoce una muestra de los DESAFÍOS y las SOLUCIONES que hemos desarrollado para algunos de nuestros clientes.",
-        "ogImage": "",
-        "hero": [
-            "Conoce una muestra de los",
-            "desafíos",
-            "y las",
-            "soluciones",
-            "que hemos desarrollado para algunos",
-            "de nuestros clientes."
-        ]
-    },
-    "header": {
-        "module1": "SERVICIOS",
-        "module2": "METODOLOGÍA",
-        "module3": "TECNOLOGÍA",
-        "module4": "TRABAJO",
-        "module5": "EQUIPO"
-    },
-    "footer": {
-        "paragraph": "Prestamos servicios de ingeniería de software con nuestra sede en Ensenada, Baja California, México desde enero de 2014.",
-        "pages": {
-            "services": {
-                "title": "SERVICIOS",
-                "items": [
-                    "Nuestros Servicios",
-                    "Discovery",
-                    "Agile development",
-                    "Agile maintenance"
-                ]
-            },
-            "methodology": {
-                "title": "METODOLOGÍA",
-                "items": [
-                    "Ciclo de Vida",
-                    "MAAD",
-                    "Flare",
-                    "Ontología"
-                ]
-            },
-            "technology": {
-                "title": "TECNOLOGÍA",
-                "items": [
-                    "Lenguajes",
-                    "Frameworks",
-                    "Plataformas",
-                    "Herramientas"
-                ]
-            }
-        }
-    },
-    "project": {
-        "services": "Servicios",
-        "methodologies": "Metodologías",
-        "years": "Duración"
-    },
-    "discovery": {
-        "title": "Discovery",
-        "goBack": "Regresar",
-        "hero" :[
-            "Nuestras soluciones comienzan desde el",
-            "análisis de las necesidades y objetivos para",
-            "definir la mejor ruta, asi como su alcance."
-        ],
-        "bannerTitle" : [
-            "UTILIZAMOS METODOLOGÍAS",
-            "ESPECIALIZADAS"
-        ],
-        "prototype": {
-            "summary": {
-                "title": "CREAMOS UN PROTOTIPO INICIAL",
-                "paragraph": [
-                    "Creamos un prototipo inicial del software en forma de una",
-                    "colección de artefactos. Esto permite tomar decisiones",
-                    "informadas sobre el camino a seguir para obtener nuevas",
-                    "capacidades de negocio u optimizar procesos, todo esto con un",
-                    "proyecto ágil de tecnología listo para ser ejecutado."  
-                ]
-            },
-            "rapid": {
-                "title": "RAPID PROTOTYPING",
-                "paragraph": [
-                    "Nos ayuda a ofrecer entregas constantes de un prototipo, con las vistas y",
-                    "los escenarios que constituyen la solución de software, maximizando el",
-                    "tiempo."
-                ]
-            },
-            "adhoc": {
-                "title": "AD-HOC DISCOVERY",
-                "paragraph": [
-                    "Desarrollamos un plan a la medida, involucrando una o más técnicas de",
-                    "análisis y prototipado de requerimientos que aclaran el camino para el",
-                    "negocio y en muchos casos plantean una ruta viable para la",
-                    "implementación de la solución."
-                ]
-            }
-        },
-        "span": {
-            "text": "AGILE DEVELOPMENT"
-        }
+  "home": {
+    "title": "Convertimos tus ideas en realidad",
+    "ogDescription": "Conceptualizamos, diseñamos y desarrollamos complejas soluciones de software, lideramos la optimización digital de industrias clave alrededor del mundo.",
+    "ogImage": "",
+    "title2": ["Convertimos", "tus ideas en realidad"],
+    "hero": [
+      "Nuestro equipo de expertos  diseña y desarrolla las más complejas soluciones de software, liderando la optimización digital de compañías en industrias clave alrededor del mundo."
+    ],
+    "services": [
+      "Somos una",
+      "ALTERNATIVA REAL",
+      "al",
+      "STAFF-AUGMENTATION.",
+      "Diseñamos servicios para el desarrollo de software a la medida. Con ellos construimos tecnología de cualquier grado de complejidad y líneas de tiempo con cualquier demanda."
+    ],
+    "technologies": [
+      "Usamos la tecnología open source más avanzada y somos",
+      "expertos",
+      "en ella."
+    ],
+    "team": [
+      "Ingenieros, artistas, analistas y visionarios componen",
+      "nuestro equipo"
+    ],
+    "work": [
+      "Somos",
+      "socios estratégicos",
+      "de",
+      "compañías alrededor del mundo"
+    ],
+    "buttons": {
+      "btnServices": "Descubre cómo",
+      "btnTechnologies": "Descubre nuestras tecnologías",
+      "btnTeam": "Conócenos",
+      "btnWork": "Explora"
     }
+  },
+  "services": {
+    "title": "Servicios",
+    "ogDescription": "Diseñamos servicios para el desarrollo de software a la medida para compañías con necesidades de tecnología de cualquier grado de complejidad.",
+    "hero": [
+      "Como una",
+      "ALTERNATIVA REAL",
+      "al",
+      "STAFF-AUGMENTATION",
+      "diseñamos servicios para el desarrollo de software a la medida para compañías con necesidades de tecnología de cualquier grado de complejidad y líneas de tiempo de cualquier demanda"
+    ],
+    "banner": [
+      "Nos especializamos en la construcción de",
+      "SOLUCIONES DE SOFTWARE DESDE CERO",
+      "por lo que nuestros servicios cubren todas las  fases del ciclo de vida del software",
+      "Nuestras metodologías brindan la mayor flexibilidad posible mientras mantienen bajo control los entregables, plazos de tiempo y costos"
+    ],
+    "phases": [
+      "Nuestras soluciones comienzan mediante el estudio previo de los retos y los objetivos por cumplir. Este será el punto de inicio para el éxito del proyecto.",
+      "Con base en lo que descubrimos, creamos increíbles experiencias web y móviles que involucran manejo de datos, big data, blockchain e inteligencia artificial.",
+      "Al final del desarrollo ofrecemos servicios de mantenimiento y soporte para una estabilización y transferencia exitosa de la plataforma."
+    ]
+  },
+  "methodology": {
+    "title": "Metodología",
+    "ogDescription": "Nuestras metodologías mantienen bajo control los entregables, plazos de tiempo y costos.",
+    "ogImage": "",
+    "hero": ["-"]
+  },
+  "team": {
+    "title": "Equipo",
+    "ogDescription": "Somos una combinación de CREATIVOS y EXPERTOS en tecnología. Conectamos nuestras habilidades para construir soluciones de software.",
+    "ogImage": "",
+    "headline": "NUESTRO EQUIPO",
+    "hero": [
+      "Somos una combinación de",
+      "creativos",
+      "y",
+      "expertos",
+      " en tecnología. Conectamos nuestras habilidades para construir soluciones de software robustas, flexibles, escalables y seguras."
+    ],
+    "banner": {
+      "title": [
+        "UNA SUMA DE",
+        "INGENIEROS",
+        "ARTISTAS",
+        "ANALISTAS",
+        "Y VISIONARIOS COMPONEN NUESTRO EQUIPO."
+      ],
+      "text": "Divididos por áreas, pero interconectados mediante bien definidos procesos, integramos un equipo de ingeniería robusto capaz de operar a velocidades escalofriantes."
+    },
+    "analysis": {
+      "title": "ANÁLISIS",
+      "text": "Se encargan de orquestar la metodología de captura, analizar los requerimientos y comunicar a las áreas de producción de la empresa."
+    },
+    "design": {
+      "title": "DISEÑO",
+      "text": "Crean y estandarizan artefactos digitales apegados a buenas prácticas que colaboran en la metodología de captura y análisis de requerimientos."
+    },
+    "development": {
+      "title": "DESARROLLO",
+      "text": "Aplican técnicas de ingeniería de software para crear tecnología avanzada de manera efectiva y eficiente."
+    },
+    "quality": {
+      "title": "CALIDAD",
+      "text": "Se aseguran de que las características del software cumplan las especificaciones definidas o superen las expectativas."
+    },
+    "reviews": ["QUÉ DICEN", "NUESTROS SOCIOS", "DE NOSOTROS."]
+  },
+  "technology": {
+    "title": "Tecnología",
+    "ogDescription": "Utilizamos tres principios al elegir nuestra tecnología: Agile, Cloud y Open-Source.",
+    "ogImage": "",
+    "hero": [
+      "Utilizamos tres principios al elegir nuestra tecnología: Agile, Cloud y Open-Source.",
+      "Nuestro",
+      "STACK",
+      "de tecnología se mantiene",
+      "organizado",
+      "y",
+      "ACTUALIZADO",
+      "por arquitectos de software con décadas de experiencia combinada."
+    ],
+    "principles": [
+      "Nuestras herramientas nos ayudan a alcanzar grandes velocidades de desarrollo.",
+      "Nuestro software es nativo de la nube y se integra sin dificultades en cualquier plataforma.",
+      "Somos expertos en open-source, lo conocemos y estudiamos antes de incorporarlo a nuestro software."
+    ]
+  },
+  "work": {
+    "title": "Trabajo",
+    "ogDescription": "Conoce una muestra de los DESAFÍOS y las SOLUCIONES que hemos desarrollado para algunos de nuestros clientes.",
+    "ogImage": "",
+    "hero": [
+      "Conoce una muestra de los",
+      "desafíos",
+      "y las",
+      "soluciones",
+      "que hemos desarrollado para algunos",
+      "de nuestros clientes."
+    ]
+  },
+  "industries": {
+    "title": "Industrias",
+    "ogDescription": "Nuestra historia en varias industrias nos dota de la experiencia para comprender mejor tu negocio y crear soluciones de software que hagan de tu producto uno exitoso.",
+    "ogImage": "",
+    "hero": [
+      "Nuestra historia en varias industrias nos dota de la experiencia para comprender mejor tu negocio y crear soluciones de software que hagan de tu producto uno exitoso."
+    ],
+    "intro": "Nos mantenemos al día con tendencias y tecnologías en evolución que impactan en los cambios digitales y que ofrecen oportunidades según el tipo de empresa",
+    "catalogTitle": "Cada idea requiere una solución personalizada",
+    "catalogDescription": "Aprende más acerca de cómo hemos ayudado a otros negocios relacionados a tu industria.",
+    "catalogItems": [
+      {
+        "title": "Salud y Bienestar",
+        "description": "Creamos soluciones innovadoras incorporando tecnologías seguras a la prestación de servicios médicos y bienestar personal.",
+        "img": "/icon-industry-healthcare_wellness.svg"
+      },
+      {
+        "title": "Logística",
+        "description": "Modernizamos servicios que ayudan a nuestros clientes a cumplir requerimientos, reducir costos, aumentar la eficiencia y entregar resultados de Misión Crítica.",
+        "img": "/icon-industry-logistics.svg"
+      },
+      {
+        "title": "Análisis de Datos",
+        "description": "Construimos y conectamos experiencias de inteligencia de datos flexibles, escalables y elásticas para dar certeza a las desiciones de negocio.",
+        "img": "/icon-industry-data_analytics.svg"
+      },
+      {
+        "title": "Hospitalidad",
+        "description": "Ayudamos a nuestros clientes a obtener ventaja competitiva al enriquecer la experiencia de sus clientes y mejorando su eficiencia operativa.",
+        "img": "/icon-industry-hospitality.svg"
+      },
+      {
+        "title": "Comercio Electrónico",
+        "description": "Desarrollamos soluciones en la nube que no solo optimizan la operación de venta, sino que deleitan a los clientes y promueven la adopción de la marca.",
+        "img": "/icon-industry-ecommerce.svg"
+      },
+      {
+        "title": "Emprendimiento",
+        "description": "Prototipamos, validamos y construimos MVPs escalables, minimizamos riesgos y maximizamos retornos. Acompañamos al emprendedor en su largo viaje.",
+        "img": "/icon-industry-entrepreneurship.svg"
+      },
+      {
+        "title": "Web3",
+        "description": "Diseñamos soluciones descentralizadas creativas e inovadoras para los protocolos públicos y privados del nuevo internet.",
+        "img": "/icon-industry-web3.svg"
+      },
+      {
+        "title": "Inovación de Procesos",
+        "description": "Transformamos negocios, producimos implementaciones de nivel empresarial, eficientes y potentes.",
+        "img": "/icon-industry-process_innovation.svg"
+      }
+    ]
+  },
+  "header": {
+    "module1": "SERVICIOS",
+    "module2": "METODOLOGÍA",
+    "module3": "TECNOLOGÍA",
+    "module4": "TRABAJO",
+    "module5": "EQUIPO",
+    "module6": "INDUSTRIAS"
+  },
+  "footer": {
+    "paragraph": "Prestamos servicios de ingeniería de software con nuestra sede en Ensenada, Baja California, México desde enero de 2014.",
+    "pages": {
+      "services": {
+        "title": "SERVICIOS",
+        "items": [
+          "Nuestros Servicios",
+          "Discovery",
+          "Agile development",
+          "Agile maintenance"
+        ]
+      },
+      "methodology": {
+        "title": "METODOLOGÍA",
+        "items": ["Ciclo de Vida", "MAAD", "Flare", "Ontología"]
+      },
+      "technology": {
+        "title": "TECNOLOGÍA",
+        "items": ["Lenguajes", "Frameworks", "Plataformas", "Herramientas"]
+      }
+    }
+  },
+  "project": {
+    "services": "Servicios",
+    "methodologies": "Metodologías",
+    "years": "Duración"
+  },
+  "discovery": {
+    "title": "Discovery",
+    "goBack": "Regresar",
+    "hero": [
+      "Nuestras soluciones comienzan desde el",
+      "análisis de las necesidades y objetivos para",
+      "definir la mejor ruta, asi como su alcance."
+    ],
+    "bannerTitle": ["UTILIZAMOS METODOLOGÍAS", "ESPECIALIZADAS"],
+    "prototype": {
+      "summary": {
+        "title": "CREAMOS UN PROTOTIPO INICIAL",
+        "paragraph": [
+          "Creamos un prototipo inicial del software en forma de una",
+          "colección de artefactos. Esto permite tomar decisiones",
+          "informadas sobre el camino a seguir para obtener nuevas",
+          "capacidades de negocio u optimizar procesos, todo esto con un",
+          "proyecto ágil de tecnología listo para ser ejecutado."
+        ]
+      },
+      "rapid": {
+        "title": "RAPID PROTOTYPING",
+        "paragraph": [
+          "Nos ayuda a ofrecer entregas constantes de un prototipo, con las vistas y",
+          "los escenarios que constituyen la solución de software, maximizando el",
+          "tiempo."
+        ]
+      },
+      "adhoc": {
+        "title": "AD-HOC DISCOVERY",
+        "paragraph": [
+          "Desarrollamos un plan a la medida, involucrando una o más técnicas de",
+          "análisis y prototipado de requerimientos que aclaran el camino para el",
+          "negocio y en muchos casos plantean una ruta viable para la",
+          "implementación de la solución."
+        ]
+      }
+    },
+    "span": {
+      "text": "AGILE DEVELOPMENT"
+    }
+  }
 }

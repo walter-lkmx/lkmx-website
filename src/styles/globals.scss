@@ -19,3 +19,8 @@ body {
         font-weight: bold;
     }
 }
+
+::selection {
+    color: $color-neutral-black;
+    background-color: $color-cyan;
+}
