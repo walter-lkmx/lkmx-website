@@ -60,7 +60,7 @@ export default function Index() {
             <div className={styles.index__second__block__left}>
               <p>{$t.home.services[0]} <strong>{$t.home.services[1]}</strong> {$t.home.services[2]} <strong>{$t.home.services[3]}</strong> {$t.home.services[4]}
               </p>
-              <div className={styles.index__second__block__left__btn}><Link href="/services" >{$t.home.buttons.btnServices}</Link></div>
+              <Link href="/services"><div className={styles.index__second__block__left__btn}>{$t.home.buttons.btnServices}</div></Link>
               
             </div>            
           </Block>
@@ -94,7 +94,7 @@ export default function Index() {
                 )
               })}
             </div>
-            <div className={styles.index__technology__block__btn}><Link href="/technology" >{$t.home.buttons.btnTechnologies}</Link></div>
+            <Link href="/technology" ><div className={styles.index__technology__block__btn}>{$t.home.buttons.btnTechnologies}</div></Link>
             
           </Block>
         </Column>
@@ -104,7 +104,7 @@ export default function Index() {
                 <img src="/koi-swimming.svg" className={styles.index__team__block__content__koi} alt="koi"/>
                 <div className={styles.index__team__block__content__text}>
                   <p>{$t.home.team[0]} <strong>{$t.home.team[1]}</strong></p>
-                  <div className={styles.index__team__block__content__btn}><Link href="/team">{$t.home.buttons.btnTeam}</Link></div> 
+                  <Link href="/team"><div className={styles.index__team__block__content__btn}>{$t.home.buttons.btnTeam}</div></Link>
                 </div>
                 <div className={styles.index__team__block__content__collabs}>
                 {pictures.map((picture, index) => {
@@ -122,7 +122,7 @@ export default function Index() {
             <img className={styles.index__partners__block__rightTriangle} src="/triangles/triangle-waves--right.svg" alt="triangle-waves"/>
             <div className={styles.index__partners__block__content}>
               <p>{$t.home.work[0]} <strong>{$t.home.work[1]}</strong> {$t.home.work[2]} <strong>{$t.home.work[3]}</strong>.</p>
-              <div className={styles.index__partners__block__content__btn}> <Link href="/projects" >{$t.home.buttons.btnWork}</Link></div> 
+              {/* <Link href="/projects"><div className={styles.index__partners__block__content__btn}>{$t.home.buttons.btnWork}</div></Link> */}
             </div>
           </Block>
         </Column>

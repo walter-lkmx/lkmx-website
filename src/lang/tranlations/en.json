@@ -225,9 +225,9 @@
                 ]
             },
             "methodology": {
-                "title": "METHODOLOGY",
+                "title": "INDUSTRIES",
                 "items": [
-                    "Life Cycle",
+                    "Industries",
                     "MAAD",
                     "Flare",
                     "Ontology"
@@ -236,7 +236,7 @@
             "technology": {
                 "title": "TECHNOLOGY",
                 "items": [
-                    "Languages",
+                    "Our Technologies",
                     "Frameworks",
                     "Platforms",
                     "Tools"

@@ -21,7 +21,7 @@ export default function PagesLinks(props) {
         {/* <Link href="/methodology">{$t.header.module2}</Link> */}
         <Link href="/industries">{$t.header.module6}</Link>
         <Link href="/technology">{$t.header.module3}</Link>
-        <Link href="/projects">{$t.header.module4}</Link>
+        {/* <Link href="/projects">{$t.header.module4}</Link> */}
         <Link href="/team">{$t.header.module5}</Link>
       </nav>
       <div className={`${styles.actions}`}>

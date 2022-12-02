@@ -3,7 +3,7 @@ const siteMetadata = {
   siteUrl: "https://lkmx.io",
   facebook: "https://www.facebook.com/lkmx.io",
   instagram: "https://www.instagram.com/lkmx.io",
-  linkedin: "https://www.linkedin.com/in/example.page",
+  linkedin: "https://www.linkedin.com/company/lkmx",
   twitter: "https://twitter.com/lkmx_io",
   ogType: "website",
   ogDefaultImageEn: "https://iili.io/HKsuJe4.jpg",
