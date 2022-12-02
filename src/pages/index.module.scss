@@ -37,7 +37,6 @@
                     font-size: rem(60px);
                     line-height: 70.31px;
                     text-transform: uppercase;
-                    width: max-content;
                 }
                 p {
                     font-size: rem(20px);
@@ -76,7 +75,6 @@
                         font-size: 1.5rem;
                         line-height: 2rem;
                         color: $color-pink;
-                        &:last-child { color: $color-cyan }
                     }
                 }
                 &__btn {
@@ -90,6 +88,9 @@
                     color: white;
                     padding: 8px 15px;
                     cursor: pointer;
+                }
+                &__cyan {
+                    color: $color-cyan !important; 
                 }
             }
             &__right {

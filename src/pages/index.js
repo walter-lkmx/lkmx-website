@@ -58,7 +58,7 @@ export default function Index() {
         <Column className={styles.index__second} number="2" mode="slim">
           <Block className={styles.index__second__block}>
             <div className={styles.index__second__block__left}>
-              <p>{$t.home.services[0]} <strong>{$t.home.services[1]}</strong> {$t.home.services[2]} <strong>{$t.home.services[3]}</strong> {$t.home.services[4]}
+              <p>{$t.home.services[0]} <strong>{$t.home.services[1]}</strong><br/>{$t.home.services[2]} <strong className={styles.index__second__block__left__cyan}>{$t.home.services[3]}</strong><br/>{$t.home.services[4]}
               </p>
               <Link href="/services"><div className={styles.index__second__block__left__btn}>{$t.home.buttons.btnServices}</div></Link>
               
@@ -94,7 +94,7 @@ export default function Index() {
                 )
               })}
             </div>
-            <Link href="/technology" ><div className={styles.index__technology__block__btn}>{$t.home.buttons.btnTechnologies}</div></Link>
+            {/* <Link href="/technology" ><div className={styles.index__technology__block__btn}>{$t.home.buttons.btnTechnologies}</div></Link> */}
             
           </Block>
         </Column>
@@ -103,8 +103,8 @@ export default function Index() {
               <div className={styles.index__team__block__content}>
                 <img src="/koi-swimming.svg" className={styles.index__team__block__content__koi} alt="koi"/>
                 <div className={styles.index__team__block__content__text}>
-                  <p>{$t.home.team[0]} <strong>{$t.home.team[1]}</strong></p>
-                  <Link href="/team"><div className={styles.index__team__block__content__btn}>{$t.home.buttons.btnTeam}</div></Link>
+                  <p>{$t.home.team[0]}<br/><strong>{$t.home.team[1]}</strong></p>
+                  {/* <Link href="/team"><div className={styles.index__team__block__content__btn}>{$t.home.buttons.btnTeam}</div></Link> */}
                 </div>
                 <div className={styles.index__team__block__content__collabs}>
                 {pictures.map((picture, index) => {
@@ -116,16 +116,16 @@ export default function Index() {
               </div>
           </Block>
         </Column>
-        <Column className={styles.index__partners}>
+        {/* <Column className={styles.index__partners}>
           <Block className={styles.index__partners__block}>
             <img className={styles.index__partners__block__leftTriangle} src="/triangles/triangle-waves--left.svg" alt="triangle-waves"/>
             <img className={styles.index__partners__block__rightTriangle} src="/triangles/triangle-waves--right.svg" alt="triangle-waves"/>
             <div className={styles.index__partners__block__content}>
               <p>{$t.home.work[0]} <strong>{$t.home.work[1]}</strong> {$t.home.work[2]} <strong>{$t.home.work[3]}</strong>.</p>
-              {/* <Link href="/projects"><div className={styles.index__partners__block__content__btn}>{$t.home.buttons.btnWork}</div></Link> */}
+              <Link href="/projects"><div className={styles.index__partners__block__content__btn}>{$t.home.buttons.btnWork}</div></Link>
             </div>
           </Block>
-        </Column>
+        </Column> */}
       </Page>
     </BaseLayout>
   );
