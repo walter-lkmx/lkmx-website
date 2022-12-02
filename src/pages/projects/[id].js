@@ -48,7 +48,7 @@ export default function Project({ projectData }) {
                         <Block className={styles.project__column__block}>
                             <div onClick={() => Router.back()} className={styles['project__column__block__go-back']} style={{cursor: 'pointer'}}>
                                 <img src="/icons/arrow-left--white.svg" alt="arrow-right"/>
-                                Regresar
+                                {$t.project.back}
                                 <div className={styles['project__column__block__go-back__clouds']}></div>
                             </div>
                         </Block>
@@ -82,7 +82,7 @@ export default function Project({ projectData }) {
                                     {
                                         projectData.leguages.length > 0 && projectData.frameworks.length > 0 && projectData.tools.length > 0 && projectData.platforms.length > 0 &&
                                         <div className={styles.project__column__block__container__content__technologies}>
-                                            <h3>Tecnologías</h3>
+                                            <h3>{$t.project.techs}</h3>
                                             <ul>
                                                 {
                                                     projectData.leguages.length > 0 &&

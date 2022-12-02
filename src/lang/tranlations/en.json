@@ -247,7 +247,9 @@
     "project": {
         "services": "Services",
         "methodologies": "Methodologies",
-        "years": "Years"
+        "years": "Years",
+        "back": "Go Back",
+        "techs": "Technologies"
     },
     "discovery": {
         "title": "Discovery",

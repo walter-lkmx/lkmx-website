@@ -77,18 +77,18 @@ export default function ServicesPage() {
               <div>
                 <h4>DISCOVERY</h4>
                 <p>{$t.services.phases[0]}</p>
-                <Link href="/services/discovery"><img src="/icons/arrow-right--pink.svg" alt="arrow"/></Link> 
+                {/* <Link href="/services/discovery"><img src="/icons/arrow-right--pink.svg" alt="arrow"/></Link>  */}
               </div>
               <div>
                 <h4>AGILE<br/>DEVELOPMENT</h4>
                 <p>{$t.services.phases[1]}</p>
-                <Link href="/services/agileDevelopment"><img src="/icons/arrow-right--pink.svg" alt="arrow"/></Link>
+                {/* <Link href="/services/agileDevelopment"><img src="/icons/arrow-right--pink.svg" alt="arrow"/></Link> */}
                 
               </div>
               <div>
                 <h4>AGILE MAINTENANCE, SCOPE DEV. & CONTINUOUS SUPPORT</h4>
                 <p>{$t.services.phases[2]}</p>
-                <img src="/icons/arrow-right--pink.svg" alt="arrow"/>
+                {/* <img src="/icons/arrow-right--pink.svg" alt="arrow"/> */}
               </div>
             </div>
           </Block>

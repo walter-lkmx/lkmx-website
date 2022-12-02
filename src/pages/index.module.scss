@@ -18,7 +18,11 @@
                 margin: 0px;
             }
             img{
-                transform: translate(18% , calc(-8% - 1px));
+                transform: translateY(calc(-8% - 1px));
+                left: 0;
+                right: 0;
+                margin-left: auto;
+                margin-right: auto;
             }
 
             &__intro {
@@ -374,7 +378,7 @@
                 img {
                     width: 288px;
                     height: 224px;
-                    transform: translate(55%, -24%);
+                    transform: translateY(-24%);
                 }
                 &__intro {
                     margin-top: 7px;
@@ -450,16 +454,7 @@
             }
         }
     }
-     @include respond-to("xs") {
-        &__hero {
-            &__block {
-                img {
-                    transform: translate(45%, calc(-10% - 1px)) !important;
-                }
-            }
-        }
-    }
-    //Todo: En resolucion XS(la parte mas pequeña) el hexagono se recorre
+
     @include respond-to("<=s"){
         &__second {
             &__block {
@@ -472,7 +467,7 @@
                 }
                 &__right {
                     &__circle {
-                        right: rem(20.8px); //8.200625rem;
+                        right: rem(20.8px); 
                     }
                     &__dragon {
                         right: 1.6%;
@@ -754,7 +749,7 @@
         &__hero {
             &__block {
                 img {
-                    transform: translate(15%, calc(-20% - 1px));
+                    transform: translateY(calc(-20% - 1px));
                     width: 270px;
                     height: 185px;
 

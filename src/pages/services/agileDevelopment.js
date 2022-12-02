@@ -51,8 +51,9 @@ export default function AgileDevelopment() {
                     <span>{$t.agile.span.back}</span>                        
                     </div>
                     <div className={styles.agile__navigation__block__forward}>
-                        <span>{$t.agile.span.forward}</span>
-                        <Link href="/services/AMS"><img src="/icons/arrow-right--pink.svg" alt="Pink arrow right"/></Link> 
+                        {/* <span>{$t.agile.span.forward}</span>
+                        <Link href="/services/AMS"><img src="/icons/arrow-right--pink.svg" alt="Pink arrow right"/></Link>  */}
+                        <span></span>
                     </div>
                                            
                 </Block>

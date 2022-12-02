@@ -223,7 +223,9 @@
   "project": {
     "services": "Servicios",
     "methodologies": "Metodologías",
-    "years": "Duración"
+    "years": "Duración",
+    "back" : "Regresar",
+    "techs": "Tecnologías"
   },
   "discovery": {
     "title": "Discovery",
@@ -277,19 +279,6 @@
       ],
       "span": {
           "back":"AGILE DEVELOPMENT",
-          "forward": "AGILE MAINTENANCE, SCOPE DEV. & CONTINUOUS SUPPORT"
-      }
-  },
-  "agile": {
-      "title": "Agile development",
-      "goBack": "Regresar",
-      "hero": [
-          "Nuestro principal servicio ofrece iteraciones de trabajo de un equipo",
-          "multidisciplinario de ingeniería a cargo de diseñar la arquitectura y construir la",
-          "solución de software de principio a fin."
-      ],
-      "span": {
-          "back":"DISCOVERY",
           "forward": "AGILE MAINTENANCE, SCOPE DEV. & CONTINUOUS SUPPORT"
       }
   }

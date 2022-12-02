@@ -194,7 +194,7 @@
                 &:first-child { --f-gutter: 16px }
                 &:last-child {
                     --f-gutter: 0;
-                    background-position: left 0 top 1.2rem;
+                    background-position: left 0 top rem(-341px);
                 }
                 &__left {
                     padding: 0;
