@@ -134,7 +134,7 @@ export default function ContactPage() {
           </Block>
         </Column> */}
 
-        <Column className={styles['contact__mobile-bottom']}>
+        {/* <Column className={styles['contact__mobile-bottom']}>
           <Block>
           </Block>
         </Column>
@@ -143,7 +143,7 @@ export default function ContactPage() {
           <Block>
             <br/><br/><br/><br/>
           </Block>
-        </Column>
+        </Column> */}
 
       </Page>
     </BaseLayout>
