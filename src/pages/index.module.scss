@@ -37,7 +37,6 @@
                     font-size: rem(60px);
                     line-height: 70.31px;
                     text-transform: uppercase;
-                    width: max-content;
                 }
                 p {
                     font-size: rem(20px);
@@ -76,7 +75,6 @@
                         font-size: 1.5rem;
                         line-height: 2rem;
                         color: $color-pink;
-                        &:last-child { color: $color-cyan }
                     }
                 }
                 &__btn {
@@ -89,6 +87,10 @@
                     line-height: 24px;
                     color: white;
                     padding: 8px 15px;
+                    cursor: pointer;
+                }
+                &__cyan {
+                    color: $color-cyan !important; 
                 }
             }
             &__right {
@@ -122,6 +124,7 @@
                 color: white;
                 justify-self: center;
                 padding: 8px 16px;
+                cursor: pointer;
             }
             
             &:first-child > div > div {
@@ -235,6 +238,7 @@
                     color: white;
                     padding: 8px 16px;
                     justify-self: center;
+                    cursor: pointer;
                 }
                 &__collabs{
                     width: 80vw;
@@ -297,6 +301,7 @@
                     color: white;
                     justify-self: center;
                     padding: 8px 16px;
+                    cursor: pointer;
                 }
             }
         }

@@ -211,12 +211,12 @@
         ]
       },
       "methodology": {
-        "title": "METODOLOGÍA",
-        "items": ["Ciclo de Vida", "MAAD", "Flare", "Ontología"]
+        "title": "INDUSTRIAS",
+        "items": ["Industrias", "MAAD", "Flare", "Ontología"]
       },
       "technology": {
         "title": "TECNOLOGÍA",
-        "items": ["Lenguajes", "Frameworks", "Plataformas", "Herramientas"]
+        "items": ["Nuestras Tecnologías", "Frameworks", "Plataformas", "Herramientas"]
       }
     }
   },

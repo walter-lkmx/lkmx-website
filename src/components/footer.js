@@ -5,6 +5,7 @@ import moment from "moment";
 import { Column, Block } from "@lkmx/flare-react";
 import getLang from '@/lang';
 import { useRouter } from "next/router";
+import siteMetadata from "../meta/siteMetadata";
 
 export default function Footer() {
   const year = moment().year();
@@ -20,28 +21,29 @@ export default function Footer() {
               <div>
                 <h3>{$t.footer.pages.services.title}</h3>
                 <ul>
-                  <li>{$t.footer.pages.services.items[0]}</li>
-                  <li>{$t.footer.pages.services.items[1]}</li>
+                  <li><Link href="/services">{$t.footer.pages.services.items[0]}</Link></li>
+                  {/* <li>{$t.footer.pages.services.items[1]}</li>
                   <li>{$t.footer.pages.services.items[2]}</li>
-                  <li>{$t.footer.pages.services.items[3]}</li>
+                  <li>{$t.footer.pages.services.items[3]}</li> */}
                 </ul>
               </div>
               <div> 
                 <h3>{$t.footer.pages.methodology.title}</h3>
                 <ul>
-                  <li>{$t.footer.pages.methodology.items[0]}</li>
-                  <li>{$t.footer.pages.methodology.items[1]}</li>
+                  <li><Link href="/industries">{$t.footer.pages.methodology.items[0]}</Link></li>
+                  {/* <li>{$t.footer.pages.methodology.items[1]}</li>
                   <li>{$t.footer.pages.methodology.items[2]}</li>
-                  <li>{$t.footer.pages.methodology.items[3]}</li>
+                  <li>{$t.footer.pages.methodology.items[3]}</li> */}
                 </ul>
               </div>
               <div> 
                 <h3>{$t.footer.pages.technology.title}</h3>
                 <ul>
-                  <li>{$t.footer.pages.technology.items[0]}</li>
-                  <li>{$t.footer.pages.technology.items[1]}</li>
+                  
+                  <li><Link href="/technology">{$t.footer.pages.technology.items[0]}</Link></li>
+                  {/* <li>{$t.footer.pages.technology.items[1]}</li>
                   <li>{$t.footer.pages.technology.items[2]}</li>
-                  <li>{$t.footer.pages.technology.items[3]}</li>
+                  <li>{$t.footer.pages.technology.items[3]}</li> */}
                 </ul>
               </div>
             </div>
@@ -51,17 +53,17 @@ export default function Footer() {
               </Link>
               <ul>
                 <li>
-                  <Link href={process.env.NEXT_PUBLIC_INSTAGRAM_URL} passHref>
+                  <Link href={siteMetadata.instagram} passHref>
                     <a target="_blank"><img src="/icons/social-instagram.svg" alt="Instagram"/></a>
                   </Link>
                 </li>
                 <li>
-                  <Link href={process.env.NEXT_PUBLIC_TWITTER_URL}>
+                  <Link href={siteMetadata.twitter}>
                     <a target="_blank"><img src="/icons/social-twitter.svg" alt="Twitter"/></a>
                   </Link>
                 </li>
                 <li>
-                  <Link href={process.env.NEXT_PUBLIC_LINKEDIN_URL}>
+                  <Link href={siteMetadata.linkedin}>
                     <a target="_blank"><img src="/icons/social-linkedin.svg" alt="Linkedin"/></a>
                   </Link>
                 </li>
