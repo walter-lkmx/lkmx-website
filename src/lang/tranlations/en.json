@@ -304,6 +304,45 @@
             "multidisciplinario de ingeniería a cargo de diseñar la arquitectura y construir la",
             "solución de software de principio a fin."
         ],
+        "intro": [
+            "Los proyectos utilizan iteraciones como unidad de medida, que contemplan DEFINICIÓN,",
+            "IMPLEMENTACIÓN y ACEPTACIÓN. ",
+            "Las iteraciones ensamblan un DIAGRAMA DE GANTT FIJO que otorga balance entre flexibilidad y",
+            "predictibilidad en los entregables, los tiempos de entrega y recursos utilizados."
+          ],
+          "intro2": [
+            "Preparamos equipos que se organizan en grupos de DEFINICIÓN y de IMPLEMENTACIÓN,",
+            "utilizando una metodología propia, que se apoya de diferentes técnicas probadas en producción de",
+            "análisis de requerimientos, diseño, versionamiento, arquitectura de código y delivery. Al final de la",
+            "implementación, el resultado es entregado a nuestros clientes en ambientes de staging apropiados",
+            "para que realicen sus pruebas de ACEPTACIÓN. Logramos esto mediante mecanismos propios de",
+            "versionamiento y mecanismos perfeccionados de integración continua."
+          ],
+          "maad" : {
+            "title": "Metodología ágil de análisis y diseño",
+            "par1": "Creamos la Metodología Ágil de Análisis y Diseño, una colección de actividades que nos permiten capturar los requerimientos de los stakeholders y convertirlos en un backlog con elementos cortos, claros, concisos y accionables.",
+            "par2": "La metodología estandariza la colección de los requerimientos y los procesa en entidades como épicas, historias y deltas que describen con total claridad los cambios a ser implementados.",
+            "par3": "Cada elemento del backlog tiene un estado estricto pero simplificado que puede ser monitoreado utilizando herramientas como Jira y Confluence."
+          },
+          "flare": {
+            "title": "flare",
+            "par": "Utilizamos un sistema de diseño propio que permite la concepción rápida e implementación eficiente de interfaces con retículas perfectas y estilos consistentes desde la primera iteración. Flare define conceptos claros e implementables sobre cuatro puntos clave: estilo, estructura, interfaz con el usuario y contenido."
+          },
+          "scrum": {
+            "title": "scrum",
+            "par": "Como framework, nos permite abordar problemas complejos mientras se realizan entregas de valor, continuas y constantes, de forma creativa y enfocadas en aumentar la productividad de los equipos.Con base al modelo CMMI, implementamos buenas prácticas que nos permiten incrementar y optimizar el rendimiento de los procesos involucrados directa e indirectamente en el desarrollo de software, maximizando las oportunidades y mitigando los riesgos."
+          },
+          "agile": {
+            "title": "agile flow",
+            "par": "Diseñamos mecanismos de versionamiento propios, robustos, flexibles y compatibles con estándares en la industria. Estos procesos, combinados con nuestro mecanismos de integración continua nos permiten alcanzar máximas velocidades de desarrollo, manteniendo control total sobre la calidad de cada uno de los componentes involucrados y sus integraciones"
+          },
+          "cd": {
+            "title": "cd/ci",
+            "par": [
+                "Nuestro código fuente es administrado usando infraestructura propia de integración continua que automatiza el versionamiento, empaquetamiento y publicación de los binarios.",
+                "La automatización completa de nuestros procesos de DevOps nos permite entregar versiones funcionales a nuestros clientes al final de cada iteración."
+            ]
+          },
         "span": {
             "back":"DISCOVERY",
             "forward": "AGILE MAINTENANCE, SCOPE DEV. & CONTINUOUS SUPPORT"

@@ -1,9 +1,5 @@
 .agile {
     &__goBack {
-        @include respond-to("<=l") {
-            display: none;
-        }
-
         &:first-child>div>div {
             align-content: center;
             align-items: center;
@@ -176,6 +172,87 @@
             justify-items: center;
         }
     }
+    &__intro {
+        &__block {
+            padding: 92px 0px;
+            p{
+                font-family: 'IBM Plex Sans';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 28px;
+                color: $color-neutral-black;
+            }
+        }
+    }
+    &__gantt {
+        &__block {
+            > div > div {
+                padding: 0px !important;
+            }
+            @include respond-to("s") {
+                img {
+                    height: 281px;
+                }
+            }
+        } 
+    }
+    &__sprint {
+        &__block {
+            padding: 92px 0px;
+            p{
+                font-family: 'IBM Plex Sans';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 28px;
+                color: $color-neutral-black;
+            }
+        }
+    }
+    &__maad {
+        background-color: $color-bright-gray-01;
+    }
+    &__maad, &__flare, &__scrum, &__agile, &__cd {
+        &__block {
+            padding: 92px 0px;
+            > div > div{
+                display: grid;
+                row-gap: 16px;
+            }
+            h2 {
+                text-transform: uppercase;
+                margin: 0px;
+            }
+            p{
+                font-family: 'IBM Plex Sans';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 28px;
+                color: $color-neutral-black;
+                margin-bottom: 8px;
+            }
+        }
+    }
+    &__flare {
+        &__block {
+            &__img {
+                width: 100%;
+                padding: 23.44px 111px;
+                background-color: $color-blue;
+            }
+        }
+    }
+    &__agile {
+        &__block {
+            &__img {
+                width: 100%;
+                padding: 18px 46.89px;
+                background-color: $color-blue;
+            }
+        }
+    }
 
     &__navigation {
         background-color: $color-bright-gray;
@@ -226,6 +303,9 @@
                     @include respond-to("<=xs") {
                         width: min-content;
                     }
+                }
+                span:hover {
+                    color: $color-pink;
                 }
             }
         }

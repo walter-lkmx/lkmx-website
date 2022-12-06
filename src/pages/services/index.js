@@ -82,7 +82,7 @@ export default function ServicesPage() {
               <div>
                 <h4>AGILE<br/>DEVELOPMENT</h4>
                 <p>{$t.services.phases[1]}</p>
-                {/* <Link href="/services/agileDevelopment"><img src="/icons/arrow-right--pink.svg" alt="arrow"/></Link> */}
+                <Link href="/services/agileDevelopment"><img src="/icons/arrow-right--pink.svg" alt="arrow"/></Link>
                 
               </div>
               <div>
