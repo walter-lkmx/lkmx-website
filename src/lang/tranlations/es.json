@@ -5,8 +5,9 @@
     "ogImage": "",
     "title2": ["Convertimos", "tus ideas en realidad"],
     "hero": [
-      "Nuestro equipo de expertos  diseña y desarrolla las más complejas soluciones de software, liderando la optimización digital de compañías en industrias clave alrededor del mundo."
+      "Somos socios estratégicos de compañías alrededor del mundo, construyendo soluciones de software innovadoras con nuestra metodología única y la tecnología más sólida."
     ],
+		"servicesTitle": "SERVICIOS",
     "services": [
       "Somos una",
       "ALTERNATIVA REAL",
@@ -14,14 +15,18 @@
       "STAFF-AUGMENTATION.",
       "Diseñamos servicios para el desarrollo de software a la medida. Con ellos construimos tecnología de cualquier grado de complejidad y líneas de tiempo con cualquier demanda."
     ],
+		"technologiesTitle": "TECNOLOGÍAS",
     "technologies": [
-      "Usamos la tecnología open source más avanzada y somos",
-      "expertos",
-      "en ella."
+      "Aplicamos tres principios al elegir nuestra tecnología: Agile, Cloud y Open Source.",
+      "Nuestro stack de tecnologías se mantiene organizado y actualizado por arquitectos de software con décadas de experiencia combinada."
     ],
     "team": [
-      "Ingenieros, artistas, analistas y visionarios componen",
-      "nuestro equipo"
+      "Somos una mezcla entre",
+      "creativos",
+			"y",
+			"expertos",
+			"en",
+			"tecnología. Conectamos nuestras habilidades para construir soluciones de software robustas, flexibles, escalables y seguras."
     ],
     "work": [
       "Somos",
@@ -30,7 +35,7 @@
       "compañías alrededor del mundo"
     ],
     "buttons": {
-      "btnServices": "Descubre cómo",
+      "btnServices": "Mira nuestros servicios",
       "btnTechnologies": "Descubre nuestras tecnologías",
       "btnTeam": "Conócenos",
       "btnWork": "Explora"

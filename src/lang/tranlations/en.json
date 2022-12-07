@@ -11,23 +11,28 @@
             "into reality"
         ], 
         "hero": [
-            "We are strategic partners with companies around the world developing custom software solutions for multiple industries."
+            "We are strategic partners with businesses in different industries around the world, building innovative software solutions with our unique methodology and the most solid technology."
         ],
+				"servicesTitle": "SERVICES",
         "services": [
             "As a",
             "REAL ALTERNATIVE",
             "to",
-            "STAFF-AUGMENTATION", 
-            ", we designed services ideal to build custom solutions of any level of complexity and timelines with any type of demand."            
+            "STAFF-AUGMENTATION,", 
+            "we designed services ideal to build custom solutions of any level of complexity and timelines with any type of demand."            
         ],
+				"technologiesTitle": "TECHNOLOGIES",
         "technologies": [
-            "We use the most advanced open source technology and we are",
-            "experts",
-            "in it."
+            "We apply three  principles when choosing our technology: Agile, Cloud, Open-Source.",
+            "Our technology stack is kept organized and updated by software architects with decades of combined experience."            
         ],
         "team": [
-            "Engineers, artists, analysts and visionaries make up",
-            "our team"
+            "We are a mix between ",
+						"creatives",
+						"and",
+						"experts",
+						"in",
+						"technology. We connect our skills to build robust, flexible, scalable and secure  software solutions."
         ],
         "work": [
             "We are",
@@ -36,7 +41,7 @@
             "companies around the world"
         ],
         "buttons": {
-            "btnServices": "Discover how",
+            "btnServices": "See our services",
             "btnTechnologies": "Discover our technologies",
             "btnTeam": "Get to know us",
             "btnWork": "Explore"

@@ -73,12 +73,6 @@ export default function Footer() {
           </div>
         </Block>
       </Column>
-      <Column className={styles.footer__bottom} modeXxl="full" modeXxxl="normal">
-        <div className={styles.footer__bottom__sand}></div>
-        <Block>
-          <div className={styles.footer__bottom__name}>© LKMX Software Development {year}.</div>
-        </Block>
-      </Column>
     </footer>
   );
 }

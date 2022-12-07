@@ -57,7 +57,8 @@ export default function Index() {
         </Column>
         <Column className={styles.index__second} number="2" mode="slim">
           <Block className={styles.index__second__block}>
-            <div className={styles.index__second__block__left}>
+						<div className={styles.index__second__block__left}>
+							<h3>{$t.home.servicesTitle}</h3>
               <p>{$t.home.services[0]} <strong>{$t.home.services[1]}</strong><br/>{$t.home.services[2]} <strong className={styles.index__second__block__left__cyan}>{$t.home.services[3]}</strong><br/>{$t.home.services[4]}
               </p>
               <Link href="/services"><div className={styles.index__second__block__left__btn}>{$t.home.buttons.btnServices}</div></Link>
@@ -71,10 +72,12 @@ export default function Index() {
             </div>
           </Block>
         </Column>
-        <Column className={styles.index__technology} number="1" mode="full">
+        <Column className={styles.index__technology} number="1">
           <Block className={styles.index__technology__block}>
-            <div className={styles.index__technology__block__title}>
-              <p>{$t.home.technologies[0]} <strong>{$t.home.technologies[1]}</strong> {$t.home.technologies[2]}</p>
+						<div className={styles.index__technology__block__title}>
+							<h3>{$t.home.technologiesTitle}</h3>
+							<p>{$t.home.technologies[0]}</p>							
+							<p>{$t.home.technologies[1]}</p>
             </div>
 
             <div className={styles.index__technology__block__logos}>
@@ -98,12 +101,13 @@ export default function Index() {
             
           </Block>
         </Column>
-        <Column className={styles.index__team}>
+        <Column className={styles.index__team} mode="full">
           <Block className={styles.index__team__block}>
               <div className={styles.index__team__block__content}>
                 <img src="/koi-swimming.svg" className={styles.index__team__block__content__koi} alt="koi"/>
                 <div className={styles.index__team__block__content__text}>
-                  <p>{$t.home.team[0]}<br/><strong>{$t.home.team[1]}</strong></p>
+								<p>{$t.home.team[0]}<br /><strong>{$t.home.team[1]}</strong> {$t.home.team[2]} <strong className={styles.index__team__block__content__text__pink}>{$t.home.team[3]}</strong> {$t.home.team[4]}<br />{$t.home.team[5]}
+								</p>
                   {/* <Link href="/team"><div className={styles.index__team__block__content__btn}>{$t.home.buttons.btnTeam}</div></Link> */}
                 </div>
                 <div className={styles.index__team__block__content__collabs}>
