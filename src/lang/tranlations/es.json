@@ -12,8 +12,9 @@
       "Somos una",
       "ALTERNATIVA REAL",
       "al",
-      "STAFF-AUGMENTATION.",
-      "Diseñamos servicios para el desarrollo de software a la medida. Con ellos construimos tecnología de cualquier grado de complejidad y líneas de tiempo con cualquier demanda."
+      "STAFF-AUGMENTATION",
+			",",
+      "diseñamos servicios ideales para construir soluciones a la medida de cualquier grado de complejidad y lineas de tiempo con cualquier demanda."
     ],
 		"technologiesTitle": "TECNOLOGÍAS",
     "technologies": [
@@ -26,7 +27,7 @@
 			"y",
 			"expertos",
 			"en",
-			"tecnología. Conectamos nuestras habilidades para construir soluciones de software robustas, flexibles, escalables y seguras."
+			"tecnología. Conectamos nuestras habilidades para construir soluciones de software robustas,", "flexibles, escalables y seguras."
     ],
     "work": [
       "Somos",

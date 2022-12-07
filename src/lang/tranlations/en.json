@@ -11,15 +11,18 @@
             "into reality"
         ], 
         "hero": [
-            "We are strategic partners with businesses in different industries around the world, building innovative software solutions with our unique methodology and the most solid technology."
+            "We are strategic partners with businesses in different industries around the world, building innovative software solutions with",
+						"our unique methodology and the most solid technology."
         ],
 				"servicesTitle": "SERVICES",
         "services": [
             "As a",
             "REAL ALTERNATIVE",
             "to",
-            "STAFF-AUGMENTATION,", 
-            "we designed services ideal to build custom solutions of any level of complexity and timelines with any type of demand."            
+            "STAFF-AUGMENTATION",
+						",", 
+            "we designed services ideal to build custom ",
+						"solutions of any level of complexity and timelines with any type of demand."            
         ],
 				"technologiesTitle": "TECHNOLOGIES",
         "technologies": [
@@ -32,7 +35,8 @@
 						"and",
 						"experts",
 						"in",
-						"technology. We connect our skills to build robust, flexible, scalable and secure  software solutions."
+						"technology. We connect our skills to build robust, flexible, scalable and secure",
+						"software solutions."
         ],
         "work": [
             "We are",

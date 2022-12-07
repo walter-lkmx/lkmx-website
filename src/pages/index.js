@@ -50,7 +50,7 @@ export default function Index() {
             <img src="/hexagon.svg" alt="hexagon"/>
             <div className={styles.index__hero__block__intro}>
                 <h2>{$t.home.title2[0]}<br/>{$t.home.title2[1]}</h2>
-              <p>{$t.home.hero}</p>
+							<p>{$t.home.hero[0]}<br />{$t.home.hero[1]}</p>
             </div>
             
           </Block>
@@ -59,7 +59,7 @@ export default function Index() {
           <Block className={styles.index__second__block}>
 						<div className={styles.index__second__block__left}>
 							<h3>{$t.home.servicesTitle}</h3>
-              <p>{$t.home.services[0]} <strong>{$t.home.services[1]}</strong><br/>{$t.home.services[2]} <strong className={styles.index__second__block__left__cyan}>{$t.home.services[3]}</strong><br/>{$t.home.services[4]}
+							<p>{$t.home.services[0]} <strong>{$t.home.services[1]}</strong><br />{$t.home.services[2]} <strong className={styles.index__second__block__left__cyan}>{$t.home.services[3]}</strong>{$t.home.services[4]}<br />{$t.home.services[5]}<br />{$t.home.services[6]}
               </p>
               <Link href="/services"><div className={styles.index__second__block__left__btn}>{$t.home.buttons.btnServices}</div></Link>
               
@@ -106,7 +106,7 @@ export default function Index() {
               <div className={styles.index__team__block__content}>
                 <img src="/koi-swimming.svg" className={styles.index__team__block__content__koi} alt="koi"/>
                 <div className={styles.index__team__block__content__text}>
-								<p>{$t.home.team[0]}<br /><strong>{$t.home.team[1]}</strong> {$t.home.team[2]} <strong className={styles.index__team__block__content__text__pink}>{$t.home.team[3]}</strong> {$t.home.team[4]}<br />{$t.home.team[5]}
+								<p>{$t.home.team[0]} <strong>{$t.home.team[1]}</strong> {$t.home.team[2]} <strong className={styles.index__team__block__content__text__pink}>{$t.home.team[3]}</strong> {$t.home.team[4]}<br />{$t.home.team[5]}<br />{$t.home.team[6]}
 								</p>
                   {/* <Link href="/team"><div className={styles.index__team__block__content__btn}>{$t.home.buttons.btnTeam}</div></Link> */}
                 </div>

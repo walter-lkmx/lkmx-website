@@ -73,13 +73,16 @@
 				height: rem(342px);
 				padding: 16px;
 
+				h3{
+					margin: 0px;
+				}
 				p {
 					margin: 0;
 					font-size: rem(20px);
 					line-height: rem(30px);
 
 					@include respond-to(">l") {
-						width: 23vw;
+						width: 27vw;
 					}
 
 					&:last-child {
@@ -164,12 +167,14 @@
 				text-align: center;
 				display: grid;
 				place-items: center;
-
+				gap: rem(26px);
+				h3 {
+					margin: 0px;
+				}
 				p {
 					width: rem(480px);
 					font-size: 20px;
 					line-height: 30px;
-					margin-bottom: 2rem;
 
 					strong {
 						font-size: 1.5rem;
@@ -283,8 +288,8 @@
 						font-size: 20px;
 						line-height: 30px;
 						margin: 0;
-						width: rem(312px);
-						text-align: left;
+						width: rem(488px);
+						text-align: center;
 						
 						strong {
 							font-size: 1.5rem;
