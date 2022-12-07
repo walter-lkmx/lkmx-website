@@ -400,7 +400,7 @@
 				}
 
 				&__left {
-					grid-template-rows: 1fr 1fr;
+					grid-template-rows: auto 1fr 1fr;
 					grid-gap: 0;
 					gap: 26px;
 					height: unset;
@@ -500,7 +500,7 @@
 				}
 
 				&__left {
-					grid-template-rows: 1fr 1fr;
+					grid-template-rows: auto 1fr 1fr;
 					grid-gap: 0;
 					gap: 26px;
 					height: unset;
