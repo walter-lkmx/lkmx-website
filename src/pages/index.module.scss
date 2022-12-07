@@ -72,6 +72,7 @@
 				gap: rem(26px);
 				height: rem(342px);
 				padding: 16px;
+				width: max-content;
 
 				h3{
 					margin: 0px;
@@ -80,10 +81,6 @@
 					margin: 0;
 					font-size: rem(20px);
 					line-height: rem(30px);
-
-					@include respond-to(">l") {
-						width: 27vw;
-					}
 
 					&:last-child {
 						padding-top: rem(28px);

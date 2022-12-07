@@ -59,7 +59,7 @@ export default function Index() {
           <Block className={styles.index__second__block}>
 						<div className={styles.index__second__block__left}>
 							<h3>{$t.home.servicesTitle}</h3>
-							<p>{$t.home.services[0]} <strong>{$t.home.services[1]}</strong><br />{$t.home.services[2]} <strong className={styles.index__second__block__left__cyan}>{$t.home.services[3]}</strong>{$t.home.services[4]}<br />{$t.home.services[5]}<br />{$t.home.services[6]}
+							<p>{$t.home.services[0]} <strong>{$t.home.services[1]}</strong><br />{$t.home.services[2]} <strong className={styles.index__second__block__left__cyan}>{$t.home.services[3]}</strong>{$t.home.services[4]}<br />{$t.home.services[5]}<br />{$t.home.services[6]}<br />{$t.home.services[7]}<br />{$t.home.services[8]}
               </p>
               <Link href="/services"><div className={styles.index__second__block__left__btn}>{$t.home.buttons.btnServices}</div></Link>
               
