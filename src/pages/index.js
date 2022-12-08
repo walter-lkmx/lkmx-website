@@ -8,6 +8,7 @@ import HeadSeo from "../components/HeadSeo"
 import technologies from '@/service/json/technologies';
 import Link from "next/link";
 import { useRouter } from "next/router";
+import Image from 'next/image'
 
 function getTeamList() {
 
@@ -26,6 +27,7 @@ export default function Index() {
   const { locale } = useRouter();
   const $t = getLang(locale);
   const pictures = getTeamList();
+  const fallbackBlurImage = 'data:image/jpeg;base64,/9j/4AAQSkZJRgABAgEASABIAAD/2wBDAAEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQH/2wBDAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQH/wAARCAAKAAoDAREAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD9OP2vv+Cy3wV+H/7fvw08BWWg65qnhf4J6++geNdd0/XJrK3m1PWnSzleHTov9Gvray80+YbgneVYIV4NAH9DWmeOfht4h03T9fsNb05rHXLK01iyY3CAtaanBHe2zEc4JhnQnk896d33f3gfxD/E7wv4avdZ/ax1a88O6Fd6pF8Q5hFqVzpNhPqEe3VIyuy8lt3uEwSSNsgwSSOaQH9I3wshhHwx+HIEUQA8B+EAAI0AAHh/T8ADHAFAAP/Z';
 
   pictures.forEach((e, index) => {
     //TODO: Hacer esto automatico para que agregue los espacios cada 20 fotos.
@@ -47,7 +49,13 @@ export default function Index() {
       <Page className={styles.index}>
         <Column number={1} mode="full" className={styles.index__hero} >
           <Block className={styles.index__hero__block}>
-            <img src="/hexagon.svg" alt="hexagon"/>
+            <div className={styles.index__hero__block__imgContainerHexagon}>
+              <Image
+                layout="fill"
+                priority={true}
+                src="/hexagon.svg" alt="hexagon"
+              />
+            </div>
             <div className={styles.index__hero__block__intro}>
                 <h2>{$t.home.title2[0]}<br/>{$t.home.title2[1]}</h2>
 							<p>{$t.home.hero[0]}<br />{$t.home.hero[1]}</p>
@@ -87,8 +95,11 @@ export default function Index() {
                     {
                       rows.map((technology, indexColumn) => {
                         return (
-                          <div key={`technology-column-${indexColumn}`} style={{gridArea: `a${indexColumn}` }}>
-                            <img src={`/technologies/${technology}`} alt={technology}/>
+                          <div className={styles.logoContainer} key={`technology-column-${indexColumn}`} style={{gridArea: `a${indexColumn}` }}>
+                            <Image 
+                              layout="fill"
+                              src={`/technologies/${technology}`} alt={technology}
+                            />
                           </div>
                         )
                       })
@@ -112,8 +123,14 @@ export default function Index() {
                 </div>
                 <div className={styles.index__team__block__content__collabs}>
                 {pictures.map((picture, index) => {
-                return <div key={index} className={`${picture.fileName ? '' : styles['index__team__block__content__card-empty']}`}>
-                  {picture.fileName ? <img src={`/images/${picture.fileName}`} alt={picture.name}/> : <></>}
+                return <div key={index} className={`${picture.fileName ? styles.index__team__block__content__collabs__collabItem : styles['index__team__block__content__card-empty']}`}>
+                  {picture.fileName ? 
+                    <Image 
+                      layout="fill"
+                      placeholder="blur"
+                      blurDataURL={fallbackBlurImage}
+                      src={`/images/${picture.fileName}`} alt={picture.name}
+                    /> : <></>}
                 </div>
               })}
                 </div>
