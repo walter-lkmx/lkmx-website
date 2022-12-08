@@ -1,13 +1,16 @@
 .discovery {
   &__goBack {
-    @include respond-to("<=l") {
-      display: none;
-    }
+    @include respond-to("<=s") {
+      justify-content: start;
+  }
     &:first-child > div > div{
       align-content: center;
       align-items: center;
       display: grid;
       grid-template-columns: 4.5% auto;
+      @include respond-to("<=s") {
+        grid-template-columns: 25% auto;
+    }
       padding: 10px 8px;
       }
       background-color: $color-neutral-black;
@@ -283,18 +286,21 @@
       }
     }
     height: 142px;
-    &:first-child > div > div{
+    &:first-child > div > div > div{
       align-items: center;
       display: grid;
       grid-template-columns: auto auto;
       justify-content: end;
       gap: 16px;
+      cursor: pointer;
       @include respond-to("<=xs") {
         padding: 21px 16px;
       }
-    }
-    img {
-      cursor: pointer;
+      &:hover {
+        span {
+          color: $color-pink;
+        }
+      }
     }
     span {
       color: $color-neutral-black;
@@ -306,7 +312,7 @@
       @include respond-to("<=xs") {
         width: min-content;
       }
-    }
+    }    
   }
 }
 

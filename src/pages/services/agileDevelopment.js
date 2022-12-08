@@ -40,7 +40,7 @@ export default function AgileDevelopment() {
                 </Block>
                 <Block className={styles.agile__hero__blue} >
                     <div className={styles.agile__hero__blue__content}>
-                        <p>{$t.agile.hero[0]} {$t.agile.hero[1]} {$t.agile.hero[2]}</p>
+                        <p>{$t.agile.hero[0]}<br/>{$t.agile.hero[1]}<br/>{$t.agile.hero[2]}<br/>{$t.agile.hero[3]}</p>
                     </div>
                 </Block>
             </Column>
@@ -101,16 +101,18 @@ export default function AgileDevelopment() {
             </Column>
             <Column className={styles.agile__navigation} number="1" modeM="full" modeL="normal">
                 <Block className={styles.agile__navigation__block}>
+                <Link href="/services/discovery"> 
                     <div className={styles.agile__navigation__block__back}>
-                    <Link href="/services/discovery"><img src="/icons/arrow-left--pink.svg" alt="Pink arrow left"/></Link> 
-                    <span>{$t.agile.span.back}</span>                        
+                        <img src="/icons/arrow-left--pink.svg" alt="Pink arrow left"/> 
+                        <span>{$t.agile.span.back}</span>                        
                     </div>
+                </Link>
+                <Link href="/services/agileMaintenance">
                     <div className={styles.agile__navigation__block__forward}>
-                        {/* <span>{$t.agile.span.forward}</span>
-                        <Link href="/services/AMS"><img src="/icons/arrow-right--pink.svg" alt="Pink arrow right"/></Link>  */}
-                        <span></span>
+                        <span>{$t.agile.span.forward}</span>
+                        <img src="/icons/arrow-right--pink.svg" alt="Pink arrow right"/>
                     </div>
-                                           
+                </Link>                  
                 </Block>
             </Column>
             </Page>

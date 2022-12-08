@@ -1,0 +1,140 @@
+.ams {
+    &__goBack {
+        @include respond-to("<=s") {
+            justify-content: start;
+        }
+        &:first-child>div>div {
+            align-content: center;
+            align-items: center;
+            display: grid;
+            grid-template-columns: 4.5% auto;
+            @include respond-to("<=s") {
+                grid-template-columns: 25% auto;
+            }
+            padding: 10px 8px;
+        }
+
+        background-color: $color-neutral-black;
+        justify-content: center;
+
+        img {
+            cursor: pointer;
+        }
+
+        span {
+            color: white;
+        }
+    }
+    &__hero {
+        &__clouds {
+            position: absolute;
+            right: 0;
+            @include respond-to("<=m") {
+                display: none;
+            }
+        }
+        &__left {
+            background-color: $color-bright-gray;
+            > div > div {
+                position: relative;
+                @include respond-to("<=s") {
+                    min-height: 324px;
+                }
+            }
+            &__l {
+                @include respond-to("<=xl") {
+                    display: none;
+                }
+                width: 100%;
+            }
+            &__m {
+                display: none;
+                position: absolute;
+                left: 0;
+                @include respond-to("<=xl") {
+                    display: block;
+                }
+                @include respond-to("<=m") {
+                    top: 115px;
+                }
+                @include respond-to("<=s") {
+                    display: none;
+                }
+            }
+            &__s {
+                display: none;
+                position: absolute;
+                top: 0;
+                left: 0;
+                right: 0;
+                margin: auto;
+                @include respond-to("<=s") {
+                    display: block;
+                }
+            }
+        }
+        &__right {
+            background-color: $color-blue;
+            > div > div {
+                padding: 250.5px 16% !important;
+                @include respond-to("<=l") {
+                    padding: 250.5px 38px !important;
+                }
+                @include respond-to("<=s") {
+                    padding: 56px 16px !important;
+                    br {
+                        display: none;
+                    }
+                }
+            }
+            p {
+                font-family: 'IBM Plex Sans';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 30px;
+                color: white;
+            }
+        }
+    }
+    &__content {
+        padding: 92px 0px;
+        &__left {
+            border-right:  2px solid $color-bright-gray;
+        }
+        &__right {
+            div {
+                h4 {color: $color-pink;}
+            }
+        }
+    }
+    &__navigation {
+        background-color: $color-bright-gray;
+        &__block {
+            &:first-child > div > div > div {
+                display: grid;
+                grid-template-columns: max-content auto;
+                align-items: center;
+                gap: 16px;
+                width: fit-content;
+                cursor: pointer;
+                span {
+                    color: $color-neutral-black;
+                    font-family: 'Roboto Condensed';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 16px;
+                    line-height: 24px;
+                }
+                &:hover {
+                    span {
+                        color: $color-pink;
+                    }
+                }
+                img {
+                    width: min-content;
+                }
+            }
+        }
+    }
+}

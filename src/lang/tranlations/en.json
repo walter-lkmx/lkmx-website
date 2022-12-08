@@ -21,7 +21,7 @@
             "to",
             "STAFF-AUGMENTATION",
 						",", 
-            "we designed services ideal to build custom ",
+            "we designed services ideal to build custom",
 						"solutions of any level of complexity and",
 						"timelines with any type of demand."            
         ],
@@ -308,54 +308,77 @@
     },
     "agile": {
         "title": "Agile development",
-        "goBack": "Regresar",
+        "goBack": "Go Back",
         "hero": [
-            "Nuestro principal servicio ofrece iteraciones de trabajo de un equipo",
-            "multidisciplinario de ingeniería a cargo de diseñar la arquitectura y construir la",
-            "solución de software de principio a fin."
+            "Our main service offers iteration of",
+            "work by a multidisciplinary engineering team",
+            "in charge of designing the architecture and building the solution",
+            "of the software from the ideation to the end of the lifecycle."
         ],
         "intro": [
-            "Los proyectos utilizan iteraciones como unidad de medida, que contemplan DEFINICIÓN,",
-            "IMPLEMENTACIÓN y ACEPTACIÓN. ",
-            "Las iteraciones ensamblan un DIAGRAMA DE GANTT FIJO que otorga balance entre flexibilidad y",
-            "predictibilidad en los entregables, los tiempos de entrega y recursos utilizados."
+            "Our projects are based on iterations that include three phases: DEFINITION,",
+            "IMPLEMENTATION, and ACCEPTANCE.",
+            "Iterations are put into a FIXED GANTT CHART that provides flexibility and",
+            "predictability in deliverables, timeline and resources"
           ],
           "intro2": [
-            "Preparamos equipos que se organizan en grupos de DEFINICIÓN y de IMPLEMENTACIÓN,",
-            "utilizando una metodología propia, que se apoya de diferentes técnicas probadas en producción de",
-            "análisis de requerimientos, diseño, versionamiento, arquitectura de código y delivery. Al final de la",
-            "implementación, el resultado es entregado a nuestros clientes en ambientes de staging apropiados",
-            "para que realicen sus pruebas de ACEPTACIÓN. Logramos esto mediante mecanismos propios de",
-            "versionamiento y mecanismos perfeccionados de integración continua."
+            "We organize our team in DEFINITION and IMPLEMENTATION groups",
+            "using our custom methodology that is supported over different production-tested techniques for",
+            "equirement analysis, user-interface design, versioning, code arquitectura, and delivery.",
+            "At the end of the implementation, the result is delivered to our clients in proper staging environments",
+            "so they can perform their ACCEPTANCE tests. We accomplish this through proprietary versioning mechanisms",
+            "and perfected continuous integration mechanisms."
           ],
           "maad" : {
             "title": "Metodología ágil de análisis y diseño",
-            "par1": "Creamos la Metodología Ágil de Análisis y Diseño, una colección de actividades que nos permiten capturar los requerimientos de los stakeholders y convertirlos en un backlog con elementos cortos, claros, concisos y accionables.",
-            "par2": "La metodología estandariza la colección de los requerimientos y los procesa en entidades como épicas, historias y deltas que describen con total claridad los cambios a ser implementados.",
-            "par3": "Cada elemento del backlog tiene un estado estricto pero simplificado que puede ser monitoreado utilizando herramientas como Jira y Confluence."
+            "par1": "We created the Analysis and Design Agile Methodology, a collection of activities that allows us to capture the stakeholders' requirements and transform them into a backlog with short, clear, concise and actionable elements.",
+            "par2": "The methodology standardizes the collecting of requirements and process them into entities like epics, stories and deltas that clearly describe the changes to be implemented.",
+            "par3": "Each backlog element has a strict but simplified state that can be monitored using tools like Jira and Confluence."
           },
           "flare": {
             "title": "flare",
-            "par": "Utilizamos un sistema de diseño propio que permite la concepción rápida e implementación eficiente de interfaces con retículas perfectas y estilos consistentes desde la primera iteración. Flare define conceptos claros e implementables sobre cuatro puntos clave: estilo, estructura, interfaz con el usuario y contenido."
+            "par": "We employ a proprietary design system that allows for a fast inception and efficient implementation of interfaces with perfect grids and consistent styles since the first iteration. Flare defines clear and implementable concepts on four key points: style, structure, user interface and content."
           },
           "scrum": {
             "title": "scrum",
-            "par": "Como framework, nos permite abordar problemas complejos mientras se realizan entregas de valor, continuas y constantes, de forma creativa y enfocadas en aumentar la productividad de los equipos.Con base al modelo CMMI, implementamos buenas prácticas que nos permiten incrementar y optimizar el rendimiento de los procesos involucrados directa e indirectamente en el desarrollo de software, maximizando las oportunidades y mitigando los riesgos."
+            "par": "The use of Scrum as a framework allows us to approach complex problems while valuable, continuous and constant deliveries are done in a creative manner and focused on increasing team productivity. Based on the CMMI model, we implement good practices that allow us to increase and optimize performance of the processes directly and indirectly involved in software development, maximizing opportunities and mitigating risks."
           },
           "agile": {
             "title": "agile flow",
-            "par": "Diseñamos mecanismos de versionamiento propios, robustos, flexibles y compatibles con estándares en la industria. Estos procesos, combinados con nuestro mecanismos de integración continua nos permiten alcanzar máximas velocidades de desarrollo, manteniendo control total sobre la calidad de cada uno de los componentes involucrados y sus integraciones"
+            "par": "We design robust and flexible proprietary versioning mechanisms, compatible with industry standards. These processes, combined with our continuous integration mechanisms, allow us to reach maximum development speeds while maintaining total control of the quality of each of the components involved and their integrations."
           },
           "cd": {
             "title": "cd/ci",
             "par": [
-                "Nuestro código fuente es administrado usando infraestructura propia de integración continua que automatiza el versionamiento, empaquetamiento y publicación de los binarios.",
-                "La automatización completa de nuestros procesos de DevOps nos permite entregar versiones funcionales a nuestros clientes al final de cada iteración."
+                "Our source code is managed using proprietary continuous integration infrastructure that automates binary versioning, packaging and release.",
+                "The entire automation of our DevOps processes allows us to deliver functional versions to our clients at the end of each iteration."
             ]
           },
         "span": {
             "back":"DISCOVERY",
             "forward": "AGILE MAINTENANCE, SCOPE DEV. & CONTINUOUS SUPPORT"
         }
+    },
+    "ams": {
+      "title": "Agile Maintenance",
+      "goBack": "Go Back",
+      "hero": [
+        "Al final del desarrollo, ofrecemos servicios de",
+        "mantenimiento y soporte para una estabilizacion",
+        "y transferencia exitosa de la plataforma."
+      ],
+      "left": {
+        "title": "UTILIZAMOS KANBAN COMO MARCO DE TRABAJO ÁGIL",
+        "par": "Nos ayuda a priorizar y organizar el trabajo planeado o a demanda, lo que nos permite mantener un flujo constante de entregables, a través de la implementación de soluciones que aportan valor de forma inmediata al cliente."
+      },
+      "right": {
+        "title1": "SCOPE DEVELOPMENT",
+        "par1": "Esta opción se ofrece a los clientes una ves terminada la fase inicial de desarrollo, cuando surgen REQUERIMIENTOS ESPECÍFICOS. Si tal es el caso y tras un análisis de requerimientos a detalle, utilizamos técnicas recuperadas de metodologías ágiles antes de la contratación de servicios.",
+        "title2": "AGILE MAINTENANCE",
+        "par2": "Una vez desarrollada la plataforma, nuestros bloques de mantenimiento ofrecen una alternativa ÁGIL para perfeccionar o complementar las funcionalidades existentes. Empleamos Kanban de la mano con las metodologías utilizadas para el desarrollo en proyectos flexibles de mantenimiento, desde una semana y sin límite de duración.",
+        "title3": "CONTINUOUS SUPPORT",
+        "par3": "Contamos con opciones de soporte continuo para nuestras soluciones. Nuestros equipos dan soporte a plataformas con diversos SLAs; con cobertura en horas regulares y on-call. La estabilidad de nuestro desarrollo, combinada con nuestros procesos, garantizan eficiencia y costos operativos bajo control."
+      },
+      "navigation": "AGILE DEVELOPMENT"
     }
 }

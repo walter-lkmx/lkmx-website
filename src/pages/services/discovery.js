@@ -69,12 +69,15 @@ export default function DiscoveryPage() {
                         </div>
                     </Block>
                 </Column>
-                <Column className={styles.discovery__next} number="1" modeM="full" modeL="full">
+                <Column className={styles.discovery__next} number="1" modeM="full" modeL="full">                    
                     <Block className={styles.discovery__next}>
-                        <span>{$t.discovery.span.text}</span>
-                        <Link href="/services/agileDevelopment"><img src="/icons/arrow-right--pink.svg" alt="Pink arrow right"/></Link>
-                        
-                    </Block>
+                        <Link href="/services/agileDevelopment">
+                            <div>
+                                <span>{$t.discovery.span.text}</span>
+                                <img src="/icons/arrow-right--pink.svg" alt="Pink arrow right"/> 
+                            </div>
+                        </Link>                   
+                    </Block>                  
                 </Column>
             </Page>
             

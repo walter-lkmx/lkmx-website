@@ -1,10 +1,16 @@
 .agile {
     &__goBack {
+        @include respond-to("<=s") {
+            justify-content: start;
+        }
         &:first-child>div>div {
             align-content: center;
             align-items: center;
             display: grid;
             grid-template-columns: 4.5% auto;
+            @include respond-to("<=s") {
+                grid-template-columns: 25% auto;
+            }
             padding: 10px 8px;
         }
 
@@ -98,7 +104,7 @@
 
                 @include respond-to("<=s") {
                     display: block;
-                    transform: translateY(calc(6% + 2px));
+                    transform: translateY(calc(5% + 1px));
                 }
             }
 
@@ -134,7 +140,6 @@
             }
 
             &__content {
-                width: 420px;
                 padding-left: 163px;
 
                 @include respond-to("l") {
@@ -157,13 +162,14 @@
                     font-size: 20px;
                     line-height: 30px;
                     margin: 0px;
-                    width: 420px;
 
                     @include respond-to("<=xs") {
                         font-size: 16px;
                         line-height: 28px;
-                        width: 327px;
                         padding-left: 16px;
+                        br {
+                            display: none;
+                        }
                     }
                 }
             }
@@ -287,10 +293,7 @@
                 grid-template-columns: auto auto;
                 align-items: center;
                 gap: 16px;
-
-                img {
-                    cursor: pointer;
-                }
+                cursor: pointer;
 
                 span {
                     color: $color-neutral-black;
@@ -304,8 +307,10 @@
                         width: min-content;
                     }
                 }
-                span:hover {
-                    color: $color-pink;
+                &:hover {
+                    span {
+                        color: $color-pink;
+                    }                    
                 }
             }
         }
