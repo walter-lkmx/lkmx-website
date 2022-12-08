@@ -28,7 +28,7 @@
     &__hero {
         max-height: 591px;
         overflow: hidden;
-
+        background-color: $color-bright-gray;
         @include respond-to("l") {
             grid-template-columns: 47% auto !important;
         }
@@ -267,10 +267,6 @@
             &:first-child>div {
                 align-items: center;
                 display: grid;
-
-                @include respond-to("<=xs") {
-                    align-items: end;
-                }
             }
 
             height: 142px;
@@ -302,9 +298,8 @@
                     font-weight: 700;
                     font-size: 16px;
                     line-height: 24px;
-
                     @include respond-to("<=xs") {
-                        width: min-content;
+                        font-size: 12px;
                     }
                 }
                 &:hover {

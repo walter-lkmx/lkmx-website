@@ -47,7 +47,7 @@ export default function AgileDevelopment() {
 
 
 
-            <Column number="1" mode="slim" modeM="normal"  className={styles.agile__intro}>
+            <Column number="1" modeS="full" mode="slim" modeM="normal"  className={styles.agile__intro}>
                 <Block className={styles.agile__intro__block}>
                     <p>{$t.agile.intro[0]}<br/>{$t.agile.intro[1]}<br/>{$t.agile.intro[2]} {$t.agile.intro[3]}</p>
                 </Block>
@@ -57,14 +57,14 @@ export default function AgileDevelopment() {
                     <img src="/gantt.svg"/>
                 </Block>
             </Column>
-            <Column number="1" mode="slim" modeM="normal" className={styles.agile__sprint}>
+            <Column number="1" mode="slim" modeM="normal" modeS="full" className={styles.agile__sprint}>
                 <Block className={styles.agile__sprint__block}>
                     <p>{$t.agile.intro2[0]} {$t.agile.intro2[1]} {$t.agile.intro2[2]} {$t.agile.intro2[3]} {$t.agile.intro2[4]} {$t.agile.intro2[5]}
                     </p>
                     <img src="/sprint-structure.svg" />
                 </Block>
             </Column>
-            <Column number="1" mode="slim" modeM="normal" className={styles.agile__maad}>
+            <Column number="1" mode="slim" modeM="normal" modeS="full" className={styles.agile__maad}>
                 <Block className={styles.agile__maad__block}>
                     <img src="/maad.svg"/>
                     <h2>{$t.agile.maad.title}</h2>
@@ -73,27 +73,27 @@ export default function AgileDevelopment() {
                     <p>{$t.agile.maad.par3}</p>
                 </Block>
             </Column>
-            <Column number="1" mode="slim" modeM="normal" className={styles.agile__flare}>
+            <Column number="1" mode="slim" modeM="normal" modeS="full" className={styles.agile__flare}>
                 <Block className={styles.agile__flare__block}>
                     <h2>{$t.agile.flare.title}</h2>
                     <p>{$t.agile.flare.par}</p>
                     <div className={styles.agile__flare__block__img}><img src="/flare.svg"/></div>
                 </Block>
             </Column>
-            <Column number="1" mode="slim" modeM="normal" className={styles.agile__scrum}>
+            <Column number="1" mode="slim" modeM="normal" modeS="full" className={styles.agile__scrum}>
                 <Block className={styles.agile__scrum__block}>
                     <h2>{$t.agile.scrum.title}</h2>
                     <p>{$t.agile.scrum.par}</p>
                 </Block>
             </Column>
-            <Column number="1" mode="slim" modeM="normal" className={styles.agile__agile}>
+            <Column number="1" mode="slim" modeM="normal" modeS="full" className={styles.agile__agile}>
                 <Block className={styles.agile__agile__block}>
                 <h2>{$t.agile.agile.title}</h2>
                     <p>{$t.agile.agile.par}</p>
                     <div className={styles.agile__agile__block__img}><img src="/agile.svg"/></div>
                 </Block>
             </Column>
-            <Column number="1" mode="slim" modeM="normal" className={styles.agile__cd}>
+            <Column number="1" mode="slim" modeM="normal" modeS="full" className={styles.agile__cd}>
                 <Block className={styles.agile__cd__block}>
                     <h2>{$t.agile.cd.title}</h2>
                     <p>{$t.agile.cd.par[0]}<br/>{$t.agile.cd.par[1]}</p>

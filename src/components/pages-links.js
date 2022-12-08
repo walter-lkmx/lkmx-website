@@ -7,8 +7,8 @@ import { useRouter } from "next/router";
 export default function PagesLinks(props) {
 
   const lang = {
-    es: 'ESP',
-    en: 'ENG'
+    es: 'ES',
+    en: 'EN'
   }
 
   const { locale, locales, asPath } = useRouter();

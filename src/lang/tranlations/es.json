@@ -327,7 +327,7 @@
       ]
     },
     "span": {
-      "back":"AGILE DEVELOPMENT",
+      "back":"DISCOVERY",
       "forward": "AGILE MAINTENANCE, SCOPE DEV. & CONTINUOUS SUPPORT"
     }
   },
@@ -335,8 +335,8 @@
     "title": "Agile Maintenance",
     "goBack": "Regresar",
     "hero": [
-      "Al final del desarrollo, ofrecemos servicios de",
-      "mantenimiento y soporte para una estabilizacion",
+      "Al final del desarrollo, ofrecemos servicios de ",
+      "mantenimiento y soporte para una estabilizacion ",
       "y transferencia exitosa de la plataforma."
     ],
     "left": {
