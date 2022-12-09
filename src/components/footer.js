@@ -22,9 +22,9 @@ export default function Footer() {
                 <h3>{$t.footer.pages.services.title}</h3>
                 <ul>
                   <li><Link href="/services">{$t.footer.pages.services.items[0]}</Link></li>
-                   <li><Link href="/services/agileDevelopment">{$t.footer.pages.services.items[2]}</Link></li>
-                  {/*<li>{$t.footer.pages.services.items[2]}</li>
-                  <li>{$t.footer.pages.services.items[3]}</li> */}
+                  <li><Link href="/services/discovery">{$t.footer.pages.services.items[1]}</Link></li>
+                  <li><Link href="/services/agileDevelopment">{$t.footer.pages.services.items[2]}</Link></li>
+                  <li><Link href="/services/agileMaintenance">{$t.footer.pages.services.items[3]}</Link></li>
                 </ul>
               </div>
               <div> 
