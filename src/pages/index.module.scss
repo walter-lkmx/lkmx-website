@@ -183,6 +183,9 @@
 				max-width: rem(924px);
 				margin: auto;
 				width: 100%;
+				@include respond-to(">=xl") {
+					transform: translate(125px, -134px);
+				}
 				
 				@include respond-to("<=l") {
 						max-width: 54rem;
