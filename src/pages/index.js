@@ -9,7 +9,6 @@ import technologies from '@/service/json/technologies';
 import Link from "next/link";
 import { useRouter } from "next/router";
 import Image from 'next/image'
-
 function getTeamList() {
 
   let r = require.context('/public/images', false, /\.(png|jpe?g|svg)$/);
