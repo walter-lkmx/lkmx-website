@@ -5,7 +5,10 @@
     "ogImage": "",
     "title2": ["Convertimos", "tus ideas en realidad"],
     "hero": [
-      "Somos socios estratégicos de compañías alrededor del mundo, construyendo soluciones de software innovadoras con nuestra metodología única y la tecnología más sólida."
+      "Somos socios estratégicos de compañías alrededor",
+      "del mundo, construyendo soluciones de software",
+      "innovadoras con nuestra metodología única",
+      "y la tecnología más sólida."
     ],
 		"servicesTitle": "SERVICIOS",
     "services": [
@@ -39,7 +42,7 @@
       "compañías alrededor del mundo"
     ],
     "buttons": {
-      "btnServices": "Mira nuestros servicios",
+      "btnServices": "Ve nuestros servicios",
       "btnTechnologies": "Descubre nuestras tecnologías",
       "btnTeam": "Conócenos",
       "btnWork": "Explora"
