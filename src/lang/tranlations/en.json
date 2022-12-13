@@ -7,12 +7,14 @@
         "ogDescription": "Our team of experts conceptualize, design, and deliver the most complex software solutions, leading the digital transformation of companies around the globe.",
         "ogImage": "",
         "title2": [
-            "We turn your ideas",
-            "into reality"
+            "We turn",
+            "your ideas into reality"
         ], 
         "hero": [
-            "We are strategic partners with businesses in different industries around the world, building innovative software solutions with",
-						"our unique methodology and the most solid technology."
+            "We are strategic partners with businesses in different industries around",
+            "the world, building innovative software solutions",
+		    "with our unique methodology and",
+            "the most solid technology."
         ],
 				"servicesTitle": "SERVICES",
         "services": [
