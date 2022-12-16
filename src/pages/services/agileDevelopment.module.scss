@@ -29,9 +29,6 @@
         max-height: 591px;
         overflow: hidden;
         background-color: $color-bright-gray;
-        @include respond-to("l") {
-            grid-template-columns: 47% auto !important;
-        }
 
         @include respond-to("m") {
             grid-template-columns: calc(38% + 5px) auto !important;
@@ -161,7 +158,9 @@
                     font-weight: 400;
                     font-size: 20px;
                     line-height: 30px;
-                    margin: 0px;
+                    margin: 0px;@include respond-to("m") {
+                        br {display: none;}
+                    }
 
                     @include respond-to("<=xs") {
                         font-size: 16px;

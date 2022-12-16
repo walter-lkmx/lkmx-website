@@ -120,6 +120,9 @@
         display: flex;
         justify-content: center;
         text-align: center;
+        @include respond-to("<=xs") {
+          text-align: start;
+        }
         * {
           margin: 0;
         }
@@ -129,6 +132,10 @@
           font-size: 28px;
           line-height: 36px;
           text-transform: uppercase;
+          @include respond-to("<=m") {
+            font-size: 24px;
+            line-height: 32px;
+          }
         }
       }
     }
@@ -184,6 +191,7 @@
                 font-family: $font-secondary;
                 font-size: 20px;
                 line-height: 28px;
+                text-transform: uppercase;
               }
             }
           }
