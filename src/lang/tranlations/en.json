@@ -384,14 +384,14 @@
       "navigation": "AGILE DEVELOPMENT"
     },
     "page404": {
-      "title": "Error 404",
+      "title": "404 Error",
       "ogDescription": "Page Not Found",
       "paragraph": [
-        "Lo sentimos, no podemos encontrar la página",
-        "que estás buscando, no existe o se ha movido",
-        "de ruta. Intenta reescribir la URL o visita",
-        "nuestra página de inicio."
+        "Sorry, we can't find the page you're looking",
+        "for, it doesn't exist or it has been moved.",
+        "Please try to rewrite the URL or visit",
+        "our home page."
       ],
-      "btn": "Ir al inicio"
+      "btn": "Go to home page"
     }
 }
