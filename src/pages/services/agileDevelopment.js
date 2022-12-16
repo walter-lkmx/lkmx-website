@@ -30,7 +30,7 @@ export default function AgileDevelopment() {
                     <span>{$t.agile.goBack}</span>
                 </Block>                    
             </Column>
-            <Column modeL="normal" number="2" numberS="1" weight="right"  className={styles.agile__hero}>
+            <Column mode="normal" number="2" numberS="1" weight="right"  className={styles.agile__hero}>
                 <img src="/triangles/triangle-code--cyan--right.svg"  className={styles.agile__hero__triangle}/>
                 <Block className={styles.agile__hero__phases}>
                     <img src="/horizontal-line.svg" className={styles.agile__hero__phases__svgLine}></img>
@@ -66,7 +66,6 @@ export default function AgileDevelopment() {
             </Column>
             <Column number="1" mode="slim" modeM="normal" modeS="full" className={styles.agile__maad}>
                 <Block className={styles.agile__maad__block}>
-                    <img src="/maad.svg"/>
                     <h2>{$t.agile.maad.title}</h2>
                     <p>{$t.agile.maad.par1}</p>
                     <p>{$t.agile.maad.par2}</p>

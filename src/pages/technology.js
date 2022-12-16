@@ -7,6 +7,7 @@ import getLang from '@/lang';
 import siteMetadata from "../meta/siteMetadata"
 import HeadSeo from "../components/HeadSeo"
 import { useRouter } from "next/router";
+import Image from "next/image";
 
 export default function TechnologyPage() {
 
@@ -35,6 +36,14 @@ export default function TechnologyPage() {
           <Block className={styles.technology__hero__block}>
             <div className={styles.technology__hero__block__right}>
               <div></div>
+              <div className={styles.technology__hero__block__right__background}>
+                <Image
+                  layout="fill"                
+                  priority={true}
+                  src="/code--blue-bg.svg" alt="code"
+                />
+              </div>
+              
               <img src="/circle--pink.svg" alt="ellipse" className={styles.technology__hero__block__right__elipse}/>
             </div>
           </Block>

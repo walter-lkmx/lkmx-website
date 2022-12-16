@@ -1,8 +1,8 @@
 import React from "react";
 import BaseLayout from "@/layouts/base-layout.js";
 import { Block, Column, Page } from "@lkmx/flare-react";
-import styles from "@/pages/about-us.module.scss";
-import Carousel from "@/components/carousel.js";
+import styles from "@/pages/team.module.scss";
+
 import getLang from '@/lang';
 import siteMetadata from "../meta/siteMetadata"
 import HeadSeo from "../components/HeadSeo"
@@ -56,7 +56,14 @@ export default function ContactPage() {
               </div>
               <img src="/triangles/triangle-code--pink--right.svg" alt="triangle" className={styles.contact__hero__right__triangle}/>
               <img src="/triangles/triangle-code--pink--right--small.svg" alt="triangle" className={styles['contact__hero__right__triangle-mobile']}/>
-              <div className={styles.contact__hero__right__clouds}></div>
+              <div className={styles.contact__hero__right__clouds}>
+                {/* <img src="/clouds.svg"/> */}
+                <Image
+                  layout="fill"
+                  priority={true}                  
+                  src="/clouds.svg" alt="clouds"
+                />
+              </div>
               <div alt="clouds--small" className={styles['contact__hero__right__clouds-mobile']}></div>
             </div>
           </Block>

@@ -68,7 +68,9 @@
         background-color: white;
         width: rem(120px);
         height: inherit;
-        background-image: url("/clouds.svg");
+        img {
+          height: 100%;
+        }
       }
       &__koi {
         top: 0;
