@@ -187,7 +187,7 @@
     display: grid;
     place-content: center;
     height: auto;
-    padding: 108px 0px;
+    //padding: 108px 0px;
     text-align: center;
     line-height: 52px;
    
@@ -200,77 +200,30 @@
     }
   }
   &__summary {
-    padding: 92px 120px 67px;
-    @include respond-to("l") {
-      padding: 96px 104px 67px;
-    }
-    @include respond-to("<=m") {
-      padding: 92px 0px 67px;
-    }
-    @include respond-to("<=xs") {
-      padding: 41px 0px 0px;
-    }
-    &__left, &__right {
-      &:first-child > div, &:last-child > div {
-        width: 100%;
-      }
-    }
+    padding: 92px 16px;
+    gap: 96px;
+    &__first {
 
-    p {
-        width: auto;
-        margin-bottom: 26px;
     }
-    &__left {
-      @include respond-to("<=l") {
-        justify-items: unset;
-      }
-
-      h3 {
-        line-height: 36px;
-        margin-bottom: 8px;
-        @include respond-to("<=l") {
-          width: rem(226px);
+    &__second {}
+    &__third {
+       >div > div {
+        display: grid;
+        place-content: center;
+        background: $color-blue;
+       }
+      &__image {
+        position: relative;
+        height: 438.49px;
+        aspect-ratio: 1.49 / 1;
+        @include respond-to("l") {
+          height: 368.6px;
         }
-      }
-
-      border-right: 2px solid #EBEAE8;
-      @include respond-to("<=xs") {
-        border-right: none;
-      }
-      p {
-        font-weight: 400; 
-        font-size: 20px;
-        line-height: 30px;
-        @include respond-to("<=xs") {
-          font-weight: 400;
-          font-size: 16px;
-          line-height: 28px;
+        @include respond-to("m") {
+          height: 438.49px;
         }
-      }
-    }
-    &__right {
-       > div > div {
-        padding: 16px 32px !important;
-        @include respond-to("<=xs") {
-          padding: 6px 16px !important;
-        }
-      }
-      h3 {
-        color: $color-pink;
-        font-size: 24px;
-        line-height: 32px;
-        margin-bottom: 8px;
-        @include respond-to("<=xs") {
-          font-size: 20px;
-          line-height: 28px;
-        }
-      }
-      p {
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 28px; 
-        @include respond-to("<=xs") {
-          margin-bottom: 22px;
+        @include respond-to("<=s") {
+          height: 209.67px;
         }
       }
     }
