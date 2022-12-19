@@ -24,12 +24,13 @@
 
 			&:last-child {
 				background-color: $color-blue;
-				background-image: url("/code--blue-bg.svg");
-				background-repeat: no-repeat;
 				position: relative;
 				overflow: hidden;
-				background-position: 0% 50%;
-				background-size: 832px 1311px;
+				> div > div {
+					padding: 0px;
+					height: 100%;
+				}
+
 			}
 
 			&__left {
@@ -71,13 +72,22 @@
 			}
 
 			&__right {
-				div {
+				height: 100%;
+				div:first-child {
+					z-index: 1;
 					position: absolute;
 					top: 0;
 					left: 0;
 					height: $hero-height-large;
 					width: rem(155px);
 					background-image: linear-gradient(to top right, $color-neutral-black 0%, $color-neutral-black 50%, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0) 100%);
+				}
+				&__background {
+					width: 110%;
+					height: 240%;
+					position: relative;
+					transform: translate(6px, -413px);
+					z-index: 0;
 				}
 
 				&__elipse {

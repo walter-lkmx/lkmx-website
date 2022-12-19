@@ -305,7 +305,7 @@
       "versionamiento y mecanismos perfeccionados de integración continua."
     ],
     "maad" : {
-      "title": "Metodología ágil de análisis y diseño",
+      "title": "MAAD",
       "par1": "Creamos la Metodología Ágil de Análisis y Diseño, una colección de actividades que nos permiten capturar los requerimientos de los stakeholders y convertirlos en un backlog con elementos cortos, claros, concisos y accionables.",
       "par2": "La metodología estandariza la colección de los requerimientos y los procesa en entidades como épicas, historias y deltas que describen con total claridad los cambios a ser implementados.",
       "par3": "Cada elemento del backlog tiene un estado estricto pero simplificado que puede ser monitoreado utilizando herramientas como Jira y Confluence."
@@ -355,5 +355,16 @@
       "par3": "Contamos con opciones de soporte continuo para nuestras soluciones. Nuestros equipos dan soporte a plataformas con diversos SLAs; con cobertura en horas regulares y on-call. La estabilidad de nuestro desarrollo, combinada con nuestros procesos, garantizan eficiencia y costos operativos bajo control."
     },
     "navigation": "AGILE DEVELOPMENT"
+  },
+  "page404": {
+    "title": "Error 404",
+    "ogDescription": "Pagina No Encontrada",
+    "paragraph": [
+      "Lo sentimos, no podemos encontrar la página",
+      "que estás buscando, no existe o se ha movido",
+      "de ruta. Intenta reescribir la URL o visita",
+      "nuestra página de inicio."
+    ],
+    "btn": "Ir al inicio"
   }
 }

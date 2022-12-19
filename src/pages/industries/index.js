@@ -70,6 +70,13 @@ export default function TechnologyPage() {
           <Block className={styles.industries__hero__block}>
             <div className={styles.industries__hero__block__right}>
               <div></div>
+              <div className={styles.industries__hero__block__right__waves}>
+              <Image
+                  layout="fill"                
+                  priority={true}
+                  src="/industry-hero-wave.svg" alt="waves"
+                />
+              </div>              
               <img
                 src="/circle--pink.svg"
                 alt="ellipse"
