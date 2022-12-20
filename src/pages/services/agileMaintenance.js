@@ -7,7 +7,7 @@ import HeadSeo from "../../components/HeadSeo";
 import getLang from '@/lang';
 import { useRouter } from "next/router";
 import Link from "next/link"
-import Image from "next/image"
+import Image from "next/legacy/image";
 export default function Ams() {
     const { locale } = useRouter();
     const $t = getLang(locale);

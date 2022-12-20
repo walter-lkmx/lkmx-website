@@ -8,7 +8,7 @@ import HeadSeo from "../components/HeadSeo"
 import technologies from '@/service/json/technologies';
 import Link from "next/link";
 import { useRouter } from "next/router";
-import Image from 'next/image'
+import Image from "next/legacy/image";
 function getTeamList() {
 
   let r = require.context('/public/images', false, /\.(png|jpe?g|svg)$/);
@@ -16,7 +16,7 @@ function getTeamList() {
     return {
       fileName: n.replace(/\.\//, ''),
       name: n.replace(/\.\/_\d*_/, '').replace(/\.jpg/, '')
-    }
+    };
   }).sort((a, b) => a.name.localeCompare(b.name));
 }
 
