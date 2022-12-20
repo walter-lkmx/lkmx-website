@@ -98,12 +98,12 @@ export default function WorkPage({ allProjectsData }) {
                     <h3>{item.title}</h3>
                     <p>{item.headline}</p>
                     <Link href={`/projects/${item.id}`} key={item.id}>
-                      <a>
-                        <img
-                          src="/icons/arrow-right--pink.svg"
-                          alt="arrow-left"
-                        />
-                      </a>
+
+                      <img
+                        src="/icons/arrow-right--pink.svg"
+                        alt="arrow-left"
+                      />
+
                     </Link>
                   </div>
                 </Block>

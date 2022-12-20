@@ -13,7 +13,7 @@ export default function DiscoveryPage() {
     const { locale } = useRouter();
     const $t = getLang(locale);
 
-    return(
+    return (
         <BaseLayout>
             <HeadSeo
                 title={$t.discovery.title}
@@ -26,7 +26,7 @@ export default function DiscoveryPage() {
             <Page>
                 <Column mode="normal">
                     <Block className={styles.discovery__goBack}>
-                        <Link href="/services"><Image src="/icons/arrow-left--white.svg" alt="go back" width={24} height={24}/></Link>
+                        <Link href="/services" legacyBehavior><Image src="/icons/arrow-left--white.svg" alt="go back" width={24} height={24}/></Link>
                         
                         <span>{$t.discovery.goBack}</span>
                     </Block>                    
@@ -76,7 +76,7 @@ export default function DiscoveryPage() {
                 </Column>
                 <Column className={styles.discovery__next} number="1" modeM="full" modeL="full">                    
                     <Block className={styles.discovery__next}>
-                        <Link href="/services/agileDevelopment">
+                        <Link href="/services/agileDevelopment" legacyBehavior>
                             <div>
                                 <span>{$t.discovery.span.text}</span>
                                 <img src="/icons/arrow-right--pink.svg" alt="Pink arrow right"/> 

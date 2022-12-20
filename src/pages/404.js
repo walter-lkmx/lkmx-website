@@ -13,7 +13,7 @@ export default function Page404 () {
     const { locale } = useRouter();
     const $t = getLang(locale);
 
-    return(
+    return (
         <BaseLayout>
             <HeadSeo
                 title={$t.page404.title + ' - ' + siteMetadata.companyName}
@@ -48,7 +48,7 @@ export default function Page404 () {
                             <h2>{$t.page404.title}</h2>
                             <p>{$t.page404.paragraph[0]} <br/>{$t.page404.paragraph[1]} <br/>{$t.page404.paragraph[2]} <br/>{$t.page404.paragraph[3]}</p>
                         </div>                        
-                        <Link href="/"><div className={styles.page__column__block__btn}>{$t.page404.btn}</div></Link>
+                        <Link href="/" legacyBehavior><div className={styles.page__column__block__btn}>{$t.page404.btn}</div></Link>
                     </Block>                    
                 </Column>
             </Page>

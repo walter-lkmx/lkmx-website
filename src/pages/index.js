@@ -9,6 +9,8 @@ import technologies from '@/service/json/technologies';
 import Link from "next/link";
 import { useRouter } from "next/router";
 import Image from "next/legacy/image";
+
+
 function getTeamList() {
 
   let r = require.context('/public/images', false, /\.(png|jpe?g|svg)$/);
@@ -75,7 +77,7 @@ export default function Index() {
                 <h2>{$t.home.servicesTitle}</h2>
                 <p>{$t.home.services[0]} <strong>{$t.home.services[1]}</strong> <br />{$t.home.services[2]} <strong className={styles.index__services__block__content__left__cyan}>{$t.home.services[3]}
                 </strong>{$t.home.services[4]} <br />{$t.home.services[5]} <br />{$t.home.services[6]}<br />{$t.home.services[7]} <br />{$t.home.services[8]}</p>
-                <Link href="/services"><div className={styles.index__services__block__content__left__btn}>{$t.home.buttons.btnServices}</div></Link>
+                <Link href="/services" legacyBehavior><div className={styles.index__services__block__content__left__btn}>{$t.home.buttons.btnServices}</div></Link>
               </div>
             </div>
             <div className={styles.index__services__block__content__right}>
@@ -122,7 +124,7 @@ export default function Index() {
                 <div className={styles.index__team__block__content__text}>
 								<p>{$t.home.team[0]}<br className={styles.index__team__block__content__text__sbr}/> <strong>{$t.home.team[1]}</strong> {$t.home.team[2]} <strong className={styles.index__team__block__content__text__pink}> {$t.home.team[3]}</strong> {$t.home.team[4]} <br />{$t.home.team[5]} <br />{$t.home.team[6]}
 								</p>
-                  <Link href="/team"><div className={styles.index__team__block__content__btn}>{$t.home.buttons.btnTeam}</div></Link> 
+                  <Link href="/team" legacyBehavior><div className={styles.index__team__block__content__btn}>{$t.home.buttons.btnTeam}</div></Link> 
                 </div>
                 <div className={styles.index__team__block__content__collabs}>
                 {pictures.map((picture, index) => {

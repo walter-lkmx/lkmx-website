@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "@lkmx/flare-react": "^0.1.7",
+    "@next/font": "^13.0.7",
     "@svgr/webpack": "^6.4.0",
     "gray-matter": "^4.0.3",
     "moment": "^2.29.4",

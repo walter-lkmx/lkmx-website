@@ -11,7 +11,7 @@ import Image from "next/legacy/image";
 export default function Ams() {
     const { locale } = useRouter();
     const $t = getLang(locale);
-    return(
+    return (
         <BaseLayout>
             <HeadSeo
                 title={$t.ams.title}
@@ -24,7 +24,7 @@ export default function Ams() {
             <Page>
                 <Column mode="normal" modeS="full">
                     <Block className={styles.ams__goBack}>
-                        <Link href="/services"><img src="/icons/arrow-left--white.svg" alt="go back"/></Link>                    
+                        <Link href="/services" legacyBehavior><img src="/icons/arrow-left--white.svg" alt="go back"/></Link>                    
                         <span>{$t.ams.goBack}</span>
                     </Block>                    
                 </Column>
@@ -62,7 +62,7 @@ export default function Ams() {
                 </Column>
                 <Column className={styles.ams__navigation} number="1" modeM="full" modeL="normal">
                 <Block className={styles.ams__navigation__block}>
-                    <Link href="/services/agileDevelopment">
+                    <Link href="/services/agileDevelopment" legacyBehavior>
                         <div className={styles.ams__navigation__block__forward}>                       
                             <img src="/icons/arrow-left--pink.svg" alt="Pink arrow left"/> 
                             <span>{$t.ams.navigation}</span>                        
