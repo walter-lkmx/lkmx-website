@@ -30,14 +30,14 @@ export default function Ams() {
                 </Column>
                 <Column mode="full" number="2" numberS="1" className={styles.ams__hero} weightL="normal" weightXXL="right">
                     <Block className={styles.ams__hero__left}>
-                        <img className={styles.ams__hero__left__l} src="/ams-large.svg"/>
-                        <img className={styles.ams__hero__left__m} src="/ams-med.svg"/>
-                        <img className={styles.ams__hero__left__s} src="/ams-mobile.svg"/>
+                        <img className={styles.ams__hero__left__l} alt="LKMX - Hero" src="/ams-large.svg"/>
+                        <img className={styles.ams__hero__left__m} alt="LKMX - Hero" src="/ams-med.svg"/>
+                        <img className={styles.ams__hero__left__s} alt="LKMX - Hero" src="/ams-mobile.svg"/>
                     </Block>
                     <Block className={styles.ams__hero__right}>
                         <p>{$t.ams.hero[0]}<br/>{$t.ams.hero[1]}<br/>{$t.ams.hero[2]}</p>
                     </Block>
-                    <img className={styles.ams__hero__clouds} src="/triangles/triangle-clouds--right.svg"/>
+                    <img className={styles.ams__hero__clouds} alt="LKMX - Hero" src="/triangles/triangle-clouds--right.svg"/>
                 </Column>
                 <Column mode="slim" modeM="normal"  number="1" className={styles.ams__content}>
                     <Block className={styles.ams__content__right}>
