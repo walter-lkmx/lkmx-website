@@ -66,7 +66,7 @@
 	}
 	&__services {
 		position: relative;
-		background: linear-gradient(90deg, $color-neutral-black 50%, $color-bright-gray 50%);
+		background: linear-gradient(90deg, $color-neutral-black 51%, $color-bright-gray 49%);
 		@include respond-to("<=m") {
 			background: $color-neutral-black;
 		}

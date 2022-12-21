@@ -98,13 +98,35 @@
         }
     }
     &__content {
-        padding: 92px 0px;
-        &__left {
-            border-right:  2px solid $color-bright-gray;
+        
+        &__left, &__right {
+            padding: 92px 0px;
         }
-        &__right {
-            div {
-                h4 {color: $color-pink;}
+        &__left {
+            background-color: $color-bright-gray;
+
+            &__kanban {
+                position: relative;
+                height: 323px;
+                background-color: $color-blue;
+                display: grid;
+                @include respond-to("<=l") {
+                        height: 269px;
+                }
+                @include respond-to("<=m") {
+                    height: 323px;
+                }
+                @include respond-to("<=s") {
+                    height: 190px;
+                }
+                @include respond-to("<=xs") {
+                    height: 130px;
+                }
+                span {
+                    width: 96% !important; 
+                    height: 95% !important;
+                    margin: auto !important;                                       
+                }                
             }
         }
     }
