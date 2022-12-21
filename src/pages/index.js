@@ -56,7 +56,7 @@ export default function Index() {
                 <p>{$t.home.hero[0]} <br/>{$t.home.hero[1]} <br/>{$t.home.hero[2]} <br/>{$t.home.hero[3]}</p>
               </div>
               <div className={styles.index__hero__block__content__right}>
-                <img src="/dragon-home.svg" alt="dragon"/>
+                <img src="/dragon-home.svg" alt="LKMX - Dragon"/>
               {/* <Image
                 layout="fill"
                 priority={true}
@@ -79,8 +79,8 @@ export default function Index() {
               </div>
             </div>
             <div className={styles.index__services__block__content__right}>
-              <img src="/triangles/triangle-waves--cyan--left.svg"/>
-              <img src="/triangles/triangle-code--blue--right.svg" className={styles.index__services__triangle}/>
+              <img src="/triangles/triangle-waves--cyan--left.svg" alt="LKMX - Hero"/>
+              <img src="/triangles/triangle-code--blue--right.svg" alt="LKMX - Hero" className={styles.index__services__triangle}/>
             </div>
             </div>
           </Block>
@@ -118,7 +118,7 @@ export default function Index() {
         <Column className={styles.index__team} mode="full">
           <Block className={styles.index__team__block}>
               <div className={styles.index__team__block__content}>
-                <img src="/koi-swimming.svg" className={styles.index__team__block__content__koi} alt="koi"/>
+                <img src="/koi-swimming.svg" className={styles.index__team__block__content__koi} alt="LKMX - Koi"/>
                 <div className={styles.index__team__block__content__text}>
 								<p>{$t.home.team[0]}<br className={styles.index__team__block__content__text__sbr}/> <strong>{$t.home.team[1]}</strong> {$t.home.team[2]} <strong className={styles.index__team__block__content__text__pink}> {$t.home.team[3]}</strong> {$t.home.team[4]} <br />{$t.home.team[5]} <br />{$t.home.team[6]}
 								</p>
