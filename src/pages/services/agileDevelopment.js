@@ -13,7 +13,7 @@ export default function AgileDevelopment() {
     const { locale } = useRouter();
     const $t = getLang(locale);
 
-    return(
+    return (
         <BaseLayout>
             <HeadSeo
                 title={$t.agile.title}
@@ -26,7 +26,7 @@ export default function AgileDevelopment() {
             <Page>
             <Column mode="normal">
                 <Block className={styles.agile__goBack}>
-                    <Link href="/services"><Image src="/icons/arrow-left--white.svg" alt="go back" width={24} height={24}/></Link>                    
+                    <Link href="/services" legacyBehavior><Image src="/icons/arrow-left--white.svg" alt="go back" width={24} height={24}/></Link>                    
                     <span>{$t.agile.goBack}</span>
                 </Block>                    
             </Column>
@@ -100,13 +100,13 @@ export default function AgileDevelopment() {
             </Column>
             <Column className={styles.agile__navigation} number="1" modeM="full" modeL="normal">
                 <Block className={styles.agile__navigation__block}>
-                <Link href="/services/discovery"> 
+                <Link href="/services/discovery" legacyBehavior> 
                     <div className={styles.agile__navigation__block__back}>
                         <img src="/icons/arrow-left--pink.svg" alt="Pink arrow left"/> 
                         <span>{$t.agile.span.back}</span>                        
                     </div>
                 </Link>
-                <Link href="/services/agileMaintenance">
+                <Link href="/services/agileMaintenance" legacyBehavior>
                     <div className={styles.agile__navigation__block__forward}>
                         <span>{$t.agile.span.forward}</span>
                         <img src="/icons/arrow-right--pink.svg" alt="Pink arrow right"/>

@@ -17,19 +17,19 @@ export default function PagesLinks(props) {
   return (
     <div className={`${styles.headerNavigation}`}>
       <nav className={`${styles.links} ${props.className} ${props.whiteColor ? styles['white-color'] : ''}`}>
-        <Link href="/services">{$t.header.module1}</Link>
+        <Link href="/services" legacyBehavior>{$t.header.module1}</Link>
         {/* <Link href="/methodology">{$t.header.module2}</Link> */}
-        <Link href="/industries">{$t.header.module6}</Link>
-        <Link href="/technology">{$t.header.module3}</Link>
+        <Link href="/industries" legacyBehavior>{$t.header.module6}</Link>
+        <Link href="/technology" legacyBehavior>{$t.header.module3}</Link>
         {/* <Link href="/projects">{$t.header.module4}</Link> */}
-        <Link href="/team">{$t.header.module5}</Link>
+        <Link href="/team" legacyBehavior>{$t.header.module5}</Link>
       </nav>
       <div className={`${styles.actions}`}>
         <img src="/icons/icon-globe.svg" alt="Language"/>
         {locales.map((l, i) => {
             return (
               <span key={i} className={l === locale ? styles.active : ""}>
-                <Link href={asPath} locale={l}>
+                <Link href={asPath} locale={l} legacyBehavior>
                   {lang[l]}
                 </Link>
               </span>
