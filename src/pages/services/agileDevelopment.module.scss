@@ -153,7 +153,6 @@
 
                 p {
                     color: white;
-                    font-family: 'IBM Plex Sans';
                     font-style: normal;
                     font-weight: 400;
                     font-size: 20px;
@@ -181,7 +180,6 @@
         &__block {
             padding: 92px 0px;
             p{
-                font-family: 'IBM Plex Sans';
                 font-style: normal;
                 font-weight: 400;
                 font-size: 16px;
@@ -206,7 +204,6 @@
         &__block {
             padding: 92px 0px;
             p{
-                font-family: 'IBM Plex Sans';
                 font-style: normal;
                 font-weight: 400;
                 font-size: 16px;
@@ -230,7 +227,6 @@
                 margin: 0px;
             }
             p{
-                font-family: 'IBM Plex Sans';
                 font-style: normal;
                 font-weight: 400;
                 font-size: 16px;
@@ -292,7 +288,7 @@
 
                 span {
                     color: $color-neutral-black;
-                    font-family: 'Roboto Condensed';
+                    font-family: $font-secondary;
                     font-style: normal;
                     font-weight: 700;
                     font-size: 16px;

@@ -88,7 +88,6 @@
                 }
             }
             p {
-                font-family: 'IBM Plex Sans';
                 font-style: normal;
                 font-weight: 400;
                 font-size: 20px;
@@ -142,7 +141,7 @@
                 cursor: pointer;
                 span {
                     color: $color-neutral-black;
-                    font-family: 'Roboto Condensed';
+                    font-family: $font-secondary;
                     font-style: normal;
                     font-weight: 700;
                     font-size: 16px;
