@@ -32,15 +32,15 @@ export default function DiscoveryPage() {
                     </Block>                    
                 </Column>
                 <Column modeL="normal" number="2" numberS="1" weight="right"  className={styles.discovery__hero}>
-                    <img src="/triangles/triangle-waves--right.svg"  className={styles.discovery__hero__triangle}/>
+                    <img src="/triangles/triangle-waves--right.svg"  className={styles.discovery__hero__triangle} alt="LKMX - Hero"/>
                     <Block className={styles.discovery__hero__phases}>
                         <div className={styles.discovery__hero__phases__arrow}>
                             <div></div>
                         </div>
-                        <img src="/discovery-big.svg" className={styles.discovery__hero__phases__svg}/>
-                        <img src="/discovery-medium.svg" className={styles.discovery__hero__phases__svgMed}/>    
-                        <img src="/vertical-line.svg" className={styles.discovery__hero__phases__svgLine}/>
-                        <img src="/discovery-small.svg" className={styles.discovery__hero__phases__svgMobile}/>                      
+                        <img src="/discovery-big.svg" className={styles.discovery__hero__phases__svg}  alt="LKMX - Hero"/>
+                        <img src="/discovery-medium.svg" className={styles.discovery__hero__phases__svgMed}  alt="LKMX - Hero"/>    
+                        <img src="/vertical-line.svg" className={styles.discovery__hero__phases__svgLine}  alt="LKMX - Hero"/>
+                        <img src="/discovery-small.svg" className={styles.discovery__hero__phases__svgMobile}  alt="LKMX - Hero"/>                      
                     </Block>
                     <Block className={styles.discovery__hero__blue} >
                         <div className={styles.discovery__hero__blue__content}>
@@ -70,6 +70,7 @@ export default function DiscoveryPage() {
                             src={"/prototype-img.png"}
                             layout="fill"
                             priority={true}
+                            alt="LKMX - Prototype"
                             />
                         </div>
                     </Block>
