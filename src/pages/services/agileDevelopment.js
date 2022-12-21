@@ -31,12 +31,12 @@ export default function AgileDevelopment() {
                 </Block>                    
             </Column>
             <Column mode="normal" number="2" numberS="1" weight="right"  className={styles.agile__hero}>
-                <img src="/triangles/triangle-code--cyan--right.svg"  className={styles.agile__hero__triangle}/>
+                <img src="/triangles/triangle-code--cyan--right.svg"  className={styles.agile__hero__triangle} alt="LKMX - Hero"/>
                 <Block className={styles.agile__hero__phases}>
-                    <img src="/horizontal-line.svg" className={styles.agile__hero__phases__svgLine}></img>
-                    <img src="/agile-development-large.svg" className={styles.agile__hero__phases__svg}/>
-                    <img src="/agile-development-medium.svg" className={styles.agile__hero__phases__svgMed}/>    
-                    <img src="/agile-development-small.svg" className={styles.agile__hero__phases__svgMobile}/>                      
+                    <img src="/horizontal-line.svg" className={styles.agile__hero__phases__svgLine}  alt="LKMX - Hero"></img>
+                    <img src="/agile-development-large.svg" className={styles.agile__hero__phases__svg}  alt="LKMX - Hero"/>
+                    <img src="/agile-development-medium.svg" className={styles.agile__hero__phases__svgMed}  alt="LKMX - Hero"/>    
+                    <img src="/agile-development-small.svg" className={styles.agile__hero__phases__svgMobile}  alt="LKMX - Hero"/>                      
                 </Block>
                 <Block className={styles.agile__hero__blue} >
                     <div className={styles.agile__hero__blue__content}>
@@ -54,14 +54,14 @@ export default function AgileDevelopment() {
             </Column>
             <Column number="1" mode="normal" modeS="full" className={styles.agile__gantt}>
                 <Block className={styles.agile__gantt__block}>
-                    <img src="/gantt.svg"/>
+                    <img src="/gantt.svg"  alt="LKMX - Gantt"/>
                 </Block>
             </Column>
             <Column number="1" mode="slim" modeM="normal" modeS="full" className={styles.agile__sprint}>
                 <Block className={styles.agile__sprint__block}>
                     <p>{$t.agile.intro2[0]} {$t.agile.intro2[1]} {$t.agile.intro2[2]} {$t.agile.intro2[3]} {$t.agile.intro2[4]} {$t.agile.intro2[5]}
                     </p>
-                    <img src="/sprint-structure.svg" />
+                    <img src="/sprint-structure.svg"  alt="LKMX - Sprint"/>
                 </Block>
             </Column>
             <Column number="1" mode="slim" modeM="normal" modeS="full" className={styles.agile__maad}>
@@ -76,7 +76,7 @@ export default function AgileDevelopment() {
                 <Block className={styles.agile__flare__block}>
                     <h2>{$t.agile.flare.title}</h2>
                     <p>{$t.agile.flare.par}</p>
-                    <div className={styles.agile__flare__block__img}><img src="/flare.svg"/></div>
+                    <div className={styles.agile__flare__block__img}><img src="/flare.svg" alt="LKMX - Flare"/></div>
                 </Block>
             </Column>
             <Column number="1" mode="slim" modeM="normal" modeS="full" className={styles.agile__scrum}>
@@ -89,7 +89,7 @@ export default function AgileDevelopment() {
                 <Block className={styles.agile__agile__block}>
                 <h2>{$t.agile.agile.title}</h2>
                     <p>{$t.agile.agile.par}</p>
-                    <div className={styles.agile__agile__block__img}><img src="/agile.svg"/></div>
+                    <div className={styles.agile__agile__block__img}><img src="/agile.svg" alt="LKMX - Agile"/></div>
                 </Block>
             </Column>
             <Column number="1" mode="slim" modeM="normal" modeS="full" className={styles.agile__cd}>
