@@ -343,16 +343,47 @@
       "y transferencia exitosa de la plataforma."
     ],
     "left": {
-      "title": "UTILIZAMOS KANBAN COMO MARCO DE TRABAJO ÁGIL",
-      "par": "Nos ayuda a priorizar y organizar el trabajo planeado o a demanda, lo que nos permite mantener un flujo constante de entregables, a través de la implementación de soluciones que aportan valor de forma inmediata al cliente."
+      "title": [
+        "UTILIZAMOS KANBAN",
+        "COMO MARCO DE TRABAJO ÁGIL"
+      ],
+      "par": [
+        "Nos ayuda a priorizar y organizar el trabajo planeado o a demanda, lo que nos permite mantener un",
+        "flujo constante de entregables, a través de la implementación de soluciones que aportan valor de",
+        "forma inmediata al cliente."
+      ]
     },
     "right": {
-      "title1": "SCOPE DEVELOPMENT",
-      "par1": "Esta opción se ofrece a los clientes una ves terminada la fase inicial de desarrollo, cuando surgen REQUERIMIENTOS ESPECÍFICOS. Si tal es el caso y tras un análisis de requerimientos a detalle, utilizamos técnicas recuperadas de metodologías ágiles antes de la contratación de servicios.",
-      "title2": "AGILE MAINTENANCE",
-      "par2": "Una vez desarrollada la plataforma, nuestros bloques de mantenimiento ofrecen una alternativa ÁGIL para perfeccionar o complementar las funcionalidades existentes. Empleamos Kanban de la mano con las metodologías utilizadas para el desarrollo en proyectos flexibles de mantenimiento, desde una semana y sin límite de duración.",
-      "title3": "CONTINUOUS SUPPORT",
-      "par3": "Contamos con opciones de soporte continuo para nuestras soluciones. Nuestros equipos dan soporte a plataformas con diversos SLAs; con cobertura en horas regulares y on-call. La estabilidad de nuestro desarrollo, combinada con nuestros procesos, garantizan eficiencia y costos operativos bajo control."
+      "title1": [
+        "SCOPE",
+        "DEVELOPMENT"
+      ],
+      "par1": [
+        "Esta opción se ofrece a los clientes una ves terminada la fase inicial de desarrollo,",
+        "cuando surgen REQUERIMIENTOS ESPECÍFICOS.",
+        "Si tal es el caso y tras un análisis de requerimientos a detalle, utilizamos técnicas recuperadas de metodologías",
+        "ágiles antes de la contratación de servicios."
+      ],
+      "title2": [
+        "AGILE",
+        "MAINTENANCE"
+      ],
+      "par2": [
+        "Una vez desarrollada la plataforma, nuestros bloques de mantenimiento ofrecen una alternativa",
+        "ÁGIL para perfeccionar o complementar la funcionalidade existente.",
+        "Empleamos Kanban de la mano con las metodologías utilizadas para el desarrollo en proyectos flexibles de",
+        "mantenimiento, desde una semana y sin límite de duración."
+      ],
+       "title3": [
+        "CONTINUOUS",
+        "SUPPORT"
+      ],
+      "par3": [
+        "Una vez desarrollada la plataforma, nuestros bloques de mantenimiento ofrecen una alternativa",
+        "ÁGIL para perfeccionar o complementar la funcionalidad existente.",
+        "Utilizamos Kanban con las metodologías utilizadas para el desarrollo en proyectos flexibles de",
+        "mantenimiento desde una semana y sin límite de duración."
+      ]
     },
     "navigation": "AGILE DEVELOPMENT"
   },

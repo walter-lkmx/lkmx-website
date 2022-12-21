@@ -39,25 +39,32 @@ export default function Ams() {
                     </Block>
                     <img className={styles.ams__hero__clouds} src="/triangles/triangle-clouds--right.svg"/>
                 </Column>
-                <Column mode="normal" number="2" numberS="1" className={styles.ams__content}>
-                    <Block className={styles.ams__content__left}>
-                        <h3>{$t.ams.left.title}</h3>
-                        <p>{$t.ams.left.par}</p>
-                    </Block>
+                <Column mode="slim" modeM="normal"  number="1" className={styles.ams__content}>
                     <Block className={styles.ams__content__right}>
                         <div>
-                            <h4>{$t.ams.right.title1}</h4>
-                            <p>{$t.ams.right.par1}</p>
+                            <h4>{$t.ams.right.title1[0]}<br/>{$t.ams.right.title1[1]}</h4>
+                            <p>{$t.ams.right.par1[0]} <br/>{$t.ams.right.par1[1]} <br/>{$t.ams.right.par1[2]}<br/>{$t.ams.right.par1[3]}</p>
                         </div>
                         <div>
-                            <h4>{$t.ams.right.title2}</h4>
-                            <p>{$t.ams.right.par2}</p>
+                            <h4>{$t.ams.right.title2[0]}<br/>{$t.ams.right.title2[1]}</h4>
+                            <p>{$t.ams.right.par2[0]} <br/>{$t.ams.right.par2[1]} <br/>{$t.ams.right.par2[2]}<br/>{$t.ams.right.par2[3]}</p>
                         </div>
                         <div>
-                            <h4>{$t.ams.right.title3}</h4>
-                            <p>{$t.ams.right.par3}</p>
+                            <h4>{$t.ams.right.title3[0]}<br/>{$t.ams.right.title3[1]}</h4>
+                            <p>{$t.ams.right.par3[0]} <br/>{$t.ams.right.par3[1]} <br/>{$t.ams.right.par3[2]}<br/>{$t.ams.right.par3[3]}</p>
+                        </div>                        
+                    </Block>
+                    <Block className={styles.ams__content__left}>
+                        <div>
+                            <h3>{$t.ams.left.title[0]}<br/>{$t.ams.left.title[1]}</h3>
+                            <p>{$t.ams.left.par}</p>
                         </div>
-                        
+                        <div className={styles.ams__content__left__kanban}>
+                            <Image src={"/kanban.svg"}
+                            layout={"fill"}
+                            alt="kanban"
+                            priority={"true"}/>
+                        </div>
                     </Block>
                 </Column>
                 <Column className={styles.ams__navigation} number="1" modeM="full" modeL="normal">
@@ -66,9 +73,8 @@ export default function Ams() {
                         <div className={styles.ams__navigation__block__forward}>                       
                             <img src="/icons/arrow-left--pink.svg" alt="Pink arrow left"/> 
                             <span>{$t.ams.navigation}</span>                        
-                        </div>
-                    </Link>
-                                           
+                        </div>                        
+                    </Link>                                           
                 </Block>
             </Column>
             </Page>
