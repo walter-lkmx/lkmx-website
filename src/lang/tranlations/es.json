@@ -41,6 +41,19 @@
       "de",
       "compañías alrededor del mundo"
     ],
+    "locations": {
+      "title": "UBICACIÓN ESTRATÉGICA",
+      "par": [
+        "Cercana a la frontera norte de México, nos coloca en un ",
+        "escenario de intercambio",
+        "CULTURAL",
+        "y",
+        "COMERCIAL",
+        "constante con EE.UU., un punto de convergencia para",
+        "para grandes centros de investigación científica y tecnológica,",
+        "fuente de las mentes mas capacitadas del país."
+      ]
+    },
     "buttons": {
       "btnServices": "Ve nuestros servicios",
       "btnTechnologies": "Descubre nuestras tecnologías",

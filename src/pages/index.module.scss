@@ -302,13 +302,10 @@
 		}
 	}
 	&__team {
-
 		background-color: $color-neutral-black;
-
 		p {
 			color: white;
 		}
-
 		&__block {
 			&:first-child>div>div {
 				padding: 0px;
@@ -324,13 +321,9 @@
 				&__card-empty {
 					border: none;
 				}
-
-
-
 				&__koi {
 					justify-self: center;
 				}
-
 				&__text {
 					display: grid;
 					gap: 1rem;
@@ -370,10 +363,8 @@
 						&__sbr{
 							display: block !important;
 						}
-					}
-					
+					}				
 				}
-
 				&__btn {
 					gap: 4px;
 					height: 40px;
@@ -386,7 +377,6 @@
 					justify-self: center;
 					cursor: pointer;
 				}
-
 				&__collabs {
 					margin-top: rem(55px);
 					display: grid;
@@ -407,8 +397,44 @@
 							object-fit: cover;
 						}
 					}
-				}
+				}				
 			}
 		}
-	}		
+	}	
+	&__locations {
+		background-color: $color-bright-gray;
+
+		padding-top: 120px;
+		overflow: hidden;
+		min-height: 800px;
+		&__text {
+			overflow: visible;
+			z-index: 1;
+			h1 {
+				margin-bottom: 8px;
+				width: max-content;
+			}
+			p {
+				font-weight: 400;
+				font-size: 20px;
+				line-height: 30px;
+				width: max-content;
+				strong {
+					font-weight: 700;
+					font-size: 24px;
+					line-height: 32px;
+					color: $color-cyan;
+				}
+			}
+			&__pink {
+				color: $color-pink !important;
+			}
+		}
+		&__globe {
+			z-index: 0;
+			position: absolute;
+			left: calc(50% - 1209px/2 + 270.5px);
+			top: 200px;			
+		}
+	}	
 }

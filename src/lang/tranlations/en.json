@@ -3,56 +3,69 @@
         "ogDefaultImage": "https://iili.io/HKsuJe4.jpg"
     },
     "home": {
-        "title": "We turn your ideas into reality",
-        "ogDescription": "Our team of experts conceptualize, design, and deliver the most complex software solutions, leading the digital transformation of companies around the globe.",
-        "ogImage": "",
-        "title2": [
-            "We turn",
-            "your ideas into reality"
-        ], 
-        "hero": [
-            "We are strategic partners with businesses in different industries around",
-            "the world, building innovative software solutions",
-		    "with our unique methodology and",
-            "the most solid technology."
-        ],
-				"servicesTitle": "SERVICES",
-        "services": [
-            "As a",
-            "REAL ALTERNATIVE",
-            "to",
-            "STAFF-AUGMENTATION",
-						",", 
-            "we designed services ideal to build custom",
-						"solutions of any level of complexity and",
-						"timelines with any type of demand."            
-        ],
-				"technologiesTitle": "TECHNOLOGIES",
-        "technologies": [
-            "We apply three  principles when choosing our technology: Agile, Cloud, Open-Source.",
-            "Our technology stack is kept organized and updated by software architects with decades of combined experience."            
-        ],
-        "team": [
-            "We are a mix between ",
-						"creatives",
-						"and",
-						"experts",
-						"in",
-						"technology. We connect our skills to build robust, flexible, scalable and secure",
-						"software solutions."
-        ],
-        "work": [
-            "We are",
-            "strategic partners",
-            "of",
-            "companies around the world"
-        ],
-        "buttons": {
-            "btnServices": "See our services",
-            "btnTechnologies": "Discover our technologies",
-            "btnTeam": "Get to know us",
-            "btnWork": "Explore"
-        }
+      "title": "We turn your ideas into reality",
+      "ogDescription": "Our team of experts conceptualize, design, and deliver the most complex software solutions, leading the digital transformation of companies around the globe.",
+      "ogImage": "",
+      "title2": [
+          "We turn",
+          "your ideas into reality"
+      ], 
+      "hero": [
+          "We are strategic partners with businesses in different industries around",
+          "the world, building innovative software solutions",
+      "with our unique methodology and",
+          "the most solid technology."
+      ],
+      "servicesTitle": "SERVICES",
+      "services": [
+          "As a",
+          "REAL ALTERNATIVE",
+          "to",
+          "STAFF-AUGMENTATION",
+          ",", 
+          "we designed services ideal to build custom",
+          "solutions of any level of complexity and",
+          "timelines with any type of demand."            
+      ],
+      "technologiesTitle": "TECHNOLOGIES",
+      "technologies": [
+          "We apply three  principles when choosing our technology: Agile, Cloud, Open-Source.",
+          "Our technology stack is kept organized and updated by software architects with decades of combined experience."            
+      ],
+      "team": [
+          "We are a mix between ",
+          "creatives",
+          "and",
+          "experts",
+          "in",
+          "technology. We connect our skills to build robust, flexible, scalable and secure",
+          "software solutions."
+      ],
+      "work": [
+          "We are",
+          "strategic partners",
+          "of",
+          "companies around the world"
+      ],
+      "locations": {
+        "title": "UBICACIÓN ESTRATÉGICA",
+        "par": [
+          "Cercana a la frontera norte de México, nos coloca en un ",
+          "escenario de intercambio",
+          "CULTURAL",
+          "y",
+          "COMERCIAL",
+          "constante con EE.UU., un punto de convergencia para",
+          "para grandes centros de investigación científica y tecnológica,",
+          "fuente de las mentes mas capacitadas del país."
+        ]
+      },
+      "buttons": {
+        "btnServices": "See our services",
+        "btnTechnologies": "Discover our technologies",
+        "btnTeam": "Get to know us",
+        "btnWork": "Explore"
+      }
     },
     "services": {
         "title": "Services",
@@ -78,12 +91,12 @@
         ]
     },
     "methodology": {
-        "title": "Methodology",
-        "ogDescription": "Our methodologies provide the greatest possible flexibility while keeping deliverables, timelines and costs under control.",
-        "ogImage": "",
-        "hero": [
-            "-"
-        ]
+      "title": "Methodology",
+      "ogDescription": "Our methodologies provide the greatest possible flexibility while keeping deliverables, timelines and costs under control.",
+      "ogImage": "",
+      "hero": [
+          "-"
+      ]
     },
     "team": {
         "title": "Team",
