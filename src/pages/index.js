@@ -10,7 +10,7 @@ import Link from 'next/link';
 import { useRouter } from 'next/router';
 import ImageLegacy from 'next/legacy/image';
 import Image from 'next/image';
-import Locations from '../components/locations';
+// import Locations from '../components/locations';
 function getTeamList() {
   let r = require.context('/public/images', false, /\.(png|jpe?g|svg)$/);
   return r
@@ -269,7 +269,7 @@ export default function Index() {
             </div>
           </Block>
         </Column>
-        <Column mode="normal" number="1" className={styles.index__locations}>
+        {/* <Column mode="normal" number="1" className={styles.index__locations}>
           <Block className={styles.index__locations__text}>
             <h1>{$t.home.locations.title}</h1>
             <p>
@@ -292,7 +292,7 @@ export default function Index() {
           <Block className={styles.index__locations__globe}>
             <Locations className={styles.index__locations__globe__graph} />
           </Block>
-        </Column>
+        </Column> */}
       </Page>
     </BaseLayout>
   );
