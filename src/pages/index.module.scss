@@ -461,22 +461,35 @@
 		overflow: hidden;
 		min-height: 800px;
 		&__text {
-			overflow: visible;
 			z-index: 1;
+			margin-bottom: 25px;
+			height: fit-content;
 			h1 {
 				margin-bottom: 8px;
 				width: max-content;
+				max-width: 95vw;
+				@include respond-to("<=xs") {
+					font-weight: 700;
+					font-size: 28px;
+					line-height: 36px;
+				}
 			}
 			p {
 				font-weight: 400;
 				font-size: 20px;
 				line-height: 30px;
 				width: max-content;
+				max-width: 95vw;
 				strong {
 					font-weight: 700;
 					font-size: 24px;
 					line-height: 32px;
 					color: $color-cyan;
+				}
+				@include respond-to("<=xs") {
+					br {
+						display: none;
+					}
 				}
 			}
 			&__pink {
@@ -486,8 +499,36 @@
 		&__globe {
 			z-index: 0;
 			position: absolute;
-			left: calc(50% - 1209px/2 + 270.5px);
+			right: calc(-2% - 604.5px + 270.5px);
 			top: 200px;			
+			@include respond-to("<=l") {
+				left: calc(65% - 604.5px + 270.5px);
+			}
+			@include respond-to("<=m") {
+				left: 0;
+				right: 0;
+				margin: auto;
+				top: 343px;
+			}
+			@include respond-to("<=xs") {
+				top: 415px;
+			}
+			
+			canvas {
+				@include respond-to("<=s") {
+					height: 600px !important;
+					width: 600px !important;
+				}
+				@include respond-to("<=s") {
+					height: 600px !important;
+					width: 600px !important;
+				}
+				@include respond-to("<=xs") {
+					 left: 0%;
+					height: 500px !important;
+					width: 500px !important;
+				}
+			}
 		}
 	}	
 }

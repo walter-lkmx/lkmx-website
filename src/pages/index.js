@@ -66,7 +66,7 @@ export default function Index() {
       />
 
       <Page className={styles.index}>
-        <Column mode="normal" className={styles.index__hero}>
+        <Column mode="normal" modeXL="slim" className={styles.index__hero}>
           <Block className={styles.index__hero__block}>
             <div className={styles.index__hero__block__content}>
               <div className={styles.index__hero__block__content__left}>
@@ -99,8 +99,8 @@ export default function Index() {
             </div>
           </Block>
         </Column>
-
-        <Column mode="normal" modeM="full" className={styles.index__services}>
+        
+        <Column mode="normal" modeM="full" modeXL="slim" className={styles.index__services}>
           <Block className={styles.index__services__block}>
             <div className={styles.index__services__block__content}>
               <div className={styles.index__services__block__content__left}>
@@ -269,25 +269,16 @@ export default function Index() {
             </div>
           </Block>
         </Column>
-        <Column mode="normal" number="1" className={styles.index__locations}>
+        <Column mode="normal" modeS="normal" number="1" className={styles.index__locations}>
           <Block className={styles.index__locations__text}>
             <h1>{$t.home.locations.title}</h1>
             <p>
               {$t.home.locations.par[0]}
-              <br />
-              {$t.home.locations.par[1]}{' '}
-              <strong>{$t.home.locations.par[2]}</strong>{' '}
-              {$t.home.locations.par[3]}{' '}
-              <strong className={styles.index__locations__text__pink}>
-                {$t.home.locations.par[4]}
-              </strong>
-              <br />
-              {$t.home.locations.par[5]}
-              <br />
-              {$t.home.locations.par[6]}
-              <br />
-              {$t.home.locations.par[7]}
-            </p>
+              <br/> {$t.home.locations.par[1]} <strong>{$t.home.locations.par[2]}</strong> 
+              {$t.home.locations.par[3]} <strong className={styles.index__locations__text__pink}>{$t.home.locations.par[4]}</strong>
+              <br/> {$t.home.locations.par[5]} <br/>{$t.home.locations.par[6]} 
+              <br/> {$t.home.locations.par[7]}
+              </p>
           </Block>
           <Block className={styles.index__locations__globe}>
             <Locations className={styles.index__locations__globe__graph} />

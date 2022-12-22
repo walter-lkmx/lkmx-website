@@ -139,7 +139,7 @@ export default function DiscoveryPage() {
 
     globeRef.current.controls().autoRotate = true;
     globeRef.current.controls().autoRotateSpeed = 2;
-    globeRef.current.pointOfView({ lat: initRotation.latitude, lng: initRotation.longitude, altitude: 1.61}, 5000);
+    globeRef.current.pointOfView({ lat: initRotation.latitude, lng: initRotation.longitude, altitude: 2}, 5000); //1.61
     globeRef.current.controls().enableZoom = false
     //globeRef.current.controls().minPolarAngle = globeRef.current.controls.maxPolarAngle = Math.PI / 2.3;
     //globeRef.current.controls().minPolarAngle = globeRef.current.controls.maxPolarAngle = Math.PI / 2.3;
@@ -173,7 +173,7 @@ export default function DiscoveryPage() {
             ref={globeRef}
             width={800}
             height={800}
-            backgroundColor={'#FCFCFD'}
+            backgroundColor={'#FCFCFD00'}
             globeImageUrl={imageUrl}
             arcColor={'color'}
             arcsData={arcsData}
