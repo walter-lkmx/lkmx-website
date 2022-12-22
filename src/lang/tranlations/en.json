@@ -238,7 +238,7 @@
         "module6": "INDUSTRIES"
     },
     "footer": {
-        "paragraph": "We have been providing software engineering services from our headquarters in Ensenada, Baja California, Mexico since January 2014.",
+        "paragraph": ["We have been providing software engineering services from our headquarters in Ensenada,", "Baja California, Mexico since January 2014."],
         "pages": {
             "services": {
                 "title": "SERVICES",

@@ -3,6 +3,7 @@ import Link from "next/link";
 import styles from "@/components/pages-links.module.scss";
 import getLang from '@/lang';
 import { useRouter } from "next/router";
+import Image from "next/image"
 
 export default function PagesLinks(props) {
 
@@ -25,7 +26,9 @@ export default function PagesLinks(props) {
         <Link href="/team" legacyBehavior>{$t.header.module5}</Link>
       </nav>
       <div className={`${styles.actions}`}>
-        <img src="/icons/icon-globe.svg" alt="Language"/>
+        <div className={styles.actions__imgContainer}>
+          <Image fill src="/icons/icon-globe.svg" alt="Language"/>
+        </div>
         {locales.map((l, i) => {
             return (
               <span key={i} className={l === locale ? styles.active : ""}>

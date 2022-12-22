@@ -8,8 +8,11 @@
     grid-column-gap: $base-size;
     align-items: center;
     justify-content: space-between;
-    &__logo > a > img {
+    &__logo > a {
+      position: relative;
+      display: block;
       width: rem(121px);
+      height: rem(50px);
     }
     &__menu {
       display: none;

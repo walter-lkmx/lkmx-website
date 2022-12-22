@@ -31,8 +31,10 @@
       max-width: rem(94px);
       grid-template-columns: repeat(3, 1fr);
     }
-    img {
-      max-width: 24px;
+    &__imgContainer {
+      position: relative;
+      width: 24px;
+      height: 24px;
     }
     span {
       background: none;
@@ -40,6 +42,7 @@
       text-decoration: none;
       font-weight: bold;
       font-family: $font-secondary;
+      font-size: 16px;
       text-decoration: none;
       line-height: 1.5rem;
       cursor: pointer;

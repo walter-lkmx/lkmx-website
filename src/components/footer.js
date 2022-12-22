@@ -6,6 +6,7 @@ import { Column, Block } from "@lkmx/flare-react";
 import getLang from '@/lang';
 import { useRouter } from "next/router";
 import siteMetadata from "../meta/siteMetadata";
+import Image from "next/image"
 
 export default function Footer() {
   const year = moment().year();
@@ -49,26 +50,26 @@ export default function Footer() {
             </div>
             <div className={styles.footer__top__content__information}>
               <Link href="/">
-                <img src="/lkmx-logotype--white.svg" alt="Logo" className={styles.footer__top__content__information__logo}/>
+                <Image fill src="/lkmx-logotype--white.svg" alt="Logo" className={styles.footer__top__content__information__logo}/>
               </Link>
               <ul>
                 <li>
                   <Link href={siteMetadata.instagram} passHref target="_blank">
-                    <img src="/icons/social-instagram.svg" alt="Instagram"/>
+                    <Image fill src="/icons/social-instagram.svg" alt="Instagram"/>
                   </Link>
                 </li>
                 <li>
                   <Link href={siteMetadata.twitter} target="_blank">
-                    <img src="/icons/social-twitter.svg" alt="Twitter"/>
+                    <Image fill src="/icons/social-twitter.svg" alt="Twitter"/>
                   </Link>
                 </li>
                 <li>
                   <Link href={siteMetadata.linkedin} target="_blank">
-                    <img src="/icons/social-linkedin.svg" alt="Linkedin"/>
+                    <Image fill src="/icons/social-linkedin.svg" alt="Linkedin"/>
                   </Link>
                 </li>
               </ul>
-              <p>{$t.footer.paragraph}</p>
+              <p>{$t.footer.paragraph[0]}<span>{$t.footer.paragraph[1]}</span></p>
             </div>
           </div>
         </Block>

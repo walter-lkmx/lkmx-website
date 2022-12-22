@@ -58,7 +58,9 @@
         > a {
           grid-area: logo;
           width: rem(140px);
+          height: 72px;
           margin-top: rem(4px);
+          position: relative;
         }
         ul {
           --f-list-item-margin: 0;
@@ -67,10 +69,25 @@
           grid-row-gap: 1rem;
           grid-auto-rows: min-content;
           padding-top: 1rem;
+          a {
+            position: relative;
+            height: rem(24px);
+            width: rem(24px);
+            display: inline-block;
+          }
         }
         p {
           grid-area: info;
           line-height: rem(28px);
+          font-size: 16px;
+          display: grid;
+          align-content: end;
+          text-align: right;
+          max-width: 337px;
+          span {
+            display: block;
+            font-size: 16px;
+          }
         }
       }
     }
@@ -110,11 +127,11 @@
           grid-template-columns: rem(221px) rem(223px) auto;
         }
         &__information {
-          p {
-            text-align: end;
-            align-self: end;
-            width: rem(413px);
-          }
+          // p {
+          //   text-align: end;
+          //   align-self: end;
+          //   width: rem(413px);
+          // }
         }
       }
     }
@@ -139,7 +156,7 @@
           grid-column-gap: rem(26px);
           > a { width: rem(180px) }
           ul { padding: 0 }
-          p { width: rem(338px) }
+          // p { width: rem(338px) }
         }
       }
     }

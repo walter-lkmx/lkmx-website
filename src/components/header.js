@@ -3,6 +3,7 @@ import { Column, Block } from "@lkmx/flare-react";
 import styles from "@/components/header.module.scss";
 import PagesLinks from "@/components/pages-links.js";
 import Link from "next/link";
+import Image from "next/image"
 
 export default function Header(props) {
 
@@ -13,14 +14,14 @@ export default function Header(props) {
           <div className={styles.header__content}>
             <div className={styles.header__content__logo}>
               <Link href="/">
-                <img src="/lkmx-logotype-black.svg" alt="Logo"/>
+                <Image fill src="/lkmx-logotype-black.svg" alt="Logo"/>
               </Link>
             </div>
             <div className={styles.header__content__links}>
               <PagesLinks className={styles.header__content__links__pages}/>
             </div>
             <a onClick={handleClick} className={styles.header__content__menu}>
-              <img src="/icons/hamburger-black.svg" alt="Menu" style={{width: '24px', height: '24px'}}/>
+              <Image src="/icons/hamburger-black.svg" alt="Menu" height="24" width="24"/>
             </a>
           </div>
         </Block>
