@@ -88,7 +88,7 @@ export default function Index() {
                     styles.index__hero__block__content__right__imgContainer
                   }
                 >
-                  <Image fill src="/dragon-home.svg" alt="LKMX - Dragon" />
+                  <Image fill src="/dragon-home.svg" alt="LKMX - Dragon" priority />
                 </div>
                 {/* <Image
                 layout="fill"
