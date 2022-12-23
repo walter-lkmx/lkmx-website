@@ -30,6 +30,9 @@
       --f-gutter: 0;
       > div, > div > div {
         width: 100% !important;
+        p {
+          font-size: rem(16px);
+        }
       }
       &__content {
         display: grid;
@@ -37,6 +40,9 @@
         justify-items: end;
         position: relative;
         height: rem(591px);
+        p {
+          font-size: rem(16px);
+        }
         > div {
           display: grid;
           justify-self: start;
@@ -71,6 +77,7 @@
     }
     p {
       line-height: rem(28px);
+      font-size: rem(16px);
     }
     h3 {
       font-size: 1.5rem;
@@ -100,6 +107,9 @@
           background-color: $color-neutral-black;
         }
       }
+    }
+    p {
+      font-size: rem(16px);
     }
     svg {
       position: absolute;
@@ -171,7 +181,9 @@
       }
     }
     &__about {
-      > div > p { line-height: 1.5rem }
+      > div > p { 
+        font-size: rem(16px);
+        line-height: 1.5rem }
     }
     &__phases {
       --f-gutter: 76px;
@@ -254,6 +266,9 @@
         line-height: 2rem;
         margin-bottom: 4px;
       }
+      p {
+        font-size: rem(16px);
+      }
     }
     &__phases {
       --f-gutter: 16px;
@@ -272,6 +287,9 @@
 
   @include respond-to(">=l") {
     &__phases-links {
+      p {
+        font-size: rem(16px);
+      }
       &__arrow { width: calc(100% - 120px) }
       svg { transform: translate(calc(50% + 60.5px),-50%) }
     }
@@ -279,6 +297,9 @@
   @include respond-to("<=l") {
     &__phases-links {
       &__arrow { width: calc(100% - 42px) }
+      p {
+        font-size: rem(16px);
+      }
       svg { transform: translate(calc(50% - 7.5px),-50%) }
     }
   }

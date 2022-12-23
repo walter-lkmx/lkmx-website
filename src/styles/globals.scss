@@ -20,6 +20,10 @@ body {
     }
 }
 
+main {
+	overflow: hidden;
+}
+
 ::selection {
     color: $color-neutral-black;
     background-color: $color-cyan;
