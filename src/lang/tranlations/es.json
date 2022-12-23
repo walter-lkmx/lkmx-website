@@ -374,9 +374,9 @@
         "DEVELOPMENT"
       ],
       "par1": [
-        "Esta opción se ofrece a los clientes una ves terminada la fase inicial de desarrollo,",
+        "Esta opción se ofrece a los clientes una vez terminada la fase inicial de desarrollo,",
         "cuando surgen REQUERIMIENTOS ESPECÍFICOS.",
-        "Si tal es el caso y tras un análisis de requerimientos a detalle, utilizamos técnicas recuperadas de metodologías",
+        "En esta, analizamos los requerimientos a detalle utilizando técnicas tomadas de las metodologías",
         "ágiles antes de la contratación de servicios."
       ],
       "title2": [
@@ -385,8 +385,8 @@
       ],
       "par2": [
         "Una vez desarrollada la plataforma, nuestros bloques de mantenimiento ofrecen una alternativa",
-        "ÁGIL para perfeccionar o complementar la funcionalidade existente.",
-        "Empleamos Kanban de la mano con las metodologías utilizadas para el desarrollo en proyectos flexibles de",
+        "ÁGIL para perfeccionar o complementar la funcionalidad existente.",
+        "Utilizamos Kanban con las metodologías utilizadas para el desarrollo en proyectos flexibles de",
         "mantenimiento, desde una semana y sin límite de duración."
       ],
        "title3": [
@@ -394,10 +394,9 @@
         "SUPPORT"
       ],
       "par3": [
-        "Una vez desarrollada la plataforma, nuestros bloques de mantenimiento ofrecen una alternativa",
-        "ÁGIL para perfeccionar o complementar la funcionalidad existente.",
-        "Utilizamos Kanban con las metodologías utilizadas para el desarrollo en proyectos flexibles de",
-        "mantenimiento desde una semana y sin límite de duración."
+        "Nuestros equipos dan soporte a plataformas con diversos SLAs y cobertura en horas regulares y",
+        "on-call. La estabilidad de nuestro desarrollo combinada con nuestros procesos garantizan",
+        "eficiencia y costos operativos bajo control."
       ]
     },
     "navigation": "AGILE DEVELOPMENT"

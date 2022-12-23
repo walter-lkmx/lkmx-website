@@ -13,7 +13,7 @@
       "hero": [
           "We are strategic partners with businesses in different industries around",
           "the world, building innovative software solutions",
-      "with our unique methodology and",
+          "with our unique methodology and",
           "the most solid technology."
       ],
       "servicesTitle": "SERVICES",
@@ -24,7 +24,7 @@
           "STAFF-AUGMENTATION",
           ",", 
           "we designed services ideal to build custom",
-          "solutions of any level of complexity and",
+          "solutions of any level of complexity and ",
           "timelines with any type of demand."            
       ],
       "technologiesTitle": "TECHNOLOGIES",
@@ -378,19 +378,20 @@
       "title": "Agile Maintenance",
       "goBack": "Go Back",
       "hero": [
-        "Al final del desarrollo, ofrecemos servicios de ",
-        "mantenimiento y soporte para una estabilizacion ",
-        "y transferencia exitosa de la plataforma."
+        "At the end of development, we offer ",
+        "maintenance and support services for ",
+        "a successful stabilization and transfer ",
+        "of the platform."
       ],
       "left": {
         "title": [
-          "UTILIZAMOS KANBAN",
-          "COMO MARCO DE TRABAJO ÁGIL"
+          "WE USE KANBAN",
+          "AS AN AGILE FRAMEWORK"
         ],
         "par": [
-          "Nos ayuda a priorizar y organizar el trabajo planeado o a demanda, lo que nos permite mantener un",
-          "flujo constante de entregables, a través de la implementación de soluciones que aportan valor de",
-          "forma inmediata al cliente."
+          "We employ Kanban as an agile workframe to prioritize and organize planned and on-call work,",
+          "which allows us to maintain a constant flow of deliverables, through the implementation of",
+          "solutions that immediately provide value to the client."
         ]
       },
       "right": {
@@ -399,30 +400,30 @@
           "DEVELOPMENT"
         ],
         "par1": [
-          "Esta opción se ofrece a los clientes una ves terminada la fase inicial de desarrollo,",
-          "cuando surgen REQUERIMIENTOS ESPECÍFICOS.",
-          "Si tal es el caso y tras un análisis de requerimientos a detalle, utilizamos técnicas recuperadas de metodologías",
-          "ágiles antes de la contratación de servicios."
+          "This option is offered to existing clients when, after finishing the initial development phase,",
+          "SPECIFIC REQUIREMENTS arise.",
+          "Here we analyze requirements in detail, employing techniques taken from agile methodologies",
+          "before hiring the services."
         ],
         "title2": [
           "AGILE",
           "MAINTENANCE"
         ],
         "par2": [
-          "Una vez desarrollada la plataforma, nuestros bloques de mantenimiento ofrecen una alternativa",
-          "ÁGIL para perfeccionar o complementar la funcionalidade existente.",
-          "Empleamos Kanban de la mano con las metodologías utilizadas para el desarrollo en proyectos flexibles de",
-          "mantenimiento, desde una semana y sin límite de duración."
+          "Once the platform is developed, our maintenance blocks offer an AGILE alternative to perfect or",
+          "complement the existing functionality.",
+          "We use Kanban with the methodologies employed for development in flexible maintenance",
+          "projects from one week and with no duration limit."
         ],
          "title3": [
           "CONTINUOUS",
           "SUPPORT"
         ],
         "par3": [
-          "Una vez desarrollada la plataforma, nuestros bloques de mantenimiento ofrecen una alternativa",
-          "ÁGIL para perfeccionar o complementar la funcionalidad existente.",
-          "Utilizamos Kanban con las metodologías utilizadas para el desarrollo en proyectos flexibles de",
-          "mantenimiento desde una semana y sin límite de duración."
+          "We offer continuous support options for the solutions that we develop.",
+          "Our teams provide support to platforms with several SLAs and regular-time and on-call coverage.",
+          "The stability of our development combined with our processes guarantee efficiency and",
+          "operational costs under control."
         ]
       },
       "navigation": "AGILE DEVELOPMENT"
