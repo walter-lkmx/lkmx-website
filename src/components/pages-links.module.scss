@@ -7,7 +7,7 @@
   }
   *{margin: 0;}
   .links {
-    a {
+    &__nav {
       color: $color-neutral-black;
       text-transform: uppercase;
       text-decoration: none;
@@ -16,7 +16,11 @@
       text-decoration: none;
       line-height: 1.5rem;
       cursor: pointer;
+      &__active {
+        color: $color-pink;
+      }
     }
+    
     &.white-color > a {
       color: white;
     }
