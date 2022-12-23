@@ -16,7 +16,7 @@ const ibm = IBM_Plex_Sans({
 })
 const inter = Inter({
     subsets: ['latin'],
-    weight: ['400', '800'],
+    weight: ['400', '700', '800'],
     variable: '--lk-font-inter'
 })
 console.log()
