@@ -14,9 +14,6 @@ export default function PagesLinks(props) {
   const { locale, locales, asPath } = useRouter();
   const $t = getLang(locale);
 
-  console.log(asPath.includes($t.header.module3.toLowerCase()));
-  console.log($t.header.module3.toLowerCase());
-  console.log(asPath);
 
   return (
     <div className={`${styles.headerNavigation}`}>
