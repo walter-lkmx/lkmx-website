@@ -35,7 +35,7 @@ export default function Ams() {
                         <img className={styles.ams__hero__left__s} alt="LKMX - Hero" src="/ams-mobile.svg"/>
                     </Block>
                     <Block className={styles.ams__hero__right}>
-                        <p>{$t.ams.hero[0]}<br/>{$t.ams.hero[1]}<br/>{$t.ams.hero[2]}</p>
+                        <p>{$t.ams.hero[0]}<br/>{$t.ams.hero[1]}<br/>{$t.ams.hero[2]}<br/>{$t.ams.hero[3]}</p>
                     </Block>
                     <img className={styles.ams__hero__clouds} alt="LKMX - Hero" src="/triangles/triangle-clouds--right.svg"/>
                 </Column>
