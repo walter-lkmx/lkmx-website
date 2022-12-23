@@ -30,7 +30,6 @@ export default function PagesLinks(props) {
             className={`${styles.links__nav} ${
               asPath.includes($t.header.module1.toLowerCase()) ? styles.links__nav__active : ''
             }`}
-            href="/services"
           >
             {$t.header.module1}
           </a>
@@ -41,7 +40,6 @@ export default function PagesLinks(props) {
             className={`${styles.links__nav} ${
               asPath.includes($t.header.module6.toLowerCase()) ? styles.links__nav__active : ''
             }`}
-            href="/industries"
           >
             {$t.header.module6}
           </a>
@@ -52,7 +50,6 @@ export default function PagesLinks(props) {
             className={`${styles.links__nav} ${
               asPath.includes($t.header.module3.toLowerCase()) ? styles.links__nav__active : ''
             }`}
-            href="/technology"
           >
             {$t.header.module3}
           </a>
@@ -69,7 +66,6 @@ export default function PagesLinks(props) {
             className={`${styles.links__nav} ${
               asPath.includes($t.header.module5.toLowerCase()) ? styles.links__nav__active : ''
             }`}
-            href="/technoteamogy"
           >
             {$t.header.module5}
           </a>
