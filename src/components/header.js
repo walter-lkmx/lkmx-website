@@ -20,9 +20,9 @@ export default function Header(props) {
             <div className={styles.header__content__links}>
               <PagesLinks className={styles.header__content__links__pages}/>
             </div>
-            <a onClick={handleClick} className={styles.header__content__menu}>
+            <button onClick={handleClick} className={styles.header__content__menu}>
               <Image src="/icons/hamburger-black.svg" alt="Menu" height="24" width="24"/>
-            </a>
+            </button>
           </div>
         </Block>
       </Column>

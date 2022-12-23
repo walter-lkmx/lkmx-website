@@ -75,6 +75,7 @@
       &__menu {
         display: grid;
         justify-self: end;
+        background: none;
       }
       &__links { display: none }
       &__logo > a > img {
