@@ -250,7 +250,8 @@
 					justify-items: center;
 					.logoContainer {
 						position: relative;
-						width: -webkit-fill-available;
+						width: 100%;
+						object-fit: fill;
 						min-height: auto;
 						span {
 							img {
@@ -374,9 +375,7 @@
 					justify-content: center;
 					margin: 0 auto;
 				}
-				&__koi {
-					// justify-self: center;
-				}
+
 				&__text {
 					display: grid;
 					gap: 1rem;
