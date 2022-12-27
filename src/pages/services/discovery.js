@@ -6,7 +6,7 @@ import siteMetadata from "../../meta/siteMetadata";
 import HeadSeo from "../../components/HeadSeo";
 import getLang from '@/lang';
 import { useRouter } from "next/router";
-import Image from "next/legacy/image";
+import Image from "next/image";
 import Link from "next/link"
 
 export default function DiscoveryPage() {
@@ -31,22 +31,36 @@ export default function DiscoveryPage() {
                         <span>{$t.discovery.goBack}</span>
                     </Block>                    
                 </Column>
-                <Column modeL="normal" number="2" numberS="1" weight="right"  className={styles.discovery__hero}>
+                <Column modeL="normal" number="2" numberS="1" className={styles.discovery__hero}>
                     <img src="/triangles/triangle-waves--right.svg"  className={styles.discovery__hero__triangle} alt="LKMX - Hero"/>
-                    <Block className={styles.discovery__hero__phases}>
-                        <div className={styles.discovery__hero__phases__arrow}>
-                            <div></div>
-                        </div>
-                        <img src="/discovery-big.svg" className={styles.discovery__hero__phases__svg}  alt="LKMX - Hero"/>
-                        <img src="/discovery-medium.svg" className={styles.discovery__hero__phases__svgMed}  alt="LKMX - Hero"/>    
-                        <img src="/vertical-line.svg" className={styles.discovery__hero__phases__svgLine}  alt="LKMX - Hero"/>
-                        <img src="/discovery-small.svg" className={styles.discovery__hero__phases__svgMobile}  alt="LKMX - Hero"/>                      
-                    </Block>
                     <Block className={styles.discovery__hero__blue} >
-                        <div className={styles.discovery__hero__blue__content}>
-                            <p>{$t.discovery.hero[0]} {$t.discovery.hero[1]} {$t.discovery.hero[2]}</p>
+                        <div className={styles.discovery__hero__phases}></div>
+                        <div className={styles.discovery__hero__blue__before}>
+                            <Image
+                            fill
+                            src={"/discovery-hero-blue-triangle.svg"}
+                            alt="triangle"
+                            />
                         </div>
                         
+                        <div className={styles.discovery__hero__blue__content}>
+                            <h1>{$t.discovery.title}</h1>                            
+                        </div>
+                        <div className={styles.discovery__hero__blue__pink}>
+                            <Image
+                            fill
+                            src={"/discovery-hero-diagonal.svg"}
+                            alt="diagonal"
+                            />
+                        </div>
+                        {/* <div className={styles.discovery__hero__blue__pink}></div>
+                        <div className={styles.discovery__hero__blue__cyan}></div>
+                        <div className={styles.discovery__hero__blue__blue}></div>
+                        <div className={styles.discovery__hero__blue__gray}></div> 
+                        <div className={styles.discovery__hero__blue__triangle}></div>  */}
+                    </Block>
+                    <Block className={styles.discovery__hero__paragraph}>
+                        <p>{$t.discovery.hero[0]} <br/>{$t.discovery.hero[1]} <br/>{$t.discovery.hero[2]}</p>
                     </Block>
                 </Column>
                 <Column className={styles.discovery__summary} number="1" mode="slim" modeM="normal" modeS="normal">
