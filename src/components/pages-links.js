@@ -4,6 +4,7 @@ import styles from '@/components/pages-links.module.scss';
 import getLang from '@/lang';
 import { useRouter } from 'next/router';
 import Image from 'next/image';
+import enContent from '@/lang/tranlations/en';
 
 export default function PagesLinks(props) {
   const lang = {
@@ -13,7 +14,7 @@ export default function PagesLinks(props) {
 
   const { locale, locales, asPath } = useRouter();
   const $t = getLang(locale);
-
+  const navPath = enContent.header
 
   return (
     <div className={`${styles.headerNavigation}`}>
@@ -25,7 +26,7 @@ export default function PagesLinks(props) {
         <Link href="/services" legacyBehavior>
           <a
             className={`${styles.links__nav} ${
-              asPath.includes($t.header.module1.toLowerCase()) ? styles.links__nav__active : ''
+              asPath.includes(navPath.module1.toLowerCase()) ? styles.links__nav__active : ''
             }`}
           >
             {$t.header.module1}
@@ -35,7 +36,7 @@ export default function PagesLinks(props) {
         <Link href="/industries" legacyBehavior>
           <a
             className={`${styles.links__nav} ${
-              asPath.includes($t.header.module6.toLowerCase()) ? styles.links__nav__active : ''
+              asPath.includes(navPath.module6.toLowerCase()) ? styles.links__nav__active : ''
             }`}
           >
             {$t.header.module6}
@@ -45,7 +46,7 @@ export default function PagesLinks(props) {
         <Link href="/technology" legacyBehavior>
           <a
             className={`${styles.links__nav} ${
-              asPath.includes($t.header.module3.toLowerCase()) ? styles.links__nav__active : ''
+              asPath.includes(navPath.module3.toLowerCase()) ? styles.links__nav__active : ''
             }`}
           >
             {$t.header.module3}
@@ -61,7 +62,7 @@ export default function PagesLinks(props) {
         >
           <a
             className={`${styles.links__nav} ${
-              asPath.includes($t.header.module5.toLowerCase()) ? styles.links__nav__active : ''
+              asPath.includes(navPath.module5.toLowerCase()) ? styles.links__nav__active : ''
             }`}
           >
             {$t.header.module5}
