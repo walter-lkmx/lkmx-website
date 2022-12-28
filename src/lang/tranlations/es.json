@@ -297,13 +297,17 @@
     }
   },
   "agile": {
-    "title": "Agile development",
+    "title": [
+      "Agile",
+      "development"
+    ],
     "goBack": "Regresar",
     "hero": [
-        "Nuestro principal servicio ofrece iteraciones de",
-        "trabajo de un equipo multidisciplinario de ingeniería a",
-        "cargo de diseñar la arquitectura y construir la solución",
-        "de software de principio a fin."
+        "Nuestro principal servicio ofrece",
+        "iteraciones de trabajo de un equipo",
+        "multidisciplinario de ingeniería a cargo",
+        "de diseñar la arquitectura y construir la",
+        "solución de software de principio a fin."
     ],
     "intro": [
       "Los proyectos utilizan iteraciones como unidad de medida, que contemplan DEFINICIÓN,",

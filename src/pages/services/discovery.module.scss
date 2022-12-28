@@ -106,21 +106,6 @@
         h1 {
           color: white;
         }
-        p {
-          color: white;
-          font-style: normal;
-          font-weight: 400;
-          font-size: 20px;
-          line-height: 30px;
-          margin: 0px;
-          width: 420px;
-          @include respond-to("<=xs") {
-            font-size: 16px;
-            line-height: 28px;
-            width: 327px;
-            padding-left: 16px;
-          }          
-        }
       }
       &__pink {
         width: 248px;

@@ -53,11 +53,6 @@ export default function DiscoveryPage() {
                             alt="diagonal"
                             />
                         </div>
-                        {/* <div className={styles.discovery__hero__blue__pink}></div>
-                        <div className={styles.discovery__hero__blue__cyan}></div>
-                        <div className={styles.discovery__hero__blue__blue}></div>
-                        <div className={styles.discovery__hero__blue__gray}></div> 
-                        <div className={styles.discovery__hero__blue__triangle}></div>  */}
                     </Block>
                     <Block className={styles.discovery__hero__paragraph}>
                         <p>{$t.discovery.hero[0]} <br/>{$t.discovery.hero[1]} <br/>{$t.discovery.hero[2]}</p>

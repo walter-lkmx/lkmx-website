@@ -6,7 +6,7 @@ import siteMetadata from "../../meta/siteMetadata";
 import HeadSeo from "../../components/HeadSeo";
 import getLang from '@/lang';
 import { useRouter } from "next/router";
-import Image from "next/legacy/image";
+import Image from "next/image";
 import Link from "next/link"
 
 export default function AgileDevelopment() {
@@ -30,19 +30,44 @@ export default function AgileDevelopment() {
                     <span>{$t.agile.goBack}</span>
                 </Block>                    
             </Column>
-            <Column mode="normal" number="2" numberS="1" weight="right"  className={styles.agile__hero}>
-                <img src="/triangles/triangle-code--cyan--right.svg"  className={styles.agile__hero__triangle} alt="LKMX - Hero"/>
-                <Block className={styles.agile__hero__phases}>
-                    <img src="/horizontal-line.svg" className={styles.agile__hero__phases__svgLine}  alt="LKMX - Hero"></img>
-                    <img src="/agile-development-large.svg" className={styles.agile__hero__phases__svg}  alt="LKMX - Hero"/>
-                    <img src="/agile-development-medium.svg" className={styles.agile__hero__phases__svgMed}  alt="LKMX - Hero"/>    
-                    <img src="/agile-development-small.svg" className={styles.agile__hero__phases__svgMobile}  alt="LKMX - Hero"/>                      
-                </Block>
-                <Block className={styles.agile__hero__blue} >
-                    <div className={styles.agile__hero__blue__content}>
-                        <p>{$t.agile.hero[0]}<br/>{$t.agile.hero[1]}<br/>{$t.agile.hero[2]}<br/>{$t.agile.hero[3]}</p>
+
+            <Column mode="normal" number="2" numberS="1"  className={styles.agile__hero}>
+                <Block className={styles.agile__hero__red} >
+                    <div className={styles.agile__hero__phases}>
+                        <div className={styles.agile__hero__phases__diagonal}></div>
+                    </div>
+                    <div className={styles.agile__hero__red__before}>
+                        <Image
+                        fill
+                        src={"/agile-dev-hero-red-triangle.svg"}
+                        alt="triangle"
+                        />
+                    </div>
+                    <div className={styles.agile__hero__red__content}>
+                        <h1>{$t.agile.title[0]}<br/>{$t.agile.title[1]}</h1>  
+                    </div>
+                    <div className={styles.agile__hero__red__pink}>
+                        <Image
+                        fill
+                        src={"/agile-dev-hero-diagonal.svg"}
+                        alt="diagonal"
+                        />
                     </div>
                 </Block>
+                <Block>
+                    <div className={styles.agile__hero__paragraph}>
+                        <p>{$t.agile.hero[0]} <br/>{$t.agile.hero[1]} <br/>{$t.agile.hero[2]} <br/>{$t.agile.hero[3]} <br/>{$t.agile.hero[4]}</p>
+                    </div>
+                    <div className={styles.agile__hero__triangle}>
+                        <Image 
+                        fill
+                        src="/triangles/triangle-code--cyan--right.svg"  
+                        className={styles.agile__hero__triangle} 
+                        alt="LKMX - Hero"
+                        />
+                    </div>            
+                </Block>
+                
             </Column>
 
 

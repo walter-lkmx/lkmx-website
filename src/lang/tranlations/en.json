@@ -322,13 +322,17 @@
         }
     },
     "agile": {
-        "title": "Agile development",
+        "title": [
+          "Agile",
+          "development"
+        ],
         "goBack": "Go Back",
         "hero": [
-            "Our main service offers iteration of",
-            "work by a multidisciplinary engineering team",
-            "in charge of designing the architecture and building the solution",
-            "of the software from the ideation to the end of the lifecycle."
+            "Our main service offers iteration of work by",
+            " a multidisciplinary engineering team in",
+            "charge of designing the architecture and",
+            "building the solution of the software from",
+            "the ideation to the end of the lifecycle."
         ],
         "intro": [
             "Our projects are based on iterations that include three phases: DEFINITION,",
