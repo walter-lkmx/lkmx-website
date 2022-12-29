@@ -81,6 +81,9 @@
 					height: $hero-height-large;
 					width: rem(155px);
 					background-image: linear-gradient(to top right, $color-neutral-black 0%, $color-neutral-black 50%, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0) 100%);
+					@include respond-to("<=s") {
+						display: none;
+					}
 				}
 				&__background {
 					width: 110%;
@@ -88,8 +91,10 @@
 					position: relative;
 					transform: translate(6px, -413px);
 					z-index: 0;
+					@include respond-to("<=s") {
+						transform: translate(6px, -224px);
+					}
 				}
-
 				&__elipse {
 					max-width: none !important;
 					width: 648px;
@@ -97,7 +102,10 @@
 					position: absolute;
 					right: 122px;
 					top: -30px;
-					transform: translate(50%, -50%);
+					transform: translate(50%, -50%);	
+					@include respond-to("<=s") {
+						transform: translate(30%, -49%);	
+					}				
 				}
 			}
 		}
@@ -183,6 +191,8 @@
 						align-items: center;
 						justify-items: center;
 						height: rem(60px);
+						position: relative;
+						aspect-ratio: 1;
 					}
 				}
 			}
@@ -204,11 +214,6 @@
 				}
 
 				&__right {
-					div {
-						height: $hero-height-medium;
-						left: 0;
-					}
-
 					&__elipse {
 						right: rem(-28px);
 						top: rem(-28px);
@@ -216,7 +221,6 @@
 				}
 			}
 		}
-
 		&__features {
 			background-color: $color-cyan;
 			--f-gutter: 16px;
@@ -298,14 +302,8 @@
 						}
 					}
 				}
-
 				&__right {
 					height: 350px;
-
-					div {
-						display: none
-					}
-
 					&__elipse {
 						width: 424px;
 						height: 424px;
@@ -315,7 +313,6 @@
 				}
 			}
 		}
-
 		&__features {
 			background-color: $color-cyan;
 			padding: 0;
