@@ -105,6 +105,9 @@
         }
         h1 {
           color: white;
+          text-transform: uppercase;
+          font-family: $font-tertiary;
+          font-size: rem(35px)
         }
       }
       &__pink {
