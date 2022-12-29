@@ -71,6 +71,15 @@
         }
       }
       display: grid;
+      &__container {
+        position: absolute;
+        height: 591px;
+        width: 155px;
+        right: 120px;
+        @include respond-to("<=l") {
+          right: 0;
+        }
+      }
       &__triangle {
         width: $triangule-width;
         position: absolute;
@@ -97,11 +106,14 @@
         height: 100%;
         display: grid;
         width: calc(100% - ($triangule-width * 2) - 120px);
-        height: rem(591px);
         justify-items: center;
         &__img {
           margin-top: rem(84px);
           width: rem(392px);
+          @include respond-to("<=s") {
+            margin-top: 0;
+            height: inherit;
+          }
         }
       }
       &__triangle-mobile,
@@ -144,6 +156,10 @@
       display: grid;
       grid-template-columns: repeat(7, 1fr);
       background-color: $color-bright-gray;
+      &__image {
+        position: relative;
+        aspect-ratio: 1;
+      }
       &__card {
         display: grid;
         align-items: center;
@@ -381,11 +397,11 @@
           justify-self: center;
           width: calc(100% - 264px);
           left: 0;
-          &__img {
-            position: relative;
-            width: 350px;
-            margin-top: 153px;
-          }
+          // &__img {
+          //   position: relative;
+          //   width: 350px;
+          //   margin-top: 153px;
+          // }
         }
         &__triangle {
           position: absolute;
@@ -487,12 +503,7 @@
           position: relative;
           width: calc(100% - 92px - 64px);
           overflow: visible;
-          &__img {
-            position: absolute;
-            width: 202px;
-            height: 376.7px;
-            margin: 44px 0 0 26px;
-          }
+          margin-top: 60px;
         }
         &__clouds,
         &__triangle {
