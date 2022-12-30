@@ -28,6 +28,7 @@
 						font-weight: 400;
 						font-size: 20px;
 						line-height: 30px;
+						max-width: 90vw;
 						@include respond-to("<=xs") {
 							br {
 								display: none;
