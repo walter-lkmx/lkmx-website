@@ -7,7 +7,8 @@ import HeadSeo from "../../components/HeadSeo";
 import getLang from '@/lang';
 import { useRouter } from "next/router";
 import Link from "next/link"
-import Image from "next/legacy/image";
+import ImageLegacy from "next/legacy/image";
+import Image from "next/image";
 export default function Ams() {
     const { locale } = useRouter();
     const $t = getLang(locale);
@@ -28,11 +29,62 @@ export default function Ams() {
                         <span>{$t.ams.goBack}</span>
                     </Block>                    
                 </Column>
-                <Column mode="full" number="2" numberS="1" className={styles.ams__hero} weightL="normal" weightXXL="right">
-                    <Block className={styles.ams__hero__left}>
-                        <img className={styles.ams__hero__left__l} alt="LKMX - Hero" src="/ams-large.svg"/>
-                        <img className={styles.ams__hero__left__m} alt="LKMX - Hero" src="/ams-med.svg"/>
-                        <img className={styles.ams__hero__left__s} alt="LKMX - Hero" src="/ams-mobile.svg"/>
+                <Column mode="full" number="2" numberM="1" numberS="1" className={styles.ams__hero} weight="left" weightXxl="normal">
+                    <Block className={styles.ams__hero__left}>                        
+                        <div className={styles.ams__hero__left__sections}>
+                        <div className={styles.ams__hero__left__before}></div>
+                            <div className={styles.ams__hero__left__diagonal}>
+                                <Image
+                                    fill
+                                    src={"/ams-hero-diagonal-small.svg"}
+                                    alt="diagonal"
+                                />
+                            </div>
+                            <div className={styles.ams__hero__left__cyan}>
+                                <h3>{$t.ams.title1[0]} <br/>{$t.ams.title1[1]}</h3>
+                                <div className={styles.ams__hero__left__cyan__inter}>
+                                    <Image
+                                        fill
+                                        src={"/ams-hero-blue-triangle.svg"}
+                                        alt="blue triangle"
+                                    />
+                                </div>    
+                                <div className={styles.ams__hero__left__cyan__small}>
+                                    <Image
+                                        fill
+                                        src={"/ams-hero-blue-triangle-small.svg"}
+                                        alt="blue triangle"
+                                    />
+                                </div>                             
+                            </div>
+                            <div className={styles.ams__hero__left__blue}>
+                                <h3>{$t.ams.title2[0]} <br/>{$t.ams.title2[1]}</h3>
+                                <div className={styles.ams__hero__left__blue__inter}>
+                                <Image
+                                    fill
+                                    src={"/ams-hero-gray-triangle.svg"}
+                                    alt="gray triangle"
+                                />
+                                </div>
+                                <div className={styles.ams__hero__left__blue__small}>
+                                <Image
+                                    fill
+                                    src={"/ams-hero-gray-triangle-small.svg"}
+                                    alt="gray triangle"
+                                />
+                                </div> 
+                            </div>
+                            <div className={styles.ams__hero__left__gray}>
+                                <h3>{$t.ams.title3[0]} <br/>{$t.ams.title3[1]}</h3>
+                                <div className={styles.ams__hero__left__gray__inter}>
+                                    <Image
+                                        fill
+                                        src={"/ams-hero-light-triangle.svg"}
+                                        alt="gray triangle"
+                                    />
+                                </div>                     
+                            </div>
+                        </div>                        
                     </Block>
                     <Block className={styles.ams__hero__right}>
                         <p>{$t.ams.hero[0]}<br/>{$t.ams.hero[1]}<br/>{$t.ams.hero[2]}<br/>{$t.ams.hero[3]}</p>
@@ -60,7 +112,7 @@ export default function Ams() {
                             <p>{$t.ams.left.par}</p>
                         </div>
                         <div className={styles.ams__content__left__kanban}>
-                            <Image src={"/kanban.svg"}
+                            <ImageLegacy src={"/kanban.svg"}
                             layout={"fill"}
                             alt="kanban"
                             priority={"true"}/>

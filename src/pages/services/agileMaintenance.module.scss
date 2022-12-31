@@ -26,78 +26,156 @@
         }
     }
     &__hero {
-        &__clouds {
+        height: 457px;
+        background-color: $color-bright-gray-01;
+        @include respond-to("<=m") {
+            height: auto;
+        }
+        &__clouds {            
             position: absolute;
-            right: 0;
-            @include respond-to("<=m") {
+            right: 0;            
+            @include respond-to("<=s") {
                 display: none;
             }
         }
-        &__left {
-            background-color: $color-bright-gray;
+        &__left {                    
             > div > div {
                 position: relative;
+                height: 100%;
+                padding: 0 !important;
+                @include respond-to("<=m") {
+                    min-height: 457px;
+                }
                 @include respond-to("<=s") {
                     min-height: 324px;
                 }
+            }   
+            &__sections {
+                display: grid;
+                height: inherit;
+                grid-template-columns: repeat(5, auto);
+                @include respond-to("<=xl") {
+                    grid-template-columns: repeat(4, min-content);
+                    transform: translateX(-87px);
+                }
+                @include respond-to("<=xs") {
+                    grid-template-columns: repeat(4, min-content);
+                    transform: translateX(-126px);
+                }
             }
-            &__l {
+            &__before {
+                width: 17vw;
+                height: 100%;
+                background-color: $color-bright-gray-01;
                 @include respond-to("<=xl") {
                     display: none;
                 }
-                width: 100%;
             }
-            &__m {
-                display: none;
-                position: absolute;
-                left: 0;
-                @include respond-to("<=xl") {
-                    display: block;
-                }
-                @include respond-to("<=m") {
-                    top: 115px;
-                }
+            &__diagonal {
+                width: 209px;
+                position: relative;
+                height: 100%;
+                top: 1px;      
                 @include respond-to("<=s") {
-                    display: none;
-                }
+                    width: 148px;
+                }          
             }
-            &__s {
-                display: none;
-                position: absolute;
-                top: 0;
-                left: 0;
-                right: 0;
-                margin: auto;
-                @include respond-to("<=s") {
-                    display: block;
+            &__cyan, &__blue, &__gray {
+                height: 100%;
+                width: 212px;
+                position: relative;
+                display: grid;
+                align-content: center;
+                h3 {
+                    text-transform: none;
+                    @include respond-to("<=l") {
+                        font-size: 18px;
+                    }
+                    @include respond-to("<=xs") {
+                        font-size: 16px;
+                    }
                 }
-            }
-        }
-        &__right {
-            background-color: $color-blue;
-            > div > div {
-                padding: 250.5px 16% !important;
                 @include respond-to("<=l") {
-                    padding: 250.5px 38px !important;
+                    width: 172px;
                 }
-                @include respond-to("<=s") {
-                    padding: 56px 16px !important;
-                    br {
+                @include respond-to("<=xs") {
+                    width: 133px;
+                }
+                &__inter {
+                    height: 457px;
+                    width: 120px;
+                    position: absolute;
+                    right: -1px;
+                    top: 2px;
+                    @include respond-to("<=s") {
+                        height: 324px;
+                        right: -19px;                        
+                    }
+                    @include respond-to("<=xs") {
                         display: none;
                     }
                 }
+                &__small {
+                    height: 324px;
+                    width: 85px;
+                    right: -19px; 
+                    position: absolute;
+                    right: -1px;
+                    top: 2px;
+                    display: none;
+                    @include respond-to("<=xs") {
+                        display: block;
+                    }     
+                } 
+            }
+            &__cyan {
+                background-color: $color-cyan;  
+                @include respond-to("<=m") {
+                    &__inter {
+                        top: 0;                    
+                    }
+                }
+                                
+                &__small {
+                    top: 0;
+                }             
+            }
+            &__blue {
+                background-color: $color-blue;
+                h3 {
+                    color: white;
+                }
+            }
+            &__gray {
+                background-color: $color-bright-gray;
+                &__inter {
+                    @include respond-to("<=xs") {
+                        display: block;
+                    } 
+                }
+            }            
+        }
+        &__right {          
+            padding: 58px 0px;
+            @include respond-to("<=m") {
+                width: 100vw;
+            } 
+            > div {
+                display: grid;
+                justify-content: center;
+                align-content: center;                               
             }
             p {
-                font-style: normal;
-                font-weight: 400;
                 font-size: 20px;
-                line-height: 30px;
-                color: white;
-            }
+                line-height: 30px;    
+                @include respond-to("<=l") {
+                    font-size: 16px;
+                    line-height: 28px;
+                }           
+            }            
         }
     }
-    &__content {
-        
+    &__content {        
         &__left, &__right {
             padding: 92px 0px;
         }

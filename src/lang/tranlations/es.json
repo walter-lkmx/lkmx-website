@@ -355,11 +355,24 @@
   },
   "ams": {
     "title": "Agile Maintenance",
+    "title1":[
+      "Agile",
+      "Maintenance"
+    ],
+    "title2":[
+      "Scope",
+      "Development"
+    ],
+    "title3":[
+      "Continuous",
+      "Support"
+    ],
     "goBack": "Regresar",
     "hero": [
-      "Al final del desarrollo, ofrecemos servicios de ",
-      "mantenimiento y soporte para una estabilizacion ",
-      "y transferencia exitosa de la plataforma."
+      "Al final del desarrollo, ofrecemos",
+      "servicios de mantenimiento y soporte",
+      "para una estabilizacion y transferencia",
+      "exitosa de la plataforma."
     ],
     "left": {
       "title": [

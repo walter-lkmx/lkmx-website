@@ -380,6 +380,18 @@
     },
     "ams": {
       "title": "Agile Maintenance",
+      "title1":[
+        "Agile",
+        "Maintenance"
+      ],
+      "title2":[
+        "Scope",
+        "Development"
+      ],
+      "title3":[
+        "Continuous",
+        "Support"
+      ],
       "goBack": "Go Back",
       "hero": [
         "At the end of development, we offer ",
