@@ -19,7 +19,7 @@
 			",",
       "diseñamos servicios ideales para construir",
 			"soluciones a la medida de cualquier grado",
-			"de complejidad y lineas de tiempo con",
+			"de complejidad y líneas de tiempo con",
 			"cualquier demanda."
     ],
 		"technologiesTitle": "TECNOLOGÍAS",
@@ -205,11 +205,11 @@
       },
       {
         "title": "Web3",
-        "description": "Diseñamos soluciones descentralizadas creativas e inovadoras para los protocolos públicos y privados del nuevo internet.",
+        "description": "Diseñamos soluciones descentralizadas, creativas e innovadoras para los protocolos públicos y privados del nuevo internet.",
         "img": "/icon-industry-web3.svg"
       },
       {
-        "title": "Inovación de Procesos",
+        "title": "Innovación de Procesos",
         "description": "Transformamos negocios, producimos implementaciones de nivel empresarial, eficientes y potentes.",
         "img": "/icon-industry-process_innovation.svg"
       }
@@ -260,7 +260,7 @@
     "hero": [
       "Nuestras soluciones comienzan desde el",
       "análisis de las necesidades y objetivos para",
-      "definir la mejor ruta, asi como su alcance."
+      "definir la mejor ruta, así como su alcance."
     ],
     "bannerTitle": ["UTILIZAMOS METODOLOGÍAS", "ESPECIALIZADAS"],
     "prototype": {
@@ -335,11 +335,11 @@
     },
     "scrum": {
       "title": "scrum",
-      "par": "Como framework, nos permite abordar problemas complejos mientras se realizan entregas de valor, continuas y constantes, de forma creativa y enfocadas en aumentar la productividad de los equipos.Con base al modelo CMMI, implementamos buenas prácticas que nos permiten incrementar y optimizar el rendimiento de los procesos involucrados directa e indirectamente en el desarrollo de software, maximizando las oportunidades y mitigando los riesgos."
+      "par": "Como framework, nos permite abordar problemas complejos mientras se realizan entregas de valor, continuas y constantes, de forma creativa y enfocadas en aumentar la productividad de los equipos. Con base al modelo CMMI, implementamos buenas prácticas que nos permiten incrementar y optimizar el rendimiento de los procesos involucrados directa e indirectamente en el desarrollo de software, maximizando las oportunidades y mitigando los riesgos."
     },
     "agile": {
       "title": "agile flow",
-      "par": "Diseñamos mecanismos de versionamiento propios, robustos, flexibles y compatibles con estándares en la industria. Estos procesos, combinados con nuestro mecanismos de integración continua nos permiten alcanzar máximas velocidades de desarrollo, manteniendo control total sobre la calidad de cada uno de los componentes involucrados y sus integraciones"
+      "par": "Diseñamos mecanismos de versionamiento propios, robustos, flexibles y compatibles con estándares en la industria. Estos procesos, combinados con nuestros mecanismos de integración continua nos permiten alcanzar máximas velocidades de desarrollo, manteniendo control total sobre la calidad de cada uno de los componentes involucrados y sus integraciones"
     },
     "cd": {
       "title": "cd/ci",
@@ -371,7 +371,7 @@
     "hero": [
       "Al final del desarrollo, ofrecemos",
       "servicios de mantenimiento y soporte",
-      "para una estabilizacion y transferencia",
+      "para una estabilización y transferencia",
       "exitosa de la plataforma."
     ],
     "left": {
@@ -380,7 +380,7 @@
         "COMO MARCO DE TRABAJO ÁGIL"
       ],
       "par": [
-        "Nos ayuda a priorizar y organizar el trabajo planeado o a demanda, lo que nos permite mantener un",
+        "Nos ayuda a priorizar y organizar el trabajo planeado o a demanda, lo que nos permite mantener un ",
         "flujo constante de entregables, a través de la implementación de soluciones que aportan valor de",
         "forma inmediata al cliente."
       ]

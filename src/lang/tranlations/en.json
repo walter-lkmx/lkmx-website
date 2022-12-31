@@ -338,12 +338,12 @@
             "Our projects are based on iterations that include three phases: DEFINITION,",
             "IMPLEMENTATION, and ACCEPTANCE.",
             "Iterations are put into a FIXED GANTT CHART that provides flexibility and",
-            "predictability in deliverables, timeline and resources"
+            "predictability in deliverables, timeline and resources."
           ],
           "intro2": [
             "We organize our team in DEFINITION and IMPLEMENTATION groups",
             "using our custom methodology that is supported over different production-tested techniques for",
-            "equirement analysis, user-interface design, versioning, code arquitectura, and delivery.",
+            "requirement analysis, user-interface design, versioning, code architecture, and delivery.",
             "At the end of the implementation, the result is delivered to our clients in proper staging environments",
             "so they can perform their ACCEPTANCE tests. We accomplish this through proprietary versioning mechanisms",
             "and perfected continuous integration mechanisms."
@@ -405,8 +405,8 @@
           "AS AN AGILE FRAMEWORK"
         ],
         "par": [
-          "We employ Kanban as an agile workframe to prioritize and organize planned and on-call work,",
-          "which allows us to maintain a constant flow of deliverables, through the implementation of",
+          "We employ Kanban as an agile workframe to prioritize and organize planned and on-call work, ",
+          "which allows us to maintain a constant flow of deliverables, through the implementation of ",
           "solutions that immediately provide value to the client."
         ]
       },
