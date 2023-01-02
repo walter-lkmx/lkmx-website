@@ -31,13 +31,19 @@
         @include respond-to("<=m") {
             height: auto;
         }
-        &__clouds {            
+        &__cloudsContainer {
             position: absolute;
-            right: 0;            
+            right: 0;   
+            top: 0;
+            width: 120px;
+            height: 100%;
+            @include respond-to("<=m") {
+                height: 62%;
+            } 
             @include respond-to("<=s") {
                 display: none;
-            }
-        }
+            }                                  
+        }        
         &__left {                    
             > div > div {
                 position: relative;

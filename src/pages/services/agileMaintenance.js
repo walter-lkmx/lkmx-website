@@ -88,8 +88,10 @@ export default function Ams() {
                     </Block>
                     <Block className={styles.ams__hero__right}>
                         <p>{$t.ams.hero[0]}<br/>{$t.ams.hero[1]}<br/>{$t.ams.hero[2]}<br/>{$t.ams.hero[3]}</p>
-                    </Block>
-                    <img className={styles.ams__hero__clouds} alt="LKMX - Hero" src="/triangles/triangle-clouds--right.svg"/>
+                        <div className={styles.ams__hero__cloudsContainer}>
+                            <Image fill className={styles.ams__hero__clouds} alt="LKMX - Hero" src="/triangles/triangle-clouds--right.svg"/>        
+                        </div>
+                    </Block>                    
                 </Column>
                 <Column mode="slim" modeM="normal"  number="1" className={styles.ams__content}>
                     <Block className={styles.ams__content__right}>
