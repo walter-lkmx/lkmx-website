@@ -31,8 +31,7 @@ export default function DiscoveryPage() {
                         <span>{$t.discovery.goBack}</span>
                     </Block>                    
                 </Column>
-                <Column modeL="normal" number="2" numberS="1" className={styles.discovery__hero}>
-                    <img src="/triangles/triangle-waves--right.svg"  className={styles.discovery__hero__triangle} alt="LKMX - Hero"/>
+                <Column modeL="normal" number="2" numberS="1" className={styles.discovery__hero}>                    
                     <Block className={styles.discovery__hero__blue} >
                         <div className={styles.discovery__hero__phases}></div>
                         <div className={styles.discovery__hero__blue__before}>
@@ -56,6 +55,9 @@ export default function DiscoveryPage() {
                     </Block>
                     <Block className={styles.discovery__hero__paragraph}>
                         <p>{$t.discovery.hero[0]} <br/>{$t.discovery.hero[1]} <br/>{$t.discovery.hero[2]}</p>
+                        <div className={styles.discovery__hero__triangleContainer}>
+                            <Image fill src="/triangles/triangle-waves--right.svg" alt="LKMX - Hero"/>
+                        </div>
                     </Block>
                 </Column>
                 <Column className={styles.discovery__summary} number="1" mode="slim" modeM="normal" modeS="normal">

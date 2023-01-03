@@ -28,16 +28,17 @@
     @include respond-to("<=s") {
       max-height: unset;
     }
-
-    &__triangle {
+    &__triangleContainer {
       position: absolute;
-      right: 0px;
+      top: 0;
+      right: 0;
       height: 100%;
-      justify-items: unset;
+      width: 120px;
       @include respond-to("<=m") {
         display: none;
       }
     }
+    
     &__phases {
       background-color: $color-bright-gray;
       width: 50%;
