@@ -126,8 +126,7 @@ export default function AgileDevelopment() {
                     <div className={styles.agile__agile__block__img}>      
                         <div className={styles.agile__agile__block__img__container}>
                             <Image fill src="/agile.svg" alt="LKMX - Agile"/>
-                        </div>                  
-                        
+                        </div>                                          
                     </div>
                 </Block>
             </Column>
