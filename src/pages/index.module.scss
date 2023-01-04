@@ -155,6 +155,9 @@
 						padding: 8px 15px;
 						cursor: pointer;
 						text-align: center;
+						&:hover {
+							background-color: $color-pink-dark;
+						}
 						@include respond-to("<=m") {
 							width: 100%;
 						}
@@ -429,6 +432,9 @@
 					padding: 8px 16px;
 					justify-self: center;
 					cursor: pointer;
+					&:hover {
+						background-color: $color-pink-dark;
+					}
 				}
 				&__collabs {
 					margin-top: rem(55px);
