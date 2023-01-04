@@ -69,7 +69,7 @@ export default function Footer() {
                   </Link>
                 </li>
               </ul>
-              <p>{$t.footer.paragraph[0]}<span>{$t.footer.paragraph[1]}</span></p>
+              <p>{$t.footer.paragraph[0]} <br/>{$t.footer.paragraph[1]}<br/>{$t.footer.paragraph[2]}</p>
             </div>
           </div>
         </Block>

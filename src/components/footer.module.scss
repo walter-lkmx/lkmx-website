@@ -81,9 +81,11 @@
           line-height: rem(28px);
           font-size: 16px;
           display: grid;
-          align-content: end;
+          align-content: center;
           text-align: right;
-          max-width: 337px;
+          @include respond-to("<=l") {
+            text-align: left;
+          }
           span {
             display: block;
             font-size: 16px;
