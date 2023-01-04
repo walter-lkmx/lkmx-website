@@ -140,14 +140,18 @@ export default function AgileDevelopment() {
                 <Block className={styles.agile__navigation__block}>
                 <Link href="/services/discovery" legacyBehavior> 
                     <div className={styles.agile__navigation__block__back}>
-                        <img src="/icons/arrow-left--pink.svg" alt="Pink arrow left"/> 
+                        <div className={styles.agile__navigation__block__back__icon}>
+                        <Image fill src="/icons/arrow-left--pink.svg" alt="Pink arrow left"/> 
+                        </div>
                         <span>{$t.agile.span.back}</span>                        
                     </div>
                 </Link>
                 <Link href="/services/agileMaintenance" legacyBehavior>
                     <div className={styles.agile__navigation__block__forward}>
                         <span>{$t.agile.span.forward}</span>
-                        <img src="/icons/arrow-right--pink.svg" alt="Pink arrow right"/>
+                        <div className={styles.agile__navigation__block__forward__icon}>
+                            <Image fill src="/icons/arrow-right--pink.svg" alt="Pink arrow right"/>
+                        </div>                        
                     </div>
                 </Link>                  
                 </Block>

@@ -124,8 +124,10 @@ export default function Ams() {
                 <Column className={styles.ams__navigation} number="1" modeM="full" modeL="normal">
                 <Block className={styles.ams__navigation__block}>
                     <Link href="/services/agileDevelopment" legacyBehavior>
-                        <div className={styles.ams__navigation__block__forward}>                       
-                            <img src="/icons/arrow-left--pink.svg" alt="Pink arrow left"/> 
+                        <div className={styles.ams__navigation__block__forward}>  
+                            <div className={styles.ams__navigation__block__forward__icon}>
+                                <Image fill src="/icons/arrow-left--pink.svg" alt="Pink arrow left"/> 
+                            </div>                                                 
                             <span>{$t.ams.navigation}</span>                        
                         </div>                        
                     </Link>                                           

@@ -224,6 +224,11 @@
         width: min-content;
       }
     }    
+    &__icon {
+      position: relative;
+      width: 33px;
+      aspect-ratio: 1;
+    }
   }
 }
 

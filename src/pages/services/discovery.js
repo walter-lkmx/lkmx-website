@@ -91,7 +91,9 @@ export default function DiscoveryPage() {
                         <Link href="/services/agileDevelopment" legacyBehavior>
                             <div>
                                 <span>{$t.discovery.span.text}</span>
-                                <img src="/icons/arrow-right--pink.svg" alt="Pink arrow right"/> 
+                                <div className={styles.discovery__next__icon}>
+                                <Image fill src="/icons/arrow-right--pink.svg" alt="Pink arrow right"/> 
+                                </div>
                             </div>
                         </Link>                   
                     </Block>                  
