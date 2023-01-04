@@ -62,7 +62,7 @@
   }
   @include respond-to("<=l") {
     &__content {
-      align-items: center;
+      align-items: start;
       height: rem(46px);
       &__logo {
         display: grid;
