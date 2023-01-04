@@ -55,7 +55,7 @@ export default function DiscoveryPage() {
                         </div>
                     </Block>
                 </Column>
-                <Column className={styles.discovery__summary} number="1" mode="slim" modeM="normal" modeS="normal">
+                <Column className={styles.discovery__summary} number="1" mode="slim" modeM="normal" >
                     <Block className={styles.discovery__summary__first}>
                         <h3>{$t.discovery.bannerTitle[0]} {$t.discovery.bannerTitle[1]}</h3>
                         <p>{$t.discovery.prototype.summary.paragraph[0]} {$t.discovery.prototype.summary.paragraph[1]} {$t.discovery.prototype.summary.paragraph[2]} {$t.discovery.prototype.summary.paragraph[3]} {$t.discovery.prototype.summary.paragraph[4]}</p>
