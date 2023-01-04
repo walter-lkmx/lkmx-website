@@ -161,8 +161,9 @@
 					grid-template-columns: repeat(14, 1fr);
 					grid-template-areas: "a0 a1 a2 a3 a4 a5 a6 a7 a8 a9 a10 a11 a12 a13";
 					align-items: center;
-					justify-items: center;
-
+					@include respond-to("m") {
+						height: 48px;
+					}
 					&.row-0 {
 						grid-template-areas: ". . . a0 a1 a2 . a3 a4 a5 a6 . . ."
 					}
@@ -191,9 +192,13 @@
 						display: grid;
 						align-items: center;
 						justify-items: center;
-						height: rem(60px);
+						height: rem(50px);
 						position: relative;
 						aspect-ratio: 1;
+						img {
+							width: auto !important;
+							max-width: none !important;
+						}
 					}
 				}
 			}
@@ -248,16 +253,16 @@
 					margin: auto;
 					grid-row-gap: 0;
 
-					&__row {
-						max-width: 672px;
-						grid-column-gap: 0;
-
+					&__row {						
+						grid-column-gap: 0; 
+						@include respond-to("<=m") {
+							max-width: 672px;
+						}	
 						div {
-							height: rem(48px);
-
-							img {
-								height: rem(32px)
-							}
+							height: rem(48px);		
+							@include respond-to("<=m") {
+								height: rem(32px);
+							}					
 						}
 					}
 				}
@@ -357,13 +362,13 @@
 					&__row {
 						padding: 0 !important;
 						grid-template-columns: repeat(8, 1fr);
-						grid-template-areas: "a0 a1 a2 a3 a4 a5 a6 a7" "a8 a9 a10 a11 a12 a13";
+						grid-template-areas: "a0 a1 a2 a3 a4 a5 a6 a7";
 						grid-row-gap: 1rem;
 
 						div {
 							height: auto;
 							padding: 0 4px;
-							height: rem(40px);
+							height: rem(32px);
 						}
 
 						&.row-0 {
