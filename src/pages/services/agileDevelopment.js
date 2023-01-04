@@ -8,6 +8,7 @@ import getLang from '@/lang';
 import { useRouter } from "next/router";
 import Image from "next/image";
 import Link from "next/link"
+import GoBackBar from "../../components/goBackBar";
 
 export default function AgileDevelopment() {
     const { locale } = useRouter();
@@ -24,13 +25,7 @@ export default function AgileDevelopment() {
                 ogType={siteMetadata.ogType}
             />
             <Page>
-            <Column mode="normal">
-                <Block className={styles.agile__goBack}>
-                    <Link href="/services" legacyBehavior><Image src="/icons/arrow-left--white.svg" alt="go back" width={24} height={24}/></Link>                    
-                    <span>{$t.agile.goBack}</span>
-                </Block>                    
-            </Column>
-
+            <GoBackBar/> 
             <Column mode="normal" number="2" numberS="1"  className={styles.agile__hero}>
                 <Block className={styles.agile__hero__red} >
                     <div className={styles.agile__hero__phases}>
@@ -69,8 +64,6 @@ export default function AgileDevelopment() {
                 </Block>
                 
             </Column>
-
-
 
             <Column number="1" modeS="full" mode="slim" modeM="normal"  className={styles.agile__intro}>
                 <Block className={styles.agile__intro__block}>

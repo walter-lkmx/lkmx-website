@@ -276,9 +276,9 @@
         "back": "Go Back",
         "techs": "Technologies"
     },
+    "goBack": "Go Back",
     "discovery": {
         "title": "Discovery",
-        "goBack": "Go Back",
         "hero" :[
             "Our solutions start from the",
             "analysis of needs and objectives to",
@@ -326,7 +326,6 @@
           "Agile",
           "development"
         ],
-        "goBack": "Go Back",
         "hero": [
             "Our main service offers iteration of work by",
             " a multidisciplinary engineering team in",
@@ -392,7 +391,6 @@
         "Continuous",
         "Support"
       ],
-      "goBack": "Go Back",
       "hero": [
         "At the end of development, we offer ",
         "maintenance and support services for ",

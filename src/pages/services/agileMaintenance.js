@@ -9,6 +9,8 @@ import { useRouter } from "next/router";
 import Link from "next/link"
 import ImageLegacy from "next/legacy/image";
 import Image from "next/image";
+import GoBackBar from "../../components/goBackBar";
+
 export default function Ams() {
     const { locale } = useRouter();
     const $t = getLang(locale);
@@ -23,12 +25,7 @@ export default function Ams() {
                 ogType={siteMetadata.ogType}
             />
             <Page>
-                <Column mode="normal" modeS="full">
-                    <Block className={styles.ams__goBack}>
-                        <Link href="/services" legacyBehavior><img src="/icons/arrow-left--white.svg" alt="go back"/></Link>                    
-                        <span>{$t.ams.goBack}</span>
-                    </Block>                    
-                </Column>
+                <GoBackBar/>
                 <Column mode="full" number="2" numberM="1" numberS="1" className={styles.ams__hero} weight="left" weightXxl="normal">
                     <Block className={styles.ams__hero__left}>                        
                         <div className={styles.ams__hero__left__sections}>

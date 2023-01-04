@@ -254,9 +254,9 @@
     "back" : "Regresar",
     "techs": "Tecnologías"
   },
+  "goBack": "Regresar",
   "discovery": {
     "title": "Discovery",
-    "goBack": "Regresar",
     "hero": [
       "Nuestras soluciones comienzan desde el",
       "análisis de las necesidades y objetivos para",
@@ -301,7 +301,6 @@
       "Agile",
       "development"
     ],
-    "goBack": "Regresar",
     "hero": [
         "Nuestro principal servicio ofrece",
         "iteraciones de trabajo de un equipo",
@@ -366,8 +365,7 @@
     "title3":[
       "Continuous",
       "Support"
-    ],
-    "goBack": "Regresar",
+    ],    
     "hero": [
       "Al final del desarrollo, ofrecemos",
       "servicios de mantenimiento y soporte",

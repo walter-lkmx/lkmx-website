@@ -8,6 +8,7 @@ import getLang from '@/lang';
 import { useRouter } from "next/router";
 import Image from "next/image";
 import Link from "next/link"
+import GoBackBar from "../../components/goBackBar";
 
 export default function DiscoveryPage() {
     const { locale } = useRouter();
@@ -23,14 +24,8 @@ export default function DiscoveryPage() {
                 ogTwitterImage={`https://iili.io/H9S6dIj.jpg`}
                 ogType={siteMetadata.ogType}
             />
-            <Page>
-                <Column mode="normal">
-                    <Block className={styles.discovery__goBack}>
-                        <Link href="/services" legacyBehavior><Image src="/icons/arrow-left--white.svg" alt="go back" width={24} height={24}/></Link>
-                        
-                        <span>{$t.discovery.goBack}</span>
-                    </Block>                    
-                </Column>
+            <Page>  
+                <GoBackBar/>              
                 <Column modeL="normal" number="2" numberS="1" className={styles.discovery__hero}>                    
                     <Block className={styles.discovery__hero__blue} >
                         <div className={styles.discovery__hero__phases}></div>

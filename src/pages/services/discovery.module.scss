@@ -1,27 +1,4 @@
 .discovery {
-  &__goBack {
-    @include respond-to("<=s") {
-      justify-content: start;
-  }
-    &:first-child > div > div{
-      align-content: center;
-      align-items: center;
-      display: grid;
-      grid-template-columns: 4.5% auto;
-      @include respond-to("<=s") {
-        grid-template-columns: 25% auto;
-    }
-      padding: 10px 8px;
-      }
-      background-color: $color-neutral-black;
-      justify-content: center;
-      img {
-        cursor: pointer;
-      }
-      span {
-        color: white;
-      }
-  }
   &__hero {
     max-height: 457px;
     overflow: hidden;
