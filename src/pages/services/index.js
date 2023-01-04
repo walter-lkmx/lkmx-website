@@ -10,6 +10,7 @@ import siteMetadata from "../../meta/siteMetadata"
 import HeadSeo from "../../components/HeadSeo"
 import { useRouter } from "next/router";
 import Link from "next/link";
+import Image from "next/image";
 
 export default function ServicesPage() {
 
@@ -36,10 +37,9 @@ export default function ServicesPage() {
           </Block>
           <Block className={styles.page__services__dragon}>
             <div className={styles.page__services__dragon__content}>
-              <div>
-                <img src="/circle--pink.svg" alt="ellipse" className={styles.page__services__dragon__content__elipse}/>
-                <img src="/dragon.svg" alt="dragon" className={styles.page__services__dragon__content__image}/>
-              </div>
+            <div className={styles.page__services__dragon__content__elipseContainer}>
+              <Image fill priority src="/dragonServices.svg" alt="ellipse" className={styles.page__services__dragon__content__elipseContainer__elipse}/>
+            </div>
             </div>
           </Block>
         </Column>
@@ -62,6 +62,7 @@ export default function ServicesPage() {
         <Column mode="full" className={styles['page__phases-links']}>
           <Block>
             <div>
+
               <PhasesSvg className={styles['page__phases-links__svg-desktop']}/>
               <PhasesMobileSvg className={styles['page__phases-links__svg-mobile']}/>
               <div className={styles['page__phases-links__arrow']}>
@@ -77,18 +78,30 @@ export default function ServicesPage() {
               <div>
                 <h4>DISCOVERY</h4>
                 <p>{$t.services.phases[0]}</p>
-                <Link href="/services/discovery" legacyBehavior><img src="/icons/arrow-right--pink.svg" alt="arrow"/></Link> 
+                <Link href="/services/discovery" legacyBehavior>
+                  <div className={styles.page__iconContainer}>
+                    <Image fill src="/icons/arrow-right--pink.svg" alt="arrow"/>
+                  </div>                  
+                </Link> 
               </div>
               <div>
                 <h4>AGILE<br/>DEVELOPMENT</h4>
                 <p>{$t.services.phases[1]}</p>
-                <Link href="/services/agileDevelopment" legacyBehavior><img src="/icons/arrow-right--pink.svg" alt="arrow"/></Link>
+                <Link href="/services/agileDevelopment" legacyBehavior>
+                  <div className={styles.page__iconContainer}>
+                    <Image fill src="/icons/arrow-right--pink.svg" alt="arrow"/>
+                  </div>  
+                </Link>
                 
               </div>
               <div>
                 <h4>AGILE MAINTENANCE, SCOPE DEV. & CONTINUOUS SUPPORT</h4>
                 <p>{$t.services.phases[2]}</p>
-                <Link href="/services/agileMaintenance" legacyBehavior><img src="/icons/arrow-right--pink.svg" alt="arrow"/></Link> 
+                <Link href="/services/agileMaintenance" legacyBehavior>
+                  <div className={styles.page__iconContainer}>
+                    <Image fill src="/icons/arrow-right--pink.svg" alt="arrow"/>
+                  </div>    
+                </Link> 
               </div>
             </div>
           </Block>

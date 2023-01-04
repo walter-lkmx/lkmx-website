@@ -41,28 +41,39 @@
         justify-items: end;
         position: relative;
         height: rem(591px);
+        @include respond-to("<=s") {
+          justify-items: center;
+        }
         p {
           font-size: rem(16px);
         }
-        > div {
-          display: grid;
-          justify-self: start;
-        }
-        position: relative;
-        &__elipse {
-          position: absolute;
-          top: 0;
-          left: 50%;
-          transform: translate(calc(-50% + 29px), calc(-50% + 29px));
-        }
-        &__image {
-          width: 465px;
-          position: absolute;
-          top: -1rem;
-          left: 50%;
-          z-index: 2;
-          overflow: hidden;
-          transform: translate(-33%, calc(-54% - 6px));
+        &__elipseContainer {
+          position: relative;
+          width: 100%;
+          height: 488px;
+          @include respond-to("<=s") {
+            height: 261px;
+            aspect-ratio: 2/1;
+            width: unset;
+          }
+          @include respond-to("<=xs") {
+            transform: translateX(-15px);
+            width: 107%;
+            height: 261px;
+            aspect-ratio: unset;
+          }
+          &__elipse {
+            object-fit: cover;          
+            @include respond-to(">=xxl") {
+              object-fit: unset;
+            }  
+            @include respond-to("<=s") {
+              object-fit: unset;  
+            }
+            @include respond-to("<=xs") {
+              object-fit: cover;  
+            }
+          }
         }
       }
     }
@@ -147,8 +158,11 @@
     }
     grid-row-gap: 1.5rem;
   }
-
-
+  &__iconContainer {
+    position: relative;
+    width: 33px;
+    aspect-ratio: 1;
+  }
   @include respond-to(">=xl") {
     &__services {
       &__content {
@@ -241,11 +255,6 @@
         &__content {
           width: 100%;
           max-height: rem(290px);
-          > div {
-            position: relative;
-            justify-items: center;
-            width: 100%;
-          }
           &__elipse {
             top: 0;
             width: rem(341px);
