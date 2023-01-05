@@ -147,7 +147,7 @@
 						gap: 4px;
 						width: 175px;
 						height: 40px;
-						background: $color-pink;
+						background: $color-btn-default;
 						font-weight: 400;
 						font-size: 14px;
 						line-height: 24px;
@@ -156,7 +156,7 @@
 						cursor: pointer;
 						text-align: center;
 						&:hover {
-							background-color: $color-pink-dark;
+							background-color: $color-btn-hover;
 						}
 						@include respond-to("<=m") {
 							width: 100%;
@@ -424,7 +424,7 @@
 				&__btn {
 					gap: 4px;
 					height: 40px;
-					background: $color-pink;
+					background: $color-btn-default;
 					font-weight: 400;
 					font-size: 14px;
 					line-height: 24px;
@@ -433,7 +433,7 @@
 					justify-self: center;
 					cursor: pointer;
 					&:hover {
-						background-color: $color-pink-dark;
+						background-color: $color-btn-hover;
 					}
 				}
 				&__collabs {

@@ -11,10 +11,11 @@
             top: 0;
             width: 120px;
             height: 100%;
+            @include respond-to("l") {
+                width: 93px;
+                height: 77%;
+            }
             @include respond-to("<=m") {
-                height: 62%;
-            } 
-            @include respond-to("<=s") {
                 display: none;
             }                                  
         }        
@@ -62,12 +63,12 @@
             }
             &__cyan, &__blue, &__gray {
                 height: 100%;
-                width: 212px;
+                width: 219px;
                 position: relative;
                 display: grid;
                 align-content: center;
                 h3 {
-                    text-transform: none;
+                    text-transform: uppercase;
                     @include respond-to("<=l") {
                         font-size: 18px;
                     }
@@ -76,10 +77,13 @@
                     }
                 }
                 @include respond-to("<=l") {
-                    width: 172px;
+                    width: 180px;
                 }
                 @include respond-to("<=xs") {
-                    width: 133px;
+                    width: 152px;
+                }
+                @include respond-to("xxs") {
+                    width: 140px;
                 }
                 &__inter {
                     height: 457px;
