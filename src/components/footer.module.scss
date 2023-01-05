@@ -95,6 +95,37 @@
             font-size: 16px;
           }
         }
+        &__logo {
+          &__instaHover {
+            display: none;
+          }
+          &__instaContainer:hover &__instaHover {
+            display: block;
+          }
+          &__instaContainer:hover &__insta {
+            display: none;
+          }
+
+          &__twitterHover {
+            display: none;
+          }
+          &__twitterContainer:hover &__twitterHover {
+            display: block;
+          }
+          &__twitterContainer:hover &__twitter {
+            display: none;
+          }
+
+          &__linkedinHover {
+            display: none;
+          }
+          &__linkedinContainer:hover &__linkedinHover {
+            display: block;
+          }
+          &__linkedinContainer:hover &__linkedin {
+            display: none;
+          }
+        }
       }
     }
   }

@@ -55,17 +55,26 @@ export default function Footer() {
               <ul>
                 <li>
                   <Link href={siteMetadata.instagram} passHref target="_blank">
-                    <Image fill src="/icons/social-instagram.svg" alt="Instagram"/>
+                    <div className={styles.footer__top__content__information__logo__instaContainer}>
+                      <Image fill src="/icons/social-instagram.svg" alt="Instagram" className={styles.footer__top__content__information__logo__insta}/>
+                      <Image fill src="/icons/social-instagram-hover.svg" alt="Instagram" className={styles.footer__top__content__information__logo__instaHover}/>
+                    </div>
                   </Link>
                 </li>
                 <li>
                   <Link href={siteMetadata.twitter} target="_blank">
-                    <Image fill src="/icons/social-twitter.svg" alt="Twitter"/>
+                    <div className={styles.footer__top__content__information__logo__twitterContainer}>
+                      <Image fill src="/icons/social-twitter.svg" alt="Twitter" className={styles.footer__top__content__information__logo__twitter}/>
+                      <Image fill src="/icons/social-twitter-hover.svg" alt="Twitter" className={styles.footer__top__content__information__logo__twitterHover}/>
+                    </div>
                   </Link>
                 </li>
                 <li>
                   <Link href={siteMetadata.linkedin} target="_blank">
-                    <Image fill src="/icons/social-linkedin.svg" alt="Linkedin"/>
+                    <div className={styles.footer__top__content__information__logo__linkedinContainer}>
+                      <Image fill src="/icons/social-linkedin.svg" alt="Linkedin" className={styles.footer__top__content__information__logo__linkedin}/>
+                      <Image fill src="/icons/social-linkedin-hover.svg" alt="Linkedin" className={styles.footer__top__content__information__logo__linkedinHover}/>
+                    </div>
                   </Link>
                 </li>
               </ul>
