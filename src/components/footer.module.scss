@@ -4,6 +4,9 @@
     color: white;
     li, li > a {
       color: $color-cyan;
+      &:hover {
+        color: $color-footer-hover;
+      }
     }
     ul, li, h2, h3, p {
       margin: 0;
@@ -129,13 +132,13 @@
         &__pages {
           grid-template-columns: rem(221px) rem(223px) auto;
         }
-        &__information {
+        //&__information {
           // p {
           //   text-align: end;
           //   align-self: end;
           //   width: rem(413px);
           // }
-        }
+        //}
       }
     }
   }

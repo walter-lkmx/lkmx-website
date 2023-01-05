@@ -19,6 +19,9 @@
       &__active {
         color: $color-pink;
       }
+      &:hover {
+        color: $color-pink;
+      }
     }
     
     &.white-color > a {
