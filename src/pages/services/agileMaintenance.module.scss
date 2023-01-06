@@ -69,7 +69,7 @@
                 align-content: center;
                 h3 {
                     text-transform: uppercase;
-                    font-family: 'Inter';
+                    font-family: var(--lk-font-inter);
                     font-size: 20px;
                     @include respond-to("<=l") {
                         font-size: 18px;
