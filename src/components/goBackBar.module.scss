@@ -5,15 +5,17 @@
     &:first-child > div > div{
       align-items: center;
       display: grid;
+      padding: 10px 8px;      
+    }
+    &__wrapper {
+      display: grid;
       grid-template-columns: min-content auto;
-      padding: 10px 8px;
       gap: 10px;
+      cursor: pointer;
+      width: fit-content;
     }
     background-color: $color-neutral-black;
     justify-content: center;
-    img {
-    cursor: pointer;
-    }
     span {
     color: white;
     }

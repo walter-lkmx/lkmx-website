@@ -13,11 +13,14 @@ export default function GoBackBar() {
         <Column mode="normal">
             <Block className={styles.goBack}>
                 <Link href="/services" legacyBehavior>
-                    <div className={styles.goBack__icon}>
-                        <Image fill src="/icons/arrow-left--white.svg" alt="go back"/>
-                    </div>                    
+                    <div className={styles.goBack__wrapper}>
+                        <div className={styles.goBack__icon}>
+                            <Image fill src="/icons/arrow-left--white.svg" alt="go back"/>
+                        </div>  
+                        <span>{$t.goBack}</span>
+                    </div>                                      
                 </Link>
-                <span>{$t.goBack}</span>
+                
             </Block>
         </Column>
     );
