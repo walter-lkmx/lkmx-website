@@ -94,7 +94,10 @@
                 color: $color-neutral-black;
                 text-transform: uppercase;
                 font-family: $font-tertiary;
-                font-size: rem(35px)
+                font-size: rem(35px);
+                @include respond-to("xxs") {
+                    font-size: 32px;
+                }
               }
             }
             &__pink {
@@ -120,8 +123,23 @@
             display: grid;
             p {
               font-size: 20px;
-            }      
-            @include respond-to("<=xs") {
+              @include respond-to("l") {
+                transform: translateX(-35px);
+                br {
+                    display: none;
+                }
+                width: 351px;
+              } 
+              @include respond-to("m") {
+                br {
+                    display: none;
+                }
+              }
+              @include respond-to("<=m") {
+                font-size: 16px;
+              }             
+            }                  
+            @include respond-to("xxs") {
               br {
                 display: none;
               }

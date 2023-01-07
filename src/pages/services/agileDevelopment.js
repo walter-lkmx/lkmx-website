@@ -26,7 +26,7 @@ export default function AgileDevelopment() {
             />
             <Page>
             <GoBackBar/> 
-            <Column mode="normal" number="2" numberS="1"  className={styles.agile__hero}>
+            <Column mode="normal" number="2" numberS="1" weight="left" className={styles.agile__hero}>
                 <Block className={styles.agile__hero__red} >
                     <div className={styles.agile__hero__phases}>
                         <div className={styles.agile__hero__phases__diagonal}></div>
