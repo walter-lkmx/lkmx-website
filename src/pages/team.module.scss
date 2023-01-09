@@ -75,10 +75,10 @@
       display: grid;
       &__container {
         position: absolute;
-        height: 591px;
-        width: 154px;
+        height: 101%;
+        width: 156px;
         right: 120px;
-        top: -1px;
+        top: -5px;
         @include respond-to("<=l") {
           right: 0;
         }
