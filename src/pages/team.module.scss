@@ -76,10 +76,14 @@
       &__container {
         position: absolute;
         height: 591px;
-        width: 155px;
+        width: 154px;
         right: 120px;
+        top: -1px;
         @include respond-to("<=l") {
           right: 0;
+        }
+        @include respond-to("<=s") {
+          top: -2px;
         }
       }
       &__triangle {
@@ -88,6 +92,10 @@
         top: 0;
         right: 120px;
         height: 100%;
+        img {
+          object-fit: cover;
+          height: 100%;
+        }
       }
       &__clouds {
         position: absolute;
@@ -98,6 +106,7 @@
         height: inherit;
         img {
           height: 100%;
+          object-fit: cover;
         }
       }
       &__koi {
@@ -511,13 +520,14 @@
         &__triangle {
           display: none;
         }
-        &__triangle-mobile,
+        // &__triangle-mobile,
         &__clouds-mobile {
-          display: grid;
+          display: block;
           position: absolute;
         }
         &__triangle-mobile {
-          right: rem(64px);
+          //right: rem(64px);
+          display: block;
         }
         &__clouds-mobile {
           right: 0;
