@@ -11,8 +11,15 @@
     &__logo > a {
       position: relative;
       display: block;
-      width: rem(121px);
-      height: rem(50px);
+      width: rem(120.84px);
+      height: rem(48.15px);
+      @include respond-to("<=m") {
+        width: rem(195.88px);
+        height: rem(38.2px);
+        padding-bottom: 12px;
+        align-items: center;
+        transform: translateY(5px);
+      }
     }
     &__menu {
       display: none;
@@ -67,9 +74,8 @@
       &__logo {
         display: grid;
         align-items: center;
-        a { display: grid }
-        img{
-          height: rem(38.4px);
+        a { 
+          display: grid;
         }
       }
       &__menu {

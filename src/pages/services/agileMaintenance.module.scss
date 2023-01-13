@@ -55,11 +55,14 @@
             &__diagonal {
                 width: 209px;
                 position: relative;
-                height: 100%;
-                top: 1px;      
+                height: calc(100% + 2px);
+                top: -1px;      
                 @include respond-to("<=s") {
                     width: 148px;
-                }          
+                }    
+                &__image {
+                    object-fit: cover;
+                }      
             }
             &__cyan, &__blue, &__gray {
                 height: 100%;

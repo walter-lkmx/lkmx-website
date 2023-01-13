@@ -33,8 +33,9 @@ export default function Ams() {
                             <div className={styles.ams__hero__left__diagonal}>
                                 <Image
                                     fill
-                                    src={"/ams-hero-diagonal-small.svg"}
+                                    src={"/ams-left-diagonals-small.svg"}
                                     alt="diagonal"
+                                    className={styles.ams__hero__left__diagonal__image}
                                 />
                             </div>
                             <div className={styles.ams__hero__left__cyan}>
