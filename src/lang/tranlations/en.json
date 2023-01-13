@@ -1,460 +1,473 @@
 {
-    "ogDefaultValues": {
-        "ogDefaultImage": "https://iili.io/HKsuJe4.jpg"
+  "ogDefaultValues": {
+      "ogDefaultImage": "https://iili.io/HKsuJe4.jpg"
+  },
+  "home": {
+    "title": "We turn your ideas into reality",
+    "ogDescription": "Our team of experts conceptualize, design, and deliver the most complex software solutions, leading the digital transformation of companies around the globe.",
+    "ogImage": "",
+    "title2": [
+        "We turn",
+        "your ideas into reality"
+    ], 
+    "hero": [
+        "We are strategic partners with businesses in different industries around",
+        "the world, building innovative software solutions",
+        "with our unique methodology and",
+        "the most solid technology."
+    ],
+    "servicesTitle": "SERVICES",
+    "services": [
+        "As a",
+        "REAL ALTERNATIVE",
+        "to",
+        "STAFF-AUGMENTATION",
+        ",", 
+        "we designed services ideal to build custom",
+        "solutions of any level of complexity and ",
+        "timelines with any type of demand."            
+    ],
+    "technologiesTitle": "TECHNOLOGIES",
+    "technologies": [
+        "We apply three  principles when choosing our technology: Agile, Cloud, Open-Source.",
+        "Our technology stack is kept organized and updated by software architects with decades of combined experience."            
+    ],
+    "team": [
+        "We are a mix between ",
+        "creatives",
+        "and",
+        "experts",
+        "in",
+        "technology. We connect our skills to build robust, flexible, scalable and secure",
+        "software solutions."
+    ],
+    "work": [
+        "We are",
+        "strategic partners",
+        "of",
+        "companies around the world"
+    ],
+    "locations": {
+      "title": "UBICACIÓN ESTRATÉGICA",
+      "par": [
+        "Cercana a la frontera norte de México, nos coloca en un ",
+        "escenario de intercambio",
+        "CULTURAL",
+        "y",
+        "COMERCIAL",
+        "constante con EE.UU., un punto de convergencia para",
+        "para grandes centros de investigación científica y tecnológica,",
+        "fuente de las mentes mas capacitadas del país."
+      ]
     },
-    "home": {
-      "title": "We turn your ideas into reality",
-      "ogDescription": "Our team of experts conceptualize, design, and deliver the most complex software solutions, leading the digital transformation of companies around the globe.",
+    "buttons": {
+      "btnServices": "See our services",
+      "btnTechnologies": "Discover our technologies",
+      "btnTeam": "Get to know us",
+      "btnWork": "Explore"
+    }
+  },
+  "services": {
+      "title": "Services",
+      "ogDescription": "We design custom software development services for companies with technology needs of any degree of complexity and timelines of any demand.",
       "ogImage": "",
-      "title2": [
-          "We turn",
-          "your ideas into reality"
-      ], 
       "hero": [
-          "We are strategic partners with businesses in different industries around",
-          "the world, building innovative software solutions",
-          "with our unique methodology and",
-          "the most solid technology."
-      ],
-      "servicesTitle": "SERVICES",
-      "services": [
           "As a",
           "REAL ALTERNATIVE",
           "to",
           "STAFF-AUGMENTATION",
-          ",", 
-          "we designed services ideal to build custom",
-          "solutions of any level of complexity and ",
-          "timelines with any type of demand."            
+          "we design custom software development services for companies with technology needs of any degree of complexity and timelines of any demand"
       ],
-      "technologiesTitle": "TECHNOLOGIES",
-      "technologies": [
-          "We apply three  principles when choosing our technology: Agile, Cloud, Open-Source.",
-          "Our technology stack is kept organized and updated by software architects with decades of combined experience."            
+      "banner": [
+          "We specialize in building",
+          "SOFTWARE SOLUTIONS FROM SCRATCH",
+          "so our services cover all phases of the software life cycle",
+          "Our methodologies provide the greatest possible flexibility while keeping deliverables, timelines and costs under control"
       ],
-      "team": [
-          "We are a mix between ",
-          "creatives",
+      "phases": [
+          "Our solutions begin with a preliminary study of the challenges and objectives to be met. This will be the starting point for the success of the project.",
+          "Based on what we discover, we create amazing web and mobile experiences involving data management, big data, blockchain and artificial intelligence.",
+          "At the end of development we offer maintenance and support services for a successful stabilization and transfer of the platform."
+      ]
+  },
+  "methodology": {
+    "title": "Methodology",
+    "ogDescription": "Our methodologies provide the greatest possible flexibility while keeping deliverables, timelines and costs under control.",
+    "ogImage": "",
+    "hero": [
+        "-"
+    ]
+  },
+  "team": {
+      "title": "Team",
+      "ogDescription": "We are a combination of CREATIVE PEOPLE and TECHNOLOGY EXPERTS. We connect our skills to build robust, flexible, scalable and secure software solutions.",
+      "ogImage": "",
+      "headline": "OUR TEAM",
+      "hero": [
+          "We are a combination of",
+          "creative people",
           "and",
-          "experts",
-          "in",
-          "technology. We connect our skills to build robust, flexible, scalable and secure",
-          "software solutions."
+          "technology experts",
+          ". We connect our skills to build robust, flexible, scalable and secure software solutions."
       ],
-      "work": [
-          "We are",
-          "strategic partners",
-          "of",
-          "companies around the world"
-      ],
-      "locations": {
-        "title": "UBICACIÓN ESTRATÉGICA",
-        "par": [
-          "Cercana a la frontera norte de México, nos coloca en un ",
-          "escenario de intercambio",
-          "CULTURAL",
-          "y",
-          "COMERCIAL",
-          "constante con EE.UU., un punto de convergencia para",
-          "para grandes centros de investigación científica y tecnológica,",
-          "fuente de las mentes mas capacitadas del país."
-        ]
+      "banner": {
+          "title": [
+              "A SUM OF",
+              "ENGINEERS",
+              "ARTISTS",
+              "ANALYSTS",
+              "AND VISIONARIES MAKE UP OUR TEAM."
+          ],
+          "text": "Divided by areas, but interconnected through well-defined processes, we integrate a robust engineering team capable of operating at breakneck speeds."
       },
-      "buttons": {
-        "btnServices": "See our services",
-        "btnTechnologies": "Discover our technologies",
-        "btnTeam": "Get to know us",
-        "btnWork": "Explore"
+      "analysis": {
+          "title": "ANALYSIS",
+          "text": "They are in charge of orchestrating the capturing methodology, analyzing the requirements and communicating to the production areas of the company."
+      },
+      "design": {
+          "title": "DESIGN",
+          "text": "They create and standardize digital artifacts according to best practices that collaborate in the collection methodology and requirements analysis."
+      },
+      "development": {
+          "title": "DEVELOPMENT",
+          "text": "They apply software engineering techniques to create advanced technology effectively and efficiently."
+      },
+      "quality": {
+          "title": "QUALITY",
+          "text": "They ensure that software features meet defined specifications or exceed expectations."
       }
-    },
-    "services": {
-        "title": "Services",
-        "ogDescription": "We design custom software development services for companies with technology needs of any degree of complexity and timelines of any demand.",
-        "ogImage": "",
-        "hero": [
-            "As a",
-            "REAL ALTERNATIVE",
-            "to",
-            "STAFF-AUGMENTATION",
-            "we design custom software development services for companies with technology needs of any degree of complexity and timelines of any demand"
-        ],
-        "banner": [
-            "We specialize in building",
-            "SOFTWARE SOLUTIONS FROM SCRATCH",
-            "so our services cover all phases of the software life cycle",
-            "Our methodologies provide the greatest possible flexibility while keeping deliverables, timelines and costs under control"
-        ],
-        "phases": [
-            "Our solutions begin with a preliminary study of the challenges and objectives to be met. This will be the starting point for the success of the project.",
-            "Based on what we discover, we create amazing web and mobile experiences involving data management, big data, blockchain and artificial intelligence.",
-            "At the end of development we offer maintenance and support services for a successful stabilization and transfer of the platform."
-        ]
-    },
-    "methodology": {
-      "title": "Methodology",
-      "ogDescription": "Our methodologies provide the greatest possible flexibility while keeping deliverables, timelines and costs under control.",
+      ,
+      "reviews": [
+          "WHAT OUR PARTNERS",
+          "SAY",
+          "ABOUT US."
+      ]
+  },
+  "technology": {
+      "title": "Technology",
+      "ogDescription": "We use three principles when choosing our technology: Agile, Cloud and Open Source.",
       "ogImage": "",
       "hero": [
-          "-"
+          "We use three principles when choosing our technology: Agile, Cloud and Open Source.",
+          "Our technology",
+          "STACK",
+          "is kept",
+          "ORGANIZED",
+          "and",
+          "UP-TO-DATE",
+          "by software architects with decades of combined experience."
+      ],
+      "principles": [
+          "Our tools help us achieve high development speeds.",
+          "Our software is cloud-native and seamlessly integrates with any platform.",
+          "We are experts in open source, we know it and we study it before incorporating it into our software."
+      ]
+  },
+  "work": {
+      "title": "Work",
+      "ogDescription": "Get to know a sample of the CHALLENGES and SOLUTIONS we have developed for some of our clients.",
+      "ogImage": "",
+      "hero": [
+          "Get to know a sample of the",
+          "challenges",
+          "and",
+          "solutions",
+          "we have developed for some",
+          "of our clients."
+      ]
+  },
+  "industries": {
+      "title": "Industries",
+      "ogDescription": "Our history in diverse industries gives us the needed experience to understand your business and create software solutions that make your product successful.",
+      "ogImage": "",
+      "hero": [
+        "Our history in diverse industries gives us the needed experience to understand your business and create software solutions that make your product successful."
+      ],
+      "intro": "We keep up with evolving trends and technologies that impact digital changes and offer opportunities depending on the type of company.",
+      "catalogTitle": "Each idea requires a custom solution",
+      "catalogDescription": "Learn more about how we help other businesses related to your industry.",
+      "catalogItems": [
+        {
+          "title": "Healthcare & Wellness",
+          "description": "We create innovative solutions by incorporating safe technologies into the provision of medical services and personal well-being.",
+          "img": "/icon-industry-healthcare_wellness.svg"
+        },
+        {
+          "title": "Logistics",
+          "description": "We modernize services that help our clients meet requirements, reduce costs, increase efficiency and deliver Mission Critical results.",
+          "img": "/icon-industry-logistics.svg"
+        },
+        {
+          "title": "Data Analytics",
+          "description": "We build and connect flexible, scalable, and elastic data intelligence experiences to give certainty to business decisions.",
+          "img": "/icon-industry-data_analytics.svg"
+        },
+        {
+          "title": "Hospitality",
+          "description": "We help our customers gain a competitive advantage by enriching their customer experience and improving their operational efficiency.",
+          "img": "/icon-industry-hospitality.svg"
+        },
+        {
+          "title": "Ecommerce",
+          "description": "We develop solutions on the cloud that not just optimize sales operations, but also delight customers and promote brand adoption.",
+          "img": "/icon-industry-ecommerce.svg"
+        },
+        {
+          "title": "Entrepreneurship",
+          "description": "We prototype, validate, and build scalable MVPs, minimizing risks and maximizing returns. We accompany the entrepreneur on his long journey.",
+          "img": "/icon-industry-entrepreneurship.svg"
+        },
+        {
+          "title": "Web3",
+          "description": "We design creative and innovative decentralized solutions for public and private protocols of the new internet.",
+          "img": "/icon-industry-web3.svg"
+        },
+        {
+          "title": "Process Innovation",
+          "description": "We transform business, we produce enterprise-level, efficient and, powerful implementations.",
+          "img": "/icon-industry-process_innovation.svg"
+        }
       ]
     },
-    "team": {
-        "title": "Team",
-        "ogDescription": "We are a combination of CREATIVE PEOPLE and TECHNOLOGY EXPERTS. We connect our skills to build robust, flexible, scalable and secure software solutions.",
-        "ogImage": "",
-        "headline": "OUR TEAM",
-        "hero": [
-            "We are a combination of",
-            "creative people",
-            "and",
-            "technology experts",
-            ". We connect our skills to build robust, flexible, scalable and secure software solutions."
-        ],
-        "banner": {
-            "title": [
-                "A SUM OF",
-                "ENGINEERS",
-                "ARTISTS",
-                "ANALYSTS",
-                "AND VISIONARIES MAKE UP OUR TEAM."
-            ],
-            "text": "Divided by areas, but interconnected through well-defined processes, we integrate a robust engineering team capable of operating at breakneck speeds."
-        },
-        "analysis": {
-            "title": "ANALYSIS",
-            "text": "They are in charge of orchestrating the capturing methodology, analyzing the requirements and communicating to the production areas of the company."
-        },
-        "design": {
-            "title": "DESIGN",
-            "text": "They create and standardize digital artifacts according to best practices that collaborate in the collection methodology and requirements analysis."
-        },
-        "development": {
-            "title": "DEVELOPMENT",
-            "text": "They apply software engineering techniques to create advanced technology effectively and efficiently."
-        },
-        "quality": {
-            "title": "QUALITY",
-            "text": "They ensure that software features meet defined specifications or exceed expectations."
-        }
-        ,
-        "reviews": [
-            "WHAT OUR PARTNERS",
-            "SAY",
-            "ABOUT US."
-        ]
-    },
-    "technology": {
-        "title": "Technology",
-        "ogDescription": "We use three principles when choosing our technology: Agile, Cloud and Open Source.",
-        "ogImage": "",
-        "hero": [
-            "We use three principles when choosing our technology: Agile, Cloud and Open Source.",
-            "Our technology",
-            "STACK",
-            "is kept",
-            "ORGANIZED",
-            "and",
-            "UP-TO-DATE",
-            "by software architects with decades of combined experience."
-        ],
-        "principles": [
-            "Our tools help us achieve high development speeds.",
-            "Our software is cloud-native and seamlessly integrates with any platform.",
-            "We are experts in open source, we know it and we study it before incorporating it into our software."
-        ]
-    },
-    "work": {
-        "title": "Work",
-        "ogDescription": "Get to know a sample of the CHALLENGES and SOLUTIONS we have developed for some of our clients.",
-        "ogImage": "",
-        "hero": [
-            "Get to know a sample of the",
-            "challenges",
-            "and",
-            "solutions",
-            "we have developed for some",
-            "of our clients."
-        ]
-    },
-    "industries": {
-        "title": "Industries",
-        "ogDescription": "Our history in diverse industries gives us the needed experience to understand your business and create software solutions that make your product successful.",
-        "ogImage": "",
-        "hero": [
-          "Our history in diverse industries gives us the needed experience to understand your business and create software solutions that make your product successful."
-        ],
-        "intro": "We keep up with evolving trends and technologies that impact digital changes and offer opportunities depending on the type of company.",
-        "catalogTitle": "Each idea requires a custom solution",
-        "catalogDescription": "Learn more about how we help other businesses related to your industry.",
-        "catalogItems": [
-          {
-            "title": "Healthcare & Wellness",
-            "description": "We create innovative solutions by incorporating safe technologies into the provision of medical services and personal well-being.",
-            "img": "/icon-industry-healthcare_wellness.svg"
+  "header":{
+      "module1": "SERVICES",
+      "module2": "METHODOLOGY",
+      "module3": "TECHNOLOGY",
+      "module4": "WORK",
+      "module5": "TEAM",
+      "module6": "INDUSTRIES"
+  },
+  "footer": {
+      "paragraph": [
+        "We have been providing software engineering services from",
+        "our headquarters in Ensenada, Baja California, Mexico", 
+        "since January 2014."
+      ],
+      "pages": {
+          "services": {
+              "title": "SERVICES",
+              "items": [
+                  "Our Services",
+                  "Discovery",
+                  "Agile development",
+                  "Agile maintenance"
+              ]
           },
-          {
-            "title": "Logistics",
-            "description": "We modernize services that help our clients meet requirements, reduce costs, increase efficiency and deliver Mission Critical results.",
-            "img": "/icon-industry-logistics.svg"
+          "methodology": {
+              "title": "INDUSTRIES",
+              "items": [
+                  "Industries",
+                  "MAAD",
+                  "Flare",
+                  "Ontology"
+              ]
           },
-          {
-            "title": "Data Analytics",
-            "description": "We build and connect flexible, scalable, and elastic data intelligence experiences to give certainty to business decisions.",
-            "img": "/icon-industry-data_analytics.svg"
-          },
-          {
-            "title": "Hospitality",
-            "description": "We help our customers gain a competitive advantage by enriching their customer experience and improving their operational efficiency.",
-            "img": "/icon-industry-hospitality.svg"
-          },
-          {
-            "title": "Ecommerce",
-            "description": "We develop solutions on the cloud that not just optimize sales operations, but also delight customers and promote brand adoption.",
-            "img": "/icon-industry-ecommerce.svg"
-          },
-          {
-            "title": "Entrepreneurship",
-            "description": "We prototype, validate, and build scalable MVPs, minimizing risks and maximizing returns. We accompany the entrepreneur on his long journey.",
-            "img": "/icon-industry-entrepreneurship.svg"
-          },
-          {
-            "title": "Web3",
-            "description": "We design creative and innovative decentralized solutions for public and private protocols of the new internet.",
-            "img": "/icon-industry-web3.svg"
-          },
-          {
-            "title": "Process Innovation",
-            "description": "We transform business, we produce enterprise-level, efficient and, powerful implementations.",
-            "img": "/icon-industry-process_innovation.svg"
+          "technology": {
+              "title": "TECHNOLOGY",
+              "items": [
+                  "Our Technologies",
+                  "Frameworks",
+                  "Platforms",
+                  "Tools"
+              ]
           }
-        ]
+      }
+  },
+  "project": {
+      "services": "Services",
+      "methodologies": "Methodologies",
+      "years": "Years",
+      "back": "Go Back",
+      "techs": "Technologies"
+  },
+  "goBack": "Go Back",
+  "discovery": {
+      "title": "Discovery",
+      "hero" :[
+          "Our solutions start from the",
+          "analysis of needs and objectives to",
+          "define the best route, as well as its scope."
+      ],
+      "bannerTitle" : [
+          "We use a couple of specialized",
+          "Methodologies"
+      ],
+      "prototype" : {
+          "summary": {
+              "title": "We create an initial prototype",
+              "paragraph": [
+                  "We create an initial prototype of the software in the form of a",
+                  "collection of artifacts, allowing stakeholders to make informed",
+                  "decisions on the path to follow to obtain new",
+                  "business capabilities or optimize processes, all this with an",
+                  "agile technology project ready to be executed."  
+              ]
+          },
+          "rapid" : {
+              "title": "RAPID PROTOTYPING",
+              "paragraph": [
+                  "It helps us to offer constant deliveries of a prototype, with the views and",
+                  "scenarios that constitute the software solution, maximizing",
+                  "time."
+              ]
+          },
+          "adhoc" : {
+              "title": "AD-HOC DISCOVERY",
+              "paragraph": [
+                  "We develop a customized plan, involving one or more requirements",
+                  "analysis and prototyping techniques that clarify the path for the",
+                  "business and in many cases propose a viable path for the",
+                  "implementation of the solution."
+              ]
+          }
       },
-    "header":{
-        "module1": "SERVICES",
-        "module2": "METHODOLOGY",
-        "module3": "TECHNOLOGY",
-        "module4": "WORK",
-        "module5": "TEAM",
-        "module6": "INDUSTRIES"
-    },
-    "footer": {
-        "paragraph": [
-          "We have been providing software engineering services from",
-          "our headquarters in Ensenada, Baja California, Mexico", 
-          "since January 2014."
-        ],
-        "pages": {
-            "services": {
-                "title": "SERVICES",
-                "items": [
-                    "Our Services",
-                    "Discovery",
-                    "Agile development",
-                    "Agile maintenance"
-                ]
-            },
-            "methodology": {
-                "title": "INDUSTRIES",
-                "items": [
-                    "Industries",
-                    "MAAD",
-                    "Flare",
-                    "Ontology"
-                ]
-            },
-            "technology": {
-                "title": "TECHNOLOGY",
-                "items": [
-                    "Our Technologies",
-                    "Frameworks",
-                    "Platforms",
-                    "Tools"
-                ]
-            }
-        }
-    },
-    "project": {
-        "services": "Services",
-        "methodologies": "Methodologies",
-        "years": "Years",
-        "back": "Go Back",
-        "techs": "Technologies"
-    },
-    "goBack": "Go Back",
-    "discovery": {
-        "title": "Discovery",
-        "hero" :[
-            "Our solutions start from the",
-            "analysis of needs and objectives to",
-            "define the best route, as well as its scope."
-        ],
-        "bannerTitle" : [
-            "We use a couple of specialized",
-            "Methodologies"
-        ],
-        "prototype" : {
-            "summary": {
-                "title": "We create an initial prototype",
-                "paragraph": [
-                    "We create an initial prototype of the software in the form of a",
-                    "collection of artifacts, allowing stakeholders to make informed",
-                    "decisions on the path to follow to obtain new",
-                    "business capabilities or optimize processes, all this with an",
-                    "agile technology project ready to be executed."  
-                ]
-            },
-            "rapid" : {
-                "title": "RAPID PROTOTYPING",
-                "paragraph": [
-                    "It helps us to offer constant deliveries of a prototype, with the views and",
-                    "scenarios that constitute the software solution, maximizing",
-                    "time."
-                ]
-            },
-            "adhoc" : {
-                "title": "AD-HOC DISCOVERY",
-                "paragraph": [
-                    "We develop a customized plan, involving one or more requirements",
-                    "analysis and prototyping techniques that clarify the path for the",
-                    "business and in many cases propose a viable path for the",
-                    "implementation of the solution."
-                ]
-            }
-        },
-        "span": {
-            "text": "AGILE DEVELOPMENT"
-        }
-    },
-    "agile": {
-        "title": [
-          "Agile",
-          "development"
-        ],
-        "hero": [
-            "Our main service offers iteration of work by",
-            " a multidisciplinary engineering team in",
-            "charge of designing the architecture and",
-            "building the solution of the software from",
-            "the ideation to the end of the lifecycle."
-        ],
-        "intro": [
-            "Our projects are based on iterations that include three phases: DEFINITION,",
-            "IMPLEMENTATION, and ACCEPTANCE.",
-            "Iterations are put into a FIXED GANTT CHART that provides flexibility and",
-            "predictability in deliverables, timeline and resources."
-          ],
-          "intro2": [
-            "We organize our team in DEFINITION and IMPLEMENTATION groups",
-            "using our custom methodology that is supported over different production-tested techniques for",
-            "requirement analysis, user-interface design, versioning, code architecture, and delivery.",
-            "At the end of the implementation, the result is delivered to our clients in proper staging environments",
-            "so they can perform their ACCEPTANCE tests. We accomplish this through proprietary versioning mechanisms",
-            "and perfected continuous integration mechanisms."
-          ],
-          "maad" : {
-            "title": "MAAD",
-            "par1": "We created the Analysis and Design Agile Methodology, a collection of activities that allows us to capture the stakeholders' requirements and transform them into a backlog with short, clear, concise and actionable elements.",
-            "par2": "The methodology standardizes the collecting of requirements and process them into entities like epics, stories and deltas that clearly describe the changes to be implemented.",
-            "par3": "Each backlog element has a strict but simplified state that can be monitored using tools like Jira and Confluence."
-          },
-          "flare": {
-            "title": "flare",
-            "par": "We employ a proprietary design system that allows for a fast inception and efficient implementation of interfaces with perfect grids and consistent styles since the first iteration. Flare defines clear and implementable concepts on four key points: style, structure, user interface and content."
-          },
-          "scrum": {
-            "title": "scrum",
-            "par": "The use of Scrum as a framework allows us to approach complex problems while valuable, continuous and constant deliveries are done in a creative manner and focused on increasing team productivity. Based on the CMMI model, we implement good practices that allow us to increase and optimize performance of the processes directly and indirectly involved in software development, maximizing opportunities and mitigating risks."
-          },
-          "agile": {
-            "title": "agile flow",
-            "par": "We design robust and flexible proprietary versioning mechanisms, compatible with industry standards. These processes, combined with our continuous integration mechanisms, allow us to reach maximum development speeds while maintaining total control of the quality of each of the components involved and their integrations."
-          },
-          "cd": {
-            "title": "cd/ci",
-            "par": [
-                "Our source code is managed using proprietary continuous integration infrastructure that automates binary versioning, packaging and release.",
-                "The entire automation of our DevOps processes allows us to deliver functional versions to our clients at the end of each iteration."
-            ]
-          },
-        "span": {
-            "back":"DISCOVERY",
-            "forward": "AGILE MAINTENANCE, SCOPE DEV. & CONTINUOUS SUPPORT"
-        }
-    },
-    "ams": {
-      "title": "Agile Maintenance",
-      "title1":[
+      "span": {
+          "text": "AGILE DEVELOPMENT"
+      }
+  },
+  "agile": {
+      "title": [
         "Agile",
-        "Maintenance"
-      ],
-      "title2":[
-        "Scope",
-        "Development"
-      ],
-      "title3":[
-        "Continuous",
-        "Support"
+        "development"
       ],
       "hero": [
-        "At the end of development, we offer ",
-        "maintenance and support services for ",
-        "a successful stabilization and transfer ",
-        "of the platform."
+          "Our main service offers iteration of work by",
+          " a multidisciplinary engineering team in",
+          "charge of designing the architecture and",
+          "building the solution of the software from",
+          "the ideation to the end of the lifecycle."
       ],
-      "left": {
-        "title": [
-          "WE USE KANBAN",
-          "AS AN AGILE FRAMEWORK"
+      "intro": [
+          "Our projects are based on iterations that include three phases: DEFINITION,",
+          "IMPLEMENTATION, and ACCEPTANCE.",
+          "Iterations are put into a FIXED GANTT CHART that provides flexibility and",
+          "predictability in deliverables, timeline and resources."
         ],
-        "par": [
-          "We employ Kanban as an agile workframe to prioritize and organize planned and on-call work, ",
-          "which allows us to maintain a constant flow of deliverables, through the implementation of ",
-          "solutions that immediately provide value to the client."
-        ]
-      },
-      "right": {
-        "title1": [
-          "SCOPE",
-          "DEVELOPMENT"
+        "intro2": [
+          "We organize our team in DEFINITION and IMPLEMENTATION groups",
+          "using our custom methodology that is supported over different production-tested techniques for",
+          "requirement analysis, user-interface design, versioning, code architecture, and delivery.",
+          "At the end of the implementation, the result is delivered to our clients in proper staging environments",
+          "so they can perform their ACCEPTANCE tests. We accomplish this through proprietary versioning mechanisms",
+          "and perfected continuous integration mechanisms."
         ],
-        "par1": [
-          "This option is offered to existing clients when, after finishing the initial development phase,",
-          "SPECIFIC REQUIREMENTS arise.",
-          "Here we analyze requirements in detail, employing techniques taken from agile methodologies",
-          "before hiring the services."
-        ],
-        "title2": [
-          "AGILE",
-          "MAINTENANCE"
-        ],
-        "par2": [
-          "Once the platform is developed, our maintenance blocks offer an AGILE alternative to perfect or",
-          "complement the existing functionality.",
-          "We use Kanban with the methodologies employed for development in flexible maintenance",
-          "projects from one week and with no duration limit."
-        ],
-         "title3": [
-          "CONTINUOUS",
-          "SUPPORT"
-        ],
-        "par3": [
-          "We offer continuous support options for the solutions that we develop.",
-          "Our teams provide support to platforms with several SLAs and regular-time and on-call coverage.",
-          "The stability of our development combined with our processes guarantee efficiency and",
-          "operational costs under control."
-        ]
-      },
-      "navigation": "AGILE DEVELOPMENT"
+        "maad" : {
+          "title": "MAAD",
+          "par1": "We created the Analysis and Design Agile Methodology, a collection of activities that allows us to capture the stakeholders' requirements and transform them into a backlog with short, clear, concise and actionable elements.",
+          "par2": "The methodology standardizes the collecting of requirements and process them into entities like epics, stories and deltas that clearly describe the changes to be implemented.",
+          "par3": "Each backlog element has a strict but simplified state that can be monitored using tools like Jira and Confluence."
+        },
+        "flare": {
+          "title": "flare",
+          "par": "We employ a proprietary design system that allows for a fast inception and efficient implementation of interfaces with perfect grids and consistent styles since the first iteration. Flare defines clear and implementable concepts on four key points: style, structure, user interface and content."
+        },
+        "scrum": {
+          "title": "scrum",
+          "par": "The use of Scrum as a framework allows us to approach complex problems while valuable, continuous and constant deliveries are done in a creative manner and focused on increasing team productivity. Based on the CMMI model, we implement good practices that allow us to increase and optimize performance of the processes directly and indirectly involved in software development, maximizing opportunities and mitigating risks."
+        },
+        "agile": {
+          "title": "agile flow",
+          "par": "We design robust and flexible proprietary versioning mechanisms, compatible with industry standards. These processes, combined with our continuous integration mechanisms, allow us to reach maximum development speeds while maintaining total control of the quality of each of the components involved and their integrations."
+        },
+        "cd": {
+          "title": "cd/ci",
+          "par": [
+              "Our source code is managed using proprietary continuous integration infrastructure that automates binary versioning, packaging and release.",
+              "The entire automation of our DevOps processes allows us to deliver functional versions to our clients at the end of each iteration."
+          ]
+        },
+      "span": {
+          "back":"DISCOVERY",
+          "forward": "AGILE MAINTENANCE, SCOPE DEV. & CONTINUOUS SUPPORT"
+      }
+  },
+  "ams": {
+    "title": "Agile Maintenance",
+    "title1":[
+      "Agile",
+      "Maintenance"
+    ],
+    "title2":[
+      "Scope",
+      "Development"
+    ],
+    "title3":[
+      "Continuous",
+      "Support"
+    ],
+    "hero": [
+      "At the end of development, we offer ",
+      "maintenance and support services for ",
+      "a successful stabilization and transfer ",
+      "of the platform."
+    ],
+    "left": {
+      "title": [
+        "WE USE KANBAN",
+        "AS AN AGILE FRAMEWORK"
+      ],
+      "par": [
+        "We employ Kanban as an agile workframe to prioritize and organize planned and on-call work, ",
+        "which allows us to maintain a constant flow of deliverables, through the implementation of ",
+        "solutions that immediately provide value to the client."
+      ]
     },
-    "page404": {
-      "title": "404 Error",
-      "ogDescription": "Page Not Found",
-      "paragraph": [
-        "Sorry, we can't find the page you're looking",
-        "for, it doesn't exist or it has been moved.",
-        "Please try to rewrite the URL or visit",
-        "our home page."
+    "right": {
+      "title1": [
+        "SCOPE",
+        "DEVELOPMENT"
       ],
-      "btn": "Go to home page"
-    }
+      "par1": [
+        "This option is offered to existing clients when, after finishing the initial development phase,",
+        "SPECIFIC REQUIREMENTS arise.",
+        "Here we analyze requirements in detail, employing techniques taken from agile methodologies",
+        "before hiring the services."
+      ],
+      "title2": [
+        "AGILE",
+        "MAINTENANCE"
+      ],
+      "par2": [
+        "Once the platform is developed, our maintenance blocks offer an AGILE alternative to perfect or",
+        "complement the existing functionality.",
+        "We use Kanban with the methodologies employed for development in flexible maintenance",
+        "projects from one week and with no duration limit."
+      ],
+        "title3": [
+        "CONTINUOUS",
+        "SUPPORT"
+      ],
+      "par3": [
+        "We offer continuous support options for the solutions that we develop.",
+        "Our teams provide support to platforms with several SLAs and regular-time and on-call coverage.",
+        "The stability of our development combined with our processes guarantee efficiency and",
+        "operational costs under control."
+      ]
+    },
+    "navigation": "AGILE DEVELOPMENT"
+  },
+  "page404": {
+    "title": "404 Error",
+    "ogDescription": "Page Not Found",
+    "paragraph": [
+      "Sorry, we can't find the page you're looking",
+      "for, it doesn't exist or it has been moved.",
+      "Please try to rewrite the URL or visit",
+      "our home page."
+    ],
+    "btn": "Go to home page"
+  },
+  "stories": {
+    "title": "Success Stories",
+    "title1": ["Success", "Stories"],
+    "ogDescription": "From startups to enterprises, we've helped drive growth and innovation through custom software development. Explore our success stories.",
+    "ogImage": "",
+    "hero": [
+      "From startups to enterprises, we've",
+      "helped drive growth and innovation",
+      "through custom software development. ",
+      "Explore our success stories."
+    ],
+    "soon": ["MORE STORIES", "COMING SOON"]
+  }
 }
