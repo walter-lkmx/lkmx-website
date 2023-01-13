@@ -26,7 +26,7 @@ export default function DiscoveryPage() {
             />
             <Page>  
                 <GoBackBar/>              
-                <Column modeL="normal" number="2" numberS="1" className={styles.discovery__hero}>                    
+                <Column modeL="normal" number="2" numberS="1" weight="left" className={styles.discovery__hero}>                    
                     <Block className={styles.discovery__hero__blue} >
                         <div className={styles.discovery__hero__phases}></div>
                         <div className={styles.discovery__hero__blue__before}>

@@ -37,6 +37,7 @@
       > div > div {
         position: relative;
         padding: 202.5px 0 !important;
+        height: 100%;
         @include respond-to("<=s") {
           padding: 140px 16px 0 !important;
           justify-content: start;
@@ -63,6 +64,7 @@
         display: grid;
         justify-items: center;
         padding-left: 163px;
+        position: relative;
         @include respond-to("<=xl") {
           justify-items: start;
         }
@@ -85,7 +87,15 @@
           color: white;
           text-transform: uppercase;
           font-family: $font-tertiary;
-          font-size: rem(35px)
+          font-size: rem(35px);
+          @include respond-to ("<=xl") {
+            position: absolute;
+            right: 223px;
+          }
+          @include respond-to("<=s") {
+            position: unset;
+            right: unset;
+          }
         }
       }
       &__pink {
