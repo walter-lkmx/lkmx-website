@@ -87,8 +87,15 @@
           display: grid;
           align-content: center;
           text-align: right;
+          width: max-content;
+          max-width: 99vw;
           @include respond-to("<=l") {
             text-align: left;
+          }
+          @include respond-to("<=xs") {
+           br {
+            display: none;
+           }             
           }
           span {
             display: block;
@@ -210,9 +217,6 @@
         &__pages {
           grid-template-columns: rem(221px) rem(256px) rem(220px);
         }
-        &__information > p {
-          width: rem(363px);
-        }
       }
     }
     &__bottom__name {
@@ -253,8 +257,7 @@
             grid-template-columns: repeat(3, 1.5rem);
             grid-column-gap: 1rem;
           }
-          p {
-            width: rem(400px);
+          p {            
             margin-top: rem(4px);
           }
         }

@@ -84,6 +84,7 @@
         }
         @include respond-to("<=s") {
           top: -2px;
+          right: 32px;
         }
       }
       &__triangle {
