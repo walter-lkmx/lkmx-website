@@ -62,9 +62,55 @@ export default function ServicesPage() {
         <Column mode="full" className={styles['page__phases-links']}>
           <Block>
             <div>
-
-              <PhasesSvg className={styles['page__phases-links__svg-desktop']}/>
-              <PhasesMobileSvg className={styles['page__phases-links__svg-mobile']}/>
+              <div className={styles.page__phases}>
+                <div className={styles.page__phases__discovery}>
+                  <Link href="/services/discovery" legacyBehavior>
+                    <Image
+                    fill
+                    src="/phases/discovery_default.svg"
+                    alt="discovery"
+                    />
+                  </Link>
+                </div>
+                <div className={styles.page__phases__agileDev}>
+                  <Link href="/services/agileDevelopment" legacyBehavior>
+                    <Image
+                    fill
+                    src="/phases/agile-dev_default.svg"
+                    alt="discovery"
+                    />
+                  </Link>                  
+                </div>
+                <div className={styles.page__phases__agileMain}>
+                  <Link href="/services/agileMaintenance" legacyBehavior>
+                    <Image
+                    fill
+                    src="/phases/agile-maintenance_default.svg"
+                    alt="discovery"
+                    />
+                  </Link>                  
+                </div>
+                <div className={styles.page__phases__scopeDev}>
+                  <Link href="/services/agileMaintenance" legacyBehavior>
+                    <Image
+                    fill
+                    src="/phases/scope-dev_default.svg"
+                    alt="discovery"
+                    />
+                  </Link>                  
+                </div>
+                <div className={styles.page__phases__contSup}>
+                  <Link href="/services/agileMaintenance" legacyBehavior>
+                    <Image
+                    fill
+                    src="/phases/cont-support_default.svg"
+                    alt="discovery"
+                    />
+                  </Link>                  
+                </div>
+              </div>              
+              {/* <PhasesSvg className={styles['page__phases-links__svg-desktop']}/>
+              <PhasesMobileSvg className={styles['page__phases-links__svg-mobile']}/> */}
               <div className={styles['page__phases-links__arrow']}>
                 <div></div>
               </div>

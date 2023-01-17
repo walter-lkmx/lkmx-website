@@ -1,4 +1,83 @@
 .page {
+  &__phases{
+    display: grid;
+    grid-template-columns: repeat(5, min-content);
+    justify-content: center;
+    @include respond-to("<=s") {
+      grid-template-columns: none;
+      grid-template-rows: repeat(5, min-content);
+      justify-items: center;
+      grid-row-gap: 0;
+    }
+    &__discovery {
+      position: relative;
+      width: 108px;
+      aspect-ratio: 1;
+      z-index: 1;
+      cursor: pointer;
+      &:hover {
+        scale: 120%;
+        transition-duration: .5s;
+        z-index: 2;
+      }
+    }
+    &__agileDev {
+      position: relative;
+      width: 300px;
+      aspect-ratio: 1;
+      z-index: 1;
+      cursor: pointer;
+      &:hover {
+        scale: 120%;
+        transition-duration: .5s;
+        z-index: 2;
+      }
+    }
+    &__agileMain {
+      position: relative;
+      width: 136px;
+      aspect-ratio: 1;
+      z-index: 1;
+      cursor: pointer;
+      &:hover {
+        scale: 120%;
+        transition-duration: .5s;
+        z-index: 2;
+      }
+    }
+    &__scopeDev {
+      position: relative;
+      width: 64px;
+      aspect-ratio: 1;
+      z-index: 1;
+      cursor: pointer;
+      transform: translate(-38px, -79px);
+      &:hover {
+        scale: 120%;
+        transition-duration: .5s;
+        z-index: 2;
+      }
+      @include respond-to("<=s") {
+        transform: translate(75px, -34px);
+      }
+    }
+    &__contSup {
+      position: relative;
+      width: 73px;
+      aspect-ratio: 1;
+      z-index: 1;
+      cursor: pointer;
+      transform: translateX(-64px);
+      &:hover {
+        scale: 120%;
+        transition-duration: .5s;
+        z-index: 2;
+      }
+      @include respond-to("<=s") {
+        transform: translateY(-64px);
+      }
+    }
+  }
   &__services {
     > :first-child { background-color: $color-neutral-black }
     > :last-child { background-color: $color-cyan }
@@ -101,9 +180,11 @@
   }
   &__phases-links {
     display: grid;
-    justify-items: center;
+    justify-items: center;    
     &__arrow {
       position: absolute;
+      z-index: 0;
+      top: 46%;
       div {
         width: 100%;
         position: absolute;
@@ -140,8 +221,7 @@
       > div {
         display: grid;
         height: stretch;
-        grid-template-rows: minmax(64px, auto) 1fr auto;
-        grid-row-gap: 1rem;
+        grid-template-rows: minmax(64px, auto) 1fr auto;        
         h4 {
           line-height: 32px;
           margin: 0;
@@ -156,7 +236,6 @@
         }
       }
     }
-    grid-row-gap: 1.5rem;
   }
   &__iconContainer {
     position: relative;
@@ -169,6 +248,11 @@
         p {
           max-width: rem(363px);
         }
+      }
+    }
+    &__phases-links {
+      &__arrow {
+        top: 47%;
       }
     }
   }
@@ -282,8 +366,7 @@
     }
     &__phases {
       --f-gutter: 16px;
-      padding: 2rem 0 0 0;
-      grid-row-gap: 1rem;
+      padding: 2rem 0 0 0;     
       &__content {
         grid-template-columns: 1fr;
         > div {
@@ -300,7 +383,9 @@
       p {
         font-size: rem(16px);
       }
-      &__arrow { width: calc(100% - 120px) }
+      &__arrow { 
+        width: calc(100% - 120px); 
+      }
       svg { transform: translate(calc(50% + 60.5px),-50%) }
     }
   }
@@ -317,8 +402,6 @@
     &__phases-links {
       min-height: 300px;
       &__arrow {
-        top: 50%;
-        transform: translateY(50%);
         left: 0;
         div {
           right: 104px;
@@ -350,9 +433,10 @@
         display: none;
       }
       &__arrow {
-        height: 917px;
+        height: 910px;
         width: 100%;
         left: 50%;
+        top: 0;
         transform: translateX(-50%);
         div {
           width: .5px;
