@@ -108,7 +108,7 @@
             row-gap: 16px;
         }
         &__soon {
-            transform: translateY(90px);
+            transform: translateY(90px);            
             h1{
                 display: inline;
             }
@@ -131,6 +131,10 @@
             }            
         }
         &__item {
+            &:hover {
+                scale: 110%;
+                transition-duration: 1.5s;
+            }
             &__img{
                 position: relative;
                 width: 568px;

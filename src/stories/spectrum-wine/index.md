@@ -3,8 +3,8 @@ number: 1
 title: 'Spectrum Wine'
 headline: ['Experimenta el mundo de la subasta de vino', 'todo el tiempo, en todo lugar.']
 services: ['discovery', 'agile']
-methodology: 'Scrum'
-period: '2022'
+methodologies: ['Scrum']
+period: ['2022']
 portrait: 'spectrum-portrait'
 hero: 'spectrum-hero'
 storyType: 'Success Story'

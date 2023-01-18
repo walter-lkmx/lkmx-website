@@ -469,5 +469,10 @@
       "Explore our success stories."
     ],
     "soon": ["MORE STORIES", "COMING SOON"]
+  },
+  "story": {
+    "services": "Services",
+    "methodology": "Methodology",
+    "period": "Period"
   }
 }

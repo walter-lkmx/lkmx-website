@@ -53,16 +53,63 @@ export default function SuccessStory({storyData}) {
                             <Image
                             fill
                             src={`/stories/${storyData.hero}.png`}
+                            alt="Heading Image"
                             />
                         </div>
                     </Block>
                 </Column>
                 <Column>
                     <Block>
-                        <h2>{storyData.section1.title}</h2>
-                        <p>
-                        {storyData.section1.content}
-                        </p>
+                        <div className={styles.story__wrapper}>
+                            <div className={styles.story__aside}>
+                                <div className={styles.story__aside__item}>
+                                    <span>{$t.story.services}</span>
+                                    <ul>
+                                        {storyData.services.map((item, key) => <li key={key}>{item}</li>)}
+                                </ul>
+                                </div>
+                                <div className={styles.story__aside__item}>
+                                    <span>{$t.story.methodology}</span>
+                                    <ul>
+                                        {storyData.methodologies.map((item, key) => <li key={key}>{item}</li>)}
+                                    </ul>
+                                </div>
+                                <div className={styles.story__aside__item}>
+                                    <span>{$t.story.period}</span>
+                                    <ul>
+                                        {storyData.period.map((item, key) => <li key={key}>{item}</li>)}
+                                    </ul>
+                                </div>
+                            </div>
+                            <article className={styles.story__mainContent}>
+                                <div className={styles.story__mainContent__intro}>
+                                    <div className={styles.story__mainContent__intro__content}>
+                                        <h2>{storyData.section1.title}</h2>
+                                        <p>
+                                        {storyData.section1.content}
+                                        </p>
+                                    </div>
+                                </div> 
+                                <div className={styles.story__mainContent__challenges}>
+                                    <h2>{storyData.section2.title}</h2>
+                                    <p>{storyData.section2.paragraph1}</p>
+                                    <p>{storyData.section2.paragraph2}</p>
+                                </div>
+                                <figure>
+                                    <div className={styles.story__mainContent__challenges__image}>
+                                        <Image
+                                        fill
+                                        src={`/stories/${storyData.section2.image}.png`}
+                                        alt="section 2's image"/>
+                                    </div>                                    
+                                    <figcaption className={styles.story__mainContent__challenges__caption}>{storyData.section2.imageCaption}</figcaption>
+                                </figure>
+                                <div className={styles.story__mainContent__solutions}>
+                                    <h2>{storyData.section3.title}</h2>
+                                    <p>{storyData.section3.paragraph1}</p>
+                                </div>
+                            </article>
+                        </div>                                                                       
                     </Block>
                 </Column>
             </Page>

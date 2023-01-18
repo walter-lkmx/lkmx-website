@@ -441,5 +441,10 @@
       "nuestros casos de éxito."
     ],
     "soon": ["MÁS HISTORIAS", "PRÓXIMAMENTE"]
+  },
+  "story": {
+    "services": "Servicios",
+    "methodologies": "Metodologías",
+    "period": "Período"
   }
 }
