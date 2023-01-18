@@ -1,21 +1,17 @@
 $base-size: 16px;
 // fonts
-$font-primary: var(--lk-font-ibm);
-$font-secondary: var(--lk-font-roboto);
-$font-tertiary: var(--lk-font-inter);
-// $font-tertiary: var(--lk-font-roboto);
+$font-primary: 'IBM Plex Sans', sans-serif;
+$font-secondary: 'Roboto Condensed', sans-serif;
+$font-tertiary: 'Inter', sans-serif;
 
 // colors
 $color-neutral-black: #0B0E29;
 $color-pink: #FF0049;
-$color-btn-default: #ED245D;
-$color-btn-hover: #BF0A3D;
 $color-cyan: #00D0F6;
 $color-blue: #1324A0;
 $color-bright-gray: #EBEAE8;
 $color-bright-gray-01: #F6F5F4;
 $color-neutral-gray: #73909E;
-$color-lang-secondary: #93949E;
-$color-footer-hover: #CCF7FF;
+
 // hero
 $h-height-large: rem(591px);

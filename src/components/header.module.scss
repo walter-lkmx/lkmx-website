@@ -8,11 +8,8 @@
     grid-column-gap: $base-size;
     align-items: center;
     justify-content: space-between;
-    &__logo > a {
-      position: relative;
-      display: block;
+    &__logo > a > img {
       width: rem(121px);
-      height: rem(50px);
     }
     &__menu {
       display: none;
@@ -62,7 +59,7 @@
   }
   @include respond-to("<=l") {
     &__content {
-      align-items: start;
+      align-items: center;
       height: rem(46px);
       &__logo {
         display: grid;
@@ -75,7 +72,6 @@
       &__menu {
         display: grid;
         justify-self: end;
-        background: none;
       }
       &__links { display: none }
       &__logo > a > img {

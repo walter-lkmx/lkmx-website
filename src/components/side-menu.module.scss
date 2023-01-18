@@ -21,7 +21,6 @@
         }
     }
     &__body {
-        overflow-y: scroll;
         &__links {
             display: grid;
             grid-row-gap: 2rem;
@@ -29,10 +28,6 @@
         &__img {
             width: rem(125px);
             height: rem(480px);
-            @media screen and (orientation: landscape) {
-                width: 11vw;
-                height: 74vh;
-            }
             position: absolute;
             right: 0;
             bottom: 0;

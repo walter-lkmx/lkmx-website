@@ -6,7 +6,6 @@ import { Column, Block } from "@lkmx/flare-react";
 import getLang from '@/lang';
 import { useRouter } from "next/router";
 import siteMetadata from "../meta/siteMetadata";
-import Image from "next/image"
 
 export default function Footer() {
   const year = moment().year();
@@ -22,16 +21,16 @@ export default function Footer() {
               <div>
                 <h3>{$t.footer.pages.services.title}</h3>
                 <ul>
-                  <li><Link href="/services" legacyBehavior>{$t.footer.pages.services.items[0]}</Link></li>
-                  <li><Link href="/services/discovery" legacyBehavior>{$t.footer.pages.services.items[1]}</Link></li>
-                  <li><Link href="/services/agileDevelopment" legacyBehavior>{$t.footer.pages.services.items[2]}</Link></li>
-                  <li><Link href="/services/agileMaintenance" legacyBehavior>{$t.footer.pages.services.items[3]}</Link></li>
+                  <li><Link href="/services">{$t.footer.pages.services.items[0]}</Link></li>
+                  <li><Link href="/services/discovery">{$t.footer.pages.services.items[1]}</Link></li>
+                  <li><Link href="/services/agileDevelopment">{$t.footer.pages.services.items[2]}</Link></li>
+                  <li><Link href="/services/agileMaintenance">{$t.footer.pages.services.items[3]}</Link></li>
                 </ul>
               </div>
               <div> 
                 <h3>{$t.footer.pages.methodology.title}</h3>
                 <ul>
-                  <li><Link href="/industries" legacyBehavior>{$t.footer.pages.methodology.items[0]}</Link></li>
+                  <li><Link href="/industries">{$t.footer.pages.methodology.items[0]}</Link></li>
                   {/* <li>{$t.footer.pages.methodology.items[1]}</li>
                   <li>{$t.footer.pages.methodology.items[2]}</li>
                   <li>{$t.footer.pages.methodology.items[3]}</li> */}
@@ -41,7 +40,7 @@ export default function Footer() {
                 <h3>{$t.footer.pages.technology.title}</h3>
                 <ul>
                   
-                  <li><Link href="/technology" legacyBehavior>{$t.footer.pages.technology.items[0]}</Link></li>
+                  <li><Link href="/technology">{$t.footer.pages.technology.items[0]}</Link></li>
                   {/* <li>{$t.footer.pages.technology.items[1]}</li>
                   <li>{$t.footer.pages.technology.items[2]}</li>
                   <li>{$t.footer.pages.technology.items[3]}</li> */}
@@ -50,35 +49,26 @@ export default function Footer() {
             </div>
             <div className={styles.footer__top__content__information}>
               <Link href="/">
-                <Image fill src="/lkmx-logotype--white.svg" alt="Logo" className={styles.footer__top__content__information__logo}/>
+                <a><img src="/lkmx-logotype--white.svg" alt="Logo" className={styles.footer__top__content__information__logo}/></a>
               </Link>
               <ul>
                 <li>
-                  <Link href={siteMetadata.instagram} passHref target="_blank">
-                    <div className={styles.footer__top__content__information__logo__instaContainer}>
-                      <Image fill src="/icons/social-instagram.svg" alt="Instagram" className={styles.footer__top__content__information__logo__insta}/>
-                      <Image fill src="/icons/social-instagram-hover.svg" alt="Instagram" className={styles.footer__top__content__information__logo__instaHover}/>
-                    </div>
+                  <Link href={siteMetadata.instagram} passHref>
+                    <a target="_blank"><img src="/icons/social-instagram.svg" alt="Instagram"/></a>
                   </Link>
                 </li>
                 <li>
-                  <Link href={siteMetadata.twitter} target="_blank">
-                    <div className={styles.footer__top__content__information__logo__twitterContainer}>
-                      <Image fill src="/icons/social-twitter.svg" alt="Twitter" className={styles.footer__top__content__information__logo__twitter}/>
-                      <Image fill src="/icons/social-twitter-hover.svg" alt="Twitter" className={styles.footer__top__content__information__logo__twitterHover}/>
-                    </div>
+                  <Link href={siteMetadata.twitter}>
+                    <a target="_blank"><img src="/icons/social-twitter.svg" alt="Twitter"/></a>
                   </Link>
                 </li>
                 <li>
-                  <Link href={siteMetadata.linkedin} target="_blank">
-                    <div className={styles.footer__top__content__information__logo__linkedinContainer}>
-                      <Image fill src="/icons/social-linkedin.svg" alt="Linkedin" className={styles.footer__top__content__information__logo__linkedin}/>
-                      <Image fill src="/icons/social-linkedin-hover.svg" alt="Linkedin" className={styles.footer__top__content__information__logo__linkedinHover}/>
-                    </div>
+                  <Link href={siteMetadata.linkedin}>
+                    <a target="_blank"><img src="/icons/social-linkedin.svg" alt="Linkedin"/></a>
                   </Link>
                 </li>
               </ul>
-              <p>{$t.footer.paragraph[0]} <br/>{$t.footer.paragraph[1]}<br/>{$t.footer.paragraph[2]}</p>
+              <p>{$t.footer.paragraph}</p>
             </div>
           </div>
         </Block>

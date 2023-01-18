@@ -24,13 +24,12 @@
 
 			&:last-child {
 				background-color: $color-blue;
+				background-image: url("/code--blue-bg.svg");
+				background-repeat: no-repeat;
 				position: relative;
 				overflow: hidden;
-				> div > div {
-					padding: 0px;
-					height: 100%;
-				}
-
+				background-position: 0% 50%;
+				background-size: 832px 1311px;
 			}
 
 			&__left {
@@ -44,10 +43,9 @@
 
 					h2 {
 						font-family: $font-tertiary;
-						font-size: rem(35px);
-						line-height: rem(47px);
+						font-size: rem(40px);
+						line-height: rem(52px);
 						text-transform: uppercase;
-						font-weight: 800;
 					}
 
 					p {
@@ -73,29 +71,15 @@
 			}
 
 			&__right {
-				height: 100%;
-				div:first-child {
-					z-index: 1;
+				div {
 					position: absolute;
 					top: 0;
 					left: 0;
 					height: $hero-height-large;
 					width: rem(155px);
 					background-image: linear-gradient(to top right, $color-neutral-black 0%, $color-neutral-black 50%, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0) 100%);
-					@include respond-to("<=s") {
-						display: none;
-					}
 				}
-				&__background {
-					width: 110%;
-					height: 240%;
-					position: relative;
-					transform: translate(6px, -413px);
-					z-index: 0;
-					@include respond-to("<=s") {
-						transform: translate(6px, -224px);
-					}
-				}
+
 				&__elipse {
 					max-width: none !important;
 					width: 648px;
@@ -103,10 +87,7 @@
 					position: absolute;
 					right: 122px;
 					top: -30px;
-					transform: translate(50%, -50%);	
-					@include respond-to("<=s") {
-						transform: translate(30%, -49%);	
-					}				
+					transform: translate(50%, -50%);
 				}
 			}
 		}
@@ -138,7 +119,6 @@
 					p {
 						line-height: rem(28px);
 						margin: 0;
-						font-size: rem(16px);
 					}
 				}
 			}
@@ -161,9 +141,8 @@
 					grid-template-columns: repeat(14, 1fr);
 					grid-template-areas: "a0 a1 a2 a3 a4 a5 a6 a7 a8 a9 a10 a11 a12 a13";
 					align-items: center;
-					@include respond-to("m") {
-						height: 48px;
-					}
+					justify-items: center;
+
 					&.row-0 {
 						grid-template-areas: ". . . a0 a1 a2 . a3 a4 a5 a6 . . ."
 					}
@@ -192,13 +171,7 @@
 						display: grid;
 						align-items: center;
 						justify-items: center;
-						height: rem(50px);
-						position: relative;
-						aspect-ratio: 1;
-						img {
-							width: auto !important;
-							max-width: none !important;
-						}
+						height: rem(60px);
 					}
 				}
 			}
@@ -220,6 +193,11 @@
 				}
 
 				&__right {
+					div {
+						height: $hero-height-medium;
+						left: 0;
+					}
+
 					&__elipse {
 						right: rem(-28px);
 						top: rem(-28px);
@@ -227,6 +205,7 @@
 				}
 			}
 		}
+
 		&__features {
 			background-color: $color-cyan;
 			--f-gutter: 16px;
@@ -253,16 +232,16 @@
 					margin: auto;
 					grid-row-gap: 0;
 
-					&__row {						
-						grid-column-gap: 0; 
-						@include respond-to("<=m") {
-							max-width: 672px;
-						}	
+					&__row {
+						max-width: 672px;
+						grid-column-gap: 0;
+
 						div {
-							height: rem(48px);		
-							@include respond-to("<=m") {
-								height: rem(32px);
-							}					
+							height: rem(48px);
+
+							img {
+								height: rem(32px)
+							}
 						}
 					}
 				}
@@ -308,8 +287,14 @@
 						}
 					}
 				}
+
 				&__right {
 					height: 350px;
+
+					div {
+						display: none
+					}
+
 					&__elipse {
 						width: 424px;
 						height: 424px;
@@ -319,6 +304,7 @@
 				}
 			}
 		}
+
 		&__features {
 			background-color: $color-cyan;
 			padding: 0;
@@ -362,13 +348,13 @@
 					&__row {
 						padding: 0 !important;
 						grid-template-columns: repeat(8, 1fr);
-						grid-template-areas: "a0 a1 a2 a3 a4 a5 a6 a7";
+						grid-template-areas: "a0 a1 a2 a3 a4 a5 a6 a7" "a8 a9 a10 a11 a12 a13";
 						grid-row-gap: 1rem;
 
 						div {
 							height: auto;
 							padding: 0 4px;
-							height: rem(32px);
+							height: rem(40px);
 						}
 
 						&.row-0 {

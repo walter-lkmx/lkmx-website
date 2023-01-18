@@ -7,7 +7,7 @@ import getLang from '@/lang';
 import siteMetadata from '../../meta/siteMetadata';
 import HeadSeo from '../../components/HeadSeo';
 import { useRouter } from 'next/router';
-import Image from "next/image";
+import Image from 'next/image'
 
 export default function TechnologyPage() {
   const { locale } = useRouter();
@@ -70,21 +70,11 @@ export default function TechnologyPage() {
           <Block className={styles.industries__hero__block}>
             <div className={styles.industries__hero__block__right}>
               <div></div>
-              <div className={styles.industries__hero__block__right__waves}>
-              <Image
-                  layout="fill"                
-                  priority={true}
-                  src="/industry-hero-wave.svg" alt="waves"
-                />
-              </div>   
-              <div>
-                <Image
-                  fill
-                  src="/circle--pink.svg"
-                  alt="ellipse"
-                  className={styles.industries__hero__block__right__elipse}
-                />
-              </div>                         
+              <img
+                src="/circle--pink.svg"
+                alt="ellipse"
+                className={styles.industries__hero__block__right__elipse}
+              />
             </div>
           </Block>
         </Column>

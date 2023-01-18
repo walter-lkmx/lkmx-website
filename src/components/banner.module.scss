@@ -7,44 +7,27 @@
   align-items: center;
   text-align: center;
   overflow: hidden;
-  &__container {
-    position: absolute;
-    height: 100%;
-    width: 120px;
-    left: 0;
-    @include respond-to("<=l") {
-      left: -1.75rem;
-    }
-    @include respond-to("<=s") {
-      display: none;
-    }
-  }
-  &__rightContainer {
-    position: absolute;
-    right: 0;
+  &__triangle-right, &__triangle-right--medium, &__triangle-right--small, &__wave {
     top: 0;
-    height: 100%;
-    width: auto;
-    @include respond-to("<=l") {
-      right: -17px;
-    }
+    position: absolute;
   }
-  &__right {
-    position: relative;
-    height: 100%;
-    width: 120px;
-    @include respond-to("<=m") {
-      width: 92px;
-    }
-    @include respond-to("<=xs") {
-      object-fit: cover;
-      width: 120px;
-    }
+  &__wave {
+    left: 0;
+  }
+  &__triangle-right, &__triangle-right--medium, &__triangle-right--small {
+    background-color: white;
+    right: 0;
+    display: none;
+  }
+  @include respond-to(">l") {
+    &__triangle-right { display: block }
   }
   @include respond-to("<=l") {
     min-height: rem(330px);
     padding: rem(42px) 0;
     --f-gutter: 0;
+    &__triangle-right--small { display: block; right: rem(-32px);}
+    &__wave { left: rem(-60px) }
   }
   @include respond-to("<=s") {
     justify-items: start;
@@ -53,6 +36,11 @@
     --f-gutter: 1rem;
     min-height: rem(350px);
     padding: rem(26px) 0;
+    &__triangle-right--medium { display: block }
+    &__triangle-right--small { display: none }
+    &__wave {
+      display: none;
+    }
     &__content {
       max-width: calc(100% - 92px);
     }

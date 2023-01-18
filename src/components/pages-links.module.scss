@@ -7,7 +7,7 @@
   }
   *{margin: 0;}
   .links {
-    &__nav {
+    a {
       color: $color-neutral-black;
       text-transform: uppercase;
       text-decoration: none;
@@ -16,14 +16,7 @@
       text-decoration: none;
       line-height: 1.5rem;
       cursor: pointer;
-      &__active {
-        color: $color-pink;
-      }
-      &:hover {
-        color: $color-pink;
-      }
     }
-    
     &.white-color > a {
       color: white;
     }
@@ -38,10 +31,8 @@
       max-width: rem(94px);
       grid-template-columns: repeat(3, 1fr);
     }
-    &__imgContainer {
-      position: relative;
-      width: 24px;
-      height: 24px;
+    img {
+      max-width: 24px;
     }
     span {
       background: none;
@@ -49,12 +40,10 @@
       text-decoration: none;
       font-weight: bold;
       font-family: $font-secondary;
-      font-size: 16px;
       text-decoration: none;
       line-height: 1.5rem;
       cursor: pointer;
-      color: $color-lang-secondary;
-      // color: $color-bright-gray;
+      color: $color-bright-gray;
       padding: 4px 0;
       border-bottom: 3px solid;
       border-color: transparent;

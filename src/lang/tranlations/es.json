@@ -19,7 +19,7 @@
 			",",
       "diseñamos servicios ideales para construir",
 			"soluciones a la medida de cualquier grado",
-			"de complejidad y líneas de tiempo con",
+			"de complejidad y lineas de tiempo con",
 			"cualquier demanda."
     ],
 		"technologiesTitle": "TECNOLOGÍAS",
@@ -41,19 +41,6 @@
       "de",
       "compañías alrededor del mundo"
     ],
-    "locations": {
-      "title": "UBICACIÓN ESTRATÉGICA",
-      "par": [
-        "Cercana a la frontera norte de México, nos coloca en un ",
-        "escenario de intercambio",
-        "CULTURAL",
-        "y",
-        "COMERCIAL",
-        "constante con EE.UU., un punto de convergencia para",
-        "para grandes centros de investigación científica y tecnológica,",
-        "fuente de las mentes mas capacitadas del país."
-      ]
-    },
     "buttons": {
       "btnServices": "Ve nuestros servicios",
       "btnTechnologies": "Descubre nuestras tecnologías",
@@ -205,11 +192,11 @@
       },
       {
         "title": "Web3",
-        "description": "Diseñamos soluciones descentralizadas, creativas e innovadoras para los protocolos públicos y privados del nuevo internet.",
+        "description": "Diseñamos soluciones descentralizadas creativas e inovadoras para los protocolos públicos y privados del nuevo internet.",
         "img": "/icon-industry-web3.svg"
       },
       {
-        "title": "Innovación de Procesos",
+        "title": "Inovación de Procesos",
         "description": "Transformamos negocios, producimos implementaciones de nivel empresarial, eficientes y potentes.",
         "img": "/icon-industry-process_innovation.svg"
       }
@@ -224,10 +211,7 @@
     "module6": "INDUSTRIAS"
   },
   "footer": {
-    "paragraph": [
-      "Prestamos servicios de ingeniería de software",
-      "con nuestra sede en Ensenada, Baja California,", 
-      "México desde enero de 2014."],
+    "paragraph": "Prestamos servicios de ingeniería de software con nuestra sede en Ensenada, Baja California, México desde enero de 2014.",
     "pages": {
       "services": {
         "title": "SERVICIOS",
@@ -255,13 +239,13 @@
     "back" : "Regresar",
     "techs": "Tecnologías"
   },
-  "goBack": "Regresar",
   "discovery": {
     "title": "Discovery",
+    "goBack": "Regresar",
     "hero": [
       "Nuestras soluciones comienzan desde el",
       "análisis de las necesidades y objetivos para",
-      "definir la mejor ruta, así como su alcance."
+      "definir la mejor ruta, asi como su alcance."
     ],
     "bannerTitle": ["UTILIZAMOS METODOLOGÍAS", "ESPECIALIZADAS"],
     "prototype": {
@@ -298,16 +282,13 @@
     }
   },
   "agile": {
-    "title": [
-      "Agile",
-      "development"
-    ],
+    "title": "Agile development",
+    "goBack": "Regresar",
     "hero": [
-        "Nuestro principal servicio ofrece",
-        "iteraciones de trabajo de un equipo",
-        "multidisciplinario de ingeniería a cargo",
-        "de diseñar la arquitectura y construir la",
-        "solución de software de principio a fin."
+        "Nuestro principal servicio ofrece iteraciones de",
+        "trabajo de un equipo multidisciplinario de ingeniería a",
+        "cargo de diseñar la arquitectura y construir la solución",
+        "de software de principio a fin."
     ],
     "intro": [
       "Los proyectos utilizan iteraciones como unidad de medida, que contemplan DEFINICIÓN,",
@@ -324,7 +305,7 @@
       "versionamiento y mecanismos perfeccionados de integración continua."
     ],
     "maad" : {
-      "title": "MAAD",
+      "title": "Metodología ágil de análisis y diseño",
       "par1": "Creamos la Metodología Ágil de Análisis y Diseño, una colección de actividades que nos permiten capturar los requerimientos de los stakeholders y convertirlos en un backlog con elementos cortos, claros, concisos y accionables.",
       "par2": "La metodología estandariza la colección de los requerimientos y los procesa en entidades como épicas, historias y deltas que describen con total claridad los cambios a ser implementados.",
       "par3": "Cada elemento del backlog tiene un estado estricto pero simplificado que puede ser monitoreado utilizando herramientas como Jira y Confluence."
@@ -335,11 +316,11 @@
     },
     "scrum": {
       "title": "scrum",
-      "par": "Como framework, nos permite abordar problemas complejos mientras se realizan entregas de valor, continuas y constantes, de forma creativa y enfocadas en aumentar la productividad de los equipos. Con base al modelo CMMI, implementamos buenas prácticas que nos permiten incrementar y optimizar el rendimiento de los procesos involucrados directa e indirectamente en el desarrollo de software, maximizando las oportunidades y mitigando los riesgos."
+      "par": "Como framework, nos permite abordar problemas complejos mientras se realizan entregas de valor, continuas y constantes, de forma creativa y enfocadas en aumentar la productividad de los equipos.Con base al modelo CMMI, implementamos buenas prácticas que nos permiten incrementar y optimizar el rendimiento de los procesos involucrados directa e indirectamente en el desarrollo de software, maximizando las oportunidades y mitigando los riesgos."
     },
     "agile": {
       "title": "agile flow",
-      "par": "Diseñamos mecanismos de versionamiento propios, robustos, flexibles y compatibles con estándares en la industria. Estos procesos, combinados con nuestros mecanismos de integración continua nos permiten alcanzar máximas velocidades de desarrollo, manteniendo control total sobre la calidad de cada uno de los componentes involucrados y sus integraciones"
+      "par": "Diseñamos mecanismos de versionamiento propios, robustos, flexibles y compatibles con estándares en la industria. Estos procesos, combinados con nuestro mecanismos de integración continua nos permiten alcanzar máximas velocidades de desarrollo, manteniendo control total sobre la calidad de cada uno de los componentes involucrados y sus integraciones"
     },
     "cd": {
       "title": "cd/ci",
@@ -355,96 +336,24 @@
   },
   "ams": {
     "title": "Agile Maintenance",
-    "title1":[
-      "Agile",
-      "Maintenance"
-    ],
-    "title2":[
-      "Scope",
-      "Development"
-    ],
-    "title3":[
-      "Continuous",
-      "Support"
-    ],    
+    "goBack": "Regresar",
     "hero": [
-      "Al final del desarrollo, ofrecemos",
-      "servicios de mantenimiento y soporte",
-      "para una estabilización y transferencia",
-      "exitosa de la plataforma."
+      "Al final del desarrollo, ofrecemos servicios de ",
+      "mantenimiento y soporte para una estabilizacion ",
+      "y transferencia exitosa de la plataforma."
     ],
     "left": {
-      "title": [
-        "UTILIZAMOS KANBAN",
-        "COMO MARCO DE TRABAJO ÁGIL"
-      ],
-      "par": [
-        "Nos ayuda a priorizar y organizar el trabajo planeado o a demanda, lo que nos permite mantener un ",
-        "flujo constante de entregables, a través de la implementación de soluciones que aportan valor de",
-        "forma inmediata al cliente."
-      ]
+      "title": "UTILIZAMOS KANBAN COMO MARCO DE TRABAJO ÁGIL",
+      "par": "Nos ayuda a priorizar y organizar el trabajo planeado o a demanda, lo que nos permite mantener un flujo constante de entregables, a través de la implementación de soluciones que aportan valor de forma inmediata al cliente."
     },
     "right": {
-      "title1": [
-        "SCOPE",
-        "DEVELOPMENT"
-      ],
-      "par1": [
-        "Esta opción se ofrece a los clientes una vez terminada la fase inicial de desarrollo,",
-        "cuando surgen REQUERIMIENTOS ESPECÍFICOS.",
-        "En esta, analizamos los requerimientos a detalle utilizando técnicas tomadas de las metodologías",
-        "ágiles antes de la contratación de servicios."
-      ],
-      "title2": [
-        "AGILE",
-        "MAINTENANCE"
-      ],
-      "par2": [
-        "Una vez desarrollada la plataforma, nuestros bloques de mantenimiento ofrecen una alternativa",
-        "ÁGIL para perfeccionar o complementar la funcionalidad existente.",
-        "Utilizamos Kanban con las metodologías utilizadas para el desarrollo en proyectos flexibles de",
-        "mantenimiento, desde una semana y sin límite de duración."
-      ],
-       "title3": [
-        "CONTINUOUS",
-        "SUPPORT"
-      ],
-      "par3": [
-        "Nuestros equipos dan soporte a plataformas con diversos SLAs y cobertura en horas regulares y",
-        "on-call. La estabilidad de nuestro desarrollo combinada con nuestros procesos garantizan",
-        "eficiencia y costos operativos bajo control."
-      ]
+      "title1": "SCOPE DEVELOPMENT",
+      "par1": "Esta opción se ofrece a los clientes una ves terminada la fase inicial de desarrollo, cuando surgen REQUERIMIENTOS ESPECÍFICOS. Si tal es el caso y tras un análisis de requerimientos a detalle, utilizamos técnicas recuperadas de metodologías ágiles antes de la contratación de servicios.",
+      "title2": "AGILE MAINTENANCE",
+      "par2": "Una vez desarrollada la plataforma, nuestros bloques de mantenimiento ofrecen una alternativa ÁGIL para perfeccionar o complementar las funcionalidades existentes. Empleamos Kanban de la mano con las metodologías utilizadas para el desarrollo en proyectos flexibles de mantenimiento, desde una semana y sin límite de duración.",
+      "title3": "CONTINUOUS SUPPORT",
+      "par3": "Contamos con opciones de soporte continuo para nuestras soluciones. Nuestros equipos dan soporte a plataformas con diversos SLAs; con cobertura en horas regulares y on-call. La estabilidad de nuestro desarrollo, combinada con nuestros procesos, garantizan eficiencia y costos operativos bajo control."
     },
     "navigation": "AGILE DEVELOPMENT"
-  },
-  "page404": {
-    "title": "Error 404",
-    "ogDescription": "Pagina No Encontrada",
-    "paragraph": [
-      "Lo sentimos, no podemos encontrar la página",
-      "que estás buscando, no existe o se ha movido",
-      "de ruta. Intenta reescribir la URL o visita",
-      "nuestra página de inicio."
-    ],
-    "btn": "Ir al inicio"
-  },
-  "stories": {
-    "title": "Success Stories",
-    "title1": ["Success", "Stories"],
-    "ogDescription": "Desde startups hasta empresas, hemos ayudado a impulsar el crecimiento e innovación a través del desarrollo de software personalizado. Explora nuestros casos de éxito.",
-    "ogImage": "",
-    "hero": [
-      "Desde startups hasta empresas, hemos ",
-      "ayudado a impulsar el crecimiento e ",
-      "innovación a través del desarrollo de ",
-      "software personalizado. Explora ",
-      "nuestros casos de éxito."
-    ],
-    "soon": ["MÁS HISTORIAS", "PRÓXIMAMENTE"]
-  },
-  "story": {
-    "services": "Servicios",
-    "methodologies": "Metodologías",
-    "period": "Período"
   }
 }

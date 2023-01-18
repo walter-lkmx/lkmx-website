@@ -6,15 +6,14 @@ import siteMetadata from "../../meta/siteMetadata";
 import HeadSeo from "../../components/HeadSeo";
 import getLang from '@/lang';
 import { useRouter } from "next/router";
-import Image from "next/image";
+import Image from "next/image"
 import Link from "next/link"
-import GoBackBar from "../../components/goBackBar";
 
 export default function AgileDevelopment() {
     const { locale } = useRouter();
     const $t = getLang(locale);
 
-    return (
+    return(
         <BaseLayout>
             <HeadSeo
                 title={$t.agile.title}
@@ -25,45 +24,28 @@ export default function AgileDevelopment() {
                 ogType={siteMetadata.ogType}
             />
             <Page>
-            <GoBackBar/> 
-            <Column mode="normal" number="2" numberS="1" weight="left" className={styles.agile__hero}>
-                <Block className={styles.agile__hero__red} >
-                    <div className={styles.agile__hero__phases}>
-                        <div className={styles.agile__hero__phases__diagonal}></div>
-                    </div>
-                    <div className={styles.agile__hero__red__before}>
-                        <Image
-                        fill
-                        src={"/agile-dev-hero-red-triangle.svg"}
-                        alt="triangle"
-                        />
-                    </div>
-                    <div className={styles.agile__hero__red__content}>
-                        <h1>{$t.agile.title[0]}<br/>{$t.agile.title[1]}</h1>  
-                    </div>
-                    <div className={styles.agile__hero__red__pink}>
-                        <Image
-                        fill
-                        src={"/agile-dev-hero-diagonal.svg"}
-                        alt="diagonal"
-                        />
-                    </div>
-                </Block>
-                <Block>
-                    <div className={styles.agile__hero__paragraph}>
-                        <p>{$t.agile.hero[0]} <br/>{$t.agile.hero[1]} <br/>{$t.agile.hero[2]} <br/>{$t.agile.hero[3]} <br/>{$t.agile.hero[4]}</p>
-                    </div>
-                    <div className={styles.agile__hero__triangle}>
-                        <Image 
-                        fill
-                        src="/triangles/triangle-code--cyan--right.svg"  
-                        className={styles.agile__hero__triangle} 
-                        alt="LKMX - Hero"
-                        />
-                    </div>            
-                </Block>
-                
+            <Column mode="normal">
+                <Block className={styles.agile__goBack}>
+                    <Link href="/services"><Image src="/icons/arrow-left--white.svg" alt="go back" width={24} height={24}/></Link>                    
+                    <span>{$t.agile.goBack}</span>
+                </Block>                    
             </Column>
+            <Column modeL="normal" number="2" numberS="1" weight="right"  className={styles.agile__hero}>
+                <img src="/triangles/triangle-code--cyan--right.svg"  className={styles.agile__hero__triangle}/>
+                <Block className={styles.agile__hero__phases}>
+                    <img src="/horizontal-line.svg" className={styles.agile__hero__phases__svgLine}></img>
+                    <img src="/agile-development-large.svg" className={styles.agile__hero__phases__svg}/>
+                    <img src="/agile-development-medium.svg" className={styles.agile__hero__phases__svgMed}/>    
+                    <img src="/agile-development-small.svg" className={styles.agile__hero__phases__svgMobile}/>                      
+                </Block>
+                <Block className={styles.agile__hero__blue} >
+                    <div className={styles.agile__hero__blue__content}>
+                        <p>{$t.agile.hero[0]}<br/>{$t.agile.hero[1]}<br/>{$t.agile.hero[2]}<br/>{$t.agile.hero[3]}</p>
+                    </div>
+                </Block>
+            </Column>
+
+
 
             <Column number="1" modeS="full" mode="slim" modeM="normal"  className={styles.agile__intro}>
                 <Block className={styles.agile__intro__block}>
@@ -72,23 +54,19 @@ export default function AgileDevelopment() {
             </Column>
             <Column number="1" mode="normal" modeS="full" className={styles.agile__gantt}>
                 <Block className={styles.agile__gantt__block}>
-                    <div className={styles.agile__gantt__block__img}>
-                        <Image fill src="/gantt.svg"  alt="LKMX - Gantt"/>
-                    </div>
-                    
+                    <img src="/gantt.svg"/>
                 </Block>
             </Column>
             <Column number="1" mode="slim" modeM="normal" modeS="full" className={styles.agile__sprint}>
                 <Block className={styles.agile__sprint__block}>
                     <p>{$t.agile.intro2[0]} {$t.agile.intro2[1]} {$t.agile.intro2[2]} {$t.agile.intro2[3]} {$t.agile.intro2[4]} {$t.agile.intro2[5]}
                     </p>
-                    <div className={styles.agile__sprint__block__img}>
-                        <Image fill src="/sprint-structure.svg"  alt="LKMX - Sprint"/>
-                    </div>                   
+                    <img src="/sprint-structure.svg" />
                 </Block>
             </Column>
             <Column number="1" mode="slim" modeM="normal" modeS="full" className={styles.agile__maad}>
                 <Block className={styles.agile__maad__block}>
+                    <img src="/maad.svg"/>
                     <h2>{$t.agile.maad.title}</h2>
                     <p>{$t.agile.maad.par1}</p>
                     <p>{$t.agile.maad.par2}</p>
@@ -99,11 +77,7 @@ export default function AgileDevelopment() {
                 <Block className={styles.agile__flare__block}>
                     <h2>{$t.agile.flare.title}</h2>
                     <p>{$t.agile.flare.par}</p>
-                    <div className={styles.agile__flare__block__img}>
-                        <div className={styles.agile__flare__block__img__container}>
-                            <Image fill src="/flare.svg" alt="LKMX - Flare"/>
-                        </div>
-                    </div>
+                    <div className={styles.agile__flare__block__img}><img src="/flare.svg"/></div>
                 </Block>
             </Column>
             <Column number="1" mode="slim" modeM="normal" modeS="full" className={styles.agile__scrum}>
@@ -116,11 +90,7 @@ export default function AgileDevelopment() {
                 <Block className={styles.agile__agile__block}>
                 <h2>{$t.agile.agile.title}</h2>
                     <p>{$t.agile.agile.par}</p>
-                    <div className={styles.agile__agile__block__img}>      
-                        <div className={styles.agile__agile__block__img__container}>
-                            <Image fill src="/agile.svg" alt="LKMX - Agile"/>
-                        </div>                                          
-                    </div>
+                    <div className={styles.agile__agile__block__img}><img src="/agile.svg"/></div>
                 </Block>
             </Column>
             <Column number="1" mode="slim" modeM="normal" modeS="full" className={styles.agile__cd}>
@@ -131,20 +101,16 @@ export default function AgileDevelopment() {
             </Column>
             <Column className={styles.agile__navigation} number="1" modeM="full" modeL="normal">
                 <Block className={styles.agile__navigation__block}>
-                <Link href="/services/discovery" legacyBehavior> 
+                <Link href="/services/discovery"> 
                     <div className={styles.agile__navigation__block__back}>
-                        <div className={styles.agile__navigation__block__back__icon}>
-                        <Image fill src="/icons/arrow-left--pink.svg" alt="Pink arrow left"/> 
-                        </div>
+                        <img src="/icons/arrow-left--pink.svg" alt="Pink arrow left"/> 
                         <span>{$t.agile.span.back}</span>                        
                     </div>
                 </Link>
-                <Link href="/services/agileMaintenance" legacyBehavior>
+                <Link href="/services/agileMaintenance">
                     <div className={styles.agile__navigation__block__forward}>
                         <span>{$t.agile.span.forward}</span>
-                        <div className={styles.agile__navigation__block__forward__icon}>
-                            <Image fill src="/icons/arrow-right--pink.svg" alt="Pink arrow right"/>
-                        </div>                        
+                        <img src="/icons/arrow-right--pink.svg" alt="Pink arrow right"/>
                     </div>
                 </Link>                  
                 </Block>

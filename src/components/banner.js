@@ -1,15 +1,12 @@
 import React from "react";
 import styles from "@/components/banner.module.scss";
 import { Block, Column } from "@lkmx/flare-react";
-import Image from "next/image";
 
 export default function Banner(props) {
 
   return (
     <div className={styles.banner}>
-      <div className={styles.banner__container}>
-      <Image fill src="/triangles/triangle-waves--left.svg" alt="wave" className={styles['banner__wave']}/>
-      </div>
+      <img src="/triangles/triangle-waves--left.svg" alt="wave" className={styles['banner__wave']}/>
       <Column modeXl="slim" modeS="full">
         <Block>
           <div className={styles.banner__content}>
@@ -17,13 +14,9 @@ export default function Banner(props) {
           </div>
         </Block>
       </Column>
-      <div className={styles.banner__rightContainer}>
-        <div className={styles.banner__right}>
-          <Image fill src="/triangles/triangle-code--blue--right.svg" alt="triangle"/>
-        </div>
-       
-      </div>
-     
+      <img src="/triangles/triangle-code--blue--right.svg" alt="triangle" className={styles['banner__triangle-right']}/>
+      <img src="/triangles/triangle-code--blue--right--small.svg" alt="triangle" className={styles['banner__triangle-right--medium']}/>
+      <img src="/triangles/triangle-code--blue--right--small.svg" alt="triangle" className={styles['banner__triangle-right--small']}/>
     </div>
   );
 

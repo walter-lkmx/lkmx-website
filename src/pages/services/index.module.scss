@@ -11,10 +11,9 @@
         strong { line-height: rem(32px) }
       }
       h2 {
-        font-size: rem(35px);
+        line-height: 52px;
         font-family: $font-tertiary;
         text-transform: uppercase;
-        font-weight: 800;
       }
       h2, p {
         color: white;
@@ -31,9 +30,6 @@
       --f-gutter: 0;
       > div, > div > div {
         width: 100% !important;
-        p {
-          font-size: rem(16px);
-        }
       }
       &__content {
         display: grid;
@@ -41,39 +37,25 @@
         justify-items: end;
         position: relative;
         height: rem(591px);
-        @include respond-to("<=s") {
-          justify-items: center;
+        > div {
+          display: grid;
+          justify-self: start;
         }
-        p {
-          font-size: rem(16px);
+        position: relative;
+        &__elipse {
+          position: absolute;
+          top: 0;
+          left: 50%;
+          transform: translate(calc(-50% + 29px), calc(-50% + 29px));
         }
-        &__elipseContainer {
-          position: relative;
-          width: 100%;
-          height: 488px;
-          @include respond-to("<=s") {
-            height: 261px;
-            aspect-ratio: 2/1;
-            width: unset;
-          }
-          @include respond-to("<=xs") {
-            transform: translateX(-15px);
-            width: 107%;
-            height: 261px;
-            aspect-ratio: unset;
-          }
-          &__elipse {
-            object-fit: cover;          
-            @include respond-to(">=xxl") {
-              object-fit: unset;
-            }  
-            @include respond-to("<=s") {
-              object-fit: unset;  
-            }
-            @include respond-to("<=xs") {
-              object-fit: cover;  
-            }
-          }
+        &__image {
+          width: 465px;
+          position: absolute;
+          top: -1rem;
+          left: 50%;
+          z-index: 2;
+          overflow: hidden;
+          transform: translate(-33%, calc(-54% - 6px));
         }
       }
     }
@@ -89,7 +71,6 @@
     }
     p {
       line-height: rem(28px);
-      font-size: rem(16px);
     }
     h3 {
       font-size: 1.5rem;
@@ -119,9 +100,6 @@
           background-color: $color-neutral-black;
         }
       }
-    }
-    p {
-      font-size: rem(16px);
     }
     svg {
       position: absolute;
@@ -158,11 +136,8 @@
     }
     grid-row-gap: 1.5rem;
   }
-  &__iconContainer {
-    position: relative;
-    width: 33px;
-    aspect-ratio: 1;
-  }
+
+
   @include respond-to(">=xl") {
     &__services {
       &__content {
@@ -196,9 +171,7 @@
       }
     }
     &__about {
-      > div > p { 
-        font-size: rem(16px);
-        line-height: 1.5rem }
+      > div > p { line-height: 1.5rem }
     }
     &__phases {
       --f-gutter: 76px;
@@ -210,7 +183,6 @@
           width: 100%;
           p {
             width: 100%;
-            font-size: rem(16px);
           }
           h4 {
             width: 100%;
@@ -255,6 +227,11 @@
         &__content {
           width: 100%;
           max-height: rem(290px);
+          > div {
+            position: relative;
+            justify-items: center;
+            width: 100%;
+          }
           &__elipse {
             top: 0;
             width: rem(341px);
@@ -276,9 +253,6 @@
         line-height: 2rem;
         margin-bottom: 4px;
       }
-      p {
-        font-size: rem(16px);
-      }
     }
     &__phases {
       --f-gutter: 16px;
@@ -297,9 +271,6 @@
 
   @include respond-to(">=l") {
     &__phases-links {
-      p {
-        font-size: rem(16px);
-      }
       &__arrow { width: calc(100% - 120px) }
       svg { transform: translate(calc(50% + 60.5px),-50%) }
     }
@@ -307,9 +278,6 @@
   @include respond-to("<=l") {
     &__phases-links {
       &__arrow { width: calc(100% - 42px) }
-      p {
-        font-size: rem(16px);
-      }
       svg { transform: translate(calc(50% - 7.5px),-50%) }
     }
   }

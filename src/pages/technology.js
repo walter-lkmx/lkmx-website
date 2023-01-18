@@ -7,7 +7,6 @@ import getLang from '@/lang';
 import siteMetadata from "../meta/siteMetadata"
 import HeadSeo from "../components/HeadSeo"
 import { useRouter } from "next/router";
-import Image from "next/image";
 
 export default function TechnologyPage() {
 
@@ -35,17 +34,8 @@ export default function TechnologyPage() {
           </Block>
           <Block className={styles.technology__hero__block}>
             <div className={styles.technology__hero__block__right}>
-              <div className={styles.technology__hero__block__right__triangle}></div>
-              <div className={styles.technology__hero__block__right__background}>
-                <Image
-                  layout="fill"                
-                  priority={true}
-                  src="/code--blue-bg.svg" alt="code"
-                />
-              </div>
-              <div className={styles.technology__hero__block__right__container}>
-                <Image fill src="/circle--pink.svg" alt="ellipse" className={styles.technology__hero__block__right__elipse}/>
-              </div>
+              <div></div>
+              <img src="/circle--pink.svg" alt="ellipse" className={styles.technology__hero__block__right__elipse}/>
             </div>
           </Block>
         </Column>
@@ -77,7 +67,7 @@ export default function TechnologyPage() {
                       rows.map((technology, indexColumn) => {
                         return (
                           <div key={`technology-column-${indexColumn}`} style={{gridArea: `a${indexColumn}` }}>
-                            <Image fill src={`/technologies/${technology}`} alt={technology}/>
+                            <img src={`/technologies/${technology}`} alt={technology}/>
                           </div>
                         )
                       })

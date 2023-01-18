@@ -4,10 +4,6 @@
   $hero-height-small: rem(412px);
   &__hero {
     height: $hero-height-large;
-    @include respond-to("<=s") {
-      height: auto;
-    }
-    
     &__block {
       * {
         color: white;
@@ -21,19 +17,14 @@
       }
       &:last-child {
         background-color: white;
+        background-image: url('/hero-industries.svg');
+        background-repeat: no-repeat;
         position: relative;
         overflow: hidden;
-        height: 100%;        
-        > div {
-          width: 100%;
-          
-        }
-        > div > div {
-          height: 100%;
-          padding: 0px;
-        } 
+        background-position: 0% 50%;
+        background-size: cover;
         @include respond-to('<=s') {
-          height: 350px;
+          background-position: bottom;
         }
       }
       &__left {
@@ -49,7 +40,6 @@
             font-size: rem(35px);
             line-height: rem(47px);
             text-transform: uppercase;
-            font-weight: 800;
           }
           p {
             margin: 0;
@@ -69,9 +59,11 @@
           }
         }
       }
-      &__right {    
-        height: 100%;  
-        div:first-child {
+      &__right {
+        @include respond-to('<=s') {
+          height: 350px;
+        }
+        div {
           position: absolute;
           top: 0;
           left: 0;
@@ -84,17 +76,8 @@
             rgba(255, 255, 255, 0) 50%,
             rgba(255, 255, 255, 0) 100%
           );
-          z-index: 1;
           @include respond-to('<=s') {
             display: none;
-          }
-        }
-        &__waves {
-          position: relative;
-          height: 100%;
-          z-index: 0;
-          img {
-            object-fit: cover;
           }
         }
         &__elipse {
@@ -102,13 +85,13 @@
           width: 648px;
           height: 648px;
           position: absolute;
-          right: -10px;
-          top: -62px;
+          right: 122px;
+          top: -30px;
           transform: translate(50%, -50%);
           @include respond-to("xxs") {
             max-width: 100% !important;
-            right: 24px;
-            top: 27px;
+            right: unset;
+            top: unset;
           }
         }
       }
@@ -121,9 +104,6 @@
         display: flex;
         justify-content: center;
         text-align: center;
-        @include respond-to("<=xs") {
-          text-align: start;
-        }
         * {
           margin: 0;
         }
@@ -133,10 +113,6 @@
           font-size: 28px;
           line-height: 36px;
           text-transform: uppercase;
-          @include respond-to("<=m") {
-            font-size: 24px;
-            line-height: 32px;
-          }
         }
       }
     }
@@ -192,7 +168,6 @@
                 font-family: $font-secondary;
                 font-size: 20px;
                 line-height: 28px;
-                text-transform: uppercase;
               }
             }
           }

@@ -4,9 +4,6 @@
     color: white;
     li, li > a {
       color: $color-cyan;
-      &:hover {
-        color: $color-footer-hover;
-      }
     }
     ul, li, h2, h3, p {
       margin: 0;
@@ -42,7 +39,6 @@
             grid-row-gap: rem(10px);
             li {
               line-height: rem(20px);
-              text-transform: capitalize;
               a {
                 text-decoration: none;
 
@@ -62,9 +58,7 @@
         > a {
           grid-area: logo;
           width: rem(140px);
-          height: 72px;
           margin-top: rem(4px);
-          position: relative;
         }
         ul {
           --f-list-item-margin: 0;
@@ -73,58 +67,10 @@
           grid-row-gap: 1rem;
           grid-auto-rows: min-content;
           padding-top: 1rem;
-          a {
-            position: relative;
-            height: rem(24px);
-            width: rem(24px);
-            display: inline-block;
-          }
         }
         p {
           grid-area: info;
           line-height: rem(28px);
-          font-size: 16px;
-          display: grid;
-          align-content: center;
-          text-align: right;
-          @include respond-to("<=l") {
-            text-align: left;
-          }
-          span {
-            display: block;
-            font-size: 16px;
-          }
-        }
-        &__logo {
-          &__instaHover {
-            display: none;
-          }
-          &__instaContainer:hover &__instaHover {
-            display: block;
-          }
-          &__instaContainer:hover &__insta {
-            display: none;
-          }
-
-          &__twitterHover {
-            display: none;
-          }
-          &__twitterContainer:hover &__twitterHover {
-            display: block;
-          }
-          &__twitterContainer:hover &__twitter {
-            display: none;
-          }
-
-          &__linkedinHover {
-            display: none;
-          }
-          &__linkedinContainer:hover &__linkedinHover {
-            display: block;
-          }
-          &__linkedinContainer:hover &__linkedin {
-            display: none;
-          }
         }
       }
     }
@@ -163,13 +109,13 @@
         &__pages {
           grid-template-columns: rem(221px) rem(223px) auto;
         }
-        //&__information {
-          // p {
-          //   text-align: end;
-          //   align-self: end;
-          //   width: rem(413px);
-          // }
-        //}
+        &__information {
+          p {
+            text-align: end;
+            align-self: end;
+            width: rem(413px);
+          }
+        }
       }
     }
   }
@@ -193,7 +139,7 @@
           grid-column-gap: rem(26px);
           > a { width: rem(180px) }
           ul { padding: 0 }
-          // p { width: rem(338px) }
+          p { width: rem(338px) }
         }
       }
     }

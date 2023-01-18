@@ -28,7 +28,6 @@
 						font-weight: 400;
 						font-size: 20px;
 						line-height: 30px;
-						max-width: 90vw;
 						@include respond-to("<=xs") {
 							br {
 								display: none;
@@ -40,52 +39,26 @@
 					overflow: visible;
 					position: relative;
 					width: 50vw;
-					max-height: 570px;
-					display: grid;
-					justify-content: center;
+   					display: grid;
 					@include respond-to("<=m") {
 						width: 100%;
-						height: 425px;
 					}
-					&__imgContainer{
-						position: relative;
-						width: 1038px;
-						height: 1171px;
-						@include respond-to(">xl") {
-							transform: translate(-7%, 219px);				
-						}
-						@include respond-to(">=xl") {
-							transform: translate(-8%, 219px);				
-						}
-						@include respond-to("<=l") {
-							width: 768px;
-							height: 866px;
-							transform: translate(-18%, 369px);	
-						}
+					img{
+						max-width: none !important;
+						position: absolute;
+						transform: translate(-17px, 219px);
+						justify-self: center;
 						@include respond-to("<=m") {
-							width: 768px;
-							transform: translate(0, 15px);
-						}
-
-						@include respond-to("<=s") {
-							width: 709px;
-							transform: translate(-19%, 15px);
-						}
-
-						img {
-							object-fit: fill;
-						}
-						// @include respond-to("<=m") {
-						// 	width: 768.53px;
-						// 	height: 867px;
-						// 	transform: translate(0px, -18px);
+							width: 768.53px;
+							height: 867px;
+							transform: translate(0px, -18px);
 							
-						// }
-						// @include respond-to("<=xs") {
-						// 	transform: translate(0px, 14px);
-						// 	width: 709.14px;
-						// 	height: 800px;
-						// }
+						}
+						@include respond-to("<=xs") {
+							transform: translate(0px, 14px);
+							width: 709.14px;
+							height: 800px;
+						}
 					}	
 				}
 			}
@@ -93,7 +66,7 @@
 	}
 	&__services {
 		position: relative;
-		background: linear-gradient(90deg, $color-neutral-black 51%, $color-bright-gray 49%);
+		background: linear-gradient(90deg, $color-neutral-black 50%, $color-bright-gray 50%);
 		@include respond-to("<=m") {
 			background: $color-neutral-black;
 		}
@@ -147,7 +120,7 @@
 						gap: 4px;
 						width: 175px;
 						height: 40px;
-						background: $color-btn-default;
+						background: $color-pink;
 						font-weight: 400;
 						font-size: 14px;
 						line-height: 24px;
@@ -155,63 +128,39 @@
 						padding: 8px 15px;
 						cursor: pointer;
 						text-align: center;
-						&:hover {
-							background-color: $color-btn-hover;
-						}
-						@include respond-to("<=m") {
-							width: 100%;
-						}
 					}
 				}
 				&__right {
 					background-color: $color-bright-gray;
-					// position: relative;
-					min-height: 560px;
-					display: grid;
 					@include respond-to("<=xs") {
 						max-height: 560px;
 					}
 					@include respond-to("<=m") {
 						position: relative;
 						order: -1;
-						max-height: 560px;
+						
 					}
 					img {
 						@include respond-to("<=xs") {
 							height: 80%;
 						}
 					}
-					&__imgWrapper {
-						position: relative;
-						position: absolute;
-						height: 100%;
-						width: 212px;
-						&:nth-child(2) {
-							top: 0;
-							@include respond-to(">=m") {
-								right: 0;
-							}
-							@include respond-to("<=s") {
-								width: 100vw;
-							}
-						}
-					}
-					&__triangleLeft {
-						object-position: left;
-    				object-fit: contain;
-					}
-					&__triangleRight {
-						object-position: right;
-    				object-fit: contain;
-					}
 				}
 			}
 		}
-		
+		&__triangle {
+			position: absolute;
+			right: 0;
+			top: 0;
+			height: 100%;
+			// @include respond-to("<=xs") {
+			// 	height: 80%;	
+			// }
+		}
 	}
 	&__technologies {
 		&__block {
-			padding: 120px 0px 0px;
+			padding: 120px 0px;
 			&__title {
 				display: grid;
 				place-items: start;
@@ -234,9 +183,6 @@
 				max-width: rem(924px);
 				margin: auto;
 				width: 100%;
-				@include respond-to(">=xl") {
-					transform: translate(125px, -134px);
-				}
 				
 				@include respond-to("<=l") {
 						max-width: 54rem;
@@ -254,8 +200,7 @@
 					justify-items: center;
 					.logoContainer {
 						position: relative;
-						width: 100%;
-						object-fit: fill;
+						width: -webkit-fill-available;
 						min-height: auto;
 						span {
 							img {
@@ -351,10 +296,13 @@
 		}
 	}
 	&__team {
+
 		background-color: $color-neutral-black;
+
 		p {
 			color: white;
 		}
+
 		&__block {
 			&:first-child>div>div {
 				padding: 0px;
@@ -364,20 +312,17 @@
 				height: 100%;
 				gap: 2rem;
 				padding-top: 240px;
-				// justify-content: center;
 				@include respond-to("<=m") {
 					padding-top: rem(120px);
 				}
 				&__card-empty {
 					border: none;
 				}
-				&__koiContainer {
-					position: relative;
-					width: 300px;
-					height: 600px;
-					display: grid;
-					justify-content: center;
-					margin: 0 auto;
+
+
+
+				&__koi {
+					justify-self: center;
 				}
 
 				&__text {
@@ -419,12 +364,14 @@
 						&__sbr{
 							display: block !important;
 						}
-					}				
+					}
+					
 				}
+
 				&__btn {
 					gap: 4px;
 					height: 40px;
-					background: $color-btn-default;
+					background: $color-pink;
 					font-weight: 400;
 					font-size: 14px;
 					line-height: 24px;
@@ -432,10 +379,8 @@
 					padding: 8px 16px;
 					justify-self: center;
 					cursor: pointer;
-					&:hover {
-						background-color: $color-btn-hover;
-					}
 				}
+
 				&__collabs {
 					margin-top: rem(55px);
 					display: grid;
@@ -456,85 +401,8 @@
 							object-fit: cover;
 						}
 					}
-				}				
-			}
-		}
-	}	
-	&__locations {
-		background-color: $color-bright-gray;
-
-		padding-top: 120px;
-		overflow: hidden;
-		min-height: 800px;
-		&__text {
-			z-index: 1;
-			margin-bottom: 25px;
-			height: fit-content;
-			h1 {
-				margin-bottom: 8px;
-				width: max-content;
-				max-width: 95vw;
-				@include respond-to("<=xs") {
-					font-weight: 700;
-					font-size: 28px;
-					line-height: 36px;
-				}
-			}
-			p {
-				font-weight: 400;
-				font-size: 20px;
-				line-height: 30px;
-				width: max-content;
-				max-width: 95vw;
-				strong {
-					font-weight: 700;
-					font-size: 24px;
-					line-height: 32px;
-					color: $color-cyan;
-				}
-				@include respond-to("<=xs") {
-					br {
-						display: none;
-					}
-				}
-			}
-			&__pink {
-				color: $color-pink !important;
-			}
-		}
-		&__globe {
-			z-index: 0;
-			position: absolute;
-			right: calc(-2% - 604.5px + 270.5px);
-			top: 200px;			
-			@include respond-to("<=l") {
-				left: calc(65% - 604.5px + 270.5px);
-			}
-			@include respond-to("<=m") {
-				left: 0;
-				right: 0;
-				margin: auto;
-				top: 343px;
-			}
-			@include respond-to("<=xs") {
-				top: 415px;
-			}
-			
-			canvas {
-				@include respond-to("<=s") {
-					height: 600px !important;
-					width: 600px !important;
-				}
-				@include respond-to("<=s") {
-					height: 600px !important;
-					width: 600px !important;
-				}
-				@include respond-to("<=xs") {
-					 left: 0%;
-					height: 500px !important;
-					width: 500px !important;
 				}
 			}
 		}
-	}	
+	}		
 }
