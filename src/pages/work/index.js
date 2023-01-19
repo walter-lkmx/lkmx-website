@@ -3,7 +3,7 @@ import BaseLayout from '@/layouts/base-layout.js';
 import Link from 'next/link';
 import Head from 'next/head';
 import { Block, Column, Page } from '@lkmx/flare-react';
-// import { getSortedProjectsData } from '@/lib/projects';
+ import { getSortedProjectsData } from '@/lib/projects';
 import getLang from '@/lang';
 import styles from './index.module.scss';
 import siteMetadata from '../../meta/siteMetadata';
