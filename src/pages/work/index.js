@@ -84,7 +84,7 @@ export default function WorkPage({ allProjectsData }) {
               >
                 <Block className={styles.work__list__column__left}>
                   <div className={styles.work__list__column__left__content}>
-                    <Duration item={item} />
+                    {/* <Duration item={item} /> */}
                     <ul>
                       {item.services.length > 0 &&
                         item.services.map((i, key) => <li key={key}>{i}</li>)}
