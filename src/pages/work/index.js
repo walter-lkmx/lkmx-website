@@ -10,17 +10,17 @@ import siteMetadata from '../../meta/siteMetadata';
 import HeadSeo from '../../components/HeadSeo';
 import { useRouter } from 'next/router';
 
-const Duration = (props) => {
-  const duration = `${props.item.startDate}${
-    props.item.endDate ? '-' + props.item.endDate : ''
-  }`;
-  return (
-    <h3>
-      {duration} <br />
-      {props.item.aditionalDateInfo && props.item.aditionalDateInfo}
-    </h3>
-  );
-};
+// const Duration = (props) => {
+//   const duration = `${props.item.startDate}${
+//     props.item.endDate ? '-' + props.item.endDate : ''
+//   }`;
+//   return (
+//     <h3>
+//       {duration} <br />
+//       {props.item.aditionalDateInfo && props.item.aditionalDateInfo}
+//     </h3>
+//   );
+// };
 
 export default function WorkPage({ allProjectsData }) {
   const { locale } = useRouter();
