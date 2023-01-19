@@ -116,7 +116,7 @@ export default function WorkPage({ allProjectsData }) {
 
 export async function getServerSideProps(context) {
 
-  const allProjectsData = getSortedProjectsData(context.locale);
+  const allProjectsData = await getSortedProjectsData(context.locale);
 
   return {
     props: {
