@@ -49,22 +49,22 @@ export default function Footer() {
             </div>
             <div className={styles.footer__top__content__information}>
               <Link href="/">
-                <a><img src="/lkmx-logotype--white.svg" alt="Logo" className={styles.footer__top__content__information__logo}/></a>
+                <img src="/lkmx-logotype--white.svg" alt="Logo" className={styles.footer__top__content__information__logo}/>
               </Link>
               <ul>
                 <li>
                   <Link href={siteMetadata.instagram} passHref>
-                    <a target="_blank"><img src="/icons/social-instagram.svg" alt="Instagram"/></a>
+                    <img src="/icons/social-instagram.svg" alt="Instagram"/>
                   </Link>
                 </li>
                 <li>
                   <Link href={siteMetadata.twitter}>
-                    <a target="_blank"><img src="/icons/social-twitter.svg" alt="Twitter"/></a>
+                    <img src="/icons/social-twitter.svg" alt="Twitter"/>
                   </Link>
                 </li>
                 <li>
                   <Link href={siteMetadata.linkedin}>
-                    <a target="_blank"><img src="/icons/social-linkedin.svg" alt="Linkedin"/></a>
+                    <img src="/icons/social-linkedin.svg" alt="Linkedin"/>
                   </Link>
                 </li>
               </ul>

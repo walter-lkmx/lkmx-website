@@ -13,7 +13,7 @@ export default function Header(props) {
           <div className={styles.header__content}>
             <div className={styles.header__content__logo}>
               <Link href="/">
-                <a><img src="/lkmx-logotype-black.svg" alt="Logo"/></a>
+                <img src="/lkmx-logotype-black.svg" alt="Logo"/>
               </Link>
             </div>
             <div className={styles.header__content__links}>

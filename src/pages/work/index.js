@@ -97,13 +97,11 @@ export default function WorkPage({ allProjectsData }) {
                   <div className={styles.work__list__column__right__content}>
                     <h3>{item.title}</h3>
                     <p>{item.headline}</p>
-                    <Link href={`/projects/${item.id}`} key={item.id}>
-                      <a>
+                    <Link href={`/work/${item.id}`} key={item.id}>                      
                         <img
                           src="/icons/arrow-right--pink.svg"
                           alt="arrow-left"
-                        />
-                      </a>
+                        />                      
                     </Link>
                   </div>
                 </Block>
