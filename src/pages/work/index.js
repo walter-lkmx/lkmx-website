@@ -3,26 +3,26 @@ import BaseLayout from '@/layouts/base-layout.js';
 import Link from 'next/link';
 import Head from 'next/head';
 import { Block, Column, Page } from '@lkmx/flare-react';
-import { getSortedProjectsData } from '@/lib/projects';
+// import { getSortedProjectsData } from '@/lib/projects';
 import getLang from '@/lang';
 import styles from './index.module.scss';
 import siteMetadata from '../../meta/siteMetadata';
 import HeadSeo from '../../components/HeadSeo';
 import { useRouter } from 'next/router';
 
-// const Duration = (props) => {
-//   const duration = `${props.item.startDate}${
-//     props.item.endDate ? '-' + props.item.endDate : ''
-//   }`;
-//   return (
-//     <h3>
-//       {duration} <br />
-//       {props.item.aditionalDateInfo && props.item.aditionalDateInfo}
-//     </h3>
-//   );
-// };
+const Duration = (props) => {
+  const duration = `${props.item.startDate}${
+    props.item.endDate ? '-' + props.item.endDate : ''
+  }`;
+  return (
+    <h3>
+      {duration} <br />
+      {props.item.aditionalDateInfo && props.item.aditionalDateInfo}
+    </h3>
+  );
+};
 
-export default function WorkPage({ allProjectsData }) {
+export default function WorkPage() {
   const { locale } = useRouter();
   const $t = getLang(locale);
 
@@ -69,63 +69,63 @@ export default function WorkPage({ allProjectsData }) {
             </div>
           </Block>
         </Column>
-        <div className={styles.work__list}>
-          {allProjectsData != undefined
-            ? allProjectsData.map((item, index) => (
-              <div
-                className={styles.work__list__proyect}
-                key={`index-project-${index}`}
+        {/* <div className={styles.work__list}>
+          {allProjectsData.map((item, index) => (
+            <div
+              className={styles.work__list__proyect}
+              key={`index-project-${index}`}
+            >
+              <Column
+                number="2"
+                weight="right"
+                modeXl="normal"
+                mode="full"
+                className={styles.work__list__column}
               >
-                <Column
-                  number="2"
-                  weight="right"
-                  modeXl="normal"
-                  mode="full"
-                  className={styles.work__list__column}
-                >
-                  <Block className={styles.work__list__column__left}>
-                    <div className={styles.work__list__column__left__content}>
-                      {/* <Duration item={item} /> */}
-                      <ul>
-                        {item.services.length > 0 &&
-                          item.services.map((i, key) => <li key={key}>{i}</li>)}
-                      </ul>
-                    </div>
-                    <div className={styles.line} />
-                  </Block>
+                <Block className={styles.work__list__column__left}>
+                  <div className={styles.work__list__column__left__content}>
+                    <Duration item={item} />
+                    <ul>
+                      {item.services.length > 0 &&
+                        item.services.map((i, key) => <li key={key}>{i}</li>)}
+                    </ul>
+                  </div>
+                  <div className={styles.line} />
+                </Block>
 
-                  <Block className={styles.work__list__column__right}>
-                    <div className={styles.work__list__column__right__content}>
-                      <h3>{item.title}</h3>
-                      <p>{item.headline}</p>
-                      <Link href={`/work/${item.id}`} key={item.id}>                      
-                          <img
-                            src="/icons/arrow-right--pink.svg"
-                            alt="arrow-left"
-                          />                      
-                      </Link>
-                    </div>
-                  </Block>
-                </Column>
-              </div>
-            ))
-            : <h2>All Projects Data does not Exist</h2>
-          }
-          
-        </div>
+                <Block className={styles.work__list__column__right}>
+                  <div className={styles.work__list__column__right__content}>
+                    <h3>{item.title}</h3>
+                    <p>{item.headline}</p>
+                    <Link href={`/projects/${item.id}`} key={item.id}>
+
+                      <img
+                        src="/icons/arrow-right--pink.svg"
+                        alt="arrow-left"
+                      />
+
+                    </Link>
+                  </div>
+                </Block>
+              </Column>
+            </div>
+          ))}
+        </div> */}
       </Page>
     </BaseLayout>
   );
 }
 
-export async function getServerSideProps(context) {
+// export async function getServerSideProps(context) {
 
-  const allProjectsData = await getSortedProjectsData(context.locale);
-  console.log(allProjectsData);
-  console.log(getSortedProjectsData(context.locale));
-  return {
-    props: {
-      allProjectsData,
-    },
-  };
-}
+//   const allProjectsData = await new Promise((resolve) => {
+//     resolve(getSortedProjectsData(context.locale));
+//   });
+
+//   return {
+//     props: {
+//       allProjectsData,
+//     },
+//   };
+// }
+
