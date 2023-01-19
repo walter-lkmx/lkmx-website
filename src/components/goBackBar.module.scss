@@ -6,7 +6,10 @@
   &:first-child > div > div{
     align-items: center;
     display: grid;
-    padding: 10px 14px;      
+    padding: 10px 14px; 
+    @include respond-to("xxxl") {
+      padding: 10px 202px;
+    }     
   }
   &__wrapper {
     display: grid;

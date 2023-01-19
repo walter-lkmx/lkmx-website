@@ -87,7 +87,6 @@
           color: white;
           text-transform: uppercase;
           font-family: $font-tertiary;
-          font-size: rem(35px);
           @include respond-to ("<=xl") {
             position: absolute;
             right: 223px;
@@ -159,6 +158,19 @@
         display: grid;
         place-content: center;
         background: $color-blue;
+        @include respond-to("<=s") {
+          @include respond-to("<=s") {
+            height: 251px;
+            width: 362px;        
+            max-width: none !important;    
+            margin-left: auto;
+            margin-right: auto;  
+          }
+          @include respond-to("xxs") {
+            height: 251px;
+            width: 343px;      
+          }
+        }
        }
       &__image {
         position: relative;
