@@ -70,44 +70,48 @@ export default function WorkPage({ allProjectsData }) {
           </Block>
         </Column>
         <div className={styles.work__list}>
-          {allProjectsData.map((item, index) => (
-            <div
-              className={styles.work__list__proyect}
-              key={`index-project-${index}`}
-            >
-              <Column
-                number="2"
-                weight="right"
-                modeXl="normal"
-                mode="full"
-                className={styles.work__list__column}
+          {allProjectsData 
+            ? allProjectsData.map((item, index) => (
+              <div
+                className={styles.work__list__proyect}
+                key={`index-project-${index}`}
               >
-                <Block className={styles.work__list__column__left}>
-                  <div className={styles.work__list__column__left__content}>
-                    {/* <Duration item={item} /> */}
-                    <ul>
-                      {item.services.length > 0 &&
-                        item.services.map((i, key) => <li key={key}>{i}</li>)}
-                    </ul>
-                  </div>
-                  <div className={styles.line} />
-                </Block>
+                <Column
+                  number="2"
+                  weight="right"
+                  modeXl="normal"
+                  mode="full"
+                  className={styles.work__list__column}
+                >
+                  <Block className={styles.work__list__column__left}>
+                    <div className={styles.work__list__column__left__content}>
+                      {/* <Duration item={item} /> */}
+                      <ul>
+                        {item.services.length > 0 &&
+                          item.services.map((i, key) => <li key={key}>{i}</li>)}
+                      </ul>
+                    </div>
+                    <div className={styles.line} />
+                  </Block>
 
-                <Block className={styles.work__list__column__right}>
-                  <div className={styles.work__list__column__right__content}>
-                    <h3>{item.title}</h3>
-                    <p>{item.headline}</p>
-                    <Link href={`/work/${item.id}`} key={item.id}>                      
-                        <img
-                          src="/icons/arrow-right--pink.svg"
-                          alt="arrow-left"
-                        />                      
-                    </Link>
-                  </div>
-                </Block>
-              </Column>
-            </div>
-          ))}
+                  <Block className={styles.work__list__column__right}>
+                    <div className={styles.work__list__column__right__content}>
+                      <h3>{item.title}</h3>
+                      <p>{item.headline}</p>
+                      <Link href={`/work/${item.id}`} key={item.id}>                      
+                          <img
+                            src="/icons/arrow-right--pink.svg"
+                            alt="arrow-left"
+                          />                      
+                      </Link>
+                    </div>
+                  </Block>
+                </Column>
+              </div>
+            ))
+            : <h2>All Projects Data does not Exist</h2>
+          }
+          
         </div>
       </Page>
     </BaseLayout>
@@ -116,7 +120,7 @@ export default function WorkPage({ allProjectsData }) {
 
 export async function getServerSideProps(context) {
 
-  const allProjectsData = getSortedProjectsData(context.locale);
+  const allProjectsData = await getSortedProjectsData(context.locale);
 
   return {
     props: {
