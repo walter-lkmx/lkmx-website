@@ -35,7 +35,7 @@ export default function WorkPage({ allProjectsData }) {
         ogTwitterImage={$t.home.ogImage ? $t.home.ogImage : locale === 'es' ? siteMetadata.ogDefaultImageEs : siteMetadata.ogDefaultImageEn}
       />
       <Page className={styles.work}>
-        {/* <Column
+        <Column
           number="2"
           numberS="1"
           modeXl="normal"
@@ -84,7 +84,7 @@ export default function WorkPage({ allProjectsData }) {
               >
                 <Block className={styles.work__list__column__left}>
                   <div className={styles.work__list__column__left__content}>
-                    <Duration item={item} />
+                    {/* <Duration item={item} /> */}
                     <ul>
                       {item.services.length > 0 &&
                         item.services.map((i, key) => <li key={key}>{i}</li>)}
@@ -108,7 +108,7 @@ export default function WorkPage({ allProjectsData }) {
               </Column>
             </div>
           ))}
-        </div> */}
+        </div>
       </Page>
     </BaseLayout>
   );
@@ -116,7 +116,7 @@ export default function WorkPage({ allProjectsData }) {
 
 export async function getServerSideProps(context) {
 
-  const allProjectsData = await getSortedProjectsData(context.locale);
+  const allProjectsData = getSortedProjectsData(context.locale);
 
   return {
     props: {
