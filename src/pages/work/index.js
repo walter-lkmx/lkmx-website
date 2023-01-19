@@ -70,7 +70,7 @@ export default function WorkPage({ allProjectsData }) {
           </Block>
         </Column>
         <div className={styles.work__list}>
-          {allProjectsData 
+          {allProjectsData != undefined
             ? allProjectsData.map((item, index) => (
               <div
                 className={styles.work__list__proyect}
