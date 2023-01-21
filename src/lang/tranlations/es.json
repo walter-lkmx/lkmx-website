@@ -427,5 +427,39 @@
       "nuestra página de inicio."
     ],
     "btn": "Ir al inicio"
+  },
+  "stories": {
+    "title": "Success Stories",
+    "title1": ["Success", "Stories"],
+    "ogDescription": "Desde startups hasta empresas, hemos ayudado a impulsar el crecimiento e innovación a través del desarrollo de software personalizado. Explora nuestros casos de éxito.",
+    "ogImage": "",
+    "hero": [
+      "Desde startups hasta empresas, hemos ",
+      "ayudado a impulsar el crecimiento e ",
+      "innovación a través del desarrollo de ",
+      "software personalizado. Explora ",
+      "nuestros casos de éxito."
+    ],
+    "soon": ["PRÓXIMAMENTE"],
+    "spectrum": {
+      "title": "Spectrum Wine",
+      "services": ["Discovery", "Agile Development"],
+      "img": "spectrum-portrait"
+    }
+
+  },
+  "story": {
+    "services": "Servicios",
+    "methodology": "Metodología",
+    "period": "Período"
+  },
+  "servicesComponent": {
+    "title": ["El éxito inicia", "comprendiendo tus", "necesidades"],
+    "paragraph": [
+      "Nuestro equipo se dedica a dar entregas de valor ",
+      "en cada etapa. Aprende más sobre nuestros ",
+      "servicios y ve cómo podemos ayudar en tu éxito."
+    ],
+    "btn": "servicios"
   }
 }

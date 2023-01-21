@@ -1,0 +1,56 @@
+.services {
+    &__column {
+        background-color: $color-bright-gray-01;
+        padding: 72px 0;
+        &__image {
+            position: relative;
+            width: 234px;
+            aspect-ratio: 1;
+            @include respond-to("<=s") {
+                transform: translateX(-85px);
+            }
+            @include respond-to("xxs") {
+                transform: translateX(-70px);
+            }
+        }
+        &__block {
+            > div {
+                display: grid;
+                justify-items: center;
+            }
+            &:first-child {
+                @include respond-to("<=s") {
+                    order: 1;                                        
+                }
+                @include respond-to("xxs") {
+                    p {
+                        br {
+                            display: none;
+                        }
+                    }
+                }
+            }
+            &:last-child {
+                @include respond-to("<=s") {
+                    order: -1;
+                }
+            }
+        }
+    }
+    &__btn {
+        gap: 4px;
+        width: 85px;
+        height: 40px;
+        background: $color-btn-default;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        color: white;
+        padding: 8px 15px;
+        cursor: pointer;
+        text-align: center;
+        &:hover {
+            background-color: $color-btn-hover;
+        }
+    }
+}

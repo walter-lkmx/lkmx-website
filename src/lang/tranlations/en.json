@@ -456,5 +456,37 @@
         "our home page."
       ],
       "btn": "Go to home page"
+    },
+    "stories": {
+      "title": "Success Stories",
+      "title1": ["Success", "Stories"],
+      "ogDescription": "From startups to enterprises, we've helped drive growth and innovation through custom software development. Explore our success stories.",
+      "ogImage": "",
+      "hero": [
+        "From startups to enterprises, we've",
+        "helped drive growth and innovation",
+        "through custom software development. ",
+        "Explore our success stories."
+      ],
+      "soon": ["COMING SOON"],
+      "spectrum": {
+        "title": "Spectrum Wine",
+        "services": ["Discovery", "Agile Development"],
+        "img": "spectrum-portrait"
+      }
+    },
+    "story": {
+      "services": "Services",
+      "methodology": "Methodology",
+      "period": "Period"
+    },
+    "servicesComponent": {
+      "title": ["Success starts with", "understanding your needs"],
+      "paragraph": [
+        "Our team is dedicated to delivering value at every",
+        "stage. Learn more about our services and see how",
+        "we can help you succeed."
+      ],
+      "btn": "services"
     }
 }
