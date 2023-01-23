@@ -23,7 +23,8 @@ Otro importante reto que abordamos fue la necesidad de manejar datos confidencia
 
 ---
 
-![Alt text](/work/search-result.gif "Search results")
+![Alt text](/work/search-result.jpg "Search results")
+*El catálogo principal muestra un listado de los vinos que se encuentran actualmente en subasta, incluyen información tal como el nombre del vino, añada y oferta actual.*
 
 ---
 
@@ -33,7 +34,8 @@ Para enfrentar estos retos, desarrollamos una aplicación personalizada que util
 
 ---
 
-![Alt text](/work/wine-details.gif "Search results")
+![Alt text](/work/wine-details.jpg "Search results")
+*La función de guardar oferta permite a los usuarios guardar y tener seguimiento de sus vinos favoritos.*
 
 Los usuarios son capaces de:
 
@@ -51,6 +53,7 @@ Como en todos nuestros proyectos, este proyecto comenzó con una etapa de discov
 ---
 
 ![Alt text](/work/proyect-chart-es--spectrum.png "Gantt chart")
+*The Gantt chart for this project shows the discovery, AGILE development, and testing and deployment phases. The discovery phase involved understanding the client's needs and analyzing their existing process. The development phase involved delivering value on each sprint to be flexible and responsive. The testing and deployment phase involved thorough testing and deployment of the app with support.*
 
 ---
 
@@ -61,7 +64,9 @@ La aplicación que desarrollamos continuará ayudando a la casa vinícola a mejo
 ---
 
 ![Alt text](/work/login-spectrum.jpg "Login App")
+*La pantalla de inicio de sesión de la aplicación se puede acceder a través de varias acciones, como tocar el botón "Iniciar sesión" o a través de ciertas pestañas como "Mis pujas" y "Mi vino". También hay un botón "Iniciar sesión en tu cuenta" presente en la pantalla para un fácil acceso.*
 
-![Alt text](/work/store-spectrum.jpg "App capture")
+---
 
-![Alt text](/work/cart-spectrum.jpg "App capture")
+![Alt text](/work/store-spectrum.jpg "App capture")![Alt text](/work/cart-spectrum.jpg "App capture")
+*La función de detalles y descripción de un vino provee una vista general de un vino en específico, incluyendo información tal como su variedad y región.* *El apartado de “My Wine” muestra un listado de los vinos del propio usuario que se encuentra subastando.*
