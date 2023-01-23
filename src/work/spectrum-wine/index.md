@@ -53,7 +53,7 @@ Como en todos nuestros proyectos, este proyecto comenzó con una etapa de discov
 ---
 
 ![Alt text](/work/proyect-chart-es--spectrum.png "Gantt chart")
-*The Gantt chart for this project shows the discovery, AGILE development, and testing and deployment phases. The discovery phase involved understanding the client's needs and analyzing their existing process. The development phase involved delivering value on each sprint to be flexible and responsive. The testing and deployment phase involved thorough testing and deployment of the app with support.*
+*El diagrama de Gantt para este proyecto muestra las fases de descubrimiento, desarrollo AGILE y pruebas y despliegue. La fase de descubrimiento implicó comprender las necesidades del cliente y analizar su proceso existente. La fase de desarrollo implicó entregar valor en cada sprint para ser flexible y receptivo. La fase de pruebas y despliegue implicó pruebas exhaustivas y despliegue de la aplicación con soporte.*
 
 ---
 
