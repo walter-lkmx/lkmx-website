@@ -10,7 +10,7 @@
             line-height: 20px;
             text-transform: uppercase;
             &:last-child {
-                font-family: 'IBM Plex Sans';
+                font-family: var(--lk-font-ibm);
                 font-style: normal;
                 font-weight: 400;
                 font-size: 20px;
