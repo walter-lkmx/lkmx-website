@@ -9,13 +9,13 @@ portrait: 'spectrum-portrait'
 hero: 'spectrum-hero'
 storyType: 'Success Story'
 ---
-# Introducción
+## Introducción
 
 Fuimos abordados por una casa de subastas de vinos que buscaba mejorar su presencia en línea con el desarrollo de una aplicación móvil para sus subastas. La casa vinícola tenía una exitosa trayectoriacomo anfitrión de subastas en línea en su sitio web, por lo que reconoció el potencial de crecimientoque provee una aplicación móvil dedicada a sus usuarios. Una anterior aplicación móvil con la que elloscontaban estaba pobremente diseñada, lenta y proveía una pobre experiencia de usuario, llevando a una baja tasa de uso. La meta del proyecto fue crear una app que permitiera a los usuarios navegar yhacer una oferta en vinos desde sus celulares con una experiencia de usuario simple y segura.
 
 ---
 
-# Los Retos
+## Los Retos
 
 Uno de los principales retos que enfrentamos en este proyecto fue la necesidad de integrar una existente base de datos del inventario de las subastas de la casa vinícola y mostrar la información en tiempo real con respuesta rápida. La base de datos contenía información detallada sobre cada vino, incluyendo añada, región y notas de sabor, así como el actual estatus de la oferta. Era esencial que la aplicación accediera y mostrara esta información rápido y eficiente para proveer esta experiencia simple y segura.
 
@@ -27,7 +27,7 @@ Otro importante reto que abordamos fue la necesidad de manejar datos confidencia
 
 ---
 
-# Solución
+## Solución
 
 Para enfrentar estos retos, desarrollamos una aplicación personalizada que utiliza una API RESTful para integrarse perfectamente con la base de datos del inventario de la casa de vinos. Esto permite que se muestre información en tiempo real rápido y eficiente de cada uno de los vinos, incluyendo su correspondiente estatus de oferta, a usuarios de la aplicación. A su vez implementamos un número de medidas de seguridad para proteger la confidencialidad de los datos de usuario, que incluyen encriptación de información susceptible y un estricto control de acceso.
 
@@ -54,7 +54,7 @@ Como en todos nuestros proyectos, este proyecto comenzó con una etapa de discov
 
 ---
 
-# Conclusión
+## Conclusión
 
 La aplicación que desarrollamos continuará ayudando a la casa vinícola a mejorar su presencia en línea y a proveer una experiencia de usuario para sus clientes mejor que en su aplicación previa. Ofrece una plataforma transparente y segura de conducción de subastas, incrementando la confianza en las subastas en línea de la casa de vinos. Nuestro equipo se enorgullece de haber desempeñado un papel en el éxito de este proyecto y espera continuar trabajando con la bodega en el futuro.
 
