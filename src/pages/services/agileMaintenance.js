@@ -91,7 +91,7 @@ export default function Ams() {
                         </div>
                     </Block>                    
                 </Column>
-                <Column mode="slim" modeM="normal"  number="1" className={styles.ams__content}>
+                <Column mode="full" modeM="normal" modeL="slim" number="1" className={styles.ams__content}>
                     <Block className={styles.ams__content__right}>
                         <div>
                             <h4>{$t.ams.right.title1[0]}<br/>{$t.ams.right.title1[1]}</h4>

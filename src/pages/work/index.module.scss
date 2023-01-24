@@ -46,6 +46,7 @@
                 } 
                 h1 {
                     line-height: 47px;
+                    font-family: var(--lk-font-inter);
                 }
                 p {
                     font-size: 20px;
@@ -135,6 +136,7 @@
                 position: relative;
                 width: 568px;
                 height: 600px;
+                background-color: $color-bright-gray;
                 @include respond-to("<=l") {
                     width: 343px;
                     height: 400px;
