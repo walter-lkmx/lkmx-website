@@ -25,7 +25,7 @@ export default function StoriesPage({allStoriesData}) {
                 <Column number="2" numberS="1" weight="right" className={styles.storiesPage__hero}>
                     <Block className={styles.storiesPage__hero__left}>
                         <div className={styles.storiesPage__hero__left__content}>
-                            <h1>{$t.stories.title1[0]}<br/>{$t.stories.title1[1]}</h1>
+                            <h1>{$t.stories.title}</h1>
                             <p>
                                 {$t.stories.hero[0]}<br/>
                                 {$t.stories.hero[1]}<br/>
@@ -64,7 +64,7 @@ export default function StoriesPage({allStoriesData}) {
                         <div className={styles.storiesPage__storiesGrid}> 
                             <div className={styles.storiesPage__storiesGrid__soon}>
                                 <div className={styles.storiesPage__storiesGrid__soon__image}></div>
-                               <h1>{$t.stories.soon[0]}</h1>
+                               <h2>{$t.stories.soon[0]}</h2>
                             </div>
                                 <div className={styles.storiesPage__storiesGrid__item}>
                                     <Link href="/work/spectrum-wine">
@@ -76,7 +76,7 @@ export default function StoriesPage({allStoriesData}) {
                                                     alt="project image"
                                                 />
                                             </div>                                    
-                                            <h1>{$t.stories.spectrum.title}</h1>
+                                            <h2>{$t.stories.spectrum.title}</h2>
                                             <span>{$t.stories.spectrum.services[0]}, {$t.stories.spectrum.services[1]}</span>
                                         </div>
                                     </Link>                                    

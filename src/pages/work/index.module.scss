@@ -58,7 +58,7 @@
                 height: 591px;
                 width: 155px;
                 justify-self: end;
-                transform: translate(171px, -16px);           
+                transform: translate(170px, -16px);           
                 @include respond-to("<=s") {
                     display: none;
                 }     
@@ -96,13 +96,9 @@
         }
     }
     &__storiesGrid {
-        h1 {
+        h2 {
             margin-bottom: 0;
             margin-top: 26px;
-            @include respond-to("<=m") {
-                font-size: 28px;
-                line-height: 36px;
-            }
         }
         display: grid;
         grid-template-columns: 1fr 1fr;
