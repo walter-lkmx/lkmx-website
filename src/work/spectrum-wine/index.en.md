@@ -5,7 +5,7 @@ headline: ['Experience the world of wine auctions, anytime, anywhere.']
 services: ['discovery', 'agile Development']
 methodologies: ['Scrum']
 period: ['2022']
-portrait: 'spectrum-portrait'
+portrait: 'spectrum-cover'
 hero: 'spectrum-hero'
 storyType: 'Success Story'
 introduction: {

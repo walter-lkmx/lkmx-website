@@ -443,7 +443,12 @@
     "spectrum": {
       "title": "Spectrum Wine",
       "services": ["Discovery", "Agile Development"],
-      "img": "spectrum-portrait"
+      "img": "spectrum-cover"
+    },
+    "ws": {
+      "title": ["E-commerce y análisis", "de datos para Will Smith"],
+      "services": ["Discovery", "Agile Development"],
+      "img": "ws-cover"
     }
 
   },

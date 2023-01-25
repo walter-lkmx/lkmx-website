@@ -471,7 +471,12 @@
       "spectrum": {
         "title": "Spectrum Wine",
         "services": ["Discovery", "Agile Development"],
-        "img": "spectrum-portrait"
+        "img": "spectrum-cover"
+      },
+      "ws": {
+        "title": ["E-commerce and data", "analysis for will smith"],
+        "services": ["Discovery", "Agile Development"],
+        "img": "ws-cover"
       }
     },
     "story": {

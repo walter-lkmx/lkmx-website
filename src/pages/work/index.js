@@ -60,27 +60,44 @@ export default function StoriesPage({allStoriesData}) {
                     </Block>
                 </Column>
                 <Column>
-                    <Block>
+                    <Block className={styles.storiesPage__storiesBlock}>
                         <div className={styles.storiesPage__storiesGrid}> 
                             <div className={styles.storiesPage__storiesGrid__soon}>
                                 <div className={styles.storiesPage__storiesGrid__soon__image}></div>
                                <h2>{$t.stories.soon[0]}</h2>
                             </div>
-                                <div className={styles.storiesPage__storiesGrid__item}>
-                                    <Link href="/work/spectrum-wine">
-                                        <div>
-                                            <div className={styles.storiesPage__storiesGrid__item__img}>
-                                                <Image
-                                                    fill
-                                                    src={`/work/${$t.stories.spectrum.img}.png`}
-                                                    alt="project image"
-                                                />
-                                            </div>                                    
-                                            <h2>{$t.stories.spectrum.title}</h2>
-                                            <span>{$t.stories.spectrum.services[0]}, {$t.stories.spectrum.services[1]}</span>
-                                        </div>
-                                    </Link>                                    
-                                </div>                                                   
+
+                            <div className={`${styles.storiesPage__storiesGrid__item} ${styles.storiesPage__storiesGrid__left}`}>
+                                <Link href="/work/e-commerce-ws">
+                                    <div>
+                                        <div className={styles.storiesPage__storiesGrid__item__img}>
+                                            <Image
+                                                fill
+                                                src={`/work/${$t.stories.ws.img}.png`}
+                                                alt="project image"
+                                            />
+                                        </div>                                    
+                                        <h2>{$t.stories.ws.title[0]}<br/>{$t.stories.ws.title[1]}</h2>
+                                        <span>{$t.stories.ws.services[0]}, {$t.stories.ws.services[1]}</span>
+                                    </div>
+                                </Link>                                    
+                            </div>  
+
+                            <div className={styles.storiesPage__storiesGrid__item}>
+                                <Link href="/work/spectrum-wine">
+                                    <div>
+                                        <div className={styles.storiesPage__storiesGrid__item__img}>
+                                            <Image
+                                                fill
+                                                src={`/work/${$t.stories.spectrum.img}.png`}
+                                                alt="project image"
+                                            />
+                                        </div>                                    
+                                        <h2>{$t.stories.spectrum.title}</h2>
+                                        <span>{$t.stories.spectrum.services[0]}, {$t.stories.spectrum.services[1]}</span>
+                                    </div>
+                                </Link>                                    
+                            </div>                                                   
                         </div>
                     </Block>
                 </Column> 
