@@ -157,9 +157,8 @@
             }
         }        
         &__gantt {
-            overflow-x: scroll;
             img {
-                min-width: 839px;
+                min-height: unset;
             }
         }
         &__imagesGrid {            
