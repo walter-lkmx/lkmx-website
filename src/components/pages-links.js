@@ -53,6 +53,16 @@ export default function PagesLinks(props) {
           </a>
         </Link>
 
+        <Link href="/work" legacyBehavior>
+          <a
+            className={`${styles.links__nav} ${
+              asPath.includes(navPath.module4.toLowerCase()) ? styles.links__nav__active : ''
+            }`}
+          >
+            {$t.header.module4}
+          </a>
+        </Link>
+
         <Link
           className={asPath.includes(
             $t.header.module5.toLowerCase() ? styles.links__nav__active : ''
