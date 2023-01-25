@@ -55,6 +55,7 @@ export default function SuccessStory({storyData}) {
                             fill
                             src={`/work/${storyData.hero}.png`}
                             alt="Heading Image"
+                            priority
                             />
                         </div>
                     </Block>
@@ -82,7 +83,7 @@ export default function SuccessStory({storyData}) {
                                     </ul>
                                 </div>
                             </div>
-                            <div className={styles.story__mainContent} dangerouslySetInnerHTML={{ __html: storyData.contentHtml }}></div>                            
+                            <div className={styles.story__mainContent} dangerouslySetInnerHTML={{ __html: storyData.contentHtml }}></div>
                         </div>                                                                       
                     </Block>
                 </Column>
