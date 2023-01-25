@@ -60,7 +60,7 @@ export default function SuccessStory({storyData}) {
                         </div>
                     </Block>
                 </Column>
-                <Column>
+                <Column mode="normal" className={styles.story__introduction} weight="left">
                     <Block>
                         <div className={styles.story__wrapper}>
                             <div className={styles.story__aside}>
@@ -83,8 +83,17 @@ export default function SuccessStory({storyData}) {
                                     </ul>
                                 </div>
                             </div>
-                            <div className={styles.story__mainContent} dangerouslySetInnerHTML={{ __html: storyData.contentHtml }}></div>
-                        </div>                                                                       
+                            <div>
+                                <h2>{storyData.introduction.title}</h2>
+                                <p>{storyData.introduction.content}</p>
+                            </div>
+                        </div>
+                    </Block>
+                
+                </Column>
+                <Column mode="normal" modeL="slim">
+                    <Block>
+                        <div className={styles.story__mainContent} dangerouslySetInnerHTML={{ __html: storyData.contentHtml }}></div>                        
                     </Block>
                 </Column>
                 <Services/>

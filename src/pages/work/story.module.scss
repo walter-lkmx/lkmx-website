@@ -53,12 +53,18 @@
     }
     &__wrapper {
         display: grid;
-        grid-template-columns: max-content auto;
-        gap: 7.7vw;
-        @include respond-to("<=s") {
+        grid-template-columns: 136px auto;
+        gap: 16px;
+        padding-left: 76px;
+        @include respond-to("l") {
+            grid-template-columns: 124px auto;
+            padding-left: 49px;
+        }
+        @include respond-to("<=m") {
             grid-template-columns: auto;
-            gap: 16px;
+            gap: 26px;
             max-width: 95vw;
+            padding-left: 0;
         }
     }
     &__aside {
@@ -66,12 +72,10 @@
         grid-template-rows: repeat(3, min-content);
         gap: 16px;
         max-height: 197px;
-        top: 20px;
-        padding: 56px 0;
-        @include respond-to("<=s") {
+        @include respond-to("<=m") {
             grid-template-columns: auto auto auto;
             grid-template-rows: none;
-            justify-items: center;
+            justify-items: start;
             max-width: 95vw;
         }
         &__item {
@@ -92,14 +96,26 @@
                     line-height: 28px;
                     margin: 0;
                     text-transform: capitalize;
+                    @include respond-to("<=l") {
+                        font-size: 14px;
+                    }
                 }
             } 
+        }
+    }
+    &__introduction {
+        padding: 56px 0 0 0;
+        p {
+            max-width: 742px;
+            @include respond-to("l") {
+                max-width: 590px;
+            }
         }
     }
     &__mainContent {
         display: grid;
         gap: 56px;
-        padding: 56px 0;
+        padding: 0 0 56px 0;
         @include respond-to("<=s") {
             max-width: 95vw;
         }
@@ -112,6 +128,9 @@
         img {
             min-height: 220px;
             object-fit: cover;
+        }
+        p {
+            max-width: 742px;
         }
         &__caption {
             font-weight: 400;
@@ -133,6 +152,7 @@
             }
         }
         &__solutionGrid {
+            column-gap: 21px;
             img {
                 max-width: 327px;
             }
