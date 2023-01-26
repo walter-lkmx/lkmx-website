@@ -54,11 +54,10 @@
     &__wrapper {
         display: grid;
         grid-template-columns: 136px auto;
-        gap: 16px;
-        padding-left: 76px;
+        gap: 91px;
         @include respond-to("l") {
             grid-template-columns: 124px auto;
-            padding-left: 49px;
+            gap: 63px;
         }
         @include respond-to("<=m") {
             grid-template-columns: auto;
@@ -143,7 +142,7 @@
             display: grid;
             grid-template-columns: 1fr 1fr;
             max-width: 742px;
-            column-gap: 10px;
+            column-gap: 26px;
             @include respond-to("<=s") {
                 grid-template-rows: auto auto;
                 grid-template-columns: none;
@@ -152,7 +151,6 @@
             }
         }
         &__solutionGrid {
-            column-gap: 21px;
             img {
                 max-width: 327px;
             }
