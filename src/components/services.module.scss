@@ -2,15 +2,26 @@
     &__column {
         background-color: $color-bright-gray-01;
         padding: 72px 0;
+        &__container {
+            display:  grid;
+            grid-template-columns: 2fr 1fr;
+            @include respond-to("<=s") {
+                grid-template-columns: auto;
+                justify-items: center;
+            }
+            @include respond-to("xxxl") {
+                grid-template-columns: 1fr 1fr;
+            }
+        }
         &__image {
             position: relative;
             width: 234px;
             aspect-ratio: 1;
             @include respond-to("<=s") {
-                transform: translateX(-85px);
+                transform: translateX(-106px);
             }
             @include respond-to("xxs") {
-                transform: translateX(-70px);                
+                transform: translateX(-85px);                
             }
         }
         &__block {
@@ -21,6 +32,13 @@
             &:last-child {
                 @include respond-to("<=s") {
                     order: -1;
+                }
+            }
+            @include respond-to("l") {
+                p {
+                    br {
+                        display: none;       
+                    }
                 }
             }
             @include respond-to("xxs") {

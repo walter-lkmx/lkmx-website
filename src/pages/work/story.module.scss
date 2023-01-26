@@ -66,6 +66,9 @@
             max-width: 95vw;
             padding-left: 0;
         }
+        @include respond-to("xxxl") {
+            gap: 170px;
+        }
     }
     &__aside {
         display: grid;
@@ -178,6 +181,9 @@
         &__gantt {
             img {
                 min-height: unset;
+            }
+            @include respond-to("xxxl") {
+                max-width: 742px;
             }
         }
         &__imagesGrid {            
