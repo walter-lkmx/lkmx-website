@@ -44,6 +44,7 @@
         padding: 8px 15px;
         cursor: pointer;
         text-align: center;
+        text-transform: capitalize;
         &:hover {
             background-color: $color-btn-hover;
         }

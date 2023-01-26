@@ -43,7 +43,7 @@ introduction: {
         <ul>
             <li>Create a watch list of wines that they were interested in.</li>
             <li>Contact the seller directly via e-mail.</li>
-            <li>Contact the seller directly via e-mail.</li>
+            <li>Submit bits at a later time.</li>
             <li>Participate un auctions.</li>
         </ul>
     </div>    

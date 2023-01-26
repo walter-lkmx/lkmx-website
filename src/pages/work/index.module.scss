@@ -151,6 +151,9 @@
                     width: 343px;
                     height: 400px;
                 }
+                img {
+                    object-fit: cover;
+                }
             }
             a {
                 text-decoration: none;

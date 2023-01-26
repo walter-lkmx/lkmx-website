@@ -44,6 +44,7 @@
         height: 378px;
         min-width: 736px;
         position: relative;
+        background-color: $color-bright-gray;
         @include respond-to("<=s") {
             position: unset;
         }
