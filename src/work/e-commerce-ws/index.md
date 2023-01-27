@@ -45,7 +45,7 @@ introduction: {
     <div class="story_story__mainContent__wsSolutionList__KrV8F">
         <span>Algunas de las capacidades de la plataforma:</span>
         <ul>
-        <li>Algunas de las capacidades de la plataforma:</li>
+        <li>Manejo de alto volumen de tráfico.</li>
         <li>Transacciones en tiempo real.</li>
         <li>Integración de datos de venta y redes sociales.</li>
         </ul>

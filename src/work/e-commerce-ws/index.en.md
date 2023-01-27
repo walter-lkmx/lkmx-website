@@ -1,13 +1,13 @@
 ---
 number: 2
 title: 'E-commerce and data analysis for will smith'
-headline: ['Una interfaz intuitiva y un sistema de pago seguro, impulsando', 'su éxito en ventas en línea.']
+headline: ['An intuitive interface and a secure payment system, driving', 'your success in online sales.']
 services: ['discovery', 'agile development']
 methodologies: ['Scrum']
 period: ['2019 - 2020']
 portrait: 'ws-cover'
 hero: 'ws-hero'
-storyType: 'Trabajo'
+storyType: 'work'
 introduction: {
     title: "Introduction",
     content: "We were contacted by K2 Omniverse, a company of entrepreneurs with the mission of creating links between celebrities and their massive audiences, with a mission that seemed impossible: to build an e-commerce platform for Will Smith in just four weeks, that would allow him to offer his millions of followers for only 72 hours a new and exclusive collection of products belonging to his then new brand Fresh Prince of Bel Air."

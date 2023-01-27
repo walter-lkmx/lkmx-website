@@ -7,7 +7,7 @@ methodologies: ['Scrum']
 period: ['2022']
 portrait: 'spectrum-cover'
 hero: 'spectrum-hero'
-storyType: 'Success Story'
+storyType: 'Work'
 introduction: {
     title: "Introduction",
     content: "We were approached by an auction wine house that was looking to improve its online presence by developing a mobile app for its auctions. The wine house had a successful track record of hosting 
