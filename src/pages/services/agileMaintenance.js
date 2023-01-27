@@ -25,7 +25,7 @@ export default function Ams() {
                 ogType={siteMetadata.ogType}
             />
             <Page>
-                <GoBackBar/>
+                <GoBackBar destiny={"/services"}/>
                 <Column mode="full" number="2" numberM="1" numberS="1" className={styles.ams__hero} weight="left" weightXxl="normal">
                     <Block className={styles.ams__hero__left}>                        
                         <div className={styles.ams__hero__left__sections}>

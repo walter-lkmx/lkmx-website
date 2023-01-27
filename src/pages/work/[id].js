@@ -8,6 +8,7 @@ import HeadSeo from "../../components/HeadSeo";
 import getLang from '@/lang';
 import Image from "next/image";
 import Services from "../../components/services";
+import GoBackBar from "../../components/goBackBar";
 
 export async function getStaticPaths({locales}) {
     const paths = getAllStoriesIds(locales);
@@ -40,7 +41,8 @@ export default function SuccessStory({storyData}) {
                 ogImageUrl={$t.home.ogImage ? $t.home.ogImage : locale === 'es' ? siteMetadata.ogDefaultImageEs : siteMetadata.ogDefaultImageEn}
                 ogTwitterImage={$t.home.ogImage ? $t.home.ogImage : locale === 'es' ? siteMetadata.ogDefaultImageEs : siteMetadata.ogDefaultImageEn}
             />
-            <Page>                
+            <Page>              
+                <GoBackBar destiny={"/work"} />
                 <Column>
                     <Block className={styles.story__heroHeading}>
                         <span>{storyData.storyType}</span>

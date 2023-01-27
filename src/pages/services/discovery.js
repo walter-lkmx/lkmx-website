@@ -25,7 +25,7 @@ export default function DiscoveryPage() {
                 ogType={siteMetadata.ogType}
             />
             <Page>  
-                <GoBackBar/>              
+                <GoBackBar destiny={"/services"}/>              
                 <Column modeL="normal" number="2" numberS="1" weight="left" className={styles.discovery__hero}>                    
                     <Block className={styles.discovery__hero__blue} >
                         <div className={styles.discovery__hero__phases}></div>

@@ -25,7 +25,7 @@ export default function AgileDevelopment() {
                 ogType={siteMetadata.ogType}
             />
             <Page>
-            <GoBackBar/> 
+            <GoBackBar destiny={"/services"}/> 
             <Column mode="normal" number="2" numberS="1" weight="left" className={styles.agile__hero}>
                 <Block className={styles.agile__hero__red} >
                     <div className={styles.agile__hero__phases}>
