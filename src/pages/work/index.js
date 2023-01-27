@@ -73,7 +73,7 @@ export default function StoriesPage({allStoriesData}) {
                                         <div className={styles.storiesPage__storiesGrid__item__img}>
                                             <Image
                                                 fill
-                                                src={`/work/${$t.stories.ws.img}.png`}
+                                                src={`/work/${$t.stories.ws.img}.jpg`}
                                                 alt="project image"
                                             />
                                         </div>                                    
@@ -89,7 +89,7 @@ export default function StoriesPage({allStoriesData}) {
                                         <div className={styles.storiesPage__storiesGrid__item__img}>
                                             <Image
                                                 fill
-                                                src={`/work/${$t.stories.spectrum.img}.png`}
+                                                src={`/work/${$t.stories.spectrum.img}.jpg`}
                                                 alt="project image"
                                             />
                                         </div>                                    

@@ -25,7 +25,9 @@ introduction: {
 </div>
 <div>
     <figure>
-        <img src="/work/search-result.jpg" alt="Search results"/>
+        <div class="story_story__mainContent__gifContainer__XPvMb">
+            <img src="/work/search-result.gif" alt="Search results"/>
+        </div>
         <figcaption class="story_story__mainContent__caption__IQRnS">The main catalog of current bids displays a list of all the wines being auctioned, with information such as the wine's name, vintage, and current bid price.</figcaption>
     </figure>    
 </div>
@@ -35,7 +37,9 @@ introduction: {
 </div>
 <div class="story_story__mainContent__solutionGrid__gf19L story_story__mainContent__2cGrid__aNFn8">
     <figure>
-        <img src="/work/wine-details.jpg" alt="Wine details"/>
+        <div class="story_story__mainContent__gifContainer__XPvMb">
+            <img src="/work/wine-details.gif" alt="Wine details"/>
+        </div>
         <figcaption class="story_story__mainContent__gridCaption__8kiY6 story_story__mainContent__caption__IQRnS">The user saved bids feature allows users to save and track their favorite wines.</figcaption>
     </figure>  
     <div>
@@ -56,8 +60,8 @@ introduction: {
 </div>
 <div class="story_story__mainContent__gantt__TErEp">
     <figure>
-        <img src="/work/proyect-chart-es.png" alt="Gantt chart"/>
-        <figcaption class="story_story__mainContent__caption__IQRnS">The Gantt chart for this project shows the discovery, AGILE development, and testing and deployment phases. The discovery phase involved understanding the client's needs and analyzing their existing process. The development phase involved delivering value on each sprint to be flexible and responsive. The testing and deployment phase involved thorough testing and deployment of the app with support.</figcaption>
+        <img src="/work/project-chart-en.jpg" alt="Gantt chart"/>
+        <figcaption class="story_story__mainContent__caption__IQRnS">The Gantt chart for this project illustrates our Agile Development service, with each sprint broken down into three distinct phases: definition, implementation, and acceptance.</figcaption>
     </figure>
 </div>
 <div>

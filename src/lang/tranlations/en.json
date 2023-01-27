@@ -471,12 +471,12 @@
       "spectrum": {
         "title": "Spectrum Wine",
         "services": ["Discovery", "Agile Development"],
-        "img": "spectrum-cover"
+        "img": "spectrum-thumbnail"
       },
       "ws": {
         "title": ["E-commerce and data", "analysis for will smith"],
         "services": ["Discovery", "Agile Development"],
-        "img": "ws-cover"
+        "img": "ws-thumbnail"
       }
     },
     "story": {

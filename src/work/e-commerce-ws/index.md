@@ -20,7 +20,7 @@ introduction: {
 </div>
 <div>
     <figure>
-        <img src="/work/ws-store.png" alt="store products"/>
+        <img src="/work/ws-store.jpg" alt="store products"/>
         <figcaption class="story_story__mainContent__caption__IQRnS">La página principal de Bel-Air Athletics e-commerce, destaca su diseño de fácil navegación para una experiencia de compra en línea sencilla y satisfactoria.</figcaption>
     </figure>    
 </div>
@@ -30,7 +30,7 @@ introduction: {
         <p>Para enfrentar estos retos, construimos una plataforma basada en Shopify y un backend robusto capaz de agregar en tiempo real los datos de venta y de redes sociales generados durante el periodo que estuvo activa la campaña. En el desarrollo de esta plataforma utilizamos más proyectos open source que en ningún otro proyecto dada la naturaleza innovadora y disruptiva de nuestro cliente.</p>
     </div>
     <figure>
-        <img src="/work/ws-product.png" alt="Product details"/>
+        <img src="/work/ws-product.jpg" alt="Product details"/>
         <figcaption class="story_story__mainContent__gridCaption__8kiY6 story_story__mainContent__caption__IQRnS">Las páginas de producto cuentan con fotos de alta calidad, descripciones detalladas y opciones de tallas.</figcaption>
     </figure>  
 </div>
@@ -39,7 +39,7 @@ introduction: {
 </div>
 <div class="story_story__mainContent__2cGrid__aNFn8"> 
     <figure>
-        <img src="/work/ws-summary.png" alt="Purchase Summary"/>
+        <img src="/work/ws-summary.jpg" alt="Purchase Summary"/>
         <figcaption class="story_story__mainContent__gridCaption__8kiY6 story_story__mainContent__caption__IQRnS">Tras confirmar una compra, el cliente podrá lee un resumen de su pedido.</figcaption>
     </figure>
     <div class="story_story__mainContent__wsSolutionList__KrV8F">
@@ -56,8 +56,8 @@ introduction: {
 </div>
 <div class="story_story__mainContent__gantt__TErEp">
     <figure>
-        <img src="/work/proyect-chart-es.png" alt="Gantt chart"/>
-        <figcaption class="story_story__mainContent__caption__IQRnS">Diagrama de Gantt muestra las siguientes fases: Descubrimiento, entender necesidades clientey analizar proceso existente. Desarrollo, entregar valor en cada sprint, ser flexible y receptivo. Pruebas y despliegue, pruebas exhaustivas y despliegue de aplicación con soporte.</figcaption>
+        <img src="/work/project-chart-es.jpg" alt="Gantt chart"/>
+        <figcaption class="story_story__mainContent__caption__IQRnS">El diagrama de Gantt de este proyecto ilustra nuestro servicio de Agile Development, con cada sprint desglosado en tres diferentes fases: definición, implementación, y aprobación.</figcaption>
     </figure>
 </div>
 <div>
@@ -66,7 +66,7 @@ introduction: {
 </div>
 <div>
     <figure>
-        <img src="/work/ws-itemskart.png" alt="Aside Items Kart"/>
+        <img src="/work/ws-itemskart.jpg" alt="Aside Items Kart"/>
         <figcaption class="story_story__mainContent__caption__IQRnS">El carrito de compra es facilmente accesible desde la barra superior. Aquí se encuentra un resumen de lo que el cliente ha añadido al carrito, además de poder acceder al checkout para proceder a la compra.</figcaption>
     </figure>
 </div>

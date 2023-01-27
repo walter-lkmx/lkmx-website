@@ -55,7 +55,7 @@ export default function SuccessStory({storyData}) {
                         <div className={styles.story__heroImg}>
                             <Image
                             fill
-                            src={`/work/${storyData.hero}.png`}
+                            src={`/work/${storyData.hero}.jpg`}
                             alt="Heading Image"
                             priority
                             />
