@@ -56,7 +56,7 @@ introduction: {
 </div>
 <div class="story_story__mainContent__gantt__TErEp">
     <figure>
-        <img src="/work/proyect-chart-es--spectrum.png" alt="Gantt chart"/>
+        <img src="/work/proyect-chart-es.png" alt="Gantt chart"/>
         <figcaption class="story_story__mainContent__caption__IQRnS">The Gantt chart for this project shows the discovery, AGILE development, and testing and deployment phases. The discovery phase involved understanding the client's needs and analyzing their existing process. The development phase involved delivering value on each sprint to be flexible and responsive. The testing and deployment phase involved thorough testing and deployment of the app with support.</figcaption>
     </figure>
 </div>

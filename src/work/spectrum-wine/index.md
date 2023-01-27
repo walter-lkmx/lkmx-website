@@ -52,7 +52,7 @@ introduction: {
 </div>
 <div class="story_story__mainContent__gantt__TErEp">
     <figure>
-        <img src="/work/proyect-chart-es--spectrum.png" alt="Gantt chart"/>
+        <img src="/work/proyect-chart-es.png" alt="Gantt chart"/>
         <figcaption class="story_story__mainContent__caption__IQRnS">El diagrama de Gantt para este proyecto muestra las fases de descubrimiento, desarrollo AGILE y pruebas y despliegue. La fase de descubrimiento implicó comprender las necesidades del cliente y analizar su proceso existente. La fase de desarrollo implicó entregar valor en cada sprint para ser flexible y receptivo. La fase de pruebas y despliegue implicó pruebas exhaustivas y despliegue de la aplicación con soporte.</figcaption>
     </figure>
 </div>
