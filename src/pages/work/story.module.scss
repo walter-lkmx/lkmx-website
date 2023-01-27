@@ -177,6 +177,9 @@
         }
         &__wsSolutionList {
             padding: 96.5px 0;
+            @include respond-to("l") {
+                padding: 59.5px 0;
+            }
             @include respond-to("<=s") {
                 padding: 0;
             }

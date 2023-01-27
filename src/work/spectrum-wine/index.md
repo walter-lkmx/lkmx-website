@@ -1,6 +1,6 @@
 ---
 number: 1
-title: 'Spectrum Wine'
+title: ['Spectrum Wine']
 headline: ['Experimenta el mundo de la subasta de vino', 'todo el tiempo, en todo lugar.']
 services: ['discovery', 'agile development']
 methodologies: ['Scrum']

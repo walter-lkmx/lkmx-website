@@ -46,7 +46,8 @@ export default function SuccessStory({storyData}) {
                 <Column>
                     <Block className={styles.story__heroHeading}>
                         <span>{storyData.storyType}</span>
-                        <h1>{storyData.title}</h1>
+                        <h1>{storyData.title[0]}</h1>
+                        <h1>{storyData.title[1]}</h1>
                         <span>{storyData.headline[0]}<br/> {storyData.headline[1]}</span>
                     </Block>
                 </Column>

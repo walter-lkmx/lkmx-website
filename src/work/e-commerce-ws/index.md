@@ -1,6 +1,6 @@
 ---
 number: 2
-title: 'E-commerce y análisis de datos para Will Smith'
+title: ['E-commerce y análisis de', 'datos para Will Smith']
 headline: ['Una interfaz intuitiva y un sistema de pago seguro, impulsando', 'su éxito en ventas en línea.']
 services: ['discovery', 'agile development']
 methodologies: ['Scrum']
