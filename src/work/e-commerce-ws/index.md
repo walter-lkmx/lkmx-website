@@ -67,7 +67,7 @@ introduction: {
 <div>
     <figure>
         <img src="/work/ws-itemskart.jpg" alt="Aside Items Kart"/>
-        <figcaption class="story_story__mainContent__caption__IQRnS">El carrito de compra es facilmente accesible desde la barra superior. Aquí se encuentra un resumen de lo que el cliente ha añadido al carrito, además de poder acceder al checkout para proceder a la compra.</figcaption>
+        <figcaption class="story_story__mainContent__caption__IQRnS">El carrito de compra es fácilmente accesible desde la barra superior. Aquí se encuentra un resumen de lo que el cliente ha añadido al carrito, además de poder acceder al checkout para proceder a la compra.</figcaption>
     </figure>
 </div>
 <div>
