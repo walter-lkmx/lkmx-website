@@ -1,7 +1,7 @@
 ---
 number: 1
 title: ['Spectrum Wine']
-headline: ['Experience the world of wine auctions, anytime, anywhere.']
+headline: ['Experience the world of wine auctions,', 'anytime, anywhere.']
 services: ['discovery', 'agile Development']
 methodologies: ['Scrum']
 period: ['2022']
@@ -47,7 +47,7 @@ introduction: {
         <ul>
             <li>Create a watch list of wines that they were interested in.</li>
             <li>Contact the seller directly via e-mail.</li>
-            <li>Submit bits at a later time.</li>
+            <li>Submit bids at a later time.</li>
             <li>Participate in auctions.</li>
         </ul>
     </div>    
