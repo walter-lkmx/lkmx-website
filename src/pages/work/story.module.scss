@@ -121,6 +121,7 @@
         display: grid;
         gap: 56px;
         padding: 0 0 56px 0;
+        max-width: 742px;
         @include respond-to("<=s") {
             max-width: 95vw;
         }
@@ -134,9 +135,7 @@
             min-height: 220px;
             object-fit: cover;
         }
-        p {
-            max-width: 742px;
-        }
+        
         &__gifContainer {
             width: 100%;
             height: 347px;
@@ -153,13 +152,11 @@
             font-size: 14px;
             line-height: 22px;
             color: $color-lang-secondary;
-            max-width: 742px;
             margin-top: 8px;
         }
         &__2cGrid {
             display: grid;
             grid-template-columns: 1fr 1fr;
-            max-width: 742px;
             column-gap: 26px;
             ul {
                 max-width: 358px;
@@ -211,7 +208,6 @@
                 min-height: unset;
             }
             @include respond-to("xxxl") {
-                max-width: 742px;
             }
         }
         &__imagesGrid {            
@@ -221,7 +217,7 @@
         }
         &__gridCaption {
             max-width: 358px;
-        }                    
+        }                 
     }    
 }
 
