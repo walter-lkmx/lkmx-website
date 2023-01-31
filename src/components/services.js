@@ -14,7 +14,7 @@ export default function Services() {
             <Block>
                 <div className={styles.services__column__container}>
                     <div className={styles.services__column__block}>
-                        <h2>{$t.servicesComponent.title[0]} <br/>{$t.servicesComponent.title[1]} <br/>{$t.servicesComponent.title[2]}</h2>
+                        <h2>{$t.servicesComponent.title[0]} <br/>{$t.servicesComponent.title[1]}</h2>
                         <p>{$t.servicesComponent.paragraph[0]} <br/>{$t.servicesComponent.paragraph[1]} <br/>{$t.servicesComponent.paragraph[2]}</p>
                         <Link href="/services" legacyBehavior>
                             <div

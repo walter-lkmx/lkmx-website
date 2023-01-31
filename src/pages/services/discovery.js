@@ -9,7 +9,7 @@ import { useRouter } from "next/router";
 import Image from "next/image";
 import Link from "next/link"
 import GoBackBar from "../../components/goBackBar";
-
+import Services from "../../components/services"
 export default function DiscoveryPage() {
     const { locale } = useRouter();
     const $t = getLang(locale);
@@ -26,75 +26,75 @@ export default function DiscoveryPage() {
             />
             <Page>  
                 <GoBackBar destiny={"/services"}/>              
-                <Column modeL="normal" number="2" numberS="1" weight="left" className={styles.discovery__hero}>                    
-                    <Block className={styles.discovery__hero__blue} >
-                        <div className={styles.discovery__hero__phases}></div>
-                        <div className={styles.discovery__hero__blue__before}>
+                <Column className={styles.discovery__hero__column}>
+                    <Block className={styles.discovery__hero__column__text}>
+                        <span className={styles.discovery__hero__column__text__pinkSpan}>{$t.discovery.section}</span>
+                        <h1>{$t.discovery.title}</h1>
+                        <span className={styles.discovery__hero__column__text__graySpan}>{$t.discovery.hero[0]} <br/>{$t.discovery.hero[1]} <br/>{$t.discovery.hero[2]}</span>
+                    </Block>
+                    <Block className={styles.discovery__hero__column__img}>
+                        <div className={styles.discovery__hero__column__img__container}>
                             <Image
                             fill
-                            src={"/discovery-hero-blue-triangle.svg"}
-                            alt="triangle"
+                            src={"/services/discovery-hero.jpg"}
+                            alt="Organized post-it cards"
                             />
                         </div>
                         
-                        <div className={styles.discovery__hero__blue__content}>
-                            <h1>{$t.discovery.title}</h1>                            
-                        </div>
-                        <div className={styles.discovery__hero__blue__pink}>
+                    </Block>
+                </Column>
+                <Column mode="normal" modeL="slim" className={styles.discovery__content__column}>
+                    <Block>
+                        <p>{$t.discovery.intro}</p>
+                    </Block>
+                    <Block>
+                        <h2>{$t.discovery.methodologies.title}</h2>
+                        <p>{$t.discovery.methodologies.content}</p>
+                    </Block>
+                    <Block>
+                        <h3>{$t.discovery.prototyping.title}</h3>
+                        <p>{$t.discovery.prototyping.content}</p>
+                    </Block>
+                    <Block>
+                        <div className={styles.discovery__content__column__imgContainer}>
                             <Image
                             fill
-                            src={"/discovery-hero-diagonal.svg"}
-                            alt="diagonal"
+                            src={"/services/discovery-prototyping.jpg"}
+                            alt="Figma image"
                             />
                         </div>
                     </Block>
-                    <Block className={styles.discovery__hero__paragraph}>
-                        <p>{$t.discovery.hero[0]} <br/>{$t.discovery.hero[1]} <br/>{$t.discovery.hero[2]}</p>
-                        <div className={styles.discovery__hero__triangleContainer}>
-                            <Image fill src="/triangles/triangle-waves--right.svg" alt="LKMX - Hero"/>
-                        </div>
+                    <Block>
+                        <h3>{$t.discovery.adhoc.title}</h3>
+                        <p>{$t.discovery.adhoc.p1}</p>
                     </Block>
-                </Column>
-                <Column className={styles.discovery__summary} number="1" mode="slim" modeM="normal" modeXs="normal" >
-                    <Block className={styles.discovery__summary__first}>
-                        <h2>{$t.discovery.bannerTitle[0]} {$t.discovery.bannerTitle[1]}</h2>
-                        <p>{$t.discovery.prototype.summary.paragraph[0]} {$t.discovery.prototype.summary.paragraph[1]} {$t.discovery.prototype.summary.paragraph[2]} {$t.discovery.prototype.summary.paragraph[3]} {$t.discovery.prototype.summary.paragraph[4]}</p>
-                    </Block>
-                    <Block className={styles.discovery__summary__second}>
-                        <div className={styles.discovery__summary__second__element}>
-                            <h3>{$t.discovery.prototype.rapid.title}</h3>
-                            <p>{$t.discovery.prototype.rapid.paragraph[0]} {$t.discovery.prototype.rapid.paragraph[1]} {$t.discovery.prototype.rapid.paragraph[2]}</p>
-                        </div>
-                        <div className={styles.discovery__summary__second__element}>
-                            <h3>{$t.discovery.prototype.adhoc.title}</h3>
-                            <p>{$t.discovery.prototype.adhoc.paragraph[0]} {$t.discovery.prototype.adhoc.paragraph[1]} {$t.discovery.prototype.adhoc.paragraph[2]} {$t.discovery.prototype.adhoc.paragraph[3]}</p>
-                        </div>
-                    </Block>
-                    <Block className={styles.discovery__summary__third}>
-                        <div className={styles.discovery__summary__third__image}>
+                    <Block>
+                        <div className={`${styles.discovery__content__column__imgContainer} ${styles.discovery__content__column__imgContainer2}`}>
                             <Image
-                            src={"/prototype-img.png"}
-                            layout="fill"
-                            priority={true}
-                            alt="LKMX - Prototype"
+                            fill
+                            src={"/services/discovery-adhoc.jpg"}
+                            alt="Figma image"
                             />
                         </div>
                     </Block>
+                    <Block>
+                        <p>{$t.discovery.adhoc.p2}</p>
+                    </Block>
+                    <Block>
+                        <div className={`${styles.discovery__content__column__imgContainer} ${styles.discovery__content__column__imgContainer3}`}>
+                            <Image
+                            fill
+                            src={"/services/discovery-adhoc2.jpg"}
+                            alt="Figma image"
+                            />
+                        </div>
+                    </Block>
+                    <Block>
+                        <p>{$t.discovery.adhoc.p3}</p>
+                    </Block>                    
                 </Column>
-                <Column className={styles.discovery__next} number="1" modeM="full" modeL="full">                    
-                    <Block className={styles.discovery__next}>
-                        <Link href="/services/agileDevelopment" legacyBehavior>
-                            <div>
-                                <span>{$t.discovery.span.text}</span>
-                                <div className={styles.discovery__next__icon}>
-                                <Image fill src="/icons/arrow-right--pink.svg" alt="Pink arrow right"/> 
-                                </div>
-                            </div>
-                        </Link>                   
-                    </Block>                  
-                </Column>
-            </Page>
-            
+                <Services/>
+            </Page>            
         </BaseLayout>
     );
 }

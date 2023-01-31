@@ -18,7 +18,7 @@
             width: 234px;
             aspect-ratio: 1;
             @include respond-to("<=s") {
-                transform: translateX(-106px);
+                transform: translateX(-88px);
             }
             @include respond-to("xxs") {
                 transform: translateX(-85px);                
@@ -42,6 +42,11 @@
                 }
             }
             @include respond-to("xxs") {
+                h2 {
+                    font-weight: 700;
+                    font-size: 24px;
+                    line-height: 32px;
+                }
                 p {
                     br {
                         display: none;       
