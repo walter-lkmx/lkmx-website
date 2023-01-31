@@ -68,7 +68,7 @@ export default function ContactPage() {
               
               <div className={styles.contact__hero__right__clouds}>
                 <Image
-                  layout="fill"
+                  fill
                   priority={true}                  
                   src="/clouds.svg" alt="clouds"
                 />
@@ -92,25 +92,25 @@ export default function ContactPage() {
             <div className={styles.contact__team__content}>
               <div className={styles.contact__team__content__card}>
                 <div>
-                  <h3>{$t.team.analysis.title}</h3>
+                  <h2>{$t.team.analysis.title}</h2>
                   <p>{$t.team.analysis.text}</p>
                 </div>
               </div>
               <div className={styles.contact__team__content__card}>
                 <div>
-                  <h3>{$t.team.design.title}</h3>
+                  <h2>{$t.team.design.title}</h2>
                   <p>{$t.team.design.text}</p>
                 </div>
               </div>
               <div className={styles.contact__team__content__card}>
                 <div>
-                  <h3>{$t.team.development.title}</h3>
+                  <h2>{$t.team.development.title}</h2>
                   <p>{$t.team.development.text}</p>
                 </div>
               </div>
               <div className={styles.contact__team__content__card}>
                 <div>
-                  <h3>{$t.team.quality.title}</h3>
+                  <h2>{$t.team.quality.title}</h2>
                   <p>{$t.team.quality.text}</p>
                 </div>
               </div>

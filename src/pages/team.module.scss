@@ -175,7 +175,7 @@
           padding: 1rem;
           display: grid;
           grid-row-gap: 0.5rem;
-          h3 {
+          h2 {
             color: $color-blue;
             line-height: rem(36px);
           }
@@ -183,7 +183,7 @@
             font-size: rem(16px);
             line-height: rem(28px);
           }
-          h3,
+          h2,
           p {
             margin: 0;
           }
@@ -563,7 +563,7 @@
           div {
             padding: 1rem;
             grid-row-gap: rem(6px);
-            h3 {
+            h2 {
               font-size: rem(20px);
               line-height: rem(28px);
             }

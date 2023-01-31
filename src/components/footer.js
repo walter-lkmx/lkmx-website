@@ -20,7 +20,7 @@ export default function Footer() {
           <div className={styles.footer__top__content}>
             <div className={styles.footer__top__content__pages}>
               <div>
-                <h3>{$t.footer.pages.services.title}</h3>
+                <h2>{$t.footer.pages.services.title}</h2>
                 <ul>
                   <li><Link href="/services" legacyBehavior>{$t.footer.pages.services.items[0]}</Link></li>
                   <li><Link href="/services/discovery" legacyBehavior>{$t.footer.pages.services.items[1]}</Link></li>
@@ -29,7 +29,7 @@ export default function Footer() {
                 </ul>
               </div>
               <div> 
-                <h3>{$t.footer.pages.methodology.title}</h3>
+                <h2>{$t.footer.pages.methodology.title}</h2>
                 <ul>
                   <li><Link href="/industries" legacyBehavior>{$t.footer.pages.methodology.items[0]}</Link></li>
                   {/* <li>{$t.footer.pages.methodology.items[1]}</li>
@@ -38,7 +38,7 @@ export default function Footer() {
                 </ul>
               </div>
               <div> 
-                <h3>{$t.footer.pages.technology.title}</h3>
+                <h2>{$t.footer.pages.technology.title}</h2>
                 <ul>
                   
                   <li><Link href="/technology" legacyBehavior>{$t.footer.pages.technology.items[0]}</Link></li>

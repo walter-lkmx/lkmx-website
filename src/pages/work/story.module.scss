@@ -112,6 +112,9 @@
         padding: 56px 0 0 0;
         p {
             max-width: 742px;
+            @include respond-to("<=xl") {
+                max-width: 721px;
+            }
             @include respond-to("l") {
                 max-width: 590px;
             }

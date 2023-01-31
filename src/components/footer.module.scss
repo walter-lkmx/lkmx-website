@@ -8,7 +8,7 @@
         color: $color-footer-hover;
       }
     }
-    ul, li, h2, h3, p {
+    ul, li, h2, h2, p {
       margin: 0;
     }
   }
@@ -32,10 +32,13 @@
           display: grid;
           grid-row-gap: rem(42px);
           grid-auto-rows: min-content;
-          --f-h3-text-margin: 0 0 42px 0;
-          h3 {
-            --f-h3-text-size: 36px;
-            --f-h3-text-line-height: 32px;
+          --f-h2-text-margin: 0 0 42px 0;
+          h2 {
+            font-size: 42px;
+            line-height: 32px;
+            @include respond-to("<=l") {
+              font-size: 36px;
+            }
           }
           ul {            
             display: grid;
@@ -189,12 +192,6 @@
         &__pages {
           grid-template-columns: rem(186px) rem(256px) rem(224px);
           grid-column-gap: rem(50px);
-          > div {
-            h3 {
-              font-size: rem(42px);
-              line-height: 2rem;
-            }
-          }
         }
         &__information {
           grid-column-gap: rem(26px);
