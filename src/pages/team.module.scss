@@ -27,10 +27,8 @@
     &__left {
       align-self: end;
       padding: rem(63px) 0;
-      h2 {
-        font-family: $font-tertiary;
-        font-size: rem(35px);
-        text-transform: uppercase;
+      h1 {
+        font-family: $font-secondary;
         font-weight: 800;
       }
       p {

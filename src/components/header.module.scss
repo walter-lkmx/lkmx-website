@@ -24,6 +24,9 @@
     &__menu {
       display: none;
       cursor: pointer;
+      &:hover {
+        background: none;
+      }
     }
     &__links {
       display: grid;

@@ -45,7 +45,7 @@ export default function ContactPage() {
         <Column number={2} numberS={1} weight="right" weightS="Normal" modeXl="normal" modeL="full" modeM="full" className={styles.contact__hero}>
           <Block>
             <div className={styles.contact__hero__left}>
-              <h2>{$t.team.headline}</h2>
+              <h1>{$t.team.headline}</h1>
               <p>{$t.team.hero[0]} <strong>{$t.team.hero[1]}</strong> {$t.team.hero[2]} <strong>{$t.team.hero[3]}</strong>{$t.team.hero[4]}</p>
             </div>
           </Block>
