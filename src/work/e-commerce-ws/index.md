@@ -1,7 +1,7 @@
 ---
 number: 2
 title: ['E-commerce y análisis de', 'datos para Will Smith']
-headline: ['Una interfaz intuitiva y un sistema de pago seguro, impulsando', 'su éxito en ventas en línea.']
+headline: ['El Príncipe de Bel-Air toma el mundo del comercio electrónico', 'por asalto.']
 services: ['discovery', 'agile development']
 methodologies: ['Scrum']
 period: ['2019 - 2020']

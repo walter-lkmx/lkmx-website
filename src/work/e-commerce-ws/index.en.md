@@ -1,7 +1,7 @@
 ---
 number: 2
 title: ['E-commerce and data', 'analysis for will smith']
-headline: ['An intuitive interface and a secure payment system, driving', 'your success in online sales.']
+headline: ['The Fresh Prince of Bel-Air takes the e-commerce world by', 'storm.']
 services: ['discovery', 'agile development']
 methodologies: ['Scrum']
 period: ['2019 - 2020']
