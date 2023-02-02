@@ -24,14 +24,6 @@ introduction: {
     <p>Another challenge that we had to address was the need to handle confidential data securely through the app. The wine house handled high-value items, so it was essential that we implement robust security measures to protect against fraud and ensure the confidentiality of user information.</p>
 </div>
 <div>
-    <figure>
-        <div class="story_story__mainContent__gifContainer__XPvMb">
-            <img src="/work/search-result.gif" alt="Search results"/>
-        </div>
-        <figcaption class="story_story__mainContent__caption__IQRnS">The main catalog of current bids displays a list of all the wines being auctioned, with information such as the wine's name, vintage, and current bid price.</figcaption>
-    </figure>    
-</div>
-<div>
     <h2>Solutions</h2>
     <p>To address these challenges, we developed a custom app that utilized a RESTful API to integrate with the wine house's inventory database seamlessly. This allowed us to quickly and efficiently display real-time information about each wine, including its current bidding status, to app users. We also implemented a number of security measures to protect the confidentiality of user data, including encryption of sensitive information and strict access controls.</p>
 </div>
@@ -40,7 +32,7 @@ introduction: {
         <div class="story_story__mainContent__gifContainer__XPvMb">
             <img src="/work/wine-details.gif" alt="Wine details"/>
         </div>
-        <figcaption class="story_story__mainContent__gridCaption__8kiY6 story_story__mainContent__caption__IQRnS">The user saved bids feature allows users to save and track their favorite wines.</figcaption>
+        <figcaption class="story_story__mainContent__gridCaption__8kiY6 story_story__mainContent__caption__IQRnS">A seamless integration with the wine house’s inventory allowed us to quickly display the required information.</figcaption>
     </figure>  
     <div>
         <span>The users are able to:</span>
@@ -66,18 +58,20 @@ introduction: {
 </div>
 <div>
     <figure>
-        <img src="/work/login-spectrum.jpg" alt="Login App"/>
-        <figcaption class="story_story__mainContent__caption__IQRnS">The login screen of the app can be easily accessed through various actions such as tapping on the 'Log In' button or through certain tabs like 'My Bids' and 'My Wine'. There is also a 'Log in to your account' button present on the screen for easy access.</figcaption>
-    </figure>
+        <div class="story_story__mainContent__gifContainer__XPvMb">
+            <img src="/work/search-result.gif" alt="Search results"/>
+        </div>
+        <figcaption class="story_story__mainContent__caption__IQRnS">The auction process gets optimized with a carefully crafted interface.</figcaption>
+    </figure>    
 </div>
 <div class="story_story__mainContent__imagesGrid__NKnam story_story__mainContent__2cGrid__aNFn8">
     <figure>
         <img src="/work/store-spectrum.jpg" alt="App capture"/>
-        <figcaption class="story_story__mainContent__gridCaption__8kiY6 story_story__mainContent__caption__IQRnS">The details and description of a wine feature provides an overview of a specific wine, including information such as its varietal and region.</figcaption>
+        <figcaption class="story_story__mainContent__gridCaption__8kiY6 story_story__mainContent__caption__IQRnS">Users can make more informed bids when they have access to real-time auction details.</figcaption>
     </figure>
     <figure>
         <img src="/work/cart-spectrum.jpg" alt="App capture"/>
-        <figcaption class="story_story__mainContent__gridCaption__8kiY6 story_story__mainContent__caption__IQRnS">The wines that the user is auctioning feature shows a list of the user's own wine auctions.</figcaption>
+        <figcaption class="story_story__mainContent__gridCaption__8kiY6 story_story__mainContent__caption__IQRnS">The user data is protected by robust security measures, allowing secure auctions.</figcaption>
     </figure>
 </div>
 <div class="story_story__mainContent__technologies__v5XXm">

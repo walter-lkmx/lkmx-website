@@ -21,14 +21,6 @@ introduction: {
     <p>Otro importante reto que abordamos fue la necesidad de manejar datos confidenciales de manera segura a través de la aplicación. La bodega maneja artículos de alto valor, por lo que era esencial que implementáramos medidas de seguridad robustas contra fraudes y asegurar la confidencialidad de la información del usuario.</p>
 </div>
 <div>
-    <figure>
-        <div class="story_story__mainContent__gifContainer__XPvMb">
-            <img src="/work/search-result.gif" alt="Search results"/>
-        </div>
-        <figcaption class="story_story__mainContent__caption__IQRnS">El catálogo principal muestra un listado de los vinos que se encuentran actualmente en subasta, incluyen información tal como el nombre del vino, añada y oferta actual.</figcaption>
-    </figure>    
-</div>
-<div>
     <h2>solución</h2>
     <p>Para enfrentar estos retos, desarrollamos una aplicación personalizada que utiliza una API RESTful para integrarse perfectamente con la base de datos del inventario de la casa de vinos. Esto permite que se muestre información en tiempo real rápido y eficiente de cada uno de los vinos, incluyendo su correspondiente estatus de oferta, a usuarios de la aplicación. A su vez implementamos un número de medidas de seguridad para proteger la confidencialidad de los datos de usuario, que incluyen encriptación de información susceptible y un estricto control de acceso.</p>
 </div>
@@ -37,7 +29,7 @@ introduction: {
          <div class="story_story__mainContent__gifContainer__XPvMb">
             <img src="/work/wine-details.gif" alt="Wine details"/>
         </div>
-        <figcaption class="story_story__mainContent__gridCaption__8kiY6 story_story__mainContent__caption__IQRnS">La función de guardar oferta permite a los usuarios guardar y tener seguimiento de sus vinos favoritos.</figcaption>
+        <figcaption class="story_story__mainContent__gridCaption__8kiY6 story_story__mainContent__caption__IQRnS">Una integración perfecta con el inventario de la vinicola permite mostrar rápidamente la información requerida.</figcaption>
     </figure>  
     <div>
         <span>Los usuarios son capaces de:</span>
@@ -62,18 +54,20 @@ introduction: {
 </div>
 <div>
     <figure>
-        <img src="/work/login-spectrum.jpg" alt="Login App"/>
-        <figcaption class="story_story__mainContent__caption__IQRnS">La pantalla de inicio de sesión de la aplicación se puede acceder a través de varias acciones, como tocar el botón "Iniciar sesión" o a través de ciertas pestañas como "Mis pujas" y "Mi vino". También hay un botón "Iniciar sesión en tu cuenta" presente en la pantalla para un fácil acceso.</figcaption>
-    </figure>
+        <div class="story_story__mainContent__gifContainer__XPvMb">
+            <img src="/work/search-result.gif" alt="Search results"/>
+        </div>
+        <figcaption class="story_story__mainContent__caption__IQRnS">El proceso de subastas es optimizado con una interfaz cuidadosamente diseñada.</figcaption>
+    </figure>    
 </div>
 <div class="story_story__mainContent__imagesGrid__NKnam story_story__mainContent__2cGrid__aNFn8">
     <figure>
         <img src="/work/store-spectrum.jpg" alt="App capture"/>
-        <figcaption class="story_story__mainContent__gridCaption__8kiY6 story_story__mainContent__caption__IQRnS">La función de detalles y descripción de un vino provee una vista general de un vino en específico, incluyendo información tal como su variedad y región.</figcaption>
+        <figcaption class="story_story__mainContent__gridCaption__8kiY6 story_story__mainContent__caption__IQRnS">El proceso de subastas es optimizado con una interfaz cuidadosamente diseñada.</figcaption>
     </figure>
     <figure>
         <img src="/work/cart-spectrum.jpg" alt="App capture"/>
-        <figcaption class="story_story__mainContent__gridCaption__8kiY6 story_story__mainContent__caption__IQRnS">El apartado de “My Wine” muestra un listado de los vinos del propio usuario que se encuentra subastando.</figcaption>
+        <figcaption class="story_story__mainContent__gridCaption__8kiY6 story_story__mainContent__caption__IQRnS">Los datos del usuario están protegidos por sólidas medidas de seguridad, lo que permite subastas seguras.</figcaption>
     </figure>
 </div>
 <div class="story_story__mainContent__technologies__v5XXm">
