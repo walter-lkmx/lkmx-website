@@ -124,8 +124,7 @@
                 transform: translateY(0px);
             }
         }
-        &__soon {   
-            display: none;       
+        &__soon {         
             &__hide {
                 @include respond-to("<=l") {
                     display: none !important;

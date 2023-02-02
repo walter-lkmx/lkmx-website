@@ -460,6 +460,11 @@
         "title": ["E-commerce and data", "analysis for will smith"],
         "services": ["Discovery", "Agile Development"],
         "img": "ws-thumbnail"
+      },
+      "legal": {
+        "title": ["Legal case manager"],
+        "services": ["Discovery", "Agile Development"],
+        "img": "legal-thumbnail"
       }
     },
     "story": {

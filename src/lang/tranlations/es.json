@@ -435,6 +435,11 @@
       "title": ["E-commerce y análisis", "de datos para Will Smith"],
       "services": ["Discovery", "Agile Development"],
       "img": "ws-thumbnail"
+    },
+    "legal": {
+      "title": ["Administrador de casos legales"],
+      "services": ["Discovery", "Agile Development"],
+      "img": "legal-thumbnail"
     }
 
   },

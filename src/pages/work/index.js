@@ -62,10 +62,25 @@ export default function StoriesPage({allStoriesData}) {
                 <Column>
                     <Block className={styles.storiesPage__storiesBlock}>
                         <div className={styles.storiesPage__storiesGrid}> 
-                            <div className={styles.storiesPage__storiesGrid__soon}>
+                            <div className={`${styles.storiesPage__storiesGrid__soon} ${styles.storiesPage__storiesGrid__left}`}>
                                 <div className={styles.storiesPage__storiesGrid__soon__image}></div>
                                <h2>{$t.stories.soon[0]}</h2>
                             </div>
+                            <div className={styles.storiesPage__storiesGrid__item}>
+                                <Link href="/work/spectrum-wine">
+                                    <div>
+                                        <div className={styles.storiesPage__storiesGrid__item__img}>
+                                            <Image
+                                                fill
+                                                src={`/work/${$t.stories.spectrum.img}.jpg`}
+                                                alt="project image"
+                                            />
+                                        </div>                                    
+                                        <h2>{$t.stories.spectrum.title}</h2>
+                                        <span>{$t.stories.spectrum.services[0]}, {$t.stories.spectrum.services[1]}</span>
+                                    </div>
+                                </Link>                                    
+                            </div> 
 
                             <div className={`${styles.storiesPage__storiesGrid__item} ${styles.storiesPage__storiesGrid__left}`}>
                                 <Link href="/work/e-commerce-ws">
@@ -81,23 +96,23 @@ export default function StoriesPage({allStoriesData}) {
                                         <span>{$t.stories.ws.services[0]}, {$t.stories.ws.services[1]}</span>
                                     </div>
                                 </Link>                                    
-                            </div>  
+                            </div> 
 
                             <div className={styles.storiesPage__storiesGrid__item}>
-                                <Link href="/work/spectrum-wine">
+                                <Link href="/work/legal-case-manager">
                                     <div>
                                         <div className={styles.storiesPage__storiesGrid__item__img}>
                                             <Image
                                                 fill
-                                                src={`/work/${$t.stories.spectrum.img}.jpg`}
+                                                src={`/work/${$t.stories.legal.img}.jpg`}
                                                 alt="project image"
                                             />
                                         </div>                                    
-                                        <h2>{$t.stories.spectrum.title}</h2>
-                                        <span>{$t.stories.spectrum.services[0]}, {$t.stories.spectrum.services[1]}</span>
+                                        <h2>{$t.stories.legal.title}</h2>
+                                        <span>{$t.stories.legal.services[0]}, {$t.stories.legal.services[1]}</span>
                                     </div>
                                 </Link>                                    
-                            </div>                                                   
+                            </div>                                                                                
                         </div>
                     </Block>
                 </Column> 
