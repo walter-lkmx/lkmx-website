@@ -21,12 +21,6 @@ introduction: {
     <p>One of the main concerns was ensuring the security and privacy of patient data. For this reason, we had to implement security measures that comply with the standards established by HIPAA (Health Insurance Portability and Accountability Act). This included the encryption of sensitive data and the implementation of authentication and authorization measures to ensure that only authorized individuals have access to the information.</p>
 </div>
 <div>
-    <figure>
-        <img src="/work/legal-search.jpg" alt="search results"/>
-        <figcaption class="story_story__mainContent__caption__IQRnS">The search produces a list of specialist results, sharing information such as their name and location. From here, the user has access to submit a case.</figcaption>
-    </figure>    
-</div>
-<div>
     <h2>Solution</h2>
     <p>To address these challenges, the project was divided into three phases:</p>
 </div>
@@ -67,6 +61,12 @@ introduction: {
         <img src="/work/project-chart-en--ongoing.jpg" alt="Gantt chart"/>
         <figcaption class="story_story__mainContent__caption__IQRnS">The Gantt chart for this project illustrates our Agile Development service, with each sprint broken down into three distinct phases: definition, implementation, and acceptance.</figcaption>
     </figure>
+</div>
+<div>
+    <figure>
+        <img src="/work/legal-search.jpg" alt="search results"/>
+        <figcaption class="story_story__mainContent__caption__IQRnS">The search produces a list of specialist results, sharing information such as their name and location. From here, the user has access to submit a case.</figcaption>
+    </figure>    
 </div>
 <div>
     <figure>

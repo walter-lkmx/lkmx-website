@@ -22,12 +22,6 @@ introduction: {
     <p>Además de cumplir con los estándares HIPAA, también era necesario definir y desarrollar herramientas utilizadas por los abogados y proveedores de salud para la gestión de casos legales y para permitir una mejor visibilidad y seguimiento de los casos, así como herramientas de comunicación como correo electrónico y mensajería instantánea para facilitar la comunicación entre los miembros del equipo. Estas características eran esenciales para ofrecer una experiencia óptima para los usuarios de la plataforma.</p>
 </div>
 <div>
-    <figure>
-        <img src="/work/legal-search.jpg" alt="search results"/>
-        <figcaption class="story_story__mainContent__caption__IQRnS">La búsqueda arroja una lista de resultados de especialistas, compartiendo datos como su nombre y ubicación. A partir de aquí, el usuario tiene acceso a presentar un caso.</figcaption>
-    </figure>    
-</div>
-<div>
     <h2>Solución</h2>
     <p>Para abordar estos desafíos, el proyecto se dividió en tres fases:</p>
 </div>
@@ -68,6 +62,12 @@ introduction: {
         <img src="/work/project-chart-es--ongoing.jpg" alt="Gantt chart"/>
         <figcaption class="story_story__mainContent__caption__IQRnS">El diagrama de Gantt para este proyecto ilustra nuestro servicio de Desarrollo Ágil, con cada sprint dividido en tres fases distintas: definición, implementación y aceptación.</figcaption>
     </figure>
+</div>
+<div>
+    <figure>
+        <img src="/work/legal-search.jpg" alt="search results"/>
+        <figcaption class="story_story__mainContent__caption__IQRnS">La búsqueda arroja una lista de resultados de especialistas, compartiendo datos como su nombre y ubicación. A partir de aquí, el usuario tiene acceso a presentar un caso.</figcaption>
+    </figure>    
 </div>
 <div>
     <figure>
