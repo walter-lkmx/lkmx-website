@@ -167,7 +167,10 @@
                 li {
                     list-style-image: url(/work/bullet.svg);
                 }
-            }           
+            }      
+            &__textContainer {
+                padding: 66.5px 0;
+            }     
             @include respond-to("<=s") {
                // grid-template-rows: auto auto;
                 grid-template-columns: auto;

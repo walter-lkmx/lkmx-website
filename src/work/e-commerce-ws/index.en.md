@@ -18,20 +18,14 @@ introduction: {
     <p>One of the main challenges we faced in this project was implementing a robust and scalable platform capable of handling a large amount of traffic in a short period of time. The platform should be able to handle a large number of real-time transactions, as well as integrate with the sales and social media data generated during the campaign.</p>
     <p>Another important challenge was using open source projects to develop the platform, as this required a lot of time and effort to implement and customize these tools and meet the project goals.</p>
 </div>
-<div>
-    <figure>
-        <img src="/work/ws-store.jpg" alt="store products"/>
-        <figcaption class="story_story__mainContent__caption__IQRnS">The homepage of Bel-Air Athletics e-commerce highlights its easy navigation design for a simple and satisfactory online shopping experience.</figcaption>
-    </figure>    
-</div>
 <div class="story_story__mainContent__2cGrid__aNFn8">
-    <div>
+    <div class="story_story__mainContent__2cGrid__textContainer__CjTww">
         <h2>Solution</h2>
         <p>To face these challenges, we built a platform based on Shopify and a robust backend capable of aggregating real-time data from sales and social media generated during the period when the campaign was active. In the development of this platform, we used more open source projects than in any other project given the innovative and disruptive nature of our client.</p>
     </div>
     <figure>
         <img src="/work/ws-product.jpg" alt="Product details"/>
-        <figcaption class="story_story__mainContent__gridCaption__8kiY6 story_story__mainContent__caption__IQRnS">Product pages feature high-quality photos, detailed descriptions, and size options.</figcaption>
+        <figcaption class="story_story__mainContent__gridCaption__8kiY6 story_story__mainContent__caption__IQRnS">We found in Shopify a solid platform where we combined a simple and fluid design with the ability to handle high traffic demand.</figcaption>
     </figure>  
 </div>
 <div>
@@ -40,7 +34,7 @@ introduction: {
 <div class="story_story__mainContent__2cGrid__aNFn8"> 
     <figure>
         <img src="/work/ws-summary.jpg" alt="Purchase Summary"/>
-        <figcaption class="story_story__mainContent__gridCaption__8kiY6 story_story__mainContent__caption__IQRnS">After confirming a purchase, the customer will be able to read a summary of their order.</figcaption>
+        <figcaption class="story_story__mainContent__gridCaption__8kiY6 story_story__mainContent__caption__IQRnS">We combine sales data with an efficient system to maximize its use in Will Smith's team's advertising campaigns.</figcaption>
     </figure>
     <div class="story_story__mainContent__wsSolutionList__KrV8F">
         <span>Some of the capabilities of the platform:</span>
@@ -61,15 +55,13 @@ introduction: {
     </figure>
 </div>
 <div>
+    <figure>
+        <img src="/work/ws-store.jpg" alt="store products"/>
+        <figcaption class="story_story__mainContent__caption__IQRnS">The intuitive design of Bel-Air Athletics facilitates a hassle-free and satisfying online shopping experience.</figcaption>
+    </figure>    
+</div>
+<div>
     <h2>Conclusion</h2>
     <p>In this project, we were able to overcome a challenge that seemed impossible by building an e-commerce platform for Will Smith in just 4 weeks. With it, we allowed millions of Will Smith's followers to have access to an exclusive and unique collection of products from his Fresh Prince of Bel Air brand. Not only did we meet the time goal, but we also managed to handle a high volume of traffic and real-time transactions, ensuring the stability and quality of the platform.</p>
-</div>
-<div>
-    <figure>
-        <img src="/work/ws-itemskart.jpg" alt="Aside Items Kart"/>
-        <figcaption class="story_story__mainContent__caption__IQRnS">The shopping cart is easily accessible from the top bar. Here you will find a summary of what the customer has added to the cart, as well as access to the checkout to proceed with the purchase.</figcaption>
-    </figure>
-</div>
-<div>
     <p>The project was a great success, after it finishes we worked for over 2 years building different tools that allowed the creatives of the organization to launch different promotions, all of them, heavily based on the use of data that allowed to revolutionize the Bel Air Athletics brand and position it as a spearhead in the industry.</p>
 </div>
