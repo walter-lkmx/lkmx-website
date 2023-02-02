@@ -35,7 +35,7 @@ introduction: {
 <div class="story_story__mainContent__2cGrid__aNFn8">
     <figure>
         <img src="/work/legal-details.jpg" alt="details"/>
-        <figcaption class="story_story__mainContent__gridCaption__8kiY6 story_story__mainContent__caption__IQRnS">Between health providers and lawyers details , the user can easily find the location.</figcaption>
+        <figcaption class="story_story__mainContent__gridCaption__8kiY6 story_story__mainContent__caption__IQRnS">Between health providers and lawyers details, the user can easily find the location.</figcaption>
     </figure>
     <div>
     <p>The platform has several tools to improve efficiency and collaboration in the legal process. One of the integrations is Twilio, which allows sending text messages through the platform, which improves the efficiency of some of the system's functions.</p>

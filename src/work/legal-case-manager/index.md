@@ -40,7 +40,7 @@ introduction: {
     </figure>
     <div>
     <p>La plataforma cuenta con varias herramientas para mejorar la eficiencia y colaboración en el proceso legal. Una de las integraciones es Twilio, que permite enviar mensajes de texto a través de la plataforma, lo que mejora la eficiencia de algunas de las funciones del sistema.</p>
-    <p>Otra integración importante es Google Maps, que permite a los usuarios encontrar fácilmente la ubicación de los proveedores de salud y los abogados con los que trabajará. Además, hemos integrado Pixel y Google Tag Manager para mejorar el seguimiento y análisis de las visitas al a la aplicación web.</p>
+    <p>Otra integración importante es Google Maps, que permite a los usuarios encontrar fácilmente la ubicación de los proveedores de salud y los abogados con los que trabajará. Además, hemos integrado Pixel y Google Tag Manager para mejorar el seguimiento y análisis de las visitas a la aplicación web.</p>
     </div>
 </div>
 <div class="story_story__mainContent__2cGrid__aNFn8">    
@@ -50,7 +50,7 @@ introduction: {
     </div>
     <figure>
         <img src="/work/legal-map.jpg" alt="Purchase Summary"/>
-        <figcaption class="story_story__mainContent__gridCaption__8kiY6 story_story__mainContent__caption__IQRnS">Los usuarios pueden facilmente encontrar información de proveedores de salud o abogados de manera rápida.</figcaption>
+        <figcaption class="story_story__mainContent__gridCaption__8kiY6 story_story__mainContent__caption__IQRnS">Los usuarios pueden fácilmente encontrar información de proveedores de salud o abogados de manera rápida.</figcaption>
     </figure>
 </div>
 <div>

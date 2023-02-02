@@ -9,7 +9,6 @@ import { useRouter } from "next/router";
 export default function GoBackBar({destiny}) {
     const { locale } = useRouter();
     const $t = getLang(locale);
-    console.log(destiny);
     return (
         <Column mode="normal" modeM="full">
             <Block className={styles.goBack}>
