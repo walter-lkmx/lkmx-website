@@ -28,7 +28,7 @@
       align-self: end;
       padding: rem(63px) 0;
       h1 {
-        font-family: $font-tertiary;
+        font-family: var(--lk-font-inter);
         font-weight: 800;
       }
       p {

@@ -81,6 +81,29 @@ introduction: {
         <figcaption class="story_story__mainContent__caption__IQRnS">La página de casos cuentan con información detallada, como datos del abogado a cargo, datos del solicitante, así como acceso a archivos involucrados en el caso.</figcaption>
     </figure>    
 </div>
+<div class="story_story__mainContent__technologies__v5XXm">
+    <div>
+        <h3>TECNOLOGÍAS</h3>
+        <span>Algunas de las tecnologías e integraciones<br/>implementadas en este proyecto.</span>
+    </div>   
+    <div class="story_story__mainContent__technologies__images__6NSg5">
+        <div>
+            <img src="/technologies/html.svg"/>
+            <img src="/technologies/css.svg"/>
+            <img src="/technologies/javascript.svg"/>
+            <img src="/technologies/maps.svg"/>
+            <img src="/technologies/tag-manager.svg"/>
+            <img src="/technologies/vue.svg"/>
+            <img src="/technologies/sass.svg"/>
+        </div>
+        <div>
+            <img src="/technologies/elasticsearch.svg"/>
+            <img src="/technologies/stripe.svg" class="story_story__mainContent__technologies__images__large__KxVD1"/>
+            <img src="/technologies/pixel.svg"/>
+            <img src="/technologies/twilio.svg" class="story_story__mainContent__technologies__images__large__KxVD1"/>
+        </div>
+    </div>     
+</div>
 <div>
     <h2>Conclusión</h2>
     <p>La plataforma desarrollada ha demostrado ser una solución eficaz para mejorar la comunicación entre las personas lesionadas, sus abogados y proveedores de salud, y reducir los costos asociados al proceso legal. Además, al ser una aplicación fácil de usar y disponible en cualquier dispositivo, se ha logrado una mayor satisfacción de los usuarios.</p>

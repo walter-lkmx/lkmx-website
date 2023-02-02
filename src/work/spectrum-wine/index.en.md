@@ -65,10 +65,6 @@ introduction: {
     </figure>
 </div>
 <div>
-    <h2>Conclusion</h2>
-    <p>The app we developed will continue to help the wine house improve its online presence and provide a much better user experience for its customers than its previous app. It delivers a seamless and secure platform for conducting auctions, increasing trust and confidence in the wine house's online auctions. Our team is proud to have played a role in the success of this project and looks forward to continuing to work with the wine house in the future.</p>
-</div>
-<div>
     <figure>
         <img src="/work/login-spectrum.jpg" alt="Login App"/>
         <figcaption class="story_story__mainContent__caption__IQRnS">The login screen of the app can be easily accessed through various actions such as tapping on the 'Log In' button or through certain tabs like 'My Bids' and 'My Wine'. There is also a 'Log in to your account' button present on the screen for easy access.</figcaption>
@@ -83,4 +79,28 @@ introduction: {
         <img src="/work/cart-spectrum.jpg" alt="App capture"/>
         <figcaption class="story_story__mainContent__gridCaption__8kiY6 story_story__mainContent__caption__IQRnS">The wines that the user is auctioning feature shows a list of the user's own wine auctions.</figcaption>
     </figure>
+</div>
+<div class="story_story__mainContent__technologies__v5XXm">
+    <div>
+        <h3>Technologies</h3>
+        <span>Some of the technologies and integrations<br/>implemented in this project.</span>
+    </div>   
+    <div class="story_story__mainContent__technologies__images__6NSg5">
+        <div>
+            <img src="/technologies/html.svg"/>
+            <img src="/technologies/css.svg"/>
+            <img src="/technologies/javascript.svg"/>
+            <img src="/technologies/vue.svg"/>
+            <img src="/technologies/sass.svg"/>
+        </div>
+        <div>
+            <img src="/technologies/chat.svg"/>
+            <img src="/technologies/cordova.png"/>
+            <img src="/technologies/nodejs.svg"/>
+        </div>
+    </div>     
+</div>
+<div>
+    <h2>Conclusion</h2>
+    <p>The app we developed will continue to help the wine house improve its online presence and provide a much better user experience for its customers than its previous app. It delivers a seamless and secure platform for conducting auctions, increasing trust and confidence in the wine house's online auctions. Our team is proud to have played a role in the success of this project and looks forward to continuing to work with the wine house in the future.</p>
 </div>

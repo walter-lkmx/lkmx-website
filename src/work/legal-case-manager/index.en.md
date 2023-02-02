@@ -15,7 +15,7 @@ introduction: {
 ---
 
 <div>
-    <h2>The Challenges</h2>
+    <h2>Challenges</h2>
     <p>One of the main concerns was ensuring the security and privacy of patient data. For this reason, we had to implement security measures that comply with the standards established by HIPAA (Health Insurance Portability and Accountability Act). This included the encryption of sensitive data and the implementation of authentication and authorization measures to ensure that only authorized individuals have access to the information.</p>
     <br/>
     <p>One of the main concerns was ensuring the security and privacy of patient data. For this reason, we had to implement security measures that comply with the standards established by HIPAA (Health Insurance Portability and Accountability Act). This included the encryption of sensitive data and the implementation of authentication and authorization measures to ensure that only authorized individuals have access to the information.</p>
@@ -79,6 +79,29 @@ introduction: {
         <img src="/work/legal-case.jpg" alt="case details"/>
         <figcaption class="story_story__mainContent__caption__IQRnS">The case page contains detailed information such as information about the responsible lawyer, information about the applicant, as well as access to files involved in the case.</figcaption>
     </figure>    
+</div>
+<div class="story_story__mainContent__technologies__v5XXm">
+    <div>
+        <h3>Technologies</h3>
+        <span>Some of the technologies and integrations<br/>implemented in this project.</span>
+    </div>   
+    <div class="story_story__mainContent__technologies__images__6NSg5">
+        <div>
+            <img src="/technologies/html.svg"/>
+            <img src="/technologies/css.svg"/>
+            <img src="/technologies/javascript.svg"/>
+            <img src="/technologies/maps.svg"/>
+            <img src="/technologies/tag-manager.svg"/>
+            <img src="/technologies/vue.svg"/>
+            <img src="/technologies/sass.svg"/>
+        </div>
+        <div>
+            <img src="/technologies/elasticsearch.svg"/>
+            <img src="/technologies/stripe.svg" class="story_story__mainContent__technologies__images__large__KxVD1"/>
+            <img src="/technologies/pixel.svg"/>
+            <img src="/technologies/twilio.svg" class="story_story__mainContent__technologies__images__large__KxVD1"/>
+        </div>
+    </div>     
 </div>
 <div>
     <h2>Conclusion</h2>

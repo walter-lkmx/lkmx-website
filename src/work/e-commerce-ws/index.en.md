@@ -14,7 +14,7 @@ introduction: {
 }
 ---
 <div>
-    <h2>The challenges</h2>
+    <h2>Challenges</h2>
     <p>One of the main challenges we faced in this project was implementing a robust and scalable platform capable of handling a large amount of traffic in a short period of time. The platform should be able to handle a large number of real-time transactions, as well as integrate with the sales and social media data generated during the campaign.</p>
     <p>Another important challenge was using open source projects to develop the platform, as this required a lot of time and effort to implement and customize these tools and meet the project goals.</p>
 </div>

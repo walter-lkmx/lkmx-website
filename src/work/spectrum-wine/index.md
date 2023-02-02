@@ -61,10 +61,6 @@ introduction: {
     </figure>
 </div>
 <div>
-    <h2>Conclusión</h2>
-    <p>La aplicación que desarrollamos continuará ayudando a la casa vinícola a mejorar su presencia en línea y a proveer una experiencia de usuario para sus clientes mejor que en su aplicación previa. Ofrece una plataforma transparente y segura de conducción de subastas, incrementando la confianza en las subastas en línea de la casa de vinos. Nuestro equipo se enorgullece de haber desempeñado un papel en el éxito de este proyecto y espera continuar trabajando con la bodega en el futuro.</p>
-</div>
-<div>
     <figure>
         <img src="/work/login-spectrum.jpg" alt="Login App"/>
         <figcaption class="story_story__mainContent__caption__IQRnS">La pantalla de inicio de sesión de la aplicación se puede acceder a través de varias acciones, como tocar el botón "Iniciar sesión" o a través de ciertas pestañas como "Mis pujas" y "Mi vino". También hay un botón "Iniciar sesión en tu cuenta" presente en la pantalla para un fácil acceso.</figcaption>
@@ -79,4 +75,28 @@ introduction: {
         <img src="/work/cart-spectrum.jpg" alt="App capture"/>
         <figcaption class="story_story__mainContent__gridCaption__8kiY6 story_story__mainContent__caption__IQRnS">El apartado de “My Wine” muestra un listado de los vinos del propio usuario que se encuentra subastando.</figcaption>
     </figure>
+</div>
+<div class="story_story__mainContent__technologies__v5XXm">
+    <div>
+        <h3>TECNOLOGÍAS</h3>
+        <span>Algunas de las tecnologías e integraciones<br/>implementadas en este proyecto.</span>
+    </div>   
+    <div class="story_story__mainContent__technologies__images__6NSg5">
+        <div>
+            <img src="/technologies/html.svg"/>
+            <img src="/technologies/css.svg"/>
+            <img src="/technologies/javascript.svg"/>
+            <img src="/technologies/vue.svg"/>
+            <img src="/technologies/sass.svg"/>
+        </div>
+        <div>
+            <img src="/technologies/chat.svg"/>
+            <img src="/technologies/cordova.png"/>
+            <img src="/technologies/nodejs.svg"/>
+        </div>
+    </div>     
+</div>
+<div>
+    <h2>Conclusión</h2>
+    <p>La aplicación que desarrollamos continuará ayudando a la casa vinícola a mejorar su presencia en línea y a proveer una experiencia de usuario para sus clientes mejor que en su aplicación previa. Ofrece una plataforma transparente y segura de conducción de subastas, incrementando la confianza en las subastas en línea de la casa de vinos. Nuestro equipo se enorgullece de haber desempeñado un papel en el éxito de este proyecto y espera continuar trabajando con la bodega en el futuro.</p>
 </div>

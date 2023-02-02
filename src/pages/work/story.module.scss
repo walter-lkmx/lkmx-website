@@ -175,6 +175,43 @@
                 justify-items: center;
             }
         }
+        &__technologies {
+            display: grid;
+            gap: 16px;
+            justify-items: center;
+            text-align: center;
+
+            h3{
+                margin: 0;
+            }
+            span {
+                font-family: var(--lk-font-ibm);
+                font-style: normal;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 22px;
+                color: $color-lang-secondary;
+            }
+            &__images {
+                display: grid;
+                grid-template-rows: auto auto;
+                gap: 16px;
+                div {
+                    display: grid;
+                    grid-auto-flow: column;
+                    gap: 23px;
+                    align-items: center;
+                    justify-content: center;
+                    img {
+                        width: 32px;
+                        min-height: unset;
+                    }
+                }         
+                &__large {
+                    width: 64px !important;
+                }       
+            }
+        }
         &__wsSolutionList {
             padding: 96.5px 0;
             @include respond-to("l") {
