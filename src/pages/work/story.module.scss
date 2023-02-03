@@ -178,6 +178,14 @@
                 justify-items: center;
             }
         }
+        &__fullList {
+            padding-left: 17px;
+            li {
+                list-style-image: url(/work/bullet.svg);
+                font-weight: 700;
+                line-height: 24px;
+            }
+        }
         &__technologies {
             display: grid;
             gap: 16px;

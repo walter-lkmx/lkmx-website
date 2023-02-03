@@ -14,7 +14,6 @@ introduction: {
 }
 ---
 
-
 <div>
     <h2>Los Retos</h2>
     <p>Una de las principales preocupaciones fue garantizar la seguridad y privacidad de los datos de los pacientes. Por esta razón, debíamos implementar medidas de seguridad que cumplieran con los estándares establecidos por HIPAA (Health Insurance Portability and Accountability Act). Esto incluyó la encriptación de datos sensibles y la implementación de medidas de autenticación y autorización para garantizar que solo las personas autorizadas tengan acceso a la información.</p>
