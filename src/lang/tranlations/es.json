@@ -257,27 +257,41 @@
   },
   "goBack": "Regresar",
   "discovery": {
-    "section": "Servicios",
     "title": "Discovery",
     "hero": [
-      "Descubre el camino hacia una solución de software única para tu negocio",
-      "con nuestro servicio de Discovery, toma decisiones informadas y",
-      "maximiza tu tiempo con entregas constantes de prototipos."
+      "Nuestras soluciones comienzan desde el",
+      "análisis de las necesidades y objetivos para",
+      "definir la mejor ruta, así como su alcance."
     ],
-    "intro": "En la fase previa al desarrollo de un proyecto, analizamos y redefinimos constantemente el objetivo general identificando obstáculos que nos ayudan a trazar una ruta viable de implementación. Utilizamos una metodología similar a la que utilizamos para construir el software, pero sin el envío de los artefactos a desarrollo, disminuyendo los riesgos asociados a esta etapa de ideación.",
-    "methodologies": {
-      "title": "Metodologías especializadas",
-      "content": "Utilizamos metodologías especializadas para desarrollar prototipos iniciales del software en forma de una colección de artefactos. Esto nos permite tomar decisiones informadas sobre el camino a seguir para obtener nuevas capacidades de negocio u optimizar procesos, todo esto con un proyecto ágil de tecnología listo para ser ejecutado."
-    },
-    "prototyping": {
-      "title": "Rapid Prototyping",
-      "content": "Utilizamos Rapid Prototyping para ofrecer entregas constantes de un prototipo, con las vistas y los escenarios que constituyen la solución de software, maximizando el tiempo."
-    },
-    "adhoc": {
-      "title": "Ad-Hoc Discovery",
-      "p1": "Utilizamos la técnica de Ad-Hoc Discovery, cuando desarrollamos un plan a la medida, involucrando una o más técnicas de análisis y prototipado de requerimientos que aclaran el camino para el negocio y en muchos casos plantean una ruta viable para la implementación de la solución.",
-      "p2": "En un periodo de 2 a 4 semanas, nuestros equipos multidisciplinarios pueden realizar wireframes o prototipos, un mapa de la funcionalidad, una arquitectura lógica de la solución y un release plan para la construcción de la misma.",
-      "p3": "Con esta metodología, podemos identificar y definir problemas, desarrollar prototipos, y planificar el desarrollo del software con un enfoque en el negocio y la funcionalidad."
+    "bannerTitle": ["UTILIZAMOS METODOLOGÍAS", "ESPECIALIZADAS"],
+    "prototype": {
+      "summary": {
+        "title": "CREAMOS UN PROTOTIPO INICIAL",
+        "paragraph": [
+          "Creamos un prototipo inicial del software en forma de una",
+          "colección de artefactos. Esto permite tomar decisiones",
+          "informadas sobre el camino a seguir para obtener nuevas",
+          "capacidades de negocio u optimizar procesos, todo esto con un",
+          "proyecto ágil de tecnología listo para ser ejecutado."
+        ]
+      },
+      "rapid": {
+        "title": "RAPID PROTOTYPING",
+        "paragraph": [
+          "Nos ayuda a ofrecer entregas constantes de un prototipo, con las vistas y",
+          "los escenarios que constituyen la solución de software, maximizando el",
+          "tiempo."
+        ]
+      },
+      "adhoc": {
+        "title": "AD-HOC DISCOVERY",
+        "paragraph": [
+          "Desarrollamos un plan a la medida, involucrando una o más técnicas de",
+          "análisis y prototipado de requerimientos que aclaran el camino para el",
+          "negocio y en muchos casos plantean una ruta viable para la",
+          "implementación de la solución."
+        ]
+      }
     },
     "span": {
       "text": "AGILE DEVELOPMENT"
