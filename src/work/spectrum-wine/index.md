@@ -57,13 +57,13 @@ introduction: {
         <div class="story_story__mainContent__gifContainer__XPvMb">
             <img src="/work/search-result.gif" alt="Search results"/>
         </div>
-        <figcaption class="story_story__mainContent__caption__IQRnS">Los usuarios pueden hacer ofertas informadas ya que tienen acceso a los detalles de la subasta en tiempo real.</figcaption>
+        <figcaption class="story_story__mainContent__caption__IQRnS">El proceso de subastas es optimizado con una interfaz cuidadosamente diseñada.</figcaption>
     </figure>    
 </div>
 <div class="story_story__mainContent__imagesGrid__NKnam story_story__mainContent__2cGrid__aNFn8">
     <figure>
         <img src="/work/store-spectrum.jpg" alt="App capture"/>
-        <figcaption class="story_story__mainContent__gridCaption__8kiY6 story_story__mainContent__caption__IQRnS">El proceso de subastas es optimizado con una interfaz cuidadosamente diseñada.</figcaption>
+        <figcaption class="story_story__mainContent__gridCaption__8kiY6 story_story__mainContent__caption__IQRnS">Los usuarios pueden hacer ofertas informadas ya que tienen acceso a los detalles de la subasta en tiempo real.</figcaption>
     </figure>
     <figure>
         <img src="/work/cart-spectrum.jpg" alt="App capture"/>
