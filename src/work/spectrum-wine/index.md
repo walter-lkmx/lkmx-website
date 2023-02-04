@@ -49,7 +49,7 @@ introduction: {
 <div class="story_story__mainContent__gantt__TErEp">
     <figure>
         <img src="/work/project-chart-es.jpg" alt="Gantt chart"/>
-        <figcaption class="story_story__mainContent__caption__IQRnS">El diagrama de Gantt de este proyecto ilustra nuestro servicio de Agile Development, con cada sprint desglosado en tres diferentes fases: definición, implementación, y aprobación.</figcaption>
+        <figcaption class="story_story__mainContent__caption__IQRnS">El diagrama de Gantt de este proyecto ilustra nuestro servicio de Desarrollo Ágil, con cada sprint desglosado en tres diferentes fases: definición, implementación, y aprobación.</figcaption>
     </figure>
 </div>
 <div>
@@ -57,7 +57,7 @@ introduction: {
         <div class="story_story__mainContent__gifContainer__XPvMb">
             <img src="/work/search-result.gif" alt="Search results"/>
         </div>
-        <figcaption class="story_story__mainContent__caption__IQRnS">El proceso de subastas es optimizado con una interfaz cuidadosamente diseñada.</figcaption>
+        <figcaption class="story_story__mainContent__caption__IQRnS">Los usuarios pueden hacer ofertas informadas ya que tienen acceso a los detalles de la subasta en tiempo real.</figcaption>
     </figure>    
 </div>
 <div class="story_story__mainContent__imagesGrid__NKnam story_story__mainContent__2cGrid__aNFn8">
