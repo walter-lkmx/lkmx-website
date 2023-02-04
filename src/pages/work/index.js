@@ -8,11 +8,13 @@ import siteMetadata from '../../meta/siteMetadata';
 import HeadSeo from '../../components/HeadSeo';
 import { useRouter } from 'next/router';
 import Image from 'next/image';
+import getProjectsIndexed from '../../lib/projectsIndex'
 
 
-export default function StoriesPage({allStoriesData}) {
+export default function StoriesPage() {
     const { locale } = useRouter();
     const $t = getLang(locale);
+    const projects = getProjectsIndexed(locale);
     return (
         <BaseLayout>
             <HeadSeo
@@ -59,60 +61,29 @@ export default function StoriesPage({allStoriesData}) {
                         </div>
                     </Block>
                 </Column>
+
                 <Column>
                     <Block className={styles.storiesPage__storiesBlock}>
                         <div className={styles.storiesPage__storiesGrid}> 
-                            <div className={`${styles.storiesPage__storiesGrid__soon} ${styles.storiesPage__storiesGrid__left}`}>
-                                <div className={styles.storiesPage__storiesGrid__soon__image}></div>
-                               <h2>{$t.stories.soon[0]}</h2>
-                            </div>
-                            <div className={styles.storiesPage__storiesGrid__item}>
-                                <Link href="/work/spectrum-wine">
-                                    <div>
-                                        <div className={styles.storiesPage__storiesGrid__item__img}>
-                                            <Image
-                                                fill
-                                                src={`/work/${$t.stories.spectrum.img}.jpg`}
-                                                alt="project image"
-                                            />
-                                        </div>                                    
-                                        <h2>{$t.stories.spectrum.title}</h2>
-                                        <span>{$t.stories.spectrum.services[0]}, {$t.stories.spectrum.services[1]}</span>
-                                    </div>
-                                </Link>                                    
-                            </div> 
-
-                            <div className={`${styles.storiesPage__storiesGrid__item} ${styles.storiesPage__storiesGrid__left}`}>
-                                <Link href="/work/e-commerce-ws">
-                                    <div>
-                                        <div className={styles.storiesPage__storiesGrid__item__img}>
-                                            <Image
-                                                fill
-                                                src={`/work/${$t.stories.ws.img}.jpg`}
-                                                alt="project image"
-                                            />
-                                        </div>                                    
-                                        <h2>{$t.stories.ws.title[0]}<br/>{$t.stories.ws.title[1]}</h2>
-                                        <span>{$t.stories.ws.services[0]}, {$t.stories.ws.services[1]}</span>
-                                    </div>
-                                </Link>                                    
-                            </div> 
-
-                            <div className={styles.storiesPage__storiesGrid__item}>
-                                <Link href="/work/legal-case-manager">
-                                    <div>
-                                        <div className={styles.storiesPage__storiesGrid__item__img}>
-                                            <Image
-                                                fill
-                                                src={`/work/${$t.stories.legal.img}.jpg`}
-                                                alt="project image"
-                                            />
-                                        </div>                                    
-                                        <h2>{$t.stories.legal.title}</h2>
-                                        <span>{$t.stories.legal.services[0]}, {$t.stories.legal.services[1]}</span>
-                                    </div>
-                                </Link>                                    
-                            </div>                                                                                
+                            {projects.map((project, index) => {
+                                return(
+                                    <div className={ index % 2 == 0 ? `${styles.storiesPage__storiesGrid__item} ${styles.storiesPage__storiesGrid__left}` : `${styles.storiesPage__storiesGrid__item}` } key={index}>
+                                        <Link href={project.route}>
+                                            <div>
+                                                <div className={styles.storiesPage__storiesGrid__item__img}>
+                                                    <Image
+                                                        fill
+                                                        src={`/work/${project.thumbnail}.jpg`}
+                                                        alt="project image"
+                                                    />
+                                                </div>                                    
+                                                <h2>{project.title[0]}<br/>{project.title[1]}</h2>
+                                                <span>{project.services[0]}, {project.services[1]}</span>
+                                            </div>
+                                        </Link>                                    
+                                    </div> 
+                                )
+                            })}                                                                                                         
                         </div>
                     </Block>
                 </Column> 
