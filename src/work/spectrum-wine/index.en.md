@@ -1,6 +1,6 @@
 ---
 number: 1
-title: ['Spectrum Wine']
+title: ['Wine auctions at', 'your fingertips']
 headline: ['Experience the world of wine auctions,', 'anytime, anywhere.']
 services: ['discovery', 'agile Development']
 methodologies: ['Scrum']

@@ -1,7 +1,7 @@
 export default function getProjectsIndexed(locale) {
     const projectsEs = [
         {
-            title: ["spectrum wine"],
+            title: ['Subastas de vinos', 'en tus manos'],
             services: ["Discovery", "Agile Development"],
             route: "/work/spectrum-wine",
             thumbnail: "spectrum-thumbnail"
@@ -38,7 +38,7 @@ export default function getProjectsIndexed(locale) {
     ];
     const projectsEn = [
         {
-            title: ["spectrum wine"],
+            title: ["Wine auctions at", "your fingertips"],
             services: ["Discovery", "Agile Development"],
             route: "/work/spectrum-wine",
             thumbnail: "spectrum-thumbnail"
