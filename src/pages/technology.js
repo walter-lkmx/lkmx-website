@@ -27,7 +27,7 @@ export default function TechnologyPage() {
           <Block className={styles.technology__hero__block}>
             <div className={styles.technology__hero__block__left}>
               <div>
-                <h2>{$t.technology.title}</h2>
+                <h1>{$t.technology.title}</h1>
                 <p>{$t.technology.hero[0]}</p>
                 <p>{$t.technology.hero[1]} <strong>{$t.technology.hero[2]}</strong> {$t.technology.hero[3]} <strong>{$t.technology.hero[4]}</strong> {$t.technology.hero[5]} <strong>{$t.technology.hero[6]}</strong> {$t.technology.hero[7]}</p>
               </div>
@@ -38,7 +38,7 @@ export default function TechnologyPage() {
               <div className={styles.technology__hero__block__right__triangle}></div>
               <div className={styles.technology__hero__block__right__background}>
                 <Image
-                  layout="fill"                
+                  fill                
                   priority={true}
                   src="/code--blue-bg.svg" alt="code"
                 />

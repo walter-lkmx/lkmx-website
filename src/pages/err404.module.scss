@@ -1,9 +1,9 @@
 .page {
     background-color: $color-neutral-black;
-    height: 810px;
+    height: 100%;
+    padding: 179px 0;
     &__column {
         &__block {
-            padding-top: 178px;
             > div > div {
                 display: grid;
                 gap: 26px;

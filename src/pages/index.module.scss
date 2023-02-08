@@ -53,7 +53,7 @@
 					&__imgContainer{
 						position: relative;
 						width: 1038px;
-						height: 1171px;
+						height: 1171px;						
 						@include respond-to(">xl") {
 							transform: translate(-7%, 219px);				
 						}
@@ -73,6 +73,9 @@
 						@include respond-to("<=s") {
 							width: 709px;
 							transform: translate(-2%, 15px);
+						}
+						@include respond-to("xxxl") {
+							transform: translate(13%, 219px);
 						}
 
 						img {
