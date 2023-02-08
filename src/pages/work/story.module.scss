@@ -172,10 +172,20 @@
                 padding: 66.5px 0;
             }     
             @include respond-to("<=s") {
-               // grid-template-rows: auto auto;
                 grid-template-columns: auto;
                 row-gap: 16px;
                 justify-items: center;
+            }
+            &__article {
+                background-color: $color-bright-gray-01;
+                padding: 26px 32px;
+                margin-bottom: 16px;
+                p {
+                    font-weight: 400;
+                    font-size: 19px;
+                    line-height: 30px;
+                    color: $color-project-article;
+                }
             }
         }
         &__fullList {
@@ -185,6 +195,13 @@
                 font-weight: 700;
                 line-height: 24px;
             }
+        }
+        &__phasesSpan {
+            font-family: var(--lk-font-ibm);
+            font-style: normal;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 24px;
         }
         &__technologies {
             display: grid;
