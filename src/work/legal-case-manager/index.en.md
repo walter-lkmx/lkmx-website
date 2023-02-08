@@ -87,19 +87,19 @@ introduction: {
     </div>   
     <div class="story_story__mainContent__technologies__images__6NSg5">
         <div>
-            <img src="/technologies/html.svg"/>
-            <img src="/technologies/css.svg"/>
-            <img src="/technologies/javascript.svg"/>
-            <img src="/technologies/maps.svg"/>
-            <img src="/technologies/tag-manager.svg"/>
-            <img src="/technologies/vue.svg"/>
-            <img src="/technologies/sass.svg"/>
+            <img alt="Technology logo" src="/technologies/html.svg"/>
+            <img alt="Technology logo" src="/technologies/css.svg"/>
+            <img alt="Technology logo" src="/technologies/javascript.svg"/>
+            <img alt="Technology logo" src="/technologies/maps.svg"/>
+            <img alt="Technology logo" src="/technologies/tag-manager.svg"/>
+            <img alt="Technology logo" src="/technologies/vue.svg"/>
+            <img alt="Technology logo" src="/technologies/sass.svg"/>
         </div>
         <div>
-            <img src="/technologies/elasticsearch.svg"/>
-            <img src="/technologies/stripe.svg" class="story_story__mainContent__technologies__images__large__KxVD1"/>
-            <img src="/technologies/pixel.svg"/>
-            <img src="/technologies/twilio.svg" class="story_story__mainContent__technologies__images__large__KxVD1"/>
+            <img alt="Technology logo" src="/technologies/elasticsearch.svg"/>
+            <img alt="Technology logo" src="/technologies/stripe.svg" class="story_story__mainContent__technologies__images__large__KxVD1"/>
+            <img alt="Technology logo" src="/technologies/pixel.svg"/>
+            <img alt="Technology logo" src="/technologies/twilio.svg" class="story_story__mainContent__technologies__images__large__KxVD1"/>
         </div>
     </div>     
 </div>

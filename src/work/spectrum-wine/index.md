@@ -77,16 +77,16 @@ introduction: {
     </div>   
     <div class="story_story__mainContent__technologies__images__6NSg5">
         <div>
-            <img src="/technologies/html.svg"/>
-            <img src="/technologies/css.svg"/>
-            <img src="/technologies/javascript.svg"/>
-            <img src="/technologies/vue.svg"/>
-            <img src="/technologies/sass.svg"/>
+            <img alt="Technology logo" src="/technologies/html.svg"/>
+            <img alt="Technology logo" src="/technologies/css.svg"/>
+            <img alt="Technology logo" src="/technologies/javascript.svg"/>
+            <img alt="Technology logo" src="/technologies/vue.svg"/>
+            <img alt="Technology logo" src="/technologies/sass.svg"/>
         </div>
         <div>
-            <img src="/technologies/chat.svg"/>
-            <img src="/technologies/cordova.png"/>
-            <img src="/technologies/nodejs.svg"/>
+            <img alt="Technology logo" src="/technologies/chat.svg"/>
+            <img alt="Technology logo" src="/technologies/cordova.png"/>
+            <img alt="Technology logo" src="/technologies/nodejs.svg"/>
         </div>
     </div>     
 </div>

@@ -34,6 +34,13 @@ export default function getProjectsIndexed(locale) {
             route: "/work/water-park",
             thumbnail: "canadas-thumbnail"
         
+        },
+        {
+            title: ["Secret Network"],
+            services: ["Discovery", "Agile Development", "Agile Maintenance"],
+            route: "/work/secret-network",
+            thumbnail: "secret-thumbnail"
+        
         }
     ];
     const projectsEn = [
@@ -70,6 +77,13 @@ export default function getProjectsIndexed(locale) {
             services: ["Discovery", "Agile Development"],
             route: "/work/water-park",
             thumbnail: "canadas-thumbnail"
+        
+        },
+        {
+            title: ["Secret Network"],
+            services: ["Discovery", "Agile Development", "Agile Maintenance"],
+            route: "/work/secret-network",
+            thumbnail: "secret-thumbnail"
         
         }
     ];

@@ -89,6 +89,10 @@ export default function SuccessStory({storyData}) {
                             <div>
                                 <h2>{storyData.introduction.title}</h2>
                                 <p>{storyData.introduction.content}</p>
+                                {storyData.introduction.content2 != null ? 
+                                        <p>{storyData.introduction.content2}</p>
+                                        : ''
+                                }
                             </div>
                         </div>
                     </Block>

@@ -75,28 +75,28 @@ introduction: {
     </div>   
     <div class="story_story__mainContent__technologies__images__6NSg5">
         <div>
-            <img src="/technologies/gcloud.svg"/>
-            <img src="/technologies/cloudflare.svg"/>
-            <img src="/technologies/kubernetes.svg"/>
-            <img src="/technologies/java.svg"/>
-            <img src="/technologies/nodejs.svg"/>
-            <img src="/technologies/mysql-small.svg"/>
+            <img alt="Technology logo" src="/technologies/gcloud.svg"/>
+            <img alt="Technology logo" src="/technologies/cloudflare.svg"/>
+            <img alt="Technology logo" src="/technologies/kubernetes.svg"/>
+            <img alt="Technology logo" src="/technologies/java.svg"/>
+            <img alt="Technology logo" src="/technologies/nodejs.svg"/>
+            <img alt="Technology logo" src="/technologies/mysql-small.svg"/>
         </div>
         <div>
-            <img src="/technologies/vue.svg"/>
-            <img src="/technologies/html.svg"/>
-            <img src="/technologies/css.svg"/>
-            <img src="/technologies/javascript.svg"/>
-            <img src="/technologies/typescript.svg"/>
-            <img src="/technologies/rest.svg" class="story_story__mainContent__technologies__images__large__KxVD1"/>
+            <img alt="Technology logo" src="/technologies/vue.svg"/>
+            <img alt="Technology logo" src="/technologies/html.svg"/>
+            <img alt="Technology logo" src="/technologies/css.svg"/>
+            <img alt="Technology logo" src="/technologies/javascript.svg"/>
+            <img alt="Technology logo" src="/technologies/typescript.svg"/>
+            <img alt="Technology logo" src="/technologies/rest.svg" class="story_story__mainContent__technologies__images__large__KxVD1"/>
         </div>
         <div>
-            <img src="/technologies/stripe.svg" class="story_story__mainContent__technologies__images__large__KxVD1"/>
-            <img src="/technologies/spring.svg"/>
-            <img src="/technologies/gitlab.svg"/>
-            <img src="/technologies/nginx.svg"/>
-            <img src="/technologies/gradle.svg"/>
-            <img src="/technologies/npm.svg" class="story_story__mainContent__technologies__images__large__KxVD1"/>
+            <img alt="Technology logo" src="/technologies/stripe.svg" class="story_story__mainContent__technologies__images__large__KxVD1"/>
+            <img alt="Technology logo" src="/technologies/spring.svg"/>
+            <img alt="Technology logo" src="/technologies/gitlab.svg"/>
+            <img alt="Technology logo" src="/technologies/nginx.svg"/>
+            <img alt="Technology logo" src="/technologies/gradle.svg"/>
+            <img alt="Technology logo" src="/technologies/npm.svg" class="story_story__mainContent__technologies__images__large__KxVD1"/>
         </div>
     </div>     
 </div>
