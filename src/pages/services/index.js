@@ -31,7 +31,7 @@ export default function ServicesPage() {
         <Column number={2} numberS={1} className={styles.page__services} weight="right" weightS="Normal" modeXl="normal" modeL="full" modeM="full">
           <Block>
             <div className={styles.page__services__content}>
-              <h2>{$t.services.title}</h2>
+              <h1>{$t.services.title}</h1>
               <p>{$t.services.hero[0]} <strong>{$t.services.hero[1]}</strong> {$t.services.hero[2]} <strong>{$t.services.hero[3]}</strong>, {$t.services.hero[4]}.</p>
             </div>
           </Block>
@@ -60,7 +60,7 @@ export default function ServicesPage() {
         </Banner>
 
         <Column mode="full" className={styles['page__phases-links']}>
-          <Block>
+          <Block className={styles.page__phasesBox}>
             <div>
               <div className={styles.page__phases}>
                 <div className={styles.page__phases__discovery}>
@@ -122,7 +122,7 @@ export default function ServicesPage() {
           <Block className={styles.page__phases__block}>
             <div className={styles.page__phases__content}>
               <div>
-                <h4>DISCOVERY</h4>
+                <h3>DISCOVERY</h3>
                 <p>{$t.services.phases[0]}</p>
                 <Link href="/services/discovery" legacyBehavior>
                   <div className={styles.page__iconContainer}>
@@ -131,7 +131,7 @@ export default function ServicesPage() {
                 </Link> 
               </div>
               <div>
-                <h4>AGILE<br/>DEVELOPMENT</h4>
+                <h3>AGILE<br/>DEVELOPMENT</h3>
                 <p>{$t.services.phases[1]}</p>
                 <Link href="/services/agileDevelopment" legacyBehavior>
                   <div className={styles.page__iconContainer}>
@@ -141,7 +141,7 @@ export default function ServicesPage() {
                 
               </div>
               <div>
-                <h4>AGILE MAINTENANCE, SCOPE DEV. & CONTINUOUS SUPPORT</h4>
+                <h3>AGILE MAINTENANCE, SCOPE DEV. & CONTINUOUS SUPPORT</h3>
                 <p>{$t.services.phases[2]}</p>
                 <Link href="/services/agileMaintenance" legacyBehavior>
                   <div className={styles.page__iconContainer}>

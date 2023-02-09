@@ -1,4 +1,9 @@
 .page {
+  &__phasesBox {
+    > div > div {
+      padding: 2px 0 0px !important;
+    }
+  }
   &__phases{
     display: grid;
     grid-template-columns: repeat(5, min-content);
@@ -11,10 +16,13 @@
     }
     &__discovery {
       position: relative;
-      width: 108px;
+      width: 118px;
       aspect-ratio: 1;
       z-index: 1;
       cursor: pointer;
+      @include respond-to(">=m") {
+        transform: translateX(87px);
+      }
     }
     &__agileDev {
       position: relative;
@@ -22,6 +30,9 @@
       aspect-ratio: 1;
       z-index: 1;
       cursor: pointer;
+      @include respond-to(">=m") {
+        transform: translateX(87px);
+      }
     }
     &__agileMain {
       position: relative;
@@ -29,6 +40,9 @@
       aspect-ratio: 1;
       z-index: 1;
       cursor: pointer;
+      @include respond-to(">=m") {
+        transform: translateX(87px);
+      }
     }
     &__scopeDev {
       position: relative;
@@ -36,7 +50,7 @@
       aspect-ratio: 1;
       z-index: 1;
       cursor: pointer;
-      transform: translate(-38px, -79px);
+      transform: translate(47px, -80px);
       @include respond-to("<=s") {
         transform: translate(75px, -34px);
       }
@@ -47,7 +61,7 @@
       aspect-ratio: 1;
       z-index: 1;
       cursor: pointer;
-      transform: translateX(-64px);
+      transform: translateX(23px);
       @include respond-to("<=s") {
         transform: translateY(-64px);
       }
@@ -185,7 +199,7 @@
     }
   }
   &__phases {
-    padding: 72px 0 100px 0;
+    padding: 0 0 73px 0;
     div {
       height: 100%;
     }
@@ -227,7 +241,7 @@
     }
     &__phases-links {
       &__arrow {
-        top: 47%;
+        top: 40%;
       }
     }
   }
