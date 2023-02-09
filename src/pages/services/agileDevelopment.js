@@ -17,7 +17,7 @@ export default function AgileDevelopment() {
     return (
         <BaseLayout>
             <HeadSeo
-                title={$t.agile.title}
+                title={$t.agile.title1}
                 description={$t.agile.ogDescription}
                 canonicalUrl={siteMetadata.siteUrl}
                 ogImageUrl={$t.home.ogImage ? $t.home.ogImage : locale === 'es' ? siteMetadata.ogDefaultImageEs : siteMetadata.ogDefaultImageEn}
