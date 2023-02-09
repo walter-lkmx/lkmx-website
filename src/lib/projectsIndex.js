@@ -41,6 +41,13 @@ export default function getProjectsIndexed(locale) {
             route: "/work/secret-network",
             thumbnail: "secret-thumbnail"
         
+        },
+        {
+            title: ["SKYOU"],
+            services: ["Discovery", "Agile Development", "Agile Maintenance"],
+            route: "/work/skyou",
+            thumbnail: "skyou-thumbnail"
+        
         }
     ];
     const projectsEn = [
@@ -84,6 +91,13 @@ export default function getProjectsIndexed(locale) {
             services: ["Discovery", "Agile Development", "Agile Maintenance"],
             route: "/work/secret-network",
             thumbnail: "secret-thumbnail"
+        
+        },
+        {
+            title: ["SKYOU"],
+            services: ["Discovery", "Agile Development", "Agile Maintenance"],
+            route: "/work/skyou",
+            thumbnail: "skyou-thumbnail"
         
         }
     ];
