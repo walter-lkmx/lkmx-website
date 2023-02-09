@@ -17,7 +17,7 @@ export default function Ams() {
     return (
         <BaseLayout>
             <HeadSeo
-                title={$t.ams.title}
+                title={$t.ams.title + ' - ' + siteMetadata.companyName}
                 description={$t.ams.ogDescription}
                 canonicalUrl={siteMetadata.siteUrl}
                 ogImageUrl={$t.home.ogImage ? $t.home.ogImage : locale === 'es' ? siteMetadata.ogDefaultImageEs : siteMetadata.ogDefaultImageEn}
