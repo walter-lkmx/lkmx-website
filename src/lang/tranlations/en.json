@@ -283,6 +283,7 @@
     "goBack": "Go Back",
     "discovery": {
       "title": "Discovery",
+      "ogDescription": "Our solutions start from the analysis of needs and objectives to define the best route, as well as its scope.",
       "hero" :[
           "Our solutions start from the",
           "analysis of needs and objectives to",
@@ -330,6 +331,7 @@
           "Agile",
           "development"
         ],
+        "ogDescription": "Our main service offers iteration of work by a multidisciplinary engineering team in charge of designing the architecture and building the solution of the software from the ideation to the end of the lifecycle.",
         "hero": [
             "Our main service offers iteration of work by",
             " a multidisciplinary engineering team in",
@@ -383,6 +385,7 @@
     },
     "ams": {
       "title": "Agile Maintenance",
+      "ogDescription": "At the end of development, we offer maintenance and support services for a successful stabilization and transfer of the platform.",
       "title1":[
         "Agile",
         "Maintenance"

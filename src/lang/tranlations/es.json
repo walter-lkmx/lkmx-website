@@ -258,6 +258,7 @@
   "goBack": "Regresar",
   "discovery": {
     "title": "Discovery",
+    "ogDescription": "Nuestras soluciones comienzan desde el análisis de las necesidades y objetivos para definir la mejor ruta, así como su alcance.",
     "hero": [
       "Nuestras soluciones comienzan desde el",
       "análisis de las necesidades y objetivos para",
@@ -302,6 +303,7 @@
       "Agile",
       "development"
     ],
+    "ogDescription": "Nuestro principal servicio ofrece iteraciones de trabajo de un equipo multidisciplinario de ingeniería a cargo de diseñar la arquitectura y construir la solución de software de principio a fin.",
     "hero": [
         "Nuestro principal servicio ofrece",
         "iteraciones de trabajo de un equipo",
@@ -355,6 +357,7 @@
   },
   "ams": {
     "title": "Agile Maintenance",
+    "ogDescription": "Al final del desarrollo, ofrecemos servicios de mantenimiento y soporte para una estabilización y transferencia exitosa de la plataforma.",
     "title1":[
       "Agile",
       "Maintenance"

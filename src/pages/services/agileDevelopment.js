@@ -18,10 +18,10 @@ export default function AgileDevelopment() {
         <BaseLayout>
             <HeadSeo
                 title={$t.agile.title}
-                description={`Descripción de AboutUsPage`}
+                description={$t.agile.ogDescription}
                 canonicalUrl={siteMetadata.siteUrl}
-                ogImageUrl={"https://iili.io/H9S6dIj.jpg"}
-                ogTwitterImage={`https://iili.io/H9S6dIj.jpg`}
+                ogImageUrl={$t.home.ogImage ? $t.home.ogImage : locale === 'es' ? siteMetadata.ogDefaultImageEs : siteMetadata.ogDefaultImageEn}
+                ogTwitterImage={$t.home.ogImage ? $t.home.ogImage : locale === 'es' ? siteMetadata.ogDefaultImageEs : siteMetadata.ogDefaultImageEn}
                 ogType={siteMetadata.ogType}
             />
             <Page>

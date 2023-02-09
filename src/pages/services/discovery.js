@@ -17,11 +17,11 @@ export default function DiscoveryPage() {
     return (
         <BaseLayout>
             <HeadSeo
-                title={$t.discovery.title}
-                description={`Descripción de AboutUsPage`}
+                title={$t.discovery.title + ' - ' + siteMetadata.companyName}
+                description={$t.discovery.ogDescription}
                 canonicalUrl={siteMetadata.siteUrl}
-                ogImageUrl={"https://iili.io/H9S6dIj.jpg"}
-                ogTwitterImage={`https://iili.io/H9S6dIj.jpg`}
+                ogImageUrl={$t.home.ogImage ? $t.home.ogImage : locale === 'es' ? siteMetadata.ogDefaultImageEs : siteMetadata.ogDefaultImageEn}
+                ogTwitterImage={$t.home.ogImage ? $t.home.ogImage : locale === 'es' ? siteMetadata.ogDefaultImageEs : siteMetadata.ogDefaultImageEn}
                 ogType={siteMetadata.ogType}
             />
             <Page>  

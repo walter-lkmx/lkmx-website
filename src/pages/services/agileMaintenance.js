@@ -18,10 +18,10 @@ export default function Ams() {
         <BaseLayout>
             <HeadSeo
                 title={$t.ams.title}
-                description={`Descripción de AboutUsPage`}
+                description={$t.ams.ogDescription}
                 canonicalUrl={siteMetadata.siteUrl}
-                ogImageUrl={"https://iili.io/H9S6dIj.jpg"}
-                ogTwitterImage={`https://iili.io/H9S6dIj.jpg`}
+                ogImageUrl={$t.home.ogImage ? $t.home.ogImage : locale === 'es' ? siteMetadata.ogDefaultImageEs : siteMetadata.ogDefaultImageEn}
+                ogTwitterImage={$t.home.ogImage ? $t.home.ogImage : locale === 'es' ? siteMetadata.ogDefaultImageEs : siteMetadata.ogDefaultImageEn}
                 ogType={siteMetadata.ogType}
             />
             <Page>
