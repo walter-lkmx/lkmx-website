@@ -160,6 +160,9 @@
         &__2cGrid {
             display: grid;
             grid-template-columns: 1fr 1fr;
+            @include respond-to("l") {
+                grid-template-columns: 2fr 1fr;
+            }
             column-gap: 26px;
             position: relative;
             ul {
@@ -191,8 +194,13 @@
                     color: $color-project-article;
                     margin: 0;
                 }
-                @include respond-to("m") {
+                @include respond-to("l") {
                     width: 385px;
+                    left: 395px;
+                }
+                @include respond-to("m") {
+                    width: 370px;
+                    left: 383px;
                 }
                 @include respond-to ("<=s") {
                     position: unset;
