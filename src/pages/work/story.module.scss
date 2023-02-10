@@ -161,6 +161,7 @@
             display: grid;
             grid-template-columns: 1fr 1fr;
             column-gap: 26px;
+            position: relative;
             ul {
                 max-width: 358px;
                 padding-left: 17px;
@@ -180,11 +181,24 @@
                 background-color: $color-bright-gray-01;
                 padding: 26px 32px;
                 margin-bottom: 16px;
+                width: 450px;
+                position: absolute;
+                left: 367px;
                 p {
                     font-weight: 400;
                     font-size: 19px;
                     line-height: 30px;
                     color: $color-project-article;
+                    margin: 0;
+                }
+                @include respond-to("m") {
+                    width: 385px;
+                }
+                @include respond-to ("<=s") {
+                    position: unset;
+                    left: unset;
+                    width: 100%;
+                    margin: 56px 0;
                 }
             }
         }
