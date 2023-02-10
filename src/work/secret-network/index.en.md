@@ -22,7 +22,7 @@ introduction: {
 </div>
 <div>
     <h2>Solution</h2>
-    <p>To address these challenges, the solution implemented for the Secret Network blockchain was the creation of a new website with a integrated experience for the community. With the aim of unifying the information scattered across different sites, Vue.js and Gridsome were used as a Jamstack framework to build the website.</p>
+    <p>To address these challenges, the solution implemented for the Secret Network blockchain was the creation of a new website with an integrated experience for the community. With the aim of unifying the information scattered across different sites, Vue.js and Gridsome were used as a Jamstack framework to build the website.</p>
 </div>
 <div>
     <figure>

@@ -32,7 +32,7 @@ introduction: {
     </figure>    
 </div>
 <div>
-    <p>El paradigma Jamstack es una manera de construir aplicaciones web modernas que combinan el uso de JavaScript, APIs y Markup. En vez de contar con un backend tradicional que sirve páginas dinámicas, las aplicaciones Jamstack se componen de componentes estáticos que son servidos directamente desde un servidor CDN, y dinámicos que son manejados por APIs, con esto conseguimos mejorar lo seguridad, velocidad y escalabilidad de la plataforma.</p>
+    <p>El paradigma Jamstack es una manera de construir aplicaciones web modernas que combinan el uso de JavaScript, APIs y Markup. En vez de contar con un backend tradicional que sirve páginas dinámicas, las aplicaciones Jamstack se componen de componentes estáticos que son servidos directamente desde un servidor CDN, y dinámicos que son manejados por APIs, con esto conseguimos mejorar la seguridad, velocidad y escalabilidad de la plataforma.</p>
     <p>Bajo este paradigma integramos un headless CMS, Strapi, que permitió al equipo de Secret Network tener el control total del contenido del sitio, incluyendo configuraciones detalladas para optimización de SEO. Este proyecto también fue un hito para nosotros, ya que implementamos por primera vez nuestro sistema de diseño llamado Flare. Este sistema nos permitió construir el UI del sitio web de manera más rápida y eficiente, logrando resultados perfectos para cualquier tipo de dispositivo.</p>
 </div>
 <div class="story_story__mainContent__gantt__TErEp">

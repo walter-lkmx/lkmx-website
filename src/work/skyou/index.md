@@ -39,7 +39,7 @@ introduction: {
     </figure>    
 </div>
 <div>
-    <p>Como parte de nuestro esfuerzo, hemos hecho de SKYOU un sitema altamente versátil incluso en lo visual. La característica de "cambiar de skin" o "white label" es una muestra de la capacidad de adaptación que ofrecemos, permitiendo a las marcas integrar su imagen en la plataforma y utilizarla bajo su propio nombre. Este desarrollo es un reflejo de nuestro compromiso en ofrecer una experiencia única e innovadora a todos nuestros clientes.</p>
+    <p>Como parte de nuestro esfuerzo, hemos hecho de SKYOU un sistema altamente versátil incluso en lo visual. La característica de "cambiar de skin" o "white label" es una muestra de la capacidad de adaptación que ofrecemos, permitiendo a las marcas integrar su imagen en la plataforma y utilizarla bajo su propio nombre. Este desarrollo es un reflejo de nuestro compromiso en ofrecer una experiencia única e innovadora a todos nuestros clientes.</p>
 </div>
 <div>
     <figure>
