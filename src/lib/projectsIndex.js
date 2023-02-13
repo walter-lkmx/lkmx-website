@@ -48,6 +48,13 @@ export default function getProjectsIndexed(locale) {
             route: "/work/skyou",
             thumbnail: "skyou-thumbnail"
         
+        },
+        {
+            title: ["Sistema nacional de hospitales"],
+            services: ["Discovery", "Agile Development", "Agile Maintenance"],
+            route: "/work/national-hospital-system",
+            thumbnail: "hospitals-thumbnail"
+        
         }
     ];
     const projectsEn = [
@@ -98,6 +105,13 @@ export default function getProjectsIndexed(locale) {
             services: ["Discovery", "Agile Development", "Agile Maintenance"],
             route: "/work/skyou",
             thumbnail: "skyou-thumbnail"
+        
+        },
+        {
+            title: ["National hospital system"],
+            services: ["Discovery", "Agile Development", "Agile Maintenance"],
+            route: "/work/national-hospital-system",
+            thumbnail: "hospitals-thumbnail"
         
         }
     ];
