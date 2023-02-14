@@ -1,7 +1,7 @@
 ---
 number: 6
-title: ['Secret Network']
-headline: ['A secure and decentralized blockchain network with an', 'intuitive interface for users and developers.']
+title: ['New experience of', 'blockchain privacy']
+headline: ['Secure your privacy with Secret Network: website redesign powered', 'by Jamstack and the debut of our Flare design system.']
 services: ['discovery', 'agile Development', 'agile Maintenance']
 methodologies: ['Scrum']
 period: ['2020 - 2022']

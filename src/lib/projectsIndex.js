@@ -36,14 +36,14 @@ export default function getProjectsIndexed(locale) {
         
         },
         {
-            title: ["Secret Network"],
+            title: ["Nueva experiencia de", "privacidad en blockchain"],
             services: ["Discovery", "Agile Development", "Agile Maintenance"],
             route: "/work/secret-network",
             thumbnail: "secret-thumbnail"
         
         },
         {
-            title: ["SKYOU"],
+            title: ["Plataforma innovadora para", "la producción de prendas únicas"],
             services: ["Discovery", "Agile Development", "Agile Maintenance"],
             route: "/work/skyou",
             thumbnail: "skyou-thumbnail"
@@ -101,14 +101,14 @@ export default function getProjectsIndexed(locale) {
         
         },
         {
-            title: ["Secret Network"],
+            title: ["New experience of", "blockchain privacy"],
             services: ["Discovery", "Agile Development", "Agile Maintenance"],
             route: "/work/secret-network",
             thumbnail: "secret-thumbnail"
         
         },
         {
-            title: ["SKYOU"],
+            title: ["innovative platform for", "the production of unique garments"],
             services: ["Discovery", "Agile Development", "Agile Maintenance"],
             route: "/work/skyou",
             thumbnail: "skyou-thumbnail"

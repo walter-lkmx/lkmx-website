@@ -1,7 +1,7 @@
 ---
 number: 7
-title: ['SKYOU']
-headline: ['A color detection tool that ensures quality and consistency in', 'its printed products.']
+title: ['innovative platform for', 'the production of unique garments']
+headline: ['The freedom to choose, the ease of printing, personalized fashion at your fingertips.']
 services: ['discovery', 'agile Development', 'agile Maintenance']
 methodologies: ['Scrum']
 period: ['2021 - 2022']
