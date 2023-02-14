@@ -157,6 +157,9 @@
             color: $color-lang-secondary;
             margin-top: 8px;
         }
+        &__2cGridPulledQuote {
+            min-height: 216px;
+        }
         &__2cGrid {
             display: grid;
             grid-template-columns: 1fr 1fr;
@@ -315,4 +318,3 @@
         }                 
     }    
 }
-

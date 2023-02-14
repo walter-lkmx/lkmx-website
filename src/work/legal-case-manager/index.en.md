@@ -31,7 +31,7 @@ introduction: {
     <span class="story_story__mainContent__phasesSpan___jSDV">Second stage</span>
     <p>A responsive application was developed that can be used on any device, which avoids long and consecutive updates. The execution of our Agile Development service allowed us to be flexible and adapt to changes in project requirements.</p>
     <p>The platform has several tools to improve efficiency and collaboration in the legal process. One of the integrations is Twilio, which allows sending text messages through the platform, which improves the efficiency of some of the system's functions.</p>
-    <div class="story_story__mainContent__2cGrid__aNFn8">
+    <div class="story_story__mainContent__2cGrid__aNFn8 story_story__mainContent__2cGridPulledQuote__fnvPw">
         <div>    
             <p>Another important integration is Google Maps, which allows users to easily find the location of healthcare providers and lawyers they will work with. In addition, we have integrated Pixel and Google Tag Manager to improve tracking and analysis of website visits.</p>
         </div>
