@@ -106,7 +106,8 @@ export default function DiscoveryPage() {
                         <div className={styles.discovery__wireframe__block__image}>
                             <Image
                             fill
-                            src="/services/discovery/discovery_wireframe.svg"/>
+                            src="/services/discovery/discovery_wireframe.svg"
+                            alt="Wireframe representation"/>
                         </div>
                     </Block>
                 </Column>
