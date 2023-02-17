@@ -302,6 +302,10 @@
         "title": "Ad-Hoc Discovery",
         "content": "We use the Ad-Hoc Discovery technique when we develop a tailor-made plan, involving one or more requirements analysis and prototyping techniques that clarify the way for the business and in many cases propose a viable route for the implementation of the solution."
       },
+    "wireframe": {
+      "par1": "In a period of 2 to 4 weeks, our multidisciplinary teams can create wireframes or prototypes, a map of functionality, a logical architecture of the solution, and a release plan for its construction.",
+      "par2": "With this methodology, we can identify and define problems, develop prototypes, and plan the development of software with a focus on the business and functionality."
+    },
       "span": {
         "text": "AGILE DEVELOPMENT"
       }
