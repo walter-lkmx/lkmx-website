@@ -282,50 +282,30 @@
     },
     "goBack": "Go Back",
     "discovery": {
+      "section": "Services",
       "title": "Discovery",
-      "ogDescription": "Our solutions start from the analysis of needs and objectives to define the best route, as well as its scope.",
-      "hero" :[
-          "Our solutions start from the",
-          "analysis of needs and objectives to",
-          "define the best route, as well as its scope."
+      "hero": [
+        "Discover the path towards a unique software solution for your business",
+        "with our Discovery service, make informed decisions and maximize your",
+        "time with consistent delivery of prototypes."
       ],
-      "bannerTitle" : [
-          "We use a couple of specialized",
-          "Methodologies"
-      ],
-      "prototype" : {
-          "summary": {
-              "title": "We create an initial prototype",
-              "paragraph": [
-                  "We create an initial prototype of the software in the form of a",
-                  "collection of artifacts, allowing stakeholders to make informed",
-                  "decisions on the path to follow to obtain new",
-                  "business capabilities or optimize processes, all this with an",
-                  "agile technology project ready to be executed."  
-              ]
-          },
-          "rapid" : {
-              "title": "RAPID PROTOTYPING",
-              "paragraph": [
-                  "It helps us to offer constant deliveries of a prototype, with the views and",
-                  "scenarios that constitute the software solution, maximizing",
-                  "time."
-              ]
-          },
-          "adhoc" : {
-              "title": "AD-HOC DISCOVERY",
-              "paragraph": [
-                  "We develop a customized plan, involving one or more requirements",
-                  "analysis and prototyping techniques that clarify the path for the",
-                  "business and in many cases propose a viable path for the",
-                  "implementation of the solution."
-              ]
-          }
+      "intro": "In the pre-development phase of a project, we constantly analyze and redefine the general objective by identifying obstacles that help us plot a viable implementation route. We use a similar methodology to that used to build the software, but without sending the artifacts to development, thereby reducing the risks associated with this idea generation stage.",
+      "methodologies": {
+        "title": "specialized methodologies",
+        "content": "We use specialized methodologies to develop initial software prototypes in the form of a collection of artifacts. This allows us to make informed decisions about the path to take for new business capabilities or optimizing processes, all with an agile technology project ready"
+      },
+      "prototyping": {
+        "title": "Rapid Prototyping",
+        "content": "We use Rapid Prototyping to deliver constant deliveries of a prototype, with the views and scenarios that constitute the software solution, maximizing the time."
+      },
+      "adhoc": {
+        "title": "Ad-Hoc Discovery",
+        "content": "We use the Ad-Hoc Discovery technique when we develop a tailor-made plan, involving one or more requirements analysis and prototyping techniques that clarify the way for the business and in many cases propose a viable route for the implementation of the solution."
       },
       "span": {
-          "text": "AGILE DEVELOPMENT"
+        "text": "AGILE DEVELOPMENT"
       }
-  },
+    },
   "agile": {
     "section": "Services",
     "title": "Agile Development",

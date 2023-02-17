@@ -9,7 +9,7 @@ import { useRouter } from "next/router";
 import Image from "next/image";
 import Link from "next/link"
 import GoBackBar from "../../components/goBackBar";
-
+import Services from "../../components/services"
 export default function DiscoveryPage() {
     const { locale } = useRouter();
     const $t = getLang(locale);
@@ -25,76 +25,93 @@ export default function DiscoveryPage() {
                 ogType={siteMetadata.ogType}
             />
             <Page>  
-                <GoBackBar destiny={"/services"}/>              
-                <Column modeL="normal" number="2" numberS="1" weight="left" className={styles.discovery__hero}>                    
-                    <Block className={styles.discovery__hero__blue} >
-                        <div className={styles.discovery__hero__phases}></div>
-                        <div className={styles.discovery__hero__blue__before}>
-                            <Image
-                            fill
-                            src={"/discovery-hero-blue-triangle.svg"}
-                            alt="triangle"
-                            />
-                        </div>
-                        
-                        <div className={styles.discovery__hero__blue__content}>
-                            <h1>{$t.discovery.title}</h1>                            
-                        </div>
-                        <div className={styles.discovery__hero__blue__pink}>
-                            <Image
-                            fill
-                            src={"/discovery-hero-diagonal.svg"}
-                            alt="diagonal"
-                            />
-                        </div>
-                    </Block>
-                    <Block className={styles.discovery__hero__paragraph}>
-                        <p>{$t.discovery.hero[0]} <br/>{$t.discovery.hero[1]} <br/>{$t.discovery.hero[2]}</p>
-                        <div className={styles.discovery__hero__triangleContainer}>
-                            <Image fill src="/triangles/triangle-waves--right.svg" alt="LKMX - Hero"/>
-                        </div>
+            <GoBackBar destiny={"/services"}/>
+                <Column mode="normal" className={styles.discovery__hero}>
+                    <Block className={styles.discovery__hero__block}>
+                        <span className={styles.discovery__hero__block__pink}>{$t.discovery.section}</span>
+                        <h1>{$t.discovery.title}</h1>
+                        <span className={styles.discovery__hero__block__grey}>{$t.discovery.hero[0]} <br/>{$t.discovery.hero[1]} <br/>{$t.discovery.hero[2]} <br/>{$t.discovery.hero[3]}</span>
                     </Block>
                 </Column>
-                <Column className={styles.discovery__summary} number="1" mode="slim" modeM="normal" modeXs="normal" >
-                    <Block className={styles.discovery__summary__first}>
-                        <h2>{$t.discovery.bannerTitle[0]} {$t.discovery.bannerTitle[1]}</h2>
-                        <p>{$t.discovery.prototype.summary.paragraph[0]} {$t.discovery.prototype.summary.paragraph[1]} {$t.discovery.prototype.summary.paragraph[2]} {$t.discovery.prototype.summary.paragraph[3]} {$t.discovery.prototype.summary.paragraph[4]}</p>
-                    </Block>
-                    <Block className={styles.discovery__summary__second}>
-                        <div className={styles.discovery__summary__second__element}>
-                            <h3>{$t.discovery.prototype.rapid.title}</h3>
-                            <p>{$t.discovery.prototype.rapid.paragraph[0]} {$t.discovery.prototype.rapid.paragraph[1]} {$t.discovery.prototype.rapid.paragraph[2]}</p>
-                        </div>
-                        <div className={styles.discovery__summary__second__element}>
-                            <h3>{$t.discovery.prototype.adhoc.title}</h3>
-                            <p>{$t.discovery.prototype.adhoc.paragraph[0]} {$t.discovery.prototype.adhoc.paragraph[1]} {$t.discovery.prototype.adhoc.paragraph[2]} {$t.discovery.prototype.adhoc.paragraph[3]}</p>
-                        </div>
-                    </Block>
-                    <Block className={styles.discovery__summary__third}>
-                        <div className={styles.discovery__summary__third__image}>
-                            <Image
-                            src={"/prototype-img.png"}
-                            layout="fill"
-                            priority={true}
-                            alt="LKMX - Prototype"
-                            />
-                        </div>
+                <Column mode="normal" modeL="slim"  className={styles.discovery__heroGrey}>
+                    <Block className={styles.discovery__heroGrey__block}>
+                        <p>{$t.discovery.intro}</p>
                     </Block>
                 </Column>
-                <Column className={styles.discovery__next} number="1" modeM="full" modeL="full">                    
-                    <Block className={styles.discovery__next}>
-                        <Link href="/services/agileDevelopment" legacyBehavior>
-                            <div>
-                                <span>{$t.discovery.span.text}</span>
-                                <div className={styles.discovery__next__icon}>
-                                <Image fill src="/icons/arrow-right--pink.svg" alt="Pink arrow right"/> 
+                <Column mode="normal" modeL="slim" className={styles.discovery__intro}>
+                    <Block className={styles.discovery__intro__block}>     
+                    <h2>{$t.discovery.methodologies.title}</h2>
+                    <p>{$t.discovery.methodologies.content}</p>                                         
+                    </Block>
+                </Column>
+                <Column mode="normal" modeL="slim" className={styles.discovery__sections}>
+                    <Block className={styles.discovery__sections__block}>    
+                        <nav className={styles.discovery__sections__block__aside}> 
+                            <a className={styles.discovery__sections__block__aside__anchor} href="#protoTitle">
+                                <span>{$t.discovery.prototyping.title}</span>
+                                <div>
+                                    <Image
+                                    fill
+                                    src="/services/white-line.svg"
+                                    alt="Menu marker"
+                                    />
                                 </div>
-                            </div>
-                        </Link>                   
-                    </Block>                  
+                            </a>
+                            <a className={styles.discovery__sections__block__aside__anchor} href="#adhocTitle">
+                                <span>{$t.discovery.adhoc.title}</span>
+                                <div>
+                                    <Image
+                                    fill
+                                    src="/services/white-line.svg"
+                                    alt="Menu marker"
+                                    />
+                                </div>
+                            </a>
+                        </nav>                                                                                         
+                        <section className={styles.discovery__sections__block__black}>                        
+                            <article className={styles.discovery__sections__block__black__item}>
+                                <div id="protoTitle" className={styles.discovery__sections__block__black__item__content}>
+                                    <h2>{$t.discovery.prototyping.title}</h2>
+                                    <p>{$t.discovery.prototyping.content}</p>                                   
+                                </div>
+                                <div className={styles.discovery__sections__block__black__item__prototypingImage}>
+                                    <Image
+                                    fill
+                                    src="/services/discovery/discovery_prototyping.gif"
+                                    alt="Rapid Prototyping"
+                                    />
+                                </div>
+                            </article>
+                            <article className={styles.discovery__sections__block__black__item}>
+                                <div id="adhocTitle" className={styles.discovery__sections__block__black__item__content}>
+                                    <h2>{$t.discovery.adhoc.title}</h2>
+                                    <p>{$t.discovery.adhoc.content}</p>                                   
+                                </div>
+                                <div className={styles.discovery__sections__block__black__item__adhocImage}>
+                                    <Image
+                                    fill
+                                    src="/services/discovery/discovery_ad-hoc.svg"
+                                    alt="Ad-Hoc Discovery"
+                                    />
+                                </div>
+                            </article>
+                        </section>
+                    </Block>
                 </Column>
-            </Page>
-            
+                <Column mode="normal" modeL="slim" className={styles.discovery__wireframe}>
+                    <Block className={styles.discovery__wireframe__block}>
+                        <p>{$t.discovery.wireframe.par1}</p>
+                        <br/>
+                        <p>{$t.discovery.wireframe.par1}</p>
+                        <div className={styles.discovery__wireframe__block__image}>
+                            <Image
+                            fill
+                            src="/services/discovery/discovery_wireframe.svg"/>
+                        </div>
+                    </Block>
+                </Column>
+                <Services/>
+            </Page>            
         </BaseLayout>
     );
 }
