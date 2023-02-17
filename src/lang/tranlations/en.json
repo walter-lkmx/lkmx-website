@@ -353,72 +353,49 @@
       "forward": "AGILE MAINTENANCE, SCOPE DEV. & CONTINUOUS SUPPORT"
     }
   },
-    "ams": {
-      "title": "Agile Maintenance",
-      "ogDescription": "At the end of development, we offer maintenance and support services for a successful stabilization and transfer of the platform.",
-      "title1":[
-        "Agile",
-        "Maintenance"
+  "ams": {
+    "section": "Services",
+    "title": "Agile Maintenance",
+    "ogDescription": "Maintenance and support: guaranteeing the stability of your platform.",  
+    "hero": [
+      "Maintenance and support: guaranteeing the stability of your",
+      "platform."
+    ],
+    "intro": "Once the development is finished, we offer maintenance and support services to guarantee the stability and successful transfer of the platform to your business. We have three maintenance modalities: Scope Development, Agile maintenance and Continuous Support. These types of projects follow the same internal development processes with administrative and operational variants in favor of efficient use of resources.",
+    "kanban": {
+      "title": [
+        "as an agile framework"
       ],
-      "title2":[
-        "Scope",
-        "Development"
-      ],
-      "title3":[
-        "Continuous",
-        "Support"
-      ],
-      "hero": [
-        "At the end of development, we offer ",
-        "maintenance and support services for ",
-        "a successful stabilization and transfer ",
-        "of the platform."
-      ],
-      "left": {
-        "title": [
-          "WE USE KANBAN",
-          "AS AN AGILE FRAMEWORK"
-        ],
-        "par": [
-          "We employ Kanban as an agile workframe to prioritize and organize planned and on-call work, ",
-          "which allows us to maintain a constant flow of deliverables, through the implementation of ",
-          "solutions that immediately provide value to the client."
-        ]
-      },
-      "right": {
-        "title1": [
-          "SCOPE",
-          "DEVELOPMENT"
-        ],
-        "par1": [
-          "This option is offered to existing clients when, after finishing the initial development phase,",
-          "SPECIFIC REQUIREMENTS arise.",
-          "Here we analyze requirements in detail, employing techniques taken from agile methodologies",
-          "before hiring the services."
-        ],
-        "title2": [
-          "AGILE",
-          "MAINTENANCE"
-        ],
-        "par2": [
-          "Once the platform is developed, our maintenance blocks offer an AGILE alternative to perfect or",
-          "complement the existing functionality.",
-          "We use Kanban with the methodologies employed for development in flexible maintenance",
-          "projects from one week and with no duration limit."
-        ],
-         "title3": [
-          "CONTINUOUS",
-          "SUPPORT"
-        ],
-        "par3": [
-          "We offer continuous support options for the solutions that we develop.",
-          "Our teams provide support to platforms with several SLAs and regular-time and on-call coverage.",
-          "The stability of our development combined with our processes guarantee efficiency and",
-          "operational costs under control."
-        ]
-      },
-      "navigation": "AGILE DEVELOPMENT"
+      "content": [
+        "We employ Kanban as an agile workframe to prioritize and organize planned and on-call work, which allows us to maintain a constant flow of deliverables, through the implementation of solutions that immediately provide value to the client."
+      ]
     },
+    "scope": {
+      "title": [
+        "SCOPE DEVELOPMENT"
+      ],
+      "content": [
+        "This option is offered to existing clients when, after finishing the initial development phase, SPECIFIC REQUIREMENTS arise. Here we analyze requirements in detail, employing techniques taken from agile methodologies before hiring the services."
+      ]
+    },
+    "agile": {
+      "title": [
+        "AGILE MAINTENANCE"
+      ],
+      "content": [
+        "Once the platform is developed, our maintenance blocks offer an AGILE alternative to perfect or complement the existing functionality. We use Kanban with the methodologies employed for development in flexible maintenance projects from one week and with no duration limit."
+      ]
+    },
+    "support": {
+      "title": [
+        "CONTINUOUS SUPPORT"
+      ],
+      "content": [
+        "We offer continuous support options for the solutions that we develop. Our teams provide support to platforms with several SLAs and regular-time and on-call coverage. The stability of our development combined with our processes guarantee efficiency and operational costs under control."
+      ]
+    },
+    "conclusion": "Whether through Scope Development, Agile Maintenance or Continuous Support, we are committed to offering you a continuous and quality service that guarantees the stability and efficiency of your platform."
+  },
     "page404": {
       "title": "404 Error",
       "ogDescription": "Page Not Found",

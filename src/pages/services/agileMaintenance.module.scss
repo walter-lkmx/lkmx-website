@@ -1,245 +1,273 @@
 .ams {
     &__hero {
-        height: 457px;
-        background-color: $color-bright-gray-01;
-        @include respond-to("<=m") {
-            height: auto;
-        }
-        &__cloudsContainer {
-            position: absolute;
-            right: 0;   
-            top: 0;
-            width: 120px;
-            height: 100%;
-            @include respond-to("l") {
-                width: 93px;
-                height: 77%;
-            }
-            @include respond-to("<=m") {
-                display: none;
-            }                                  
-        }        
-        &__left {                    
-            > div > div {
-                position: relative;
-                height: 100%;
-                padding: 0 !important;
-                @include respond-to("<=m") {
-                    min-height: 457px;
-                }
-                @include respond-to("<=s") {
-                    min-height: 324px;
-                }
-            }   
-            &__sections {
-                display: grid;
-                height: inherit;
-                grid-template-columns: repeat(5, auto);
-                @include respond-to("<=xl") {
-                    grid-template-columns: repeat(4, min-content);
-                    transform: translateX(-87px);
-                }
-                @include respond-to("<=xs") {
-                    grid-template-columns: repeat(4, min-content);
-                    transform: translateX(-126px);
-                }
-            }
-            &__before {
-                width: 17vw;
-                height: 100%;
-                background-color: $color-bright-gray-01;
-                @include respond-to("<=xl") {
-                    display: none;
-                }
-            }
-            &__diagonal {
-                width: 209px;
-                position: relative;
-                height: calc(100% + 2px);
-                top: -1px;      
-                @include respond-to("<=s") {
-                    width: 148px;
-                }    
-                &__image {
-                    object-fit: cover;
-                }      
-            }
-            &__cyan, &__blue, &__gray {
-                height: 100%;
-                width: 219px;
-                position: relative;
-                display: grid;
-                align-content: center;
-                h3 {
-                    text-transform: uppercase;
-                    font-family: var(--lk-font-inter);
-                    font-size: 20px;
-                    @include respond-to("<=l") {
-                        font-size: 18px;
-                        transform: translateX(-28px);
-                    }
-                    @include respond-to("<=s") {
-                        transform: translateX(-18px);
-                    }
-                    @include respond-to("<=xs") {
-                        font-size: 16px;                        
-                    }
-                    @include respond-to("xxs") {
-                        font-size: 14px;                        
-                    }                    
-                }
-                @include respond-to("<=l") {
-                    width: 180px;
-                }
-                @include respond-to("<=xs") {
-                    width: 152px;
-                }
-                @include respond-to("xxs") {
-                    width: 140px;
-                }
-                &__inter {
-                    height: 457px;
-                    width: 120px;
-                    position: absolute;
-                    right: -1px;
-                    top: 2px;
-                    @include respond-to("<=s") {
-                        height: 324px;
-                        right: -19px;                        
-                    }
-                    @include respond-to("<=xs") {
-                        display: none;
-                    }
-                }
-                &__small {
-                    height: 324px;
-                    width: 85px;
-                    right: -19px; 
-                    position: absolute;
-                    right: -1px;
-                    top: 2px;
-                    display: none;
-                    @include respond-to("<=xs") {
-                        display: block;
-                    }     
-                } 
-            }
-            &__cyan {
-                background-color: $color-cyan;  
-                @include respond-to("<=s") {
-                    &__inter {
-                        top: 0;                    
-                    }
-                }
-                                
-                &__small {
-                    top: 1px;
-                }             
-            }
-            &__blue {
-                background-color: $color-blue;
-                h3 {
-                    color: white;
-                }
-            }
-            &__gray {
-                background-color: $color-bright-gray;
-                &__inter {
-                    @include respond-to("<=xs") {
-                        display: block;
-                    } 
-                }
-            }            
-        }
-        &__right {          
-            padding: 58px 0px;
-            @include respond-to("<=m") {
-                width: 100vw;
-            } 
-            > div {
-                display: grid;
-                justify-content: center;
-                align-content: center;                               
-            }
-            p {
-                font-size: 20px;
-                line-height: 30px;    
-                @include respond-to("<=l") {
-                    font-size: 16px;
-                    line-height: 28px;
-                }           
-            }            
-        }
-    }
-    &__content {        
-        &__left, &__right {
-            padding: 92px 0px;
-        }
-        &__left {
-            background-color: $color-bright-gray-01;
-
-            &__kanban {
-                position: relative;
-                height: 323px;
-                background-color: $color-blue;
-                display: grid;
-                @include respond-to("<=l") {
-                        height: 269px;
-                }
-                @include respond-to("<=m") {
-                    height: 323px;
-                }
-                @include respond-to("<=s") {
-                    height: 190px;
-                }
-                @include respond-to("<=xs") {
-                    height: 130px;
-                }
-                span {
-                    width: 96% !important; 
-                    height: 95% !important;
-                    margin: auto !important;                                       
-                }                
-            }
-        }
-    }
-    &__navigation {
-        background-color: $color-bright-gray;
+        padding: 56px 0;
+    
         &__block {
-            height: 142px;
-            &:first-child>div {
-                align-items: center;
-                display: grid;
+          &__pink {
+            color: $color-pink;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 20px;
+            font-family: var(--lk-font-roboto);
+            ;
+          }
+    
+          h1 {
+            @include respond-to("<=s") {
+              font-size: 28px;
+              line-height: 36px;
             }
-            &__forward{
-                display: grid;
-                grid-template-columns: max-content auto;
-                align-items: center;
-                gap: 16px;
-                width: fit-content;
-                cursor: pointer;
-                span {
-                    color: $color-neutral-black;
-                    font-family: $font-secondary;
-                    font-style: normal;
-                    font-weight: 700;
-                    font-size: 16px;
-                    line-height: 24px;
-                }
-                &:hover {
-                    span {
-                        color: $color-pink;
-                    }
-                }
-                img {
-                    width: min-content;
-                }
-                &__icon {
-                    position: relative;
-                    width: 32px;
-                    aspect-ratio: 1;
-                }
+          }
+    
+          &__grey {
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 30px;
+            color: $color-lang-secondary;
+    
+            @include respond-to("<=s") {
+              font-size: 16px;
+              line-height: 28px;
+    
+              br {
+                display: none;
+              }
             }
+          }
         }
-    }
+      }
+    
+      &__heroGrey {
+        padding: 56px 0;
+        background-color: $color-bright-gray-01;
+    
+      }
+    
+      &__intro {
+        padding: 56px 0;
+    
+        &__block {
+            > div > div {
+                @include respond-to("<=s") {
+                    display: grid;                    
+                }
+            }
+          &__img {
+            position: relative;
+            width: 710px;
+            height: 356px;
+            @include respond-to("m") {
+                width: 736px;
+            height: 373.64px;
+            }
+            @include respond-to("<=s") {
+                width: 343px;
+                height: 174.13px;
+                justify-self: center;
+            }
+          }
+        }
+      }
+    
+      &__sections {
+        @include respond-to("<=m") {
+          background-color: $color-neutral-black;
+        }
+    
+        &__block {
+          background: linear-gradient(270deg, $color-neutral-black 51.79%, rgba(217, 217, 217, 0) 52%);
+    
+          >div>div {
+            padding: 0 !important;
+            position: relative;
+          }
+    
+          &__white {
+            @include respond-to("<=m") {
+              display: none;
+            }
+          }
+    
+          &__aside {
+            z-index: 2;
+            position: absolute;
+            display: grid;
+            gap: 16px;
+            top: 56px;
+            left: -143px;
+    
+            @include respond-to("<=m") {
+              display: none;
+            }
+    
+            a {
+              display: grid;
+              grid-template-columns: 117px auto;
+              align-items: center;
+              gap: 26px;
+              text-decoration: none;
+    
+              span {
+                text-align: right;
+                text-transform: uppercase;
+              }
+    
+              div {
+                position: relative;
+                width: 50px;
+                height: 5px;
+              }
+            }
+    
+          }
+    
+          &__black {
+            // transform: translateY(-160px);
+            z-index: 1;
+            background-color: $color-neutral-black;
+            padding: 56px 0px 56px 125px;
+            display: grid;
+            position: relative;
+    
+            @include respond-to("l") {
+              padding: 56px 0px 56px 70px;
+            }
+    
+            @include respond-to("m") {
+              padding: 56px 0;
+            }
+    
+            @include respond-to("<=s") {
+              padding: 56px 16px;
+            }
+    
+            &__item {
+              display: grid;
+              grid-template-columns: 400px 1fr;
+              gap: 29px;
+              padding-bottom: 72px;
+    
+              @include respond-to("<=s") {
+                grid-template-columns: 1fr;
+                justify-items: center;
+                gap: 0px;
+              }
+    
+              &__content {
+                h2 {
+                  color: $color-pink;
+                }
+    
+                p {
+                  color: white;
+                }
+              }
+    
+              &__scopeImage {
+                position: relative;
+                width: 100%;
+                height: 354px;
+                width: 340px;
+    
+                @include respond-to("l") {
+                  width: 308px;
+                  height: 319.93px;
+                }
+    
+                @include respond-to("<=m") {
+                  width: 339px;
+                  height: 352.13px;
+                }
+    
+                @include respond-to("<=s") {
+                  width: 343px;
+                  height: 356.29px;
+                  img {
+                    margin-top: 26px;
+                  }
+                }
+              }
+    
+              &__agileImage {
+                position: relative;
+                width: 100%;
+                height: 289px;
+                width: 350px;
+    
+                @include respond-to("l") {
+                  width: 290px;
+                  height: 238px;
+                }
+    
+                @include respond-to("<=m") {
+                  width: 339px;
+                  height: 279.52px;
+                }
+    
+                @include respond-to("<=s") {
+                  width: 343px;
+                  height: 282.82px;
+                  img {
+                    margin-top: 26px;
+                  }
+                }
+              }
+
+              &__supportImage {
+                position: relative;
+                width: 100%;
+                height: 255px;
+                width: 289px;
+    
+                @include respond-to("l") {
+                  width: 308px;
+                  height: 267.11px;
+                }
+    
+                @include respond-to("<=m") {
+                  width: 339px;
+                  height: 293.99px;
+                }
+
+                @include respond-to("<=s") {
+                  width: 343px;
+                  height: 297.46px;
+                  img {
+                    margin-top: 26px;
+                  }
+                }
+              }
+            }
+    
+          }
+        }
+      }
+      &__wireframe {
+        padding: 56px 0;
+        &__block {
+          > div > div {
+            @include respond-to("<=m") {
+              display: grid;
+              justify-items: center;
+            }
+          }
+          &__image {
+            position: relative;
+            width: 710px;
+            height: 370px;
+            @include respond-to("l") {
+              width: 710px;
+              height: 373.79px;
+            }
+            @include respond-to("m") {
+              width: 736px;
+              height: 387.48px;
+            }
+            @include respond-to("<=s") {
+              width: 343px;
+              height: 180.58px;
+            }
+          }
+        }
+      }
 }

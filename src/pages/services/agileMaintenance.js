@@ -6,14 +6,14 @@ import siteMetadata from "../../meta/siteMetadata";
 import HeadSeo from "../../components/HeadSeo";
 import getLang from '@/lang';
 import { useRouter } from "next/router";
-import Link from "next/link"
-import ImageLegacy from "next/legacy/image";
 import Image from "next/image";
+import Link from "next/link"
 import GoBackBar from "../../components/goBackBar";
-
+import Services from "../../components/services"
 export default function Ams() {
     const { locale } = useRouter();
     const $t = getLang(locale);
+
     return (
         <BaseLayout>
             <HeadSeo
@@ -24,114 +24,117 @@ export default function Ams() {
                 ogTwitterImage={$t.home.ogImage ? $t.home.ogImage : locale === 'es' ? siteMetadata.ogDefaultImageEs : siteMetadata.ogDefaultImageEn}
                 ogType={siteMetadata.ogType}
             />
-            <Page>
-                <GoBackBar destiny={"/services"}/>
-                <Column mode="full" number="2" numberM="1" numberS="1" className={styles.ams__hero} weight="left" weightXxl="normal">
-                    <Block className={styles.ams__hero__left}>                        
-                        <div className={styles.ams__hero__left__sections}>
-                        <div className={styles.ams__hero__left__before}></div>
-                            <div className={styles.ams__hero__left__diagonal}>
-                                <Image
-                                    fill
-                                    src={"/ams-left-diagonals-small.svg"}
-                                    alt="diagonal"
-                                    className={styles.ams__hero__left__diagonal__image}
-                                />
-                            </div>
-                            <div className={styles.ams__hero__left__cyan}>
-                                <h3>{$t.ams.title1[0]} <br/>{$t.ams.title1[1]}</h3>
-                                <div className={styles.ams__hero__left__cyan__inter}>
+            <Page>  
+            <GoBackBar destiny={"/services"}/>
+                <Column mode="normal" className={styles.ams__hero}>
+                    <Block className={styles.ams__hero__block}>
+                        <span className={styles.ams__hero__block__pink}>{$t.ams.section}</span>
+                        <h1>{$t.ams.title}</h1>
+                        <span className={styles.ams__hero__block__grey}>{$t.ams.hero[0]} <br/>{$t.ams.hero[1]}</span>
+                    </Block>
+                </Column>
+                <Column mode="normal" modeL="slim"  className={styles.ams__heroGrey}>
+                    <Block className={styles.ams__heroGrey__block}>
+                        <p>{$t.ams.intro}</p>
+                    </Block>
+                </Column>
+                <Column mode="normal" modeL="slim" className={styles.ams__intro}>
+                    <Block className={styles.ams__intro__block}>     
+                    <h2>{$t.ams.kanban.title[0]} <br/>{$t.ams.kanban.title[1]}</h2>
+                    <p>{$t.ams.kanban.content}</p>      
+                    <div className={styles.ams__intro__block__img}>
+                        <Image
+                        fill
+                        src="/services/ams/agile-maintenance_kanban.svg"
+                        alt="Kanban Board"
+                        />
+                    </div>                                   
+                    </Block>
+                </Column>
+                <Column mode="normal" modeL="slim" className={styles.ams__sections}>
+                    <Block className={styles.ams__sections__block}>    
+                        <nav className={styles.ams__sections__block__aside}> 
+                            <a className={styles.ams__sections__block__aside__anchor} href="#scopeTitle">
+                                <span>{$t.ams.scope.title}</span>
+                                <div>
                                     <Image
-                                        fill
-                                        src={"/ams-hero-blue-triangle.svg"}
-                                        alt="blue triangle"
-                                    />
-                                </div>    
-                                <div className={styles.ams__hero__left__cyan__small}>
-                                    <Image
-                                        fill
-                                        src={"/ams-hero-blue-triangle-small.svg"}
-                                        alt="blue triangle"
-                                    />
-                                </div>                             
-                            </div>
-                            <div className={styles.ams__hero__left__blue}>
-                                <h3>{$t.ams.title2[0]} <br/>{$t.ams.title2[1]}</h3>
-                                <div className={styles.ams__hero__left__blue__inter}>
-                                <Image
                                     fill
-                                    src={"/ams-hero-gray-triangle.svg"}
-                                    alt="gray triangle"
-                                />
+                                    src="/services/white-line.svg"
+                                    alt="Menu marker"
+                                    />
                                 </div>
-                                <div className={styles.ams__hero__left__blue__small}>
-                                <Image
-                                    fill
-                                    src={"/ams-hero-gray-triangle-small.svg"}
-                                    alt="gray triangle"
-                                />
-                                </div> 
-                            </div>
-                            <div className={styles.ams__hero__left__gray}>
-                                <h3>{$t.ams.title3[0]} <br/>{$t.ams.title3[1]}</h3>
-                                <div className={styles.ams__hero__left__gray__inter}>
+                            </a>
+                            <a className={styles.ams__sections__block__aside__anchor} href="#agileTitle">
+                                <span>{$t.ams.agile.title}</span>
+                                <div>
                                     <Image
-                                        fill
-                                        src={"/ams-hero-light-triangle.svg"}
-                                        alt="gray triangle"
+                                    fill
+                                    src="/services/white-line.svg"
+                                    alt="Menu marker"
                                     />
-                                </div>                     
-                            </div>
-                        </div>                        
+                                </div>
+                            </a>
+                            <a className={styles.ams__sections__block__aside__anchor} href="#supportTitle">
+                                <span>{$t.ams.support.title}</span>
+                                <div>
+                                    <Image
+                                    fill
+                                    src="/services/white-line.svg"
+                                    alt="Menu marker"
+                                    />
+                                </div>
+                            </a>
+                        </nav>                                                                                         
+                        <section className={styles.ams__sections__block__black}>                        
+                            <article className={styles.ams__sections__block__black__item}>
+                                <div id="scopeTitle" className={styles.ams__sections__block__black__item__content}>
+                                    <h2>{$t.ams.scope.title}</h2>
+                                    <p>{$t.ams.scope.content}</p>                                   
+                                </div>
+                                <div className={styles.ams__sections__block__black__item__scopeImage}>
+                                    <Image
+                                    fill
+                                    src="/services/ams/agile-maintenance_scope-dev.svg"
+                                    alt="Rapid Prototyping"
+                                    />
+                                </div>
+                            </article>
+                            <article className={styles.ams__sections__block__black__item}>
+                                <div id="agileTitle" className={styles.ams__sections__block__black__item__content}>
+                                    <h2>{$t.ams.agile.title}</h2>
+                                    <p>{$t.ams.agile.content}</p>                                   
+                                </div>
+                                <div className={styles.ams__sections__block__black__item__agileImage}>
+                                    <Image
+                                    fill
+                                    src="/services/ams/agile-maintenance_maintenance.svg"
+                                    alt="Ad-Hoc ams"
+                                    />
+                                </div>
+                            </article>
+                            <article className={styles.ams__sections__block__black__item}>
+                                <div id="supportTitle" className={styles.ams__sections__block__black__item__content}>
+                                    <h2>{$t.ams.support.title}</h2>
+                                    <p>{$t.ams.support.content}</p>                                   
+                                </div>
+                                <div className={styles.ams__sections__block__black__item__supportImage}>
+                                    <Image
+                                    fill
+                                    src="/services/ams/agile-maintenance_cont-support.svg"
+                                    alt="Ad-Hoc ams"
+                                    />
+                                </div>
+                            </article>
+                        </section>
                     </Block>
-                    <Block className={styles.ams__hero__right}>
-                        <p>{$t.ams.hero[0]}<br/>{$t.ams.hero[1]}<br/>{$t.ams.hero[2]}<br/>{$t.ams.hero[3]}</p>
-                        <div className={styles.ams__hero__cloudsContainer}>
-                            <Image fill className={styles.ams__hero__clouds} alt="LKMX - Hero" src="/triangles/triangle-clouds--right.svg"/>        
-                        </div>
-                    </Block>                    
                 </Column>
-                <Column mode="full" modeM="normal" modeL="slim" number="1" className={styles.ams__content}>
-                    <Block className={styles.ams__content__right}>
-                        <div>
-                            <h4>{$t.ams.right.title1[0]}<br/>{$t.ams.right.title1[1]}</h4>
-                            <p>{$t.ams.right.par1[0]} <br/>{$t.ams.right.par1[1]} <br/>{$t.ams.right.par1[2]}<br/>{$t.ams.right.par1[3]}</p>
-                        </div>
-                        <div>
-                            <h4>{$t.ams.right.title2[0]}<br/>{$t.ams.right.title2[1]}</h4>
-                            <p>{$t.ams.right.par2[0]} <br/>{$t.ams.right.par2[1]} <br/>{$t.ams.right.par2[2]}<br/>{$t.ams.right.par2[3]}</p>
-                        </div>
-                        <div>
-                            <h4>{$t.ams.right.title3[0]}<br/>{$t.ams.right.title3[1]}</h4>
-                            <p>{$t.ams.right.par3[0]} <br/>{$t.ams.right.par3[1]} <br/>{$t.ams.right.par3[2]}<br/>{$t.ams.right.par3[3]}</p>
-                        </div>                        
-                    </Block>
-                    <Block className={styles.ams__content__left}>
-                        <div>
-                            <h3>{$t.ams.left.title[0]}<br/>{$t.ams.left.title[1]}</h3>
-                            <p>{$t.ams.left.par}</p>
-                        </div>
-                        <div className={styles.ams__content__left__kanban}>
-                            <ImageLegacy src={"/kanban.svg"}
-                            layout={"fill"}
-                            alt="kanban"
-                            priority={"true"}/>
-                        </div>
+                <Column mode="normal" modeL="slim" className={styles.ams__wireframe}>
+                    <Block className={styles.ams__wireframe__block}>
+                        <p>{$t.ams.conclusion}</p>
                     </Block>
                 </Column>
-                <Column className={styles.ams__navigation} number="1" modeM="full" modeL="normal">
-                <Block className={styles.ams__navigation__block}>
-                    <Link href="/services/agileDevelopment" legacyBehavior>
-                        <div className={styles.ams__navigation__block__forward}>  
-                            <div className={styles.ams__navigation__block__forward__icon}>
-                                <Image fill src="/icons/arrow-left--pink.svg" alt="Pink arrow left"/> 
-                            </div>                                                 
-                            <span>{$t.ams.navigation}</span>                        
-                        </div>                        
-                    </Link>                                           
-                </Block>
-            </Column>
-            </Page>
+                <Services/>
+            </Page>            
         </BaseLayout>
     );
 }
