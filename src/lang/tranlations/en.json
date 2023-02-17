@@ -326,64 +326,53 @@
           "text": "AGILE DEVELOPMENT"
       }
   },
-    "agile": {
-        "title1": "Agile development",
-        "title": [
-          "Agile",
-          "development"
-        ],
-        "ogDescription": "Our main service offers iteration of work by a multidisciplinary engineering team in charge of designing the architecture and building the solution of the software from the ideation to the end of the lifecycle.",
-        "hero": [
-            "Our main service offers iteration of work by",
-            " a multidisciplinary engineering team in",
-            "charge of designing the architecture and",
-            "building the solution of the software from",
-            "the ideation to the end of the lifecycle."
-        ],
-        "intro": [
-            "Our projects are based on iterations that include three phases: DEFINITION,",
-            "IMPLEMENTATION, and ACCEPTANCE.",
-            "Iterations are put into a FIXED GANTT CHART that provides flexibility and",
-            "predictability in deliverables, timeline and resources."
-          ],
-          "intro2": [
-            "We organize our team in DEFINITION and IMPLEMENTATION groups",
-            "using our custom methodology that is supported over different production-tested techniques for",
-            "requirement analysis, user-interface design, versioning, code architecture, and delivery.",
-            "At the end of the implementation, the result is delivered to our clients in proper staging environments",
-            "so they can perform their ACCEPTANCE tests. We accomplish this through proprietary versioning mechanisms",
-            "and perfected continuous integration mechanisms."
-          ],
-          "maad" : {
-            "title": "MAAD",
-            "par1": "We created the Analysis and Design Agile Methodology, a collection of activities that allows us to capture the stakeholders' requirements and transform them into a backlog with short, clear, concise and actionable elements.",
-            "par2": "The methodology standardizes the collecting of requirements and process them into entities like epics, stories and deltas that clearly describe the changes to be implemented.",
-            "par3": "Each backlog element has a strict but simplified state that can be monitored using tools like Jira and Confluence."
-          },
-          "flare": {
-            "title": "flare",
-            "par": "We employ a proprietary design system that allows for a fast inception and efficient implementation of interfaces with perfect grids and consistent styles since the first iteration. Flare defines clear and implementable concepts on four key points: style, structure, user interface and content."
-          },
-          "scrum": {
-            "title": "scrum",
-            "par": "The use of Scrum as a framework allows us to approach complex problems while valuable, continuous and constant deliveries are done in a creative manner and focused on increasing team productivity. Based on the CMMI model, we implement good practices that allow us to increase and optimize performance of the processes directly and indirectly involved in software development, maximizing opportunities and mitigating risks."
-          },
-          "agile": {
-            "title": "agile flow",
-            "par": "We design robust and flexible proprietary versioning mechanisms, compatible with industry standards. These processes, combined with our continuous integration mechanisms, allow us to reach maximum development speeds while maintaining total control of the quality of each of the components involved and their integrations."
-          },
-          "cd": {
-            "title": "cd/ci",
-            "par": [
-                "Our source code is managed using proprietary continuous integration infrastructure that automates binary versioning, packaging and release.",
-                "The entire automation of our DevOps processes allows us to deliver functional versions to our clients at the end of each iteration."
-            ]
-          },
-        "span": {
-            "back":"DISCOVERY",
-            "forward": "AGILE MAINTENANCE, SCOPE DEV. & CONTINUOUS SUPPORT"
-        }
+  "agile": {
+    "section": "Services",
+    "title": "Agile Development",
+    "ogDescription": "Our main service offers iteration of work by a multidisciplinary engineering team in charge of designing the architecture and building the solution of the software from the ideation to the end of the lifecycle.",
+    "hero": [
+        "Our main service offers iteration of work by a multidisciplinary",
+        "engineering team in charge of designing the architecture and",
+        "building the solution of the software from the ideation to the",
+        "end of the lifecycle."
+    ],
+    "intro": [
+      "Our projects are based on iterations that include three phases: DEFINITION, IMPLEMENTATION,",
+      "and ACCEPTANCE.",
+      "Iterations are put into a FIXED GANTT CHART that provides flexibility and predictability in",
+      "deliverables, timeline and resources."
+    ],
+    "intro2": "We organize our team in DEFINITION and IMPLEMENTATION groups using our custom methodology that is supported over different production-tested techniques for requirement analysis, user-interface design, versioning, code arquitectura, and delivery. At the end of the implementation, the result is delivered to our clients in proper staging environments so they can perform their ACCEPTANCE tests. We accomplish this through proprietary versioning mechanisms and perfected continuous integration mechanisms.",
+    "maad" : {
+      "title": "MAAD",
+      "par1": "We created the Analysis and Design Agile Methodology, a collection of activities that allows us to capture the stakeholders requirements and transform them into a backlog with short, clear, concise and actionable elements.",
+      "par2": "The methodology standardizes the collecting of requirements and process them into entities like epics, stories and deltas that clearly describe the changes to be implemented.",
+      "par3": "Each backlog element has a strict but simplified state that can be monitored using tools like Jira and Confluence."
     },
+    "flare": {
+      "title": "flare",
+      "par": "We employ a proprietary design system that allows for a fast inception and efficient implementation of interfaces with perfect grids and consistent styles since the first iteration. Flare defines clear and implementable concepts on four key points: style, structure, user interface and content."
+    },
+    "scrum": {
+      "title": "scrum",
+      "par": "The use of Scrum as a framework allows us to approach complex problems while valuable, continuous and constant deliveries are done in a creative manner and focused on increasing team productivity. Based on the CMMI model, we implement good practices that allow us to increase and optimize performance of the processes directly and indirectly involved in software development, maximizing opportunities and mitigating risks."
+    },
+    "agile": {
+      "title": "agile flow",
+      "par": "Diseñamos mecanismos de versionamiento propios, robustos, flexibles y compatibles con estándares en la industria. Estos procesos, combinados con nuestros mecanismos de integración continua nos permiten alcanzar máximas velocidades de desarrollo, manteniendo control total sobre la calidad de cada uno de los componentes involucrados y sus integraciones"
+    },
+    "cd": {
+      "title": "cd/ci",
+      "par": [
+        "Our source code is managed using proprietary continuous integration infrastructure that automates binary versioning, packaging and release.",
+        "The entire automation of our DevOps processes allows us to deliver functional versions to our clients at the end of each iteration."
+      ]
+    },
+    "span": {
+      "back":"DISCOVERY",
+      "forward": "AGILE MAINTENANCE, SCOPE DEV. & CONTINUOUS SUPPORT"
+    }
+  },
     "ams": {
       "title": "Agile Maintenance",
       "ogDescription": "At the end of development, we offer maintenance and support services for a successful stabilization and transfer of the platform.",

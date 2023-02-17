@@ -299,33 +299,21 @@
     }
   },
   "agile": {
-    "title1": "Agile development",
-    "title": [
-      "Agile",
-      "development"
-    ],
+    "section": "Servicios",
+    "title": "Agile development",
     "ogDescription": "Nuestro principal servicio ofrece iteraciones de trabajo de un equipo multidisciplinario de ingeniería a cargo de diseñar la arquitectura y construir la solución de software de principio a fin.",
     "hero": [
-        "Nuestro principal servicio ofrece",
-        "iteraciones de trabajo de un equipo",
-        "multidisciplinario de ingeniería a cargo",
-        "de diseñar la arquitectura y construir la",
-        "solución de software de principio a fin."
+        "El servicio ofrece iteraciones de trabajo de un equipo",
+        "multidisciplinario a cargo de diseñar la arquitectura y construir",
+        "la solución de software de principio a fin."
     ],
     "intro": [
-      "Los proyectos utilizan iteraciones como unidad de medida, que contemplan DEFINICIÓN,",
-      "IMPLEMENTACIÓN y ACEPTACIÓN. ",
+      "Los proyectos utilizan iteraciones como unidad de medida, que contemplan los procesos de",
+      "DEFINICIÓN, IMPLEMENTACIÓN y ACEPTACIÓN.",
       "Las iteraciones ensamblan un DIAGRAMA DE GANTT FIJO que otorga balance entre flexibilidad y",
       "predictibilidad en los entregables, los tiempos de entrega y recursos utilizados."
     ],
-    "intro2": [
-      "Preparamos equipos que se organizan en grupos de DEFINICIÓN y de IMPLEMENTACIÓN,",
-      "utilizando una metodología propia, que se apoya de diferentes técnicas probadas en producción de",
-      "análisis de requerimientos, diseño, versionamiento, arquitectura de código y delivery. Al final de la",
-      "implementación, el resultado es entregado a nuestros clientes en ambientes de staging apropiados",
-      "para que realicen sus pruebas de ACEPTACIÓN. Logramos esto mediante mecanismos propios de",
-      "versionamiento y mecanismos perfeccionados de integración continua."
-    ],
+    "intro2": "Preparamos equipos que se organizan en grupos de DEFINICIÓN y de IMPLEMENTACIÓN, utilizando una metodología propia, que se apoya de diferentes técnicas probadas en producción de análisis de requerimientos, diseño, versionamiento, arquitectura de código y delivery. Al final de la implementación, el resultado es entregado a nuestros clientes en ambientes de staging apropiados para que realicen sus pruebas de ACEPTACIÓN. Logramos esto mediante mecanismos propios de versionamiento y mecanismos perfeccionados de integración continua.",
     "maad" : {
       "title": "MAAD",
       "par1": "Creamos la Metodología Ágil de Análisis y Diseño, una colección de actividades que nos permiten capturar los requerimientos de los stakeholders y convertirlos en un backlog con elementos cortos, claros, concisos y accionables.",
