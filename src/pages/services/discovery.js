@@ -102,7 +102,7 @@ export default function DiscoveryPage() {
                     <Block className={styles.discovery__wireframe__block}>
                         <p>{$t.discovery.wireframe.par1}</p>
                         <br/>
-                        <p>{$t.discovery.wireframe.par1}</p>
+                        <p>{$t.discovery.wireframe.par2}</p>
                         <div className={styles.discovery__wireframe__block__image}>
                             <Image
                             fill

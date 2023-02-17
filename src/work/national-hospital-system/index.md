@@ -4,7 +4,7 @@ title: ['Sistema nacional de hospitales' ]
 headline: ['La tecnología al servicio de la salud: optimizando la cadena de', 'suministro de medicamentos a nivel nacional.']
 services: ['discovery', 'agile Development', 'agile Maintenance']
 methodologies: ['Scrum']
-period: ['2021 - 2022']
+period: ['2020 - 2022']
 portrait: 'hospitals-thumbnail'
 hero: 'hospitals-hero'
 storyType: 'Trabajo'
@@ -17,7 +17,7 @@ introduction: {
 
 <div>
     <h2>Los Retos</h2>
-    <p>En la implementación de esta solución, nos enfrentamos a varios retos significativos. Uno de los mayores desafíos es que era necesario integrar la plataforma con los sistemas de información existentes de nuestro cliente. La complejidad de la integración requiría de un enfoque cuidadoso y metódico para garantizar la correcta transferencia de datos y la interacción entre los sistemas.</p>
+    <p>En la implementación de esta solución, nos enfrentamos a varios retos significativos. Uno de los mayores desafíos es que era necesario integrar la plataforma con los sistemas de información existentes de nuestro cliente. La complejidad de la integración requería de un enfoque cuidadoso y metódico para garantizar la correcta transferencia de datos y la interacción entre los sistemas.</p>
     <p>Desarrollar un sistema que impacte el sistema de salud de un país es una tarea de gran responsabilidad. Por esta razón, era fundamental que la solución implementada fuera altamente resiliente y segura, garantizando así el correcto funcionamiento y la trazabilidad de los medicamentos enviados a hospitales en todo el país. Este reto fue abordado con la máxima diligencia y atención, asegurando una implementación exitosa.</p>
 </div>
 <div>
@@ -38,7 +38,7 @@ introduction: {
 <div>
     <figure>
         <img src="/work/hospitals-figure2.jpg" alt="UI Design"/>
-        <figcaption class="story_story__mainContent__caption__IQRnS">Se monitorea el proceso de las ordenes de compra de medicamentos en todas las etapas del proceso hasta su entrega.</figcaption>
+        <figcaption class="story_story__mainContent__caption__IQRnS">Se monitorea el proceso de las órdenes de compra de medicamentos en todas las etapas del proceso hasta su entrega.</figcaption>
     </figure>    
 </div>
 <div class="story_story__mainContent__gantt__TErEp">
