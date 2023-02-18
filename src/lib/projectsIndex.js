@@ -48,21 +48,21 @@ export default function getProjectsIndexed(locale) {
             route: "/work/skyou",
             thumbnail: "skyou-thumbnail"
         
-        },
-        {
-            title: ["Sistema nacional de hospitales"],
-            services: ["Discovery", "Agile Development", "Agile Maintenance"],
-            route: "/work/national-hospital-system",
-            thumbnail: "hospitals-thumbnail"
+        }//,
+        // {
+        //     title: ["Sistema nacional de hospitales"],
+        //     services: ["Discovery", "Agile Development", "Agile Maintenance"],
+        //     route: "/work/national-hospital-system",
+        //     thumbnail: "hospitals-thumbnail"
         
-        },
-        {
-            title: ["Sistema de análisis de", "datos para farmacéuticas"],
-            services: ["Discovery", "Agile Development", "Agile Maintenance"],
-            route: "/work/pharma-analytics",
-            thumbnail: "pharma-thumbnail"
+        // },
+        // {
+        //     title: ["Sistema de análisis de", "datos para farmacéuticas"],
+        //     services: ["Discovery", "Agile Development", "Agile Maintenance"],
+        //     route: "/work/pharma-analytics",
+        //     thumbnail: "pharma-thumbnail"
         
-        }
+        // }
     ];
     const projectsEn = [
         {
@@ -113,21 +113,21 @@ export default function getProjectsIndexed(locale) {
             route: "/work/skyou",
             thumbnail: "skyou-thumbnail"
         
-        },
-        {
-            title: ["National hospital system"],
-            services: ["Discovery", "Agile Development", "Agile Maintenance"],
-            route: "/work/national-hospital-system",
-            thumbnail: "hospitals-thumbnail"
+        }//,
+        // {
+        //     title: ["National hospital system"],
+        //     services: ["Discovery", "Agile Development", "Agile Maintenance"],
+        //     route: "/work/national-hospital-system",
+        //     thumbnail: "hospitals-thumbnail"
         
-        },
-        {
-            title: ["Data Analysis System for", "Pharmaceuticals"],
-            services: ["Discovery", "Agile Development", "Agile Maintenance"],
-            route: "/work/pharma-analytics",
-            thumbnail: "pharma-thumbnail"
+        // },
+        // {
+        //     title: ["Data Analysis System for", "Pharmaceuticals"],
+        //     services: ["Discovery", "Agile Development", "Agile Maintenance"],
+        //     route: "/work/pharma-analytics",
+        //     thumbnail: "pharma-thumbnail"
         
-        }
+        // }
     ];
     if(locale == "es")
         return projectsEs;
