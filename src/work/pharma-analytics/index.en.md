@@ -11,7 +11,7 @@ storyType: 'Work'
 introduction: {
     title: "Introduction",
     content: "Our client, an internationally renowned pharmaceutical company with a strong presence in Mexico, Colombia, and Central America, faced a crucial challenge: to ensure the availability of reliable and up-to-date information in real-time for making strategic decisions and operating effectively.",
-    content1: "With years of experience and an overwhelming range of data sources, the challenge of consolidating, processing, and analyzing information in a format accessible to all key areas had become more challenging over time."
+    content2: "With years of experience and an overwhelming range of data sources, the challenge of consolidating, processing, and analyzing information in a format accessible to all key areas had become more challenging over time."
 }
 ---
 

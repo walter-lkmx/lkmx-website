@@ -11,7 +11,7 @@ storyType: 'Trabajo'
 introduction: {
     title: "Introducción",
     content: "Nuestro cliente, una farmacéutica de talla internacional con una presencia sólida en México, Colombia y Centroamérica, enfrentaba un desafío crucial: asegurar la disponibilidad de información confiable y actualizada en tiempo real para tomar decisiones estratégicas y operar con eficacia.",
-    content1: "Con años de experiencia y una abrumadora gama de fuentes de datos, el reto de consolidar, procesar y analizar la información en un formato accesible para todas las áreas clave se había vuelto más desafiante con el tiempo."
+    content2: "Con años de experiencia y una abrumadora gama de fuentes de datos, el reto de consolidar, procesar y analizar la información en un formato accesible para todas las áreas clave se había vuelto más desafiante con el tiempo."
 }
 ---
 
@@ -22,7 +22,7 @@ introduction: {
 </div>
 <div>
     <h2>Solución</h2>
-    <p>Para abordar los retos en el manejo de datos, comenzamos por ejecutar nuestro sercvicio de Discovery con el involucramiento de directores regionales y gerentes de distrito. Este proceso nos permitió conocer a fondo las diferentes fuentes de información y las necesidades específicas de cada una de las áreas de la empresa. Con esta información, desarrollamos un plan de trabajo en múltiples fases para la implementación de una solución a la medida.</p>
+    <p>Para abordar los retos en el manejo de datos, comenzamos por ejecutar nuestro servicio de Discovery con el involucramiento de directores regionales y gerentes de distrito. Este proceso nos permitió conocer a fondo las diferentes fuentes de información y las necesidades específicas de cada una de las áreas de la empresa. Con esta información, desarrollamos un plan de trabajo en múltiples fases para la implementación de una solución a la medida.</p>
     <p>Diseñamos una interfaz gráfica para la carga masiva de datos, que incluye algoritmos de validación y depuración personalizados. La plataforma procesa eficientemente la información de años, en horas, generando índices optimizados y decenas de reportes a la medida que pueden ser consultados en tiempo real.</p>
     <div class="story_story__mainContent__2cGrid__aNFn8">
         <div>
@@ -46,7 +46,7 @@ introduction: {
 <div>
     <figure>
         <img src="/work/pharma-figure3.jpg" alt="User Interface"/>
-        <figcaption class="story_story__mainContent__caption__IQRnS">La interfaz muestra una vista de los datos precisos, actualizados en tiempo real, con los cuales el usuario puede interactuar y tomar desiciones</figcaption>
+        <figcaption class="story_story__mainContent__caption__IQRnS">La interfaz muestra una vista de los datos precisos, actualizados en tiempo real, con los cuales el usuario puede interactuar y tomar decisiones</figcaption>
     </figure>    
 </div>
 <div class="story_story__mainContent__technologies__v5XXm">

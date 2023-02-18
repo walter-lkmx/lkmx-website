@@ -11,7 +11,7 @@ storyType: 'Trabajo'
 introduction: {
     title: "Introducción",
     content: "Nos enfrentamos a un nuevo desafío cuando una importante empresa de logística especializada, reconocida como la tercera más grande en su ramo en México nos contrató para realizar un proyecto, para apoyarlos en el análisis y implementación de un sistema destinado a recolectar los pedidos de más de 900 hospitales que conforman la segunda red gubernamental de salud más grande del país.",
-    content1: "Trabajamos en conjunto con nuestro cliente durante 4 meses, realizando un exhaustivo análisis y desarrollo de una solución que pudiera ser implementada de forma inmediata y mantenida de manera ágil, permitiendo la satisfacción de las necesidades tanto de la operación como del cliente."
+    content2: "Trabajamos en conjunto con nuestro cliente durante 4 meses, realizando un exhaustivo análisis y desarrollo de una solución que pudiera ser implementada de forma inmediata y mantenida de manera ágil, permitiendo la satisfacción de las necesidades tanto de la operación como del cliente."
 }
 ---
 

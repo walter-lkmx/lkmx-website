@@ -11,7 +11,7 @@ storyType: 'Work'
 introduction: {
     title: "Introduction",
     content: "We faced a new challenge when a major specialized logistics company, recognized as the third largest in its field in Mexico, hired us to carry out a project to support them in the analysis and implementation of a system aimed at collecting orders from over 900 hospitals that make up the second largest government health network in the country.",
-    content1: "We worked closely with our client for 4 months, conducting an extensive analysis and development of a solution that could be implemented immediately and maintained in an agile manner, allowing for both operational and customer needs to be satisfied."
+    content2: "We worked closely with our client for 4 months, conducting an extensive analysis and development of a solution that could be implemented immediately and maintained in an agile manner, allowing for both operational and customer needs to be satisfied."
 }
 ---
 
