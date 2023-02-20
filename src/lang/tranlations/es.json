@@ -317,7 +317,7 @@
     },
     "agile": {
       "title": "agile flow",
-      "par": "Diseñamos mecanismos de versionamiento propios, robustos, flexibles y compatibles con estándares en la industria. Estos procesos, combinados con nuestros mecanismos de integración continua nos permiten alcanzar máximas velocidades de desarrollo, manteniendo control total sobre la calidad de cada uno de los componentes involucrados y sus integraciones"
+      "par": "Diseñamos mecanismos de versionamiento propios, robustos, flexibles y compatibles con estándares en la industria. Estos procesos, combinados con nuestro mecanismos de integración continua nos permiten alcanzar máximas velocidades de desarrollo, manteniendo control total sobre la calidad de cada uno de los componentes involucrados y sus integraciones"
     },
     "cd": {
       "title": "cd/ci",

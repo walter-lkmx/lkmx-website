@@ -195,6 +195,20 @@
                             margin-top: 25.94px;
                         }                        
                     }
+                    &__agileImage {
+                        position: relative;
+                        width: 100%;
+                        height: 248px;
+                        @include respond-to("l") {                            
+                            height: 212.82px;
+                        }
+                        @include respond-to("<=m") {
+                            height: 223.18px;
+                        }
+                        img {
+                            margin-top: 52px;
+                        }   
+                    }
                     &__cdImage {
                         position: relative;
                         width: 100%;

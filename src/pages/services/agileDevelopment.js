@@ -104,6 +104,16 @@ export default function AgileDevelopment() {
                                     />
                                 </div>
                             </a>
+                            <a className={styles.agile__sections__block__aside__anchor} href="#AgileTitle">
+                                <span>{$t.agile.agile.title}</span>
+                                <div>
+                                    <Image
+                                    fill
+                                    src="/services/white-line.svg"
+                                    alt="Menu marker"
+                                    />
+                                </div>
+                            </a>
                         </nav>                                                                                         
                         <section className={styles.agile__sections__block__black}>                        
                             <article className={styles.agile__sections__block__black__item}>
@@ -145,6 +155,19 @@ export default function AgileDevelopment() {
                                     <Image
                                     fill
                                     src="/services/agileDev/agile-dev_scrum.svg"
+                                    alt="Flare representation"
+                                    />
+                                </div>
+                            </article>
+                            <article className={styles.agile__sections__block__black__item}>
+                                <div id="agileTitle" className={styles.agile__sections__block__black__item__content}>
+                                    <h2>{$t.agile.agile.title}</h2>
+                                    <p>{$t.agile.agile.par}</p>                                   
+                                </div>
+                                <div className={styles.agile__sections__block__black__item__agileImage}>
+                                    <Image
+                                    fill
+                                    src="/services/agileDev/agile-dev_flow.svg"
                                     alt="Flare representation"
                                     />
                                 </div>
