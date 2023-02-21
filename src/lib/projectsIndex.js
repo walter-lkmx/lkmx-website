@@ -48,6 +48,13 @@ export default function getProjectsIndexed(locale) {
             route: "/work/skyou",
             thumbnail: "skyou-thumbnail"
         
+        },
+        {
+            title: ["NFT Marketplace"],
+            services: ["Discovery", "Agile Development"],
+            route: "/work/emprops",
+            thumbnail: "emprops-thumbnail"
+        
         }//,
         // {
         //     title: ["Sistema nacional de hospitales"],
@@ -112,6 +119,13 @@ export default function getProjectsIndexed(locale) {
             services: ["Discovery", "Agile Development", "Agile Maintenance"],
             route: "/work/skyou",
             thumbnail: "skyou-thumbnail"
+        
+        },
+        {
+            title: ["NFT Marketplace"],
+            services: ["Discovery", "Agile Development"],
+            route: "/work/emprops",
+            thumbnail: "emprops-thumbnail"
         
         }//,
         // {
