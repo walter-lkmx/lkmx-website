@@ -51,8 +51,8 @@ introduction: {
     </figure>    
 </div>
 <div>
-    <p>The three-way collaboration between the artist, code, and AI systems demonstrates the vision and dedication of our team to carry out innovative projects. Our team will continue to work hard to carry out more innovative projects in the future. We will continue to explore the limits of technology and creativity to provide our clients with a unique and innovative experience in the world of art.</p>
     <p>The exact generation process for each collection varies from project to project, but in general, all EMPROPS collections are created in real time through a unique collaboration between the artist, their generative code, and one or more AI systems. Each piece is unique and is generated in real time, resulting in authentic and constantly evolving art.</p>
+    <p>With EMPROPS, users can experience and participate in a new digital art form, while enjoying the privacy, security and transparency of transactions on the platform.</p>
 </div>
 <div>
     <figure>
