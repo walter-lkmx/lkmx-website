@@ -10,6 +10,8 @@ import Image from "next/image";
 import Link from "next/link"
 import GoBackBar from "../../components/goBackBar";
 import Services from "../../components/services"
+import ServiceAnchors from "../../components/serviceAnchors";
+
 export default function DiscoveryPage() {
     const { locale } = useRouter();
     const $t = getLang(locale);
@@ -44,60 +46,7 @@ export default function DiscoveryPage() {
                     <p>{$t.discovery.methodologies.content}</p>                                         
                     </Block>
                 </Column>
-                <Column mode="normal" modeL="slim" className={styles.discovery__sections}>
-                    <Block className={styles.discovery__sections__block}>    
-                        <nav className={styles.discovery__sections__block__aside}> 
-                            <a className={styles.discovery__sections__block__aside__anchor} href="#protoTitle">
-                                <span>{$t.discovery.prototyping.title}</span>
-                                <div>
-                                    <Image
-                                    fill
-                                    src="/services/white-line.svg"
-                                    alt="Menu marker"
-                                    />
-                                </div>
-                            </a>
-                            <a className={styles.discovery__sections__block__aside__anchor} href="#adhocTitle">
-                                <span>{$t.discovery.adhoc.title}</span>
-                                <div>
-                                    <Image
-                                    fill
-                                    src="/services/white-line.svg"
-                                    alt="Menu marker"
-                                    />
-                                </div>
-                            </a>
-                        </nav>                                                                                         
-                        <section className={styles.discovery__sections__block__black}>                        
-                            <article className={styles.discovery__sections__block__black__item}>
-                                <div id="protoTitle" className={styles.discovery__sections__block__black__item__content}>
-                                    <h2>{$t.discovery.prototyping.title}</h2>
-                                    <p>{$t.discovery.prototyping.content}</p>                                   
-                                </div>
-                                <div className={styles.discovery__sections__block__black__item__prototypingImage}>
-                                    <Image
-                                    fill
-                                    src="/services/discovery/discovery_prototyping.gif"
-                                    alt="Rapid Prototyping"
-                                    />
-                                </div>
-                            </article>
-                            <article className={styles.discovery__sections__block__black__item}>
-                                <div id="adhocTitle" className={styles.discovery__sections__block__black__item__content}>
-                                    <h2>{$t.discovery.adhoc.title}</h2>
-                                    <p>{$t.discovery.adhoc.content}</p>                                   
-                                </div>
-                                <div className={styles.discovery__sections__block__black__item__adhocImage}>
-                                    <Image
-                                    fill
-                                    src="/services/discovery/discovery_ad-hoc.svg"
-                                    alt="Ad-Hoc Discovery"
-                                    />
-                                </div>
-                            </article>
-                        </section>
-                    </Block>
-                </Column>
+                <ServiceAnchors anchorsData={$t.discovery.sections}/>
                 <Column mode="normal" modeL="slim" className={styles.discovery__wireframe}>
                     <Block className={styles.discovery__wireframe__block}>
                         <p>{$t.discovery.wireframe.par1}</p>

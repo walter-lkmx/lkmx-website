@@ -290,17 +290,21 @@
         "time with consistent delivery of prototypes."
       ],
       "intro": "In the pre-development phase of a project, we constantly analyze and redefine the general objective by identifying obstacles that help us plot a viable implementation route. We use a similar methodology to that used to build the software, but without sending the artifacts to development, thereby reducing the risks associated with this idea generation stage.",
+      "sections": [
+        {
+          "title": "Rapid Prototyping",
+          "par1": "We use Rapid Prototyping to deliver constant deliveries of a prototype, with the views and scenarios that constitute the software solution, maximizing the time.",
+          "image": "discovery/discovery_prototyping.gif"
+        },
+        {
+          "title": "Ad-Hoc Discovery",
+          "par1": "We use the Ad-Hoc Discovery technique when we develop a tailor-made plan, involving one or more requirements analysis and prototyping techniques that clarify the way for the business and in many cases propose a viable route for the implementation of the solution.",
+          "image": "discovery/discovery_ad-hoc.svg"
+        }
+      ],
       "methodologies": {
         "title": "specialized methodologies",
         "content": "We use specialized methodologies to develop initial software prototypes in the form of a collection of artifacts. This allows us to make informed decisions about the path to take for new business capabilities or optimizing processes, all with an agile technology project ready"
-      },
-      "prototyping": {
-        "title": "Rapid Prototyping",
-        "content": "We use Rapid Prototyping to deliver constant deliveries of a prototype, with the views and scenarios that constitute the software solution, maximizing the time."
-      },
-      "adhoc": {
-        "title": "Ad-Hoc Discovery",
-        "content": "We use the Ad-Hoc Discovery technique when we develop a tailor-made plan, involving one or more requirements analysis and prototyping techniques that clarify the way for the business and in many cases propose a viable route for the implementation of the solution."
       },
     "wireframe": {
       "par1": "In a period of 2 to 4 weeks, our multidisciplinary teams can create wireframes or prototypes, a map of functionality, a logical architecture of the solution, and a release plan for its construction.",
@@ -327,31 +331,36 @@
       "deliverables, timeline and resources."
     ],
     "intro2": "We organize our team in DEFINITION and IMPLEMENTATION groups using our custom methodology that is supported over different production-tested techniques for requirement analysis, user-interface design, versioning, code arquitectura, and delivery. At the end of the implementation, the result is delivered to our clients in proper staging environments so they can perform their ACCEPTANCE tests. We accomplish this through proprietary versioning mechanisms and perfected continuous integration mechanisms.",
-    "maad" : {
-      "title": "MAAD",
-      "par1": "We created the Analysis and Design Agile Methodology, a collection of activities that allows us to capture the stakeholders requirements and transform them into a backlog with short, clear, concise and actionable elements.",
-      "par2": "The methodology standardizes the collecting of requirements and process them into entities like epics, stories and deltas that clearly describe the changes to be implemented.",
-      "par3": "Each backlog element has a strict but simplified state that can be monitored using tools like Jira and Confluence."
-    },
-    "flare": {
-      "title": "flare",
-      "par": "We employ a proprietary design system that allows for a fast inception and efficient implementation of interfaces with perfect grids and consistent styles since the first iteration. Flare defines clear and implementable concepts on four key points: style, structure, user interface and content."
-    },
-    "scrum": {
-      "title": "scrum",
-      "par": "The use of Scrum as a framework allows us to approach complex problems while valuable, continuous and constant deliveries are done in a creative manner and focused on increasing team productivity. Based on the CMMI model, we implement good practices that allow us to increase and optimize performance of the processes directly and indirectly involved in software development, maximizing opportunities and mitigating risks."
-    },
-    "agile": {
-      "title": "agile flow",
-      "par": "We design our own versioning mechanisms that are robust, flexible and compatible with industry standards. These processes, combined with our continuous integration mechanisms, allow us to reach maximum development speeds, maintaining full control over the quality of each of the components involved and their integrations."
-    },
-    "cd": {
-      "title": "cd/ci",
-      "par": [
-        "Our source code is managed using proprietary continuous integration infrastructure that automates binary versioning, packaging and release.",
-        "The entire automation of our DevOps processes allows us to deliver functional versions to our clients at the end of each iteration."
-      ]
-    },
+    "sections": [
+      {
+        "title": "MAAD",
+        "par1": "We created the Analysis and Design Agile Methodology, a collection of activities that allows us to capture the stakeholders' requirements and transform them into a backlog with short, clear, concise and actionable elements.",
+        "par2": "The methodology standardizes the collecting of requirements and process them into entities like epics, stories and deltas that clearly describe the changes to be implemented.",
+        "par3": "Each backlog element has a strict but simplified state that can be monitored using tools like Jira and Confluence.",
+        "image": "agileDev/agile-dev_maad.svg"
+      },
+      {
+        "title": "flare",
+        "par1": "We employ a proprietary design system that allows for a fast inception and efficient implementation of interfaces with perfect grids and consistent styles since the first iteration. Flare defines clear and implementable concepts on four key points: style, structure, user interface and content.",
+        "image": "agileDev/agile-dev_flare.svg"
+      },
+      {
+        "title": "scrum",
+        "par1": "The use of Scrum as a framework allows us to approach complex problems while valuable, continuous and constant deliveries are done in a creative manner and focused on increasing team productivity. Based on the CMMI model, we implement good practices that allow us to increase and optimize performance of the processes directly and indirectly involved in software development, maximizing opportunities and mitigating risks.",
+        "image": "agileDev/agile-dev_scrum.svg"
+      },
+      { 
+        "title": "agile flow",
+        "par1": "We design our own versioning mechanisms that are robust, flexible and compatible with industry standards. These processes, combined with our continuous integration mechanisms, allow us to reach maximum development speeds, maintaining full control over the quality of each of the components involved and their integrations.",
+        "image": "agileDev/agile-dev_flow.svg"
+      },
+      {
+        "title": "cd/ci",
+        "par1": "Our source code is managed using proprietary continuous integration infrastructure that automates binary versioning, packaging and release.",
+        "par2": "The entire automation of our DevOps processes allows us to deliver functional versions to our clients at the end of each iteration.",
+        "image": "agileDev/agile-dev_cd-ci.svg"
+      }
+    ],
     "span": {
       "back":"DISCOVERY",
       "forward": "AGILE MAINTENANCE, SCOPE DEV. & CONTINUOUS SUPPORT"
@@ -374,30 +383,23 @@
         "We employ Kanban as an agile workframe to prioritize and organize planned and on-call work, which allows us to maintain a constant flow of deliverables, through the implementation of solutions that immediately provide value to the client."
       ]
     },
-    "scope": {
-      "title": [
-        "SCOPE DEVELOPMENT"
-      ],
-      "content": [
-        "This option is offered to existing clients when, after finishing the initial development phase, SPECIFIC REQUIREMENTS arise. Here we analyze requirements in detail, employing techniques taken from agile methodologies before hiring the services."
-      ]
-    },
-    "agile": {
-      "title": [
-        "AGILE MAINTENANCE"
-      ],
-      "content": [
-        "Once the platform is developed, our maintenance blocks offer an AGILE alternative to perfect or complement the existing functionality. We use Kanban with the methodologies employed for development in flexible maintenance projects from one week and with no duration limit."
-      ]
-    },
-    "support": {
-      "title": [
-        "CONTINUOUS SUPPORT"
-      ],
-      "content": [
-        "We offer continuous support options for the solutions that we develop. Our teams provide support to platforms with several SLAs and regular-time and on-call coverage. The stability of our development combined with our processes guarantee efficiency and operational costs under control."
-      ]
-    },
+    "sections": [
+      {
+        "title": "SCOPE DEVELOPMENT",
+        "par1": "This option is offered to existing clients when, after finishing the initial development phase, SPECIFIC REQUIREMENTS arise. Here we analyze requirements in detail, employing techniques taken from agile methodologies before hiring the services.",
+        "image": "ams/agile-maintenance_scope-dev.svg"
+      },
+      {
+        "title": "AGILE MAINTENANCE",
+        "par1": "Once the platform is developed, our maintenance blocks offer an AGILE alternative to perfect or complement the existing functionality. We use Kanban with the methodologies employed for development in flexible maintenance projects from one week and with no duration limit.",
+        "image": "ams/agile-maintenance_maintenance.svg"
+      },
+      {
+        "title": "CONTINUOUS SUPPORT",
+        "par1": "We offer continuous support options for the solutions that we develop. Our teams provide support to platforms with several SLAs and regular-time and on-call coverage. The stability of our development combined with our processes guarantee efficiency and operational costs under control.",
+        "image": "ams/agile-maintenance_cont-support.svg"
+      }
+    ],
     "conclusion": "Whether through Scope Development, Agile Maintenance or Continuous Support, we are committed to offering you a continuous and quality service that guarantees the stability and efficiency of your platform."
   },
     "page404": {

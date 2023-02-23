@@ -1,0 +1,146 @@
+.anchors {
+    &__sections {
+        @include respond-to("<=m") {
+          background-color: $color-neutral-black;
+        }
+    
+        &__block {
+          background: linear-gradient(270deg, $color-neutral-black 51.79%, rgba(217, 217, 217, 0) 52%);
+    
+          >div>div {
+            padding: 0 !important;
+            position: relative;
+          }
+    
+          &__white {
+            @include respond-to("<=m") {
+              display: none;
+            }
+          }
+          &__wrapper {
+            
+            position: absolute;
+            
+            top: 56px;
+            left: -209px;
+            height: 100%;
+
+            &__aside {
+              // z-index: 2;
+              // transform: translate(-209px, 56px);
+              // 
+              // width: fit-content;
+              // display: grid;
+              // gap: 16px;
+              z-index: 2;
+              position: sticky;
+              top: 56px;
+              display: grid;
+              gap: 16px;
+              @include respond-to("<=m") {
+                display: none;
+              }
+      
+              a {
+                display: grid;
+                grid-template-columns: 192px min-content;
+                align-items: center;
+                gap: 16px;
+                text-decoration: none;
+                
+                span {
+                  text-align: right;
+                  text-transform: uppercase;
+                  color: $color-lang-secondary;
+                  
+                  &:hover {
+                    color: $color-blue !important;
+                  }
+                }
+      
+                img {
+                  max-width: none !important;
+                  width: 25px;
+                  height: 5px;
+                }
+              }
+      
+            }
+          }
+          
+    
+          &__black {
+            // transform: translateY(-116px);
+            @include respond-to("<=m") {
+              transform: translateY(0px);
+            }
+            z-index: 1;
+            background-color: $color-neutral-black;
+            padding: 56px 0px 56px 125px;
+            display: grid;
+            position: relative;
+    
+            @include respond-to("l") {
+              padding: 56px 0px 56px 70px;
+            }
+    
+            @include respond-to("m") {
+              padding: 56px 0;
+            }
+    
+            @include respond-to("<=s") {
+              padding: 56px 16px;
+            }
+    
+            &__item {
+              display: grid;
+              grid-template-columns: 400px 1fr;
+              gap: 29px;
+              padding-bottom: 72px;
+              align-items: center;
+    
+              @include respond-to("<=s") {
+                grid-template-columns: 1fr;
+                justify-items: center;
+                gap: 0px;
+              }
+    
+              &__content {
+                h2 {
+                  color: $color-pink;
+                }
+    
+                p {
+                  color: white;
+                }
+              }
+    
+              &__image {
+                position: relative;
+                width: 100%;
+                height: 325px;
+                width: 400px;
+    
+                @include respond-to("l") {
+                  width: 308px;
+                  height: 258.61px;
+                }
+    
+                @include respond-to("<=m") {
+                  width: 339px;
+                  height: 284.64px;
+                }
+    
+                @include respond-to("<=s") {
+                  width: 343px;
+                  height: 288px;
+                  img {
+                    margin-top: 26px;
+                  }
+                }
+              }
+            }
+          }
+        }
+    }
+}

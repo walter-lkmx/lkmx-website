@@ -9,6 +9,7 @@ import { useRouter } from "next/router";
 import Image from "next/image";
 import GoBackBar from "../../components/goBackBar";
 import Services from "../../components/services";
+import ServiceAnchors from "../../components/serviceAnchors";
 
 export default function AgileDevelopment() {
     const { locale } = useRouter();
@@ -61,133 +62,7 @@ export default function AgileDevelopment() {
                         </div>
                     </Block>
                 </Column>
-                <Column mode="normal" modeL="slim" className={styles.agile__sections}>
-                    <Block className={styles.agile__sections__block}>    
-                        <nav className={styles.agile__sections__block__aside}> 
-                            <a className={styles.agile__sections__block__aside__anchor} href="#maadTitle">
-                                <span>{$t.agile.maad.title}</span>
-                                <div>
-                                    <Image
-                                    fill
-                                    src="/services/white-line.svg"
-                                    alt="Menu marker"
-                                    />
-                                </div>
-                            </a>
-                            <a className={styles.agile__sections__block__aside__anchor} href="#flareTitle">
-                                <span>{$t.agile.flare.title}</span>
-                                <div>
-                                    <Image
-                                    fill
-                                    src="/services/white-line.svg"
-                                    alt="Menu marker"
-                                    />
-                                </div>
-                            </a>
-                            <a className={styles.agile__sections__block__aside__anchor} href="#scrumTitle">
-                                <span>{$t.agile.scrum.title}</span>
-                                <div>
-                                    <Image
-                                    fill
-                                    src="/services/white-line.svg"
-                                    alt="Menu marker"
-                                    />
-                                </div>
-                            </a>
-                            <a className={styles.agile__sections__block__aside__anchor} href="#cdTitle">
-                                <span>{$t.agile.cd.title}</span>
-                                <div>
-                                    <Image
-                                    fill
-                                    src="/services/white-line.svg"
-                                    alt="Menu marker"
-                                    />
-                                </div>
-                            </a>
-                            <a className={styles.agile__sections__block__aside__anchor} href="#AgileTitle">
-                                <span>{$t.agile.agile.title}</span>
-                                <div>
-                                    <Image
-                                    fill
-                                    src="/services/white-line.svg"
-                                    alt="Menu marker"
-                                    />
-                                </div>
-                            </a>
-                        </nav>                                                                                         
-                        <section className={styles.agile__sections__block__black}>                        
-                            <article className={styles.agile__sections__block__black__item}>
-                                <div id="maadTitle" className={styles.agile__sections__block__black__item__content}>
-                                    <h2>{$t.agile.maad.title}</h2>
-                                    <p>{$t.agile.maad.par1}</p>
-                                    <br/>
-                                    <p>{$t.agile.maad.par2}</p>
-                                    <br/>
-                                    <p>{$t.agile.maad.par3}</p>                                    
-                                </div>
-                                <div className={styles.agile__sections__block__black__item__maadImage}>
-                                    <Image
-                                    fill
-                                    src="/services/agileDev/agile-dev_maad.svg"
-                                    alt="MAAD representation"
-                                    />
-                                </div>
-                            </article>
-                            <article className={styles.agile__sections__block__black__item}>
-                                <div id="flareTitle" className={`${styles.agile__sections__block__black__item__content} ${styles.agile__sections__block__black__item__pushedDown}`}>
-                                    <h2>{$t.agile.flare.title}</h2>
-                                    <p>{$t.agile.flare.par}</p>                                   
-                                </div>
-                                <div className={styles.agile__sections__block__black__item__flareImage}>
-                                    <Image
-                                    fill
-                                    src="/services/agileDev/agile-dev_flare.svg"
-                                    alt="Flare representation"
-                                    />
-                                </div>
-                            </article>
-                            <article className={styles.agile__sections__block__black__item}>
-                                <div id="scrumTitle" className={styles.agile__sections__block__black__item__content}>
-                                    <h2>{$t.agile.scrum.title}</h2>
-                                    <p>{$t.agile.scrum.par}</p>                                   
-                                </div>
-                                <div className={styles.agile__sections__block__black__item__scrumImage}>
-                                    <Image
-                                    fill
-                                    src="/services/agileDev/agile-dev_scrum.svg"
-                                    alt="Flare representation"
-                                    />
-                                </div>
-                            </article>
-                            <article className={styles.agile__sections__block__black__item}>
-                                <div id="agileTitle" className={styles.agile__sections__block__black__item__content}>
-                                    <h2>{$t.agile.agile.title}</h2>
-                                    <p>{$t.agile.agile.par}</p>                                   
-                                </div>
-                                <div className={styles.agile__sections__block__black__item__agileImage}>
-                                    <Image
-                                    fill
-                                    src="/services/agileDev/agile-dev_flow.svg"
-                                    alt="Flare representation"
-                                    />
-                                </div>
-                            </article>
-                            <article className={styles.agile__sections__block__black__item}>
-                                <div id="cdTitle" className={styles.agile__sections__block__black__item__content}>
-                                    <h2>{$t.agile.cd.title}</h2>
-                                    <p>{$t.agile.cd.par[0]}<br/>{$t.agile.cd.par[1]}</p>                                   
-                                </div>
-                                <div className={styles.agile__sections__block__black__item__cdImage}>
-                                    <Image
-                                    fill
-                                    src="/services/agileDev/agile-dev_cd-ci.svg"
-                                    alt="Flare representation"
-                                    />
-                                </div>
-                            </article>
-                        </section>
-                    </Block>
-                </Column>
+                <ServiceAnchors anchorsData={$t.agile.sections}/>
                 <Services/>
             </Page>
         </BaseLayout>
