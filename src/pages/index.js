@@ -42,8 +42,6 @@ export default function Index() {
       );
     }
   });
-
-  console.log($t.home.ogImage);
   return (
     <BaseLayout>
       <HeadSeo
@@ -90,11 +88,6 @@ export default function Index() {
                 >
                   <Image fill src="/dragon-home.svg" alt="LKMX - Dragon" priority />
                 </div>
-                {/* <Image
-                layout="fill"
-                priority={true}
-                src="/dragon-home.svg" alt="hexadragongon"
-              /> */}
               </div>
             </div>
           </Block>

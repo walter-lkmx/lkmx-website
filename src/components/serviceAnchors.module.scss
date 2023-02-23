@@ -18,20 +18,12 @@
             }
           }
           &__wrapper {
-            
+            padding-top: 56px;
             position: absolute;
-            
-            top: 56px;
             left: -209px;
             height: 100%;
 
             &__aside {
-              // z-index: 2;
-              // transform: translate(-209px, 56px);
-              // 
-              // width: fit-content;
-              // display: grid;
-              // gap: 16px;
               z-index: 2;
               position: sticky;
               top: 56px;
@@ -70,7 +62,6 @@
           
     
           &__black {
-            // transform: translateY(-116px);
             @include respond-to("<=m") {
               transform: translateY(0px);
             }

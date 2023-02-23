@@ -26,7 +26,7 @@ export default function DiscoveryPage() {
                 ogTwitterImage={$t.home.ogImage ? $t.home.ogImage : locale === 'es' ? siteMetadata.ogDefaultImageEs : siteMetadata.ogDefaultImageEn}
                 ogType={siteMetadata.ogType}
             />
-            <Page>  
+            <Page className={styles.discovery}>  
             <GoBackBar destiny={"/services"}/>
                 <Column mode="normal" className={styles.discovery__hero}>
                     <Block className={styles.discovery__hero__block}>
