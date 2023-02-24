@@ -1,7 +1,6 @@
 .story {
-    * {
-        max-width: 95vw;
-    }
+    overflow: hidden;
+    max-width: 100vw;
     &__heroHeading {
         padding: 61px 0;
         span {

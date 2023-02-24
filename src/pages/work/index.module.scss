@@ -1,4 +1,5 @@
 .storiesPage {
+    max-width: 100vw;
     &__hero {
         height: 591px;
         overflow: hidden;
@@ -141,14 +142,29 @@
             }            
         }
         &__item {
+            &:hover {
+                filter: grayscale(1);
+            }
             &__img{
                 position: relative;
                 width: 568px;
-                height: 600px;
+                height: 568px;
                 background-color: $color-bright-gray;
-                @include respond-to("<=l") {
+                @include respond-to("l") {
+                    width: 468px;
+                    height: 468px;
+                }
+                @include respond-to("m") {
+                    width: 364px;
+                    height: 364px;
+                }
+                @include respond-to("s") {
+                    width: 352px;
+                    height: 352px;
+                }
+                @include respond-to("<=xs") {
                     width: 343px;
-                    height: 400px;
+                    height: 343px;
                 }
                 img {
                     object-fit: cover;
@@ -157,8 +173,18 @@
             a {
                 text-decoration: none;
             }           
+            h2 {
+                @include respond-to("<=m") {
+                    br {
+                        display: none;
+                    }
+                }
+                @include respond-to("<=s") {
+                    max-width: 343px;                    
+                }
+            }
             span {
-                color: $color-pink;
+                color: $color-lang-secondary;
                 font-family: var(--lk-font-roboto);
                 font-weight: 700;
                 font-size: 16px;

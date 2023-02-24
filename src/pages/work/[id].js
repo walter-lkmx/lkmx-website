@@ -41,7 +41,7 @@ export default function SuccessStory({storyData}) {
                 ogImageUrl={$t.home.ogImage ? $t.home.ogImage : locale === 'es' ? siteMetadata.ogDefaultImageEs : siteMetadata.ogDefaultImageEn}
                 ogTwitterImage={$t.home.ogImage ? $t.home.ogImage : locale === 'es' ? siteMetadata.ogDefaultImageEs : siteMetadata.ogDefaultImageEn}
             />
-            <Page>              
+            <Page className={styles.story}>              
                 <GoBackBar destiny={"/work"} />
                 <Column>
                     <Block className={styles.story__heroHeading}>

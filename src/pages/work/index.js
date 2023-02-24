@@ -23,7 +23,7 @@ export default function StoriesPage() {
                 ogImageUrl={$t.home.ogImage ? $t.home.ogImage : locale === 'es' ? siteMetadata.ogDefaultImageEs : siteMetadata.ogDefaultImageEn}
                 ogTwitterImage={$t.home.ogImage ? $t.home.ogImage : locale === 'es' ? siteMetadata.ogDefaultImageEs : siteMetadata.ogDefaultImageEn}
             />
-            <Page>
+            <Page className={styles.storiesPage}>
                 <Column number="2" numberS="1" weight="right" className={styles.storiesPage__hero}>
                     <Block className={styles.storiesPage__hero__left}>
                         <div className={styles.storiesPage__hero__left__content}>
@@ -77,7 +77,7 @@ export default function StoriesPage() {
                                                         alt="project image"
                                                     />
                                                 </div>                                    
-                                                <h2>{project.title[0]}<br/>{project.title[1]}</h2>
+                                                <h2>{project.title[0]}<br/> {project.title[1]}</h2>
                                                 <span>{project.services[0]}, {project.services[1]}<br/>{project.services[2]}</span>
                                             </div>
                                         </Link>                                    
