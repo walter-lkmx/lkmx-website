@@ -1,6 +1,6 @@
 ---
 number: 5
-title: ['Campsite and Water Park']
+title: ['Campsite and Water Park', '']
 headline: ['Discover the ultimate water park experience with streamlined', 'management']
 services: ['discovery', 'agile Development']
 methodologies: ['Scrum']

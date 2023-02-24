@@ -1,6 +1,6 @@
 ---
 number: 8
-title: ['Sistema nacional de hospitales' ]
+title: ['Sistema nacional de hospitales', '']
 headline: ['La tecnología al servicio de la salud: optimizando la cadena de', 'suministro de medicamentos a nivel nacional.']
 services: ['discovery', 'agile Development', 'agile Maintenance']
 methodologies: ['Scrum']

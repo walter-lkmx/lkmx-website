@@ -1,6 +1,6 @@
 ---
 number: 3
-title: ['Administrador de casos legales']
+title: ['Administrador de casos legales', '']
 headline: ['Unificando operaciones legales y de salud a través de una', 'mejor conectividad.']
 services: ['discovery', 'agile Development']
 methodologies: ['Scrum']

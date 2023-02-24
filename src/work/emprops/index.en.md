@@ -1,6 +1,6 @@
 ---
 number: 10
-title: ['NFT MARKETPLACE']
+title: ['NFT MARKETPLACE', '']
 headline: ['Explore the future of generative art and artificial intelligence with', 'EMPROPS.']
 services: ['discovery', 'agile Development']
 methodologies: ['Scrum']

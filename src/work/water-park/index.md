@@ -1,6 +1,6 @@
 ---
 number: 5
-title: ['Campamento y Parque Acuático']
+title: ['Campamento y Parque Acuático', '']
 headline: ['Descubre la mejor experiencia en parques acuáticos con una', 'gestión optimizada']
 services: ['discovery', 'agile Development']
 methodologies: ['Scrum']

@@ -1,6 +1,6 @@
 ---
 number: 10
-title: ['NFT MARKETPLACE']
+title: ['NFT MARKETPLACE', '']
 headline: ['Explora el futuro del arte generativo e inteligencia artificial con', 'EMPROPS.']
 services: ['discovery', 'agile Development']
 methodologies: ['Scrum']
@@ -67,8 +67,8 @@ introduction: {
         <figcaption class="story_story__mainContent__caption__IQRnS">The Oracles es una colección generativa de PFPs generados mediante inteligencia artificial utilizando el modelo texto-a-imagen Stable Diffusion. <br/>Autor @iragreenberg</figcaption>
     </figure>    
 </div>
-<div class="story_story__mainContent__gantt__TErEp">
-    <figure>
+<div>
+    <figure class="story_story__mainContent__gantt__TErEp">
         <img src="/work/project-chart-es--double.jpg" alt="Gantt chart"/>
         <figcaption class="story_story__mainContent__caption__IQRnS">El diagrama de Gantt para este proyecto ilustra nuestro servicio de Desarrollo Ágil, con cada sprint dividido en tres fases distintas: definición, implementación y aceptación.</figcaption>
     </figure>

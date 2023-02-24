@@ -1,6 +1,6 @@
 ---
 number: 4
-title: ['CRM de bienes raíces']
+title: ['CRM de bienes raíces', '']
 headline: ['Mejorando operaciones de venta de bienes raíces', 'con un CRM a medida.']
 services: ['discovery', 'agile Development']
 methodologies: ['Scrum']

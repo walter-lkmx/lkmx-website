@@ -1,6 +1,6 @@
 ---
 number: 8
-title: ['National hospital system' ]
+title: ['National hospital system', '']
 headline: ['Technology at the service of health: optimizing the drug supply', 'chain at the national level.']
 services: ['discovery', 'agile Development', 'agile Maintenance']
 methodologies: ['Scrum']

@@ -1,6 +1,6 @@
 ---
 number: 3
-title: ['Legal Case Manager']
+title: ['Legal Case Manager', '']
 headline: ['Unifying legal and healthcare operations through improved', 'connectivity.']
 services: ['discovery', 'agile Development']
 methodologies: ['Scrum']

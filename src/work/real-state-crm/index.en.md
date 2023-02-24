@@ -1,6 +1,6 @@
 ---
 number: 4
-title: ['Real state CRM']
+title: ['Real state CRM', '']
 headline: ['Enhancing real estate sales operations with a tailored CRM']
 services: ['discovery', 'agile Development']
 methodologies: ['Scrum']
