@@ -1,0 +1,35 @@
+.privacy {
+    &__column {
+        padding-bottom: 56px;
+        &__block {
+            padding: 56px 0 0;
+            @include respond-to("<=s") {
+                padding: 0;
+            } 
+            h1 {
+                @include respond-to("<=s") {
+                    font-size: 28px;
+                    line-height: 36px;
+                }
+            }
+            h2 {
+                @include respond-to("<=s") {
+                    font-size: 24px;
+                    line-height: 32px;
+                }
+            }            
+            ul {
+                padding-left: 17px;
+                display: grid;
+                gap: 16px;
+                li {
+                    list-style-image: url(/work/bullet.svg);
+                }
+            }
+            strong {
+                text-transform: lowercase;
+                font-family: var(--lk-font-ibm);
+            }  
+        }
+    }
+}

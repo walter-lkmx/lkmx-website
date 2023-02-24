@@ -453,5 +453,58 @@
         "we can help you succeed."
       ],
       "btn": "services"
+    },
+    "privacy": {
+      "title": "Privacy Policy",
+      "ogDescription": "LKMX SOFTWARE DEVELOPMENT mejor conocido como LKMX, con domicilio en Av. Adolfo López Mateos 2030-15, Granados, 22840, Ensenada, B.C., México y portal de internet https://www.lkmx.io/, es el responsable del uso y protección de sus datos personales, y al respecto le informamos lo siguiente:",
+      "intro": "LKMX SOFTWARE DEVELOPMENT, better known as LKMX, located at Av. Adolfo López Mateos 2030-15, Granados, 22840, Ensenada, B.C., Mexico and website https://www.lkmx.io/, is responsible for the use and protection of your personal data, and we hereby inform you of the following:",
+      "section1": {
+        "title" : "FOR WHAT PURPOSES WILL WE USE YOUR PERSONAL DATA?",
+        "paragraph": "The personal data we collect from you will be used for the following purposes that are necessary for the service you request:",
+        "li": ["Provision of any requested service"]
+      },
+      "section2": {
+        "title" : "WHAT PERSONAL DATA WILL WE USE FOR THESE PURPOSES?",
+        "paragraph": "To carry out the purposes described in this privacy notice, we will use the following personal data:",
+        "li": ["Contact information"]
+      },
+      "section3": {
+        "title" : "HOW CAN YOU ACCESS, RECTIFY OR CANCEL YOUR PERSONAL DATA, OBJECT TO ITS USE OR EXERCISE YOUR RIGHT TO REVOKE CONSENT?",
+        "paragraph": "You have the right to know what personal data we have about you, what we use it for and the conditions of its use (Access). Likewise, you have the right to request the correction of your personal information if it is outdated, inaccurate or incomplete (Rectification); that we remove it from our records or databases when you consider that it is not being used properly (Cancellation); as well as to object to the use of your personal data for specific purposes (Objection). These rights are known as ARCO rights.",
+        "paragraph2": "To exercise any of the ARCO rights, you must send a request via email to privacy@lkmx.io and it must contain:",
+        "li": [
+          "Full name of the owner.", 
+          "Address.", 
+          "Phone number.", 
+          "Copy of an official identification attached.", 
+          "Subject «ARCO Rights»", 
+          "Description of the purpose of the letter, which may be, among others, the following: Revocation of consent to process your personal data; and/or Notification of improper use of your personal data processing; and/or Exercise your ARCO rights, with a clear and precise description of the data to be Accessed, Rectified, Canceled or Objected to. In the case of Rectification of personal data, you must indicate the exact modification and attach supporting documentation; it is important to note that in the case of revocation of consent, we may not be able to immediately attend to your request or discontinue the use, as it is possible that by some legal obligation we may need to continue processing your personal data. Also, you should consider that for certain purposes, the revocation of your consent will imply that we cannot continue to provide you with the service you requested, or the termination of your relationship with us." 
+        ]
+      },
+      "section4": {
+        "title" : "WITHIN HOW MANY DAYS WILL WE RESPOND TO YOUR REQUEST?",
+        "paragraph": "20 days.",
+        "li": []
+      },
+      "section5": {
+        "title" : "HOW WILL WE COMMUNICATE THE RESPONSE TO YOUR REQUEST?",
+        "paragraph": "To the same email from where the request was sent.",
+        "li": []
+      },
+      "section6": {
+        "title" : "THE USE OF TRACKING TECHNOLOGIES ON OUR WEBSITE",
+        "paragraph": "We inform you that we use cookies, web beacons, or other technologies on our website, through which it is possible to monitor your behavior as an internet user, as well as to provide you with a better service and experience while browsing our site. Some of the personal data we obtain from these tracking technologies are:",
+        "li": [
+          "User's region",
+          "User's browser type",
+          "User's operating system type"
+        ],
+        "paragraph2": "These cookies, web beacons, and other technologies can be disabled. To learn how to do it, please consult your browser's help menu. Please note that if you disable cookies, you may not be able to access certain personalized features on our website."
+      },
+      "section7": {
+        "title" : "HOW CAN YOU KNOW ABOUT CHANGES TO THIS PRIVACY NOTICE?",
+        "paragraph": "This privacy notice may be modified, changed or updated due to new legal requirements, our own needs for the products or services we offer, our privacy practices, changes in our business model, or other reasons. We undertake to keep this privacy notice updated regarding any changes it may undergo, and you can always check for updates on the website",
+        "link": "www.lkmx.io/privacy-policy."
+      }
     }
 }

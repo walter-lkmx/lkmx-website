@@ -1,7 +1,5 @@
 import React from "react";
 import BaseLayout from "@/layouts/base-layout.js";
-import PhasesSvg from '@/assets/phases.svg';
-import PhasesMobileSvg from '@/assets/phases--mobile.svg';
 import Banner from '@/components/banner.js';
 import styles from "./index.module.scss";
 import { Block, Column, Page } from "@lkmx/flare-react";
