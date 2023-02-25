@@ -7,10 +7,17 @@
                 display: grid;
                 gap: 56px;
                 padding: 0 !important;
+                @include respond-to("<=s") {
+                    padding: 0 16px !important;
+                }
             }
             &__content {
                 p {
                     margin: 0;
+                    b {
+                        font-weight: 700;
+                        line-height: 24px;
+                    }
                 }
             }
             @include respond-to("<=s") {

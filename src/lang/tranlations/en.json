@@ -470,8 +470,25 @@
       },
       "section3": {
         "title" : "HOW CAN YOU ACCESS, RECTIFY OR CANCEL YOUR PERSONAL DATA, OBJECT TO ITS USE OR EXERCISE YOUR RIGHT TO REVOKE CONSENT?",
-        "paragraph": "You have the right to know what personal data we have about you, what we use it for and the conditions of its use (Access). Likewise, you have the right to request the correction of your personal information if it is outdated, inaccurate or incomplete (Rectification); that we remove it from our records or databases when you consider that it is not being used properly (Cancellation); as well as to object to the use of your personal data for specific purposes (Objection). These rights are known as ARCO rights.",
-        "paragraph2": "To exercise any of the ARCO rights, you must send a request via email to privacy@lkmx.io and it must contain:",
+        "paragraph": [
+          "You have the right to know what personal data we have about you, what we use it for and the conditions of its use (",
+          "Access",
+          "). Likewise, you have the right to request the correction of your personal information if it is outdated, inaccurate or incomplete (",
+          "Rectification",
+          "); that we remove it from our records or databases when you consider that it is not being used properly (",
+          "Cancellation",
+          "); as well as to object to the use of your personal data for specific purposes (",
+          "Objection",
+          "). These rights are known as",
+          "ARCO rights."
+      ],
+        "paragraph2": [
+          "To exercise any of the",
+          "ARCO rights,",
+          "you must send a request via email to",
+          "privacy@lkmx.io",
+          "and it must contain:"
+        ],
         "li": [
           "Full name of the owner.", 
           "Address.", 

@@ -447,8 +447,25 @@
     },
     "section3": {
       "title" : "¿CÓMO PUEDE ACCEDER, RECTIFICAR O CANCELAR SUS DATOS PERSONALES, U OPONERSE A SU USO O EJERCER LA REVOCACIÓN DE CONSENTIMIENTO?",
-      "paragraph": "Usted tiene derecho a conocer qué datos personales tenemos de usted, para qué los utilizamos y las condiciones del uso que les damos (Acceso). Asimismo, es su derecho solicitar la corrección de su información personal en caso de que esté desactualizada, sea inexacta o incompleta (Rectificación); que la eliminemos de nuestros registros o bases de datos cuando considere que la misma no está siendo utilizada adecuadamente (Cancelación); así como oponerse al uso de sus datos personales para fines específicos (Oposición). Estos derechos se conocen como derechos ARCO.",
-      "paragraph2": "Para el ejercicio de cualquiera de los derechos ARCO, debe enviar una petición vía correo electrónico a privacy@lkmx.io y deberá contener:",
+      "paragraph": [
+        "Usted tiene derecho a conocer qué datos personales tenemos de usted, para qué los utilizamos y las condiciones del uso que les damos (",
+        "Acceso",
+        "). Asimismo, es su derecho solicitar la corrección de su información personal en caso de que esté desactualizada, sea inexacta o incompleta (",
+        "Rectificación",
+        "); que la eliminemos de nuestros registros o bases de datos cuando considere que la misma no está siendo utilizada adecuadamente (",
+        "Cancelación",
+        "); así como oponerse al uso de sus datos personales para fines específicos (",
+        "Oposición",
+        "). Estos derechos se conocen como",
+        "derechos ARCO."
+    ],
+      "paragraph2": [
+        "Para el ejercicio de cualquiera de los",
+        "derechos ARCO,", 
+        "debe enviar una petición vía correo electrónico a",
+        "privacy@lkmx.io",
+        "y deberá contener:"
+      ],
       "li": [
         "Nombre completo del titular.", 
         "Domicilio.", 

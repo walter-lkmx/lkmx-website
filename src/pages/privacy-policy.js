@@ -43,8 +43,16 @@ export default function PrivacyPage() {
                         </div>
                         <div className={styles.privacy__column__block__content}>
                             <h2>{$t.privacy.section3.title}</h2>
-                            <p>{$t.privacy.section3.paragraph}</p>
-                            <p>{$t.privacy.section3.paragraph2}</p>
+                            <p>
+                                {$t.privacy.section3.paragraph[0]} <b>{$t.privacy.section3.paragraph[1]}</b>
+                                {$t.privacy.section3.paragraph[2]} <b>{$t.privacy.section3.paragraph[3]}</b>
+                                {$t.privacy.section3.paragraph[4]} <b>{$t.privacy.section3.paragraph[5]}</b>
+                                {$t.privacy.section3.paragraph[6]} <b>{$t.privacy.section3.paragraph[7]}</b>
+                                {$t.privacy.section3.paragraph[8]} <b>{$t.privacy.section3.paragraph[9]}</b>
+                            </p>
+                            <p>
+                                {$t.privacy.section3.paragraph2[0]} <b>{$t.privacy.section3.paragraph2[1]}</b> {$t.privacy.section3.paragraph2[2]} <b><a href="mailto: privacy@lkmx.io">{$t.privacy.section3.paragraph2[3]}</a></b>  {$t.privacy.section3.paragraph2[4]}
+                            </p>
                             <ul>
                                 <li>{$t.privacy.section3.li[0]}</li>
                                 <li>{$t.privacy.section3.li[1]}</li>
