@@ -10,7 +10,9 @@ import Link from 'next/link';
 import { useRouter } from 'next/router';
 import ImageLegacy from 'next/legacy/image';
 import Image from 'next/image';
+import OurWork from '../components/ourWork';
 // import Locations from '../components/locations';
+
 function getTeamList() {
   let r = require.context('/public/images', false, /\.(png|jpe?g|svg)$/);
   return r
@@ -199,6 +201,7 @@ export default function Index() {
             </div>
           </Block>
         </Column>
+        <OurWork/>
         <Column className={styles.index__team} mode="full">
           <Block className={styles.index__team__block}>
             <div className={styles.index__team__block__content}>

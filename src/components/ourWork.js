@@ -22,18 +22,15 @@ export default function OurWork() {
     const first = projects[generateRandom(projects.length)];
     const second = projects[generateRandom(projects.length)];
     const third = projects[generateRandom(projects.length)];
-    console.log(first);
-    console.log(second);
-    console.log(third);
     return(
-        <Column className={styles.ourWork}>
+        <Column className={styles.ourWork} >
             <Block className={styles.ourWork__block}>
                 <h2>{$t.ourWork.title}</h2>
-                <div>                     
+                <div className={styles.ourWork__block__heading}>                     
                     <p>{$t.ourWork.par}</p>
                     <Link href="/work" legacyBehavior>
                         <div
-                        className={styles.ourWork__block__btn}
+                        className={styles.ourWork__block__heading__btn}
                         >{$t.ourWork.btn}</div> 
                     </Link>
                 </div>
@@ -52,8 +49,31 @@ export default function OurWork() {
                             </div>
                         </Link>
                     </section>
-                    <section>
-
+                    <section className={styles.ourWork__block__grid__half}>
+                        <Link href={second.route}>
+                            <div className={styles.ourWork__block__grid__half__item}>
+                                <div className={styles.ourWork__block__grid__half__item__img}>
+                                    <Image
+                                        fill
+                                        src={`/work/${second.thumbnail}.jpg`}
+                                        alt="project image"
+                                    />
+                                </div>                                    
+                                <span>{second.catchphrase}</span>
+                            </div>
+                        </Link>
+                        <Link href={third.route}>
+                            <div className={styles.ourWork__block__grid__half__item}>
+                                <div className={styles.ourWork__block__grid__half__item__img}>
+                                    <Image
+                                        fill
+                                        src={`/work/${third.thumbnail}.jpg`}
+                                        alt="project image"
+                                    />
+                                </div>                                    
+                                <span>{third.catchphrase}</span>
+                            </div>
+                        </Link>
                     </section>
                 </div>
             </Block>

@@ -5,7 +5,7 @@ export default function getProjectsIndexed(locale) {
             services: ["Discovery", "Agile Development"],
             route: "/work/spectrum-wine",
             thumbnail: "spectrum-thumbnail",
-            catchphrase: "sss"
+            catchphrase: "Experimenta el mundo de la subastas de vino, en todo lugar."
         
         },
         {
@@ -13,7 +13,7 @@ export default function getProjectsIndexed(locale) {
             services: ["Discovery", "Agile Development"],
             route: "/work/e-commerce-ws",
             thumbnail: "ws-thumbnail",
-            catchphrase: "sss"
+            catchphrase: "El Príncipe de Bel-Air toma el mundo del comercio electrónico por asalto."
         
         },
         {
@@ -21,7 +21,7 @@ export default function getProjectsIndexed(locale) {
             services: ["Discovery", "Agile Development"],
             route: "/work/legal-case-manager",
             thumbnail: "legal-thumbnail",
-            catchphrase: "sss"
+            catchphrase: "Unificando operaciones legales y de salud a través de una mejor conectividad."
         
         },
         {
@@ -29,7 +29,7 @@ export default function getProjectsIndexed(locale) {
             services: ["Discovery", "Agile Development"],
             route: "/work/real-state-crm",
             thumbnail: "avittat-thumbnail",
-            catchphrase: "sss"
+            catchphrase: "Mejorando operaciones de venta de bienes raíces con un CRM a medida."
         
         },
         {
@@ -37,7 +37,7 @@ export default function getProjectsIndexed(locale) {
             services: ["Discovery", "Agile Development"],
             route: "/work/water-park",
             thumbnail: "canadas-thumbnail",
-            catchphrase: "sss"
+            catchphrase: "Descubre la mejor experiencia en parques acuáticos con una gestión optimizada"
         
         },
         {
@@ -45,7 +45,7 @@ export default function getProjectsIndexed(locale) {
             services: ["Discovery", "Agile Development", "Agile Maintenance"],
             route: "/work/secret-network",
             thumbnail: "secret-thumbnail",
-            catchphrase: "sss"
+            catchphrase: "Asegura tu privacidad con Secret Network: rediseño de sitio web con tecnología Jamstack y el debut de nuestro sistema de diseño Flare."
         
         },
         {
@@ -53,7 +53,7 @@ export default function getProjectsIndexed(locale) {
             services: ["Discovery", "Agile Development", "Agile Maintenance"],
             route: "/work/skyou",
             thumbnail: "skyou-thumbnail",
-            catchphrase: "sss"
+            catchphrase: "La libertad de elegir, la facilidad de imprimir, moda personalizada al alcance de tus manos."
         
         },
         {
@@ -61,7 +61,7 @@ export default function getProjectsIndexed(locale) {
             services: ["Discovery", "Agile Development"],
             route: "/work/emprops",
             thumbnail: "emprops-thumbnail",
-            catchphrase: "sss"
+            catchphrase: "Explora el futuro del arte generativo e inteligencia artificial con EMPROPS."
         
         }//,
         // {
@@ -85,7 +85,7 @@ export default function getProjectsIndexed(locale) {
             services: ["Discovery", "Agile Development"],
             route: "/work/spectrum-wine",
             thumbnail: "spectrum-thumbnail",
-            catchphrase: ""
+            catchphrase: "Experience the world of wine auctions, anytime, anywhere."
         
         },
         {
@@ -93,7 +93,7 @@ export default function getProjectsIndexed(locale) {
             services: ["Discovery", "Agile Development"],
             route: "/work/e-commerce-ws",
             thumbnail: "ws-thumbnail",
-            catchphrase: ""
+            catchphrase: "The Fresh Prince of Bel-Air takes the e-commerce world by storm"
         
         },
         {
@@ -101,7 +101,7 @@ export default function getProjectsIndexed(locale) {
             services: ["Discovery", "Agile Development"],
             route: "/work/legal-case-manager",
             thumbnail: "legal-thumbnail",
-            catchphrase: ""
+            catchphrase: "Unifying legal and healthcare operations through improved connectivity"
         
         },
         {
@@ -109,7 +109,7 @@ export default function getProjectsIndexed(locale) {
             services: ["Discovery", "Agile Development"],
             route: "/work/real-state-crm",
             thumbnail: "avittat-thumbnail",
-            catchphrase: ""
+            catchphrase: "Enhancing real estate sales operations with a tailored CRM"
         
         },
         {
@@ -117,7 +117,7 @@ export default function getProjectsIndexed(locale) {
             services: ["Discovery", "Agile Development"],
             route: "/work/water-park",
             thumbnail: "canadas-thumbnail",
-            catchphrase: ""
+            catchphrase: "Discover the ultimate water park experience with streamlined management"
         
         },
         {
@@ -125,7 +125,7 @@ export default function getProjectsIndexed(locale) {
             services: ["Discovery", "Agile Development", "Agile Maintenance"],
             route: "/work/secret-network",
             thumbnail: "secret-thumbnail",
-            catchphrase: ""
+            catchphrase: "Secure your privacy with Secret Network: website redesign powered by Jamstack and the debut of our Flare design system."
         
         },
         {
@@ -133,7 +133,7 @@ export default function getProjectsIndexed(locale) {
             services: ["Discovery", "Agile Development", "Agile Maintenance"],
             route: "/work/skyou",
             thumbnail: "skyou-thumbnail",
-            catchphrase: ""
+            catchphrase: "The freedom to choose, the ease of printing, personalized fashion at your fingertips."
         
         },
         {
@@ -141,7 +141,7 @@ export default function getProjectsIndexed(locale) {
             services: ["Discovery", "Agile Development"],
             route: "/work/emprops",
             thumbnail: "emprops-thumbnail",
-            catchphrase: "sss"
+            catchphrase: "Explore the future of generative art and artificial intelligence with EMPROPS."
         
         }//,
         // {
