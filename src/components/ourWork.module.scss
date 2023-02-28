@@ -1,0 +1,52 @@
+.ourWork {
+    &__block {
+        &__btn {
+
+        }
+        &__grid {
+            a {
+                text-decoration: none;
+            }           
+            &__full {
+                &__item {
+                    &:hover {
+                        filter: grayscale(1);
+                    }
+                    &__img{
+                        position: relative;
+                        width: 568px;
+                        height: 568px;
+                        background-color: $color-bright-gray;
+                        @include respond-to("l") {
+                            width: 468px;
+                            height: 468px;
+                        }
+                        @include respond-to("m") {
+                            width: 364px;
+                            height: 364px;
+                        }
+                        @include respond-to("s") {
+                            width: 352px;
+                            height: 352px;
+                        }
+                        @include respond-to("<=xs") {
+                            width: 343px;
+                            height: 343px;
+                        }
+                        img {
+                            object-fit: cover;
+                        }
+                    }                    
+                    span {
+                        color: $color-lang-secondary;
+                        font-family: var(--lk-font-roboto);
+                        font-weight: 700;
+                        font-size: 16px;
+                        line-height: 20px;
+                        text-transform: uppercase;
+                    } 
+                }
+            }
+        }
+    }
+}

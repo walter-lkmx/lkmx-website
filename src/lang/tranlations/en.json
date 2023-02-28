@@ -523,5 +523,10 @@
         "paragraph": "This privacy notice may be modified, changed or updated due to new legal requirements, our own needs for the products or services we offer, our privacy practices, changes in our business model, or other reasons. We undertake to keep this privacy notice updated regarding any changes it may undergo, and you can always check for updates on the website",
         "link": "www.lkmx.io/privacy-policy."
       }
+    },
+    "ourWork": {
+      "title": "Our Work",
+      "par": "From startups to enterprises, we've helped drive growth and innovation through custom software development.",
+      "btn": "Go to Our Work"
     }
 }

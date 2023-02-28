@@ -9,8 +9,7 @@ import HeadSeo from '../../components/HeadSeo';
 import { useRouter } from 'next/router';
 import Image from 'next/image';
 import getProjectsIndexed from '../../lib/projectsIndex'
-
-
+import OurWork from '../../components/ourWork';
 export default function StoriesPage() {
     const { locale } = useRouter();
     const $t = getLang(locale);
@@ -61,7 +60,7 @@ export default function StoriesPage() {
                         </div>
                     </Block>
                 </Column>
-
+                <OurWork/>
                 <Column>
                     <Block className={styles.storiesPage__storiesBlock}>
                         <div className={styles.storiesPage__storiesGrid}> 
