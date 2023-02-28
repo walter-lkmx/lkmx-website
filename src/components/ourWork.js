@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import styles from "@/components/ourWork.module.scss";
 import { Block, Column } from "@lkmx/flare-react";
 import Image from "next/image";
@@ -7,31 +7,57 @@ import getLang from '@/lang';
 import { useRouter } from "next/router";
 import getProjectsIndexed from '../lib/projectsIndex';
 
-function generateRandom(maxLimit = length){
-    let rand = Math.random() * maxLimit;
-  
-    rand = Math.floor(rand); // 99
-  
-    return rand;
-  }
+
 
 export default function OurWork() {
     const { locale } = useRouter();
     const $t = getLang(locale);
-    const projects = getProjectsIndexed(locale);
-    const first = projects[generateRandom(projects.length)];
-    const second = projects[generateRandom(projects.length)];
-    const third = projects[generateRandom(projects.length)];
-    return(
+    const [first, setFirst] = useState({});
+    const [second, setSecond] = useState({});
+    const [third, setThird] = useState({});
+
+    useEffect(() => {
+        setProjects();
+    }, []);
+
+    function setProjects() {
+        const projects = getProjectsIndexed(locale);
+        const numbers = generateRandom(projects.length);
+        setFirst(projects[numbers.one]);
+        setSecond(projects[numbers.two]);
+        setThird(projects[numbers.three]);
+    }
+
+    function generateRandom(maxLimit) {
+        const generate = () => Math.floor(Math.random() * maxLimit);
+        const values = { one: generate(), two: generate(), three: generate() }
+        
+        return isUnique(values) ? values : generateRandom(maxLimit);
+    }
+
+    function isUnique(obj) {
+        const values = Object.values(obj);
+        const uniqueValues = [];
+
+        values.forEach((value) => {
+            if (!uniqueValues.includes(value)) {
+                uniqueValues.push(value);
+            }
+        });
+
+        return values.length === uniqueValues.length;
+    }
+
+    return (first.title && second.title && third.title ?
         <Column className={styles.ourWork} >
             <Block className={styles.ourWork__block}>
                 <h2>{$t.ourWork.title}</h2>
-                <div className={styles.ourWork__block__heading}>                     
+                <div className={styles.ourWork__block__heading}>
                     <p>{$t.ourWork.par}</p>
                     <Link href="/work" legacyBehavior>
                         <div
-                        className={styles.ourWork__block__heading__btn}
-                        >{$t.ourWork.btn}</div> 
+                            className={styles.ourWork__block__heading__btn}
+                        >{$t.ourWork.btn}</div>
                     </Link>
                 </div>
                 <div className={styles.ourWork__block__grid}>
@@ -44,7 +70,7 @@ export default function OurWork() {
                                         src={`/work/${first.thumbnail}.jpg`}
                                         alt="project image"
                                     />
-                                </div>                                    
+                                </div>
                                 <span>{first.catchphrase}</span>
                             </div>
                         </Link>
@@ -58,7 +84,7 @@ export default function OurWork() {
                                         src={`/work/${second.thumbnail}.jpg`}
                                         alt="project image"
                                     />
-                                </div>                                    
+                                </div>
                                 <span>{second.catchphrase}</span>
                             </div>
                         </Link>
@@ -70,7 +96,7 @@ export default function OurWork() {
                                         src={`/work/${third.thumbnail}.jpg`}
                                         alt="project image"
                                     />
-                                </div>                                    
+                                </div>
                                 <span>{third.catchphrase}</span>
                             </div>
                         </Link>
@@ -78,5 +104,6 @@ export default function OurWork() {
                 </div>
             </Block>
         </Column>
+        : <span>Loading</span>
     );
 }
