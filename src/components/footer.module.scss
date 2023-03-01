@@ -138,30 +138,33 @@
         }
       }
     }
-  }
-  &__bottom {
-    background-color: $color-neutral-black;
-    position: relative;
-    --f-gutter: 0;
-    text-align: end;
-    &__sand {
-      top: 0;
-      left: 0;
-      position: absolute;
-      height: rem(61px);
-      background: url('/sand.png') repeat;
-      width: 33.3%;
-    }
-    &__name {
-      padding: .5rem 1rem;
-      line-height: rem(28px);
-      background-color: $color-neutral-black;
-      width: max-content;
-      margin: auto;
-      margin-right: 0;
-    }
-    > div {
-      z-index: 1;
+    &__privacy {
+      padding-bottom: 42px;
+      > div > div {
+        padding-left: 16px !important;
+        @include respond-to("xxxl") {
+          padding-left: 96px !important;
+        }
+        @include respond-to("xxl") {
+          padding-left: 0px !important;
+        }
+        @include respond-to("<=l") {
+          padding-left: 26px !important;
+        }
+      }
+      &__anchor {
+        width: 140px;
+        color: #00D0F6;
+        width: 100%;
+        height: auto;
+        border-top: 1px solid white;
+        text-decoration: none;
+        padding-top: 16px;
+        text-align: start;
+        &:hover{
+          color: #CCF7FF;
+        }
+      }
     }
   }
 

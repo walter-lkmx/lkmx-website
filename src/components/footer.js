@@ -82,6 +82,9 @@ export default function Footer() {
             </div>
           </div>
         </Block>
+        <Block className={styles.footer__top__privacy}>
+          <Link href={"/privacy-policy"} className={styles.footer__top__privacy__anchor}>Aviso de Privacidad</Link>
+        </Block>
       </Column>
     </footer>
   );
