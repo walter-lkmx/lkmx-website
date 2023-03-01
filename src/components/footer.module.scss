@@ -142,6 +142,8 @@
       padding-bottom: 42px;
       > div > div {
         padding-left: 16px !important;
+        border-top: 1px solid #495CE9;
+        padding-top: 16px !important;
         @include respond-to("xxxl") {
           padding-left: 96px !important;
         }
@@ -157,12 +159,13 @@
         color: #00D0F6;
         width: 100%;
         height: auto;
-        border-top: 1px solid white;
-        text-decoration: none;
-        padding-top: 16px;
+        text-decoration: none;        
         text-align: start;
         &:hover{
-          color: #CCF7FF;
+          color: #CCF7FF !important;
+        }
+        &:visited {
+          color: #00D0F6;
         }
       }
     }

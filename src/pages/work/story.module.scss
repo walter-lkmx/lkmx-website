@@ -158,13 +158,14 @@
         }
         &__2cGridPulledQuote {
             min-height: 216px;
+            @include respond-to("l") {
+                grid-template-columns: 2fr 1fr !important;
+            }
         }
         &__2cGrid {
             display: grid;
             grid-template-columns: 1fr 1fr;
-            @include respond-to("l") {
-                grid-template-columns: 2fr 1fr;
-            }
+            
             column-gap: 26px;
             position: relative;
             ul {
