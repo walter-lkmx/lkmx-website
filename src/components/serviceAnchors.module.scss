@@ -44,7 +44,7 @@
                   text-align: right;
                   text-transform: uppercase;
                   color: $color-lang-secondary;
-                  
+                  transition: .2s ease-in;
                   &:hover {
                     color: $color-blue !important;
                   }

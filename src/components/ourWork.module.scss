@@ -48,8 +48,9 @@
                 &__item {
                     display: grid;    
                     gap: 16px; 
+                    transition: .2s ease-in;
                     &:hover {
-                        filter: grayscale(1);
+                        filter: grayscale(1);                        
                     }
                     &__img{
                         position: relative;
@@ -83,7 +84,8 @@
                 grid-template-rows: min-content min-content;
                 &__item {
                     display: grid;    
-                    gap: 16px;  
+                    gap: 16px;
+                    transition: .2s ease-in;
                     &:hover {
                         filter: grayscale(1);
                     }
