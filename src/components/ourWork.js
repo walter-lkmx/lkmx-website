@@ -7,8 +7,6 @@ import getLang from '@/lang';
 import { useRouter } from "next/router";
 import getProjectsIndexed from '../lib/projectsIndex';
 
-
-
 export default function OurWork() {
     const { locale } = useRouter();
     const $t = getLang(locale);
