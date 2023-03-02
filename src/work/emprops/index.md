@@ -37,7 +37,7 @@ introduction: {
 <div>
     <figure>
         <img src="/work/emprops-figure2.jpg" alt="BigBang art"/>
-        <figcaption class="story_story__mainContent__caption__IQRnS">El arte abstracto en la colección The Big Bang ofrece una amplia variedad de resultados únicos e irrepetibles.<br/>Autor @yepayepayepa </figcaption>
+        <figcaption class="story_story__mainContent__caption__IQRnS">El arte abstracto en la colección The Big Bang ofrece una amplia variedad de resultados únicos e irrepetibles.<br/>Autor <a href="https://twitter.com/yepayepayepa">@yepayepayepa</a> </figcaption>
     </figure>    
 </div>
 <div>
@@ -58,13 +58,13 @@ introduction: {
     <figure>
         <img src="/work/emprops-figure4.jpg" alt="Ghost in the machine"/>
         <figcaption class="story_story__mainContent__caption__IQRnS">Ghost in the Machine explora la belleza de la imperfección y el caos. Se creó mediante una combinación única entre p5.js, Stable Diffusion e ImageMagick. <br/>
-        Autor @3mil_c</figcaption>
+        Autor <a href="https://twitter.com/3mil_c">@3mil_c</a></figcaption>
     </figure>    
 </div>
 <div>
     <figure>
         <img src="/work/emprops-figure5.jpg" alt="The Oracles"/>
-        <figcaption class="story_story__mainContent__caption__IQRnS">The Oracles es una colección generativa de PFPs generados mediante inteligencia artificial utilizando el modelo texto-a-imagen Stable Diffusion. <br/>Autor @iragreenberg</figcaption>
+        <figcaption class="story_story__mainContent__caption__IQRnS">The Oracles es una colección generativa de PFPs generados mediante inteligencia artificial utilizando el modelo texto-a-imagen Stable Diffusion. <br/>Autor <a href="https://twitter.com/iragreenberg">@iragreenberg</a></figcaption>
     </figure>    
 </div>
 <div>
