@@ -140,6 +140,10 @@
     }
     &__privacy {
       padding-bottom: 42px;
+      @include respond-to("<=s") {
+        padding-left: 26px;
+        padding-right: 26px;
+      }
       > div > div {
         padding-left: 16px !important;
         border-top: 1px solid #495CE9;
@@ -152,6 +156,9 @@
         }
         @include respond-to("<=l") {
           padding-left: 26px !important;
+        }
+        @include respond-to("<=s") {
+          padding-left: 0px !important;
         }
       }
       &__anchor {

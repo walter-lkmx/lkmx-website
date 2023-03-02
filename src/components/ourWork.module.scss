@@ -1,8 +1,18 @@
 .ourWork {
     &__block {
+        > div > div {
+            padding: 136px 0px !important;
+            @include respond-to("<=s") {
+                padding: 72px 16px !important;
+            }
+        }
         &__heading {
             display: grid;
             grid-template-columns: 2fr 1fr;
+            @include respond-to("<=xs") {
+                grid-template-columns: 1fr;
+                padding-bottom: 56px;
+            }
             p {
                 font-size: 20px;
                 line-height: 30px;
@@ -21,6 +31,9 @@
                 text-align: center;            
                 &:hover {
                     background-color: $color-btn-hover;
+                }
+                @include respond-to("<=xs") {
+                    justify-self: start;
                 }
             }
         }        
