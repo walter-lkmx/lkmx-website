@@ -97,18 +97,19 @@
             &__half {          
                 display: grid;    
                 gap: 32px;  
-                grid-template-rows: min-content min-content;
+                grid-template-rows: min-content min-content;                
                 &__item {
                     display: grid;    
                     gap: 16px;
                     transition: .2s ease-in;
+                    max-height: 290px;
                     &:hover {
                         filter: grayscale(1);
                     }
                     &__img {
                         position: relative;
                         width: 568px;
-                        height: 218px;
+                        height: 246px;
                         @include respond-to("l") {
                             width: 464px;
                             height: 222px;
