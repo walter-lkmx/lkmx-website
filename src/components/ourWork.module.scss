@@ -35,6 +35,9 @@
                 @include respond-to("<=xs") {
                     justify-self: start;
                 }
+                @include respond-to("xxxl") {
+                    transform: translateX(180px);
+                }
             }
         }        
         &__grid {

@@ -240,7 +240,7 @@
 				margin: auto;
 				width: 100%;
 				@include respond-to(">=xl") {
-					transform: translate(125px, -134px);
+					transform: translate(39px, -104px);
 				}
 				
 				@include respond-to("<=l") {
@@ -298,7 +298,7 @@
 						display: grid;
 						align-items: center;
 						justify-items: center;
-						height: rem(60px);
+						height: rem(50px);
 						@include respond-to("<=l") {
 							height: 3rem;
 							img {

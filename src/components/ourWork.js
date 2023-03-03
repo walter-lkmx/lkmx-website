@@ -47,7 +47,7 @@ export default function OurWork() {
     }
 
     return (first.title && second.title && third.title ?
-        <Column className={styles.ourWork} >
+        <Column className={styles.ourWork} modeXxxl="slim">
             <Block className={styles.ourWork__block}>
                 <h2>{$t.ourWork.title}</h2>
                 <div className={styles.ourWork__block__heading}>

@@ -164,7 +164,7 @@ export default function Index() {
           </Block>
         </Column>
 
-        <Column className={styles.index__technologies} mode="normal">
+        <Column className={styles.index__technologies} mode="normal" modeXxxl="slim">
           <Block className={styles.index__technologies__block}>
             <div className={styles.index__technologies__block__title}>
               <h2>{$t.home.technologiesTitle}</h2>
