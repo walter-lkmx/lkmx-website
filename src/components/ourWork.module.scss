@@ -101,8 +101,10 @@
                 &__item {
                     display: grid;    
                     gap: 16px;
-                    transition: .2s ease-in;
-                    max-height: 290px;
+                    transition: .2s ease-in;                    
+                    @include respond-to(">=m") {
+                        max-height: 290px;
+                    }
                     &:hover {
                         filter: grayscale(1);
                     }

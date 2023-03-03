@@ -211,6 +211,9 @@
         grid-template-rows: minmax(64px, auto) 1fr auto;        
         h3 {
           height: 62px;
+          @include respond-to("m") {
+            height: unset;
+          }
         }
         h4 {
           line-height: 32px;
