@@ -271,7 +271,8 @@
                     "Tools"
                 ]
             }
-        }
+        },
+        "privacy": "Privacy"
     },
     "project": {
         "services": "Services",

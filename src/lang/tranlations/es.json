@@ -246,7 +246,8 @@
         "title": "TECNOLOGÍA",
         "items": ["Nuestras Tecnologías", "Frameworks", "Plataformas", "Herramientas"]
       }
-    }
+    },
+    "privacy": "Aviso de Privacidad"
   },
   "project": {
     "services": "Servicios",
