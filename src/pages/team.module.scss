@@ -120,6 +120,11 @@
             height: inherit;
           }
         }
+        @include respond-to(">=l") {
+          left: 12.8rem;
+          width: 392px;
+          height: 669.38px;
+        }
       }
       &__triangle-mobile,
       &__clouds-mobile {

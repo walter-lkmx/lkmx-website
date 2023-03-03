@@ -142,6 +142,7 @@
             }            
         }
         &__item {
+            transition: .2s ease-in;
             &:hover {
                 filter: grayscale(1);
             }
