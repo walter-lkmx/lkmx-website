@@ -19,8 +19,7 @@
     &__content {
       display: grid;
       grid-template-areas: "pages information";
-      padding: rem(42px) rem(26px);
-			min-height: 370px;
+      padding: rem(52px) rem(26px);
 			align-items: center;
       &__pages {
         display: grid;
@@ -182,7 +181,7 @@
   @include respond-to(">=xl") {
     &__top {
       &__content {
-        padding: rem(39.52px) 1rem;
+        padding: rem(52px) 1rem;
         &__pages {
           grid-template-columns: rem(221px) rem(223px) auto;
         }
