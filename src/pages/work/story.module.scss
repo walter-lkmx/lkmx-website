@@ -302,10 +302,23 @@
             }
         }        
         &__gantt {
+            @include respond-to(">=l"){
+                position: relative;
+                height: 460px;
+                margin-bottom: 73px;
+                figure {
+                    position: absolute;
+                    
+                    left: 50%;
+                    transform: translateX(-50%);
+                }
+            }
+            
             img {
                 min-height: unset;
-            }
-            @include respond-to("xxxl") {
+                @include respond-to(">=l") {
+                    max-width: 99vw !important;
+                }
             }
         }
         &__imagesGrid {            
