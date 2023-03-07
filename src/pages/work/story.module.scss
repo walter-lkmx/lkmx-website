@@ -317,7 +317,7 @@
             img {
                 min-height: unset;
                 @include respond-to(">=l") {
-                    max-width: 99vw !important;
+                    max-width: calc(100vw - 80px) !important;
                 }
             }
         }
