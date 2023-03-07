@@ -16,7 +16,7 @@ export default function OurWork() {
 
     useEffect(() => {
         setProjects();
-    }, []);
+    }, [locale]);
 
     function setProjects() {
         const projects = getProjectsIndexed(locale);
