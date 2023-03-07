@@ -378,10 +378,10 @@
     "intro": "Once the development is finished, we offer maintenance and support services to guarantee the stability and successful transfer of the platform to your business. We have three maintenance modalities: Scope Development, Agile maintenance and Continuous Support. These types of projects follow the same internal development processes with administrative and operational variants in favor of efficient use of resources.",
     "kanban": {
       "title": [
-        "We employ Kanban", "as an agile framework"
+        "We use Kanban", "as an agile framework"
       ],
       "content": [
-        "to prioritize and organize planned and on-call work, which allows us to maintain a constant flow of deliverables, through the implementation of solutions that immediately provide value to the client."
+        "We employ Kanban as an agile workframe to prioritize and organize planned and on-call work, which allows us to maintain a constant flow of deliverables, through the implementation of solutions that immediately provide value to the client."
       ]
     },
     "sections": [

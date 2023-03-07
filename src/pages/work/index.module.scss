@@ -141,10 +141,12 @@
                 }
             }            
         }
-        &__item {
-            transition: .2s ease-in;
-            &:hover {
-                filter: grayscale(1);
+        &__item {            
+            &:hover {                                
+                img {
+                    filter: grayscale(1);
+                    transition: .2s ease-in;
+                }
             }
             &__img{
                 position: relative;
