@@ -12,7 +12,7 @@
       * {
         color: white;
       }
-      background-color: $color-neutral-black;
+      
       &:first-child {
         --f-gutter: 0px;
         > div > div {
@@ -41,10 +41,12 @@
         height: 100%;
         display: grid;
         align-items: end;
-        div {
+        background-color: $color-neutral-black;
+        &__content{
           padding-bottom: rem(55px);
           *{margin: 0;}
           h2 {
+            color: white;
             font-family: $font-tertiary;
             font-size: rem(35px);
             line-height: rem(47px);
@@ -52,9 +54,11 @@
             font-weight: 800;
           }
           p {
+            color: white;
             margin: 0;
             font-size: rem(20px);
             line-height: rem(30px);
+            max-width: 355px;
             &:last-child {
               padding-top: rem(16px);
             }
@@ -71,24 +75,6 @@
       }
       &__right {    
         height: 100%;  
-        div:first-child {
-          position: absolute;
-          top: 0;
-          left: 0;
-          height: $hero-height-large;
-          width: rem(155px);
-          background-image: linear-gradient(
-            to bottom right,
-            $color-neutral-black 0%,
-            $color-neutral-black 50%,
-            rgba(255, 255, 255, 0) 50%,
-            rgba(255, 255, 255, 0) 100%
-          );
-          z-index: 1;
-          @include respond-to('<=s') {
-            display: none;
-          }
-        }
         &__waves {
           position: relative;
           height: 100%;
@@ -117,10 +103,8 @@
   &__intro {
     &__block {
       .lkContainer {
-        padding: 108px 0;
-        display: flex;
-        justify-content: center;
-        text-align: center;
+        padding: 108px 16px;
+        justify-content: start;        
         @include respond-to("<=xs") {
           text-align: start;
         }
@@ -137,6 +121,11 @@
             font-size: 24px;
             line-height: 32px;
           }
+        }
+        p {
+          max-width: 960px;
+          font-size: 20px;
+          line-height: 30px;
         }
       }
     }
