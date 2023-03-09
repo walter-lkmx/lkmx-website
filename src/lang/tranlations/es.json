@@ -176,42 +176,290 @@
       {
         "title": "Salud y Bienestar",
         "description": "Creamos soluciones innovadoras incorporando tecnologías seguras a la prestación de servicios médicos y bienestar personal.",
-        "img": "/icon-industry-healthcare_wellness.svg"
+        "img": "/industries/heartBeat.svg",
+        "capabilitiesTitle": "Capacidades:",
+        "capabilities": [
+          {
+            "name": ["Device Tracking", ""],
+            "ref": ""
+          },
+          {
+            "name": ["Conexión con", "sensores biométricos"],
+            "ref": ""
+          },
+          {
+            "name": ["Internet of things", ""],
+            "ref": ""
+          },
+          {
+            "name": ["B2C",""],
+            "ref": ""
+          },
+          {
+            "name": ["B2G",""],
+            "ref": ""
+          },
+          {
+            "name": ["Desarrollo de aplicaciones","móviles para usuarios finales"],
+            "ref": ""
+          },
+          {
+            "name": ["Big data",""],
+            "ref": ""
+          }
+        ]
       },
       {
         "title": "Logística",
         "description": "Modernizamos servicios que ayudan a nuestros clientes a cumplir requerimientos, reducir costos, aumentar la eficiencia y entregar resultados de Misión Crítica.",
-        "img": "/icon-industry-logistics.svg"
+        "img": "/industries/trace.svg",
+        "capabilitiesTitle": "Capacidades:",
+        "capabilities": [
+          {
+            "name": ["Device Tracking", ""],
+            "ref": ""
+          },
+          {
+            "name": ["Conexión con", "sensores biométricos"],
+            "ref": ""
+          },
+          {
+            "name": ["Internet of things", ""],
+            "ref": ""
+          },
+          {
+            "name": ["B2C",""],
+            "ref": ""
+          },
+          {
+            "name": ["B2G",""],
+            "ref": ""
+          },
+          {
+            "name": ["Desarrollo de aplicaciones","móviles para usuarios finales"],
+            "ref": ""
+          },
+          {
+            "name": ["Big data",""],
+            "ref": ""
+          }
+        ]
       },
       {
         "title": "Análisis de Datos",
         "description": "Construimos y conectamos experiencias de inteligencia de datos flexibles, escalables y elásticas para dar certeza a las desiciones de negocio.",
-        "img": "/icon-industry-data_analytics.svg"
+        "img": "/industries/chartLine.svg",
+        "capabilitiesTitle": "Capacidades:",
+        "capabilities": [
+          {
+            "name": ["Device Tracking", ""],
+            "ref": ""
+          },
+          {
+            "name": ["Conexión con", "sensores biométricos"],
+            "ref": ""
+          },
+          {
+            "name": ["Internet of things", ""],
+            "ref": ""
+          },
+          {
+            "name": ["B2C",""],
+            "ref": ""
+          },
+          {
+            "name": ["B2G",""],
+            "ref": ""
+          },
+          {
+            "name": ["Desarrollo de aplicaciones","móviles para usuarios finales"],
+            "ref": ""
+          },
+          {
+            "name": ["Big data",""],
+            "ref": ""
+          }
+        ]
       },
       {
         "title": "Hospitalidad",
         "description": "Ayudamos a nuestros clientes a obtener ventaja competitiva al enriquecer la experiencia de sus clientes y mejorando su eficiencia operativa.",
-        "img": "/icon-industry-hospitality.svg"
+        "img": "/industries/bed.svg",
+        "capabilitiesTitle": "Capacidades:",
+        "capabilities": [
+          {
+            "name": ["Device Tracking", ""],
+            "ref": ""
+          },
+          {
+            "name": ["Conexión con", "sensores biométricos"],
+            "ref": ""
+          },
+          {
+            "name": ["Internet of things", ""],
+            "ref": ""
+          },
+          {
+            "name": ["B2C",""],
+            "ref": ""
+          },
+          {
+            "name": ["B2G",""],
+            "ref": ""
+          },
+          {
+            "name": ["Desarrollo de aplicaciones","móviles para usuarios finales"],
+            "ref": ""
+          },
+          {
+            "name": ["Big data",""],
+            "ref": ""
+          }
+        ]
       },
       {
-        "title": "Comercio Electrónico",
+        "title": "ECOMMERCE",
         "description": "Desarrollamos soluciones en la nube que no solo optimizan la operación de venta, sino que deleitan a los clientes y promueven la adopción de la marca.",
-        "img": "/icon-industry-ecommerce.svg"
+        "img": "/industries/shoppingCart.svg",
+        "capabilitiesTitle": "Capacidades:",
+        "capabilities": [
+          {
+            "name": ["Device Tracking", ""],
+            "ref": ""
+          },
+          {
+            "name": ["Conexión con", "sensores biométricos"],
+            "ref": ""
+          },
+          {
+            "name": ["Internet of things", ""],
+            "ref": ""
+          },
+          {
+            "name": ["B2C",""],
+            "ref": ""
+          },
+          {
+            "name": ["B2G",""],
+            "ref": ""
+          },
+          {
+            "name": ["Desarrollo de aplicaciones","móviles para usuarios finales"],
+            "ref": ""
+          },
+          {
+            "name": ["Big data",""],
+            "ref": ""
+          }
+        ]
       },
       {
-        "title": "Emprendimiento",
+        "title": "Emprendedurismo",
         "description": "Prototipamos, validamos y construimos MVPs escalables, minimizamos riesgos y maximizamos retornos. Acompañamos al emprendedor en su largo viaje.",
-        "img": "/icon-industry-entrepreneurship.svg"
+        "img": "/industries/flag.svg",
+        "capabilitiesTitle": "Capacidades:",
+        "capabilities": [
+          {
+            "name": ["Device Tracking", ""],
+            "ref": ""
+          },
+          {
+            "name": ["Conexión con", "sensores biométricos"],
+            "ref": ""
+          },
+          {
+            "name": ["Internet of things", ""],
+            "ref": ""
+          },
+          {
+            "name": ["B2C",""],
+            "ref": ""
+          },
+          {
+            "name": ["B2G",""],
+            "ref": ""
+          },
+          {
+            "name": ["Desarrollo de aplicaciones","móviles para usuarios finales"],
+            "ref": ""
+          },
+          {
+            "name": ["Big data",""],
+            "ref": ""
+          }
+        ]
       },
       {
         "title": "Web3",
         "description": "Diseñamos soluciones descentralizadas, creativas e innovadoras para los protocolos públicos y privados del nuevo internet.",
-        "img": "/icon-industry-web3.svg"
+        "img": "/industries/currencyBtc.svg",
+        "capabilitiesTitle": "Capacidades:",
+        "capabilities": [
+          {
+            "name": ["Device Tracking", ""],
+            "ref": ""
+          },
+          {
+            "name": ["Conexión con", "sensores biométricos"],
+            "ref": ""
+          },
+          {
+            "name": ["Internet of things", ""],
+            "ref": ""
+          },
+          {
+            "name": ["B2C",""],
+            "ref": ""
+          },
+          {
+            "name": ["B2G",""],
+            "ref": ""
+          },
+          {
+            "name": ["Desarrollo de aplicaciones","móviles para usuarios finales"],
+            "ref": ""
+          },
+          {
+            "name": ["Big data",""],
+            "ref": ""
+          }
+        ]
       },
       {
         "title": "Innovación de Procesos",
         "description": "Transformamos negocios, producimos implementaciones de nivel empresarial, eficientes y potentes.",
-        "img": "/icon-industry-process_innovation.svg"
+        "img": "/industries/gearSix.svg",
+        "capabilitiesTitle": "Capacidades:",
+        "capabilities": [
+          {
+            "name": ["Device Tracking", ""],
+            "ref": ""
+          },
+          {
+            "name": ["Conexión con", "sensores biométricos"],
+            "ref": ""
+          },
+          {
+            "name": ["Internet of things", ""],
+            "ref": ""
+          },
+          {
+            "name": ["B2C",""],
+            "ref": ""
+          },
+          {
+            "name": ["B2G",""],
+            "ref": ""
+          },
+          {
+            "name": ["Desarrollo de aplicaciones","móviles para usuarios finales"],
+            "ref": ""
+          },
+          {
+            "name": ["Big data",""],
+            "ref": ""
+          }
+        ]
       }
     ]
   },

@@ -190,42 +190,290 @@
           {
             "title": "Healthcare & Wellness",
             "description": "We create innovative solutions by incorporating safe technologies into the provision of medical services and personal well-being.",
-            "img": "/icon-industry-healthcare_wellness.svg"
+            "img": "/industries/heartBeat.svg",
+            "capabilitiesTitle": "Capabilities:",
+            "capabilities": [
+              {
+                "name": ["Device Tracking", ""],
+                "ref": ""
+              },
+              {
+                "name": ["Biometric sensor", "connection"],
+                "ref": ""
+              },
+              {
+                "name": ["Internet of things", ""],
+                "ref": ""
+              },
+              {
+                "name": ["B2C",""],
+                "ref": ""
+              },
+              {
+                "name": ["B2G",""],
+                "ref": ""
+              },
+              {
+                "name": ["mobile app development","for end users"],
+                "ref": ""
+              },
+              {
+                "name": ["Big data",""],
+                "ref": ""
+              }
+            ]
           },
           {
             "title": "Logistics",
             "description": "We modernize services that help our clients meet requirements, reduce costs, increase efficiency and deliver Mission Critical results.",
-            "img": "/icon-industry-logistics.svg"
+            "img": "/industries/trace.svg",
+            "capabilitiesTitle": "Capabilities:",
+            "capabilities": [
+              {
+                "name": ["Device Tracking", ""],
+                "ref": ""
+              },
+              {
+                "name": ["Biometric sensor", "connection"],
+                "ref": ""
+              },
+              {
+                "name": ["Internet of things", ""],
+                "ref": ""
+              },
+              {
+                "name": ["B2C",""],
+                "ref": ""
+              },
+              {
+                "name": ["B2G",""],
+                "ref": ""
+              },
+              {
+                "name": ["mobile app development","for end users"],
+                "ref": ""
+              },
+              {
+                "name": ["Big data",""],
+                "ref": ""
+              }
+            ]
           },
           {
             "title": "Data Analytics",
             "description": "We build and connect flexible, scalable, and elastic data intelligence experiences to give certainty to business decisions.",
-            "img": "/icon-industry-data_analytics.svg"
+            "img": "/industries/chartLine.svg",
+            "capabilitiesTitle": "Capabilities:",
+            "capabilities": [
+              {
+                "name": ["Device Tracking", ""],
+                "ref": ""
+              },
+              {
+                "name": ["Biometric sensor", "connection"],
+                "ref": ""
+              },
+              {
+                "name": ["Internet of things", ""],
+                "ref": ""
+              },
+              {
+                "name": ["B2C",""],
+                "ref": ""
+              },
+              {
+                "name": ["B2G",""],
+                "ref": ""
+              },
+              {
+                "name": ["mobile app development","for end users"],
+                "ref": ""
+              },
+              {
+                "name": ["Big data",""],
+                "ref": ""
+              }
+            ]
           },
           {
             "title": "Hospitality",
             "description": "We help our customers gain a competitive advantage by enriching their customer experience and improving their operational efficiency.",
-            "img": "/icon-industry-hospitality.svg"
+            "img": "/industries/bed.svg",
+            "capabilitiesTitle": "Capabilities:",
+            "capabilities": [
+              {
+                "name": ["Device Tracking", ""],
+                "ref": ""
+              },
+              {
+                "name": ["Biometric sensor", "connection"],
+                "ref": ""
+              },
+              {
+                "name": ["Internet of things", ""],
+                "ref": ""
+              },
+              {
+                "name": ["B2C",""],
+                "ref": ""
+              },
+              {
+                "name": ["B2G",""],
+                "ref": ""
+              },
+              {
+                "name": ["mobile app development","for end users"],
+                "ref": ""
+              },
+              {
+                "name": ["Big data",""],
+                "ref": ""
+              }
+            ]
           },
           {
             "title": "Ecommerce",
             "description": "We develop solutions on the cloud that not just optimize sales operations, but also delight customers and promote brand adoption.",
-            "img": "/icon-industry-ecommerce.svg"
+            "img": "/industries/shoppingCart.svg",
+            "capabilitiesTitle": "Capabilities:",
+            "capabilities": [
+              {
+                "name": ["Device Tracking", ""],
+                "ref": ""
+              },
+              {
+                "name": ["Biometric sensor", "connection"],
+                "ref": ""
+              },
+              {
+                "name": ["Internet of things", ""],
+                "ref": ""
+              },
+              {
+                "name": ["B2C",""],
+                "ref": ""
+              },
+              {
+                "name": ["B2G",""],
+                "ref": ""
+              },
+              {
+                "name": ["mobile app development","for end users"],
+                "ref": ""
+              },
+              {
+                "name": ["Big data",""],
+                "ref": ""
+              }
+            ]
           },
           {
             "title": "Entrepreneurship",
             "description": "We prototype, validate, and build scalable MVPs, minimizing risks and maximizing returns. We accompany the entrepreneur on his long journey.",
-            "img": "/icon-industry-entrepreneurship.svg"
+            "img": "/industries/flag.svg",
+            "capabilitiesTitle": "Capabilities:",
+            "capabilities": [
+              {
+                "name": ["Device Tracking", ""],
+                "ref": ""
+              },
+              {
+                "name": ["Biometric sensor", "connection"],
+                "ref": ""
+              },
+              {
+                "name": ["Internet of things", ""],
+                "ref": ""
+              },
+              {
+                "name": ["B2C",""],
+                "ref": ""
+              },
+              {
+                "name": ["B2G",""],
+                "ref": ""
+              },
+              {
+                "name": ["mobile app development","for end users"],
+                "ref": ""
+              },
+              {
+                "name": ["Big data",""],
+                "ref": ""
+              }
+            ]
           },
           {
             "title": "Web3",
             "description": "We design creative and innovative decentralized solutions for public and private protocols of the new internet.",
-            "img": "/icon-industry-web3.svg"
+            "img": "/industries/currencyBtc.svg",
+            "capabilitiesTitle": "Capabilities:",
+            "capabilities": [
+              {
+                "name": ["Device Tracking", ""],
+                "ref": ""
+              },
+              {
+                "name": ["Biometric sensor", "connection"],
+                "ref": ""
+              },
+              {
+                "name": ["Internet of things", ""],
+                "ref": ""
+              },
+              {
+                "name": ["B2C",""],
+                "ref": ""
+              },
+              {
+                "name": ["B2G",""],
+                "ref": ""
+              },
+              {
+                "name": ["mobile app development","for end users"],
+                "ref": ""
+              },
+              {
+                "name": ["Big data",""],
+                "ref": ""
+              }
+            ]
           },
           {
             "title": "Process Innovation",
             "description": "We transform business, we produce enterprise-level, efficient and, powerful implementations.",
-            "img": "/icon-industry-process_innovation.svg"
+            "img": "/industries/gearSix.svg",
+            "capabilitiesTitle": "Capabilities:",
+            "capabilities": [
+              {
+                "name": ["Device Tracking", ""],
+                "ref": ""
+              },
+              {
+                "name": ["Biometric sensor", "connection"],
+                "ref": ""
+              },
+              {
+                "name": ["Internet of things", ""],
+                "ref": ""
+              },
+              {
+                "name": ["B2C",""],
+                "ref": ""
+              },
+              {
+                "name": ["B2G",""],
+                "ref": ""
+              },
+              {
+                "name": ["mobile app development","for end users"],
+                "ref": ""
+              },
+              {
+                "name": ["Big data",""],
+                "ref": ""
+              }
+            ]
           }
         ]
       },

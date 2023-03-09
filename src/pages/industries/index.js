@@ -7,25 +7,12 @@ import siteMetadata from '../../meta/siteMetadata';
 import HeadSeo from '../../components/HeadSeo';
 import { useRouter } from 'next/router';
 import Image from "next/image";
+import IndustriesAnchors from '../../components/industriesAnchors';
 
 export default function TechnologyPage() {
   const { locale } = useRouter();
   const $t = getLang(locale);
   const industriesCat = $t.industries.catalogItems
-  let industriesCatItems = industriesCat.map(function(item, index){
-    return <div key={index} className={styles.catalogItem}>
-              <Image
-                src={item.img}
-                alt={item.title}
-                width={32}
-                height={32}
-              />
-              <div className={styles.catalogItem__desc}>
-                <h4>{item.title}</h4>
-                <p>{item.description}</p>
-              </div>
-            </div>;
-  })
 
   return (
     <BaseLayout>
@@ -95,6 +82,8 @@ export default function TechnologyPage() {
             </div>
           </Block>
         </Column>
+        <IndustriesAnchors anchorsData={industriesCat}/>
+        {/* 
         <Column className={styles.industries__catalog}>
           <Block>
             <div className={styles.lkContainer}>
@@ -109,6 +98,7 @@ export default function TechnologyPage() {
             </div>
           </Block>
         </Column>
+        */}        
       </Page>
     </BaseLayout>
   );
