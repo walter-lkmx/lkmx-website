@@ -183,7 +183,7 @@
         "hero": [
           "Our history in diverse industries gives us the needed experience to understand your business and create software solutions that make your product successful."
         ],
-        "intro": "We keep up with evolving trends and technologies that impact digital changes and offer opportunities depending on the type of company.",
+        "intro": "We keep up with evolving trends and technologies that impact digital changes and offer opportunities depending on the type of company. Learn more about how we have helped other businesses related to your industry.",
         "catalogTitle": "Each idea requires a custom solution",
         "catalogDescription": "Learn more about how we help other businesses related to your industry.",
         "catalogItems": [
@@ -194,31 +194,15 @@
             "capabilitiesTitle": "Capabilities:",
             "capabilities": [
               {
-                "name": ["Device Tracking", ""],
+                "name": ["AI/ML integration", ""],
                 "ref": ""
               },
               {
-                "name": ["Biometric sensor", "connection"],
-                "ref": ""
-              },
-              {
-                "name": ["Internet of things", ""],
-                "ref": ""
-              },
-              {
-                "name": ["B2C",""],
-                "ref": ""
-              },
-              {
-                "name": ["B2G",""],
+                "name": ["Biometric sensor connection", ""],
                 "ref": ""
               },
               {
                 "name": ["mobile app development","for end users"],
-                "ref": ""
-              },
-              {
-                "name": ["Big data",""],
                 "ref": ""
               }
             ]
@@ -234,27 +218,7 @@
                 "ref": ""
               },
               {
-                "name": ["Biometric sensor", "connection"],
-                "ref": ""
-              },
-              {
-                "name": ["Internet of things", ""],
-                "ref": ""
-              },
-              {
-                "name": ["B2C",""],
-                "ref": ""
-              },
-              {
-                "name": ["B2G",""],
-                "ref": ""
-              },
-              {
-                "name": ["mobile app development","for end users"],
-                "ref": ""
-              },
-              {
-                "name": ["Big data",""],
+                "name": ["Internet of things", "integration"],
                 "ref": ""
               }
             ]
@@ -266,31 +230,11 @@
             "capabilitiesTitle": "Capabilities:",
             "capabilities": [
               {
-                "name": ["Device Tracking", ""],
+                "name": ["Sentiment analysis", ""],
                 "ref": ""
               },
               {
-                "name": ["Biometric sensor", "connection"],
-                "ref": ""
-              },
-              {
-                "name": ["Internet of things", ""],
-                "ref": ""
-              },
-              {
-                "name": ["B2C",""],
-                "ref": ""
-              },
-              {
-                "name": ["B2G",""],
-                "ref": ""
-              },
-              {
-                "name": ["mobile app development","for end users"],
-                "ref": ""
-              },
-              {
-                "name": ["Big data",""],
+                "name": ["Storage and big data processing", ""],
                 "ref": ""
               }
             ]
@@ -302,31 +246,19 @@
             "capabilitiesTitle": "Capabilities:",
             "capabilities": [
               {
-                "name": ["Device Tracking", ""],
+                "name": ["Augmented reality", ""],
                 "ref": ""
               },
               {
-                "name": ["Biometric sensor", "connection"],
+                "name": ["EasyBroker Api Integration", ""],
                 "ref": ""
               },
               {
-                "name": ["Internet of things", ""],
+                "name": ["Internet of things integration", ""],
                 "ref": ""
               },
               {
-                "name": ["B2C",""],
-                "ref": ""
-              },
-              {
-                "name": ["B2G",""],
-                "ref": ""
-              },
-              {
-                "name": ["mobile app development","for end users"],
-                "ref": ""
-              },
-              {
-                "name": ["Big data",""],
+                "name": ["Mobile app development",""],
                 "ref": ""
               }
             ]
@@ -338,18 +270,6 @@
             "capabilitiesTitle": "Capabilities:",
             "capabilities": [
               {
-                "name": ["Device Tracking", ""],
-                "ref": ""
-              },
-              {
-                "name": ["Biometric sensor", "connection"],
-                "ref": ""
-              },
-              {
-                "name": ["Internet of things", ""],
-                "ref": ""
-              },
-              {
                 "name": ["B2C",""],
                 "ref": ""
               },
@@ -358,11 +278,7 @@
                 "ref": ""
               },
               {
-                "name": ["mobile app development","for end users"],
-                "ref": ""
-              },
-              {
-                "name": ["Big data",""],
+                "name": ["Merchant integration",""],
                 "ref": ""
               }
             ]
@@ -374,33 +290,9 @@
             "capabilitiesTitle": "Capabilities:",
             "capabilities": [
               {
-                "name": ["Device Tracking", ""],
+                "name": ["Third party Apis integration", ""],
                 "ref": ""
-              },
-              {
-                "name": ["Biometric sensor", "connection"],
-                "ref": ""
-              },
-              {
-                "name": ["Internet of things", ""],
-                "ref": ""
-              },
-              {
-                "name": ["B2C",""],
-                "ref": ""
-              },
-              {
-                "name": ["B2G",""],
-                "ref": ""
-              },
-              {
-                "name": ["mobile app development","for end users"],
-                "ref": ""
-              },
-              {
-                "name": ["Big data",""],
-                "ref": ""
-              }
+              }             
             ]
           },
           {
@@ -410,31 +302,15 @@
             "capabilitiesTitle": "Capabilities:",
             "capabilities": [
               {
-                "name": ["Device Tracking", ""],
+                "name": ["NFTs", ""],
                 "ref": ""
               },
               {
-                "name": ["Biometric sensor", "connection"],
+                "name": ["Secret Network", "blockchain integration"],
                 "ref": ""
               },
               {
-                "name": ["Internet of things", ""],
-                "ref": ""
-              },
-              {
-                "name": ["B2C",""],
-                "ref": ""
-              },
-              {
-                "name": ["B2G",""],
-                "ref": ""
-              },
-              {
-                "name": ["mobile app development","for end users"],
-                "ref": ""
-              },
-              {
-                "name": ["Big data",""],
+                "name": ["Web3 app", ""],
                 "ref": ""
               }
             ]
@@ -446,31 +322,7 @@
             "capabilitiesTitle": "Capabilities:",
             "capabilities": [
               {
-                "name": ["Device Tracking", ""],
-                "ref": ""
-              },
-              {
-                "name": ["Biometric sensor", "connection"],
-                "ref": ""
-              },
-              {
-                "name": ["Internet of things", ""],
-                "ref": ""
-              },
-              {
-                "name": ["B2C",""],
-                "ref": ""
-              },
-              {
-                "name": ["B2G",""],
-                "ref": ""
-              },
-              {
-                "name": ["mobile app development","for end users"],
-                "ref": ""
-              },
-              {
-                "name": ["Big data",""],
+                "name": ["CRM", ""],
                 "ref": ""
               }
             ]

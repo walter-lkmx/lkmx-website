@@ -180,23 +180,7 @@
         "capabilitiesTitle": "Capacidades:",
         "capabilities": [
           {
-            "name": ["Device Tracking", ""],
-            "ref": ""
-          },
-          {
             "name": ["Conexión con", "sensores biométricos"],
-            "ref": ""
-          },
-          {
-            "name": ["Internet of things", ""],
-            "ref": ""
-          },
-          {
-            "name": ["B2C",""],
-            "ref": ""
-          },
-          {
-            "name": ["B2G",""],
             "ref": ""
           },
           {
@@ -204,7 +188,7 @@
             "ref": ""
           },
           {
-            "name": ["Big data",""],
+            "name": ["Integración con AI/ML",""],
             "ref": ""
           }
         ]
@@ -220,29 +204,9 @@
             "ref": ""
           },
           {
-            "name": ["Conexión con", "sensores biométricos"],
+            "name": ["Integración del", "internet de las cosas"],
             "ref": ""
-          },
-          {
-            "name": ["Internet of things", ""],
-            "ref": ""
-          },
-          {
-            "name": ["B2C",""],
-            "ref": ""
-          },
-          {
-            "name": ["B2G",""],
-            "ref": ""
-          },
-          {
-            "name": ["Desarrollo de aplicaciones","móviles para usuarios finales"],
-            "ref": ""
-          },
-          {
-            "name": ["Big data",""],
-            "ref": ""
-          }
+          }          
         ]
       },
       {
@@ -252,33 +216,13 @@
         "capabilitiesTitle": "Capacidades:",
         "capabilities": [
           {
-            "name": ["Device Tracking", ""],
+            "name": ["Almacenamiento y procesamiento", "de datos masivos"],
             "ref": ""
           },
           {
-            "name": ["Conexión con", "sensores biométricos"],
+            "name": ["Sentiment analysis", ""],
             "ref": ""
-          },
-          {
-            "name": ["Internet of things", ""],
-            "ref": ""
-          },
-          {
-            "name": ["B2C",""],
-            "ref": ""
-          },
-          {
-            "name": ["B2G",""],
-            "ref": ""
-          },
-          {
-            "name": ["Desarrollo de aplicaciones","móviles para usuarios finales"],
-            "ref": ""
-          },
-          {
-            "name": ["Big data",""],
-            "ref": ""
-          }
+          }          
         ]
       },
       {
@@ -288,31 +232,19 @@
         "capabilitiesTitle": "Capacidades:",
         "capabilities": [
           {
-            "name": ["Device Tracking", ""],
+            "name": ["Realidad aumentada", ""],
             "ref": ""
           },
           {
-            "name": ["Conexión con", "sensores biométricos"],
+            "name": ["Desarrollo de","aplicaciones móviles"],
             "ref": ""
           },
           {
-            "name": ["Internet of things", ""],
+            "name": ["Integración del", "internet de las cosas"],
             "ref": ""
-          },
+          }  ,
           {
-            "name": ["B2C",""],
-            "ref": ""
-          },
-          {
-            "name": ["B2G",""],
-            "ref": ""
-          },
-          {
-            "name": ["Desarrollo de aplicaciones","móviles para usuarios finales"],
-            "ref": ""
-          },
-          {
-            "name": ["Big data",""],
+            "name": ["Integración con","Api de EasyBroker"],
             "ref": ""
           }
         ]
@@ -324,31 +256,15 @@
         "capabilitiesTitle": "Capacidades:",
         "capabilities": [
           {
-            "name": ["Device Tracking", ""],
+            "name": ["B2C", ""],
             "ref": ""
           },
           {
-            "name": ["Conexión con", "sensores biométricos"],
+            "name": ["B2G", ""],
             "ref": ""
           },
           {
-            "name": ["Internet of things", ""],
-            "ref": ""
-          },
-          {
-            "name": ["B2C",""],
-            "ref": ""
-          },
-          {
-            "name": ["B2G",""],
-            "ref": ""
-          },
-          {
-            "name": ["Desarrollo de aplicaciones","móviles para usuarios finales"],
-            "ref": ""
-          },
-          {
-            "name": ["Big data",""],
+            "name": ["Merchant integration", ""],
             "ref": ""
           }
         ]
@@ -360,33 +276,9 @@
         "capabilitiesTitle": "Capacidades:",
         "capabilities": [
           {
-            "name": ["Device Tracking", ""],
+            "name": ["Integracion con Apis de terceros", ""],
             "ref": ""
-          },
-          {
-            "name": ["Conexión con", "sensores biométricos"],
-            "ref": ""
-          },
-          {
-            "name": ["Internet of things", ""],
-            "ref": ""
-          },
-          {
-            "name": ["B2C",""],
-            "ref": ""
-          },
-          {
-            "name": ["B2G",""],
-            "ref": ""
-          },
-          {
-            "name": ["Desarrollo de aplicaciones","móviles para usuarios finales"],
-            "ref": ""
-          },
-          {
-            "name": ["Big data",""],
-            "ref": ""
-          }
+          }          
         ]
       },
       {
@@ -396,31 +288,15 @@
         "capabilitiesTitle": "Capacidades:",
         "capabilities": [
           {
-            "name": ["Device Tracking", ""],
+            "name": ["Integración con Secret", "Network blockchain"],
             "ref": ""
           },
           {
-            "name": ["Conexión con", "sensores biométricos"],
+            "name": ["NFTs", ""],
             "ref": ""
           },
           {
-            "name": ["Internet of things", ""],
-            "ref": ""
-          },
-          {
-            "name": ["B2C",""],
-            "ref": ""
-          },
-          {
-            "name": ["B2G",""],
-            "ref": ""
-          },
-          {
-            "name": ["Desarrollo de aplicaciones","móviles para usuarios finales"],
-            "ref": ""
-          },
-          {
-            "name": ["Big data",""],
+            "name": ["Web3 app", ""],
             "ref": ""
           }
         ]
@@ -432,31 +308,7 @@
         "capabilitiesTitle": "Capacidades:",
         "capabilities": [
           {
-            "name": ["Device Tracking", ""],
-            "ref": ""
-          },
-          {
-            "name": ["Conexión con", "sensores biométricos"],
-            "ref": ""
-          },
-          {
-            "name": ["Internet of things", ""],
-            "ref": ""
-          },
-          {
-            "name": ["B2C",""],
-            "ref": ""
-          },
-          {
-            "name": ["B2G",""],
-            "ref": ""
-          },
-          {
-            "name": ["Desarrollo de aplicaciones","móviles para usuarios finales"],
-            "ref": ""
-          },
-          {
-            "name": ["Big data",""],
+            "name": ["CRM", ""],
             "ref": ""
           }
         ]
