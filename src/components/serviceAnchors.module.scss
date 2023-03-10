@@ -20,7 +20,7 @@
           &__wrapper {
             padding-top: 56px;
             position: absolute;
-            left: -209px;
+            left: -215px;
             height: 100%;
 
             &__aside {
@@ -35,7 +35,7 @@
       
               a {
                 display: grid;
-                grid-template-columns: 192px min-content;
+                grid-template-columns: 199px min-content;
                 align-items: center;
                 gap: 16px;
                 text-decoration: none;
@@ -45,6 +45,8 @@
                   text-transform: uppercase;
                   color: $color-lang-secondary;
                   transition: .2s ease-in;
+                  font-size: 20px;
+                  line-height: 30px;
                   &:hover {
                     color: $color-blue !important;
                   }
