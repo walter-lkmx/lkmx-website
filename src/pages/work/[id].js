@@ -52,7 +52,7 @@ export default function SuccessStory({storyData}) {
                     </Block>
                 </Column>
                 <Column>
-                    <Block>
+                    <Block className={styles.story__heroImgBlock}>
                         <div className={styles.story__heroImg}>
                             <Image
                             fill

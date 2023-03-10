@@ -38,6 +38,12 @@
             }
         }
     }
+    &__heroImgBlock {
+        > div > div {
+            padding-top: 0 !important;
+            padding-bottom: 0 !important;
+        }
+    }
     &__heroImg {
         width: 100%;
         height: 378px;
