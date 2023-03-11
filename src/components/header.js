@@ -9,7 +9,7 @@ export default function Header(props) {
 
   return (
     <header className={styles.header}>
-      <Column mode="normal" modeM="full">
+      <Column mode="normal" modeM="full" modeXxxl="slim">
         <Block>
           <div className={styles.header__content}>
             <div className={styles.header__content__logo}>

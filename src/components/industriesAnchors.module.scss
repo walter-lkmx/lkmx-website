@@ -4,6 +4,9 @@
           >div>div {
             padding: 0 !important;
             position: relative;
+            @include respond-to("xxxl") {
+              transform: translateX(169px);
+            }
           }
     
           &__white {
@@ -75,10 +78,13 @@
             &__item {
               display: grid;
               grid-template-columns: 32px auto;
-              gap: 29px;
+              gap: 19px;
               padding: 92px 0;
               align-items: start;
-              border-bottom: 1px solid #EBEAE8;;
+              border-bottom: 1px solid #EBEAE8;
+              @include respond-to("xxxl") {
+                grid-template-columns: 32px 680px;
+              }
               @include respond-to("<=xs") {
                 grid-template-columns: 1fr;
                 justify-items: start;
