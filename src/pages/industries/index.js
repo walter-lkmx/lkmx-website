@@ -39,12 +39,13 @@ export default function TechnologyPage() {
           number="2"
           numberS="1"
           className={styles.industries__hero}
-          weight="right"
-          weightS="Normal"
+          weight="normal"
+          weightXl="right"
           modeXl="normal"
           modeXxxl="slim"
-          modeL="full"
+          modeL="normal"
           modeM="full"
+          mode="full"
         >
           <Block className={styles.industries__hero__block__left}>            
               <div className={styles.industries__hero__block__left__content}>
@@ -73,7 +74,7 @@ export default function TechnologyPage() {
           </Block>
         </Column>
 
-        <Column modeXxxl="slim" className={styles.industries__intro}>
+        <Column modeXxxl="slim" modeM="full" className={styles.industries__intro}>
           <Block className={styles.industries__intro__block}>
             <div className={styles.lkContainer}>
             <h2>{$t.industries.catalogTitle}</h2>

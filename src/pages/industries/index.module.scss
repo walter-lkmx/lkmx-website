@@ -42,6 +42,11 @@
         display: grid;
         align-items: end;
         background-color: $color-neutral-black;
+        > div > div {
+          @include respond-to("<=m") {
+            padding-left: 0 !important;
+          }          
+        }
         &__content{
           padding-bottom: rem(55px);
           *{margin: 0;}

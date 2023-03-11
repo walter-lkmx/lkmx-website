@@ -6,7 +6,7 @@
             position: relative;
             @include respond-to("xxxl") {
               transform: translateX(169px);
-            }
+            }            
           }
     
           &__white {
@@ -61,16 +61,13 @@
           &__black {
             @include respond-to("<=m") {
               transform: translateY(0px);
+              padding: 0 16px;
             }
             z-index: 1;
             padding: 0px 0px 0px 44.5px;
             display: grid;
             position: relative;
-    
-            @include respond-to("m") {
-              padding: 0 32px;
-            }
-    
+
             @include respond-to("<=s") {
               padding: 56px 16px;
             }
