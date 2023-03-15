@@ -1,429 +1,485 @@
 {
-    "ogDefaultValues": {
-        "ogDefaultImage": "/opengraph--es.jpg"
-    },
-    "home": {
-      "title": "We turn your ideas into reality",
-      "ogDescription": "Our team of experts conceptualize, design, and deliver the most complex software solutions, leading the digital transformation of companies around the globe.",
-      "ogImage": "",
-      "title2": [
-          "We turn",
-          "your ideas into reality"
-      ], 
-      "hero": [
-          "We are strategic partners with businesses in different industries around",
-          "the world, building innovative software solutions",
-          "with our unique methodology and",
-          "the most solid technology."
-      ],
-      "servicesTitle": "SERVICES",
-      "services": [
-          "As a",
-          "REAL ALTERNATIVE",
-          "to",
-          "STAFF-AUGMENTATION",
-          ",", 
-          "we designed services ideal to build custom",
-          "solutions of any level of complexity and ",
-          "timelines with any type of demand."            
-      ],
-      "technologiesTitle": "TECHNOLOGIES",
-      "technologies": [
-          "We apply three  principles when choosing our technology: Agile, Cloud, Open-Source.",
-          "Our technology stack is kept organized and updated by software architects with decades of combined experience."            
-      ],
-      "team": [
-          "We are a mix between ",
-          "creatives",
-          "and",
-          "experts",
-          "in",
-          "technology. We connect our skills to build robust, flexible, scalable and secure",
-          "software solutions."
-      ],
-      "work": [
-          "We are",
-          "strategic partners",
-          "of",
-          "companies around the world"
-      ],
-      "locations": {
-        "title": "UBICACIÓN ESTRATÉGICA",
-        "par": [
-          "Cercana a la frontera norte de México, nos coloca en un ",
-          "escenario de intercambio",
-          "CULTURAL",
-          "y",
-          "COMERCIAL",
-          "constante con EE.UU., un punto de convergencia para",
-          "para grandes centros de investigación científica y tecnológica,",
-          "fuente de las mentes mas capacitadas del país."
-        ]
-      },
-      "buttons": {
-        "btnServices": "See our services",
-        "btnTechnologies": "Discover our technologies",
-        "btnTeam": "Get to know us",
-        "btnWork": "Explore"
-      }
-    },
-    "services": {
-        "title": "Services",
-        "ogDescription": "We design custom software development services for companies with technology needs of any degree of complexity and timelines of any demand.",
-        "ogImage": "",
-        "hero": [
-            "As a",
-            "REAL ALTERNATIVE",
-            "to",
-            "STAFF-AUGMENTATION",
-            "we design custom software development services for companies with technology needs of any degree of complexity and timelines of any demand"
-        ],
-        "banner": [
-            "We specialize in building",
-            "SOFTWARE SOLUTIONS FROM SCRATCH",
-            "so our services cover all phases of the software life cycle",
-            "Our methodologies provide the greatest possible flexibility while keeping deliverables, timelines and costs under control"
-        ],
-        "phases": [
-            "Our solutions begin with a preliminary study of the challenges and objectives to be met. This will be the starting point for the success of the project.",
-            "Based on what we discover, we create amazing web and mobile experiences involving data management, big data, blockchain and artificial intelligence.",
-            "At the end of development we offer maintenance and support services for a successful stabilization and transfer of the platform."
-        ]
-    },
-    "methodology": {
-      "title": "Methodology",
-      "ogDescription": "Our methodologies provide the greatest possible flexibility while keeping deliverables, timelines and costs under control.",
-      "ogImage": "",
-      "hero": [
-          "-"
+  "ogDefaultValues": {
+    "ogDefaultImage": "/opengraph--es.jpg"
+  },
+  "home": {
+    "title": "We turn your ideas into reality",
+    "ogDescription": "Our team of experts conceptualize, design, and deliver the most complex software solutions, leading the digital transformation of companies around the globe.",
+    "ogImage": "",
+    "title2": [
+      "We turn",
+      "your ideas into reality"
+    ],
+    "hero": [
+      "We are strategic partners with businesses in different industries around",
+      "the world, building innovative software solutions",
+      "with our unique methodology and",
+      "the most solid technology."
+    ],
+    "servicesTitle": "SERVICES",
+    "services": [
+      "As a",
+      "REAL ALTERNATIVE",
+      "to",
+      "STAFF-AUGMENTATION",
+      ",",
+      "we designed services ideal to build custom",
+      "solutions of any level of complexity and ",
+      "timelines with any type of demand."
+    ],
+    "technologiesTitle": "TECHNOLOGIES",
+    "technologies": [
+      "We apply three  principles when choosing our technology: Agile, Cloud, Open-Source.",
+      "Our technology stack is kept organized and updated by software architects with decades of combined experience."
+    ],
+    "team": [
+      "We are a mix between ",
+      "creatives",
+      "and",
+      "experts",
+      "in",
+      "technology. We connect our skills to build robust, flexible, scalable and secure",
+      "software solutions."
+    ],
+    "work": [
+      "We are",
+      "strategic partners",
+      "of",
+      "companies around the world"
+    ],
+    "locations": {
+      "title": "UBICACIÓN ESTRATÉGICA",
+      "par": [
+        "Cercana a la frontera norte de México, nos coloca en un ",
+        "escenario de intercambio",
+        "CULTURAL",
+        "y",
+        "COMERCIAL",
+        "constante con EE.UU., un punto de convergencia para",
+        "para grandes centros de investigación científica y tecnológica,",
+        "fuente de las mentes mas capacitadas del país."
       ]
     },
-    "team": {
-        "title": "Team",
-        "ogDescription": "We are a combination of CREATIVE PEOPLE and TECHNOLOGY EXPERTS. We connect our skills to build robust, flexible, scalable and secure software solutions.",
-        "ogImage": "",
-        "headline": "OUR TEAM",
-        "hero": [
-            "We are a combination of",
-            "creative people",
-            "and",
-            "technology experts",
-            ". We connect our skills to build robust, flexible, scalable and secure software solutions."
-        ],
-        "banner": {
-            "title": [
-                "A SUM OF",
-                "ENGINEERS",
-                "ARTISTS",
-                "ANALYSTS",
-                "AND VISIONARIES MAKE UP OUR TEAM."
+    "buttons": {
+      "btnServices": "See our services",
+      "btnTechnologies": "Discover our technologies",
+      "btnTeam": "Get to know us",
+      "btnWork": "Explore"
+    }
+  },
+  "services": {
+    "title": "Services",
+    "ogDescription": "We design custom software development services for companies with technology needs of any degree of complexity and timelines of any demand.",
+    "ogImage": "",
+    "hero": [
+      "As a",
+      "REAL ALTERNATIVE",
+      "to",
+      "STAFF-AUGMENTATION",
+      "we design custom software development services for companies with technology needs of any degree of complexity and timelines of any demand"
+    ],
+    "banner": [
+      "We specialize in building",
+      "SOFTWARE SOLUTIONS FROM SCRATCH",
+      "so our services cover all phases of the software life cycle",
+      "Our methodologies provide the greatest possible flexibility while keeping deliverables, timelines and costs under control"
+    ],
+    "phases": [
+      "Our solutions begin with a preliminary study of the challenges and objectives to be met. This will be the starting point for the success of the project.",
+      "Based on what we discover, we create amazing web and mobile experiences involving data management, big data, blockchain and artificial intelligence.",
+      "At the end of development we offer maintenance and support services for a successful stabilization and transfer of the platform."
+    ]
+  },
+  "methodology": {
+    "title": "Methodology",
+    "ogDescription": "Our methodologies provide the greatest possible flexibility while keeping deliverables, timelines and costs under control.",
+    "ogImage": "",
+    "hero": [
+      "-"
+    ]
+  },
+  "team": {
+    "title": "Team",
+    "ogDescription": "We are a combination of CREATIVE PEOPLE and TECHNOLOGY EXPERTS. We connect our skills to build robust, flexible, scalable and secure software solutions.",
+    "ogImage": "",
+    "headline": "OUR TEAM",
+    "hero": [
+      "We are a combination of",
+      "creative people",
+      "and",
+      "technology experts",
+      ". We connect our skills to build robust, flexible, scalable and secure software solutions."
+    ],
+    "banner": {
+      "title": [
+        "A SUM OF",
+        "ENGINEERS",
+        "ARTISTS",
+        "ANALYSTS",
+        "AND VISIONARIES MAKE UP OUR TEAM."
+      ],
+      "text": "Divided by areas, but interconnected through well-defined processes, we integrate a robust engineering team capable of operating at breakneck speeds."
+    },
+    "analysis": {
+      "title": "ANALYSIS",
+      "text": "They are in charge of orchestrating the capturing methodology, analyzing the requirements and communicating to the production areas of the company."
+    },
+    "design": {
+      "title": "DESIGN",
+      "text": "They create and standardize digital artifacts according to best practices that collaborate in the collection methodology and requirements analysis."
+    },
+    "development": {
+      "title": "DEVELOPMENT",
+      "text": "They apply software engineering techniques to create advanced technology effectively and efficiently."
+    },
+    "quality": {
+      "title": "QUALITY",
+      "text": "They ensure that software features meet defined specifications or exceed expectations."
+    },
+    "reviews": [
+      "WHAT OUR PARTNERS",
+      "SAY",
+      "ABOUT US."
+    ]
+  },
+  "technology": {
+    "title": "Technology",
+    "ogDescription": "We use three principles when choosing our technology: Agile, Cloud and Open Source.",
+    "ogImage": "",
+    "hero": [
+      "We use three principles when choosing our technology: Agile, Cloud and Open Source.",
+      "Our technology",
+      "STACK",
+      "is kept",
+      "ORGANIZED",
+      "and",
+      "UP-TO-DATE",
+      "by software architects with decades of combined experience."
+    ],
+    "principles": [
+      "Our tools help us achieve high development speeds.",
+      "Our software is cloud-native and seamlessly integrates with any platform.",
+      "We are experts in open source, we know it and we study it before incorporating it into our software."
+    ]
+  },
+  "work": {
+    "title": "Work",
+    "ogDescription": "Get to know a sample of the CHALLENGES and SOLUTIONS we have developed for some of our clients.",
+    "ogImage": "",
+    "hero": [
+      "Get to know a sample of the",
+      "challenges",
+      "and",
+      "solutions",
+      "we have developed for some",
+      "of our clients."
+    ]
+  },
+  "industries": {
+    "title": "Industries",
+    "ogDescription": "Our history in diverse industries gives us the needed experience to understand your business and create software solutions that make your product successful.",
+    "ogImage": "",
+    "hero": [
+      "Our history in diverse industries gives us the needed experience to understand your business and create software solutions that make your product successful."
+    ],
+    "intro": "We keep up with evolving trends and technologies that impact digital changes and offer opportunities depending on the type of company. Learn more about how we have helped other businesses related to your industry.",
+    "catalogTitle": "Every idea requires a custom solution",
+    "catalogDescription": "Learn more about how we help other businesses related to your industry.",
+    "catalogItems": [
+      {
+        "title": "Healthcare & Wellness",
+        "description": "We create innovative solutions by incorporating safe technologies into the provision of medical services and personal well-being.",
+        "img": "/industries/heartBeat.svg",
+        "capabilitiesTitle": "Capabilities:",
+        "capabilities": [
+          {
+            "name": [
+              "AI/ML integration",
+              ""
             ],
-            "text": "Divided by areas, but interconnected through well-defined processes, we integrate a robust engineering team capable of operating at breakneck speeds."
-        },
-        "analysis": {
-            "title": "ANALYSIS",
-            "text": "They are in charge of orchestrating the capturing methodology, analyzing the requirements and communicating to the production areas of the company."
-        },
-        "design": {
-            "title": "DESIGN",
-            "text": "They create and standardize digital artifacts according to best practices that collaborate in the collection methodology and requirements analysis."
-        },
-        "development": {
-            "title": "DEVELOPMENT",
-            "text": "They apply software engineering techniques to create advanced technology effectively and efficiently."
-        },
-        "quality": {
-            "title": "QUALITY",
-            "text": "They ensure that software features meet defined specifications or exceed expectations."
-        }
-        ,
-        "reviews": [
-            "WHAT OUR PARTNERS",
-            "SAY",
-            "ABOUT US."
-        ]
-    },
-    "technology": {
-        "title": "Technology",
-        "ogDescription": "We use three principles when choosing our technology: Agile, Cloud and Open Source.",
-        "ogImage": "",
-        "hero": [
-            "We use three principles when choosing our technology: Agile, Cloud and Open Source.",
-            "Our technology",
-            "STACK",
-            "is kept",
-            "ORGANIZED",
-            "and",
-            "UP-TO-DATE",
-            "by software architects with decades of combined experience."
-        ],
-        "principles": [
-            "Our tools help us achieve high development speeds.",
-            "Our software is cloud-native and seamlessly integrates with any platform.",
-            "We are experts in open source, we know it and we study it before incorporating it into our software."
-        ]
-    },
-    "work": {
-        "title": "Work",
-        "ogDescription": "Get to know a sample of the CHALLENGES and SOLUTIONS we have developed for some of our clients.",
-        "ogImage": "",
-        "hero": [
-            "Get to know a sample of the",
-            "challenges",
-            "and",
-            "solutions",
-            "we have developed for some",
-            "of our clients."
-        ]
-    },
-    "industries": {
-        "title": "Industries",
-        "ogDescription": "Our history in diverse industries gives us the needed experience to understand your business and create software solutions that make your product successful.",
-        "ogImage": "",
-        "hero": [
-          "Our history in diverse industries gives us the needed experience to understand your business and create software solutions that make your product successful."
-        ],
-        "intro": "We keep up with evolving trends and technologies that impact digital changes and offer opportunities depending on the type of company. Learn more about how we have helped other businesses related to your industry.",
-        "catalogTitle": "Every idea requires a custom solution",
-        "catalogDescription": "Learn more about how we help other businesses related to your industry.",
-        "catalogItems": [
-          {
-            "title": "Healthcare & Wellness",
-            "description": "We create innovative solutions by incorporating safe technologies into the provision of medical services and personal well-being.",
-            "img": "/industries/heartBeat.svg",
-            "capabilitiesTitle": "Capabilities:",
-            "capabilities": [
-              {
-                "name": ["AI/ML integration", ""],
-                "ref": ""
-              },
-              {
-                "name": ["Biometric sensor connection", ""],
-                "ref": ""
-              },
-              {
-                "name": ["mobile app development","for end users"],
-                "ref": ""
-              }
-            ]
+            "ref": ""
           },
           {
-            "title": "Logistics",
-            "description": "We modernize services that help our clients meet requirements, reduce costs, increase efficiency and deliver Mission Critical results.",
-            "img": "/industries/trace.svg",
-            "capabilitiesTitle": "Capabilities:",
-            "capabilities": [
-              {
-                "name": ["Device Tracking", ""],
-                "ref": ""
-              },
-              {
-                "name": ["Internet of things", "integration"],
-                "ref": ""
-              }
-            ]
+            "name": [
+              "Biometric sensor connection",
+              ""
+            ],
+            "ref": ""
           },
           {
-            "title": "Data Analytics",
-            "description": "We build and connect flexible, scalable, and elastic data intelligence experiences to give certainty to business decisions.",
-            "img": "/industries/chartLine.svg",
-            "capabilitiesTitle": "Capabilities:",
-            "capabilities": [
-              {
-                "name": ["Sentiment analysis", ""],
-                "ref": ""
-              },
-              {
-                "name": ["Storage and big data processing", ""],
-                "ref": ""
-              }
-            ]
-          },
-          {
-            "title": "Hospitality",
-            "description": "We help our customers gain a competitive advantage by enriching their customer experience and improving their operational efficiency.",
-            "img": "/industries/bed.svg",
-            "capabilitiesTitle": "Capabilities:",
-            "capabilities": [
-              {
-                "name": ["Augmented reality", ""],
-                "ref": ""
-              },
-              {
-                "name": ["EasyBroker Api Integration", ""],
-                "ref": ""
-              },
-              {
-                "name": ["Internet of things integration", ""],
-                "ref": ""
-              },
-              {
-                "name": ["Mobile app development",""],
-                "ref": ""
-              }
-            ]
-          },
-          {
-            "title": "Ecommerce",
-            "description": "We develop solutions on the cloud that not just optimize sales operations, but also delight customers and promote brand adoption.",
-            "img": "/industries/shoppingCart.svg",
-            "capabilitiesTitle": "Capabilities:",
-            "capabilities": [
-              {
-                "name": ["B2C",""],
-                "ref": ""
-              },
-              {
-                "name": ["B2G",""],
-                "ref": ""
-              },
-              {
-                "name": ["Merchant integration",""],
-                "ref": ""
-              }
-            ]
-          },
-          {
-            "title": "Entrepreneurship",
-            "description": "We prototype, validate, and build scalable MVPs, minimizing risks and maximizing returns. We accompany the entrepreneur on his long journey.",
-            "img": "/industries/flag.svg",
-            "capabilitiesTitle": "Capabilities:",
-            "capabilities": [
-              {
-                "name": ["Third party Apis integration", ""],
-                "ref": ""
-              }             
-            ]
-          },
-          {
-            "title": "Web3",
-            "description": "We design creative and innovative decentralized solutions for public and private protocols of the new internet.",
-            "img": "/industries/currencyBtc.svg",
-            "capabilitiesTitle": "Capabilities:",
-            "capabilities": [
-              {
-                "name": ["NFTs", ""],
-                "ref": ""
-              },
-              {
-                "name": ["Secret Network", "blockchain integration"],
-                "ref": ""
-              },
-              {
-                "name": ["Web3 app", ""],
-                "ref": ""
-              }
-            ]
-          },
-          {
-            "title": "Process Innovation",
-            "description": "We transform business, we produce enterprise-level, efficient and powerful implementations.",
-            "img": "/industries/gearSix.svg",
-            "capabilitiesTitle": "Capabilities:",
-            "capabilities": [
-              {
-                "name": ["CRM", ""],
-                "ref": ""
-              }
-            ]
+            "name": [
+              "mobile app development",
+              "for end users"
+            ],
+            "ref": ""
           }
         ]
       },
-    "header":{
-        "module1": "SERVICES",
-        "module2": "METHODOLOGY",
-        "module3": "TECHNOLOGY",
-        "module4": "WORK",
-        "module5": "TEAM",
-        "module6": "INDUSTRIES"
-    },
-    "footer": {
-        "paragraph": [
-          "We have been providing software engineering services from",
-          "our headquarters in Ensenada, Baja California, Mexico", 
-          "since January 2014."
-        ],
-        "pages": {
-            "services": {
-                "title": "SERVICES",
-                "items": [
-                    "Our Services",
-                    "Discovery",
-                    "Agile development",
-                    "Agile maintenance"
-                ]
-            },
-            "methodology": {
-                "title": "INDUSTRIES",
-                "items": [
-                    "Industries",
-                    "MAAD",
-                    "Flare",
-                    "Ontology"
-                ]
-            },
-            "technology": {
-                "title": "TECHNOLOGY",
-                "items": [
-                    "Our Technologies",
-                    "Frameworks",
-                    "Platforms",
-                    "Tools"
-                ]
-            }
-        },
-        "privacy": "Privacy Policy"
-    },
-    "project": {
-        "services": "Services",
-        "methodologies": "Methodologies",
-        "years": "Years",
-        "back": "Go Back",
-        "techs": "Technologies"
-    },
-    "goBack": "Go Back",
-    "discovery": {
-      "section": "Services",
-      "title": "Discovery",
-      "hero": [
-        "Discover the path towards a unique software solution for your business",
-        "with our Discovery service, make informed decisions and maximize your",
-        "time with consistent delivery of prototypes."
-      ],
-      "intro": "In the pre-development phase of a project, we constantly analyze and redefine the general objective by identifying obstacles that help us plot a viable implementation route. We use a similar methodology to that used to build the software, but without sending the artifacts to development, thereby reducing the risks associated with this idea generation stage.",
-      "sections": [
-        {
-          "title": "Rapid Prototyping",
-          "par1": "We use Rapid Prototyping to deliver constant deliveries of a prototype, with the views and scenarios that constitute the software solution, maximizing the time.",
-          "image": "discovery/discovery_prototyping.gif"
-        },
-        {
-          "title": "Ad-Hoc Discovery",
-          "par1": "We use the Ad-Hoc Discovery technique when we develop a tailor-made plan, involving one or more requirements analysis and prototyping techniques that clarify the way for the business and in many cases propose a viable route for the implementation of the solution.",
-          "image": "discovery/discovery_ad-hoc.svg"
-        }
-      ],
-      "methodologies": {
-        "title": "specialized methodologies",
-        "content": "We use specialized methodologies to develop initial software prototypes in the form of a collection of artifacts. This allows us to make informed decisions about the path to take for new business capabilities or optimizing processes, all with an agile technology project ready"
+      {
+        "title": "Logistics",
+        "description": "We modernize services that help our clients meet requirements, reduce costs, increase efficiency and deliver Mission Critical results.",
+        "img": "/industries/trace.svg",
+        "capabilitiesTitle": "Capabilities:",
+        "capabilities": [
+          {
+            "name": [
+              "Device Tracking",
+              ""
+            ],
+            "ref": ""
+          },
+          {
+            "name": [
+              "Internet of things",
+              "integration"
+            ],
+            "ref": ""
+          }
+        ]
       },
+      {
+        "title": "Data Analytics",
+        "description": "We build and connect flexible, scalable, and elastic data intelligence experiences to give certainty to business decisions.",
+        "img": "/industries/chartLine.svg",
+        "capabilitiesTitle": "Capabilities:",
+        "capabilities": [
+          {
+            "name": [
+              "Sentiment analysis",
+              ""
+            ],
+            "ref": ""
+          },
+          {
+            "name": [
+              "Storage and big data processing",
+              ""
+            ],
+            "ref": ""
+          }
+        ]
+      },
+      {
+        "title": "Hospitality",
+        "description": "We help our customers gain a competitive advantage by enriching their customer experience and improving their operational efficiency.",
+        "img": "/industries/bed.svg",
+        "capabilitiesTitle": "Capabilities:",
+        "capabilities": [
+          {
+            "name": [
+              "Augmented reality",
+              ""
+            ],
+            "ref": ""
+          },
+          {
+            "name": [
+              "EasyBroker Api Integration",
+              ""
+            ],
+            "ref": ""
+          },
+          {
+            "name": [
+              "Internet of things integration",
+              ""
+            ],
+            "ref": ""
+          },
+          {
+            "name": [
+              "Mobile app development",
+              ""
+            ],
+            "ref": ""
+          }
+        ]
+      },
+      {
+        "title": "Ecommerce",
+        "description": "We develop solutions on the cloud that not just optimize sales operations, but also delight customers and promote brand adoption.",
+        "img": "/industries/shoppingCart.svg",
+        "capabilitiesTitle": "Capabilities:",
+        "capabilities": [
+          {
+            "name": [
+              "B2C",
+              ""
+            ],
+            "ref": ""
+          },
+          {
+            "name": [
+              "B2G",
+              ""
+            ],
+            "ref": ""
+          },
+          {
+            "name": [
+              "Merchant integration",
+              ""
+            ],
+            "ref": ""
+          }
+        ]
+      },
+      {
+        "title": "Entrepreneurship",
+        "description": "We prototype, validate, and build scalable MVPs, minimizing risks and maximizing returns. We accompany the entrepreneur on his long journey.",
+        "img": "/industries/flag.svg",
+        "capabilitiesTitle": "Capabilities:",
+        "capabilities": [
+          {
+            "name": [
+              "Third party Apis integration",
+              ""
+            ],
+            "ref": ""
+          }
+        ]
+      },
+      {
+        "title": "Web3",
+        "description": "We design creative and innovative decentralized solutions for public and private protocols of the new internet.",
+        "img": "/industries/currencyBtc.svg",
+        "capabilitiesTitle": "Capabilities:",
+        "capabilities": [
+          {
+            "name": [
+              "NFTs",
+              ""
+            ],
+            "ref": ""
+          },
+          {
+            "name": [
+              "Secret Network",
+              "blockchain integration"
+            ],
+            "ref": ""
+          },
+          {
+            "name": [
+              "Web3 app",
+              ""
+            ],
+            "ref": ""
+          }
+        ]
+      },
+      {
+        "title": "Process Innovation",
+        "description": "We transform business, we produce enterprise-level, efficient and powerful implementations.",
+        "img": "/industries/gearSix.svg",
+        "capabilitiesTitle": "Capabilities:",
+        "capabilities": [
+          {
+            "name": [
+              "CRM",
+              ""
+            ],
+            "ref": ""
+          }
+        ]
+      }
+    ]
+  },
+  "header": {
+    "module1": "SERVICES",
+    "module2": "METHODOLOGY",
+    "module3": "TECHNOLOGY",
+    "module4": "WORK",
+    "module5": "TEAM",
+    "module6": "INDUSTRIES"
+  },
+  "footer": {
+    "paragraph": [
+      "We have been providing software engineering services from",
+      "our headquarters in Ensenada, Baja California, Mexico",
+      "since January 2014."
+    ],
+    "pages": {
+      "services": {
+        "title": "SERVICES",
+        "items": [
+          "Our Services",
+          "Discovery",
+          "Agile development",
+          "Agile maintenance"
+        ]
+      },
+      "methodology": {
+        "title": "INDUSTRIES",
+        "items": [
+          "Industries",
+          "MAAD",
+          "Flare",
+          "Ontology"
+        ]
+      },
+      "technology": {
+        "title": "TECHNOLOGY",
+        "items": [
+          "Our Technologies",
+          "Frameworks",
+          "Platforms",
+          "Tools"
+        ]
+      }
+    },
+    "privacy": "Privacy Policy"
+  },
+  "project": {
+    "services": "Services",
+    "methodologies": "Methodologies",
+    "years": "Years",
+    "back": "Go Back",
+    "techs": "Technologies"
+  },
+  "goBack": "Go Back",
+  "discovery": {
+    "section": "Services",
+    "title": "Discovery",
+    "hero": [
+      "Discover the path towards a unique software solution for your business",
+      "with our Discovery service, make informed decisions and maximize your",
+      "time with consistent delivery of prototypes."
+    ],
+    "intro": "In the pre-development phase of a project, we constantly analyze and redefine the general objective by identifying obstacles that help us plot a viable implementation route. We use a similar methodology to that used to build the software, but without sending the artifacts to development, thereby reducing the risks associated with this idea generation stage.",
+    "sections": [
+      {
+        "title": "Rapid Prototyping",
+        "par1": "We use Rapid Prototyping to deliver constant deliveries of a prototype, with the views and scenarios that constitute the software solution, maximizing the time.",
+        "image": "discovery/discovery_prototyping.gif"
+      },
+      {
+        "title": "Ad-Hoc Discovery",
+        "par1": "We use the Ad-Hoc Discovery technique when we develop a tailor-made plan, involving one or more requirements analysis and prototyping techniques that clarify the way for the business and in many cases propose a viable route for the implementation of the solution.",
+        "image": "discovery/discovery_ad-hoc.svg"
+      }
+    ],
+    "methodologies": {
+      "title": "specialized methodologies",
+      "content": "We use specialized methodologies to develop initial software prototypes in the form of a collection of artifacts. This allows us to make informed decisions about the path to take for new business capabilities or optimizing processes, all with an agile technology project ready"
+    },
     "wireframe": {
       "par1": "In a period of 2 to 4 weeks, our multidisciplinary teams can create wireframes or prototypes, a map of functionality, a logical architecture of the solution, and a release plan for its construction.",
       "par2": "With this methodology, we can identify and define problems, develop prototypes, and plan the development of software with a focus on the business and functionality."
     },
-      "span": {
-        "text": "AGILE DEVELOPMENT"
-      }
-    },
+    "span": {
+      "text": "AGILE DEVELOPMENT"
+    }
+  },
   "agile": {
     "section": "Services",
     "title": "Agile Development",
     "ogDescription": "Our main service offers iteration of work by a multidisciplinary engineering team in charge of designing the architecture and building the solution of the software from the ideation to the end of the lifecycle.",
     "hero": [
-        "Our main service offers iteration of work by a multidisciplinary",
-        "engineering team in charge of designing the architecture and",
-        "building the solution of the software from the ideation to the",
-        "end of the lifecycle."
+      "Our main service offers iteration of work by a multidisciplinary",
+      "engineering team in charge of designing the architecture and",
+      "building the solution of the software from the ideation to the",
+      "end of the lifecycle."
     ],
     "intro": [
       "Our projects are based on iterations that include three phases: DEFINITION, IMPLEMENTATION,",
@@ -450,7 +506,7 @@
         "par1": "The use of Scrum as a framework allows us to approach complex problems while valuable, continuous and constant deliveries are done in a creative manner and focused on increasing team productivity. Based on the CMMI model, we implement good practices that allow us to increase and optimize performance of the processes directly and indirectly involved in software development, maximizing opportunities and mitigating risks.",
         "image": "agileDev/agile-dev_scrum.svg"
       },
-      { 
+      {
         "title": "agile flow",
         "par1": "We design our own versioning mechanisms that are robust, flexible and compatible with industry standards. These processes, combined with our continuous integration mechanisms, allow us to reach maximum development speeds, maintaining full control over the quality of each of the components involved and their integrations.",
         "image": "agileDev/agile-dev_flow.svg"
@@ -463,14 +519,14 @@
       }
     ],
     "span": {
-      "back":"DISCOVERY",
+      "back": "DISCOVERY",
       "forward": "AGILE MAINTENANCE, SCOPE DEV. & CONTINUOUS SUPPORT"
     }
   },
   "ams": {
     "section": "Services",
     "title": "Agile Maintenance",
-    "ogDescription": "Maintenance and support: guaranteeing the stability of your platform.",  
+    "ogDescription": "Maintenance and support: guaranteeing the stability of your platform.",
     "hero": [
       "Maintenance and support: guaranteeing the stability of your",
       "platform."
@@ -478,7 +534,8 @@
     "intro": "Once the development is finished, we offer maintenance and support services to guarantee the stability and successful transfer of the platform to your business. We have three maintenance modalities: Scope Development, Agile maintenance and Continuous Support. These types of projects follow the same internal development processes with administrative and operational variants in favor of efficient use of resources.",
     "kanban": {
       "title": [
-        "We use Kanban", "as an agile framework"
+        "We use Kanban",
+        "as an agile framework"
       ],
       "content": [
         "We employ Kanban as an agile workframe to prioritize and organize planned and on-call work, which allows us to maintain a constant flow of deliverables, through the implementation of solutions that immediately provide value to the client."
@@ -503,131 +560,217 @@
     ],
     "conclusion": "Whether through Scope Development, Agile Maintenance or Continuous Support, we are committed to offering you a continuous and quality service that guarantees the stability and efficiency of your platform."
   },
-    "page404": {
-      "title": "404 Error",
-      "ogDescription": "Page Not Found",
-      "paragraph": [
-        "Sorry, we can't find the page you're looking",
-        "for, it doesn't exist or it has been moved.",
-        "Please try to rewrite the URL or visit",
-        "our home page."
+  "page404": {
+    "title": "404 Error",
+    "ogDescription": "Page Not Found",
+    "paragraph": [
+      "Sorry, we can't find the page you're looking",
+      "for, it doesn't exist or it has been moved.",
+      "Please try to rewrite the URL or visit",
+      "our home page."
+    ],
+    "btn": "Go to home page"
+  },
+  "stories": {
+    "title": "Work",
+    "ogDescription": "From startups to enterprises, we've helped drive growth and innovation through custom software development. Explore our success stories.",
+    "ogImage": "",
+    "hero": [
+      "From startups to enterprises, we've",
+      "helped drive growth and innovation",
+      "through custom software development. ",
+      "Explore our success stories."
+    ],
+    "soon": [
+      "COMING SOON"
+    ],
+    "spectrum": {
+      "title": "Spectrum Wine",
+      "services": [
+        "Discovery",
+        "Agile Development"
       ],
-      "btn": "Go to home page"
+      "img": "spectrum-thumbnail"
     },
-    "stories": {
-      "title": "Work",
-      "ogDescription": "From startups to enterprises, we've helped drive growth and innovation through custom software development. Explore our success stories.",
-      "ogImage": "",
-      "hero": [
-        "From startups to enterprises, we've",
-        "helped drive growth and innovation",
-        "through custom software development. ",
-        "Explore our success stories."
+    "ws": {
+      "title": [
+        "E-commerce and data",
+        "analysis for will smith"
       ],
-      "soon": ["COMING SOON"],
-      "spectrum": {
-        "title": "Spectrum Wine",
-        "services": ["Discovery", "Agile Development"],
-        "img": "spectrum-thumbnail"
-      },
-      "ws": {
-        "title": ["E-commerce and data", "analysis for will smith"],
-        "services": ["Discovery", "Agile Development"],
-        "img": "ws-thumbnail"
-      },
-      "legal": {
-        "title": ["Legal case manager"],
-        "services": ["Discovery", "Agile Development"],
-        "img": "legal-thumbnail"
-      }
-    },
-    "story": {
-      "services": "Services",
-      "methodology": "Methodology",
-      "period": "Period"
-    },
-    "servicesComponent": {
-      "title": ["Success starts with", "understanding your needs"],
-      "paragraph": [
-        "Our team is dedicated to delivering value at every",
-        "stage. Learn more about our services and see how",
-        "we can help you succeed."
+      "services": [
+        "Discovery",
+        "Agile Development"
       ],
-      "btn": "services"
+      "img": "ws-thumbnail"
     },
-    "privacy": {
-      "title": "Privacy Policy",
-      "ogDescription": "LKMX SOFTWARE DEVELOPMENT mejor conocido como LKMX, con domicilio en Av. Adolfo López Mateos 2030-15, Granados, 22840, Ensenada, B.C., México y portal de internet https://www.lkmx.io/, es el responsable del uso y protección de sus datos personales, y al respecto le informamos lo siguiente:",
-      "intro": "LKMX SOFTWARE DEVELOPMENT, better known as LKMX, located at Av. Adolfo López Mateos 2030-15, Granados, 22840, Ensenada, B.C., Mexico and website https://www.lkmx.io/, is responsible for the use and protection of your personal data, and we hereby inform you of the following:",
-      "section1": {
-        "title" : "FOR WHAT PURPOSES WILL WE USE YOUR PERSONAL DATA?",
-        "paragraph": "The personal data we collect from you will be used for the following purposes that are necessary for the service you request:",
-        "li": ["Provision of any requested service"]
-      },
-      "section2": {
-        "title" : "WHAT PERSONAL DATA WILL WE USE FOR THESE PURPOSES?",
-        "paragraph": "To carry out the purposes described in this privacy notice, we will use the following personal data:",
-        "li": ["Contact information"]
-      },
-      "section3": {
-        "title" : "HOW CAN YOU ACCESS, RECTIFY OR CANCEL YOUR PERSONAL DATA, OBJECT TO ITS USE OR EXERCISE YOUR RIGHT TO REVOKE CONSENT?",
-        "paragraph": [
-          "You have the right to know what personal data we have about you, what we use it for and the conditions of its use (",
-          "Access",
-          "). Likewise, you have the right to request the correction of your personal information if it is outdated, inaccurate or incomplete (",
-          "Rectification",
-          "); that we remove it from our records or databases when you consider that it is not being used properly (",
-          "Cancellation",
-          "); as well as to object to the use of your personal data for specific purposes (",
-          "Objection",
-          "). These rights are known as",
-          "ARCO rights."
+    "legal": {
+      "title": [
+        "Legal case manager"
       ],
-        "paragraph2": [
-          "To exercise any of the",
-          "ARCO rights,",
-          "you must send a request via email to",
-          "privacy@lkmx.io",
-          "and it must contain:"
-        ],
-        "li": [
-          "Full name of the owner.", 
-          "Address.", 
-          "Phone number.", 
-          "Copy of an official identification attached.", 
-          "Subject «ARCO Rights»", 
-          "Description of the purpose of the letter, which may be, among others, the following: Revocation of consent to process your personal data; and/or Notification of improper use of your personal data processing; and/or Exercise your ARCO rights, with a clear and precise description of the data to be Accessed, Rectified, Canceled or Objected to. In the case of Rectification of personal data, you must indicate the exact modification and attach supporting documentation; it is important to note that in the case of revocation of consent, we may not be able to immediately attend to your request or discontinue the use, as it is possible that by some legal obligation we may need to continue processing your personal data. Also, you should consider that for certain purposes, the revocation of your consent will imply that we cannot continue to provide you with the service you requested, or the termination of your relationship with us." 
-        ]
-      },
-      "section4": {
-        "title" : "WITHIN HOW MANY DAYS WILL WE RESPOND TO YOUR REQUEST?",
-        "paragraph": "20 days.",
-        "li": []
-      },
-      "section5": {
-        "title" : "HOW WILL WE COMMUNICATE THE RESPONSE TO YOUR REQUEST?",
-        "paragraph": "To the same email from where the request was sent.",
-        "li": []
-      },
-      "section6": {
-        "title" : "THE USE OF TRACKING TECHNOLOGIES ON OUR WEBSITE",
-        "paragraph": "We inform you that we use cookies, web beacons, or other technologies on our website, through which it is possible to monitor your behavior as an internet user, as well as to provide you with a better service and experience while browsing our site. Some of the personal data we obtain from these tracking technologies are:",
-        "li": [
-          "User's region",
-          "User's browser type",
-          "User's operating system type"
-        ],
-        "paragraph2": "These cookies, web beacons, and other technologies can be disabled. To learn how to do it, please consult your browser's help menu. Please note that if you disable cookies, you may not be able to access certain personalized features on our website."
-      },
-      "section7": {
-        "title" : "HOW CAN YOU KNOW ABOUT CHANGES TO THIS PRIVACY NOTICE?",
-        "paragraph": "This privacy notice may be modified, changed or updated due to new legal requirements, our own needs for the products or services we offer, our privacy practices, changes in our business model, or other reasons. We undertake to keep this privacy notice updated regarding any changes it may undergo, and you can always check for updates on the website",
-        "link": "www.lkmx.io/privacy-policy."
-      }
-    },
-    "ourWork": {
-      "title": "Our Work",
-      "par": "From startups to enterprises, we've helped drive growth and innovation through custom software development.",
-      "btn": "Go to Our Work"
+      "services": [
+        "Discovery",
+        "Agile Development"
+      ],
+      "img": "legal-thumbnail"
     }
+  },
+  "story": {
+    "services": "Services",
+    "methodology": "Methodology",
+    "period": "Period"
+  },
+  "servicesComponent": {
+    "title": [
+      "Success starts with",
+      "understanding your needs"
+    ],
+    "paragraph": [
+      "Our team is dedicated to delivering value at every",
+      "stage. Learn more about our services and see how",
+      "we can help you succeed."
+    ],
+    "btn": "services"
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "ogDescription": "LKMX SOFTWARE DEVELOPMENT mejor conocido como LKMX, con domicilio en Av. Adolfo López Mateos 2030-15, Granados, 22840, Ensenada, B.C., México y portal de internet https://www.lkmx.io/, es el responsable del uso y protección de sus datos personales, y al respecto le informamos lo siguiente:",
+    "intro": "LKMX SOFTWARE DEVELOPMENT, better known as LKMX, located at Av. Adolfo López Mateos 2030-15, Granados, 22840, Ensenada, B.C., Mexico and website https://www.lkmx.io/, is responsible for the use and protection of your personal data, and we hereby inform you of the following:",
+    "section1": {
+      "title": "FOR WHAT PURPOSES WILL WE USE YOUR PERSONAL DATA?",
+      "paragraph": "The personal data we collect from you will be used for the following purposes that are necessary for the service you request:",
+      "li": [
+        "Provision of any requested service"
+      ]
+    },
+    "section2": {
+      "title": "WHAT PERSONAL DATA WILL WE USE FOR THESE PURPOSES?",
+      "paragraph": "To carry out the purposes described in this privacy notice, we will use the following personal data:",
+      "li": [
+        "Contact information"
+      ]
+    },
+    "section3": {
+      "title": "HOW CAN YOU ACCESS, RECTIFY OR CANCEL YOUR PERSONAL DATA, OBJECT TO ITS USE OR EXERCISE YOUR RIGHT TO REVOKE CONSENT?",
+      "paragraph": [
+        "You have the right to know what personal data we have about you, what we use it for and the conditions of its use (",
+        "Access",
+        "). Likewise, you have the right to request the correction of your personal information if it is outdated, inaccurate or incomplete (",
+        "Rectification",
+        "); that we remove it from our records or databases when you consider that it is not being used properly (",
+        "Cancellation",
+        "); as well as to object to the use of your personal data for specific purposes (",
+        "Objection",
+        "). These rights are known as",
+        "ARCO rights."
+      ],
+      "paragraph2": [
+        "To exercise any of the",
+        "ARCO rights,",
+        "you must send a request via email to",
+        "privacy@lkmx.io",
+        "and it must contain:"
+      ],
+      "li": [
+        "Full name of the owner.",
+        "Address.",
+        "Phone number.",
+        "Copy of an official identification attached.",
+        "Subject «ARCO Rights»",
+        "Description of the purpose of the letter, which may be, among others, the following: Revocation of consent to process your personal data; and/or Notification of improper use of your personal data processing; and/or Exercise your ARCO rights, with a clear and precise description of the data to be Accessed, Rectified, Canceled or Objected to. In the case of Rectification of personal data, you must indicate the exact modification and attach supporting documentation; it is important to note that in the case of revocation of consent, we may not be able to immediately attend to your request or discontinue the use, as it is possible that by some legal obligation we may need to continue processing your personal data. Also, you should consider that for certain purposes, the revocation of your consent will imply that we cannot continue to provide you with the service you requested, or the termination of your relationship with us."
+      ]
+    },
+    "section4": {
+      "title": "WITHIN HOW MANY DAYS WILL WE RESPOND TO YOUR REQUEST?",
+      "paragraph": "20 days.",
+      "li": []
+    },
+    "section5": {
+      "title": "HOW WILL WE COMMUNICATE THE RESPONSE TO YOUR REQUEST?",
+      "paragraph": "To the same email from where the request was sent.",
+      "li": []
+    },
+    "section6": {
+      "title": "THE USE OF TRACKING TECHNOLOGIES ON OUR WEBSITE",
+      "paragraph": "We inform you that we use cookies, web beacons, or other technologies on our website, through which it is possible to monitor your behavior as an internet user, as well as to provide you with a better service and experience while browsing our site. Some of the personal data we obtain from these tracking technologies are:",
+      "li": [
+        "User's region",
+        "User's browser type",
+        "User's operating system type"
+      ],
+      "paragraph2": "These cookies, web beacons, and other technologies can be disabled. To learn how to do it, please consult your browser's help menu. Please note that if you disable cookies, you may not be able to access certain personalized features on our website."
+    },
+    "section7": {
+      "title": "HOW CAN YOU KNOW ABOUT CHANGES TO THIS PRIVACY NOTICE?",
+      "paragraph": "This privacy notice may be modified, changed or updated due to new legal requirements, our own needs for the products or services we offer, our privacy practices, changes in our business model, or other reasons. We undertake to keep this privacy notice updated regarding any changes it may undergo, and you can always check for updates on the website",
+      "link": "www.lkmx.io/privacy-policy."
+    }
+  },
+  "ourWork": {
+    "title": "Our Work",
+    "par": "From startups to enterprises, we've helped drive growth and innovation through custom software development.",
+    "btn": "Go to Our Work"
+  },
+  "biometricSensors": {
+    "hero": {
+      "span": "Biometric sensor Connection",
+      "title": "Specialists in the integration of Biometric sensors connection technology",
+      "intro": "At LKMX, we integrate applications with biometric sensors. Biometric sensors are electronic devices that measure and analyze important physiological data to inform decisions related to health and wellness. These sensors are increasingly common in wearable devices such as smartwatches, fitness bands, and other wearables."
+    },
+    "sections": [
+      {
+        "title": "Devices",
+        "par1": "Biometric sensors allow the collection of valuable data that can be used for a variety of applications in various industries. Some examples of use include measuring heart rate and blood pressure, capturing fingerprints for identity authentication, measuring body temperature to detect fever or disease, and detecting brain activity for cognitive performance monitoring, among many others.",
+        "par2": "For the connection between biometric sensors and our projects, we use advanced technologies such as Bluetooth Low Energy (BLE), Near Field Communication (NFC), and Wi-Fi Direct. These technologies allow us to establish reliable and secure connections, ensuring that biometric data is collected quickly and accurately.",
+        "img": {
+          "src": "/biometricSensors/devices-en.svg",
+          "large": {
+            "width": 376.93,
+            "height": 304
+          },
+          "small": {
+            "width": 343,
+            "height": 276.63
+          }
+        },
+        "alt": "Biometric wearables",
+        "caption": "Biometric sensors can measure physical or behavioral characteristics in humans."
+      },
+      {
+        "title": "Hippa",
+        "par1": "When working with health data on specific projects that require it, we ensure compliance with the Health Insurance Portability and Accountability Act (HIPAA).",
+        "par2": "",
+        "img": {
+          "src": "/biometricSensors/hippa.svg",
+          "large": {
+            "width": 300,
+            "height": 107.5
+          },
+          "small": {
+            "width": 300,
+            "height": 107.5
+          }
+        },
+        "alt": "Hippa Logo",
+        "caption": "HIPAA is a US federal law that protects the privacy and security of patients' medical information by setting standards for its use and disclosure."
+      },
+      {
+        "title": "Mass Processing",
+        "par1": "Our ability to develop custom applications allows us to process large volumes of data generated by biometric devices and transform it into valuable information to identify patterns in biometric data, which can be used to create solutions in a wide variety of fields.",
+        "par2": "",
+        "img": {
+          "src": "/biometricSensors/mass-processing.svg",
+          "large": {
+            "width": 457.05,
+            "height": 200
+          },
+          "small": {
+            "width": 343,
+            "height": 150.09
+          }
+        },
+        "alt": "Mass Processing",
+        "caption": "Massive data processing involves analyzing large data sets to discover patterns, trends, and correlations, using advanced software to perform this task in an efficient time."
+      }
+    ]
+  }
 }

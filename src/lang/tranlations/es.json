@@ -606,5 +606,68 @@
     "title": "Nuestro trabajo",
     "par": "Desde startups hasta empresas, hemos ayudado a impulsar el crecimiento e innovación a través del desarrollo de software personalizado.",
     "btn": "Ir a Trabajos"
+  },
+  "biometricSensors": {
+    "hero": {
+      "span": "Sensores biométricos",
+      "title": "Especialistas en la integración de tecnologías de conexión con sensores biométricos",
+      "intro": "En LKMX integramos aplicaciones con sensores biométricos. Los sensores biométricos son dispositivos electrónicos que miden y analizan datos fisiológicos importantes para informar decisiones relacionadas con la salud y el bienestar. Estos sensores son cada vez más comunes en dispositivos portátiles, como relojes inteligentes, pulseras de actividad física y otros wearables."
+    },
+    "sections": [
+      {
+        "title": "Dispositivos",
+        "par1": "Los sensores biométricos permiten la recolección de datos valiosos que pueden ser utilizados para una variedad de aplicaciones en diversas industrias. Algunos ejemplos de uso incluyen la medición de la frecuencia cardíaca y la presión arterial, la captura de huellas dactilares para la autenticación de identidad, la medición de la temperatura corporal para detectar fiebre o enfermedades, y la detección de la actividad cerebral para el monitoreo del rendimiento cognitivo, entre muchos otros.",
+        "par2": "Para la conexión entre los sensores biométricos y nuestros proyectos, utilizamos tecnologías avanzadas como Bluetooth Low Energy (BLE), Near Field Communication (NFC) y Wi-Fi Direct. Estas tecnologías nos permiten establecer conexiones fiables y seguras, asegurando que los datos biométricos se recopilen con rapidez y precisión.",
+        "img": {
+          "src": "/biometricSensors/devices-en.svg",
+          "large": {
+            "width": 376.93,
+            "height": 304
+          },
+          "small": {
+            "width": 343,
+            "height": 276.63
+          }
+        },
+        "alt": "Biometric wearables",
+        "caption": "Los sensores biométricos pueden medir características físicas o de comportamiento en los seres humanos."
+      },
+      {
+        "title": "Hippa",
+        "par1": "Cuando trabajamos con datos de salud en proyectos específicos que lo requieren, nos aseguramos de cumplir con la Ley de Portabilidad y Responsabilidad de Seguro de Salud (Health Insurance Portability and Accountability Act - HIPAA).",
+        "par2": "",
+        "img": {
+          "src": "/biometricSensors/hippa.svg",
+          "large": {
+            "width": 300,
+            "height": 107.5
+          },
+          "small": {
+            "width": 300,
+            "height": 107.5
+          }
+        },
+        "alt": "Hippa Logo",
+        "caption": "HIPAA es una ley federal estadounidense que protege la privacidad y seguridad de la información médica de los pacientes, estableciendo estándares para su uso y divulgación."
+      },
+      {
+        "title": "Procesamiento masivo",
+        "par1": "Nuestra capacidad de desarrollar aplicaciones personalizadas nos permite procesar grandes volúmenes de datos generados por dispositivos biométricos y transformarlos en información valiosa para identificar patrones en los datos biométricos, lo que puede ser utilizado para crear soluciones en una amplia variedad de campos.",
+        "par2": "",
+        "img": {
+          "src": "/biometricSensors/mass-processing.svg",
+          "large": {
+            "width": 457.05,
+            "height": 200
+          },
+          "small": {
+            "width": 343,
+            "height": 150.09
+          }
+        },
+        "alt": " Procesamiento Masivo",
+        "caption": "El procesamiento masivo de datos implica analizar grandes conjuntos de datos para descubrir patrones, tendencias y correlaciones, utilizando software avanzado para realizar esta tarea en un tiempo eficiente."
+      }
+    ]
   }
 }
