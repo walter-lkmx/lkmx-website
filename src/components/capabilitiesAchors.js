@@ -1,10 +1,10 @@
 import React, { useEffect } from "react";
-import styles from "@/components/industriesAnchors.module.scss";
+import styles from "@/components/capabilitiesAnchors.module.scss";
 import { Block, Column } from "@lkmx/flare-react";
 import Image from "next/image";
 
 
-export default function IndustriesAnchors({anchorsData}) {
+export default function CapabilitiesAnchors({anchorsData}) {
     useEffect(() => {
         document.addEventListener('scroll', function () {
             var i = 0;
@@ -33,7 +33,7 @@ export default function IndustriesAnchors({anchorsData}) {
     })
     
     return(
-        <Column mode="normal" modeL="slim" modeXxxl="slim" modeM="full" className={styles.anchors__sections}>
+        <Column mode="normal" modeL="slim" modeXxxl="slim" className={styles.anchors__sections}>
             <Block className={styles.anchors__sections__block}>  
                 <div className={styles.anchors__sections__block__wrapper}>
                     <nav className={styles.anchors__sections__block__wrapper__aside}> 
@@ -50,16 +50,19 @@ export default function IndustriesAnchors({anchorsData}) {
                     {anchorsData.map((data, index) => {
                         return(
                         <article className={styles.anchors__sections__block__black__item} key={index} id={data.title}>
-                            <h2>{data.title}</h2>
-                            <p>{data.par1}</p>
-                            {data.par2 !== "" ? <p>{data.par2}</p> : "" }
+                            <div className={styles.anchors__sections__block__black__item__content}>
+                                <h2>{data.title}</h2>
+                                <p>{data.par1}</p>
+                                {data.par2 !== "" ? <p>{data.par2}</p> : "" }
+                            </div>                            
                             {data.img !== "" ? 
-                            <figure>
-                                <div>
-                                    <Image
-                                    fill
-                                    src={data.image}
-                                    alt={data.alt}
+                            <figure className={styles.anchors__sections__block__black__item__fig}>
+                                <div className={styles.anchors__sections__block__black__item__fig__img}>
+                                    <Image                                    
+                                    src={data.img.src}
+                                    alt={data.img.alt}
+                                    width={data.img.large.width}
+                                    height={data.img.large.height}                                    
                                     />
                                 </div>
                                 <figcaption>{data.caption}</figcaption>

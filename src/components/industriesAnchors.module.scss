@@ -112,8 +112,7 @@
                     display: grid;
                     align-items: center;
                     text-decoration: none;   
-                    line-height: 20px;
-                    pointer-events: none;
+                    line-height: 20px;                    
                     @include respond-to("<=s") {
                       font-size: 14px;
                       height: 56px;                      
@@ -131,6 +130,7 @@
                   }
                   &__disabled {
                     color: $color-lang-secondary;
+                    pointer-events: none;
                     &:hover {
                       color: $color-lang-secondary;
                       cursor: default;

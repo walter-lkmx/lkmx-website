@@ -181,7 +181,7 @@
         "capabilities": [
           {
             "name": ["Conexión con", "sensores biométricos"],
-            "ref": ""
+            "ref": "/industries/biometricSensors"
           },
           {
             "name": ["Desarrollo de aplicaciones","móviles para usuarios finales"],
@@ -619,7 +619,7 @@
         "par1": "Los sensores biométricos permiten la recolección de datos valiosos que pueden ser utilizados para una variedad de aplicaciones en diversas industrias. Algunos ejemplos de uso incluyen la medición de la frecuencia cardíaca y la presión arterial, la captura de huellas dactilares para la autenticación de identidad, la medición de la temperatura corporal para detectar fiebre o enfermedades, y la detección de la actividad cerebral para el monitoreo del rendimiento cognitivo, entre muchos otros.",
         "par2": "Para la conexión entre los sensores biométricos y nuestros proyectos, utilizamos tecnologías avanzadas como Bluetooth Low Energy (BLE), Near Field Communication (NFC) y Wi-Fi Direct. Estas tecnologías nos permiten establecer conexiones fiables y seguras, asegurando que los datos biométricos se recopilen con rapidez y precisión.",
         "img": {
-          "src": "/biometricSensors/devices-en.svg",
+          "src": "/industries/biometricSensors/devices-en.svg",
           "large": {
             "width": 376.93,
             "height": 304
@@ -637,7 +637,7 @@
         "par1": "Cuando trabajamos con datos de salud en proyectos específicos que lo requieren, nos aseguramos de cumplir con la Ley de Portabilidad y Responsabilidad de Seguro de Salud (Health Insurance Portability and Accountability Act - HIPAA).",
         "par2": "",
         "img": {
-          "src": "/biometricSensors/hippa.svg",
+          "src": "/industries/biometricSensors/hippa.svg",
           "large": {
             "width": 300,
             "height": 107.5
@@ -655,7 +655,8 @@
         "par1": "Nuestra capacidad de desarrollar aplicaciones personalizadas nos permite procesar grandes volúmenes de datos generados por dispositivos biométricos y transformarlos en información valiosa para identificar patrones en los datos biométricos, lo que puede ser utilizado para crear soluciones en una amplia variedad de campos.",
         "par2": "",
         "img": {
-          "src": "/biometricSensors/mass-processing.svg",
+          "src": "/industries/biometricSensors/mass-processing.svg",
+          "alt": " Procesamiento Masivo",
           "large": {
             "width": 457.05,
             "height": 200
@@ -664,8 +665,7 @@
             "width": 343,
             "height": 150.09
           }
-        },
-        "alt": " Procesamiento Masivo",
+        },        
         "caption": "El procesamiento masivo de datos implica analizar grandes conjuntos de datos para descubrir patrones, tendencias y correlaciones, utilizando software avanzado para realizar esta tarea en un tiempo eficiente."
       }
     ]

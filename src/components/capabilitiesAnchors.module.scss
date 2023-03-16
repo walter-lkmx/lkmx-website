@@ -1,0 +1,105 @@
+.anchors {
+    &__sections {
+        &__block {              
+          >div>div {
+            padding: 0 !important;
+            position: relative;
+            @include respond-to("xxxl") {
+              transform: translateX(169px);
+            }            
+          }
+    
+          &__white {
+            @include respond-to("<=m") {
+              display: none;
+            }
+          }
+          &__wrapper {
+            padding-top: 72px;
+            position: absolute;
+            left: -192px;
+            height: 97.5%;
+
+            &__aside {
+              z-index: 2;
+              position: sticky;
+              top: 56px;
+              display: grid;
+              gap: 16px;
+              @include respond-to("<=m") {
+                display: none;
+              }
+      
+              a {
+                display: grid;
+                grid-template-columns: 193px;
+                align-items: center;
+                text-decoration: none;
+                
+                span {
+                  text-align: right;
+                  text-transform: uppercase;
+                  color: $color-lang-secondary;
+                  transition: .2s ease-in;
+                  &:hover {
+                    color: $color-blue !important;
+                  }
+                }
+      
+                img {
+                  max-width: none !important;
+                  width: 25px;
+                  height: 5px;
+                }
+              }
+      
+            }
+          }
+          
+    
+          &__black {
+            @include respond-to("<=m") {
+              transform: translateY(0px);
+              padding: 0 16px;
+            }
+            z-index: 1;
+            padding: 0px 0px 0px 52px;
+            display: grid;
+            position: relative;
+
+            @include respond-to("<=s") {
+              padding: 56px 16px;
+            }
+    
+            &__item {
+              display: grid;             
+              gap: 56px;
+              padding: 72px 0;
+              //align-items: start;
+              border-bottom: 1px solid #EBEAE8;    
+              &__content {
+                h2 {
+                  line-height: 32px;
+                }                       
+                p {
+                    margin-bottom: 0;
+                } 
+              }  
+              &__fig {
+                &__img {
+                    display: grid;
+                    justify-content: center;
+                    margin-bottom: 16px;
+                }
+                figcaption {
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 22px;
+                    color: $color-lang-secondary;
+                }
+              }                            
+            }
+          }
+        }
+    }
+}
