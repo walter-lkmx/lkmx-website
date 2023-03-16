@@ -20,7 +20,7 @@ export default function DiscoveryPage() {
         <BaseLayout>
             <HeadSeo
                 title={$t.discovery.title + ' - ' + siteMetadata.companyName}
-                description={$t.discovery.ogDescription}
+                description={$t.discovery.hero[0] + ' ' + $t.discovery.hero[1] + ' ' + $t.discovery.hero[2]}
                 canonicalUrl={siteMetadata.siteUrl}
                 ogImageUrl={$t.home.ogImage ? $t.home.ogImage : locale === 'es' ? siteMetadata.ogDefaultImageEs : siteMetadata.ogDefaultImageEn}
                 ogTwitterImage={$t.home.ogImage ? $t.home.ogImage : locale === 'es' ? siteMetadata.ogDefaultImageEs : siteMetadata.ogDefaultImageEn}

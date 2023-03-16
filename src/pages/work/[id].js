@@ -37,7 +37,7 @@ export default function SuccessStory({storyData}) {
         <BaseLayout>
             <HeadSeo
                 title={storyData.title[0] + ' ' + storyData.title[1] + ' - ' + siteMetadata.companyName}
-                description={storyData.headline}
+                description={storyData.headline[0] + ' ' + storyData.headline[1]}
                 ogImageUrl={$t.home.ogImage ? $t.home.ogImage : locale === 'es' ? siteMetadata.ogDefaultImageEs : siteMetadata.ogDefaultImageEn}
                 ogTwitterImage={$t.home.ogImage ? $t.home.ogImage : locale === 'es' ? siteMetadata.ogDefaultImageEs : siteMetadata.ogDefaultImageEn}
             />
