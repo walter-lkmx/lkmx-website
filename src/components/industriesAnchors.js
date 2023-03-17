@@ -33,7 +33,7 @@ export default function IndustriesAnchors({anchorsData}) {
     })
     
     return(
-        <Column mode="normal" modeL="slim" modeXxxl="slim" modeM="full" className={styles.anchors__sections}>
+        <Column mode="normal" modeL="slim" modeXxxl="slim"  className={styles.anchors__sections}>
             <Block className={styles.anchors__sections__block}>  
                 <div className={styles.anchors__sections__block__wrapper}>
                     <nav className={styles.anchors__sections__block__wrapper__aside}> 

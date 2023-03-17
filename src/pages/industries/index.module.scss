@@ -108,13 +108,13 @@
   &__intro {
     &__block {
       .lkContainer {
-        padding: 108px 0px 0;
+        padding: 92px 0px 0;
         justify-content: start; 
         @include respond-to("<=s") {
-          padding: 108px 0 0;
+          padding: 92px 0 0;
         }       
         @include respond-to("<=xs") {
-          text-align: start;
+          padding: 56px 0 0;
         }
         * {
           margin: 0;

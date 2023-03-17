@@ -71,6 +71,9 @@
             @include respond-to("<=s") {
               padding: 56px 16px;
             }
+            @include respond-to("<=xs") {
+              padding: 0px 16px;
+            }
     
             &__item {
               display: grid;
@@ -86,6 +89,7 @@
                 grid-template-columns: 1fr;
                 justify-items: start;
                 gap: 16px;
+                padding: 76px 0;
               }
     
               &__content {
