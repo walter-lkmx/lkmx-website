@@ -26,7 +26,7 @@ export default function BiometricSensors() {
     />
     <Page className={styles.sensors}>
         <GoBackBar destiny={"/industries"}/>
-        <Column className={styles.sensors__hero}>
+        <Column modeXxxl="slim" className={styles.sensors__hero}>
             <Block className={styles.sensors__hero__block}>
                 <span>{$t.biometricSensors.hero.span}</span>
                 <h1>{$t.biometricSensors.hero.title}</h1>
