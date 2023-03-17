@@ -23,7 +23,7 @@
     &__content {
       display: grid;
       grid-template-areas: "pages information";
-      padding: rem(52px) 0;
+      padding: rem(42px) 0;
 			align-items: center;
       &__pages {
         display: grid;
@@ -145,7 +145,7 @@
       padding-bottom: 42px;
       > div > div {       
         border-top: 1px solid #495CE9;
-        padding-top: 16px !important;
+        padding-top: 42px !important;
         @include respond-to("xxl") {
           padding-left: 0px !important;
         }       
@@ -171,7 +171,7 @@
   @include respond-to(">=xl") {
     &__top {
       &__content {
-        padding: rem(52px) 0;
+        padding: rem(42px) 0;
         &__pages {
           grid-template-columns: rem(221px) rem(223px) auto;
         }
@@ -248,7 +248,6 @@
           grid-template-columns: 1fr;
           grid-template-areas: "logo" "social" "info";
           grid-row-gap: 1rem;
-          padding: rem(10px) 0;
           justify-items: start;
           ul {
             margin: 0;
