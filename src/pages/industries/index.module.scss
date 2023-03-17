@@ -20,7 +20,7 @@
         }
       }
       &:last-child {
-        background-color: white;
+        background-color: $color-bright-gray;
         position: relative;
         overflow: hidden;
         height: 100%;        
@@ -48,7 +48,7 @@
           }          
         }
         &__content{
-          padding-bottom: rem(55px);
+          padding-bottom: rem(22px);
           *{margin: 0;}
           h2 {
             color: white;
