@@ -12,6 +12,10 @@
       margin: 0;
     }
   }
+  @include respond-to("<=s") {
+    padding-left: 16px !important;
+    padding-right: 16px !important;
+  }
   background-color: $color-blue;
   &__top {
     --f-gutter: 0px;
@@ -19,7 +23,7 @@
     &__content {
       display: grid;
       grid-template-areas: "pages information";
-      padding: rem(52px) rem(26px);
+      padding: rem(52px) 0;
 			align-items: center;
       &__pages {
         display: grid;
@@ -139,26 +143,12 @@
     }
     &__privacy {
       padding-bottom: 42px;
-      @include respond-to("<=s") {
-        padding-left: 26px;
-        padding-right: 26px;
-      }
-      > div > div {
-        padding-left: 16px !important;
+      > div > div {       
         border-top: 1px solid #495CE9;
         padding-top: 16px !important;
-        @include respond-to("xxxl") {
-          padding-left: 96px !important;
-        }
         @include respond-to("xxl") {
           padding-left: 0px !important;
-        }
-        @include respond-to("<=l") {
-          padding-left: 26px !important;
-        }
-        @include respond-to("<=s") {
-          padding-left: 0px !important;
-        }
+        }       
       }
       &__anchor {
         width: 140px;
@@ -181,7 +171,7 @@
   @include respond-to(">=xl") {
     &__top {
       &__content {
-        padding: rem(52px) 1rem;
+        padding: rem(52px) 0;
         &__pages {
           grid-template-columns: rem(221px) rem(223px) auto;
         }
@@ -222,7 +212,7 @@
   @include respond-to("xxxl") {
     &__top {
       &__content {
-        padding: rem(42px) rem(96px);
+        padding: rem(42px) 0;
         &__pages {
           grid-template-columns: rem(221px) rem(256px) rem(220px);
         }
