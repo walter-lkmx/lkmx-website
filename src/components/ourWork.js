@@ -59,8 +59,7 @@ export default function OurWork() {
                     </Link>
                 </div>
                 <div className={styles.ourWork__block__grid}>
-                    <section className={styles.ourWork__block__grid__full}>
-                        <Link href={first.route}>
+                        <Link href={first.route} className={styles.ourWork__block__grid__full}>
                             <div className={styles.ourWork__block__grid__full__item}>
                                 <div className={styles.ourWork__block__grid__full__item__img}>
                                     <Image
@@ -72,9 +71,7 @@ export default function OurWork() {
                                 <span>{first.catchphrase}</span>
                             </div>
                         </Link>
-                    </section>
-                    <section className={styles.ourWork__block__grid__half}>
-                        <Link href={second.route}>
+                        <Link href={second.route} className={styles.ourWork__block__grid__half}>
                             <div className={styles.ourWork__block__grid__half__item}>
                                 <div className={styles.ourWork__block__grid__half__item__img}>
                                     <Image
@@ -86,7 +83,7 @@ export default function OurWork() {
                                 <span>{second.catchphrase}</span>
                             </div>
                         </Link>
-                        <Link href={third.route}>
+                        <Link href={third.route} className={styles.ourWork__block__grid__half__second}>
                             <div className={styles.ourWork__block__grid__half__item}>
                                 <div className={styles.ourWork__block__grid__half__item__img}>
                                     <Image
@@ -98,7 +95,6 @@ export default function OurWork() {
                                 <span>{third.catchphrase}</span>
                             </div>
                         </Link>
-                    </section>
                 </div>
             </Block>
         </Column>
