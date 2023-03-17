@@ -66,11 +66,6 @@
             padding: 0;
             display: grid;
             position: relative;
-
-            @include respond-to("<=s") {
-              padding: 56px 16px;
-            }
-    
             &__item {
               display: grid;             
               gap: 56px;
