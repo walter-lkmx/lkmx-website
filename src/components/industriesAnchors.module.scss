@@ -123,14 +123,14 @@
                     }               
                   }
                   &__enabled {
+                    &:visited {
+                      color: $color-neutral-black;
+                      }
                     &:hover {
                       background-color: $color-pink;
                       color: white;
                       cursor: pointer;
-                    }
-                    &:visited {
-                    color: $color-neutral-black;
-                    }
+                    }                    
                   }
                   &__disabled {
                     color: $color-lang-secondary;

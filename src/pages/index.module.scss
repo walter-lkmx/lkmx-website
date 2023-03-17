@@ -68,12 +68,12 @@
 						}
 						@include respond-to("<=m") {
 							width: 768px;
-							transform: translate(0, 15px);
+							transform: translate(-2.2%, 15px);
 						}
 
 						@include respond-to("<=s") {
 							width: 709px;
-							transform: translate(-2%, 15px);
+							transform: translate(2.8%, 15px);
 						}
 						@include respond-to("xxxl") {
 							transform: translate(13%, 219px);

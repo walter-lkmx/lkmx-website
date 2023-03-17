@@ -619,7 +619,7 @@
         "par1": "Los sensores biométricos permiten la recolección de datos valiosos que pueden ser utilizados para una variedad de aplicaciones en diversas industrias. Algunos ejemplos de uso incluyen la medición de la frecuencia cardíaca y la presión arterial, la captura de huellas dactilares para la autenticación de identidad, la medición de la temperatura corporal para detectar fiebre o enfermedades, y la detección de la actividad cerebral para el monitoreo del rendimiento cognitivo, entre muchos otros.",
         "par2": "Para la conexión entre los sensores biométricos y nuestros proyectos, utilizamos tecnologías avanzadas como Bluetooth Low Energy (BLE), Near Field Communication (NFC) y Wi-Fi Direct. Estas tecnologías nos permiten establecer conexiones fiables y seguras, asegurando que los datos biométricos se recopilen con rapidez y precisión.",
         "img": {
-          "src": "/industries/biometricSensors/devices-en.svg",
+          "src": "/industries/biometricSensors/devices-es.svg",
           "large": {
             "width": 376.93,
             "height": 304
