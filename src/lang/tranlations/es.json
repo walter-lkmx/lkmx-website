@@ -185,7 +185,7 @@
           },
           {
             "name": ["Desarrollo de aplicaciones","móviles para usuarios finales"],
-            "ref": ""
+            "ref": "/industries/mobileApps"
           },
           {
             "name": ["Integración con AI/ML",""],
@@ -635,7 +635,6 @@
       {
         "title": "Hippa",
         "par1": "Cuando trabajamos con datos de salud en proyectos específicos que lo requieren, nos aseguramos de cumplir con la Ley de Portabilidad y Responsabilidad de Seguro de Salud (Health Insurance Portability and Accountability Act - HIPAA).",
-        "par2": "",
         "img": {
           "src": "/industries/biometricSensors/hippa.svg",
           "large": {
@@ -653,7 +652,6 @@
       {
         "title": "Procesamiento masivo",
         "par1": "Nuestra capacidad de desarrollar aplicaciones personalizadas nos permite procesar grandes volúmenes de datos generados por dispositivos biométricos y transformarlos en información valiosa para identificar patrones en los datos biométricos, lo que puede ser utilizado para crear soluciones en una amplia variedad de campos.",
-        "par2": "",
         "img": {
           "src": "/industries/biometricSensors/mass-processing.svg",
           "alt": " Procesamiento Masivo",
@@ -667,6 +665,103 @@
           }
         },        
         "caption": "El procesamiento masivo de datos implica analizar grandes conjuntos de datos para descubrir patrones, tendencias y correlaciones, utilizando software avanzado para realizar esta tarea en un tiempo eficiente."
+      }
+    ]
+  },
+  "mobileApps": {
+    "hero": {
+      "span": "Desarrollo de aplicaciones móviles para usuarios finales",
+      "title": "Expertos en aplicaciones móviles híbridas y experiencias de usuario personalizadas",
+      "intro": "En la actualidad, las aplicaciones móviles son un recurso fundamental en un mundo cada vez más conectado y en constante movimiento.  En LKMX contamos con una amplia experiencia en el desarrollo de aplicaciones móviles híbridas que ofrecen una experiencia de usuario óptima en cualquier dispositivo que utilice sistemas operativos iOS y Android, desde wearables hasta smartphones, tablets y televisores inteligentes, entre otros."
+    },
+    "sections": [
+      {
+        "title": "Aplicaciones Híbridas",
+        "par1": "Nuestro enfoque de desarrollo híbrido ofrece varias ventajas en comparación con las aplicaciones nativas.",
+        "par2": "Una de las ventajas principales de nuestro enfoque de desarrollo híbrido es que se utiliza un solo código base para lanzar la aplicación en múltiples plataformas, como iOS y Android. En lugar de escribir código específico para cada plataforma, los desarrolladores pueden crear una aplicación híbrida que tenga una apariencia y funcionalidad consistente en ambos sistemas operativos; además las actualizaciones y correcciones de errores se pueden implementar de manera más rápida y eficiente en ambas plataformas al mismo tiempo lo que optimiza costos y recursos de desarrollo.",
+        "par3": "Una aplicación híbrida consta de varios componentes. La siguiente imagen representa una vista general de la arquitectura de una aplicación de este tipo:",
+        "img": {
+          "src": "/industries/mobileApps/hybrid-apps.svg",
+          "large": {
+            "width": 626,
+            "height": 452
+          },
+          "small": {
+            "width": 344,
+            "height": 248
+          }
+        },
+        "alt": "hybrid apps schema",
+        "caption": "Utilizamos un enfoque híbrido para desarrollar aplicaciones móviles, permitiendo explotar las funcionalidades nativas del hardware del dispositivo, con una sola base de código."
+      },
+      {
+        "title": "CD/CI",
+        "par1": "Nuestro código fuente es administrado usando infraestructura propia de integración continua que automatiza el versionamiento, empaquetamiento y publicación de los binarios.",
+        "par2": "La automatización completa de nuestros procesos de DevOps nos permite entregar versiones funcionales a nuestros clientes al final de cada iteración.",
+        "img": {
+          "src": "/industries/mobileApps/cd-ci.svg",
+          "large": {
+            "width": 439,
+            "height": 186
+          },
+          "small": {
+            "width": 344,
+            "height": 146
+          }
+        },
+        "alt": "CD/CI diagram",
+        "caption": "Automatizamos el proceso de versionamiento, empaquetamiento y publicación de nuestros binarios mediante una infraestructura propia de integración continua."
+      },
+      {
+        "title": "Despliegue en tienda",
+        "par1": "Desde el inicio del proceso de desarrollo hasta el lanzamiento en las tiendas de aplicaciones, nuestro equipo se asegura de proporcionar una solución integral. Nos aseguramos de que la aplicación se lance en las tiendas de aplicaciones, ya sea en tiendas de aplicaciones públicas como Google Play y App Store, o de forma privada para uso interno de la empresa.",
+        "img": {
+          "src": "/industries/mobileApps/deployment.svg",
+          "large": {
+            "width": 461,
+            "height": 310
+          },
+          "small": {
+            "width": 344,
+            "height": 230
+          }
+        },
+        "alt": "Apps that meets specifications for Play Store and App Store",
+        "caption": "Durante todo el ciclo de desarrollo, nos aseguramos de que la aplicación cumpla con todos los requisitos técnicos y de calidad para su aprobación en las tiendas de aplicaciones."
+      },
+      {
+        "title": "UX/UI",
+        "par1": "Creamos interfaces de usuario intuitivas y atractivas para garantizar la mejor experiencia de usuario posible. Trabajamos en estrecha colaboración con nuestros clientes y nuestros desarrolladores para asegurarnos de que el diseño de la aplicación sea coherente con la marca y se adapte a las necesidades específicas del usuario final.",
+        "img": {
+          "src": "/industries/mobileApps/ui-ux.svg",
+          "large": {
+            "width": 626,
+            "height": 350
+          },
+          "small": {
+            "width": 343,
+            "height": 196
+          }
+        },
+        "alt": "Interactive and adaptative UI designs for better user Experience (UI/UX)",
+        "caption": "Diseñar soluciones que ofrecen una experiencia de usuario altamente satisfactoria y una interfaz de usuario intuitiva, lo que se traduce en una mayor adopción y retención de usuarios en el producto."
+      },
+      {
+        "title": "Sistema de diseño",
+        "par1": "Utilizamos un sistema de diseño propio que permite la concepción rápida e implementación eficiente de interfaces con retículas perfectas y estilos consistentes desde la primera iteración. Flare define conceptos claros e implementables sobre cuatro puntos clave: estilo, estructura, interfaz con el usuario y contenido.",
+        "img": {
+          "src": "/industries/mobileApps/design-system.svg",
+          "large": {
+            "width": 362,
+            "height": 372
+          },
+          "small": {
+            "width": 343,
+            "height": 196
+          }
+        },
+        "alt": "Flare Design System",
+        "caption": "Nuestro sistema de diseño personalizado asegura la rápida concepción e implementación de interfaces con retículas precisas y estilos coherentes."
       }
     ]
   }

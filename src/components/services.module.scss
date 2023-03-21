@@ -5,7 +5,7 @@
         &__container {
             display:  grid;
             grid-template-columns: 2fr 1fr;
-            @include respond-to("<=s") {
+            @include respond-to("<=xs") {
                 grid-template-columns: auto;
                 justify-items: center;
             }
@@ -17,8 +17,8 @@
             position: relative;
             width: 234px;
             aspect-ratio: 1;
-            @include respond-to("<=s") {
-                transform: translateX(-88px);
+            @include respond-to("<=xs") {
+                transform: translateX(-103px);
             }
             @include respond-to("xxs") {
                 transform: translateX(-85px);                
@@ -30,7 +30,7 @@
                 justify-items: center;
             }
             &:last-child {
-                @include respond-to("<=s") {
+                @include respond-to("<=xs") {
                     order: -1;
                 }
             }

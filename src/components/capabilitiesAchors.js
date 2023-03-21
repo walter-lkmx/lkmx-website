@@ -53,7 +53,8 @@ export default function CapabilitiesAnchors({anchorsData}) {
                             <div className={styles.anchors__sections__block__black__item__content}>
                                 <h2>{data.title}</h2>
                                 <p>{data.par1}</p>
-                                {data.par2 !== "" ? <p>{data.par2}</p> : "" }
+                                {data.par2 ? <p>{data.par2}</p> : "" }
+                                {data.par3 ? <p>{data.par3}</p> : "" }
                             </div>                            
                             {data.img !== "" ? 
                             <figure className={styles.anchors__sections__block__black__item__fig}>
