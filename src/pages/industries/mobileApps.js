@@ -23,6 +23,7 @@ export default function mobileApps() {
             ogTwitterImage={$t.home.ogImage ? $t.home.ogImage : locale === 'es' ? siteMetadata.ogDefaultImageEs : siteMetadata.ogDefaultImageEn}
             />
             <Page className={styles.apps}>
+            <GoBackBar destiny={"/industries"}/>
                 <Column modeXxxl="slim" className={styles.apps__hero}>
                 <Block className={styles.apps__hero__block}>
                     <span>{$t.mobileApps.hero.span}</span>
