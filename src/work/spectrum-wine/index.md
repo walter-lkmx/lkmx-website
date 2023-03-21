@@ -48,7 +48,7 @@ introduction: {
 </div>
 <div class="story_story__mainContent__gantt__TErEp">
     <figure>
-        <img src="/work/project-chart-es.jpg" alt="Gantt chart"/>
+        <img src="/work/project-chart-es.svg" alt="Gantt chart"/>
         <figcaption class="story_story__mainContent__caption__IQRnS">El diagrama de Gantt de este proyecto ilustra nuestro servicio de Desarrollo Ágil, con cada sprint desglosado en tres diferentes fases: definición, implementación, y aprobación.</figcaption>
     </figure>
 </div>
