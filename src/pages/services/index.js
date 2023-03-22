@@ -26,7 +26,7 @@ export default function ServicesPage() {
 
       <Page className={styles.page}>
 
-        <Column number={2} numberS={1} className={styles.page__services} weight="right" weightS="Normal" modeXl="normal" modeL="full" modeM="full">
+        <Column number={2} numberS={1} className={styles.page__services} weight="right" weightS="Normal" modeXl="normal" modeL="full" modeM="full" modeXxxl="slim">
           <Block>
             <div className={styles.page__services__content}>
               <h1>{$t.services.title}</h1>
@@ -116,7 +116,7 @@ export default function ServicesPage() {
           </Block>
         </Column>
 
-        <Column numberS={1} modeL="normal" modeS="full" className={styles.page__phases}>
+        <Column numberS={1} modeL="normal" modeS="full" modeXxxl="slim" className={styles.page__phases}>
           <Block className={styles.page__phases__block}>
             <div className={styles.page__phases__content}>
               <div>

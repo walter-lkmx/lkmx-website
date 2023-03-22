@@ -66,7 +66,7 @@ export default function Index() {
       />
 
       <Page className={styles.index}>
-        <Column mode="normal" modeXL="slim" className={styles.index__hero}>
+        <Column mode="normal" modeXxxl="slim" className={styles.index__hero}>
           <Block className={styles.index__hero__block}>
             <div className={styles.index__hero__block__content}>
               <div className={styles.index__hero__block__content__left}>
@@ -95,7 +95,7 @@ export default function Index() {
           </Block>
         </Column>
         
-        <Column mode="normal" modeM="full" modeXL="slim" className={styles.index__services}>
+        <Column mode="normal" modeM="full" modeXxxl="slim" className={styles.index__services}>
           <Block className={styles.index__services__block}>
             <div className={styles.index__services__block__content}>
               <div className={styles.index__services__block__content__left}>

@@ -36,7 +36,7 @@
                     justify-self: start;
                 }
                 @include respond-to("xxxl") {
-                    transform: translateX(180px);
+                    transform: translateX(210px);
                 }
             }
         }        
