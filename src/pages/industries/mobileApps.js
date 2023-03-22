@@ -10,7 +10,7 @@ import GoBackBar from "../../components/goBackBar";
 import CapabilitiesAnchors from "../../components/capabilitiesAchors";
 import Services from "../../components/services";
 
-export default function mobileApps() {
+export default function MobileApps() {
     const { locale } = useRouter();
     const $t = getLang(locale);
     const capabilityContents = $t.mobileApps.sections;
