@@ -69,14 +69,16 @@
             &__item {
               display: grid;             
               gap: 56px;
-              padding: 72px 0;
+              padding: 56px 0;
               //align-items: start;
               border-bottom: 1px solid #EBEAE8;    
               &__content {
                 h2 {
                   line-height: 32px;
+                  margin-bottom: 8px;
                 }                       
                 p {
+                  margin-top: 8px;
                     margin-bottom: 0;
                 } 
               }  
