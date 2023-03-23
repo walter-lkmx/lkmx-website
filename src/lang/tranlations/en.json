@@ -204,14 +204,14 @@
               "Biometric sensor connection",
               ""
             ],
-            "ref": "/industries/biometricSensors"
+            "ref": "/en/industries/biometricSensors"
           },
           {
             "name": [
               "mobile app development",
               "for end users"
             ],
-            "ref": "/industries/mobileApps"
+            "ref": "/en/industries/mobileApps"
           }
         ]
       },
