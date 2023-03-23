@@ -73,6 +73,9 @@
           width: rem(140px);
           height: 72px;
           position: relative;
+          @include respond-to(">=xl") {
+            width: rem(180px);
+          }
         }
         ul {
           --f-list-item-margin: 0;
