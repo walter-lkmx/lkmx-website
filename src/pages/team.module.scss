@@ -559,9 +559,6 @@
         }
         grid-template-columns: repeat(5, 1fr);
         grid-auto-rows: min-content;
-        img {
-          min-height: 75px;
-        }
         &__card {
           height: auto;
           padding: 1rem;
