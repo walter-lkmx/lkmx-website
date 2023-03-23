@@ -65,11 +65,13 @@
         grid-row-gap: rem(25px);
         grid-column-gap: rem(20px);
         justify-items: end;
+        @include respond-to(">=xl") {
+          padding-top: 125.17px !important;
+        }
         > a {
           grid-area: logo;
           width: rem(140px);
           height: 72px;
-          margin-top: rem(4px);
           position: relative;
         }
         ul {
@@ -78,7 +80,6 @@
           display: grid;
           grid-row-gap: 1rem;
           grid-auto-rows: min-content;
-          padding-top: 1rem;
           a {
             position: relative;
             height: rem(24px);
@@ -91,7 +92,7 @@
           line-height: rem(28px);
           font-size: 16px;
           display: grid;
-          align-content: center;
+          align-content: end;
           text-align: right;
           width: max-content;
           max-width: 99vw;
@@ -143,13 +144,22 @@
     }
     &__privacy {
       padding-bottom: 42px;
-      > div > div {       
-        border-top: 1px solid #495CE9;
-        padding-top: 42px !important;
-        @include respond-to("xxl") {
-          padding-left: 0px !important;
-        }       
+      > div {
+        padding-left: 16px;
+        padding-right: 16px;
+        @include respond-to(">=xxl") {
+          padding-left: unset;
+        padding-right: unset;
+        }
+        > div {       
+          border-top: 1px solid #495CE9;
+          padding-top: 42px !important;
+          @include respond-to("xxl") {
+            padding-left: 0px !important;
+          }       
+        }
       }
+      
       &__anchor {
         width: 140px;
         color: #00D0F6;
@@ -171,9 +181,10 @@
   @include respond-to(">=xl") {
     &__top {
       &__content {
-        padding: rem(42px) 0;
+        padding: 0 16px 42px;
         &__pages {
           grid-template-columns: rem(221px) rem(223px) auto;
+          padding-top: 144px;
         }
         //&__information {
           // p {
