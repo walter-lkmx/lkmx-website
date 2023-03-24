@@ -204,7 +204,7 @@
   @include respond-to(">=xxl") {
     &__top {
       &__content {
-        padding: rem(42px) 0;
+        padding: 0 0 42px;
         &__pages {
           grid-template-columns: rem(186px) rem(256px) rem(224px);
           grid-column-gap: rem(50px);
@@ -226,7 +226,6 @@
   @include respond-to("xxxl") {
     &__top {
       &__content {
-        padding: rem(42px) 0;
         &__pages {
           grid-template-columns: rem(221px) rem(256px) rem(220px);
         }
