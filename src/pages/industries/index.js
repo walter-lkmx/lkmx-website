@@ -59,9 +59,10 @@ export default function TechnologyPage() {
               <Image
                   fill             
                   priority={true}
-                  src="/industry-hero-wave.svg" alt="waves"
+                  src="/industries/wave.svg" alt="waves"
                 />
               </div>   
+              <div className={styles.industries__hero__block__right__cyan}></div>
               <div>
                 <Image
                   fill
@@ -84,23 +85,7 @@ export default function TechnologyPage() {
             </div>
           </Block>
         </Column>
-        <IndustriesAnchors anchorsData={industriesCat}/>
-        {/* 
-        <Column className={styles.industries__catalog}>
-          <Block>
-            <div className={styles.lkContainer}>
-              <div className={styles.catalogIntro}>                
-                <p>
-                {$t.industries.catalogDescription}
-                </p>
-              </div>
-              <div className={styles.catalogItems}>
-                {industriesCatItems}
-              </div>
-            </div>
-          </Block>
-        </Column>
-        */}        
+        <IndustriesAnchors anchorsData={industriesCat}/>     
       </Page>
     </BaseLayout>
   );

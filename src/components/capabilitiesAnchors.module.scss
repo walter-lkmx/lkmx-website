@@ -76,6 +76,9 @@
                 h2 {
                   line-height: 32px;
                   margin-bottom: 8px;
+                  @include respond-to("<=s") {
+                    font-size: 24px;
+                  }
                 }                       
                 p {
                   margin-top: 8px;
