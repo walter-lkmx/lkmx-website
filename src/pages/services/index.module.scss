@@ -207,8 +207,7 @@
       grid-column-gap: 3rem;
       > div {
         display: grid;
-        height: stretch;
-        grid-template-rows: minmax(64px, auto) 1fr auto;        
+        grid-template-rows: minmax(64px, auto) 2fr 1.2fr;        
         h3 {
           height: 62px;
           @include respond-to("m") {

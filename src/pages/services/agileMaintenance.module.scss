@@ -14,6 +14,7 @@
           }
     
           h1 {
+            margin-bottom: 0;
             @include respond-to("<=s") {
               font-size: 28px;
               line-height: 36px;

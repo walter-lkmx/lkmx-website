@@ -13,6 +13,10 @@
 				}
 				&__left {
 					padding-top: 130px;
+					@include respond-to("<=s") {
+						display: grid;
+    					justify-content: center;
+					}
 					h1 {
 						font-weight: 700;
 						font-size: 60px;
