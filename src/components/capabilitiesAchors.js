@@ -63,7 +63,8 @@ export default function CapabilitiesAnchors({anchorsData}) {
                                     src={data.img.src}
                                     alt={data.img.alt}
                                     width={data.img.large.width}
-                                    height={data.img.large.height}                                    
+                                    height={data.img.large.height}
+                                    style={{height: 'inherit'}}
                                     />
                                 </div>
                                 <figcaption>{data.caption}</figcaption>
