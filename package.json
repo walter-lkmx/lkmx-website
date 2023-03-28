@@ -13,6 +13,7 @@
     "@lkmx/flare-react": "^0.1.7",
     "@next/font": "^13.0.7",
     "@svgr/webpack": "^6.4.0",
+    "cobe": "^0.6.3",
     "gray-matter": "^4.0.3",
     "moment": "^2.29.4",
     "next": "^13.0.7",
