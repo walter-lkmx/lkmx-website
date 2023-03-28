@@ -1,6 +1,7 @@
 .anchors {
     &__sections {
-        &__block {              
+        &__block {    
+          overflow-x: clip;
           >div>div {
             padding: 0 !important;
             position: relative;
@@ -63,25 +64,34 @@
               transform: translateY(0px);
               padding: 0 16px;
             }
-            z-index: 1;
+            z-index: 3;
             padding: 0px 0px 0px 44.5px;
             display: grid;
-            position: relative;
-
+            position: relative;            
             @include respond-to("<=s") {
               padding: 56px 16px;
             }
             @include respond-to("<=xs") {
               padding: 0px 16px;
-            }
-    
+            }            
             &__item {
               display: grid;
               grid-template-columns: 32px auto;
               gap: 19px;
               padding: 92px 0;
               align-items: start;
-              border-bottom: 1px solid #EBEAE8;
+              position: relative;                            
+              &:not(:last-child) {
+                &:after {
+                  position: absolute;
+                  content: "";
+                  height: 2px;
+                  background-color: #EBEAE8;
+                  width: 100vw;
+                  bottom: 0;
+                  z-index: 4;
+                }
+              }
               @include respond-to("xxxl") {
                 grid-template-columns: 32px 680px;
               }
