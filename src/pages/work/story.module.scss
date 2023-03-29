@@ -319,6 +319,21 @@
                     transform: translateX(-50%);
                 }
             }
+            figure {
+                display: grid;
+                justify-items: center;
+                figcaption {
+                    @include respond-to(">=xl") {
+                        max-width: 709px;
+                    }
+                    @include respond-to("l") {
+                        max-width: 581px;
+                    }
+                    @include respond-to("<=m") {
+                        max-width: unset;
+                    }
+                }
+            }
             
             img {
                 min-height: unset;
