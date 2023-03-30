@@ -3,6 +3,15 @@
         padding: 56px 0;
     
         &__block {
+          > div {
+            @include respond-to("xxxl") {
+              display: grid;
+              justify-content: center;
+              > div {
+                width: 1200px !important;
+              }
+            }
+          }
           &__pink {
             color: $color-pink;
             font-weight: 700;

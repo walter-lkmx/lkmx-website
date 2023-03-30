@@ -4,6 +4,15 @@
 		min-height: 810px;
 		z-index: 1;
 		&__block{
+			> div {
+				@include respond-to("xxxl") {
+					display: grid;
+					justify-content: center;
+					> div {
+						width: 1200px !important;
+					}
+				}
+			}
 			&__content {
 				display: grid;
 				grid-template-columns: 1fr 1fr;
@@ -109,8 +118,17 @@
 			background: $color-neutral-black;
 		}
 		&__block{
-			> div > div {
-				padding: 0px !important;
+			> div {
+				@include respond-to("xxxl") {
+					display: grid;
+					justify-content: center;
+					> div {
+						width: 1200px !important;
+					}
+				}
+				> div {
+					padding: 0px !important;
+				}
 			}
 			&__content {
 				display: grid;
@@ -221,6 +239,15 @@
 	&__technologies {
 		&__block {
 			padding: 120px 0px 0px;
+			> div {
+				@include respond-to("xxxl") {
+					display: grid;
+					justify-content: center;
+					> div {
+						width: 1200px !important;
+					}
+				}
+			}
 			&__title {
 				display: grid;
 				place-items: start;
@@ -247,7 +274,7 @@
 					transform: translate(39px, -104px);
 				}
 				@include respond-to("xxxl") {
-					transform: translate(239px, -136px);
+					transform: translate(135px, -136px);
 				}
 				
 				@include respond-to("<=l") {

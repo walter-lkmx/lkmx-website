@@ -5,6 +5,16 @@
             @include respond-to("<=xs") {
                 padding: 72px 16px !important;
             }
+            
+        }
+        > div {
+            @include respond-to("xxxl") {
+                display: grid;
+                justify-content: center;
+                > div {
+                    width: 1200px !important;
+                }
+            }
         }
         &__heading {
             display: grid;
@@ -34,9 +44,6 @@
                 }
                 @include respond-to("<=xs") {
                     justify-self: start;
-                }
-                @include respond-to("xxxl") {
-                    transform: translateX(210px);
                 }
             }
         }        

@@ -1,4 +1,13 @@
 .goBack {
+  > div {
+    @include respond-to("xxxl") {
+      display: grid;
+      justify-content: center;
+      > div {
+        width: 1200px !important;
+      }
+    }
+  }
   background-color: $color-neutral-black;
   @include respond-to("<=s") {
     justify-content: start;

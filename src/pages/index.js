@@ -104,7 +104,7 @@ export default function Index() {
       />
 
       <Page className={styles.index}>
-        <Column mode="normal" modeXxxl="slim" className={styles.index__hero}>
+        <Column mode="normal" className={styles.index__hero}>
           <Block className={styles.index__hero__block}>
             <div className={styles.index__hero__block__content}>
               <div className={styles.index__hero__block__content__left}>
@@ -133,7 +133,7 @@ export default function Index() {
           </Block>
         </Column>
         
-        <Column mode="normal" modeM="full" modeXxxl="slim" className={styles.index__services}>
+        <Column mode="normal" modeM="full" className={styles.index__services}>
           <Block className={styles.index__services__block}>
             <div className={styles.index__services__block__content}>
               <div className={styles.index__services__block__content__left}>
@@ -202,7 +202,7 @@ export default function Index() {
           </Block>
         </Column>
 
-        <Column className={styles.index__technologies} mode="normal" modeXxxl="slim">
+        <Column className={styles.index__technologies} mode="normal">
           <Block className={styles.index__technologies__block}>
             <div className={styles.index__technologies__block__title}>
               <h2>{$t.home.technologiesTitle}</h2>

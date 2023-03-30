@@ -5,6 +5,15 @@
     }
   }
   &__phases{
+    > div {
+      @include respond-to("xxxl") {
+        display: grid;
+        justify-content: center;
+        > div {
+          width: 1200px !important;
+        }
+      }
+    }
     display: grid;
     grid-template-columns: repeat(5, min-content);
     justify-content: center;
@@ -68,6 +77,19 @@
     }
   }
   &__services {
+    &__block {
+      > div {
+				@include respond-to("xxxl") {
+					display: grid;
+					justify-content: center;
+          position: relative;
+					> div {
+						position: absolute;
+            right: 16px;
+					}
+				}
+			}
+    }
     > :first-child { background-color: $color-neutral-black }
     > :last-child { background-color: $color-cyan }
     &__content {

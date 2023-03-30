@@ -20,6 +20,17 @@
   &__top {
     --f-gutter: 0px;
     --f-paragraph-margin: 0;
+    &__block {
+      > div {
+        @include respond-to("xxxl") {
+          display: grid;
+          justify-content: center;
+          > div {
+            width: 1200px !important;
+          }
+        }
+      }
+    }
     &__content {
       display: grid;
       grid-template-areas: "pages information";
@@ -154,6 +165,9 @@
           padding-left: unset;
         padding-right: unset;
         }
+        @include respond-to("xxxl") {
+          max-width: 1200px !important;
+        }
         > div {       
           border-top: 1px solid #495CE9;
           padding-top: 42px !important;
@@ -228,6 +242,7 @@
       &__content {
         &__pages {
           grid-template-columns: rem(221px) rem(256px) rem(220px);
+          gap: 14px;
         }
       }
     }

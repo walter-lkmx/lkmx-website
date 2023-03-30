@@ -16,7 +16,7 @@ export default function Footer() {
   return (
     <footer className={styles.footer}>
       <Column className={styles.footer__top}>
-        <Block>
+        <Block className={styles.footer__top__block}>
           <div className={styles.footer__top__content}>
             <div className={styles.footer__top__content__pages}>
               <div>

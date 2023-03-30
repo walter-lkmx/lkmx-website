@@ -42,12 +42,28 @@
         display: grid;
         align-items: end;
         background-color: $color-neutral-black;
-        > div > div {
-          @include respond-to("<=m") {
-            padding-left: 0 !important;
-          }          
-        }
+
+        > div{
+          @include respond-to("xxxl") {
+            height: 100%;
+          }     
+          > div {
+            @include respond-to("xxxl") {
+              height: 100%;
+              position: relative;
+            }            
+            @include respond-to("<=m") {
+              padding-left: 0 !important;
+            }          
+          }
+        } 
         &__content{
+          @include respond-to("xxxl") {
+            width: max-content;
+            position: absolute;
+            right: 32px;
+            bottom: 40px;
+          }     
           padding-bottom: rem(22px);
           *{margin: 0;}
           @include respond-to("<=s") {
@@ -118,6 +134,15 @@
   }
   &__intro {
     &__block {
+      > div {
+				@include respond-to("xxxl") {
+					display: grid;
+					justify-content: center;
+					> div {
+						width: 1200px !important;
+					}
+				}
+			}
       .lkContainer {
         padding: 92px 0px 0;
         justify-content: start; 

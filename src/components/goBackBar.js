@@ -10,7 +10,7 @@ export default function GoBackBar({destiny}) {
     const { locale } = useRouter();
     const $t = getLang(locale);
     return (
-        <Column mode="normal" modeM="full" modeXxxl="slim">
+        <Column mode="normal" modeM="full">
             <Block className={styles.goBack}>
                 <Link href={destiny} legacyBehavior>
                     <div className={styles.goBack__wrapper}>

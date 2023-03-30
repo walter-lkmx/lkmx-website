@@ -1,5 +1,16 @@
 .services {
     &__column {
+        &__block {
+            > div {
+                @include respond-to("xxxl") {
+                    display: grid;
+                    justify-content: center;
+                    > div {
+                    width: 1200px !important;
+                    }
+                }
+            }
+        }
         background-color: $color-bright-gray-01;
         padding: 72px 0;
         &__container {
@@ -11,6 +22,9 @@
             }
             @include respond-to("xxxl") {
                 grid-template-columns: 1fr 1fr;
+                justify-content: center;
+                gap: 68px;
+                justify-items: center;
             }
         }
         &__image {
@@ -29,10 +43,15 @@
                 display: grid;
                 justify-items: center;
             }
+            &:first-child {
+                @include respond-to("xxxl") {
+                    justify-self: end;
+                }
+            }
             &:last-child {
                 @include respond-to("<=xs") {
                     order: -1;
-                }
+                }                
             }
             @include respond-to("l") {
                 p {

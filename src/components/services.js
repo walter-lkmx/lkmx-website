@@ -10,8 +10,8 @@ export default function Services() {
     const { locale } = useRouter();
     const $t = getLang(locale);
     return (
-        <Column mode="normal" modeL="slim" modexS="full" className={styles.services__column}>
-            <Block>
+        <Column mode="normal" modeL="slim" modexS="full" modeXxl="normal" className={styles.services__column}>
+            <Block className={styles.services__column__block}>
                 <div className={styles.services__column__container}>
                     <div className={styles.services__column__block}>
                         <h2>{$t.servicesComponent.title[0]} <br/>{$t.servicesComponent.title[1]}</h2>
