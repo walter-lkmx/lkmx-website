@@ -104,11 +104,14 @@
     "ogImage": "",
     "headline": "OUR TEAM",
     "hero": [
-      "We are a combination of",
-      "creative people",
+      "We are a mix between ",
+      "creatives",
       "and",
-      "technology experts",
-      ". We connect our skills to build robust, flexible, scalable and secure software solutions."
+      "experts",
+      "in",
+      "technology. We connect our",
+      "skills to build robust, flexible, scalable",
+      "and secure software solutions."
     ],
     "banner": {
       "title": [
@@ -147,14 +150,17 @@
     "ogDescription": "We use three principles when choosing our technology: Agile, Cloud and Open Source.",
     "ogImage": "",
     "hero": [
-      "We use three principles when choosing our technology: Agile, Cloud and Open Source.",
+      "We use three principles when choosing our",
+      "technology: Agile, Cloud and Open Source.",
       "Our technology",
       "STACK",
       "is kept",
       "ORGANIZED",
       "and",
       "UP-TO-DATE",
-      "by software architects with decades of combined experience."
+      "by",
+      "software architects with decades of",
+      "combined experience."
     ],
     "principles": [
       "Our tools help us achieve high development speeds.",

@@ -99,7 +99,11 @@
       "creativos",
       "y",
       "expertos",
-      " en tecnología. Conectamos nuestras habilidades para construir soluciones de software robustas, flexibles, escalables y seguras."
+      "en",
+      "tecnología. Conectamos nuestras",
+      "habilidades para construir soluciones de",
+      "software robustas, flexibles, escalables y",
+      "seguras."
     ],
     "banner": {
       "title": [
@@ -134,14 +138,17 @@
     "ogDescription": "Utilizamos tres principios al elegir nuestra tecnología: Agile, Cloud y Open-Source.",
     "ogImage": "",
     "hero": [
-      "Utilizamos tres principios al elegir nuestra tecnología: Agile, Cloud y Open-Source.",
+      "Utilizamos tres principios al elegir nuestra ",
+      "tecnología: Agile, Cloud y Open-Source.",
       "Nuestro",
       "STACK",
       "de tecnología se mantiene",
       "organizado",
       "y",
       "ACTUALIZADO",
-      "por arquitectos de software con décadas de experiencia combinada."
+      "por",
+      "arquitectos de software con décadas de",
+      "experiencia combinada."
     ],
     "principles": [
       "Nuestras herramientas nos ayudan a alcanzar grandes velocidades de desarrollo.",

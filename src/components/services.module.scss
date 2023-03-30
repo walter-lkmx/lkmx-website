@@ -23,7 +23,7 @@
             @include respond-to("xxxl") {
                 grid-template-columns: 1fr 1fr;
                 justify-content: center;
-                gap: 68px;
+                gap: 35px;
                 justify-items: center;
             }
         }

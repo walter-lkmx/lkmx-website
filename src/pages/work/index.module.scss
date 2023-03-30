@@ -6,7 +6,7 @@
         @include respond-to("<=s") {
             min-height: 674px;
         }
-        &__left {
+        &__left {            
             z-index: 1;
             @include respond-to("<=s") {
                 min-height: 324px;
@@ -23,6 +23,17 @@
                     height: 100%;
                 }
             }
+            > div {
+                @include respond-to("xxxl") {
+                    display: grid;
+                    justify-content: center;
+                    position: relative;
+                    > div {
+                        position: absolute;
+                        right: 16px !important;
+                    }
+                }
+            }
             background-color: $color-neutral-black;
             h1, p {
                 color: white;
@@ -31,6 +42,9 @@
                 position: absolute;
                 bottom: 70px;
                 right: 93px;
+                @include respond-to("xxxl") {
+                    right: 23px;
+                }
                 @include respond-to("<=l") {
                     right: 0;
                 }
@@ -63,6 +77,9 @@
                 @include respond-to("<=s") {
                     display: none;
                 }     
+                @include respond-to("xxxl") {
+                    transform: translate(187px, -16px);
+                }
             }
         }
         &__right {
@@ -103,6 +120,15 @@
         }
         > div > div {
             padding: 108px 0 !important;
+        }
+        > div {
+            @include respond-to("xxxl") {
+                display: grid;
+                justify-content: center;
+                > div {
+                    width: 1200px !important;
+                }
+            }
         }
     }
     &__storiesGrid {

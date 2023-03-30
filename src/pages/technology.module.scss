@@ -20,6 +20,17 @@
 				>div>div {
 					height: 100%;
 				}
+				> div {
+					@include respond-to("xxxl") {
+						display: grid;
+						justify-content: center;
+			 			position: relative;
+						> div {
+							position: absolute;
+							right: 16px;
+						}
+					}
+				}
 			}
 
 			&:last-child {
@@ -38,6 +49,9 @@
 				height: 100%;
 				display: grid;
 				align-items: end;
+				&__pink {
+					color: $color-pink !important;
+				}
 
 				div {
 					padding-bottom: rem(55px);
@@ -58,11 +72,7 @@
 						strong {
 							font-size: 1.5rem;
 							line-height: 2rem;
-							color: $color-cyan;
-
-							&:last-child {
-								color: $color-pink
-							}
+							color: $color-cyan;							
 						}
 					}
 				}
@@ -114,6 +124,15 @@
 		padding: rem(56px) 0;
 
 		&__block {
+			> div {
+				@include respond-to("xxxl") {
+					display: grid;
+					justify-content: center;
+					> div {
+						width: 1200px !important;
+					}
+				}
+			}
 			&__content {
 				display: grid;
 				grid-template-columns: 1fr 1fr 1fr;

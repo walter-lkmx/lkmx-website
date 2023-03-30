@@ -28,8 +28,8 @@ export default function TechnologyPage() {
             <div className={styles.technology__hero__block__left}>
               <div>
                 <h1>{$t.technology.title}</h1>
-                <p>{$t.technology.hero[0]}</p>
-                <p>{$t.technology.hero[1]} <strong>{$t.technology.hero[2]}</strong> {$t.technology.hero[3]} <strong>{$t.technology.hero[4]}</strong> {$t.technology.hero[5]} <strong>{$t.technology.hero[6]}</strong> {$t.technology.hero[7]}</p>
+                <p>{$t.technology.hero[0]}<br/> {$t.technology.hero[1]}</p>
+                <p>{$t.technology.hero[2]} <strong>{$t.technology.hero[3]}</strong> {$t.technology.hero[4]} <br/><strong>{$t.technology.hero[5]}</strong> {$t.technology.hero[6]} <strong className={styles.technology__hero__block__left__pink}>{$t.technology.hero[7]}</strong> {$t.technology.hero[8]} <br/> {$t.technology.hero[9]} <br/> {$t.technology.hero[10]}</p>
               </div>
             </div>
           </Block>
