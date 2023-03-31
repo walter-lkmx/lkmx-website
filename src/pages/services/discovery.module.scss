@@ -237,6 +237,7 @@
         @include respond-to("l") {
           width: 710px;
           height: 373.79px;
+          max-width: 100%;
         }
         @include respond-to("m") {
           width: 736px;
