@@ -231,6 +231,9 @@
         width: 710px;
         height: 370px;
         margin-top: 40px;
+        @include respond-to("xxxl") {
+          width: inherit;
+        }
         @include respond-to("xxs") {
           margin-top: 10px;
         }

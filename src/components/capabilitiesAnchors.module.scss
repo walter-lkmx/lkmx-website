@@ -32,6 +32,9 @@
             @include respond-to("l") {
               left: -220px;
             }
+            @include respond-to("xxxl") {
+              left: -173px;
+            }
 
             &__aside {
               z-index: 2;
@@ -48,7 +51,9 @@
                 grid-template-columns: 178px;
                 align-items: center;
                 text-decoration: none;
-                
+                @include respond-to("xxxl") {
+                  grid-template-columns: 120px;
+                }
                 span {
                   text-align: right;
                   text-transform: uppercase;
@@ -95,6 +100,9 @@
                   z-index: 4;
                 }
               }              
+              @include respond-to("xxxl") {
+                max-width: 1020px;
+              }
               &__content {
                 h2 {
                   line-height: 32px;
