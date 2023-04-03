@@ -13,6 +13,10 @@
             } 
             > div {
                 width: 100% !important;
+                @include respond-to("<=s") {                    
+                    display: grid;
+                    align-items: end;
+                }
             }
             > div > div {
                 display: grid;
@@ -20,7 +24,8 @@
                 width: 100% !important;
                 @include respond-to("<=s") {
                     width: 100vw !important;
-                    height: 100%;
+                    display: grid;
+                    align-items: end;
                 }
             }
             > div {
@@ -54,14 +59,16 @@
                     left: 16px;
                 }
                 @include respond-to("<=s") {
-                    right: unset;
-                    bottom: unset;
-                    margin: auto;
-                    place-self: center;
+                   position: initial;
+                   margin: auto;
+                   place-self: center;
                 } 
                 h1 {
                     line-height: 47px;
                     font-family: var(--lk-font-inter);
+                    @include respond-to("<=s") {
+                        font-size: 35px;
+                    }
                 }
                 p {
                     font-size: 20px;
