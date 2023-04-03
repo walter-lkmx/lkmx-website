@@ -33,6 +33,10 @@
       > div > div {
         height: 100%;
         display: grid;
+        @include respond-to("<=s") {
+          justify-content: center;
+          text-align: center;
+        }
       }
     }
     > :last-child {
@@ -55,7 +59,12 @@
           font-size: rem(28px);
           line-height: rem(36px);
           color: $color-cyan;
-        }        
+        }     
+        @include respond-to("xxs") {
+          br {
+            display: none;
+          }
+        }  
       }
       &__pink {
           color: $color-pink !important;
