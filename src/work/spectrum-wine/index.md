@@ -27,7 +27,7 @@ introduction: {
 <div class="story_story__mainContent__solutionGrid__gf19L story_story__mainContent__2cGrid__aNFn8">
     <figure>
          <div class="story_story__mainContent__gifContainer__XPvMb">
-            <img src="/work/wine-details.gif" alt="Wine details"/>
+            <img loading="lazy" src="/work/wine-details.gif" alt="Wine details"/>
         </div>
         <figcaption class="story_story__mainContent__gridCaption__8kiY6 story_story__mainContent__caption__IQRnS">Una integración perfecta con el inventario de la vinicola permite mostrar rápidamente la información requerida.</figcaption>
     </figure>  
@@ -48,25 +48,25 @@ introduction: {
 </div>
 <div class="story_story__mainContent__gantt__TErEp">
     <figure>
-        <img src="/work/project-chart-es.svg" alt="Gantt chart"/>
+        <img loading="lazy" src="/work/project-chart-es.svg" alt="Gantt chart"/>
         <figcaption class="story_story__mainContent__caption__IQRnS">El diagrama de Gantt de este proyecto ilustra nuestro servicio de Desarrollo Ágil, con cada sprint desglosado en tres diferentes fases: definición, implementación, y aprobación.</figcaption>
     </figure>
 </div>
 <div>
     <figure>
         <div class="story_story__mainContent__gifContainer__XPvMb">
-            <img src="/work/search-result.gif" alt="Search results"/>
+            <img loading="lazy" src="/work/search-result.gif" alt="Search results"/>
         </div>
         <figcaption class="story_story__mainContent__caption__IQRnS">El proceso de subastas es optimizado con una interfaz cuidadosamente diseñada.</figcaption>
     </figure>    
 </div>
 <div class="story_story__mainContent__imagesGrid__NKnam story_story__mainContent__2cGrid__aNFn8">
     <figure>
-        <img src="/work/store-spectrum.jpg" alt="App capture"/>
+        <img loading="lazy" src="/work/store-spectrum.jpg" alt="App capture"/>
         <figcaption class="story_story__mainContent__gridCaption__8kiY6 story_story__mainContent__caption__IQRnS">Los usuarios pueden hacer ofertas informadas ya que tienen acceso a los detalles de la subasta en tiempo real.</figcaption>
     </figure>
     <figure>
-        <img src="/work/cart-spectrum.jpg" alt="App capture"/>
+        <img loading="lazy" src="/work/cart-spectrum.jpg" alt="App capture"/>
         <figcaption class="story_story__mainContent__gridCaption__8kiY6 story_story__mainContent__caption__IQRnS">Los datos del usuario están protegidos por sólidas medidas de seguridad, lo que permite subastas seguras.</figcaption>
     </figure>
 </div>
@@ -77,16 +77,16 @@ introduction: {
     </div>   
     <div class="story_story__mainContent__technologies__images__6NSg5">
         <div>
-            <img alt="Technology logo" src="/technologies/html.svg"/>
-            <img alt="Technology logo" src="/technologies/css.svg"/>
-            <img alt="Technology logo" src="/technologies/javascript.svg"/>
-            <img alt="Technology logo" src="/technologies/vue.svg"/>
-            <img alt="Technology logo" src="/technologies/sass.svg"/>
+            <img loading="lazy" alt="Technology logo" src="/technologies/html.svg"/>
+            <img loading="lazy" alt="Technology logo" src="/technologies/css.svg"/>
+            <img loading="lazy" alt="Technology logo" src="/technologies/javascript.svg"/>
+            <img loading="lazy" alt="Technology logo" src="/technologies/vue.svg"/>
+            <img loading="lazy" alt="Technology logo" src="/technologies/sass.svg"/>
         </div>
         <div>
-            <img alt="Technology logo" src="/technologies/chat.svg"/>
-            <img alt="Technology logo" src="/technologies/cordova.png"/>
-            <img alt="Technology logo" src="/technologies/nodejs.svg"/>
+            <img loading="lazy" alt="Technology logo" src="/technologies/chat.svg"/>
+            <img loading="lazy" alt="Technology logo" src="/technologies/cordova.png"/>
+            <img loading="lazy" alt="Technology logo" src="/technologies/nodejs.svg"/>
         </div>
     </div>     
 </div>

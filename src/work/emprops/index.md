@@ -26,7 +26,7 @@ introduction: {
 </div>
 <div>
     <figure>
-        <img src="/work/emprops-figure1.jpg" alt="EMPROPS gallery"/>
+        <img loading="lazy" src="/work/emprops-figure1.jpg" alt="EMPROPS gallery"/>
         <figcaption class="story_story__mainContent__caption__IQRnS">EMPROPS está explorando y ampliando los límites de la tecnología y la creatividad con la generación de arte generativo con la inteligencia artificial.</figcaption>
     </figure>    
 </div>
@@ -36,7 +36,7 @@ introduction: {
 </div>
 <div>
     <figure>
-        <img src="/work/emprops-figure2.jpg" alt="BigBang art"/>
+        <img loading="lazy" src="/work/emprops-figure2.jpg" alt="BigBang art"/>
         <figcaption class="story_story__mainContent__caption__IQRnS">El arte abstracto en la colección The Big Bang ofrece una amplia variedad de resultados únicos e irrepetibles.<br/>Autor <a href="https://twitter.com/yepayepayepa">@yepayepayepa</a> </figcaption>
     </figure>    
 </div>
@@ -46,7 +46,7 @@ introduction: {
 </div>
 <div>
     <figure>
-        <img src="/work/emprops-figure3.jpg" alt="Secret network and Tezos"/>
+        <img loading="lazy" src="/work/emprops-figure3.jpg" alt="Secret network and Tezos"/>
         <figcaption class="story_story__mainContent__caption__IQRnS">Emprops se ha integrado con dos blockchains importantes. Secret Network, enfocado en la privacidad de transacciones. Tezos es un blockchain referente en el mundo del arte con una comunidad de artistas y coleccionistas en constante crecimiento.</figcaption>
     </figure>    
 </div>
@@ -56,20 +56,20 @@ introduction: {
 </div>
 <div>
     <figure>
-        <img src="/work/emprops-figure4.jpg" alt="Ghost in the machine"/>
+        <img loading="lazy" src="/work/emprops-figure4.jpg" alt="Ghost in the machine"/>
         <figcaption class="story_story__mainContent__caption__IQRnS">Ghost in the Machine explora la belleza de la imperfección y el caos. Se creó mediante una combinación única entre p5.js, Stable Diffusion e ImageMagick. <br/>
         Autor <a href="https://twitter.com/3mil_c">@3mil_c</a></figcaption>
     </figure>    
 </div>
 <div>
     <figure>
-        <img src="/work/emprops-figure5.jpg" alt="The Oracles"/>
+        <img loading="lazy" src="/work/emprops-figure5.jpg" alt="The Oracles"/>
         <figcaption class="story_story__mainContent__caption__IQRnS">The Oracles es una colección generativa de PFPs generados mediante inteligencia artificial utilizando el modelo texto-a-imagen Stable Diffusion. <br/>Autor <a href="https://twitter.com/iragreenberg">@iragreenberg</a></figcaption>
     </figure>    
 </div>
 <div class="story_story__mainContent__gantt__TErEp">
     <figure>
-        <img src="/work/project-chart-es--double.svg" alt="Gantt chart"/>
+        <img loading="lazy" src="/work/project-chart-es--double.svg" alt="Gantt chart"/>
         <figcaption class="story_story__mainContent__caption__IQRnS">El diagrama de Gantt para este proyecto ilustra nuestro servicio de Desarrollo Ágil, con cada sprint dividido en tres fases distintas: definición, implementación y aceptación.</figcaption>
     </figure>
 </div>
@@ -80,30 +80,30 @@ introduction: {
     </div>   
     <div class="story_story__mainContent__technologies__images__6NSg5">
         <div>
-            <img alt="Html" src="/technologies/html.svg"/>
-            <img alt="Css" src="/technologies/css.svg"/>
-            <img alt="Javascript" src="/technologies/javascript.svg"/>
-            <img alt="Typescript" src="/technologies/typescript.svg"/>
-            <img alt="Vue" src="/technologies/vue.svg"/>
+            <img loading="lazy" alt="Html" src="/technologies/html.svg"/>
+            <img loading="lazy" alt="Css" src="/technologies/css.svg"/>
+            <img loading="lazy" alt="Javascript" src="/technologies/javascript.svg"/>
+            <img loading="lazy" alt="Typescript" src="/technologies/typescript.svg"/>
+            <img loading="lazy" alt="Vue" src="/technologies/vue.svg"/>
         </div>
         <div>
-            <img alt="CloudFlare" src="/technologies/cloudflare.svg"/>
-            <img alt="Docker" src="/technologies/docker.svg"/>
-            <img alt="Ubuntu" src="/technologies/ubuntu.svg"/>
-            <img alt="Nginx" src="/technologies/nginx.svg"/>
-            <img alt="Gradle" src="/technologies/gradle.svg"/>
+            <img loading="lazy" alt="CloudFlare" src="/technologies/cloudflare.svg"/>
+            <img loading="lazy" alt="Docker" src="/technologies/docker.svg"/>
+            <img loading="lazy" alt="Ubuntu" src="/technologies/ubuntu.svg"/>
+            <img loading="lazy" alt="Nginx" src="/technologies/nginx.svg"/>
+            <img loading="lazy" alt="Gradle" src="/technologies/gradle.svg"/>
         </div>
         <div>
-            <img alt="Spring" src="/technologies/spring.svg"/>
-            <img alt="Nodejs" src="/technologies/nodejs.svg"/>
-            <img alt="Github" src="/technologies/github.svg"/>
-            <img alt="Tezos" src="/technologies/tezos.svg"/>
-            <img alt="Secret" src="/technologies/secret.svg"/>
+            <img loading="lazy" alt="Spring" src="/technologies/spring.svg"/>
+            <img loading="lazy" alt="Nodejs" src="/technologies/nodejs.svg"/>
+            <img loading="lazy" alt="Github" src="/technologies/github.svg"/>
+            <img loading="lazy" alt="Tezos" src="/technologies/tezos.svg"/>
+            <img loading="lazy" alt="Secret" src="/technologies/secret.svg"/>
         </div>
         <div>
-            <img alt="rest" src="/technologies/rest.svg" class="story_story__mainContent__technologies__images__large__KxVD1"/>
-            <img alt="npm" src="/technologies/npm.svg" class="story_story__mainContent__technologies__images__large__KxVD1"/>
-            <img alt="PostgreSQL" src="/technologies/postgresql.svg"/>
+            <img loading="lazy" alt="rest" src="/technologies/rest.svg" class="story_story__mainContent__technologies__images__large__KxVD1"/>
+            <img loading="lazy" alt="npm" src="/technologies/npm.svg" class="story_story__mainContent__technologies__images__large__KxVD1"/>
+            <img loading="lazy" alt="PostgreSQL" src="/technologies/postgresql.svg"/>
         </div>
     </div>     
 </div>

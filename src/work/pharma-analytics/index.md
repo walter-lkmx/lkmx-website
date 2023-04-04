@@ -29,14 +29,14 @@ introduction: {
             <p>La solución implementa las 5 etapas clave del análisis de datos, con tecnologías seleccionadas específicamente para cada fase. La fase de colección incluye el uso de APIs Java para catalogar y transferir la información a un mecanismo robusto basado en Apache Spark. Este proceso depura y organiza la información completa utilizando los servicios de Data Proc y Big Query de Google Cloud. Finalmente, se generan índices de Elastic Search que son accedidos a través de una interfaz web híbrida basada en Vue JS y Kibana.</p>
         </div>
         <figure>
-            <img src="/work/pharma-figure1.jpg" alt="Data Colection"/>
+            <img loading="lazy" src="/work/pharma-figure1.jpg" alt="Data Colection"/>
             <figcaption class="story_story__mainContent__gridCaption__8kiY6 story_story__mainContent__caption__IQRnS">Se implementó una solución a la recolección manual de datos.</figcaption>
         </figure>  
     </div>
 </div>
 <div>
     <figure>
-        <img src="/work/pharma-figure2.jpg" alt="data processing"/>
+        <img loading="lazy" src="/work/pharma-figure2.jpg" alt="data processing"/>
         <figcaption class="story_story__mainContent__caption__IQRnS">La herramienta procesa los datos recolectados, evita la búsqueda manual de reportes a través del uso de filtros y depurando la información consultada.</figcaption>
     </figure>    
 </div>
@@ -45,7 +45,7 @@ introduction: {
 </div>
 <div>
     <figure>
-        <img src="/work/pharma-figure3.jpg" alt="User Interface"/>
+        <img loading="lazy" src="/work/pharma-figure3.jpg" alt="User Interface"/>
         <figcaption class="story_story__mainContent__caption__IQRnS">La interfaz muestra una vista de los datos precisos, actualizados en tiempo real, con los cuales el usuario puede interactuar y tomar decisiones</figcaption>
     </figure>    
 </div>
@@ -56,21 +56,21 @@ introduction: {
     </div>   
     <div class="story_story__mainContent__technologies__images__6NSg5">
         <div>
-            <img alt="Html" src="/technologies/html.svg"/>
-            <img alt="Css" src="/technologies/css.svg"/>
-            <img alt="Javascript" src="/technologies/javascript.svg"/>
-            <img alt="Vue" src="/technologies/vue.svg"/>
+            <img loading="lazy" alt="Html" src="/technologies/html.svg"/>
+            <img loading="lazy" alt="Css" src="/technologies/css.svg"/>
+            <img loading="lazy" alt="Javascript" src="/technologies/javascript.svg"/>
+            <img loading="lazy" alt="Vue" src="/technologies/vue.svg"/>
         </div>
         <div>
-            <img alt="Elasticsearch" src="/technologies/elasticsearch.svg"/>
-            <img alt="kibana" src="/technologies/kibana.svg"/>
-            <img alt="Google Cloud" src="/technologies/gcloud.svg"/>
-            <img alt="Big Query" src="/technologies/bigquery.svg"/>
+            <img loading="lazy" alt="Elasticsearch" src="/technologies/elasticsearch.svg"/>
+            <img loading="lazy" alt="kibana" src="/technologies/kibana.svg"/>
+            <img loading="lazy" alt="Google Cloud" src="/technologies/gcloud.svg"/>
+            <img loading="lazy" alt="Big Query" src="/technologies/bigquery.svg"/>
         </div>
         <div>
-            <img alt="Data proc" src="/technologies/data-proc.svg"/>    
-            <img alt="Java" src="/technologies/java.svg"/> 
-            <img alt="Apache Spark" src="/technologies/apache-spark.svg" class="story_story__mainContent__technologies__images__large__KxVD1"/>   
+            <img loading="lazy" alt="Data proc" src="/technologies/data-proc.svg"/>    
+            <img loading="lazy" alt="Java" src="/technologies/java.svg"/> 
+            <img loading="lazy" alt="Apache Spark" src="/technologies/apache-spark.svg" class="story_story__mainContent__technologies__images__large__KxVD1"/>   
         </div>
     </div>     
 </div>

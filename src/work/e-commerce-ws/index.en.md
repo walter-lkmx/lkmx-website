@@ -24,7 +24,7 @@ introduction: {
         <p>To face these challenges, we built a platform based on Shopify and a robust backend capable of aggregating real-time data from sales and social media generated during the period when the campaign was active. In the development of this platform, we used more open source projects than in any other project given the innovative and disruptive nature of our client.</p>
     </div>
     <figure>
-        <img src="/work/ws-product.jpg" alt="Product details"/>
+        <img src="/work/ws-product.jpg" alt="Product details" loading="lazy"/>
         <figcaption class="story_story__mainContent__gridCaption__8kiY6 story_story__mainContent__caption__IQRnS">We found in Shopify a solid platform where we combined a simple and fluid design with the ability to handle high traffic demand.</figcaption>
     </figure>  
 </div>
@@ -33,7 +33,7 @@ introduction: {
 </div>
 <div class="story_story__mainContent__2cGrid__aNFn8"> 
     <figure>
-        <img src="/work/ws-summary.jpg" alt="Purchase Summary"/>
+        <img src="/work/ws-summary.jpg" alt="Purchase Summary" loading="lazy"/>
         <figcaption class="story_story__mainContent__gridCaption__8kiY6 story_story__mainContent__caption__IQRnS">We combine sales data with an efficient system to maximize its use in Will Smith's team's advertising campaigns.</figcaption>
     </figure>
     <div class="story_story__mainContent__wsSolutionList__KrV8F">
@@ -50,13 +50,13 @@ introduction: {
 </div>
 <div class="story_story__mainContent__gantt__TErEp">
     <figure>
-        <img src="/work/project-chart-en.svg" alt="Gantt chart"/>
+        <img src="/work/project-chart-en.svg" alt="Gantt chart" loading="lazy"/>
         <figcaption class="story_story__mainContent__caption__IQRnS">The Gantt chart for this project illustrates our Agile Development service, with each sprint broken down into three distinct phases: definition, implementation, and acceptance.</figcaption>
     </figure>
 </div>
 <div>
     <figure>
-        <img src="/work/ws-store.jpg" alt="store products"/>
+        <img src="/work/ws-store.jpg" alt="store products" loading="lazy"/>
         <figcaption class="story_story__mainContent__caption__IQRnS">The intuitive design of Bel-Air Athletics facilitates a hassle-free and satisfying online shopping experience.</figcaption>
     </figure>    
 </div>

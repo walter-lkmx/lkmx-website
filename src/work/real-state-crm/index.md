@@ -25,7 +25,7 @@ introduction: {
 </div>
 <div>
     <figure>
-        <img src="/work/avittat-figure1.jpg" alt="case details"/>
+        <img loading="lazy" src="/work/avittat-figure1.jpg" alt="case details"/>
         <figcaption class="story_story__mainContent__caption__IQRnS">Antes de iniciar el desarrollo del proyecto, realizamos un servicio de Discovery para comprender los desafíos del negocio. Con el análisis obtenido, diseñamos cuidadosamente la aplicación y sus flujos de trabajo.</figcaption>
     </figure>    
 </div>
@@ -53,19 +53,19 @@ introduction: {
 </ul>
 <div class="story_story__mainContent__gantt__TErEp">
     <figure>
-        <img src="/work/project-chart-es.svg" alt="Gantt chart"/>
+        <img loading="lazy" src="/work/project-chart-es.svg" alt="Gantt chart"/>
         <figcaption class="story_story__mainContent__caption__IQRnS">El diagrama de Gantt para este proyecto ilustra nuestro servicio de Desarrollo Ágil, con cada sprint dividido en tres fases distintas: definición, implementación y aceptación.</figcaption>
     </figure>
 </div>
 <div>
     <figure>
-        <img src="/work/avittat-figure2.jpg" alt="case details"/>
+        <img loading="lazy" src="/work/avittat-figure2.jpg" alt="case details"/>
         <figcaption class="story_story__mainContent__caption__IQRnS">Se diseñaron herramientas que facilitaran el seguimiento a los prospectos.</figcaption>
     </figure>    
 </div>
 <div>
     <figure>
-        <img src="/work/avittat-figure3.jpg" alt="case details"/>
+        <img loading="lazy" src="/work/avittat-figure3.jpg" alt="case details"/>
         <figcaption class="story_story__mainContent__caption__IQRnS">Con estas nuevas herramientas ya no es necesario depender de documentos impresos.</figcaption>
     </figure>    
 </div>

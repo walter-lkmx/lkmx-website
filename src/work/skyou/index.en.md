@@ -25,7 +25,7 @@ introduction: {
 </div>
 <div>
     <figure>
-        <img src="/work/skyou-figure1.jpg" alt="UI Design"/>
+        <img loading="lazy" src="/work/skyou-figure1.jpg" alt="UI Design"/>
         <figcaption class="story_story__mainContent__caption__IQRnS">The integration of a color detection system allows users to match colors in their designs to specific Pantones, improving the quality and accuracy of printed products.</figcaption>
     </figure>    
 </div>
@@ -34,7 +34,7 @@ introduction: {
 </div>
 <div>
     <figure>
-        <img src="/work/skyou-figure2.jpg" alt="UI Design"/>
+        <img loading="lazy" src="/work/skyou-figure2.jpg" alt="UI Design"/>
         <figcaption class="story_story__mainContent__caption__IQRnS">Streamlined image catalog management and upload flows offer a more convenient user experience.</figcaption>
     </figure>    
 </div>
@@ -43,13 +43,13 @@ introduction: {
 </div>
 <div>
     <figure>
-        <img src="/work/skyou-figure3.jpg" alt="UI Design"/>
+        <img loading="lazy" src="/work/skyou-figure3.jpg" alt="UI Design"/>
         <figcaption class="story_story__mainContent__caption__IQRnS">The "white label" capability allows brands to integrate their own logo, typography and colors, thus using the platform under their own name, contributing to the personalization of the user experience.</figcaption>
     </figure>    
 </div>
 <div class="story_story__mainContent__gantt__TErEp">
     <figure>
-        <img src="/work/project-chart-en--double.svg" alt="Gantt chart"/>
+        <img loading="lazy" src="/work/project-chart-en--double.svg" alt="Gantt chart"/>
         <figcaption class="story_story__mainContent__caption__IQRnS">The Gantt chart for this project illustrates our Agile Development service, with each sprint broken down into three distinct phases: definition, implementation, and acceptance.</figcaption>
     </figure>
 </div>
@@ -60,31 +60,31 @@ introduction: {
     </div>   
     <div class="story_story__mainContent__technologies__images__6NSg5">
         <div>
-            <img alt="Technology logo" src="/technologies/aws.svg"/>
-            <img alt="Technology logo" src="/technologies/ubuntu.svg"/>
-            <img alt="Technology logo" src="/technologies/java.svg"/>
-            <img alt="Technology logo" src="/technologies/postgresql.svg"/>
+            <img loading="lazy" alt="Technology logo" src="/technologies/aws.svg"/>
+            <img loading="lazy" alt="Technology logo" src="/technologies/ubuntu.svg"/>
+            <img loading="lazy" alt="Technology logo" src="/technologies/java.svg"/>
+            <img loading="lazy" alt="Technology logo" src="/technologies/postgresql.svg"/>
         </div>
         <div>
-            <img alt="Technology logo" src="/technologies/spring.svg"/>
-            <img alt="Technology logo" src="/technologies/gitlab.svg"/>
-            <img alt="Technology logo" src="/technologies/github.svg"/>
-            <img alt="Technology logo" src="/technologies/postman.svg" class="story_story__mainContent__technologies__images__large__KxVD1"/>
-            <img alt="Technology logo" src="/technologies/shopify.svg"/>
+            <img loading="lazy" alt="Technology logo" src="/technologies/spring.svg"/>
+            <img loading="lazy" alt="Technology logo" src="/technologies/gitlab.svg"/>
+            <img loading="lazy" alt="Technology logo" src="/technologies/github.svg"/>
+            <img loading="lazy" alt="Technology logo" src="/technologies/postman.svg" class="story_story__mainContent__technologies__images__large__KxVD1"/>
+            <img loading="lazy" alt="Technology logo" src="/technologies/shopify.svg"/>
         </div>
         <div>
-            <img alt="Technology logo" src="/technologies/vue.svg"/>
-            <img alt="Technology logo" src="/technologies/html.svg"/>
-            <img alt="Technology logo" src="/technologies/css.svg"/>
-            <img alt="Technology logo" src="/technologies/javascript.svg"/>
-            <img alt="Technology logo" src="/technologies/rest.svg" class="story_story__mainContent__technologies__images__large__KxVD1"/>
+            <img loading="lazy" alt="Technology logo" src="/technologies/vue.svg"/>
+            <img loading="lazy" alt="Technology logo" src="/technologies/html.svg"/>
+            <img loading="lazy" alt="Technology logo" src="/technologies/css.svg"/>
+            <img loading="lazy" alt="Technology logo" src="/technologies/javascript.svg"/>
+            <img loading="lazy" alt="Technology logo" src="/technologies/rest.svg" class="story_story__mainContent__technologies__images__large__KxVD1"/>
         </div>
         <div>            
-            <img alt="Technology logo" src="/technologies/apache.svg" class="story_story__mainContent__technologies__images__large__KxVD1"/>
-            <img alt="Technology logo" src="/technologies/tomcat.svg"/>
-            <img alt="Technology logo" src="/technologies/gradle.svg"/>
-            <img alt="Technology logo" src="/technologies/mavenFeather.svg"/>
-            <img alt="Technology logo" src="/technologies/npm.svg" class="story_story__mainContent__technologies__images__large__KxVD1"/>
+            <img loading="lazy" alt="Technology logo" src="/technologies/apache.svg" class="story_story__mainContent__technologies__images__large__KxVD1"/>
+            <img loading="lazy" alt="Technology logo" src="/technologies/tomcat.svg"/>
+            <img loading="lazy" alt="Technology logo" src="/technologies/gradle.svg"/>
+            <img loading="lazy" alt="Technology logo" src="/technologies/mavenFeather.svg"/>
+            <img loading="lazy" alt="Technology logo" src="/technologies/npm.svg" class="story_story__mainContent__technologies__images__large__KxVD1"/>
         </div>
     </div>     
 </div>

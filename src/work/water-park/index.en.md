@@ -32,7 +32,7 @@ introduction: {
 </ul>
 <div>
     <figure>
-        <img src="/work/canadas-figure1.jpg" alt="top-nav and home"/>
+        <img loading="lazy" src="/work/canadas-figure1.jpg" alt="top-nav and home"/>
         <figcaption class="story_story__mainContent__caption__IQRnS">The design makes it easy to book camp activities online.</figcaption>
     </figure>    
 </div>
@@ -45,7 +45,7 @@ introduction: {
 </ul>
 <div>
     <figure>
-        <img src="/work/canadas-figure2.jpg" alt="Admision portal"/>
+        <img loading="lazy" src="/work/canadas-figure2.jpg" alt="Admision portal"/>
         <figcaption class="story_story__mainContent__caption__IQRnS">Tools were designed to allow the monitoring of daily visitors to the facilities, taking into account their use in tablet devices for data verification tasks at all times within the park.</figcaption>
     </figure>    
 </div>
@@ -58,13 +58,13 @@ introduction: {
 </ul>
 <div>
     <figure>
-        <img src="/work/canadas-figure3.jpg" alt="Administration Console"/>
+        <img loading="lazy" src="/work/canadas-figure3.jpg" alt="Administration Console"/>
         <figcaption class="story_story__mainContent__caption__IQRnS">Tools were integrated to collect and present data to optimize the operation of the camp.</figcaption>
     </figure>    
 </div>
 <div class="story_story__mainContent__gantt__TErEp">
     <figure>
-        <img src="/work/project-chart-en--ongoing.svg" alt="Gantt chart"/>
+        <img loading="lazy" src="/work/project-chart-en--ongoing.svg" alt="Gantt chart"/>
         <figcaption class="story_story__mainContent__caption__IQRnS">The Gantt chart for this project illustrates our Agile Development service, with each sprint broken down into three distinct phases: definition, implementation, and acceptance. Our collaboration with Las Cañadas has extended over years of close collaboration. </figcaption>
     </figure>
 </div>
@@ -75,28 +75,28 @@ introduction: {
     </div>   
     <div class="story_story__mainContent__technologies__images__6NSg5">
         <div>
-            <img alt="Technology logo" src="/technologies/gcloud.svg"/>
-            <img alt="Technology logo" src="/technologies/cloudflare.svg"/>
-            <img alt="Technology logo" src="/technologies/kubernetes.svg"/>
-            <img alt="Technology logo" src="/technologies/java.svg"/>
-            <img alt="Technology logo" src="/technologies/nodejs.svg"/>
-            <img alt="Technology logo" src="/technologies/mysql-small.svg"/>
+            <img loading="lazy" alt="Technology logo" src="/technologies/gcloud.svg"/>
+            <img loading="lazy" alt="Technology logo" src="/technologies/cloudflare.svg"/>
+            <img loading="lazy" alt="Technology logo" src="/technologies/kubernetes.svg"/>
+            <img loading="lazy" alt="Technology logo" src="/technologies/java.svg"/>
+            <img loading="lazy" alt="Technology logo" src="/technologies/nodejs.svg"/>
+            <img loading="lazy" alt="Technology logo" src="/technologies/mysql-small.svg"/>
         </div>
         <div>
-            <img alt="Technology logo" src="/technologies/vue.svg"/>
-            <img alt="Technology logo" src="/technologies/html.svg"/>
-            <img alt="Technology logo" src="/technologies/css.svg"/>
-            <img alt="Technology logo" src="/technologies/javascript.svg"/>
-            <img alt="Technology logo" src="/technologies/typescript.svg"/>
-            <img alt="Technology logo" src="/technologies/rest.svg" class="story_story__mainContent__technologies__images__large__KxVD1"/>
+            <img loading="lazy" alt="Technology logo" src="/technologies/vue.svg"/>
+            <img loading="lazy" alt="Technology logo" src="/technologies/html.svg"/>
+            <img loading="lazy" alt="Technology logo" src="/technologies/css.svg"/>
+            <img loading="lazy" alt="Technology logo" src="/technologies/javascript.svg"/>
+            <img loading="lazy" alt="Technology logo" src="/technologies/typescript.svg"/>
+            <img loading="lazy" alt="Technology logo" src="/technologies/rest.svg" class="story_story__mainContent__technologies__images__large__KxVD1"/>
         </div>
         <div>
-            <img alt="Technology logo" src="/technologies/stripe.svg" class="story_story__mainContent__technologies__images__large__KxVD1"/>
-            <img alt="Technology logo" src="/technologies/spring.svg"/>
-            <img alt="Technology logo" src="/technologies/gitlab.svg"/>
-            <img alt="Technology logo" src="/technologies/nginx.svg"/>
-            <img alt="Technology logo" src="/technologies/gradle.svg"/>
-            <img alt="Technology logo" src="/technologies/npm.svg" class="story_story__mainContent__technologies__images__large__KxVD1"/>
+            <img loading="lazy" alt="Technology logo" src="/technologies/stripe.svg" class="story_story__mainContent__technologies__images__large__KxVD1"/>
+            <img loading="lazy" alt="Technology logo" src="/technologies/spring.svg"/>
+            <img loading="lazy" alt="Technology logo" src="/technologies/gitlab.svg"/>
+            <img loading="lazy" alt="Technology logo" src="/technologies/nginx.svg"/>
+            <img loading="lazy" alt="Technology logo" src="/technologies/gradle.svg"/>
+            <img loading="lazy" alt="Technology logo" src="/technologies/npm.svg" class="story_story__mainContent__technologies__images__large__KxVD1"/>
         </div>
     </div>     
 </div>

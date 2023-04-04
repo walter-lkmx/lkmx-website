@@ -46,7 +46,7 @@ introduction: {
 </div>
 <div>
     <figure>
-        <img src="/work/legal-list.jpg" alt="List"/>
+        <img loading="lazy" src="/work/legal-list.jpg" alt="List"/>
         <figcaption class="story_story__mainContent__caption__IQRnS">The provider interface allows them to keep track of their cases in an organized way.</figcaption>
     </figure>    
 </div>
@@ -56,14 +56,14 @@ introduction: {
 </div>
 <div>
     <figure>
-        <img src="/work/legal-case.jpg" alt="case details"/>
+        <img loading="lazy" src="/work/legal-case.jpg" alt="case details"/>
         <figcaption class="story_story__mainContent__caption__IQRnS">Tools were designed that allow the user to follow up on their cases in detail.</figcaption>
     </figure>    
 </div>
 
 <div class="story_story__mainContent__gantt__TErEp">
     <figure>
-        <img src="/work/project-chart-es--ongoing.svg" alt="Gantt chart"/>
+        <img loading="lazy" src="/work/project-chart-es--ongoing.svg" alt="Gantt chart"/>
         <figcaption class="story_story__mainContent__caption__IQRnS">The Gantt chart for this project illustrates our Agile Development service, with each sprint broken down into three distinct phases: definition, implementation, and acceptance.</figcaption>
     </figure>
 </div>
@@ -74,19 +74,19 @@ introduction: {
     </div>   
     <div class="story_story__mainContent__technologies__images__6NSg5">
         <div>
-            <img alt="Technology logo" src="/technologies/html.svg"/>
-            <img alt="Technology logo" src="/technologies/css.svg"/>
-            <img alt="Technology logo" src="/technologies/javascript.svg"/>
-            <img alt="Technology logo" src="/technologies/maps.svg"/>
-            <img alt="Technology logo" src="/technologies/tag-manager.svg"/>
-            <img alt="Technology logo" src="/technologies/vue.svg"/>
-            <img alt="Technology logo" src="/technologies/sass.svg"/>
+            <img loading="lazy" alt="Technology logo" src="/technologies/html.svg"/>
+            <img loading="lazy" alt="Technology logo" src="/technologies/css.svg"/>
+            <img loading="lazy" alt="Technology logo" src="/technologies/javascript.svg"/>
+            <img loading="lazy" alt="Technology logo" src="/technologies/maps.svg"/>
+            <img loading="lazy" alt="Technology logo" src="/technologies/tag-manager.svg"/>
+            <img loading="lazy" alt="Technology logo" src="/technologies/vue.svg"/>
+            <img loading="lazy" alt="Technology logo" src="/technologies/sass.svg"/>
         </div>
         <div>
-            <img alt="Technology logo" src="/technologies/elasticsearch.svg"/>
-            <img alt="Technology logo" src="/technologies/stripe.svg" class="story_story__mainContent__technologies__images__large__KxVD1"/>
-            <img alt="Technology logo" src="/technologies/pixel.svg"/>
-            <img alt="Technology logo" src="/technologies/twilio.svg" class="story_story__mainContent__technologies__images__large__KxVD1"/>
+            <img loading="lazy" alt="Technology logo" src="/technologies/elasticsearch.svg"/>
+            <img loading="lazy" alt="Technology logo" src="/technologies/stripe.svg" class="story_story__mainContent__technologies__images__large__KxVD1"/>
+            <img loading="lazy" alt="Technology logo" src="/technologies/pixel.svg"/>
+            <img loading="lazy" alt="Technology logo" src="/technologies/twilio.svg" class="story_story__mainContent__technologies__images__large__KxVD1"/>
         </div>
     </div>     
 </div>

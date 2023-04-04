@@ -27,7 +27,7 @@ introduction: {
 </div>
 <div>
     <figure>
-        <img src="/work/secret-figure1.jpg" alt="UI Design"/>
+        <img loading="lazy" src="/work/secret-figure1.jpg" alt="UI Design"/>
         <figcaption class="story_story__mainContent__caption__IQRnS">Utilizamos nuestro sistema de diseño Flare, lo que nos permitió una mayor eficiencia en el desarrollo, redujo la cantidad de tiempo y recursos necesarios para construir la UI, y proporcionó dinamismo para cualquier dispositivo.</figcaption>
     </figure>    
 </div>
@@ -37,19 +37,19 @@ introduction: {
 </div>
 <div class="story_story__mainContent__gantt__TErEp">
     <figure>
-        <img src="/work/project-chart-es--double.svg" alt="Gantt chart"/>
+        <img loading="lazy" src="/work/project-chart-es--double.svg" alt="Gantt chart"/>
         <figcaption class="story_story__mainContent__caption__IQRnS">El diagrama de Gantt para este proyecto ilustra nuestro servicio de Desarrollo Ágil, con cada sprint dividido en tres fases distintas: definición, implementación y aceptación.</figcaption>
     </figure>
 </div>
 <div>
     <figure>
-        <img src="/work/secret-figure2.jpg" alt="UI Design"/>
+        <img loading="lazy" src="/work/secret-figure2.jpg" alt="UI Design"/>
         <figcaption class="story_story__mainContent__caption__IQRnS">Se implementaron diversas integraciones API con el fin de mantener el contenido centralizado y unificar la información que previamente se encontraba dispersa.</figcaption>
     </figure>    
 </div>
 <div>
     <figure>
-        <img src="/work/secret-figure3.jpg" alt="UI Design"/>
+        <img loading="lazy" src="/work/secret-figure3.jpg" alt="UI Design"/>
         <figcaption class="story_story__mainContent__caption__IQRnS">Se integró Strapi como headless CMS para la gestión del contenido y optimización SEO, aportando una escalabilidad mas eficiente.</figcaption>
     </figure>    
 </div>
@@ -60,16 +60,16 @@ introduction: {
     </div>   
     <div class="story_story__mainContent__technologies__images__6NSg5">
         <div>
-        <img src="/technologies/html.svg"/>
-            <img alt="Technology logo" src="/technologies/css.svg"/>
-            <img alt="Technology logo" src="/technologies/javascript.svg"/>
-            <img alt="Technology logo" src="/technologies/typescript.svg"/>
+        <img loading="lazy" src="/technologies/html.svg"/>
+            <img loading="lazy" alt="Technology logo" src="/technologies/css.svg"/>
+            <img loading="lazy" alt="Technology logo" src="/technologies/javascript.svg"/>
+            <img loading="lazy" alt="Technology logo" src="/technologies/typescript.svg"/>
         </div>
         <div>
-            <img alt="Technology logo" src="/technologies/vue.svg"/>
-            <img alt="Technology logo" src="/technologies/gridsom.svg"/>
-            <img alt="Technology logo" src="/technologies/github.svg"/>
-            <img alt="Technology logo" src="/technologies/strapi.svg" class="story_story__mainContent__technologies__images__large__KxVD1"/>
+            <img loading="lazy" alt="Technology logo" src="/technologies/vue.svg"/>
+            <img loading="lazy" alt="Technology logo" src="/technologies/gridsom.svg"/>
+            <img loading="lazy" alt="Technology logo" src="/technologies/github.svg"/>
+            <img loading="lazy" alt="Technology logo" src="/technologies/strapi.svg" class="story_story__mainContent__technologies__images__large__KxVD1"/>
         </div>
     </div>     
 </div>

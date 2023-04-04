@@ -28,7 +28,7 @@ introduction: {
 </div>
 <div>
     <figure>
-        <img src="/work/hospitals-figure1.jpg" alt="UI Design"/>
+        <img loading="lazy" src="/work/hospitals-figure1.jpg" alt="UI Design"/>
         <figcaption class="story_story__mainContent__caption__IQRnS">El sistema proporciona un constante monitoreo en la existencia de medicamentos permitiendo la aprobación oportuna de la solicitud y envío de pedidos.</figcaption>
     </figure>    
 </div>
@@ -37,13 +37,13 @@ introduction: {
 </div>
 <div>
     <figure>
-        <img src="/work/hospitals-figure2.jpg" alt="UI Design"/>
+        <img loading="lazy" src="/work/hospitals-figure2.jpg" alt="UI Design"/>
         <figcaption class="story_story__mainContent__caption__IQRnS">Se monitorea el proceso de las órdenes de compra de medicamentos en todas las etapas del proceso hasta su entrega.</figcaption>
     </figure>    
 </div>
 <div class="story_story__mainContent__gantt__TErEp">
     <figure>
-        <img src="/work/project-chart-es--double.svg" alt="Gantt chart"/>
+        <img loading="lazy" src="/work/project-chart-es--double.svg" alt="Gantt chart"/>
         <figcaption class="story_story__mainContent__caption__IQRnS">El diagrama de Gantt para este proyecto ilustra nuestro servicio de Desarrollo Ágil, con cada sprint dividido en tres fases distintas: definición, implementación y aceptación.</figcaption>
     </figure>
 </div>
@@ -54,15 +54,15 @@ introduction: {
     </div>   
     <div class="story_story__mainContent__technologies__images__6NSg5">
         <div>
-            <img alt="Html" src="/technologies/html.svg"/>
-            <img alt="Css" src="/technologies/css.svg"/>
-            <img alt="Javascript" src="/technologies/javascript.svg"/>
-            <img alt="Vue" src="/technologies/vue.svg"/>
+            <img loading="lazy" alt="Html" src="/technologies/html.svg"/>
+            <img loading="lazy" alt="Css" src="/technologies/css.svg"/>
+            <img loading="lazy" alt="Javascript" src="/technologies/javascript.svg"/>
+            <img loading="lazy" alt="Vue" src="/technologies/vue.svg"/>
         </div>
         <div>
-            <img alt="Java" src="/technologies/java.svg"/>
-            <img alt="Elasticsearch" src="/technologies/elasticsearch.svg"/>
-            <img alt="Spring" src="/technologies/spring.svg"/>
+            <img loading="lazy" alt="Java" src="/technologies/java.svg"/>
+            <img loading="lazy" alt="Elasticsearch" src="/technologies/elasticsearch.svg"/>
+            <img loading="lazy" alt="Spring" src="/technologies/spring.svg"/>
         </div>
     </div>     
 </div>
