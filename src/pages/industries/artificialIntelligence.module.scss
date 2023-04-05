@@ -1,0 +1,38 @@
+.artificial {
+    &__hero {
+        padding-top: 56px;
+        &__block {
+            > div {
+				@include respond-to("xxxl") {
+					display: grid;
+					justify-content: center;
+					> div {
+						width: 1200px !important;
+					}
+				}
+			}
+            span {
+                font-weight: 700;
+                font-size: 16px;
+                line-height: 24px;
+                color: $color-pink;
+                font-family: var(--lk-font-roboto);
+                text-transform: uppercase;
+            }     
+            @include respond-to("<=xxl") {
+                h1 {
+                    max-width: 940px;
+                }
+                p {
+                    max-width: 940px;
+                }
+            }    
+            @include respond-to("<=s") {
+                h1 {
+                    font-size: 28px;
+                    line-height: 36px;
+                }
+            }   
+        }
+    }
+}

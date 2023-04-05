@@ -873,5 +873,37 @@
         "caption": "Our custom design system ensures the rapid conception and implementation of interfaces with precise grids and consistent styles."
       }
     ]
+  },
+  "artificial": {
+    "hero": {
+      "span": "AI/ML Integration",
+      "title": "Artificial Intelligence",
+      "intro": "Artificial Intelligence is a technology that is transforming the way industries operate. AI focuses on creating systems that mimic human intelligence, while ML is a subfield of AI that focuses on automatic learning and improvement of algorithms from data. Taken together, AI/ML allows companies to automate tasks and analyze large data sets."
+    },
+    "sections": [
+      {
+        "title": "Artificial Inteligence Systems integration",
+        "par1": "We integrate solutions with open-source AI/ML applications and those of our clients based on various technologies."
+      },
+      {
+        "title": "designing solutions with other advanced technologies",
+        "par1": "We design solutions that include artificial intelligence technologies, to create next-generation platforms.",
+        "par2": "The applications are diverse, from the identification of patterns and the calculation of probabilities of infection development in intensive care patients, a mobile app, to the generation of works of art in real time using diffusion models on web3 platforms in the main ecosystems of blockchain.",
+        "par3": "Our systems are designed with a planned and conscious approach, using powerful infrastructures to ensure high-quality and efficient processing.",
+        "img": {
+          "src": "/industries/aiml/ia-ml.svg",
+          "large": {
+            "width": 459,
+            "height": 284
+          },
+          "small": {
+            "width": 344,
+            "height": 212
+          }
+        },
+        "alt": "IA integration (representation).",
+        "caption": "The integration of AI with other cutting-edge technologies allows us to develop next-generation platforms with a high level of innovation."
+      }
+    ]
   }
 }

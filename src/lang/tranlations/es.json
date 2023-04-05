@@ -196,7 +196,7 @@
           },
           {
             "name": ["Integración con AI/ML",""],
-            "ref": ""
+            "ref": "/industries/artificialIntelligence"
           }
         ]
       },
@@ -769,6 +769,38 @@
         },
         "alt": "Flare Design System",
         "caption": "Nuestro sistema de diseño personalizado asegura la rápida concepción e implementación de interfaces con retículas precisas y estilos coherentes."
+      }
+    ]
+  },
+  "artificial": {
+    "hero": {
+      "span": "Integración AI/ML",
+      "title": "Inteligencia Artificial",
+      "intro": "La Inteligencia Artificial es una tecnología que está transformando la forma en que las industrias operan. La AI se enfoca en la creación de sistemas que imitan la inteligencia humana, mientras que ML es un subcampo de la AI que se centra en el aprendizaje y mejora automática de algoritmos a partir de datos. En conjunto, AI/ML permiten a las empresas automatizar tareas y analizar grandes conjuntos de datos."
+    },
+    "sections": [
+      {
+        "title": "Integración con sistemas de Inteligencia Artificial",
+        "par1": "Integramos soluciones con aplicaciones de AI/ML open-source y propias de nuestros clientes basadas en diversas tecnologías."
+      },
+      {
+        "title": "Diseño de soluciones con otras tecnologías avanzadas",
+        "par1": "Diseñamos soluciones que incluyen tecnologías de inteligencia artificial, para crear plataformas de última generación.",
+        "par2": "Las aplicaciones son diversas, desde la identificación de patrones y el cálculo de probabilidades de desarrollo de infecciones en pacientes de terapia intensiva en una app móvil, hasta la generación de obras de arte en tiempo real utilizando modelos de difusión en plataformas web3 en los principales ecosistemas de blockchain.",
+        "par3": "Nuestros sistemas son diseñados con un enfoque planificado y consciente, utilizando poderosas infraestructuras para garantizar un procesamiento eficiente y de alta calidad.",
+        "img": {
+          "src": "/industries/aiml/ia-ml.svg",
+          "large": {
+            "width": 459,
+            "height": 284
+          },
+          "small": {
+            "width": 344,
+            "height": 212
+          }
+        },
+        "alt": "IA integration (representation).",
+        "caption": "La integración de IA con otras tecnologías vanguardistas nos permite desarrollar plataformas de última generación con un alto nivel de innovación."
       }
     ]
   }

@@ -56,7 +56,7 @@ export default function CapabilitiesAnchors({anchorsData}) {
                                 {data.par2 ? <p>{data.par2}</p> : "" }
                                 {data.par3 ? <p>{data.par3}</p> : "" }
                             </div>                            
-                            {data.img !== "" ? 
+                            {data.img ? 
                             <figure className={styles.anchors__sections__block__black__item__fig}>
                                 <div className={styles.anchors__sections__block__black__item__fig__img}>
                                     <Image                                    
