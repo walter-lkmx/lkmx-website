@@ -102,7 +102,7 @@
     "title": "Team",
     "ogDescription": "We are a combination of CREATIVE PEOPLE and TECHNOLOGY EXPERTS. We connect our skills to build robust, flexible, scalable and secure software solutions.",
     "ogImage": "",
-    "headline": "OUR TEAM",
+    "headline": ["OUR", "TEAM"],
     "hero": [
       "We are a mix between ",
       "creatives",

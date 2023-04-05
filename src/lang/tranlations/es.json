@@ -93,7 +93,7 @@
     "title": "Equipo",
     "ogDescription": "Somos una combinación de CREATIVOS y EXPERTOS en tecnología. Conectamos nuestras habilidades para construir soluciones de software.",
     "ogImage": "",
-    "headline": "NUESTRO EQUIPO",
+    "headline": ["NUESTRO", "EQUIPO"],
     "hero": [
       "Somos una combinación de",
       "creativos",
