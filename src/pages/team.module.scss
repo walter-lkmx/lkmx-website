@@ -210,6 +210,9 @@
         display: grid;
         align-items: center;
         justify-items: center;
+        @include respond-to("m") {
+          padding: 0 0 !important;
+        }
         div {
           width: rem(346px);
           height: min-content;
@@ -248,102 +251,6 @@
       }
     }
   }
-  // &__about-us {
-  //   min-height: 456.45px;
-  //   --f-golden-ratio: 2;
-  //   &__block {
-  //     position: relative;
-  //     > div > div {
-  //       height: 100%;
-  //       display: grid;
-  //       align-items: center;
-  //     }
-  //     &:first-child {
-  //       --f-gutter: 0;
-  //     }
-  //     &:last-child {
-  //       --f-gutter: 32px;
-  //       > div {
-  //         width: auto;
-  //       }
-  //       > div > div {
-  //         padding-right: 1rem;
-  //       }
-  //     }
-  //     &__left {
-  //       h2 {
-  //         margin: 0;
-  //         &:first-child {
-  //           color: $color-cyan;
-  //         }
-  //         &:nth-child(2) {
-  //           color: $color-pink;
-  //         }
-  //       }
-  //     }
-  //     &__triangule {
-  //       z-index: 2;
-  //       background-color: $color-blue;
-  //       height: 100%;
-  //       width: 100px;
-  //       top: 0;
-  //       right: -20px;
-  //       right: 0;
-  //       position: absolute;
-  //       width: 120px;
-  //       height: 456.45px;
-  //       background-image: linear-gradient(
-  //         to bottom right,
-  //         $color-neutral-black 0%,
-  //         $color-neutral-black 50%,
-  //         rgba(255, 255, 255, 0) 50%,
-  //         rgba(255, 255, 255, 0) 100%
-  //       );
-  //     }
-  //     &__right {
-  //       display: grid;
-  //       align-items: center;
-  //       justify-items: center;
-  //       &__card {
-  //         padding-top: rem(4px);
-  //         div {
-  //           &:first-child {
-  //             height: rem(36px);
-  //             span {
-  //               color: $color-pink;
-  //               margin: 0;
-  //               font-family: $font-primary;
-  //               font-size: rem(64px);
-  //               font-weight: normal;
-  //             }
-  //           }
-  //           &:last-child {
-  //             display: grid;
-  //             width: max-content;
-  //             grid-template-columns: 1fr auto 1fr;
-  //             grid-column-gap: 1rem;
-  //             strong {
-  //               &:first-child {
-  //                 color: $color-cyan;
-  //               }
-  //               &:last-child {
-  //                 color: $color-pink;
-  //               }
-  //             }
-  //           }
-  //         }
-  //         p {
-  //           line-height: rem(28px);
-  //           margin: 10px 0 27px 0;
-  //         }
-  //       }
-  //     }
-  //   }
-  // }
-  // &__mobile-bottom {
-  //   display: none;
-  //   background-color: $color-neutral-black;
-  // }
   @include respond-to('>l') {
     &__hero {
       &__block-right {
