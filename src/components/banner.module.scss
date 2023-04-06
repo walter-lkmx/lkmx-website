@@ -40,6 +40,10 @@
       object-fit: cover;
       width: 120px;
     }
+    @include respond-to("xxs") {
+      width: 125px;
+      object-fit: cover;
+    }
   }
   @include respond-to("<=l") {
     min-height: rem(330px);
