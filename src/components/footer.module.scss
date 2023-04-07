@@ -161,9 +161,9 @@
       > div {
         padding-left: 16px;
         padding-right: 16px;
-        @include respond-to(">=xxl") {
-          padding-left: unset;
-        padding-right: unset;
+        @include respond-to("<=l") {
+          padding-left: 0;
+          padding-right: 0;
         }
         @include respond-to("xxxl") {
           max-width: 1200px !important;
