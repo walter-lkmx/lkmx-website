@@ -10,6 +10,7 @@
     display: grid;
     grid-template-rows: auto 1fr;
     grid-row-gap: .5rem;
+    max-height: 880px;
     &__head {
         align-items: center;
         &__logo {
@@ -36,10 +37,9 @@
             position: absolute;
             right: 0;
             bottom: 0;
-            -moz-transform: rotate(180deg);
-            -o-transform: rotate(180deg);
-            -webkit-transform: rotate(180deg);
-            transform: rotate(180deg);
+            img {
+                object-fit: cover;
+            }
         }
     }
     &__head__block {

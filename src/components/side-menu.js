@@ -3,7 +3,7 @@ import PagesLinks from "@/components/pages-links.js";
 import styles from "@/components/side-menu.module.scss";
 import onClickOutside from "react-onclickoutside";
 import { Column, Block } from "@lkmx/flare-react";
-
+import Image from "next/image";
 class SideMenu extends Component {
 
   constructor(props) {
@@ -27,7 +27,9 @@ class SideMenu extends Component {
         </Column>
         <Block className={styles.menu__body}>
           <PagesLinks className={styles.menu__body__links}/>
-          <img src="/triangles/triangle-clouds--left.svg" alt="mask-group" className={styles.menu__body__img}/>
+          <div className={styles.menu__body__img}>
+            <Image fill src="/triangles/menu-triangle.svg" alt="clouds triangle" />
+          </div>          
         </Block>
       </Column>
     );
