@@ -27,7 +27,7 @@ export default function DiscoveryPage() {
                 ogType={siteMetadata.ogType}
             />
             <Page className={styles.discovery}>  
-            <GoBackBar destiny={"/services"}/>
+                <GoBackBar destiny={"/services"}/>
                 <Column mode="normal" className={styles.discovery__hero}>
                     <Block className={styles.discovery__hero__block}>
                         <span className={styles.discovery__hero__block__pink}>{$t.discovery.section}</span>

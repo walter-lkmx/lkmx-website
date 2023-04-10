@@ -43,20 +43,23 @@ export default function ServiceAnchors({anchorsData}) {
         <Column mode="normal" modeL="slim" className={styles.anchors__sections}>
             <Block className={styles.anchors__sections__block}>  
                 <div className={styles.anchors__sections__block__wrapper}>
-                    <nav className={styles.anchors__sections__block__wrapper__aside}> 
-                    {anchorsData.map((data, index) => {
-                        return(
-                            <a className={styles.anchors__sections__block__wrapper__aside__anchor} href={`#${data.title}`} key={index}>
-                                <span id={`span${index}`}>{data.title}</span>
-                                <img
-                                src="/services/menu-line.svg"
-                                alt="Menu marker"      
-                                id={`img${index}`}                              
-                                />
-                            </a>                       
-                        );
-                        })}     
-                        </nav>  
+                    {anchorsData.nomarker ? '' :
+                     <nav className={styles.anchors__sections__block__wrapper__aside}> 
+                     {anchorsData.map((data, index) => {
+                         return(
+                             <a className={styles.anchors__sections__block__wrapper__aside__anchor} href={`#${data.title}`} key={index}>
+                                 <span id={`span${index}`}>{data.title}</span>
+                                 <img
+                                 src="/services/menu-line.svg"
+                                 alt="Menu marker"      
+                                 id={`img${index}`}                              
+                                 />
+                             </a>                       
+                         );
+                         })}     
+                         </nav> 
+                    }
+                    
                 </div>                                                                                               
                 <section className={styles.anchors__sections__block__black}>        
                     {anchorsData.map((data, index) => {
@@ -64,13 +67,15 @@ export default function ServiceAnchors({anchorsData}) {
                         <article className={styles.anchors__sections__block__black__item} key={index} id={data.title}>
                             <div  className={styles.anchors__sections__block__black__item__content}>
                             <h2>{data.title}</h2>
-                            <p>{data.par1}<br/>{data.par2}<br/>{data.par3}</p> 
+                            <p>{data.par1}</p> 
+                            {data.par2 ? <p>{data.par2}</p>: ''}
+                            {data.par3 ? <p>{data.par3}</p>: ''}
                             </div>
                             <div className={styles.anchors__sections__block__black__item__image}>
                                 <Image
                                 fill
                                 src={`/services/${data.image}`}
-                                alt="Rapid Prototyping"
+                                alt={`/services/${data.alt}`}
                                 />
                             </div>
                         </article>
