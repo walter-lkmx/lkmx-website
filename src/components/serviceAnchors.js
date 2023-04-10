@@ -18,18 +18,22 @@ export default function ServiceAnchors({anchorsData}) {
     
                     if (isInViewport){
                         span = document.getElementById("span" + i);
-                        span.style.color = "#0B0E29";
-                        image = document.getElementById("img" + i);
-                        image.srcset = "/services/white-line.svg";    
-                        image.style.width = "50px"                
+                        if (span != undefined) {
+                            span.style.color = "#0B0E29";
+                            image = document.getElementById("img" + i);
+                            image.srcset = "/services/white-line.svg";    
+                            image.style.width = "50px";
+                        }                
                     }                    
                     else
                     {
                         span = document.getElementById("span" + i);
-                        span.style.color = "#93949E";
-                        image = document.getElementById("img" + i);
-                        image.srcset = "/services/menu-line.svg";   
-                        image.style.width = "25px"  
+                        if (span != undefined) {
+                            span.style.color = "#93949E";
+                            image = document.getElementById("img" + i);
+                            image.srcset = "/services/menu-line.svg";   
+                            image.style.width = "25px";
+                        }                         
                     }                        
                     i++; 
                 }                
@@ -43,23 +47,26 @@ export default function ServiceAnchors({anchorsData}) {
         <Column mode="normal" modeL="slim" className={styles.anchors__sections}>
             <Block className={styles.anchors__sections__block}>  
                 <div className={styles.anchors__sections__block__wrapper}>
-                    {anchorsData.nomarker ? '' :
-                     <nav className={styles.anchors__sections__block__wrapper__aside}> 
-                     {anchorsData.map((data, index) => {
-                         return(
-                             <a className={styles.anchors__sections__block__wrapper__aside__anchor} href={`#${data.title}`} key={index}>
-                                 <span id={`span${index}`}>{data.title}</span>
-                                 <img
-                                 src="/services/menu-line.svg"
-                                 alt="Menu marker"      
-                                 id={`img${index}`}                              
-                                 />
-                             </a>                       
-                         );
-                         })}     
-                         </nav> 
-                    }
-                    
+                    <nav className={styles.anchors__sections__block__wrapper__aside}> 
+                    {anchorsData.map((data, index) => { 
+                        return (
+                            <div key={index}>
+                                {data.nomarker ? 
+                                    ''                  
+                                :
+                                    <a className={styles.anchors__sections__block__wrapper__aside__anchor} href={`#${data.title}`} >
+                                        <span id={`span${index}`}>{data.title}</span>
+                                        <img
+                                        src="/services/menu-line.svg"
+                                        alt="Menu marker"      
+                                        id={`img${index}`}                              
+                                        />
+                                    </a>
+                                }
+                            </div>
+                        )
+                    })}     
+                    </nav>
                 </div>                                                                                               
                 <section className={styles.anchors__sections__block__black}>        
                     {anchorsData.map((data, index) => {
