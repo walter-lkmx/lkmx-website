@@ -59,16 +59,16 @@ introduction: {
     </div>   
     <div class="story_story__mainContent__technologies__images__6NSg5">
         <div>
-        <img loading="lazy" src="/technologies/html.svg"/>
-            <img loading="lazy" src="/technologies/css.svg" alt="Technology logo"/>
-            <img loading="lazy" src="/technologies/javascript.svg" alt="Technology logo"/>
-            <img loading="lazy" src="/technologies/typescript.svg" alt="Technology logo"/>
+        <img loading="lazy" src="/technologies/html.svg" alt="html logo"/>
+            <img loading="lazy" src="/technologies/css.svg" alt="css logo"/>
+            <img loading="lazy" src="/technologies/javascript.svg" alt="javascript logo"/>
+            <img loading="lazy" src="/technologies/typescript.svg" alt="typescript logo"/>
         </div>
         <div>
-            <img loading="lazy" src="/technologies/vue.svg" alt="Technology logo"/>
-            <img loading="lazy" src="/technologies/gridsom.svg" alt="Technology logo"/>
-            <img loading="lazy" src="/technologies/github.svg" alt="Technology logo"/>
-            <img loading="lazy" src="/technologies/strapi.svg" class="story_story__mainContent__technologies__images__large__KxVD1" alt="Technology logo"/>
+            <img loading="lazy" src="/technologies/vue.svg" alt="vue logo"/>
+            <img loading="lazy" src="/technologies/gridsom.svg" alt="gridsom logo"/>
+            <img loading="lazy" src="/technologies/github.svg" alt="github logo"/>
+            <img loading="lazy" src="/technologies/strapi.svg" class="story_story__mainContent__technologies__images__large__KxVD1" alt="strapi logo"/>
         </div>
     </div>     
 </div>

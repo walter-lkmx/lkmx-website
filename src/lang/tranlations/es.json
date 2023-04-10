@@ -660,8 +660,7 @@
         "title": "Procesamiento masivo",
         "par1": "Nuestra capacidad de desarrollar aplicaciones personalizadas nos permite procesar grandes volúmenes de datos generados por dispositivos biométricos y transformarlos en información valiosa para identificar patrones en los datos biométricos, lo que puede ser utilizado para crear soluciones en una amplia variedad de campos.",
         "img": {
-          "src": "/industries/biometricSensors/mass-processing.svg",
-          "alt": " Procesamiento Masivo",
+          "src": "/industries/biometricSensors/mass-processing.svg",          
           "large": {
             "width": 457.05,
             "height": 200
@@ -670,7 +669,8 @@
             "width": 343,
             "height": 150.09
           }
-        },        
+        },     
+        "alt": "Representacion del Procesamiento Masivo",  
         "caption": "El procesamiento masivo de datos implica analizar grandes conjuntos de datos para descubrir patrones, tendencias y correlaciones, utilizando software avanzado para realizar esta tarea en un tiempo eficiente."
       }
     ]

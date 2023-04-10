@@ -61,7 +61,7 @@ export default function CapabilitiesAnchors({anchorsData}) {
                                 <div className={styles.anchors__sections__block__black__item__fig__img}>
                                     <Image                                    
                                     src={data.img.src}
-                                    alt={data.img.alt}
+                                    alt={data.alt}
                                     width={data.img.large.width}
                                     height={data.img.large.height}
                                     style={{height: 'inherit'}}
