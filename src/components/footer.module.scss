@@ -159,11 +159,10 @@
     &__privacy {
       padding-bottom: 42px;
       > div {
-        padding-left: 16px;
-        padding-right: 16px;
-        @include respond-to("<=l") {
-          padding-left: 0;
-          padding-right: 0;
+        padding-left: 0;
+        padding-right: 0;
+        @include respond-to("xl") {
+          padding-left: 16px;
         }
         @include respond-to("xxxl") {
           max-width: 1200px !important;
@@ -221,7 +220,7 @@
         padding: 0 0 42px;
         &__pages {
           grid-template-columns: rem(186px) rem(256px) rem(224px);
-          grid-column-gap: rem(50px);
+          grid-column-gap: rem(32px);
         }
         &__information {
           grid-column-gap: rem(26px);
