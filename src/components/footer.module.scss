@@ -110,7 +110,7 @@
           text-align: right;
           width: max-content;
           max-width: 99vw;
-          @include respond-to("<=l") {
+          @include respond-to("<=m") {
             text-align: left;
           }
           @include respond-to("<=xs") {
@@ -259,29 +259,24 @@
             &:last-child { justify-self: end }
           } 
         }
-      }
+        &__information {
+          p {
+            max-width: 265px;
+            br {
+              display: none;
+            }
+          }
+        }
+      }  
     }
-  }
+  } 
 
   // # 992px - 1199px
   @include respond-to("<=l") {
     &__top {
       &__content {
-        grid-template-areas: "information" "pages";
-        grid-template-columns: 1fr;
-        grid-row-gap: rem(26px);
         &__pages { padding: rem(10px) 0 }
         &__information {
-          grid-template-columns: 1fr;
-          grid-template-areas: "logo" "social" "info";
-          grid-row-gap: 1rem;
-          justify-items: start;
-          ul {
-            margin: 0;
-            padding: 0;
-            grid-template-columns: repeat(3, 1.5rem);
-            grid-column-gap: 1rem;
-          }
           p {            
             margin-top: rem(4px);
           }
