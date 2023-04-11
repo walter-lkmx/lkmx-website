@@ -227,6 +227,7 @@
       display: grid;
       grid-template-columns: 1fr 1fr 1fr;
       grid-column-gap: 3rem;
+      grid-row-gap: 148px;
       > div {
         display: grid;
         grid-template-rows: minmax(64px, auto) 2fr 1.2fr;        
@@ -242,7 +243,6 @@
         }
         p {
           line-height: rem(28px);
-          margin: 0;
           width: 357.33px;
         }
         img {
@@ -385,7 +385,7 @@
         grid-template-columns: 1fr;
         > div {
           grid-template-rows: min-content;
-          h4, p { margin: 0 }
+          h4 { margin: 0 }
           h4 { line-height: rem(32px) }
         }
       }

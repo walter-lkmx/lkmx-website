@@ -139,9 +139,27 @@ export default function ServicesPage() {
                 
               </div>
               <div>
-                <h3>AGILE MAINTENANCE, SCOPE DEV. & CONTINUOUS SUPPORT</h3>
+                <h3>AGILE <br/>MAINTENANCE</h3>
                 <p>{$t.services.phases[2]}</p>
                 <Link href="/services/agileMaintenance" legacyBehavior>
+                  <div className={styles.page__iconContainer}>
+                    <Image fill src="/icons/arrow-right--pink.svg" alt="arrow"/>
+                  </div>    
+                </Link> 
+              </div>
+              <div>
+                <h3>Scope <br/>Development</h3>
+                <p>{$t.services.phases[3]}</p>
+                <Link href="/services/scopeDevelopment" legacyBehavior>
+                  <div className={styles.page__iconContainer}>
+                    <Image fill src="/icons/arrow-right--pink.svg" alt="arrow"/>
+                  </div>    
+                </Link> 
+              </div>
+              <div>
+                <h3>Continuous <br/>Support</h3>
+                <p>{$t.services.phases[4]}</p>
+                <Link href="/services/continuousSupport" legacyBehavior>
                   <div className={styles.page__iconContainer}>
                     <Image fill src="/icons/arrow-right--pink.svg" alt="arrow"/>
                   </div>    

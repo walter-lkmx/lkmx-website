@@ -87,7 +87,9 @@
     "phases": [
       "Our solutions begin with a preliminary study of the challenges and objectives to be met. This will be the starting point for the success of the project.",
       "Based on what we discover, we create amazing web and mobile experiences involving data management, big data, blockchain and artificial intelligence.",
-      "At the end of development we offer maintenance and support services for a successful stabilization and transfer of the platform."
+      "At the end of development we offer maintenance and support services for a successful stabilization and transfer of the platform.",
+      "We analyze requirements in detail, employing techniques taken from agile methodologies.",
+      "Our teams provide support to platforms with several SLAs and regular-time and on-call coverage."
     ]
   },
   "methodology": {
