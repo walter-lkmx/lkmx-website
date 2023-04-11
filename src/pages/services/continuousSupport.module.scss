@@ -1,0 +1,88 @@
+.support {
+    &__hero {
+        padding: 56px 0;
+  
+        &__block {
+            >div {
+                @include respond-to("xxxl") {
+                    display: grid;
+                    justify-content: center;
+  
+                    >div {
+                        width: 1200px !important;
+                    }
+                }
+            }
+  
+            &__pink {
+                color: $color-pink;
+                font-weight: 700;
+                font-size: 16px;
+                line-height: 20px;
+                font-family: var(--lk-font-roboto);
+                text-transform: uppercase;
+                ;
+            }
+  
+            h1 {
+                margin-bottom: 0;
+  
+                @include respond-to("<=s") {
+                    font-size: 28px;
+                    line-height: 36px;
+                }
+            }
+  
+            &__grey {
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 30px;
+                color: $color-lang-secondary;
+  
+                @include respond-to("<=s") {
+                    font-size: 16px;
+                    line-height: 28px;
+  
+                    br {
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+  
+    &__heroGrey {
+        padding: 56px 0;
+        background-color: $color-bright-gray-01;
+  
+    }
+  
+    &__kanban {
+        padding: 56px 0;
+  
+        &__block {
+            >div>div {
+                @include respond-to("<=s") {
+                    display: grid;
+                }
+            }
+  
+            &__img {
+                position: relative;
+                width: 710px;
+                height: 356px;
+  
+                @include respond-to("m") {
+                    width: 736px;
+                    height: 373.64px;
+                }
+  
+                @include respond-to("<=s") {
+                    width: 343px;
+                    height: 174.13px;
+                    justify-self: center;
+                }
+            }
+        }
+    }
+  }

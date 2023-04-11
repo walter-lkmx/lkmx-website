@@ -513,6 +513,38 @@
       }
     ]
   },
+  "support": {
+    "section": "Servicios",
+    "title": "Continuous support",
+    "ogDescription": "Una vez finalizado el desarrollo, ofrecemos servicios de mantenimiento y soporte para garantizar la estabilidad y transferencia exitosa de la plataforma a tu negocio.",
+    "hero": [
+        "Una vez finalizado el desarrollo, ofrecemos servicios de",
+        "mantenimiento y soporte para garantizar la estabilidad y",
+        "transferencia exitosa de la plataforma a tu negocio."
+    ],
+    "intro": [
+      "Estos tipos de proyecto siguen los mismos procesos internos de desarrollo con variantes",
+      "administrativas y operativas en favor de la eficiencia en la utilización de recursos."
+    ],
+    "kanban": {
+      "title": [
+        "UTILIZAMOS KANBAN",
+        "COMO MARCO DE TRABAJO ÁGIL"
+      ],
+      "content": [
+        "Nos ayuda a priorizar y organizar el trabajo planeado o a demanda, lo que nos permite mantener un flujo constante de entregables, a través de la implementación de soluciones que aportan valor de forma inmediata al cliente."
+      ]
+    },
+    "sections": [
+      {
+        "title": "Continuous support",
+        "par1": "Nuestros equipos dan soporte a plataformas con diversos SLAs y cobertura en horas regulares y on-call. La estabilidad de nuestro desarrollo combinada con nuestros procesos garantizan eficiencia y costos operativos bajo control.",
+        "image": "ams/cont-support.svg",
+        "alt": "Continuous support representation",
+        "nomarker": true
+      }
+    ]
+  },
   "page404": {
     "title": "Error 404",
     "ogDescription": "Pagina No Encontrada",

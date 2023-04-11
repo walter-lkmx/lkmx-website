@@ -590,7 +590,40 @@
         "par1": "Once the platform is developed, our maintenance blocks offer an AGILE alternative to perfect or complement the existing functionality.",
         "par2": "We use Kanban with the methodologies employed for development in flexible maintenance projects from one week and with no duration limit.",
         "image": "ams/maintenance.svg",
-        "alt": "Scope development representation",
+        "alt": "Agile maintenance representation",
+        "nomarker": true
+      }
+    ]
+  },
+  "support": {
+    "section": "Services",
+    "title": "Continuous support",
+    "ogDescription": "Once the development is finished, we offer maintenance and support services to guarantee the stability and successful transfer of the platform to your business.",
+    "hero": [
+        "Once the development is finished, we offer maintenance and",
+        "support services to guarantee the stability and successful",
+        "transfer of the platform to your business."
+    ],
+    "intro": [
+      "These types of projects follow the same internal development processes with administrative and",
+      "operational variants in favor of efficient use of resources."
+    ],
+    "kanban": {
+      "title": [
+        "We use Kanban",
+        "as an agile framework"
+      ],
+      "content": [
+        "We employ Kanban as an agile workframe to prioritize and organize planned and on-call work, which allows us to maintain a constant flow of deliverables, through the implementation of solutions that immediately provide value to the client."
+      ]
+    },
+    "sections": [
+      {
+        "title": "Continuous support",
+        "par1": "We offer continuous support options for the solutions that we develop.",
+        "par2": " Our teams provide support to platforms with several SLAs and regular-time and on-call coverage. The stability of our development combined with our processes guarantee efficiency and operational costs under control.",
+        "image": "ams/cont-support.svg",
+        "alt": "Continuous support representation",
         "nomarker": true
       }
     ]

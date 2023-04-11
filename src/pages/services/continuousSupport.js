@@ -1,25 +1,25 @@
 import React from "react";
 import BaseLayout from "@/layouts/base-layout.js";
 import { Block, Column, Page } from "@lkmx/flare-react";
-import styles from "@/pages/services/agileMaintenance.module.scss";
+import styles from "@/pages/services/continuousSupport.module.scss";
 import siteMetadata from "../../meta/siteMetadata";
 import HeadSeo from "../../components/HeadSeo";
 import getLang from '@/lang';
 import { useRouter } from "next/router";
 import Image from "next/image";
 import GoBackBar from "../../components/goBackBar";
-import Services from "../../components/services"
+import Services from "../../components/services";
 import ServiceAnchors from "../../components/serviceAnchors";
 
-export default function Ams() {
+export default function ContinuousSupport() {
     const { locale } = useRouter();
     const $t = getLang(locale);
 
     return (
         <BaseLayout>
             <HeadSeo
-                title={$t.ams.title + ' - ' + siteMetadata.companyName}
-                description={$t.ams.ogDescription}
+                title={$t.support.title + ' - ' + siteMetadata.companyName}
+                description={$t.support.ogDescription}
                 canonicalUrl={siteMetadata.siteUrl}
                 ogImageUrl={$t.home.ogImage ? $t.home.ogImage : locale === 'es' ? siteMetadata.ogDefaultImageEs : siteMetadata.ogDefaultImageEn}
                 ogTwitterImage={$t.home.ogImage ? $t.home.ogImage : locale === 'es' ? siteMetadata.ogDefaultImageEs : siteMetadata.ogDefaultImageEn}
@@ -27,24 +27,24 @@ export default function Ams() {
             />
             <Page>  
             <GoBackBar destiny={"/services"}/>
-            <Column mode="normal" className={styles.ams__hero}>
-                    <Block className={styles.ams__hero__block}>
-                        <span className={styles.ams__hero__block__pink}>{$t.ams.section}</span>
-                        <h1>{$t.ams.title}</h1>
-                        <span className={styles.ams__hero__block__grey}>{$t.ams.hero[0]} <br/>{$t.ams.hero[1]} <br/>{$t.ams.hero[2]} <br/>{$t.ams.hero[3]}</span>
+            <Column mode="normal" className={styles.support__hero}>
+                    <Block className={styles.support__hero__block}>
+                        <span className={styles.support__hero__block__pink}>{$t.support.section}</span>
+                        <h1>{$t.support.title}</h1>
+                        <span className={styles.support__hero__block__grey}>{$t.support.hero[0]} <br/>{$t.support.hero[1]} <br/>{$t.support.hero[2]} <br/>{$t.support.hero[3]}</span>
                     </Block>
                 </Column>
-                <Column mode="normal" modeL="slim"  className={styles.ams__heroGrey}>
-                    <Block className={styles.ams__heroGrey__block}>
-                        <p>{$t.ams.intro}</p>
+                <Column mode="normal" modeL="slim"  className={styles.support__heroGrey}>
+                    <Block className={styles.support__heroGrey__block}>
+                        <p>{$t.support.intro}</p>
                     </Block>
                 </Column>
-                <ServiceAnchors anchorsData={$t.ams.sections}/>
-                <Column mode="normal" modeL="slim" className={styles.ams__kanban}>
-                    <Block className={styles.ams__kanban__block}>     
-                    <h2>{$t.ams.kanban.title[0]} <br/>{$t.ams.kanban.title[1]}</h2>
-                    <p>{$t.ams.kanban.content}</p>      
-                    <div className={styles.ams__kanban__block__img}>
+                <ServiceAnchors anchorsData={$t.support.sections}/>
+                <Column mode="normal" modeL="slim" className={styles.support__kanban}>
+                    <Block className={styles.support__kanban__block}>     
+                    <h2>{$t.support.kanban.title[0]} <br/>{$t.support.kanban.title[1]}</h2>
+                    <p>{$t.support.kanban.content}</p>      
+                    <div className={styles.support__kanban__block__img}>
                         <Image
                             fill
                             src="/services/ams/kanban.svg"
