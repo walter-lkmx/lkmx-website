@@ -28,11 +28,11 @@ export default function Ams() {
             />
             <Page>  
             <GoBackBar destiny={"/services"}/>
-                <Column mode="normal" className={styles.ams__hero}>
+            <Column mode="normal" className={styles.ams__hero}>
                     <Block className={styles.ams__hero__block}>
                         <span className={styles.ams__hero__block__pink}>{$t.ams.section}</span>
                         <h1>{$t.ams.title}</h1>
-                        <span className={styles.ams__hero__block__grey}>{$t.ams.hero[0]} <br/>{$t.ams.hero[1]}</span>
+                        <span className={styles.ams__hero__block__grey}>{$t.ams.hero[0]} <br/>{$t.ams.hero[1]} <br/>{$t.ams.hero[2]} <br/>{$t.ams.hero[3]}</span>
                     </Block>
                 </Column>
                 <Column mode="normal" modeL="slim"  className={styles.ams__heroGrey}>
@@ -40,23 +40,18 @@ export default function Ams() {
                         <p>{$t.ams.intro}</p>
                     </Block>
                 </Column>
-                <Column mode="normal" modeL="slim" className={styles.ams__intro}>
-                    <Block className={styles.ams__intro__block}>     
+                <ServiceAnchors anchorsData={$t.ams.sections}/>
+                <Column mode="normal" modeL="slim" className={styles.ams__kanban}>
+                    <Block className={styles.ams__kanban__block}>     
                     <h2>{$t.ams.kanban.title[0]} <br/>{$t.ams.kanban.title[1]}</h2>
                     <p>{$t.ams.kanban.content}</p>      
-                    <div className={styles.ams__intro__block__img}>
+                    <div className={styles.ams__kanban__block__img}>
                         <Image
-                        fill
-                        src="/services/ams/agile-maintenance_kanban.svg"
-                        alt="Kanban Board"
+                            fill
+                            src="/services/ams/kanban.svg"
+                            alt="Kanban Board"
                         />
                     </div>                                   
-                    </Block>
-                </Column>
-                <ServiceAnchors anchorsData={$t.ams.sections}/>
-                <Column mode="normal" modeL="slim" className={styles.ams__wireframe}>
-                    <Block className={styles.ams__wireframe__block}>
-                        <p>{$t.ams.conclusion}</p>
                     </Block>
                 </Column>
                 <Services/>

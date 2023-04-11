@@ -482,13 +482,17 @@
   },
   "ams": {
     "section": "Servicios",
-    "title": "Agile Maintenance",
-    "ogDescription": "Mantenimiento y soporte: garantizando la estabilidad de tu plataforma.",  
+    "title": "AGILE MAINTENANCE",
+    "ogDescription": "Una vez finalizado el desarrollo, ofrecemos servicios de mantenimiento y soporte para garantizar la estabilidad y transferencia exitosa de la plataforma a tu negocio.",
     "hero": [
-      "Mantenimiento y soporte: garantizando la estabilidad de tu",
-      "plataforma."
+        "Una vez finalizado el desarrollo, ofrecemos servicios de",
+        "mantenimiento y soporte para garantizar la estabilidad y",
+        "transferencia exitosa de la plataforma a tu negocio."
     ],
-    "intro": "Una vez finalizado el desarrollo, ofrecemos servicios de mantenimiento y soporte para garantizar la estabilidad y transferencia exitosa de la plataforma a tu negocio. Contamos con tres modalidades de mantenimiento: Scope Development, Agile maintenance y Continuous Support. Estos tipos de proyecto siguen los mismos procesos internos de desarrollo con variantes administrativas y operativas en favor de la eficiencia en la utilización de recursos.",
+    "intro": [
+      "Estos tipos de proyecto siguen los mismos procesos internos de desarrollo con variantes",
+      "administrativas y operativas en favor de la eficiencia en la utilización de recursos."
+    ],
     "kanban": {
       "title": [
         "UTILIZAMOS KANBAN",
@@ -500,22 +504,14 @@
     },
     "sections": [
       {
-        "title": "SCOPE DEVELOPMENT",
-        "par1": "Esta opción se ofrece a los clientes una vez terminada la fase inicial de desarrollo, cuando surgen REQUERIMIENTOS ESPECÍFICOS. En esta, analizamos los requerimientos a detalle utilizando técnicas tomadas de las metodologías ágiles antes de la contratación de servicios.",
-        "image": "ams/agile-maintenance_scope-dev.svg"
-      },
-      {
         "title": "AGILE MAINTENANCE",
-        "par1": "Una vez desarrollada la plataforma, nuestros bloques de mantenimiento ofrecen una alternativa ÁGIL para perfeccionar o complementar la funcionalidad existente. Utilizamos Kanban con las metodologías utilizadas para el desarrollo en proyectos flexibles de mantenimiento, desde una semana y sin límite de duración.",
-        "image": "ams/agile-maintenance_maintenance.svg"
-      },
-      {
-        "title": "CONTINUOUS SUPPORT",
-        "par1": "Nuestros equipos dan soporte a plataformas con diversos SLAs y cobertura en horas regulares y on-call. La estabilidad de nuestro desarrollo combinada con nuestros procesos garantizan eficiencia y costos operativos bajo control.",
-        "image": "ams/agile-maintenance_cont-support.svg"
+        "par1": "Una vez desarrollada la plataforma, nuestros bloques de mantenimiento ofrecen una alternativa ÁGIL para perfeccionar o complementar la funcionalidad existente.",
+        "par2": "Utilizamos Kanban con las metodologías utilizadas para el desarrollo en proyectos flexibles de mantenimiento desde una semana y sin límite de duración.",
+        "image": "ams/maintenance.svg",
+        "alt": "Agile Maintenance representation",
+        "nomarker": true
       }
-    ],
-    "conclusion": "Ya sea a través de Scope Development, Agile Maintenance o Continuous Support, Estamos comprometidos a ofrecerte un servicio continuo y de calidad que garantice la estabilidad y eficiencia de tu plataforma."
+    ]
   },
   "page404": {
     "title": "Error 404",
