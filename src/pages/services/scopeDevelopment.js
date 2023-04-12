@@ -36,7 +36,7 @@ export default function ScopeDevelopment() {
                 </Column>
                 <Column mode="normal" modeL="slim"  className={styles.scope__heroGrey}>
                     <Block className={styles.scope__heroGrey__block}>
-                        <p>{$t.scope.intro}</p>
+                        <p>{$t.scope.intro[0]} {$t.scope.intro[1]}</p>
                     </Block>
                 </Column>
                 <ServiceAnchors anchorsData={$t.scope.sections}/>

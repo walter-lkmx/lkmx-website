@@ -36,7 +36,7 @@ export default function Ams() {
                 </Column>
                 <Column mode="normal" modeL="slim"  className={styles.ams__heroGrey}>
                     <Block className={styles.ams__heroGrey__block}>
-                        <p>{$t.ams.intro}</p>
+                        <p>{$t.ams.intro[0]} {$t.ams.intro[1]}</p>
                     </Block>
                 </Column>
                 <ServiceAnchors anchorsData={$t.ams.sections}/>

@@ -36,7 +36,7 @@ export default function ContinuousSupport() {
                 </Column>
                 <Column mode="normal" modeL="slim"  className={styles.support__heroGrey}>
                     <Block className={styles.support__heroGrey__block}>
-                        <p>{$t.support.intro}</p>
+                        <p>{$t.support.intro[0]} {$t.support.intro[1]}</p>
                     </Block>
                 </Column>
                 <ServiceAnchors anchorsData={$t.support.sections}/>
