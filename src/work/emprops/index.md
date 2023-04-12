@@ -51,7 +51,7 @@ introduction: {
     </figure>    
 </div>
 <div>
-    <p>El proceso exacto de generación de cada colección varia de proyecto a proyecto, pero en general, todas las colecciones de EMPROPS se crean en tiempo real mediante una colaboración única entre el artista, su código generativo y uno o más sistemas de IA. Cada pieza es única y se genera en tiempo real, resultando en un arte auténtico y en constante evolución.</p>
+    <p>El proceso exacto de generación de cada colección varía de proyecto a proyecto, pero en general, todas las colecciones de EMPROPS se crean en tiempo real mediante una colaboración única entre el artista, su código generativo y uno o más sistemas de IA. Cada pieza es única y se genera en tiempo real, resultando en un arte auténtico y en constante evolución.</p>
     <p>Con EMPROPS, los usuarios pueden experimentar y participar en una nueva forma de arte digital, mientras disfrutan de la privacidad, seguridad y transparencia de las transacciones en la plataforma.</p>
 </div>
 <div>
