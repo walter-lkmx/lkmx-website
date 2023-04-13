@@ -233,7 +233,7 @@
         grid-template-rows: minmax(64px, auto) 2fr 1.2fr;        
         h3 {
           height: 62px;
-          @include respond-to("m") {
+          @include respond-to("<=m") {
             height: unset;
           }
         }
