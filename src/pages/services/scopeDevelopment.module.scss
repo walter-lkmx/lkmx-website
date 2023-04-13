@@ -69,18 +69,10 @@
 
             &__img {
                 position: relative;
-                width: 710px;
-                height: 356px;
-
-                @include respond-to("m") {
-                    width: 736px;
-                    height: 373.64px;
-                }
-
-                @include respond-to("<=s") {
-                    width: 343px;
-                    height: 174.13px;
-                    justify-self: center;
+                width: 100%;
+                height: auto;
+                img {
+                    position: static !important;
                 }
             }
         }
