@@ -336,6 +336,8 @@
       --f-gutter: 16px;
       &__content {
         padding: rem(27px) 0 rem(26px);
+        display: grid;
+        justify-content: center;
         h2 {
           font-size: rem(40px);
           line-height: rem(52px);
@@ -343,6 +345,7 @@
         p {
           font-size: 1rem;
           line-height: rem(28px);
+          max-width: 358px;
           strong {
             font-size: 1.5rem;
             line-height: 2rem;
