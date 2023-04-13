@@ -380,7 +380,10 @@
     }
     &__phases {
       --f-gutter: 16px;
-      padding: 2rem 0 0 0;     
+      padding: 2rem 0 0 0;   
+      transform: translateY(13%);
+      z-index: 2;
+      position: relative;
       &__content {
         grid-template-columns: 1fr;
         > div {
@@ -452,6 +455,7 @@
         left: 50%;
         top: 0;
         transform: translateX(-50%);
+        z-index: 0;
         div {
           width: .5px;
           height: 100%;

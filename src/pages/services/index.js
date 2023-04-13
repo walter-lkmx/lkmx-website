@@ -116,7 +116,7 @@ export default function ServicesPage() {
           </Block>
         </Column>
 
-        <Column numberS={1} modeL="normal" modeS="full" className={styles.page__phases}>
+        <Column numberS={1} modeL="normal" modeS="full" className={styles.page__phases2}>
           <Block className={styles.page__phases__block}>
             <div className={styles.page__phases__content}>
               <div>
