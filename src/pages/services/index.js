@@ -89,7 +89,7 @@ export default function ServicesPage() {
                   </Link>                  
                 </div>
                 <div className={styles.page__phases__scopeDev}>
-                  <Link href="/services/agileMaintenance" legacyBehavior>
+                  <Link href="/services/scopeDevelopment" legacyBehavior>
                     <Image
                     fill
                     src="/phases/scope-dev_default.svg"
@@ -98,7 +98,7 @@ export default function ServicesPage() {
                   </Link>                  
                 </div>
                 <div className={styles.page__phases__contSup}>
-                  <Link href="/services/agileMaintenance" legacyBehavior>
+                  <Link href="/services/continuousSupport" legacyBehavior>
                     <Image
                     fill
                     src="/phases/cont-support_default.svg"
