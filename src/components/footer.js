@@ -26,6 +26,8 @@ export default function Footer() {
                   <li><Link href="/services/discovery" legacyBehavior>{$t.footer.pages.services.items[1]}</Link></li>
                   <li><Link href="/services/agileDevelopment" legacyBehavior>{$t.footer.pages.services.items[2]}</Link></li>
                   <li><Link href="/services/agileMaintenance" legacyBehavior>{$t.footer.pages.services.items[3]}</Link></li>
+                  <li><Link href="/services/scopeDevelopment" legacyBehavior>{$t.footer.pages.services.items[4]}</Link></li>
+                  <li><Link href="/services/continuousSupport" legacyBehavior>{$t.footer.pages.services.items[5]}</Link></li>
                 </ul>
               </div>
               <div> 
