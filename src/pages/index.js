@@ -11,9 +11,7 @@ import { useRouter } from 'next/router';
 import ImageLegacy from 'next/legacy/image';
 import Image from 'next/image';
 import OurWork from '../components/ourWork';
-// import Locations from '../components/locations';
-// import createGlobe from "cobe";
-// import { useEffect, useRef } from "react";
+import Industries from '../components/industriesComponent';
 
 function getTeamList() {
   let r = require.context('/public/images', false, /\.(png|jpe?g|svg)$/);
@@ -47,40 +45,6 @@ export default function Index() {
       );
     }
   });
-
-  // useEffect(() => {
-  //   let phi = 0;
-
-  //   const globe = createGlobe(canvasRef.current, {
-  //     devicePixelRatio: 2,
-  //     width: 600 * 2,
-  //     height: 600 * 2,
-  //     phi: 0,
-  //     theta: 0,
-  //     dark: 1,
-  //     diffuse: 1.2,
-  //     mapSamples: 16000,
-  //     mapBrightness: 6,
-  //     baseColor: [0.3, 0.3, 0.3],
-  //     markerColor: [0.1, 0.8, 1],
-  //     glowColor: [1, 1, 1],
-  //     markers: [
-  //       // longitude latitude
-  //       { location: [37.7595, -122.4367], size: 0.03 },
-  //       { location: [40.7128, -74.006], size: 0.1 }
-  //     ],
-  //     onRender: (state) => {
-  //       // Called on every animation frame.
-  //       // `state` will be an empty object, return updated params.
-  //       state.phi = phi;
-  //       phi += 0.01;
-  //     }
-  //   });
-
-  //   return () => {
-  //     globe.destroy();
-  //   };
-  // }, []);
 
   return (
     <BaseLayout>
@@ -240,6 +204,7 @@ export default function Index() {
           </Block>
         </Column>
         <OurWork/>
+        <Industries/>
         <Column className={styles.index__team} mode="full">
           <Block className={styles.index__team__block}>
             <div className={styles.index__team__block__content}>
@@ -303,29 +268,6 @@ export default function Index() {
             </div>
           </Block>
         </Column>
-        {/* <Column mode="slim">
-          <Block>
-            <canvas
-              ref={canvasRef}
-              style={{ width: 600, height: 600, maxWidth: "100%", aspectRatio: 1 }}
-            />
-          </Block>
-        </Column> */}
-        {/* <Column mode="normal" modeS="normal" number="1" className={styles.index__locations}>
-          <Block className={styles.index__locations__text}>
-            <h1>{$t.home.locations.title}</h1>
-            <p>
-              {$t.home.locations.par[0]}
-              <br/> {$t.home.locations.par[1]} <strong>{$t.home.locations.par[2]}</strong> 
-              {$t.home.locations.par[3]} <strong className={styles.index__locations__text__pink}>{$t.home.locations.par[4]}</strong>
-              <br/> {$t.home.locations.par[5]} <br/>{$t.home.locations.par[6]} 
-              <br/> {$t.home.locations.par[7]}
-              </p>
-          </Block>
-          <Block className={styles.index__locations__globe}>
-            <Locations className={styles.index__locations__globe__graph} />
-          </Block>
-        </Column>  */}
       </Page>
     </BaseLayout>
   );

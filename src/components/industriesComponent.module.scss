@@ -1,0 +1,93 @@
+.industries {
+    &__block {
+        > div {
+            @include respond-to("xxxl") {
+                display: grid;
+                justify-content: center;
+            }
+            > div {
+                display: grid;
+                gap: 10px;
+                justify-items: center;
+                @include respond-to("xxxl") {
+                    width: 1200px !important;
+                }
+            }
+        } 
+        p {
+            font-size: 20px;
+            text-align: center;
+            @include respond-to("<=s") {
+                br {
+                    display: none;
+                }
+            }
+        }
+        &__grid {
+            display: flex;
+            grid-gap: 16px;
+            gap: 16px;
+            max-width: 1170px;
+            flex-wrap: wrap;
+            justify-content: center;
+            @include respond-to("<=s") {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+            }
+            @include respond-to("<=xs") {
+                width: 100%
+            }
+            &__item {
+                display: grid;
+                place-content: center;
+                background-color: $color-bright-gray-01;
+                aspect-ratio: 1;                
+                width: 220px;
+                gap: 8px;
+                @include respond-to("<=l") {
+                    width: 170px;
+                    height: 170px;
+                }
+                @include respond-to("<=s") {
+                    width: 220px;
+                    height: 220px;
+                }
+                @include respond-to("<=xs") {
+                    width: auto;
+                    height: 220px;
+                    aspect-ratio: unset;                                     
+                }
+                &__image {
+                    position: relative;
+                    width: 100%;
+                    height: 24px;
+                    width: 24px;
+                    justify-self: center;
+                }
+                span {
+                    font-family: var(--lk-font-roboto);
+                    font-weight: 700;
+                    line-height: 24px;
+                    text-transform: uppercase;
+                    text-align: center;
+                }
+            }            
+        }
+        &__btn {
+            gap: 4px;
+            margin-top: 16px;
+            height: 40px;
+            background: $color-btn-default;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 24px;
+            color: white;
+            padding: 8px 15px;
+            cursor: pointer;
+            text-align: center;
+            &:hover {
+                background-color: $color-btn-hover;
+            }
+        }
+    }
+}

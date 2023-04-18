@@ -196,6 +196,7 @@
     "catalogItems": [
       {
         "title": "Healthcare & Wellness",
+        "title1": ["Healthcare &", "Wellness"],
         "description": "We create innovative solutions by incorporating safe technologies into the provision of medical services and personal well-being.",
         "img": "/industries/heartBeat.svg",
         "capabilitiesTitle": "Capabilities:",
@@ -247,6 +248,7 @@
       },
       {
         "title": "Data Analytics",
+        "title1": ["Data", "Analytics"],
         "description": "We build and connect flexible, scalable, and elastic data intelligence experiences to give certainty to business decisions.",
         "img": "/industries/chartLine.svg",
         "capabilitiesTitle": "Capabilities:",
@@ -378,6 +380,7 @@
       },
       {
         "title": "Process Innovation",
+        "title1": ["Process", "Innovation"],
         "description": "We transform business, we produce enterprise-level, efficient and powerful implementations.",
         "img": "/industries/gearSix.svg",
         "capabilitiesTitle": "Capabilities:",
@@ -971,5 +974,14 @@
         "caption": "The integration of AI with other cutting-edge technologies allows us to develop next-generation platforms with a high level of innovation."
       }
     ]
+  },
+  "industriesComponent": {
+    "title": "Industries",
+    "par": [
+      "We keep up with evolving trends and technologies that",
+      "impact digital changes and offer opportunities depending",
+      "on the type of company."
+    ], 
+    "btn":"Go to Industries"
   }
 }

@@ -184,6 +184,7 @@
     "catalogItems": [
       {
         "title": "Salud y Bienestar",
+        "title1": ["salud y", "Bienestar"],
         "description": "Creamos soluciones innovadoras incorporando tecnologías seguras a la prestación de servicios médicos y bienestar personal.",
         "img": "/industries/heartBeat.svg",
         "capabilitiesTitle": "Capacidades:",
@@ -220,6 +221,7 @@
       },
       {
         "title": "Análisis de Datos",
+        "title1": ["Análisis", "de Datos"],
         "description": "Construimos y conectamos experiencias de inteligencia de datos flexibles, escalables y elásticas para dar certeza a las decisiones de negocio.",
         "img": "/industries/chartLine.svg",
         "capabilitiesTitle": "Capacidades:",
@@ -312,6 +314,7 @@
       },
       {
         "title": "Innovación de Procesos",
+        "title1": ["Innovación", "de Procesos"],
         "description": "Transformamos negocios, producimos implementaciones de nivel empresarial, eficientes y potentes.",
         "img": "/industries/gearSix.svg",
         "capabilitiesTitle": "Capacidades:",
@@ -867,5 +870,14 @@
         "caption": "La integración de IA con otras tecnologías vanguardistas nos permite desarrollar plataformas de última generación con un alto nivel de innovación."
       }
     ]
+  },
+  "industriesComponent": {
+    "title": "Industrias",
+    "par": [
+      "Nos mantenemos al día con tendencias y tecnologías en",
+      "evolución que impactan en los cambios digitales y que",
+      "ofrecen oportunidades según el tipo de empresa."
+    ],
+    "btn":"Ir a Industrias"
   }
 }
