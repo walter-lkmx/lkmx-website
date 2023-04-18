@@ -45,7 +45,6 @@ export default function Index() {
       );
     }
   });
-
   return (
     <BaseLayout>
       <HeadSeo
