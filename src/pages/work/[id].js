@@ -56,14 +56,19 @@ export default function SuccessStory({storyData}) {
     const targetRef = useRef(null);
 
     useLayoutEffect(() => {
-        if(targetRef.current) {
-            setHeight(targetRef.current.offsetHeight);
-            console.log(height)
-            document.getElementById("aside").style.height = height + 'px';
-        }else {
-            console.log("Why the fuck m I not working")
-        }
-    },[targetRef])
+        document.addEventListener('scroll', function () {
+            if(targetRef.current) {
+                setHeight(targetRef.current.offsetHeight + 200);
+                console.log(height)
+                document.getElementById("aside").style.height = height + 'px';
+            }else {
+                console.log("Why the fuck m I not working")
+            }
+        }, {
+            passive: true
+        });
+        
+    })
 
     return(
         <BaseLayout>
