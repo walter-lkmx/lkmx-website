@@ -1,3 +1,4 @@
+import React, { useLayoutEffect, useState, useRef } from "react";
 import BaseLayout from "@/layouts/base-layout.js";
 import { Block, Column, Page } from "@lkmx/flare-react";
 import { getAllStoriesIds, getStoryData } from '@/lib/work';
@@ -32,6 +33,37 @@ export async function getStaticProps({ params, locale }) {
 export default function SuccessStory({storyData}) {
     const { locale } = useRouter();
     const $t = getLang(locale); 
+    // const targetRef = useRef(null);
+    // const [height, setHeight] = useState(null);
+
+    // useLayoutEffect(() => {
+    //     console.log(targetRef.current)
+    //     if (targetRef.current) {
+    //         const { height } = targetRef.current.offsetHeight;
+    //         setHeight(height);
+    //         console.log(height);
+    //       }
+    //     // if(targetRef.current) {
+    //     //     const height = targetRef.current.getBoundingClientRect().height;            
+    //     //     console.log("it should be available");
+    //     //     console.log(`Element height: ${height}px`);
+    //     //     document.getElementById("aside").style.height = height + 'px';
+    //     // }else {
+    //     //     console.log("Why the fuck m I not working")
+    //     // }
+    // },[targetRef])
+    const [height, setHeight] = useState();
+    const targetRef = useRef(null);
+
+    useLayoutEffect(() => {
+        if(targetRef.current) {
+            setHeight(targetRef.current.offsetHeight);
+            console.log(height)
+            document.getElementById("aside").style.height = height + 'px';
+        }else {
+            console.log("Why the fuck m I not working")
+        }
+    },[targetRef])
 
     return(
         <BaseLayout>
@@ -66,26 +98,28 @@ export default function SuccessStory({storyData}) {
                 <Column mode="normal" className={styles.story__introduction} weight="left">
                     <Block className={styles.story__introduction__block}>
                         <div className={styles.story__wrapper}>
-                            <div className={styles.story__aside}>
-                                <div className={styles.story__aside__item}>
-                                    <span>{$t.story.services}</span>
-                                    <ul>
-                                        {storyData.services.map((item, key) => <li key={key}>{item}</li>)}
-                                </ul>
-                                </div>
-                                <div className={styles.story__aside__item}>
-                                    <span>{$t.story.methodology}</span>
-                                    <ul>
-                                        {storyData.methodologies.map((item, key) => <li key={key}>{item}</li>)}
+                            <div id="aside" className={styles.story__asideContainer}>
+                                <div className={styles.story__aside}>
+                                    <div className={styles.story__aside__item}>
+                                        <span>{$t.story.services}</span>
+                                        <ul>
+                                            {storyData.services.map((item, key) => <li key={key}>{item}</li>)}
                                     </ul>
+                                    </div>
+                                    <div className={styles.story__aside__item}>
+                                        <span>{$t.story.methodology}</span>
+                                        <ul>
+                                            {storyData.methodologies.map((item, key) => <li key={key}>{item}</li>)}
+                                        </ul>
+                                    </div>
+                                    <div className={styles.story__aside__item}>
+                                        <span>{$t.story.period}</span>
+                                        <ul>
+                                            {storyData.period.map((item, key) => <li key={key}>{item}</li>)}
+                                        </ul>
+                                    </div>
                                 </div>
-                                <div className={styles.story__aside__item}>
-                                    <span>{$t.story.period}</span>
-                                    <ul>
-                                        {storyData.period.map((item, key) => <li key={key}>{item}</li>)}
-                                    </ul>
-                                </div>
-                            </div>
+                            </div>                            
                             <div>
                                 <h2>{storyData.introduction.title}</h2>
                                 <p>{storyData.introduction.content}</p>
@@ -100,7 +134,7 @@ export default function SuccessStory({storyData}) {
                 </Column>
                 <Column mode="normal" modeL="slim" className={styles.story__mainContentContainer}>
                     <Block className={styles.story__mainContentContainer__block}>
-                        <div className={styles.story__mainContent} dangerouslySetInnerHTML={{ __html: storyData.contentHtml }}></div>                        
+                        <div ref={targetRef} className={styles.story__mainContent} dangerouslySetInnerHTML={{ __html: storyData.contentHtml }}></div>                        
                     </Block>
                 </Column>
                 <Services/>
