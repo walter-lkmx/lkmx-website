@@ -10,6 +10,13 @@
                 gap: 10px;
                 justify-items: center;
                 padding-bottom: rem(136px) !important;
+                
+                @include respond-to(">=s") {
+                    padding-top: rem(108px) !important;
+                }
+                @include respond-to("<=xs") {
+                    padding-top: rem(36px) !important;
+                }
                 @include respond-to("xxxl") {
                     width: 1200px !important;
                 }
