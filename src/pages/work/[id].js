@@ -57,13 +57,19 @@ export default function SuccessStory({storyData}) {
 
     useLayoutEffect(() => {
         document.addEventListener('scroll', function () {
-            if(targetRef.current) {
-                setHeight(targetRef.current.offsetHeight + 200);
-                console.log(height)
-                document.getElementById("aside").style.height = height + 'px';
-            }else {
-                console.log("Why the fuck m I not working")
-            }
+            // if(window.innerWidth > 992)
+            //     console.log(w);
+            // else
+                //console.log(window.innerWidth)
+            if(window.innerWidth >= 992) {
+                if(targetRef.current) {
+                    setHeight(targetRef.current.offsetHeight + 200);
+                    console.log(height)
+                    document.getElementById("aside").style.height = height + 'px';
+                }else {
+                    console.log("Why the fuck m I not working")
+                }
+            }            
         }, {
             passive: true
         });
