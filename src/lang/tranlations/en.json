@@ -495,10 +495,10 @@
       "end of the lifecycle."
     ],
     "intro": [
-      "Our projects are based on iterations that include three phases: DEFINITION, IMPLEMENTATION,",
-      "and ACCEPTANCE.",
-      "Iterations are put into a FIXED GANTT CHART that provides flexibility and predictability in",
-      "deliverables, timeline and resources."
+      "Our projects are based on iterations that include three phases:",
+      "DEFINITION, IMPLEMENTATION, and ACCEPTANCE.",
+      "Iterations are put into a FIXED GANTT CHART that provides flexibility",
+      "and predictability in deliverables, timeline and resources."
     ],
     "intro2": "We organize our team in DEFINITION and IMPLEMENTATION groups using our custom methodology that is supported over different production-tested techniques for requirement analysis, user-interface design, versioning, code arquitectura, and delivery. At the end of the implementation, the result is delivered to our clients in proper staging environments so they can perform their ACCEPTANCE tests. We accomplish this through proprietary versioning mechanisms and perfected continuous integration mechanisms.",
     "sections": [
