@@ -1,7 +1,8 @@
 .header {
-  position: relative;
+  position: sticky;
   background-color: white;
   z-index: 5;
+  top: 0;
   &__content {
     display: grid;
     grid-template-columns: 1fr 1fr;
