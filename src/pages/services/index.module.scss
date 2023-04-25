@@ -330,7 +330,6 @@
       }
     }
   }
-
   @include respond-to("<=s") {
     &__services {
       --f-gutter: 16px;
