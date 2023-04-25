@@ -30,7 +30,7 @@
       z-index: 1;
       cursor: pointer;
       @include respond-to(">=m") {
-        transform: translateX(87px);
+        transform: translate(87px, 89px);
       }
     }
     &__agileDev {
@@ -50,7 +50,7 @@
       z-index: 1;
       cursor: pointer;
       @include respond-to(">=m") {
-        transform: translateX(87px);
+        transform: translate(87px, 79px);
       }
     }
     &__scopeDev {
@@ -59,7 +59,7 @@
       aspect-ratio: 1;
       z-index: 1;
       cursor: pointer;
-      transform: translate(47px, -80px);
+      transform: translate(47px, 35px);
       @include respond-to("<=s") {
         transform: translate(75px, -34px);
       }
@@ -70,7 +70,7 @@
       aspect-ratio: 1;
       z-index: 1;
       cursor: pointer;
-      transform: translateX(23px);
+      transform: translate(23px, 111px);
       @include respond-to("<=s") {
         transform: translateY(-64px);
       }
@@ -225,9 +225,6 @@
   }
   &__phases {
     padding: 0 0 73px 0;
-    div {
-      height: 100%;
-    }
     &__content {
       display: grid;
       grid-template-columns: 1fr 1fr 1fr;
