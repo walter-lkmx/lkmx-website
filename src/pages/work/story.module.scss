@@ -127,7 +127,10 @@
         gap: 16px;
         backdrop-filter: blur(11.5px);
         padding-left: 16px;
-        z-index: 1;        
+        padding-top: 16px;
+        padding-bottom: 56px;
+        z-index: 1;
+        transform: translateY(-16px);
         @include respond-to(">=l") {
             position: sticky;
             top: 72px;
