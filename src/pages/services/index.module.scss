@@ -76,6 +76,11 @@
       }
     }
   }
+  &__phases2 {
+    @include respond-to("<=s") {
+      padding-top: 72px;
+    }
+  }
   &__services {
     &__block {
       > div {
