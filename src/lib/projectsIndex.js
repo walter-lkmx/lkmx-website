@@ -1,6 +1,14 @@
 export default function getProjectsIndexed(locale) {
     const projectsEs = [
         {
+            title: ['Eleva tu Experciencia', 'en el Golf'],
+            services: ["Discovery", "Agile Development", "Continuous Support"],
+            route: "/work/only-golfers",
+            thumbnail: "only-golfers-thumbnail",
+            catchphrase: "Únete a la comunidad y organiza torneos con un marcador en tiempo real."
+        
+        },
+        {
             title: ['Subastas de vinos', 'en tus manos'],
             services: ["Discovery", "Agile Development"],
             route: "/work/spectrum-wine",
@@ -63,7 +71,8 @@ export default function getProjectsIndexed(locale) {
             thumbnail: "emprops-thumbnail",
             catchphrase: "Explora el futuro del arte generativo e inteligencia artificial con EMPROPS."
         
-        }//,
+        }
+        //,
         // {
         //     title: ["Sistema nacional de hospitales"],
         //     services: ["Discovery", "Agile Development", "Agile Maintenance"],
@@ -80,6 +89,14 @@ export default function getProjectsIndexed(locale) {
         // }
     ];
     const projectsEn = [
+        {
+            title: ['Enhance Your Golf Experience'],
+            services: ["Discovery", "Agile Development", "Continuous Support"],
+            route: "/work/only-golfers",
+            thumbnail: "og-thumbnail",
+            catchphrase: "Join the community and host tournaments with real-time leaderboards."
+        
+        },
         {
             title: ["Wine auctions at", "your fingertips"],
             services: ["Discovery", "Agile Development"],
