@@ -19,7 +19,7 @@ export default function Banner(props) {
       </Column>
       <div className={styles.banner__rightContainer}>
         <div className={styles.banner__right}>
-          <Image fill src="/triangles/triangle-code--blue--right.svg" alt="triangle"/>
+          <Image fill src="/triangles/triangle-code--blue--right.svg" alt="triangles"/>
         </div>
        
       </div>
