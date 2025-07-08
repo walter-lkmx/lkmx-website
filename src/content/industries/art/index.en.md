@@ -4,7 +4,7 @@ title: ["Art"]
 description: "Elevate the art industry with innovative solutions that connect artists and buyers, streamline operations, and enhance creativity."
 thumbnail: "art-thumbnail"
 cover: "art-cover"
-storyType: "industrie"
+storyType: "industry"
 iconName: "art-industry-icon"
 ---
 

@@ -4,7 +4,7 @@ title: ["Pharma"]
 description: "Drive innovation in the pharmaceutical industry with solutions that enhance research, streamline production, and ensure regulatory compliance."
 thumbnail: "pharma-thumbnail"
 cover: "pharma-cover"
-storyType: "industrie"
+storyType: "industry"
 iconName: "pharma-industry-icon"
 ---
 

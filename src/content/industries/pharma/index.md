@@ -4,7 +4,7 @@ title: ["Pharma"]
 description: "Impulsa la innovación en la industria farmacéutica con soluciones que mejoran la investigación, agilizan la producción y aseguran el cumplimiento normativo."
 thumbnail: "pharma-thumbnail"
 cover: "pharma-cover"
-storyType: "industrie"
+storyType: "industry"
 iconName: "pharma-industry-icon"
 ---
 

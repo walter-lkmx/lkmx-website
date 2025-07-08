@@ -8,7 +8,7 @@ methodologies: []
 period: []
 thumbnail: 'altermail-thumbnail'
 cover: 'altermail-cover'
-storyType: 'Work'
+storyType: 'Trabajo'
 introduction: {
     title: "",
     content: ""

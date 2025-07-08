@@ -16,15 +16,15 @@ introduction: {
 ---
 
 
-### Antecedentes
+## Antecedentes
 
 ACIR es un grupo radiofónico mexicano que opera decenas de estaciones que transmiten todo tipo de música para diferentes generaciones. Durante décadas, sus marcas han cautivado a cientos de miles de oyentes en las principales ciudades de México.
 
-### Desafío
+## Desafío
 
 Grupo ACIR buscaba lanzar una nueva estrategia digital que incluyera una aplicación móvil para sus clientes. El desafío era encapsular la extensa red de radio de Grupo ACIR en una sola aplicación móvil sin sacrificar la identidad y la experiencia distintivas de cada estación. La aplicación tenía que ofrecer capacidades de transmisión en vivo, una sólida gestión de contenidos y una interfaz de usuario amigable que reflejara la sencillez de sintonizar la radio para una audiencia digital.
 
-### Solución
+## Solución
 
 El desarrollo de la aplicación móvil de Grupo ACIR fue un ejercicio de fusión de funcionalidad y atractivo estético. La pantalla de inicio presentaba un punto de entrada claro a la radio en vivo y los podcasts, utilizando iconos intuitivos para imitar la facilidad de la radio tradicional. Al navegar por la selección de estaciones, la curvatura del diseño guiaba sutilmente a los usuarios a través de géneros como "Smooth Jazz" y "Sonidos Electrónicos", combinando el atractivo visual con un diseño amigable para el usuario.
 
@@ -32,11 +32,11 @@ Para la estación "Amor", la aplicación adoptó un tema visual romántico, util
 
 ![](/work/acir-radio-figure-01.jpg)
 
-### Impacto
+## Impacto
 
 El rediseño de la aplicación móvil marcó el cambio estratégico de Grupo ACIR hacia la digitalización, posicionándolos a la vanguardia del panorama cambiante del consumo de medios. Demostró su compromiso con la innovación y realzó el alcance de su marca con una audiencia digitalmente conectada.
 
-### Conclusión
+## Conclusión
 
 La exitosa implementación del rediseño de la aplicación móvil de Grupo ACIR representa el compromiso de nuestra empresa con la innovación y el diseño centrado en el usuario en el panorama digital. Refleja nuestro compromiso de brindar soluciones de vanguardia que resuenan con el estilo de vida y las preferencias del usuario final, asegurando que nuestros clientes se mantengan a la vanguardia en un mercado en rápida evolución.
 

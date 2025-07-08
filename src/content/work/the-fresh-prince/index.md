@@ -8,7 +8,7 @@ methodologies: []
 period: []
 thumbnail: 'the-fresh-prince-thumbnail'
 cover: 'the-fresh-prince-cover'
-storyType: 'Work'
+storyType: 'Trabajo'
 introduction: {
     title: "",
     content: ""

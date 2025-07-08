@@ -8,7 +8,7 @@ methodologies: []
 period: []
 thumbnail: 'tersanet-thumbnail'
 cover: 'tersanet-cover'
-storyType: 'Work'
+storyType: 'Trabajo'
 introduction: {
     title: "",
     content: ""

@@ -4,7 +4,7 @@ title: ["Tourism"]
 description: "Revolutionize tourism with technology that enhances customer experiences, streamlines booking processes, and improves destination management."
 thumbnail: "tourism-thumbnail"
 cover: "tourism-cover"
-storyType: "industrie"
+storyType: "industry"
 iconName: "tourism-industry-icon"
 ---
 

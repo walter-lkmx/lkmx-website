@@ -4,7 +4,7 @@ title: ["Wellness"]
 description: "Promote wellness with solutions that enhance patient engagement, streamline service delivery, and improve health outcomes."
 thumbnail: "wellness-thumbnail"
 cover: "wellness-cover"
-storyType: "industrie"
+storyType: "industry"
 iconName: "wellness-industry-icon"
 ---
 

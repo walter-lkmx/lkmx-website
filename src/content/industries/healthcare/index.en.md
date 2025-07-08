@@ -4,7 +4,7 @@ title: ["Healthcare"]
 description: "Improve healthcare delivery with secure, efficient solutions that connect patients and providers, streamline workflows, and enhance patient care."
 thumbnail: "healthcare-thumbnail"
 cover: "healthcare-cover"
-storyType: "industrie"
+storyType: "industry"
 iconName: "healthcare-industry-icon"
 ---
 

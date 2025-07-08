@@ -8,7 +8,7 @@ methodologies: []
 period: []
 thumbnail: 'werdamouth-thumbnail'
 cover: 'werdamouth-cover'
-storyType: 'Work'
+storyType: 'Trabajo'
 introduction: {
     title: "",
     content: ""

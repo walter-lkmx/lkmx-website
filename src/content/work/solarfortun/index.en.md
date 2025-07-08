@@ -24,7 +24,7 @@ Our team embarked on the development of a comprehensive e-commerce website, focu
 
 ![](/work/solar-fortun-figure-2.jpg)
 
-## Technology
+## Technologies
 
 Some of the technologies and integrations implemented in this project.
 

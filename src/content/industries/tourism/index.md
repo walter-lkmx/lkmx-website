@@ -4,7 +4,7 @@ title: ["Turismo"]
 description: "Revoluciona el turismo con tecnología que mejora la experiencia del cliente, agiliza los procesos de reserva y mejora la gestión de destinos."
 thumbnail: "tourism-thumbnail"
 cover: "tourism-cover"
-storyType: "industrie"
+storyType: "industry"
 iconName: "tourism-industry-icon"
 ---
 

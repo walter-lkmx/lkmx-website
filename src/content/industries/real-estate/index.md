@@ -4,7 +4,7 @@ title: ["Bienes Raíces"]
 description: "Mejora las operaciones inmobiliarias con tecnología que mejora la gestión de propiedades, el compromiso del cliente y los procesos de transacción."
 thumbnail: "real-estate-thumbnail"
 cover: "real-estate-cover"
-storyType: "industrie"
+storyType: "industry"
 iconName: "real-estate-industry-icon"
 ---
 

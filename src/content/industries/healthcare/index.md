@@ -4,7 +4,7 @@ title: ["Salud"]
 description: "Mejora la atención médica con soluciones seguras y eficientes que conectan a pacientes y proveedores, optimizan flujos de trabajo y mejoran la atención al paciente."
 thumbnail: "healthcare-thumbnail"
 cover: "healthcare-cover"
-storyType: "industrie"
+storyType: "industry"
 iconName: "healthcare-industry-icon"
 ---
 

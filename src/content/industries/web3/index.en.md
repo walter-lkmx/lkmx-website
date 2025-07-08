@@ -4,7 +4,7 @@ title: ["Web3"]
 description: "Leverage Web3 technology to create decentralized applications, enhance security, and drive innovation in various sectors."
 thumbnail: "web3-thumbnail"
 cover: "web3-cover"
-storyType: "industrie"
+storyType: "industry"
 iconName: "web3-industry-icon"
 ---
 

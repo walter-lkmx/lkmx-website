@@ -4,7 +4,7 @@ title: ["Retail"]
 description: "Transforma el retail con soluciones que mejoran el compromiso del cliente, optimizan la gestión de inventarios y mejoran los procesos de ventas."
 thumbnail: "retail-thumbnail"
 cover: "retail-cover"
-storyType: "industrie"
+storyType: "industry"
 iconName: "retail-industry-icon"
 ---
 

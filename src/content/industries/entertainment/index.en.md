@@ -4,7 +4,7 @@ title: ["Entertainment"]
 description: "Transform entertainment with cutting-edge technology, enhancing user experience, content delivery, and audience engagement."
 thumbnail: "entertainment-thumbnail"
 cover: "entertainment-cover"
-storyType: "industrie"
+storyType: "industry"
 iconName: "entertainment-industry-icon"
 ---
 

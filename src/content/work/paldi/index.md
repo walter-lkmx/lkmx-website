@@ -8,7 +8,7 @@ methodologies: []
 period: []
 thumbnail: 'paldi-thumbnail'
 cover: 'paldi-cover'
-storyType: 'Work'
+storyType: 'Trabajo'
 introduction: {
     title: "",
     content: ""

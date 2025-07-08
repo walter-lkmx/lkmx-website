@@ -17,7 +17,7 @@ introduction: {
 
 ## Desafío
 
-El desafío principal residía en crear un sistema capaz de documentar y ejecutar procesos corporativos y organizacionales de manera efectiva. Esta herramienta debía facilitar la integración de los servicios de consultoría proporcionados por el experto en ciberseguridad Matt Stamper, permitiendo a las empresas adoptar e implementar metodologías estructuradas para la mejora de procesos.
+El desafío principal residía en crear un sistema capaz de documentar y ejecutar procesos corporativos y organizacionales de manera efectiva. Esta herramienta debía facilitar la integración de los servicios de consultoría proporcionados por el experto en ciberseguridad [Matt Stamper](https://www.linkedin.com/in/stamper/), permitiendo a las empresas adoptar e implementar metodologías estructuradas para la mejora de procesos.
 
 ![](/work/procedure-works-figure-1.jpg)
 

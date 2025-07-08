@@ -38,5 +38,3 @@ The solution significantly improved operational efficiency and customer satisfac
 ## Conclusion
 
 The implementation of this comprehensive web application not only addressed the immediate needs of CIPSAMEX but also positioned the company for future growth within its key industries. This case study exemplifies Logic Kernel's proficiency in developing tailored technological solutions that meet the complex demands of industry leaders.
-
-## Technology

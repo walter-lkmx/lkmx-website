@@ -4,7 +4,7 @@ title: ["Entretenimiento"]
 description: "Transforma el entretenimiento con tecnología de punta, mejorando la experiencia del usuario, la entrega de contenido y el compromiso de la audiencia."
 thumbnail: "entertainment-thumbnail"
 cover: "entertainment-cover"
-storyType: "industrie"
+storyType: "industry"
 iconName: "entertainment-industry-icon"
 ---
 

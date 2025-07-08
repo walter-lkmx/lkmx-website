@@ -10,11 +10,11 @@ order: 3
 
 Our Teams services offer flexible, efficient technical staffing with highly skilled professionals, ensuring technical expertise and adaptability to your needs.
 
-### Staff Augmentation
+## Staff Augmentation
 
 Extend your technical team with skilled software engineers who integrate seamlessly into your workflow and company culture.
 
-### Engineering Teams
+## Engineering Teams
 
 Full-featured engineering teams, including Project Managers, Analysts, Designers, Engineers, and QA, deliver negotiated scopes on time.
 

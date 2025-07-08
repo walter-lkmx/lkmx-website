@@ -4,7 +4,7 @@ title: ["Retail"]
 description: "Transform retail with solutions that enhance customer engagement, optimize inventory management, and improve sales processes."
 thumbnail: "retail-thumbnail"
 cover: "retail-cover"
-storyType: "industrie"
+storyType: "industry"
 iconName: "retail-industry-icon"
 ---
 

@@ -34,7 +34,7 @@ The introduction of the new mobile app significantly improved the wine house's o
 
 The launch of Spectrum Wine's mobile app has transformed the wine auction world, blending tradition with modern technology to enhance the auction experience. This initiative has extended the reach of fine wine auctions globally, reinforcing our commitment to innovative, user-centered digital solutions. Spectrum Wine now leads in the digital auction space, with a platform that reflects its high-quality offerings. This collaboration highlights our ability to navigate challenges and drive industry advancements, showcasing our leadership in digital innovation.
 
-## Technology
+## Technologies
 
 Some of the technologies and integrations implemented in this project.
 

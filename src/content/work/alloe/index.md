@@ -8,7 +8,7 @@ methodologies: []
 period: []
 thumbnail: 'alloe-thumbnail'
 cover: 'alloe-cover'
-storyType: 'Work'
+storyType: 'Trabajo'
 introduction: {
     title: "",
     content: ""

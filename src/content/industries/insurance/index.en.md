@@ -4,7 +4,7 @@ title: ["Insurance"]
 description: "Optimize insurance processes with tailored solutions that improve customer service, streamline claims processing, and enhance data management."
 thumbnail: "insurance-thumbnail"
 cover: "insurance-cover"
-storyType: "industrie"
+storyType: "industry"
 iconName: "insurance-industry-icon"
 ---
 
