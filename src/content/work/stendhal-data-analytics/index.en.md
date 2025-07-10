@@ -39,7 +39,7 @@ The implementation of the Stendhal Data Analytics Tool revolutionized Stendhal P
 
 The development and deployment of the Stendhal Data Analytics Tool underscore our capability to tackle complex challenges and deliver impactful business solutions. This project is a testament to our commitment to leveraging technology for advancing healthcare and business intelligence.
 
-## Technology
+## Technologies
 
 <div class="story_story__mainContent__technologies__v5XXm">
   <div class="story_story__mainContent__technologies__images__6NSg5">

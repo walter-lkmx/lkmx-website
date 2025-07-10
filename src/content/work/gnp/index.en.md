@@ -29,7 +29,7 @@ The development of this API utilized Java, incorporating JPA and Spring for robu
 
 This technological approach enabled GNP to significantly improve the efficiency and reliability of generating corporate quotes for their business partners, reinforcing the company's position as a leading insurance provider in Mexico.
 
-## Technology
+## Technologies
 
 <div class="story_story__mainContent__technologies__v5XXm">
   <div class="story_story__mainContent__technologies__images__6NSg5">

@@ -25,7 +25,7 @@ The primary challenge was developing a data collection prototype for a significa
 
 To meet this need, a sophisticated Android application was developed, leveraging NFC technology for instant scanning of transport access cards within the vehicles. This app communicated with a central database, confirming passenger authorization in real time and generating detailed reports on passenger activity. This innovative approach significantly enhanced the management of the transportation service by ensuring operational efficiency and security. Through this project, a significant step was taken in applying technology to improve the logistics of corporate and educational transportation services.
 
-## Technology
+## Technologies
 
 <div class="story_story__mainContent__technologies__v5XXm">
   <div class="story_story__mainContent__technologies__images__6NSg5">

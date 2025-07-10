@@ -40,7 +40,7 @@ El rediseño de la aplicación móvil marcó el cambio estratégico de Grupo ACI
 
 La exitosa implementación del rediseño de la aplicación móvil de Grupo ACIR representa el compromiso de nuestra empresa con la innovación y el diseño centrado en el usuario en el panorama digital. Refleja nuestro compromiso de brindar soluciones de vanguardia que resuenan con el estilo de vida y las preferencias del usuario final, asegurando que nuestros clientes se mantengan a la vanguardia en un mercado en rápida evolución.
 
-## Tecnología
+## Tecnologías
 
 Algunas de las tecnologías e integraciones implementadas en este proyecto.
 

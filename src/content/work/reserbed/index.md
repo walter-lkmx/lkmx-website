@@ -2,7 +2,7 @@
 number: 50
 title: ['Reserbed']
 headline: ['']
-solutions: ['APP Móbil']
+solutions: ['Mobile App']
 services: []
 methodologies: []
 period: []

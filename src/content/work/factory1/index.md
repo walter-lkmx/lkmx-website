@@ -25,7 +25,7 @@ Para abordar este problema, se desarrolló un Sistema de Gestión de Pedidos (OM
 
 ![](/work/factory1-figure-1.jpg)
 
-## Tecnología
+## Tecnologías
 
 <div class="story_story__mainContent__technologies__v5XXm">
   <div class="story_story__mainContent__technologies__images__6NSg5">

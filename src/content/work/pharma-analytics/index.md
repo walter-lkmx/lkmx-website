@@ -38,7 +38,7 @@ Al optimizar el procesamiento y la generación de informes de datos, la empresa 
 
 Este caso subraya nuestra experiencia en la gestión de desafíos complejos de datos dentro de industrias altamente reguladas. A través de un meticuloso proceso de descubrimiento y planificación estratégica, desarrollamos una solución a medida que no solo optimizó los flujos de trabajo de procesamiento de datos de nuestro cliente, sino que también mejoró significativamente sus capacidades de toma de decisiones. Nuestro enfoque, basado en la comprensión de los desafíos sectoriales únicos y el aprovechamiento de tecnologías avanzadas como Apache Spark, demuestra nuestra capacidad para diseñar e implementar soluciones robustas que abordan necesidades específicas del cliente. El despliegue exitoso de una plataforma personalizada para una empresa farmacéutica líder en América Latina ejemplifica nuestro compromiso con la excelencia y nuestra capacidad para impulsar cambios transformadores. Al permitir un análisis y visualización de datos más eficientes, hemos empoderado a nuestro cliente para refinar sus estrategias de marketing y eficiencias operativas, reforzando nuestra reputación como asesores y proveedores de soluciones confiables en la industria tecnológica. Este proyecto no solo reafirma nuestra habilidad para resolver problemas complejos de gestión de datos, sino que también destaca nuestra contribución a mejorar la agilidad estratégica y la ventaja competitiva de nuestros clientes en el mercado.
 
-## Tecnología
+## Tecnologías
 
 Algunas de las tecnologías e integraciones implementadas en este proyecto.
 

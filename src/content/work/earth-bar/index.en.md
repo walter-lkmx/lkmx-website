@@ -31,7 +31,7 @@ To address this, Earthbar's Shopify store underwent a significant update focused
 ![](/work/earth-bar-figure-03.jpg)
 
 
-## Technology
+## Technologies
 
 Some of the technologies and integrations implemented in this project.
 

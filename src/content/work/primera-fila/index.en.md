@@ -38,7 +38,7 @@ The comprehensive solution provided by PrimeraFila significantly improved the ti
 
 The culmination of the PrimeraFila project highlights our proficiency in delivering sophisticated digital solutions tailored to the dynamic demands of the live event industry. By meticulously crafting an ecosystem that includes an accessible E-commerce platform, an efficient ticket validation app, and a versatile administrative console, we've set a new benchmark for online ticketing services. This project not only simplified the management processes for event organizers but also greatly enhanced the experience for attendees, showcasing our dedication to using technology to create intuitive, customer-focused interfaces. Through PrimeraFila, we demonstrate our capacity to turn challenges into opportunities for innovation and superior performance.
 
-## Technology
+## Technologies
 
 Some of the technologies and integrations implemented in this project.
 

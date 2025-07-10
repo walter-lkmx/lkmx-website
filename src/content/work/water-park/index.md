@@ -31,11 +31,9 @@ Gestionar eficientemente a miles de visitantes mientras se comunicaban los preci
 
 No solo construimos software; creamos un ecosistema.
 
-Plataforma de Comercio Electrónico. Nuestro sitio de comercio electrónico se convirtió en una puerta de entrada a la aventura. Los visitantes exploraban sin esfuerzo los toboganes, las piscinas de olas y las tirolesas. La comunicación clara sobre precios dinámicos—ya sean eventos estacionales o promociones especiales—garantizaba transparencia.
-
-Sistema de Admisiones. Integrando perfectamente el comercio electrónico y las ventas de boletos, este sistema conectaba los mundos digital y presencial. No más brechas de ingresos. Ya sea que los visitantes reservaran en línea o llegaran a la puerta, nuestro sistema rastreaba su recorrido. No más puntos ciegos operativos.
-
-Consola de Administración. Los paneles en tiempo real revelaban tendencias de ingresos, conteo de visitantes y origen de los mismos. Las decisiones estratégicas se volvieron basadas en datos. Las comparaciones año tras año empoderaban la gestión general. Los conocimientos históricos guiaban la planificación futura.
+* Plataforma de Comercio Electrónico. Nuestro sitio de comercio electrónico se convirtió en una puerta de entrada a la aventura. Los visitantes exploraban sin esfuerzo los toboganes, las piscinas de olas y las tirolesas. La comunicación clara sobre precios dinámicos—ya sean eventos estacionales o promociones especiales—garantizaba transparencia.
+* Sistema de Admisiones. Integrando perfectamente el comercio electrónico y las ventas de boletos, este sistema conectaba los mundos digital y presencial. No más brechas de ingresos. Ya sea que los visitantes reservaran en línea o llegaran a la puerta, nuestro sistema rastreaba su recorrido. No más puntos ciegos operativos.
+* Consola de Administración. Los paneles en tiempo real revelaban tendencias de ingresos, conteo de visitantes y origen de los mismos. Las decisiones estratégicas se volvieron basadas en datos. Las comparaciones año tras año empoderaban la gestión general. Los conocimientos históricos guiaban la planificación futura.
 
 ![](/work/las-canadas-figure-3.jpg)
 

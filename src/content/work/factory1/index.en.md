@@ -25,7 +25,7 @@ To address this issue, an Order Management System (OMS) was developed, automatin
 
 ![](/work/factory1-figure-1.jpg)
 
-## Technology
+## Technologies
 
 <div class="story_story__mainContent__technologies__v5XXm">
   <div class="story_story__mainContent__technologies__images__6NSg5">

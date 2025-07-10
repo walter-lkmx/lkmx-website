@@ -30,7 +30,7 @@ Para abordar este desafío, la tienda Shopify de Earthbar experimentó una actua
 
 ![](/work/earth-bar-figure-03.jpg)
 
-## Tecnología
+## Tecnologías
 
 Algunas de las tecnologías e integraciones implementadas en este proyecto.
 

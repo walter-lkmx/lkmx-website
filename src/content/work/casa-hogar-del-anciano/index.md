@@ -36,7 +36,7 @@ El impacto del sitio web fue significativo e inmediato. Proporcionó un salvavid
 
 La creación y donación del sitio web para La Casa Hogar del Anciano de Ensenada A.C. subrayó el poder de la comunidad y la tecnología para abordar desafíos sociales críticos. Demostró el impacto que pueden tener las soluciones digitales aplicadas con experiencia cuando se alinean con una causa noble, reafirmando un compromiso con la responsabilidad social y el valor de apoyar a los miembros más vulnerables de la sociedad. A través de este proyecto, el hogar recibió no solo una herramienta de comunicación, sino un faro de esperanza que sigue brillando para sus residentes y la comunidad en general.
 
-## Tecnología
+## Tecnologías
 
 Algunas de las tecnologías e integraciones implementadas en este proyecto.
 

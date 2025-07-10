@@ -39,7 +39,7 @@ The application's implementation marked a significant advancement in patient car
 
 This endeavor highlights Logic Kernel's dedication to leveraging technology for healthcare advancement. By uniting with top-tier researchers, we contributed to creating an AI-driven solution that significantly improves ICU patient monitoring. This project not only underscores our proficiency in AI and machine learning but also paves the way for future medical innovations. Our collaboration with Peach IntelliHealth exemplifies our pledge to develop meaningful technological interventions, significantly enhancing patient care and operational efficiency. It stands as a vivid illustration of our capability to convert healthcare challenges into avenues for progress and innovation, reinforcing our commitment to making a tangible impact in the healthcare sector.
 
-## Technology
+## Technologies
 
 <div class="story_story__mainContent__technologies__v5XXm">
   <div class="story_story__mainContent__technologies__images__6NSg5">

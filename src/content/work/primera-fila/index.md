@@ -38,7 +38,7 @@ La solución integral proporcionada por PrimeraFila mejoró significativamente l
 
 La culminación del proyecto PrimeraFila destaca nuestra competencia en la entrega de soluciones digitales sofisticadas adaptadas a las demandas dinámicas de la industria de eventos en vivo. Al crear meticulosamente un ecosistema que incluye una plataforma de comercio electrónico accesible, una aplicación eficiente de validación de entradas y una consola administrativa versátil, hemos establecido un nuevo estándar para los servicios de venta de entradas en línea. Este proyecto no solo simplificó los procesos de gestión para los organizadores de eventos, sino que también mejoró enormemente la experiencia para los asistentes, demostrando nuestro compromiso con el uso de la tecnología para crear interfaces intuitivas y centradas en el cliente. A través de PrimeraFila, demostramos nuestra capacidad para convertir desafíos en oportunidades para la innovación y el rendimiento superior.
 
-## Tecnología
+## Tecnologías
 
 Algunas de las tecnologías e integraciones implementadas en este proyecto.
 

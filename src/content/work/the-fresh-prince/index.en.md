@@ -47,7 +47,7 @@ The launch of the exclusive e-commerce platform for The Fresh Prince brand was a
 
 The successful launch of The Fresh Prince brand's e-commerce platform highlights our capacity to deliver robust digital solutions within critical timeframes. This project illustrates our commitment to excellence, showcasing our blend of technical skill and strategic foresight. It affirms our position as a trusted partner in digital innovation, capable of transforming ambitious visions into reality. Through this achievement, we demonstrate not just our ability to meet challenges head-on but also our dedication to surpassing client expectations and contributing meaningful value to their ventures.
 
-## Technology
+## Technologies
 
 <div class="story_story__mainContent__technologies__v5XXm">
   <div class="story_story__mainContent__technologies__images__6NSg5">

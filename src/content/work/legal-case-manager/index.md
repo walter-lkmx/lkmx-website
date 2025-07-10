@@ -41,7 +41,7 @@ La introducción de la plataforma LegalStream ha tenido un impacto significativo
 
 LegalStream no es solo un producto; es parte de un cambio de paradigma en la tecnología legal, un nuevo estándar para la comunicación en procesos legales. Nuestro viaje desde la identificación de la profunda necesidad de mejores herramientas de comunicación hasta la realización de esta visión subraya nuestro compromiso con la innovación y el diseño centrado en el usuario. A medida que miramos hacia el futuro, LegalStream se erige como un faro de nuestra capacidad para abordar desafíos significativos de la industria, ofreciendo soluciones que importan a quienes más las necesitan.
 
-## Tecnología
+## Tecnologías
 
 Algunas de las tecnologías e integraciones implementadas en este proyecto.
 

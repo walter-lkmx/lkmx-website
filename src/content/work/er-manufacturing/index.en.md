@@ -24,7 +24,7 @@ A straightforward website was developed to effectively display ER's range of ste
 
 ![](/work/er-manufacturing-figure-2.jpg)
 
-## Technology
+## Technologies
 
 <div class="story_story__mainContent__technologies__v5XXm">
   <div class="story_story__mainContent__technologies__images__6NSg5">

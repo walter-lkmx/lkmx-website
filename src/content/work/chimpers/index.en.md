@@ -39,7 +39,7 @@ The collaboration resulted in a modernized and functional website that aligns wi
 
 The Chimpers project demonstrates Logic Kernel's ability to tackle complex redesign and content management projects in the NFT space. Overcoming technical and coordination challenges, the team delivered a final product that met the client's expectations. The project highlighted the importance of collaborating with artists and multidisciplinary teams across the globe. The experience gained and solutions implemented position Logic Kernel as a reliable partner for future Web3 projects, leveraging global talent to create engaging and innovative digital experiences.
 
-## Technology
+## Technologies
 
 <div class="story_story__mainContent__technologies__v5XXm">
   <div class="story_story__mainContent__technologies__images__6NSg5">

@@ -25,7 +25,7 @@ El desafío principal residía en crear un sistema capaz de documentar y ejecuta
 
 Para abordar este desafío, se desarrolló "Procedure Works", una solución diseñada para automatizar y gestionar procesos corporativos y organizacionales. Esta plataforma optimiza el enfoque de consultoría de Matt Stamper, ofreciendo una aplicación directa de sus estrategias de mejora de procesos dentro de cualquier entorno empresarial. La plataforma cuenta con una interfaz intuitiva para la documentación y ejecución sencilla de procesos, promoviendo la eficiencia operativa y facilitando mejoras organizacionales. A través de Procedure Works, las empresas obtienen las herramientas para materializar las recomendaciones de consultoría, asegurando un progreso tangible hacia una mayor claridad y efectividad de los procedimientos.
 
-## Tecnología
+## Tecnologías
 
 <div class="story_story__mainContent__technologies__v5XXm">
   <div class="story_story__mainContent__technologies__images__6NSg5">

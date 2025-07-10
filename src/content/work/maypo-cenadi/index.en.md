@@ -43,7 +43,7 @@ The overhaul of the logistics system markedly improved the healthcare supply cha
 
 The successful refinement of this logistics system highlights our ability to deliver sophisticated solutions that address the pressing needs of the healthcare sector. By enhancing the efficiency and reliability of medical supply distribution to hospitals across Mexico, we've demonstrated our expertise in tackling complex logistical challenges. This project not only showcases our commitment to innovation but also our significant contribution to strengthening the nation's healthcare infrastructure through advanced technology, establishing a model for future healthcare logistics projects.
 
-## Technology
+## Technologies
 
 <div class="story_story__mainContent__technologies__v5XXm">
   <div class="story_story__mainContent__technologies__images__6NSg5">

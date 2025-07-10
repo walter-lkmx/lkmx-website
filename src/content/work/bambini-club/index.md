@@ -15,7 +15,7 @@ introduction: {
 }
 ---
 
-## Reto
+## Desafío
 
 Bambini Club aspiraba a transformar el mercado online de productos para bebés con una plataforma de comercio electrónico anclada en un innovador modelo de negocio de inventario bajo. El proyecto enfrentó el doble desafío de gestionar un modelo de suministro eficiente a la vez que creaba un entorno rico en recursos para padres nuevos y futuros. La integración de las funciones de comercio electrónico con contenido atractivo para padres requería un enfoque reflexivo para preservar la identidad de marca y garantizar una experiencia online segura para los clientes.
 

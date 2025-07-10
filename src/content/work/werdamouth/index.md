@@ -2,7 +2,7 @@
 number: 67
 title: ['Werdamouth']
 headline: ['']
-solutions: ['APP Móvil', 'Red Social']
+solutions: ['Mobile App', 'Social Network']
 services: []
 methodologies: []
 period: []

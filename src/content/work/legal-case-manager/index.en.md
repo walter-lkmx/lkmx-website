@@ -41,7 +41,7 @@ The introduction of the LegalStream platform has significantly impacted legal co
 
 LegalStream is not just a product; it's part of a paradigm shift in legal tech, a new standard for communication in legal processes. Our journey from identifying the profound need for better communication tools to realizing this vision underscores our commitment to innovation and user-centric design. As we look forward, LegalStream stands as a beacon of our ability to tackle significant industry challenges, delivering solutions that matter to those who need them most.
 
-## Technology
+## Technologies
 
 Some of the technologies and integrations implemented in this project.
 

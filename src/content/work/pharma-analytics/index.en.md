@@ -37,7 +37,7 @@ By streamlining data processing and reporting, the company experienced improved 
 
 This case underscores our expertise in navigating complex data management challenges within highly regulated industries. Through a meticulous discovery process and strategic planning, we developed a tailored solution that not only streamlined our client's data processing workflows but also significantly enhanced their decision-making capabilities. Our approach, rooted in understanding unique sectoral challenges and leveraging advanced technologies like Apache Spark, demonstrates our capability to design and implement robust solutions that address specific client needs. The successful deployment of a custom platform for a leading pharmaceutical company in Latin America exemplifies our commitment to excellence and our ability to drive transformative change. By enabling more efficient data analysis and visualization, we have empowered our client to refine their marketing strategies and operational efficiencies, thereby reinforcing our reputation as trusted advisors and solution providers in the tech industry. This project not only reaffirms our adeptness at solving intricate data management issues but also highlights our contribution to enhancing our client's strategic agility and competitive advantage in the marketplace.
 
-## Technology
+## Technologies
 
 Some of the technologies and integrations implemented in this project.
 

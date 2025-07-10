@@ -36,7 +36,7 @@ The impact of the website was significant and immediate. It provided a lifeline 
 
 The creation and donation of the website for La Casa Hogar del Anciano de Ensenada A.C. underscored the power of community and technology in addressing critical social challenges. It demonstrated the impact that expertly applied digital solutions can have when aligned with a noble cause, affirming a commitment to social responsibility and the value of supporting the most vulnerable members of society. Through this project, the home received not just a tool for communication, but a beacon of hope that continues to shine for its residents and the broader community.
 
-## Technology
+## Technologies
 
 Some of the technologies and integrations implemented in this project.
 

@@ -39,7 +39,7 @@ The directory swiftly transformed the patient experience, offering a seamless av
 
 The successful launch of this comprehensive healthcare directory is a clear reflection of our commitment to leveraging technology for the greater good. It stands as a bridge between patients and the medical services they need, fortified by the reliability and user-centric design of our platform. By delivering a streamlined solution to a diverse array of logistical challenges, we've not only facilitated a smoother healthcare journey for many but also reinforced our resolve to create digital tools that have a meaningful impact on people's lives. This project underscores our capability to craft sophisticated, responsive technology that responds to the nuanced demands of healthcare logistics and patient care.
 
-## Technology
+## Technologies
 
 <div class="story_story__mainContent__technologies__v5XXm">
   <div class="story_story__mainContent__technologies__images__6NSg5">

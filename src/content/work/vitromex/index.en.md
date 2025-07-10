@@ -24,7 +24,7 @@ To address Vitromex's integration challenges, a system was built to enhance oper
 
 ![](/work/vitromex-figure-2.jpg)
 
-## Technology
+## Technologies
 
 Some of the technologies and integrations implemented in this project.
 
