@@ -4,13 +4,13 @@ import { Roboto_Condensed } from '@next/font/google'
 import { IBM_Plex_Sans } from '@next/font/google'
 import { Inter } from '@next/font/google'
 import { Syne } from '@next/font/google';
+import Head from 'next/head';
 
 const syne = Syne({
     subsets: ['latin'],
     weight: ['700'],
-    variable: '--lk-font-syne', // Asegúrate de usar una variable CSS
+    variable: '--lk-font-syne',
   });
-
 const roboto = Roboto_Condensed({
     subsets: ['latin'],
     weight: ['400', '700'],
@@ -26,12 +26,28 @@ const inter = Inter({
     weight: ['800'],
     variable: '--lk-font-inter'
 })
-console.log()
 
-export default function App({ Component, pageProps }) {
-    return (
-        <div className={`${roboto.variable} ${ibm.variable} ${inter.variable}, ${syne.variable}`}>
-            <Component {...pageProps}/>
-        </div>
-    );
+function MyApp({ Component, pageProps }) {
+  return (
+    <>
+      <Head>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-YWP39X6VKG"></script>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-YWP39X6VKG');
+            `,
+          }}
+        />
+      </Head>
+      <div className={`${roboto.variable} ${ibm.variable} ${inter.variable} ${syne.variable}`}>
+        <Component {...pageProps} />
+      </div>
+    </>
+  );
 }
+
+export default MyApp;
