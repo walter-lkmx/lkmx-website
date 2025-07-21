@@ -2,13 +2,13 @@
 number: 35
 title: ['Maypo Cenadi']
 headline: ['']
-solutions: ['ERP', 'Cluod', 'Document Manager', 'SASS']
+solutions: ['ERP', 'Cloud', 'Document Manager', 'SAAS']
 services: []
 methodologies: []
 period: []
 thumbnail: 'maypo-cenadi-thumbnail'
 cover: 'maypo-cenadi-cover'
-storyType: 'Work'
+storyType: 'Trabajo'
 introduction: {
     title: "",
     content: ""

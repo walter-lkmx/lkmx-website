@@ -2,7 +2,7 @@
 number: 27
 title: ['Griptapejs']
 headline: ['']
-solutions: ['SASS, Web3 Project']
+solutions: ['SAAS, Web3 Project']
 services: []
 methodologies: []
 period: []

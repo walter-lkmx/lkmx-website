@@ -2,7 +2,7 @@
 number: 35
 title: ['Maypo Cenadi']
 headline: ['']
-solutions: ['ERP', 'Cluod', 'Document Manager', 'SASS']
+solutions: ['ERP', 'Cloud', 'Document Manager', 'SAAS']
 services: []
 methodologies: []
 period: []
