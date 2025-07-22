@@ -32,3 +32,22 @@ La plataforma facilita el seguimiento de periodos contables mediante un sistema 
 ## Conclusión
 
 El proyecto permitió a Liebre AI transformar la forma en que los contadores gestionan sus procesos. La plataforma reduce tareas manuales, mejora la visibilidad de los periodos contables y centraliza la información de los clientes en un entorno intuitivo y escalable. Con estas mejoras, los profesionales pueden concentrarse en análisis estratégicos y tareas de mayor valor.
+
+## Tecnologías
+
+Algunas de las tecnologías e integraciones implementadas en este proyecto.
+
+<div class="story_story__mainContent__technologies__v5XXm">
+  <div class="story_story__mainContent__technologies__images__6NSg5">
+    <div>
+      <img loading="lazy" src="/technologies/nextjs.svg" alt="NextJS"/>
+      <img loading="lazy" src="/technologies/typescript.svg" alt="TypeScript"/>
+      <img loading="lazy" src="/technologies/python.svg" alt="Python"/>
+      <img loading="lazy" src="/technologies/react.svg" alt="React"/>
+    </div>
+    <div>
+      <img loading="lazy" src="/technologies/tailwindcss.svg" alt="Tailwind CSS"/>
+      <img loading="lazy" src="/technologies/docker.svg" alt="Docker"/>
+    </div>
+  </div>
+</div>

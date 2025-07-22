@@ -31,3 +31,21 @@ The platform simplifies period tracking through an interactive calendar system t
 
 The project enabled Liebre AI to transform how accountants manage their workflows. The platform minimizes manual tasks, enhances visibility of accounting periods, and centralizes client information within an intuitive and scalable environment. These improvements allow professionals to focus on strategic analysis and higher-value tasks.
 
+## Technologies
+
+Some of the technologies and integrations implemented in this project.
+
+<div class="story_story__mainContent__technologies__v5XXm">
+  <div class="story_story__mainContent__technologies__images__6NSg5">
+    <div>
+      <img loading="lazy" src="/technologies/nextjs.svg" alt="NextJS"/>
+      <img loading="lazy" src="/technologies/typescript.svg" alt="TypeScript"/>
+      <img loading="lazy" src="/technologies/python.svg" alt="Python"/>
+      <img loading="lazy" src="/technologies/react.svg" alt="React"/>
+    </div>
+    <div>
+      <img loading="lazy" src="/technologies/tailwindcss.svg" alt="Tailwind CSS"/>
+      <img loading="lazy" src="/technologies/docker.svg" alt="Docker"/>
+    </div>
+  </div>
+</div>

@@ -36,7 +36,7 @@ The mobile application redesign signified Grupo ACIR's strategic shift towards d
 
 The successful redesign implementation of Grupo ACIR's mobile application represents our company's commitment to innovation and user-centric design in the digital landscape. It reflects our dedication to providing cutting-edge solutions that resonate with the end-user's lifestyle and preferences, ensuring that our clients stay ahead in a rapidly evolving market.
 
-## Technology
+## Technologies
 
 Some of the technologies and integrations implemented in this project.
 

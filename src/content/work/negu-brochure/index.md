@@ -36,7 +36,7 @@ Algunas de las tecnologías e integraciones implementadas en este proyecto.
   <div class="story_story__mainContent__technologies__images__6NSg5">
     <div>
       <img loading="lazy" src="/technologies/figma.svg" alt="Figma"/>
-      <img loading="lazy" src="/technologies/google-drive.svg" alt="Google Drive"/>
+      <img loading="lazy" src="/technologies/google-slides.svg" alt="Google Slides"/>
     </div>
   </div>
 </div>

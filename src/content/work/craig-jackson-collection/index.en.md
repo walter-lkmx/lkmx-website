@@ -33,3 +33,17 @@ Logic Kernel collaborated with Craig Jackson to design and implement a website t
 
 The project succeeded in transforming Craig Jackson's collection into an accessible and well-organized digital space. The website not only allows users to explore each vehicle with ease and detail, but also ensures a modern design, intuitive navigation, and a system ready for future growth. In this way, the collection remains relevant and available to enthusiasts everywhere.
 
+## Technologies
+
+Some of the technologies and integrations implemented in this project.
+
+<div class="story_story__mainContent__technologies__v5XXm">
+  <div class="story_story__mainContent__technologies__images__6NSg5">
+    <div>
+      <img loading="lazy" src="/technologies/nextjs.svg" alt="NextJS"/>
+      <img loading="lazy" src="/technologies/astro.svg" alt="Astro"/>
+      <img loading="lazy" src="/technologies/strapi.svg" alt="Strapi"/>
+      <img loading="lazy" src="/technologies/gcloud.svg" alt="Google Cloud Platform"/>
+    </div>
+  </div>
+</div>
