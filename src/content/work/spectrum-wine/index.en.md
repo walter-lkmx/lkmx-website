@@ -20,9 +20,17 @@ A renowned auction wine house sought to enhance its digital footprint by transit
 
 The project presented two main challenges: firstly, the integration with the wine house's extensive database to display auction inventory in real time, including detailed wine information such as vintage, region, and tasting notes, along with current bidding status. Rapid and efficient data access was crucial for a seamless user experience. Secondly, the handling of confidential data demanded stringent security measures to protect against fraud and ensure user information remained secure, given the high-value nature of the auction items.
 
+Another key challenge was enabling a synchronized live auction experience, connecting the physical auction event with the live auction in the mobile app. Both needed to operate as a single event, requiring precise real-time updates for bids and event status across both platforms.
+
+In addition, the process for uploading images of the wine bottles needed optimization. The Spectrum Wine team previously had to manually remove the image background before uploading photos, which slowed down their workflow and was prone to inconsistencies.
+
 ## Solution
 
 Our approach was to design a custom mobile app utilizing a RESTful API for smooth integration with the wine house's inventory database. This solution ensured the swift and efficient presentation of real-time auction data to app users. To address the security concerns, we incorporated multiple layers of data protection, including the encryption of sensitive information and the implementation of strict access controls. The app featured capabilities for users to create watchlists, contact sellers directly, submit bids, and actively participate in auctions, enhancing engagement and user satisfaction.
+
+To connect the physical auction with the live auction in the app, we developed a dedicated web application for the auction clerk. This tool allowed the clerk to manage bids, control the flow of the auction, and ensure that both in-person and mobile app bidders participated in the same event seamlessly. With this setup, every bid was instantly reflected across both channels, creating a unified and dynamic auction experience.
+
+To streamline the image upload process, Logic Kernel developed a simple but robust application that automatically removes the background of wine bottle photos right after they are taken. A custom-trained LLM-based model was implemented to achieve high-quality background removal, reducing manual effort and improving the overall presentation of auction items.
 
 ![](/work/spectrum-wine-figure-1.jpg)
 

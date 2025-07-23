@@ -20,9 +20,17 @@ Una reconocida casa de subastas de vinos buscaba mejorar su presencia digital al
 
 El proyecto presentó dos desafíos principales: en primer lugar, la integración con la extensa base de datos de la casa de vinos para mostrar el inventario de subastas en tiempo real, incluyendo información detallada sobre los vinos como la añada, la región y las notas de cata, junto con el estado actual de las pujas. El acceso rápido y eficiente a los datos era crucial para una experiencia de usuario fluida. En segundo lugar, el manejo de datos confidenciales exigía medidas de seguridad estrictas para proteger contra el fraude y asegurar que la información del usuario permaneciera segura, dada la naturaleza de alto valor de los artículos en subasta.
 
+Otro desafío importante fue lograr una experiencia de subasta en vivo sincronizada, conectando el evento de subasta física con la subasta en vivo en la aplicación móvil. Ambos debían funcionar como un solo evento, lo que requería actualizaciones precisas en tiempo real para las pujas y el estado de la subasta en ambas plataformas.
+
+Además, el proceso de carga de imágenes de las botellas de vino necesitaba ser optimizado. El equipo de Spectrum Wine anteriormente tenía que eliminar manualmente el fondo de las imágenes antes de subir las fotos, lo que ralentizaba su flujo de trabajo y generaba inconsistencias.
+
 ## Solución
 
 Nuestro enfoque fue diseñar una aplicación móvil personalizada utilizando una API RESTful para una integración fluida con la base de datos de inventario de la casa de vinos. Esta solución garantizó la presentación rápida y eficiente de datos de subastas en tiempo real a los usuarios de la aplicación. Para abordar las preocupaciones de seguridad, incorporamos múltiples capas de protección de datos, incluyendo la encriptación de información sensible y la implementación de controles de acceso estrictos. La aplicación presentó capacidades para que los usuarios crearan listas de seguimiento, contactaran directamente con los vendedores, enviaran pujas y participaran activamente en las subastas, mejorando el compromiso y la satisfacción del usuario.
+
+Para conectar la subasta física con la subasta en vivo en la aplicación, desarrollamos una aplicación web dedicada para el encargado de la subasta. Esta herramienta le permitió gestionar las pujas, controlar el flujo del evento y garantizar que tanto los participantes presenciales como los usuarios de la app móvil pudieran intervenir en la misma subasta sin interrupciones. Con esta configuración, cada puja se reflejaba al instante en ambos canales, creando una experiencia de subasta unificada y dinámica.
+
+Para optimizar el proceso de carga de imágenes, Logic Kernel desarrolló una aplicación simple pero robusta que elimina automáticamente el fondo de las fotos de las botellas de vino justo después de ser tomadas. Se implementó un modelo basado en LLM entrenado a medida para lograr una eliminación de fondo de alta calidad, reduciendo el trabajo manual y mejorando la presentación general de las botellas en subasta.
 
 ![](/work/spectrum-wine-figure-1.jpg)
 
